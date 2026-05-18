@@ -2,7 +2,7 @@ const { app, BrowserWindow, Tray, Menu, nativeImage, ipcMain } = require("electr
 const path = require("path");
 const fs = require("fs");
 
-const DATA_DIR = path.join(__dirname, "..", "data");
+const DATA_DIR = "/Users/Shared/nust-prep/data";
 const QUESTIONS_DIR = path.join(DATA_DIR, "questions");
 const RESULTS_DIR = path.join(DATA_DIR, "results");
 const PROGRESS_FILE = path.join(RESULTS_DIR, "progress.json");

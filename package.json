@@ -2,16 +2,14 @@
   "name": "nust-prep",
   "version": "1.0.0",
   "description": "NUST NET Exam Prep Tracker",
+  "author": "Ahsan Zaheer",
   "main": "app/main.js",
   "scripts": {
     "start": "electron .",
-    "build": "electron-builder --mac",
-    "dev": "electron ."
-  },
-  "dependencies": {
-    "electron": "^28.0.0"
+    "build": "electron-builder --mac --dir"
   },
   "devDependencies": {
+    "electron": "^28.0.0",
     "electron-builder": "^24.9.1"
   },
   "build": {
@@ -19,7 +17,6 @@
     "productName": "NUST Prep",
     "mac": {
       "category": "public.app-category.education",
-      "icon": "icons/icon.png",
       "target": "dir"
     },
     "directories": {

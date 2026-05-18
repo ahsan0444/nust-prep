@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git rm *)",
+      "Bash(git commit *)",
+      "Bash(git push *)",
+      "Bash(open *)",
+      "Bash(osascript -e 'tell application \"System Events\" to get name of every process whose name contains \"NUST\"')",
+      "Bash(defaults read *)",
+      "Bash(npm run *)",
+      "Bash(pkill -f \"NUST Prep\")",
+      "Bash(cp -R \"/Users/Shared/nust-prep/dist/mac-arm64/NUST Prep.app\" \"/Applications/NUST Prep.app\")",
+      "Bash(python3 *)",
+      "Read(//private/tmp/**)",
+      "Bash(node -e ' *)",
+      "Bash(npm --prefix /Users/Shared/nust-prep run build)",
+      "Bash(node *)",
+      "Bash(rm -rf \"/Applications/NUST Prep.app\")"
+    ]
+  }
+}
