@@ -1,0 +1,7 @@
+{
+  "currentDay": 1,
+  "totalDays": 30,
+  "phase1Days": 18,
+  "rotation": ["verbal", "analytical", "verbal", "quantitative", "verbal", "analytical"],
+  "questionsPerDay": 50
+}

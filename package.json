@@ -1,0 +1,34 @@
+{
+  "name": "nust-prep",
+  "version": "1.0.0",
+  "description": "NUST NET Exam Prep Tracker",
+  "main": "app/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --mac",
+    "dev": "electron ."
+  },
+  "dependencies": {
+    "electron": "^28.0.0"
+  },
+  "devDependencies": {
+    "electron-builder": "^24.9.1"
+  },
+  "build": {
+    "appId": "com.ahsan.nust-prep",
+    "productName": "NUST Prep",
+    "mac": {
+      "category": "public.app-category.education",
+      "icon": "icons/icon.png",
+      "target": "dir"
+    },
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "app/**/*",
+      "data/**/*",
+      "icons/**/*"
+    ]
+  }
+}
