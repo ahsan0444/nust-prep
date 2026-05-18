@@ -4,9 +4,6 @@ node_modules/
 # Build output
 dist/
 
-# Generated question files (produced by daily Claude routine)
-data/questions/
-
 # macOS
 .DS_Store
 **/.DS_Store
