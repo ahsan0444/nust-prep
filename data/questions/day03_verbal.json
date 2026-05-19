@@ -1,0 +1,703 @@
+[
+  {
+    "id": "d03_001",
+    "topic": "Modifier Placement",
+    "difficulty": "easy",
+    "question": "Which sentence contains a misplaced modifier?\n(A) The teacher explained the concept clearly to the students.\n(B) Covered in dust, the shelf needed cleaning.\n(C) The student, who was tired, finished the exam.\n(D) Walking down the street, the leaves fell around her.",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct": "D",
+    "explanation": "In D, 'walking down the street' modifies 'the leaves', implying the leaves were walking. The intended subject (she/a person) is missing. This is a dangling modifier."
+  },
+  {
+    "id": "d03_002",
+    "topic": "Modifier Placement",
+    "difficulty": "easy",
+    "question": "Identify the sentence with a dangling modifier:\n(A) Having finished dinner, the table was cleared.\n(B) Having finished dinner, she cleared the table.\n(C) The table was cleared after dinner was finished.\n(D) After they finished dinner, the table was cleared.",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct": "A",
+    "explanation": "'Having finished dinner' should modify the person who ate, not 'the table'. In A, the table appears to have finished dinner — a dangling modifier."
+  },
+  {
+    "id": "d03_003",
+    "topic": "Modifier Placement",
+    "difficulty": "easy",
+    "question": "Which sentence is correctly written?\n(A) The surgeon only operates on weekdays.\n(B) Only the surgeon operates on weekdays.\n(C) The surgeon operates on only weekdays.\n(D) All of the above are grammatically correct.",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct": "D",
+    "explanation": "All three sentences are grammatically correct but mean different things based on where 'only' is placed. The question asks which is correctly written — all are grammatically sound sentences."
+  },
+  {
+    "id": "d03_004",
+    "topic": "Modifier Placement",
+    "difficulty": "easy",
+    "question": "Select the sentence with the correct modifier placement:\n(A) She served cake to the children on paper plates.\n(B) On paper plates, she served cake to the children.\n(C) She served the children cake on paper plates.\n(D) Both B and C are correct.",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct": "C",
+    "explanation": "A implies the children were on paper plates. B (fronted prepositional phrase) and C both work, but C most clearly links 'on paper plates' to the cake. D is also acceptable, but the best single answer is C."
+  },
+  {
+    "id": "d03_005",
+    "topic": "Modifier Placement",
+    "difficulty": "medium",
+    "question": "Which of the following BEST corrects the dangling modifier in: 'Exhausted after the marathon, the medal felt heavy in her hands.'",
+    "options": {
+      "A": "Exhausted after the marathon, she felt the medal was heavy in her hands.",
+      "B": "The medal, exhausted after the marathon, felt heavy in her hands.",
+      "C": "After the marathon, the medal felt heavy because she was exhausted.",
+      "D": "Both A and C are correct."
+    },
+    "correct": "A",
+    "explanation": "The participial phrase 'Exhausted after the marathon' must modify the person (she), not the medal. Option A places 'she' immediately after the modifier."
+  },
+  {
+    "id": "d03_006",
+    "topic": "Modifier Placement",
+    "difficulty": "medium",
+    "question": "Choose the sentence in which the modifier is correctly placed:\n(A) The professor almost teaches five hundred students every year.\n(B) The professor teaches almost five hundred students every year.\n(C) Almost, the professor teaches five hundred students every year.\n(D) The professor teaches five hundred students almost every year.",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct": "B",
+    "explanation": "In A, 'almost' modifies 'teaches', implying she almost teaches (but does not). In B, 'almost' correctly modifies 'five hundred', indicating the number is approximate. D changes the meaning (nearly every year vs. nearly 500 students)."
+  },
+  {
+    "id": "d03_007",
+    "topic": "Modifier Placement",
+    "difficulty": "medium",
+    "question": "Select the correct revision of: 'Painted with vibrant colors, everyone admired the mural.'",
+    "options": {
+      "A": "Painted with vibrant colors, the mural was admired by everyone.",
+      "B": "Everyone, painted with vibrant colors, admired the mural.",
+      "C": "The mural painted with vibrant colors, everyone admired it.",
+      "D": "With vibrant colors, everyone admired the painted mural."
+    },
+    "correct": "A",
+    "explanation": "'Painted with vibrant colors' modifies the mural, not everyone. Option A correctly places the mural as the subject immediately following the participial phrase."
+  },
+  {
+    "id": "d03_008",
+    "topic": "Modifier Placement",
+    "difficulty": "medium",
+    "question": "Identify the sentence with a squinting modifier (a modifier that could modify either of two parts of the sentence):\n(A) Students who study often pass their exams.\n(B) Students often pass their exams when they study.\n(C) Often, students who study pass their exams.\n(D) Students who study pass their exams often.",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct": "A",
+    "explanation": "In A, 'often' is a squinting modifier — it is unclear whether it modifies 'study' (they often study) or 'pass' (they often pass). Options B, C, and D eliminate this ambiguity."
+  },
+  {
+    "id": "d03_009",
+    "topic": "Modifier Placement",
+    "difficulty": "hard",
+    "question": "Which sentence MOST precisely conveys that the report was written hurriedly?\n(A) The report was almost written in an hour.\n(B) The report was written in just an hour, hastily.\n(C) Hastily written, the report was submitted within the hour.\n(D) The report, which was hasty, was written within an hour.",
+    "D_note": "D changes meaning to 'the report itself was hasty'",
+    "options": {
+      "A": "Sentence A",
+      "B": "Sentence B",
+      "C": "Sentence C",
+      "D": "Sentence D"
+    },
+    "correct": "C",
+    "explanation": "C uses a correctly placed participial phrase 'hastily written' that modifies 'the report' directly and unambiguously conveys that the report was produced quickly."
+  },
+  {
+    "id": "d03_010",
+    "topic": "Modifier Placement",
+    "difficulty": "hard",
+    "question": "Choose the sentence that AVOIDS all modifier errors:\n(A) While driving to work, the radio played soothing music.\n(B) To excel in the exam, every chapter must be reviewed.\n(C) Baffled by the instructions, the manual was useless to the technician.\n(D) After reviewing all the evidence, the detective announced the suspect's name.",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct": "D",
+    "explanation": "A: 'while driving' dangles (radio cannot drive). B: 'to excel' dangles (chapters cannot excel). C: 'baffled' dangles (manual was not baffled). D: 'After reviewing all the evidence' correctly modifies 'the detective' — no error."
+  },
+  {
+    "id": "d03_011",
+    "topic": "Sentence Correction",
+    "difficulty": "easy",
+    "question": "Choose the correct sentence:\n(A) He didn't went to the market yesterday.\n(B) He didn't go to the market yesterday.\n(C) He didn't gone to the market yesterday.\n(D) He not go to the market yesterday.",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct": "B",
+    "explanation": "With auxiliary 'didn't', the main verb must be in base form. 'didn't go' is correct. 'went', 'gone', and omitting an auxiliary are all errors."
+  },
+  {
+    "id": "d03_012",
+    "topic": "Sentence Correction",
+    "difficulty": "easy",
+    "question": "Select the grammatically correct sentence:\n(A) Neither the principal nor the teachers was present.\n(B) Neither the principal nor the teachers were present.\n(C) Neither the principal nor the teachers are been present.\n(D) Neither the principal nor the teachers has been present.",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct": "B",
+    "explanation": "With 'neither…nor', the verb agrees with the noun closest to it ('teachers' is plural), so 'were' is correct."
+  },
+  {
+    "id": "d03_013",
+    "topic": "Sentence Correction",
+    "difficulty": "easy",
+    "question": "Which sentence is grammatically correct?\n(A) The data shows a clear trend.\n(B) The data show a clear trend.\n(C) Both A and B are acceptable in modern usage.\n(D) The datas shows a clear trend.",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct": "C",
+    "explanation": "'Data' is the plural of 'datum'. In formal/academic writing 'data show' is preferred; however, in modern usage 'data shows' (treating it as collective) is widely accepted. Both A and B are correct in contemporary English."
+  },
+  {
+    "id": "d03_014",
+    "topic": "Sentence Correction",
+    "difficulty": "medium",
+    "question": "Identify the error in: 'The committee have reached their decision after a lengthy deliberation.'\n(A) 'have' should be 'has' — committee is singular\n(B) 'their' should be 'its' — committee is singular\n(C) Both A and B are errors; use 'has' and 'its'\n(D) The sentence is correct as written in British English",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct": "D",
+    "explanation": "In British English, collective nouns like 'committee' can take plural verbs and pronouns when the members are acting as individuals. The sentence is correct in British English, though American English would prefer 'has reached its decision'."
+  },
+  {
+    "id": "d03_015",
+    "topic": "Sentence Correction",
+    "difficulty": "medium",
+    "question": "Choose the BEST revision of: 'Due to the fact that it was raining, the picnic was called off.'\n(A) Owing to the fact of rain, the picnic was called off.\n(B) Because it was raining, the picnic was called off.\n(C) The picnic was called off, due to the raining.\n(D) The picnic was called off because of the reason that it was raining.",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct": "B",
+    "explanation": "'Due to the fact that' is wordy. 'Because' is the concise, direct replacement. Options A and D are equally or more wordy. C uses 'the raining' incorrectly."
+  },
+  {
+    "id": "d03_016",
+    "topic": "Sentence Correction",
+    "difficulty": "medium",
+    "question": "Select the sentence free of error:\n(A) The results of the experiment was remarkable.\n(B) The results of the experiment were remarkable.\n(C) The result of the experiments were remarkable.\n(D) The results of the experiment have been remarkable always.",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct": "B",
+    "explanation": "The subject is 'results' (plural), so the verb must be 'were'. In A, 'was' does not agree. C changes 'experiment' to plural unnecessarily. D is awkward with misplaced 'always'."
+  },
+  {
+    "id": "d03_017",
+    "topic": "Sentence Correction",
+    "difficulty": "medium",
+    "question": "Which sentence BEST corrects the error in: 'Between you and I, the project was mismanaged.'\n(A) Between you and me, the project was mismanaged.\n(B) Between you and myself, the project was mismanaged.\n(C) Between I and you, the project was mismanaged.\n(D) The project, between you and I, was mismanaged.",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct": "A",
+    "explanation": "'Between' is a preposition and requires object pronouns. 'Between you and me' (not 'I') is correct. 'Myself' is a reflexive pronoun and should not replace 'me' here."
+  },
+  {
+    "id": "d03_018",
+    "topic": "Sentence Correction",
+    "difficulty": "medium",
+    "question": "Identify the error: 'She is one of those managers who always take credit for others' work.'\n(A) 'take' should be 'takes' — 'one' is singular\n(B): No error — 'who' refers to 'managers', so 'take' is correct\n(C) 'who' should be 'which'\n(D) 'always' is misplaced",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct": "B",
+    "explanation": "The antecedent of 'who' is 'managers' (plural), not 'one'. Therefore the plural verb 'take' is correct. The sentence is grammatically sound."
+  },
+  {
+    "id": "d03_019",
+    "topic": "Sentence Correction",
+    "difficulty": "hard",
+    "question": "Choose the sentence that is free of all errors:\n(A) Scarcely had she sat down when the phone rang.\n(B) Scarcely had she sat down than the phone rang.\n(C) Scarcely she had sat down when the phone rang.\n(D) She had scarcely sat down when rang the phone.",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct": "A",
+    "explanation": "'Scarcely…when' is the correct correlative pair (not 'scarcely…than'). Inverted word order 'had she sat down' is required after 'scarcely' at the start. A is correct."
+  },
+  {
+    "id": "d03_020",
+    "topic": "Sentence Correction",
+    "difficulty": "hard",
+    "question": "Which sentence uses the subjunctive mood correctly?\n(A) If I was the president, I would reform the tax system.\n(B) If I were the president, I would reform the tax system.\n(C) If I am the president, I would reform the tax system.\n(D) Were I to be president, I will reform the tax system.",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct": "B",
+    "explanation": "The subjunctive mood requires 'were' (not 'was') for hypothetical/counterfactual conditions in formal English. 'If I were' is correct. A uses 'was' (indicative). C mixes present indicative with conditional result. D incorrectly uses 'will' in the result clause."
+  },
+  {
+    "id": "d03_021",
+    "topic": "Subject-Verb Agreement",
+    "difficulty": "easy",
+    "question": "Choose the correctly formed sentence:\n(A) Everyone in the classes have submitted their assignments.\n(B) Everyone in the classes has submitted their assignments.\n(C) Everyone in the classes are submitting their assignments.\n(D) Everyone in the classes have been submitted their assignments.",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct": "B",
+    "explanation": "'Everyone' is an indefinite pronoun that always takes a singular verb. 'Has submitted' is correct despite the prepositional phrase 'in the classes' containing a plural noun."
+  },
+  {
+    "id": "d03_022",
+    "topic": "Subject-Verb Agreement",
+    "difficulty": "medium",
+    "question": "Identify the subject-verb agreement error: 'A number of students has passed the qualifying test.'\n(A) 'has' is correct — 'a number' is singular\n(B) 'has' is wrong — 'a number of students' takes 'have'\n(C) Both 'has' and 'have' are acceptable here\n(D) The verb should be 'were passing'",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct": "B",
+    "explanation": "'A number of' functions as a quantifier and takes a plural verb ('have'). Contrast: 'The number of students has increased' — with 'the number', the verb is singular."
+  },
+  {
+    "id": "d03_023",
+    "topic": "Subject-Verb Agreement",
+    "difficulty": "medium",
+    "question": "Select the correct form: 'The jury _____ been deliberating for three days.'",
+    "options": {
+      "A": "have",
+      "B": "has",
+      "C": "had",
+      "D": "Both A and B are acceptable"
+    },
+    "correct": "D",
+    "explanation": "'Jury' is a collective noun. In American English, 'has been' (singular) is standard. In British English, 'have been' (plural, treating members individually) is also correct. Both are acceptable depending on variety."
+  },
+  {
+    "id": "d03_024",
+    "topic": "Parallelism & Sentence Structure",
+    "difficulty": "medium",
+    "question": "Which sentence demonstrates correct parallelism?\n(A) She likes swimming, to run, and cycling.\n(B) She likes to swim, run, and cycle.\n(C) She likes swimming, running, and to cycle.\n(D) She likes to swim, running, and cycle.",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct": "B",
+    "explanation": "Parallel structure requires the same grammatical form for items in a series. B uses three infinitives in their base form after 'to swim': to swim, [to] run, [to] cycle — fully parallel."
+  },
+  {
+    "id": "d03_025",
+    "topic": "Parallelism & Sentence Structure",
+    "difficulty": "medium",
+    "question": "Identify the sentence with broken parallel structure:\n(A) The manager asked us to prepare a report, schedule a meeting, and to send the invitations.\n(B) The manager asked us to prepare a report, schedule a meeting, and send the invitations.\n(C) We were asked to prepare, to schedule, and to send.\n(D) Preparing, scheduling, and sending were our main tasks.",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct": "A",
+    "explanation": "In A, the first two items use bare infinitives (prepare, schedule) but the third adds 'to send' — inconsistent. B, C, and D maintain consistent parallel forms."
+  },
+  {
+    "id": "d03_026",
+    "topic": "Parallelism & Sentence Structure",
+    "difficulty": "hard",
+    "question": "Which sentence is correctly structured with parallel correlative conjunctions?\n(A) Not only did she excel in academics, but also sports.\n(B) She excelled not only in academics but also in sports.\n(C) She not only excelled in academics, but also she excelled in sports.\n(D) Not only she excelled in academics, but also in sports.",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct": "B",
+    "explanation": "'Not only…but also' must connect parallel elements. In B, both parts are prepositional phrases: 'in academics' and 'in sports'. A breaks parallelism (did…sports). C is verbose and shifts structure mid-sentence. D has incorrect word order."
+  },
+  {
+    "id": "d03_027",
+    "topic": "Tense Consistency",
+    "difficulty": "easy",
+    "question": "Select the sentence with consistent tense:\n(A) She opened the window, took a deep breath, and begins to read.\n(B) She opened the window, took a deep breath, and began to read.\n(C) She opens the window, took a deep breath, and began to read.\n(D) She opened the window, takes a deep breath, and began to read.",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct": "B",
+    "explanation": "All three verbs in the sequence must be in the same tense. B uses past tense throughout: opened, took, began — fully consistent."
+  },
+  {
+    "id": "d03_028",
+    "topic": "Tense Consistency",
+    "difficulty": "medium",
+    "question": "Identify the tense error: 'By the time the ambulance arrived, the patient lost consciousness.'\n(A) 'arrived' should be 'arrives'\n(B) 'lost' should be 'had lost' — the patient lost consciousness before the ambulance arrived\n(C) Both verbs should be in present tense\n(D) The sentence is correct as written",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct": "B",
+    "explanation": "'By the time' signals that one past action (losing consciousness) was completed before another past action (ambulance arriving). The earlier action requires past perfect: 'had lost'."
+  },
+  {
+    "id": "d03_029",
+    "topic": "Tense Consistency",
+    "difficulty": "medium",
+    "question": "Choose the correctly written sentence about a historical fact:\n(A) Scientists proved that the Earth revolves around the Sun.\n(B) Scientists proved that the Earth revolved around the Sun.\n(C) Scientists had proved that the Earth has revolved around the Sun.\n(D) Scientists prove that the Earth had revolved around the Sun.",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct": "A",
+    "explanation": "Scientific truths or universal facts are stated in the present tense even in reported speech. 'The Earth revolves around the Sun' remains in present tense despite the past reporting verb 'proved'."
+  },
+  {
+    "id": "d03_030",
+    "topic": "Reading Comprehension",
+    "difficulty": "easy",
+    "question": "Read the passage: 'The Great Barrier Reef, located off the coast of Queensland, Australia, is the world's largest coral reef system. It spans over 2,300 kilometres and is composed of over 2,900 individual reefs and 900 islands. Despite its ecological importance, rising sea temperatures caused by climate change have led to widespread coral bleaching, threatening the reef's biodiversity.'\n\nWhat is the primary threat to the Great Barrier Reef mentioned in the passage?",
+    "options": {
+      "A": "Overfishing by local communities",
+      "B": "Rising sea temperatures caused by climate change",
+      "C": "Pollution from Queensland's coastal cities",
+      "D": "Invasive marine species disrupting biodiversity"
+    },
+    "correct": "B",
+    "explanation": "The passage explicitly states: 'rising sea temperatures caused by climate change have led to widespread coral bleaching' — this is the only threat mentioned."
+  },
+  {
+    "id": "d03_031",
+    "topic": "Reading Comprehension",
+    "difficulty": "easy",
+    "question": "Using the passage above (d03_030), what does coral bleaching suggest about the health of the reef?",
+    "options": {
+      "A": "The reef is expanding rapidly",
+      "B": "The reef is not affected by temperature changes",
+      "C": "The reef is under stress and losing biodiversity",
+      "D": "The reef is being studied by Australian scientists"
+    },
+    "correct": "C",
+    "explanation": "The passage links coral bleaching to 'threatening the reef's biodiversity', indicating the reef is under environmental stress and losing its ecological richness."
+  },
+  {
+    "id": "d03_032",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "question": "Read: 'Automation is transforming the global workforce. While it eliminates many routine jobs, it simultaneously creates demand for new skill sets — particularly in programming, data analysis, and machine maintenance. Economists are divided: optimists argue that, historically, technology has always created more jobs than it destroys; pessimists warn that the pace of current automation is unprecedented and may outstrip society's ability to retrain workers.'\n\nThe author's tone in presenting the economic debate can best be described as:",
+    "options": {
+      "A": "Alarmist",
+      "B": "Dismissive",
+      "C": "Balanced and neutral",
+      "D": "Enthusiastically pro-automation"
+    },
+    "correct": "C",
+    "explanation": "The author presents both optimistic and pessimistic views without endorsing either. Words like 'simultaneously', 'divided', and presenting both sides indicate a balanced, neutral tone."
+  },
+  {
+    "id": "d03_033",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "question": "Using the passage above (d03_032), which inference is best supported by the passage?",
+    "options": {
+      "A": "Automation will definitely destroy more jobs than it creates this time",
+      "B": "The outcome of automation on employment is uncertain and depends on society's adaptability",
+      "C": "Economists unanimously support accelerating automation",
+      "D": "Routine jobs will always remain immune to automation"
+    },
+    "correct": "B",
+    "explanation": "The passage does not resolve the debate — it presents opposing expert views and notes that the pace 'may outstrip society's ability to retrain'. This supports the inference that outcomes depend on adaptability and remain uncertain."
+  },
+  {
+    "id": "d03_034",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "question": "Read: 'Cognitive dissonance occurs when an individual holds two or more contradictory beliefs simultaneously, or acts in a way that contradicts their stated beliefs. To reduce the discomfort this creates, people often rationalise their behaviour, selectively seek information that confirms their existing views (confirmation bias), or gradually alter their stated beliefs to align with their actions. Psychologists note that this mechanism, while protective of self-concept, can reinforce harmful behaviours and make critical self-reflection difficult.'\n\nWhich conclusion is MOST strongly supported by the passage?",
+    "options": {
+      "A": "Cognitive dissonance is always a sign of poor character",
+      "B": "People are inherently irrational and incapable of change",
+      "C": "The strategies used to reduce cognitive dissonance can hinder honest self-evaluation",
+      "D": "Confirmation bias is unrelated to cognitive dissonance"
+    },
+    "correct": "C",
+    "explanation": "The passage explicitly states the coping mechanism 'can reinforce harmful behaviours and make critical self-reflection difficult' — directly supporting C. A and B are not supported; D contradicts the passage."
+  },
+  {
+    "id": "d03_035",
+    "topic": "Synonyms & Antonyms",
+    "difficulty": "easy",
+    "question": "What is the closest synonym of 'DILIGENT'?",
+    "options": {
+      "A": "Careless",
+      "B": "Lazy",
+      "C": "Industrious",
+      "D": "Arrogant"
+    },
+    "correct": "C",
+    "explanation": "'Diligent' means hardworking and careful. 'Industrious' is its closest synonym, meaning working energetically and steadily."
+  },
+  {
+    "id": "d03_036",
+    "topic": "Synonyms & Antonyms",
+    "difficulty": "medium",
+    "question": "Choose the best antonym for 'MAGNANIMOUS':",
+    "options": {
+      "A": "Generous",
+      "B": "Noble",
+      "C": "Petty",
+      "D": "Forgiving"
+    },
+    "correct": "C",
+    "explanation": "'Magnanimous' means generous and forgiving, especially toward a rival or less powerful person. Its antonym is 'petty' (small-minded, ungenerous)."
+  },
+  {
+    "id": "d03_037",
+    "topic": "Synonyms & Antonyms",
+    "difficulty": "medium",
+    "question": "Select the word closest in meaning to 'TACITURN':",
+    "options": {
+      "A": "Loquacious",
+      "B": "Reserved",
+      "C": "Gregarious",
+      "D": "Voluble"
+    },
+    "correct": "B",
+    "explanation": "'Taciturn' means reserved and uncommunicative, habitually saying little. 'Reserved' is its closest synonym. 'Loquacious', 'gregarious', and 'voluble' all relate to being talkative — antonyms."
+  },
+  {
+    "id": "d03_038",
+    "topic": "Synonyms & Antonyms",
+    "difficulty": "hard",
+    "question": "Which pair correctly represents a synonym and antonym of 'INVETERATE'?\n(Synonym | Antonym)",
+    "options": {
+      "A": "Sporadic | Habitual",
+      "B": "Habitual | Occasional",
+      "C": "Reformed | Chronic",
+      "D": "Chronic | Intermittent"
+    },
+    "correct": "D",
+    "explanation": "'Inveterate' means having a habit or activity so established that it is unlikely to change — synonymous with 'chronic' (long-standing). Its antonym is 'intermittent' (occurring at irregular intervals, not habitual)."
+  },
+  {
+    "id": "d03_039",
+    "topic": "Vocabulary in Context",
+    "difficulty": "easy",
+    "question": "In the sentence 'The professor gave a perfunctory glance at the students' papers before handing them back,' what does 'perfunctory' mean?",
+    "options": {
+      "A": "Thorough and detailed",
+      "B": "Carried out with minimal effort",
+      "C": "Encouraging and positive",
+      "D": "Deliberately provocative"
+    },
+    "correct": "B",
+    "explanation": "'Perfunctory' means carried out with the minimum effort required and without real interest or care — a quick, superficial glance rather than a thorough review."
+  },
+  {
+    "id": "d03_040",
+    "topic": "Vocabulary in Context",
+    "difficulty": "medium",
+    "question": "'The CEO's decision was seen as capricious — changing direction without any discernible reason.' The word 'capricious' most likely means:",
+    "options": {
+      "A": "Principled and consistent",
+      "B": "Given to sudden unpredictable changes",
+      "C": "Cautious and deliberate",
+      "D": "Openly hostile"
+    },
+    "correct": "B",
+    "explanation": "The sentence context (changing direction without reason) defines 'capricious' as impulsive and unpredictable in behaviour."
+  },
+  {
+    "id": "d03_041",
+    "topic": "Vocabulary in Context",
+    "difficulty": "medium",
+    "question": "'Her prose style was pellucid — each sentence conveying ideas with crystalline clarity.' The word 'pellucid' most nearly means:",
+    "options": {
+      "A": "Obscure and complex",
+      "B": "Easily understood and clear",
+      "C": "Verbose and repetitive",
+      "D": "Emotionally charged"
+    },
+    "correct": "B",
+    "explanation": "'Pellucid' literally means translucently clear. In the context of writing, it means easily understood. The phrase 'crystalline clarity' further confirms this meaning."
+  },
+  {
+    "id": "d03_042",
+    "topic": "Vocabulary in Context",
+    "difficulty": "hard",
+    "question": "'The historian's account was tendentious, selectively presenting evidence to advance a predetermined ideological conclusion.' 'Tendentious' most nearly means:",
+    "options": {
+      "A": "Objective and impartial",
+      "B": "Promoting a particular cause or point of view",
+      "C": "Based on extensive primary sources",
+      "D": "Written in an academic and formal style"
+    },
+    "correct": "B",
+    "explanation": "'Tendentious' means expressing a particular point of view — typically a bias that distorts or selectively presents facts to support a predetermined conclusion, as described in the context."
+  },
+  {
+    "id": "d03_043",
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "question": "THERMOMETER : TEMPERATURE :: BAROMETER : ?",
+    "options": {
+      "A": "Wind",
+      "B": "Humidity",
+      "C": "Pressure",
+      "D": "Rainfall"
+    },
+    "correct": "C",
+    "explanation": "A thermometer measures temperature; a barometer measures atmospheric pressure. The relationship is instrument : what it measures."
+  },
+  {
+    "id": "d03_044",
+    "topic": "Analogies",
+    "difficulty": "medium",
+    "question": "GERMANE : RELEVANT :: SUPERFLUOUS : ?",
+    "options": {
+      "A": "Essential",
+      "B": "Unnecessary",
+      "C": "Abundant",
+      "D": "Deficient"
+    },
+    "correct": "B",
+    "explanation": "'Germane' is a formal synonym for 'relevant'. 'Superfluous' means unnecessary (more than what is needed). The pattern is word : synonym."
+  },
+  {
+    "id": "d03_045",
+    "topic": "Analogies",
+    "difficulty": "medium",
+    "question": "FILIBUSTER : LEGISLATION :: BOYCOTT : ?",
+    "options": {
+      "A": "Protest",
+      "B": "Celebration",
+      "C": "Commerce",
+      "D": "Election"
+    },
+    "correct": "C",
+    "explanation": "A filibuster delays or obstructs legislation. A boycott is used to obstruct or pressure commerce/trade. The relationship is action : the domain it disrupts."
+  },
+  {
+    "id": "d03_046",
+    "topic": "Analogies",
+    "difficulty": "hard",
+    "question": "APOCRYPHAL : AUTHENTICITY :: SPURIOUS : ?",
+    "options": {
+      "A": "Legitimacy",
+      "B": "Fabrication",
+      "C": "Tradition",
+      "D": "Quantity"
+    },
+    "correct": "A",
+    "explanation": "'Apocryphal' means of doubtful authenticity — it lacks authenticity. 'Spurious' means not genuine, lacking legitimacy. Both follow the pattern: adjective meaning 'lacking' : the quality it lacks."
+  },
+  {
+    "id": "d03_047",
+    "topic": "Sentence Completion",
+    "difficulty": "easy",
+    "question": "The documentary was so _____ that viewers found themselves falling asleep before the first hour ended.",
+    "options": {
+      "A": "riveting",
+      "B": "tedious",
+      "C": "controversial",
+      "D": "enlightening"
+    },
+    "correct": "B",
+    "explanation": "If viewers fell asleep, the documentary must have been boring. 'Tedious' (long and dull) fits perfectly. 'Riveting' and 'enlightening' are positive; 'controversial' does not imply boredom."
+  },
+  {
+    "id": "d03_048",
+    "topic": "Sentence Completion",
+    "difficulty": "medium",
+    "question": "Despite widespread _____ in the scientific community, the researcher published her findings, confident that time would vindicate her theory.",
+    "options": {
+      "A": "acclaim",
+      "B": "indifference",
+      "C": "scepticism",
+      "D": "curiosity"
+    },
+    "correct": "C",
+    "explanation": "'Despite' signals a contrast: she published in spite of opposition. 'Scepticism' (doubt) is the strongest logical contrast to her confidence that she would be vindicated."
+  },
+  {
+    "id": "d03_049",
+    "topic": "Sentence Completion",
+    "difficulty": "medium",
+    "question": "The new policy was lauded by some as a bold reform but _____ by others as an ill-conceived overreach that would harm the very citizens it claimed to protect.",
+    "options": {
+      "A": "applauded",
+      "B": "emulated",
+      "C": "condemned",
+      "D": "celebrated"
+    },
+    "correct": "C",
+    "explanation": "The sentence presents two contrasting views. Since 'lauded' and 'applauded'/'celebrated' are synonymous, and the second group opposes the policy, 'condemned' (strongly criticised) is needed."
+  },
+  {
+    "id": "d03_050",
+    "topic": "Sentence Completion",
+    "difficulty": "hard",
+    "question": "The philosopher argued that our sense of free will is largely _____ — an elaborate story the mind constructs after the fact to explain decisions that were, neurologically, already made.",
+    "options": {
+      "A": "prescient",
+      "B": "illusory",
+      "C": "autonomous",
+      "D": "categorical"
+    },
+    "correct": "B",
+    "explanation": "The sentence describes free will as a post-hoc narrative (constructed after decisions are neurologically made), suggesting it is not real. 'Illusory' (based on illusion, not real) is the precise fit."
+  }
+]
