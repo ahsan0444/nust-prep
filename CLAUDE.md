@@ -73,6 +73,19 @@ Or one combined: `day{DD}_mock.json` (50 questions, mixed sections)
 
 Always generate for `currentDay` AND `currentDay + 1` so questions are ready in advance.
 
+## Step 7: Sync to App Data Directory
+
+After pushing to GitHub, pull the new files into the app's local data directory so the app picks them up automatically:
+
+```bash
+git -C /Users/Shared/nust-prep pull origin main
+```
+
+This works because:
+- The app reads questions from `/Users/Shared/nust-prep/data/questions/`
+- The app watches that directory with `fs.watch()` and reloads instantly when new files appear
+- If `/Users/Shared/nust-prep` does not exist (e.g. running in a cloud environment), this step will fail silently — that is expected. The user should then run `git pull` manually in that directory on their Mac.
+
 ## Quality Rules
 
 1. Questions must be original, exam-quality, matching NUST GNET style
