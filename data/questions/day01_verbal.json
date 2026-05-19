@@ -1,0 +1,582 @@
+[
+  {
+    "id": 1,
+    "topic": "Subject-Verb Agreement",
+    "difficulty": "easy",
+    "question": "Choose the correct verb: 'Neither the manager nor the employees _____ aware of the new policy.'",
+    "options": { "A": "was", "B": "were", "C": "is", "D": "has been" },
+    "correct": "B",
+    "explanation": "When 'neither...nor' connects a singular and plural subject, the verb agrees with the subject closest to it ('employees' is plural → 'were')."
+  },
+  {
+    "id": 2,
+    "topic": "Subject-Verb Agreement",
+    "difficulty": "easy",
+    "question": "Which sentence is grammatically correct?",
+    "options": {
+      "A": "The committee have reached their decision.",
+      "B": "The committee has reached its decision.",
+      "C": "The committee have reached its decision.",
+      "D": "The committee has reached their decision."
+    },
+    "correct": "B",
+    "explanation": "In formal usage, collective nouns like 'committee' take a singular verb and singular pronoun when acting as a unit."
+  },
+  {
+    "id": 3,
+    "topic": "Subject-Verb Agreement",
+    "difficulty": "easy",
+    "question": "'Each of the students _____ required to submit an assignment.' Choose the correct form.",
+    "options": { "A": "are", "B": "were", "C": "is", "D": "have been" },
+    "correct": "C",
+    "explanation": "'Each' is always singular, so it takes a singular verb 'is'."
+  },
+  {
+    "id": 4,
+    "topic": "Subject-Verb Agreement",
+    "difficulty": "medium",
+    "question": "Identify the correct sentence:",
+    "options": {
+      "A": "Politics are a dirty game.",
+      "B": "Politics is a dirty game.",
+      "C": "Politics were a dirty game.",
+      "D": "Politics have been a dirty game."
+    },
+    "correct": "B",
+    "explanation": "Subjects ending in '-ics' (politics, economics, physics) that refer to a field of study take singular verbs."
+  },
+  {
+    "id": 5,
+    "topic": "Subject-Verb Agreement",
+    "difficulty": "medium",
+    "question": "'The news from the war zones _____ disturbing.' Select the correct verb.",
+    "options": { "A": "are", "B": "were", "C": "is", "D": "have been" },
+    "correct": "C",
+    "explanation": "'News' is an uncountable noun and always takes a singular verb."
+  },
+  {
+    "id": 6,
+    "topic": "Parallelism & Sentence Structure",
+    "difficulty": "easy",
+    "question": "Which sentence demonstrates correct parallelism?",
+    "options": {
+      "A": "She likes reading, to swim, and jogging.",
+      "B": "She likes reading, swimming, and to jog.",
+      "C": "She likes reading, swimming, and jogging.",
+      "D": "She likes to read, swimming, and jogging."
+    },
+    "correct": "C",
+    "explanation": "Parallel structure requires all items in a list to use the same grammatical form (gerunds here: reading, swimming, jogging)."
+  },
+  {
+    "id": 7,
+    "topic": "Parallelism & Sentence Structure",
+    "difficulty": "easy",
+    "question": "Select the sentence with correct parallel structure:",
+    "options": {
+      "A": "The report was long, boring, and it had too many errors.",
+      "B": "The report was long, boring, and full of errors.",
+      "C": "The report was long, it was boring, and full of errors.",
+      "D": "The report was long, boring, and there were many errors."
+    },
+    "correct": "B",
+    "explanation": "All three adjectives (long, boring, full of errors) must follow the same pattern after 'was'."
+  },
+  {
+    "id": 8,
+    "topic": "Parallelism & Sentence Structure",
+    "difficulty": "medium",
+    "question": "Which sentence is correctly structured?",
+    "options": {
+      "A": "The CEO not only approved the budget but also launched a new campaign.",
+      "B": "The CEO not only approved the budget but also the launching of a new campaign.",
+      "C": "The CEO not only approved the budget but launching a new campaign also.",
+      "D": "The CEO approved the budget and also a new campaign was launched."
+    },
+    "correct": "A",
+    "explanation": "'Not only...but also' must connect grammatically equivalent structures; here both 'approved' and 'launched' are verbs in parallel."
+  },
+  {
+    "id": 9,
+    "topic": "Parallelism & Sentence Structure",
+    "difficulty": "medium",
+    "question": "Identify the error in: 'The professor asked us to read the chapter, take notes, and that we should submit a summary.'",
+    "options": {
+      "A": "Faulty pronoun reference",
+      "B": "Lack of parallel structure",
+      "C": "Subject-verb disagreement",
+      "D": "Misplaced modifier"
+    },
+    "correct": "B",
+    "explanation": "The list mixes infinitives ('to read', 'take') with a clause ('that we should submit'). Correct: 'to read, take notes, and submit a summary'."
+  },
+  {
+    "id": 10,
+    "topic": "Modifier Placement",
+    "difficulty": "easy",
+    "question": "Identify the dangling modifier: 'Running down the street, the rain began to fall.'",
+    "options": {
+      "A": "Running down the street",
+      "B": "the rain began",
+      "C": "to fall",
+      "D": "No error"
+    },
+    "correct": "A",
+    "explanation": "'Running down the street' is a dangling modifier — the rain cannot run. The subject of the main clause must be who is running."
+  },
+  {
+    "id": 11,
+    "topic": "Modifier Placement",
+    "difficulty": "medium",
+    "question": "Which sentence has a correctly placed modifier?",
+    "options": {
+      "A": "Covered in mud, the teacher watched the students play.",
+      "B": "The teacher watched the students, who were covered in mud, play.",
+      "C": "The teacher, covered in mud, watched the students play.",
+      "D": "Both B and C are correct."
+    },
+    "correct": "D",
+    "explanation": "Both B and C have the modifier correctly attached to the intended noun, though they differ in meaning."
+  },
+  {
+    "id": 12,
+    "topic": "Modifier Placement",
+    "difficulty": "medium",
+    "question": "Choose the correct version: 'After studying for hours, _____.'",
+    "options": {
+      "A": "the exam still seemed difficult.",
+      "B": "Sara found the exam difficult.",
+      "C": "it was still a difficult exam.",
+      "D": "the difficulty of the exam was apparent."
+    },
+    "correct": "B",
+    "explanation": "The participial phrase 'after studying for hours' must be followed by the subject who performed the studying — Sara."
+  },
+  {
+    "id": 13,
+    "topic": "Tense Consistency",
+    "difficulty": "easy",
+    "question": "Choose the sentence with correct tense consistency:",
+    "options": {
+      "A": "She walked into the room and smiles at everyone.",
+      "B": "She walks into the room and smiled at everyone.",
+      "C": "She walked into the room and smiled at everyone.",
+      "D": "She walks into the room and had smiled at everyone."
+    },
+    "correct": "C",
+    "explanation": "Both actions occurred at the same time in the past, so both verbs must be in the simple past tense."
+  },
+  {
+    "id": 14,
+    "topic": "Tense Consistency",
+    "difficulty": "medium",
+    "question": "Which sentence uses tenses correctly?",
+    "options": {
+      "A": "By the time Ahmed arrived, the meeting already ended.",
+      "B": "By the time Ahmed arrived, the meeting has already ended.",
+      "C": "By the time Ahmed arrived, the meeting had already ended.",
+      "D": "By the time Ahmed arrives, the meeting already ended."
+    },
+    "correct": "C",
+    "explanation": "When one past action is completed before another, use past perfect ('had ended') for the earlier action and simple past for the later one."
+  },
+  {
+    "id": 15,
+    "topic": "Tense Consistency",
+    "difficulty": "medium",
+    "question": "Spot the tense error: 'The scientist announced that water consists of hydrogen and oxygen.'",
+    "options": {
+      "A": "announced → announces",
+      "B": "consists → consisted",
+      "C": "No error — the sentence is correct.",
+      "D": "water → the water"
+    },
+    "correct": "C",
+    "explanation": "Scientific facts use the simple present ('consists') even after a past tense reporting verb. The sentence is correct."
+  },
+  {
+    "id": 16,
+    "topic": "Sentence Correction",
+    "difficulty": "easy",
+    "question": "Choose the grammatically correct sentence:",
+    "options": {
+      "A": "Between you and I, the plan will fail.",
+      "B": "Between you and me, the plan will fail.",
+      "C": "Between you and myself, the plan will fail.",
+      "D": "Among you and me, the plan will fail."
+    },
+    "correct": "B",
+    "explanation": "'Between' is a preposition and requires object pronouns. 'Me' is correct; 'I' is a subject pronoun and is wrong here."
+  },
+  {
+    "id": 17,
+    "topic": "Sentence Correction",
+    "difficulty": "easy",
+    "question": "Which sentence is free of error?",
+    "options": {
+      "A": "He is one of the students who has scored the highest.",
+      "B": "He is one of the students who have scored the highest.",
+      "C": "He is one of the student who has scored the highest.",
+      "D": "He is one of the students whom has scored the highest."
+    },
+    "correct": "B",
+    "explanation": "The relative clause 'who have scored' refers to 'students' (plural), so the verb must be plural 'have'."
+  },
+  {
+    "id": 18,
+    "topic": "Sentence Correction",
+    "difficulty": "medium",
+    "question": "Identify the error: 'The reason for his absence is because he was ill.'",
+    "options": {
+      "A": "Redundancy: 'reason' and 'because' overlap",
+      "B": "Wrong tense",
+      "C": "Faulty subject-verb agreement",
+      "D": "Misplaced modifier"
+    },
+    "correct": "A",
+    "explanation": "'The reason...is because' is redundant. Correct: 'The reason is that he was ill.' 'Because' already implies reason."
+  },
+  {
+    "id": 19,
+    "topic": "Sentence Correction",
+    "difficulty": "medium",
+    "question": "Choose the correct sentence:",
+    "options": {
+      "A": "I am different than my brother.",
+      "B": "I am different from my brother.",
+      "C": "I am different to my brother.",
+      "D": "I am different with my brother."
+    },
+    "correct": "B",
+    "explanation": "The correct idiom is 'different from'. 'Different than' is acceptable in informal American English before a clause, but 'different from' is standard."
+  },
+  {
+    "id": 20,
+    "topic": "Sentence Correction",
+    "difficulty": "hard",
+    "question": "Which option correctly revises: 'Having been told that the flight was delayed, waiting at the airport became frustrating.'",
+    "options": {
+      "A": "Having been told that the flight was delayed, the passengers found waiting at the airport frustrating.",
+      "B": "Told that the flight was delayed, waiting at the airport became frustrating.",
+      "C": "Being told that the flight was delayed, it was frustrating to wait at the airport.",
+      "D": "After they were told that the flight was delayed, frustration set in at the airport."
+    },
+    "correct": "A",
+    "explanation": "The participial phrase must attach to the logical subject — 'the passengers'. Option A clearly identifies who was told and who was waiting."
+  },
+  {
+    "id": 21,
+    "topic": "Synonyms & Antonyms",
+    "difficulty": "easy",
+    "question": "What is the closest synonym of 'LUCID'?",
+    "options": { "A": "Murky", "B": "Clear", "C": "Dense", "D": "Verbose" },
+    "correct": "B",
+    "explanation": "'Lucid' means clear and easy to understand. 'Murky' and 'dense' are antonyms; 'verbose' means using too many words."
+  },
+  {
+    "id": 22,
+    "topic": "Synonyms & Antonyms",
+    "difficulty": "easy",
+    "question": "What is the antonym of 'BENEVOLENT'?",
+    "options": { "A": "Generous", "B": "Charitable", "C": "Malevolent", "D": "Affectionate" },
+    "correct": "C",
+    "explanation": "'Benevolent' means well-meaning and kind. Its antonym 'malevolent' means having evil intentions."
+  },
+  {
+    "id": 23,
+    "topic": "Synonyms & Antonyms",
+    "difficulty": "medium",
+    "question": "Choose the best synonym for 'PERFIDIOUS':",
+    "options": { "A": "Loyal", "B": "Treacherous", "C": "Cautious", "D": "Timid" },
+    "correct": "B",
+    "explanation": "'Perfidious' means guilty of betrayal or treachery. 'Treacherous' is the correct synonym."
+  },
+  {
+    "id": 24,
+    "topic": "Synonyms & Antonyms",
+    "difficulty": "medium",
+    "question": "What is the antonym of 'EPHEMERAL'?",
+    "options": { "A": "Fleeting", "B": "Transient", "C": "Perpetual", "D": "Momentary" },
+    "correct": "C",
+    "explanation": "'Ephemeral' means lasting for a very short time. Its antonym 'perpetual' means lasting forever or indefinitely."
+  },
+  {
+    "id": 25,
+    "topic": "Synonyms & Antonyms",
+    "difficulty": "hard",
+    "question": "Which word is most nearly opposite in meaning to 'SYCOPHANTIC'?",
+    "options": { "A": "Obsequious", "B": "Fawning", "C": "Forthright", "D": "Compliant" },
+    "correct": "C",
+    "explanation": "'Sycophantic' means excessively flattering to gain favor. 'Forthright' (direct and outspoken) is its antonym. A, B, D are synonyms."
+  },
+  {
+    "id": 26,
+    "topic": "Vocabulary in Context",
+    "difficulty": "easy",
+    "question": "In the sentence 'The student's candid response surprised the teacher,' what does 'candid' mean?",
+    "options": { "A": "Rude", "B": "Truthful and straightforward", "C": "Hesitant", "D": "Lengthy" },
+    "correct": "B",
+    "explanation": "'Candid' means truthful and straightforward, often refreshingly honest."
+  },
+  {
+    "id": 27,
+    "topic": "Vocabulary in Context",
+    "difficulty": "easy",
+    "question": "'Despite his apparent lethargy, the athlete performed brilliantly.' The word 'lethargy' means:",
+    "options": { "A": "Enthusiasm", "B": "Energy", "C": "Lack of energy and sluggishness", "D": "Nervousness" },
+    "correct": "C",
+    "explanation": "'Lethargy' refers to a state of tiredness or lack of energy. 'Apparent' suggests it was surprising given the sluggish appearance."
+  },
+  {
+    "id": 28,
+    "topic": "Vocabulary in Context",
+    "difficulty": "medium",
+    "question": "'The politician's rhetoric was so bombastic that few took his promises seriously.' What does 'bombastic' mean here?",
+    "options": { "A": "Quiet and understated", "B": "High-sounding but with little meaning", "C": "Well-reasoned", "D": "Persuasive and logical" },
+    "correct": "B",
+    "explanation": "'Bombastic' describes language that is high-sounding and inflated but lacking substance — often used to describe empty political speeches."
+  },
+  {
+    "id": 29,
+    "topic": "Vocabulary in Context",
+    "difficulty": "medium",
+    "question": "'Her equanimity in the face of disaster impressed everyone.' What does 'equanimity' mean?",
+    "options": { "A": "Panic", "B": "Mental calmness and composure", "C": "Sadness", "D": "Excitement" },
+    "correct": "B",
+    "explanation": "'Equanimity' refers to mental calmness, especially in difficult situations."
+  },
+  {
+    "id": 30,
+    "topic": "Vocabulary in Context",
+    "difficulty": "hard",
+    "question": "'The scholar's exegesis of the ancient text revealed layers of meaning overlooked for centuries.' What does 'exegesis' mean?",
+    "options": { "A": "Destruction", "B": "Critical explanation or interpretation of a text", "C": "Translation", "D": "Memorization" },
+    "correct": "B",
+    "explanation": "'Exegesis' specifically refers to a critical explanation or interpretation, especially of religious or literary texts."
+  },
+  {
+    "id": 31,
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "question": "PEN : WRITER :: SCALPEL : ?",
+    "options": { "A": "Hospital", "B": "Surgeon", "C": "Medicine", "D": "Nurse" },
+    "correct": "B",
+    "explanation": "A pen is the tool used by a writer; a scalpel is the tool used by a surgeon."
+  },
+  {
+    "id": 32,
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "question": "DROUGHT : RAIN :: FAMINE : ?",
+    "options": { "A": "Hunger", "B": "Poverty", "C": "Food", "D": "Crops" },
+    "correct": "C",
+    "explanation": "A drought is caused by lack of rain; a famine is caused by lack of food. The relationship is 'condition caused by lack of ___'."
+  },
+  {
+    "id": 33,
+    "topic": "Analogies",
+    "difficulty": "medium",
+    "question": "OBSEQUIOUS : SERVILITY :: INTREPID : ?",
+    "options": { "A": "Cowardice", "B": "Courage", "C": "Arrogance", "D": "Kindness" },
+    "correct": "B",
+    "explanation": "'Obsequious' means showing servility; 'intrepid' means showing courage (fearlessness). Both are adjective-to-noun quality relationships."
+  },
+  {
+    "id": 34,
+    "topic": "Analogies",
+    "difficulty": "medium",
+    "question": "ARCHIPELAGO : ISLANDS :: CONSTELLATION : ?",
+    "options": { "A": "Planets", "B": "Galaxies", "C": "Stars", "D": "Comets" },
+    "correct": "C",
+    "explanation": "An archipelago is a group of islands; a constellation is a group of stars. Both are collective groupings."
+  },
+  {
+    "id": 35,
+    "topic": "Analogies",
+    "difficulty": "hard",
+    "question": "ENCOMIUM : PRAISE :: ELEGY : ?",
+    "options": { "A": "Joy", "B": "Mourning", "C": "Anger", "D": "Surprise" },
+    "correct": "B",
+    "explanation": "An encomium is a formal expression of praise; an elegy is a poem or song of mourning (typically for the dead)."
+  },
+  {
+    "id": 36,
+    "topic": "Sentence Completion",
+    "difficulty": "easy",
+    "question": "Despite his _____ nature, the professor was known for his rigorous exams.",
+    "options": { "A": "strict", "B": "lenient", "C": "brilliant", "D": "popular" },
+    "correct": "B",
+    "explanation": "'Despite' signals a contrast. If exams are rigorous, the contrasting trait is 'lenient' (easygoing)."
+  },
+  {
+    "id": 37,
+    "topic": "Sentence Completion",
+    "difficulty": "easy",
+    "question": "The new employee was so _____ that she finished tasks before the deadline without being asked.",
+    "options": { "A": "lazy", "B": "proactive", "C": "indifferent", "D": "reluctant" },
+    "correct": "B",
+    "explanation": "'Proactive' means taking initiative before being told to — consistent with finishing early without being asked."
+  },
+  {
+    "id": 38,
+    "topic": "Sentence Completion",
+    "difficulty": "medium",
+    "question": "The evidence was so _____ that even the judge, initially skeptical, was convinced of the defendant's innocence.",
+    "options": { "A": "ambiguous", "B": "irrelevant", "C": "compelling", "D": "circumstantial" },
+    "correct": "C",
+    "explanation": "If the judge was skeptical but became convinced, the evidence must have been 'compelling' (powerfully persuasive)."
+  },
+  {
+    "id": 39,
+    "topic": "Sentence Completion",
+    "difficulty": "medium",
+    "question": "Her speech was so _____ that the audience left more confused than when they arrived.",
+    "options": { "A": "lucid", "B": "cogent", "C": "convoluted", "D": "articulate" },
+    "correct": "C",
+    "explanation": "If the audience left confused, the speech must have been 'convoluted' (extremely complex and difficult to follow)."
+  },
+  {
+    "id": 40,
+    "topic": "Sentence Completion",
+    "difficulty": "hard",
+    "question": "The diplomat's _____ in negotiations earned her a reputation for finding compromises where others saw only impasse.",
+    "options": { "A": "intransigence", "B": "obduracy", "C": "adroitness", "D": "perfidy" },
+    "correct": "C",
+    "explanation": "'Adroitness' means skill and cleverness — fitting for someone who finds compromises. Intransigence/obduracy mean stubbornness; perfidy means treachery."
+  },
+  {
+    "id": 41,
+    "topic": "Reading Comprehension",
+    "difficulty": "easy",
+    "question": "Read: 'The Amazon rainforest, often called the lungs of the Earth, produces approximately 20% of the world's oxygen. However, deforestation is threatening its existence at an alarming rate.'\n\nWhat is the main idea of this passage?",
+    "options": {
+      "A": "The Amazon produces 20% of oxygen.",
+      "B": "The Amazon is vital but threatened by deforestation.",
+      "C": "Deforestation must be stopped immediately.",
+      "D": "The Earth has lungs like a human body."
+    },
+    "correct": "B",
+    "explanation": "The passage establishes the Amazon's importance and then introduces the threat. The main idea combines both elements."
+  },
+  {
+    "id": 42,
+    "topic": "Reading Comprehension",
+    "difficulty": "easy",
+    "question": "Read: 'Solar energy is now cheaper than coal in most parts of the world. Governments that continue to subsidize coal mining are essentially paying to protect a dying industry.'\n\nThe author's tone can best be described as:",
+    "options": { "A": "Neutral and objective", "B": "Critical and persuasive", "C": "Optimistic and celebratory", "D": "Confused and uncertain" },
+    "correct": "B",
+    "explanation": "Words like 'dying industry' and the implied criticism of government subsidies show the author is critical of coal subsidies and is trying to persuade."
+  },
+  {
+    "id": 43,
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "question": "Read: 'Contrary to popular belief, sugar does not cause hyperactivity in children. Numerous double-blind studies have failed to find any link between sugar intake and behavioral changes. The belief persists, however, because parents expect a behavioral change at birthday parties, where both sugar and excitement are present.'\n\nWhat does the passage imply?",
+    "options": {
+      "A": "Sugar causes slight hyperactivity in some children.",
+      "B": "The perceived link between sugar and hyperactivity is due to expectation, not biochemistry.",
+      "C": "Double-blind studies are unreliable.",
+      "D": "Birthday parties should reduce sugar consumption."
+    },
+    "correct": "B",
+    "explanation": "The passage states studies found no link and attributes the persistent belief to parental expectation combined with excitement — not the sugar itself."
+  },
+  {
+    "id": 44,
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "question": "Read: 'The printing press did not merely accelerate communication — it fundamentally restructured power. Information, once hoarded by clergy and nobility, became accessible to the masses. Literacy rates soared, and with them came demands for political representation.'\n\nThe author argues that the printing press primarily:",
+    "options": {
+      "A": "Made books more affordable.",
+      "B": "Increased literacy as an end in itself.",
+      "C": "Redistributed social and political power.",
+      "D": "Eliminated the influence of religion."
+    },
+    "correct": "C",
+    "explanation": "The author's central claim is about power restructuring — from elites to masses — leading to political demands. This goes beyond literacy as an end in itself."
+  },
+  {
+    "id": 45,
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "question": "Read: 'Epictetus argued that we suffer not from events themselves but from our judgments about them. A broken leg is a fact; calling it a disaster is a choice. The Stoic path to freedom lies not in controlling the world, but in mastering one's own responses to it.'\n\nWhich statement best captures the Stoic principle described?",
+    "options": {
+      "A": "External events are beyond our control and therefore irrelevant.",
+      "B": "Pain is an illusion that can be eliminated through reason.",
+      "C": "Freedom comes from controlling how we interpret and respond to events.",
+      "D": "Suffering is inevitable and must be accepted without question."
+    },
+    "correct": "C",
+    "explanation": "Epictetus's Stoic principle is that we cannot control events but can control our judgments and responses — that control is the source of freedom."
+  },
+  {
+    "id": 46,
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "question": "Read: 'Critics of standardized testing argue that such tests measure the ability to take tests, not actual intelligence or potential. Proponents counter that without standardized benchmarks, admissions decisions would rely entirely on subjective criteria, which historically disadvantage minority applicants.'\n\nWhat can be inferred from this passage?",
+    "options": {
+      "A": "Standardized tests are definitively superior to subjective criteria.",
+      "B": "Both sides of the debate have legitimate concerns.",
+      "C": "Minority students perform worse on standardized tests.",
+      "D": "Subjective admissions criteria are always biased."
+    },
+    "correct": "B",
+    "explanation": "The passage presents two coherent arguments without endorsing either. The inference is that both perspectives raise valid points."
+  },
+  {
+    "id": 47,
+    "topic": "Critical Reading",
+    "difficulty": "hard",
+    "question": "Argument: 'Sales of ice cream rise in summer. Drowning incidents also increase in summer. Therefore, eating ice cream causes drowning.'\n\nThis argument commits which logical error?",
+    "options": {
+      "A": "False dichotomy",
+      "B": "Ad hominem",
+      "C": "Correlation-causation fallacy",
+      "D": "Circular reasoning"
+    },
+    "correct": "C",
+    "explanation": "Both ice cream and drowning increase in summer because of hot weather (a third variable). Assuming correlation implies causation is the classic correlation-causation fallacy."
+  },
+  {
+    "id": 48,
+    "topic": "Modifier Placement",
+    "difficulty": "hard",
+    "question": "Which sentence most clearly and correctly conveys that only the senior staff attended the meeting voluntarily?",
+    "options": {
+      "A": "Only the senior staff volunteered to attend the meeting.",
+      "B": "The senior staff only volunteered to attend the meeting.",
+      "C": "The senior staff volunteered to only attend the meeting.",
+      "D": "The senior staff volunteered only to attend the meeting."
+    },
+    "correct": "A",
+    "explanation": "'Only' must be placed immediately before the word it modifies. 'Only the senior staff' means no one else attended voluntarily. Other placements change or obscure the meaning."
+  },
+  {
+    "id": 49,
+    "topic": "Tense Consistency",
+    "difficulty": "hard",
+    "question": "Which sentence uses tense correctly in a narrative?",
+    "options": {
+      "A": "She realized that she forgets her keys at home.",
+      "B": "She realized that she had forgotten her keys at home.",
+      "C": "She realizes that she had forgotten her keys at home.",
+      "D": "She had realized that she forgot her keys at home."
+    },
+    "correct": "B",
+    "explanation": "The realization (simple past) occurred after the forgetting. Since the forgetting happened earlier in the past, past perfect ('had forgotten') is required."
+  },
+  {
+    "id": 50,
+    "topic": "Parallelism & Sentence Structure",
+    "difficulty": "hard",
+    "question": "Select the version that best improves: 'The new policy will reduce costs, increasing efficiency, and it will also improve employee satisfaction.'",
+    "options": {
+      "A": "The new policy will reduce costs, increase efficiency, and improve employee satisfaction.",
+      "B": "The new policy will reduce costs, will increase efficiency, and improving employee satisfaction.",
+      "C": "The new policy reduces costs, increasing efficiency, and will improve employee satisfaction.",
+      "D": "The new policy will be reducing costs, efficiency, and satisfaction."
+    },
+    "correct": "A",
+    "explanation": "Parallel structure requires all three verbs in the same form after 'will': reduce, increase, and improve."
+  }
+]
