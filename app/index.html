@@ -365,8 +365,9 @@ function render() {
     </div>
 
     <div class="btn-row" style="margin-bottom:18px">
-      <button class="btn btn-ghost" style="flex:1;min-width:130px" onclick="state.page='progress';render()">📊 Progress</button>
-      <button class="btn btn-ghost" style="flex:1;min-width:130px" onclick="state.page='import';render()">+ Import Questions</button>
+      <button class="btn btn-ghost" style="flex:1;min-width:120px" onclick="state.page='progress';render()">📊 Progress</button>
+      <button class="btn btn-ghost" style="flex:1;min-width:120px" onclick="goToLearn('home')">📚 Learn</button>
+      <button class="btn btn-ghost" style="flex:1;min-width:120px" onclick="state.page='import';render()">+ Import</button>
     </div>
 
     ${state.availableDays.length > 0 ? `
@@ -431,7 +432,8 @@ function renderTest(app, notifHTML) {
     <div style="display:flex;align-items:center;gap:10px">
       <span class="section-label" style="background:${s.color}">${s.label}</span>
     </div>
-    <div style="display:flex;align-items:center;gap:18px;font-size:13px">
+    <div style="display:flex;align-items:center;gap:12px;font-size:13px">
+      <button class="btn btn-ghost" style="padding:6px 14px;font-size:11px" onclick="goToLearn('test')">📚 Learn</button>
       <span id="timer" style="color:var(--text-dim);font-variant-numeric:tabular-nums">⏱ ${fmtTime(state.elapsed)}</span>
       <span style="color:${s.accent};font-weight:600">Q ${state.currentQ+1} / ${state.questions.length}</span>
     </div>
@@ -594,6 +596,50 @@ function renderImport(app, notifHTML) {
       <button class="btn btn-blue" onclick="state.importText=document.getElementById('import-area').value;importQuestions()">Start Test →</button>
     </div>
   </div>`;
+}
+
+// ── Learn helpers ──
+function topicAccuracy(section) {
+  const m = {};
+  sessionsFor(section).forEach(s => (s.details || []).forEach(d => {
+    if (!m[d.topic]) m[d.topic] = { c: 0, t: 0 };
+    m[d.topic].t++;
+    if (d.correct) m[d.topic].c++;
+  }));
+  return m;
+}
+
+function lessonReadTime(lesson) {
+  const text = [
+    lesson.summary || "",
+    ...(lesson.key_rules || []),
+    ...(lesson.worked_examples || []).map(e => `${e.question} ${e.wrong} ${e.correct} ${e.why}`),
+    ...(lesson.common_mistakes || []),
+    ...(lesson.exam_tips || []),
+  ].join(" ");
+  return Math.max(1, Math.round(text.split(/\s+/).length / 200));
+}
+
+// ── Learn actions ──
+async function goToLearn(fromPage) {
+  state.lessonPrevPage = fromPage;
+  state.page = "learn";
+  state.lessons = await window.nustPrep.loadLessons(state.learnSection);
+  render();
+}
+
+async function switchLearnSection(section) {
+  state.learnSection = section;
+  state.learnSearch = "";
+  state.lessons = await window.nustPrep.loadLessons(section);
+  render();
+}
+
+function openLesson(topicIndex) {
+  state.currentLesson = state.lessons[topicIndex];
+  state.lessonAnswers = {};
+  state.page = "lesson";
+  render();
 }
 
 // ── Learn ──
