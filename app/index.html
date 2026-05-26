@@ -623,6 +623,8 @@ function lessonReadTime(lesson) {
 // ── Learn actions ──
 async function goToLearn(fromPage) {
   state.lessonPrevPage = fromPage;
+  const todaySched = getSchedule(state.progress.currentDay);
+  state.learnSection = todaySched.section || state.learnSection;
   state.page = "learn";
   state.lessons = await window.nustPrep.loadLessons(state.learnSection);
   render();
