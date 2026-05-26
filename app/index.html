@@ -849,13 +849,21 @@ function renderLesson(app, notifHTML) {
 // ── Init ──
 async function init() {
   await loadData();
+  state.lessons = await window.nustPrep.loadLessons(state.learnSection);
   render();
 
-  // Listen for new question files from Claude Code
   if (window.nustPrep && window.nustPrep.onQuestionsUpdated) {
     window.nustPrep.onQuestionsUpdated(async (filename) => {
       state.availableDays = await window.nustPrep.listAvailableDays();
       notify(`New questions ready: ${filename}`);
+    });
+  }
+
+  if (window.nustPrep && window.nustPrep.onLearningUpdated) {
+    window.nustPrep.onLearningUpdated(async (filename) => {
+      state.lessons = await window.nustPrep.loadLessons(state.learnSection);
+      if (state.page === "learn") render();
+      notify(`Learning content updated: ${filename}`);
     });
   }
 }
