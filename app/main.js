@@ -4,12 +4,13 @@ const fs = require("fs");
 
 const DATA_DIR = "/Users/Shared/nust-prep/data";
 const QUESTIONS_DIR = path.join(DATA_DIR, "questions");
+const LEARNING_DIR = path.join(DATA_DIR, "learning");
 const RESULTS_DIR = path.join(DATA_DIR, "results");
 const PROGRESS_FILE = path.join(RESULTS_DIR, "progress.json");
 const SCHEDULE_FILE = path.join(DATA_DIR, "schedule.json");
 
 // Ensure directories exist
-[QUESTIONS_DIR, RESULTS_DIR].forEach(dir => {
+[QUESTIONS_DIR, RESULTS_DIR, LEARNING_DIR].forEach(dir => {
   if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
 });
 
@@ -206,10 +207,24 @@ ipcMain.handle("import-questions-json", (_, { day, section, questions }) => {
   return { success: true, filename };
 });
 
+ipcMain.handle("load-lessons", (_, section) => {
+  const filePath = path.join(LEARNING_DIR, `${section}_lessons.json`);
+  if (fs.existsSync(filePath)) {
+    return JSON.parse(fs.readFileSync(filePath, "utf8"));
+  }
+  return [];
+});
+
 // Watch questions directory for new files
 fs.watch(QUESTIONS_DIR, (eventType, filename) => {
   if (filename && filename.endsWith(".json") && mainWindow) {
     mainWindow.webContents.send("questions-updated", filename);
+  }
+});
+
+fs.watch(LEARNING_DIR, (eventType, filename) => {
+  if (filename && filename.endsWith(".json") && mainWindow) {
+    mainWindow.webContents.send("learning-updated", filename);
   }
 });
 
