@@ -160,6 +160,7 @@ In `index.html`, find the `let state = {` block (line 129). After `importSection
   currentLesson: null,
   lessonAnswers: {},
   lessonPrevPage: "home",
+  learnSearch: "",
 ```
 
 The state object comment on line 130 should also be updated:
@@ -245,6 +246,7 @@ async function goToLearn(fromPage) {
 
 async function switchLearnSection(section) {
   state.learnSection = section;
+  state.learnSearch = "";
   state.lessons = await window.nustPrep.loadLessons(section);
   render();
 }
@@ -387,6 +389,10 @@ function renderLearn(app, notifHTML) {
     return a.topic.localeCompare(b.topic);
   });
 
+  // Filter by search query
+  const query = (state.learnSearch || "").toLowerCase().trim();
+  const filtered = query ? sorted.filter(l => l.topic.toLowerCase().includes(query)) : sorted;
+
   const weakCount = sorted.filter(l => wk.includes(l.topic)).length;
   const totalCount = sorted.length;
 
@@ -396,7 +402,7 @@ function renderLearn(app, notifHTML) {
     return `<button class="btn ${active ? '' : 'btn-ghost'}" style="${active ? 'background:' + ts.color : ''};flex:1" onclick="switchLearnSection('${key}')">${ts.icon} ${ts.label}</button>`;
   };
 
-  const topicCards = sorted.map((lesson, i) => {
+  const topicCards = filtered.map((lesson, i) => {
     const isWeak = wk.includes(lesson.topic);
     const topicAcc = acc[lesson.topic];
     const pct = topicAcc ? Math.round(topicAcc.c / topicAcc.t * 100) : null;
@@ -430,6 +436,8 @@ function renderLearn(app, notifHTML) {
         No lessons yet.<br><br>
         <span style="font-size:12px">Tell Claude Code: <span style="color:var(--blue-light);font-style:italic">"Generate learning content for NUST Prep"</span></span>
        </div>`
+    : filtered.length === 0
+    ? `<div class="card" style="text-align:center;padding:24px;color:var(--text-muted)">No topics match "<span style="color:var(--text)">${state.learnSearch}</span>"</div>`
     : topicCards;
 
   app.innerHTML = `${notifHTML}
@@ -443,10 +451,18 @@ function renderLearn(app, notifHTML) {
     </div>
   </div>
   <div class="container no-drag" style="padding-top:20px">
-    <div class="btn-row" style="margin-bottom:16px">
+    <div class="btn-row" style="margin-bottom:12px">
       ${tabBtn("verbal")}${tabBtn("analytical")}${tabBtn("quantitative")}
     </div>
-    ${weakCount > 0 ? `
+    <input
+      type="text"
+      placeholder="Search topics…"
+      value="${state.learnSearch.replace(/"/g, '&quot;')}"
+      oninput="state.learnSearch=this.value;render()"
+      style="width:100%;background:rgba(255,255,255,0.03);border:1px solid var(--border);border-radius:10px;padding:10px 14px;color:var(--text);font-size:13px;font-family:inherit;outline:none;margin-bottom:12px"
+      class="no-drag"
+    />
+    ${weakCount > 0 && !query ? `
     <div class="card" style="background:rgba(239,68,68,0.06);border-color:rgba(239,68,68,0.25);margin-bottom:4px">
       <div style="font-size:12px;color:#fca5a5;font-weight:600">⚠ Weak topics — prioritize these</div>
       <div style="font-size:11px;color:rgba(255,255,255,0.4);margin-top:4px">${wk.join(' · ')}</div>
@@ -461,8 +477,9 @@ function renderLearn(app, notifHTML) {
 Reload the app. Click "📚 Learn" from home:
 - Header shows "Learn" with back button
 - Three section tab buttons render (Verbal active by default, green)
+- Search input renders below tabs (empty, placeholder "Search topics…")
 - Empty state card shows with generation instruction
-- Tab switching should reload (empty) for each section
+- Tab switching reloads (empty) and clears search input
 
 - [ ] **Step 4: Verify with fixture data**
 
@@ -479,8 +496,10 @@ render();
 
 Expected:
 - Two topic cards render
-- Both show "not studied" badge (no sessions yet)
-- Read time shows (e.g., "~1 min read")
+- Both show "not studied" badge (no sessions yet) and read time ("~1 min read")
+- Type "para" in search input → only "Parallelism & Sentence Structure" shows
+- Clear search → both cards return
+- Type "zzz" → "No topics match 'zzz'" message shows
 - Clicking a card calls `openLesson(0)` or `openLesson(1)`
 
 - [ ] **Step 5: Commit**

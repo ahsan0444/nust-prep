@@ -76,6 +76,7 @@ currentLesson: null,      // lesson object currently being viewed
 lessonAnswers: {},        // { qIndex: "B" } — quiz answers
 lessonShowAnswers: {},    // { qIndex: true } — revealed answers
 lessonPrevPage: "home",   // page to return to ("home" or "test")
+learnSearch: "",          // topic search/filter string
 ```
 
 ### New IPC Handler (main.js)
@@ -100,9 +101,12 @@ All UI reuses existing CSS classes and design tokens from `index.html` — `.car
 
 **Weak Topics Banner:** conditional — renders only if weak topics exist. Red-tinted `.card` listing topic names + accuracy. Same style as weak topics shown on home page.
 
-**Topic List:** scrollable list of `.card` elements, sorted weak-first then alphabetical.
+**Search bar:** single `<input>` below the section tabs. Filters topic list in real-time by topic name (case-insensitive substring match). Bound to `state.learnSearch`; clears on section tab switch. Styled with `.import-area` border/background, smaller height.
+
+**Topic List:** scrollable list of `.card` elements, sorted weak-first then alphabetical, then filtered by `learnSearch`.
 - Weak topic card: red border tint (`rgba(239,68,68,0.15)`), red "WEAK" `.tag`, accuracy %, read time (derived: total word count / 200wpm, rounded to nearest minute)
 - Normal topic card: standard `.card` border, accuracy % as `.tag` or "Not yet studied" in muted text
+- No results: show "No topics match '…'" message
 - Click → navigates to `"lesson"` page
 
 ### Lesson Page (Full Lesson View)
@@ -167,6 +171,5 @@ Used **only in the UI** for sort order and badges. Content generation treats all
 ## Out of Scope
 
 - Lesson progress tracking (marking topics as "read")
-- Search/filter within topic list
 - User-editable notes on lessons
 - Offline AI generation (requires Claude API integration)
