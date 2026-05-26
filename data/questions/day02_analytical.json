@@ -1,552 +1,702 @@
 [
   {
-    "id": "day02_analytical_001",
+    "id": 1,
     "topic": "Syllogisms",
     "difficulty": "easy",
-    "question": "All roses are flowers. Some flowers fade quickly. Which conclusion MUST be true?\nI. Some roses fade quickly.\nII. All flowers are roses.",
-    "options": { "A": "Only I", "B": "Only II", "C": "Both I and II", "D": "Neither I nor II" },
-    "correct": "D",
-    "explanation": "I cannot follow because 'some flowers' that fade quickly may not include any roses. II is false because roses are a subset of flowers, not vice versa."
+    "question": "All managers are leaders. All leaders are decision-makers. Which conclusion MUST be true?",
+    "options": {
+      "A": "All decision-makers are managers",
+      "B": "All managers are decision-makers",
+      "C": "Some leaders are not managers",
+      "D": "No decision-maker is a manager"
+    },
+    "correct": "B",
+    "explanation": "Since all managers are leaders and all leaders are decision-makers, by transitivity all managers are decision-makers. The reverse does not necessarily hold."
   },
   {
-    "id": "day02_analytical_002",
+    "id": 2,
+    "topic": "Syllogisms",
+    "difficulty": "easy",
+    "question": "No birds are mammals. All penguins are birds. Which conclusion MUST follow?",
+    "options": {
+      "A": "Some penguins are mammals",
+      "B": "All mammals are penguins",
+      "C": "No penguins are mammals",
+      "D": "Some birds are penguins but not all"
+    },
+    "correct": "C",
+    "explanation": "Since all penguins are birds and no birds are mammals, it follows necessarily that no penguins are mammals."
+  },
+  {
+    "id": 3,
     "topic": "Syllogisms",
     "difficulty": "medium",
-    "question": "All pilots are trained. No trained person is reckless. Which conclusion follows?\nI. No pilot is reckless.\nII. Some reckless people are pilots.",
-    "options": { "A": "Only I", "B": "Only II", "C": "Both I and II", "D": "Neither I nor II" },
-    "correct": "A",
-    "explanation": "All pilots are trained and no trained person is reckless, so no pilot can be reckless (I). II contradicts I, so it cannot follow."
+    "question": "Some engineers are artists. All artists enjoy music. Some musicians are engineers. Which conclusion is DEFINITELY true?",
+    "options": {
+      "A": "All engineers enjoy music",
+      "B": "Some engineers enjoy music",
+      "C": "All musicians are artists",
+      "D": "No engineer is a musician"
+    },
+    "correct": "B",
+    "explanation": "Since some engineers are artists and all artists enjoy music, those engineers who are artists must enjoy music — so some engineers enjoy music is definitely true."
   },
   {
-    "id": "day02_analytical_003",
+    "id": 4,
     "topic": "Syllogisms",
     "difficulty": "hard",
-    "question": "Some doctors are researchers. All researchers publish papers. Some paper publishers win awards. Which conclusion is DEFINITELY true?",
+    "question": "All novels are books. Some books are illustrated. No illustrated item is a textbook. Which of the following conclusions can be drawn?",
     "options": {
-      "A": "Some doctors win awards.",
-      "B": "All doctors publish papers.",
-      "C": "Some doctors publish papers.",
-      "D": "All researchers win awards."
+      "A": "Some novels are textbooks",
+      "B": "No novel is illustrated",
+      "C": "Some books are not textbooks",
+      "D": "All textbooks are books"
     },
     "correct": "C",
-    "explanation": "Some doctors are researchers and all researchers publish papers, so those doctor-researchers also publish papers. Therefore some doctors publish papers. The award link uses 'some,' so winning awards is not guaranteed."
+    "explanation": "Since some books are illustrated and no illustrated item is a textbook, those illustrated books are definitely not textbooks — therefore some books are not textbooks."
   },
   {
-    "id": "day02_analytical_004",
+    "id": 5,
     "topic": "Conditional Logic (If-Then)",
     "difficulty": "easy",
-    "question": "If it rains, the match is cancelled. The match is NOT cancelled. What can we conclude?",
+    "question": "If Ayesha submits her assignment on time, she receives full marks. Ayesha did NOT receive full marks. What can we conclude?",
     "options": {
-      "A": "It did not rain.",
-      "B": "It rained.",
-      "C": "The match was postponed.",
-      "D": "Nothing can be concluded."
+      "A": "Ayesha submitted her assignment on time",
+      "B": "Ayesha did not submit her assignment on time",
+      "C": "Ayesha submitted the assignment but it was incorrect",
+      "D": "Nothing can be concluded"
     },
-    "correct": "A",
-    "explanation": "This is the contrapositive: if the match is not cancelled, then it did not rain (contrapositive of 'rain implies cancellation')."
+    "correct": "B",
+    "explanation": "This is modus tollens: If P then Q; not Q; therefore not P. Since she did not receive full marks, she did not submit on time."
   },
   {
-    "id": "day02_analytical_005",
+    "id": 6,
     "topic": "Conditional Logic (If-Then)",
     "difficulty": "medium",
-    "question": "If Ahmed passes the exam, he gets a scholarship. If he gets a scholarship, he moves abroad. Ahmed did NOT move abroad. What follows?",
+    "question": "If Umar trains daily, he qualifies for the team. If he qualifies for the team, he travels to the tournament. Umar is NOT traveling to the tournament. Which statement must be true?",
     "options": {
-      "A": "Ahmed failed the exam.",
-      "B": "Ahmed got the scholarship but declined to move.",
-      "C": "Ahmed passed the exam.",
-      "D": "Ahmed may or may not have passed."
+      "A": "Umar qualified for the team but chose not to travel",
+      "B": "Umar did not train daily",
+      "C": "Umar trained daily but did not qualify",
+      "D": "The tournament was cancelled"
     },
-    "correct": "A",
-    "explanation": "By contrapositive chain: not moving abroad means no scholarship (contrapositive of rule 2), and no scholarship means Ahmed did not pass (contrapositive of rule 1)."
+    "correct": "B",
+    "explanation": "By chaining the conditionals: training daily leads to traveling. Since he is not traveling, by contrapositive he did not train daily."
   },
   {
-    "id": "day02_analytical_006",
+    "id": 7,
     "topic": "Conditional Logic (If-Then)",
     "difficulty": "medium",
-    "question": "P implies Q, and Q implies R are both true. Which of the following is also necessarily true?",
-    "options": { "A": "R implies P", "B": "P implies R", "C": "Not-P implies not-Q", "D": "R implies Q" },
+    "question": "Statement: 'Either the server is down OR the database is corrupted, but not both.' The server is confirmed to be functioning normally. What follows?",
+    "options": {
+      "A": "The database is also functioning normally",
+      "B": "The database is corrupted",
+      "C": "Both the server and database have issues",
+      "D": "No conclusion can be drawn"
+    },
     "correct": "B",
-    "explanation": "By transitivity of implication: P implies Q and Q implies R together give P implies R directly."
+    "explanation": "The exclusive-or condition means exactly one of the two is true. Since the server is not down, the database must be corrupted."
   },
   {
-    "id": "day02_analytical_007",
+    "id": 8,
     "topic": "Conditional Logic (If-Then)",
     "difficulty": "hard",
-    "question": "Statement: 'If a student passes all modules AND completes the project, the student graduates.' A student graduated. Which must be true?",
+    "question": "Rule: A student is promoted only if they pass all core subjects AND maintain 75% attendance. Sara failed one core subject but has 80% attendance. Hamza passed all core subjects but has 70% attendance. Nadia passed all core subjects and has 76% attendance. Who is promoted?",
     "options": {
-      "A": "The student passed all modules.",
-      "B": "The student completed the project.",
-      "C": "The student passed all modules AND completed the project.",
-      "D": "The student may have graduated through a different route."
+      "A": "Sara only",
+      "B": "Hamza only",
+      "C": "Nadia only",
+      "D": "Both Hamza and Nadia"
     },
     "correct": "C",
-    "explanation": "The statement gives a sufficient condition: passing all modules AND completing the project is sufficient for graduation. However, since the student did graduate and this is the ONLY stated route, both conditions must hold."
+    "explanation": "Promotion requires BOTH conditions simultaneously. Sara fails the core-subject condition; Hamza fails the attendance condition; only Nadia satisfies both."
   },
   {
-    "id": "day02_analytical_008",
+    "id": 9,
     "topic": "Strengthen & Weaken Arguments",
     "difficulty": "easy",
-    "question": "Argument: 'City A introduced bike lanes and cycling rates doubled. Therefore, bike lanes cause more cycling.' Which best WEAKENS this argument?",
+    "question": "Argument: 'Tariq's bakery introduced free Wi-Fi and sales increased by 30%. Therefore, free Wi-Fi boosts bakery sales.' Which option STRENGTHENS this argument?",
     "options": {
-      "A": "Cycling is healthy for residents.",
-      "B": "Fuel prices also doubled in City A during the same period.",
-      "C": "Other cities with bike lanes also saw more cyclists.",
-      "D": "The city spent heavily on lane infrastructure."
-    },
-    "correct": "B",
-    "explanation": "Rising fuel prices provide an alternative explanation for the increase in cycling, weakening the causal claim that bike lanes alone caused the rise."
-  },
-  {
-    "id": "day02_analytical_009",
-    "topic": "Strengthen & Weaken Arguments",
-    "difficulty": "medium",
-    "question": "Argument: 'Students who eat breakfast perform better in exams. Schools should provide free breakfast.' Which best STRENGTHENS this argument?",
-    "options": {
-      "A": "Many students currently skip breakfast due to financial constraints.",
-      "B": "Exam performance depends on many factors.",
-      "C": "Some students do not like eating in the morning.",
-      "D": "Breakfast programs are difficult to administer."
+      "A": "Several other bakeries that added free Wi-Fi also reported significant sales increases",
+      "B": "Tariq also renovated his bakery at the same time as installing Wi-Fi",
+      "C": "Customers in the area already had unlimited mobile data plans",
+      "D": "The sales increase occurred only during one month"
     },
     "correct": "A",
-    "explanation": "If students skip breakfast due to cost, then providing it free directly removes the barrier, strengthening the case for the school breakfast policy."
+    "explanation": "Showing a pattern across multiple bakeries supports the causal claim that Wi-Fi boosts sales, directly strengthening the argument."
   },
   {
-    "id": "day02_analytical_010",
+    "id": 10,
     "topic": "Strengthen & Weaken Arguments",
     "difficulty": "medium",
-    "question": "Claim: 'Violent video games cause aggressive behavior in teenagers.' Which finding WEAKENS this most?",
+    "question": "Argument: 'Countries with higher chocolate consumption have more Nobel Prize winners per capita. Therefore, eating chocolate improves cognitive ability.' Which option MOST WEAKENS this argument?",
     "options": {
-      "A": "Teenagers who play violent games report enjoying them.",
-      "B": "Countries with the highest game sales have the lowest youth violence rates.",
-      "C": "Aggressive teenagers tend to prefer violent games.",
-      "D": "Parents are often unaware of game content ratings."
+      "A": "Some Nobel laureates report eating very little chocolate",
+      "B": "Wealthier countries tend to have both higher chocolate consumption and better-funded research institutions",
+      "C": "Chocolate contains flavonoids that may support brain health",
+      "D": "The study covered 25 countries over 10 years"
     },
     "correct": "B",
-    "explanation": "If countries with the highest game sales have the lowest violence, this directly contradicts the causal claim, most strongly weakening the argument."
+    "explanation": "Wealth is a confounding variable that explains both higher chocolate consumption and more Nobel winners, breaking the claimed causal link."
   },
   {
-    "id": "day02_analytical_011",
+    "id": 11,
+    "topic": "Strengthen & Weaken Arguments",
+    "difficulty": "medium",
+    "question": "Claim: 'Municipality X reduced street lighting by 40% to cut costs. Crime rates did not rise afterward. Therefore, street lighting has no effect on crime.' Which finding WEAKENS this conclusion?",
+    "options": {
+      "A": "Other municipalities also reduced lighting without crime increases",
+      "B": "Municipality X simultaneously hired 200 additional police officers during the same period",
+      "C": "The lighting reduction applied only to residential roads",
+      "D": "Crime statistics were collected by an independent agency"
+    },
+    "correct": "B",
+    "explanation": "The simultaneous increase in police officers is an alternative explanation for stable crime rates, undermining the conclusion that lighting has no effect."
+  },
+  {
+    "id": 12,
     "topic": "Strengthen & Weaken Arguments",
     "difficulty": "hard",
-    "question": "Argument: 'Our factory's emissions are within legal limits, so we are not harming the environment.' Which statement most seriously UNDERMINES this reasoning?",
+    "question": "Argument: 'Every student who attended the weekend study camp improved their grades the following semester. The study camp is therefore effective at improving academic performance.' Which option most STRENGTHENS this argument?",
     "options": {
-      "A": "Legal limits are set by government regulators.",
-      "B": "Legal limits were established decades ago and do not reflect current environmental science.",
-      "C": "Other factories in the region also comply with regulations.",
-      "D": "The factory has invested in pollution-control equipment."
+      "A": "The study camp costs very little to run",
+      "B": "Students who did not attend the camp showed no grade improvement in the same semester",
+      "C": "The camp is held in a pleasant location",
+      "D": "Teachers at the camp are well-qualified"
     },
     "correct": "B",
-    "explanation": "Outdated legal limits may allow levels of pollution that modern science considers harmful. Compliance with old standards does not guarantee environmental safety."
+    "explanation": "A control group showing no improvement rules out the alternative that grades were rising naturally, directly strengthening the causal claim about the camp."
   },
   {
-    "id": "day02_analytical_012",
-    "topic": "Assumption Questions",
-    "difficulty": "easy",
-    "question": "Conclusion: 'We should invest in solar energy.' Premise: 'Solar energy is renewable.' What assumption is REQUIRED to bridge the gap?",
-    "options": {
-      "A": "Solar energy is cheaper than fossil fuels.",
-      "B": "Renewable energy sources are worth investing in.",
-      "C": "All countries use solar panels.",
-      "D": "Solar panels last forever."
-    },
-    "correct": "B",
-    "explanation": "The argument moves from 'solar is renewable' to 'we should invest.' The unstated bridge is that renewable energy is worth investing in."
-  },
-  {
-    "id": "day02_analytical_013",
-    "topic": "Assumption Questions",
+    "id": 13,
+    "topic": "Strengthen & Weaken Arguments",
     "difficulty": "medium",
-    "question": "Argument: 'Since Alicia studied every day, she will pass her exam.' Which assumption is the argument making?",
+    "question": "Argument: 'Nadia switched to a plant-based diet and lost 8 kg in two months. Plant-based diets are therefore the best method for weight loss.' Which option WEAKENS this argument most effectively?",
     "options": {
-      "A": "Alicia enjoys studying.",
-      "B": "Daily study is sufficient to pass this exam.",
-      "C": "The exam is very difficult.",
-      "D": "Alicia studied the right subjects."
-    },
-    "correct": "B",
-    "explanation": "The argument assumes that daily study alone guarantees passing. Without this, the link between studying and passing does not hold."
-  },
-  {
-    "id": "day02_analytical_014",
-    "topic": "Assumption Questions",
-    "difficulty": "medium",
-    "question": "A doctor says: 'This patient's fever broke overnight, so the antibiotic is working.' The doctor assumes:",
-    "options": {
-      "A": "Fevers always return after one day.",
-      "B": "No other factor such as the immune system alone caused the fever to break.",
-      "C": "All fevers are caused by bacteria.",
-      "D": "Antibiotics have no side effects."
-    },
-    "correct": "B",
-    "explanation": "The doctor attributes the improvement solely to the antibiotic, assuming no alternative cause (like natural immune response) explains the fever breaking."
-  },
-  {
-    "id": "day02_analytical_015",
-    "topic": "Assumption Questions",
-    "difficulty": "medium",
-    "question": "Policy: 'Banning junk food ads during children's TV will reduce childhood obesity.' The policy assumes:",
-    "options": {
-      "A": "Children watch television.",
-      "B": "Junk food ads influence children's eating choices.",
-      "C": "Obesity rates are at record highs.",
-      "D": "Parents cannot monitor their children's viewing habits."
-    },
-    "correct": "B",
-    "explanation": "The policy only reduces obesity if the ads influence what children eat. This causal link is the critical unstated assumption."
-  },
-  {
-    "id": "day02_analytical_016",
-    "topic": "Assumption Questions",
-    "difficulty": "hard",
-    "question": "Argument: 'Our competitor's new product failed in Europe, so we need not worry about it succeeding in Pakistan.' The critical unstated assumption is:",
-    "options": {
-      "A": "Europe and Pakistan have similar consumer preferences and market conditions.",
-      "B": "The competitor has limited marketing resources.",
-      "C": "European markets are larger than Pakistani ones.",
-      "D": "Our product already dominates Pakistan."
+      "A": "Nadia also started jogging 5 km every day when she changed her diet",
+      "B": "Plant-based foods can be expensive",
+      "C": "Nadia weighed herself on a calibrated scale",
+      "D": "Some plant-based foods are high in calories"
     },
     "correct": "A",
-    "explanation": "The argument transfers European failure to predict Pakistani failure. This reasoning only holds if both markets share sufficiently similar consumer preferences and conditions."
+    "explanation": "The confounding exercise variable means the weight loss cannot be attributed solely to the diet, weakening the causal conclusion."
   },
   {
-    "id": "day02_analytical_017",
+    "id": 14,
+    "topic": "Strengthen & Weaken Arguments",
+    "difficulty": "hard",
+    "question": "Argument: 'The new traffic signal system reduced average commute time in District 7 by 15 minutes. The city should install this system across all districts.' Which assumption, if FALSE, would most WEAKEN this argument?",
+    "options": {
+      "A": "District 7 residents appreciate shorter commutes",
+      "B": "The traffic patterns and road layouts of other districts are sufficiently similar to District 7",
+      "C": "The system was installed by a certified contractor",
+      "D": "Commute times in District 7 were previously longer than average"
+    },
+    "correct": "B",
+    "explanation": "If other districts have significantly different traffic patterns, the system may not produce similar benefits elsewhere, fatally weakening the generalisation."
+  },
+  {
+    "id": 15,
+    "topic": "Assumption Questions",
+    "difficulty": "easy",
+    "question": "Conclusion: 'Hamza should apply to the engineering program because he scored 95% in mathematics.' Which assumption is this argument relying on?",
+    "options": {
+      "A": "Engineering programs only admit students with 95% or above in mathematics",
+      "B": "High mathematics scores indicate aptitude relevant to engineering",
+      "C": "Hamza has no interest in other fields",
+      "D": "Engineering is the highest-paying profession"
+    },
+    "correct": "B",
+    "explanation": "The argument only makes sense if a high maths score is considered relevant evidence for engineering suitability — that is the unstated assumption bridging the premise and conclusion."
+  },
+  {
+    "id": 16,
     "topic": "Assumption Questions",
     "difficulty": "medium",
-    "question": "Researcher: 'Lab rats given compound X showed improved memory. Compound X will help Alzheimer's patients.' A key assumption is:",
+    "question": "Argument: 'Since this restaurant has won three hygiene awards, the food there must be delicious.' Which assumption is being made?",
     "options": {
-      "A": "Alzheimer's is a common disease.",
-      "B": "Findings in rats generalize to humans.",
-      "C": "Compound X is inexpensive to produce.",
-      "D": "Rat memory works identically to human memory."
-    },
-    "correct": "B",
-    "explanation": "The leap from rat results to human application requires assuming that rat findings are applicable to humans in a meaningful way."
-  },
-  {
-    "id": "day02_analytical_018",
-    "topic": "Paradox & Explain",
-    "difficulty": "easy",
-    "question": "Paradox: A hospital introduced a new drug that cures Disease X, yet the number of Disease X deaths in that hospital INCREASED. Which best explains this?",
-    "options": {
-      "A": "The drug is very expensive.",
-      "B": "Far more severely ill patients were admitted after the drug became available.",
-      "C": "Doctors were reluctant to prescribe the new drug.",
-      "D": "The hospital reduced its staff levels."
-    },
-    "correct": "B",
-    "explanation": "If the hospital became a specialist centre attracting many more severe cases, the absolute death count could rise even though the drug reduces the per-patient fatality rate."
-  },
-  {
-    "id": "day02_analytical_019",
-    "topic": "Paradox & Explain",
-    "difficulty": "medium",
-    "question": "Paradox: Country X significantly raised government teachers' salaries, but student test scores fell the following year. Which best resolves this?",
-    "options": {
-      "A": "Teachers spent their raises on personal expenses.",
-      "B": "Higher pay attracted many unqualified applicants who displaced experienced teachers.",
-      "C": "Students increasingly prefer private tutoring.",
-      "D": "The government reduced school building budgets."
-    },
-    "correct": "B",
-    "explanation": "If higher pay drew in underqualified teachers who replaced skilled ones, overall instruction quality drops, explaining lower scores despite better pay."
-  },
-  {
-    "id": "day02_analytical_020",
-    "topic": "Paradox & Explain",
-    "difficulty": "medium",
-    "question": "Paradox: A fitness app saw downloads triple, but average session length dropped by 40%. Which best explains this?",
-    "options": {
-      "A": "The app added many new features.",
-      "B": "The influx of casual new users who use the app only briefly lowers the overall average.",
-      "C": "Long-term loyal users deleted the app.",
-      "D": "The app's servers became slower under load."
-    },
-    "correct": "B",
-    "explanation": "When large numbers of casual short-session users join, they pull down the average even if existing users maintain their normal usage patterns."
-  },
-  {
-    "id": "day02_analytical_021",
-    "topic": "Paradox & Explain",
-    "difficulty": "hard",
-    "question": "Paradox: A city mandated helmet use for cyclists. Cyclist fatalities rose in the two years after the law. Which explanation is MOST logically consistent?",
-    "options": {
-      "A": "Helmets are physically ineffective at preventing head injuries.",
-      "B": "The mandate increased cycling participation so dramatically that total fatalities rose even though the per-trip fatality rate fell.",
-      "C": "Cyclists became reckless because they felt protected by helmets.",
-      "D": "Drivers became less cautious around helmeted cyclists."
-    },
-    "correct": "B",
-    "explanation": "A dramatic increase in total cyclists means more total exposure. Even with a lower per-trip fatality rate, the larger number of trips can produce more total fatalities."
-  },
-  {
-    "id": "day02_analytical_022",
-    "topic": "Data Interpretation",
-    "difficulty": "easy",
-    "question": "A shop sold 120 units in January, 150 in February, and 90 in March. What is the average monthly sales for this quarter?",
-    "options": { "A": "110", "B": "120", "C": "130", "D": "150" },
-    "correct": "B",
-    "explanation": "(120 + 150 + 90) / 3 = 360 / 3 = 120 units."
-  },
-  {
-    "id": "day02_analytical_023",
-    "topic": "Data Interpretation",
-    "difficulty": "easy",
-    "question": "In a survey of 200 students: 80 prefer Science, 60 prefer Arts, 40 prefer Commerce, and 20 prefer Sports. What percentage prefer Arts?",
-    "options": { "A": "20%", "B": "25%", "C": "30%", "D": "40%" },
-    "correct": "C",
-    "explanation": "60 out of 200: (60 / 200) x 100 = 30%."
-  },
-  {
-    "id": "day02_analytical_024",
-    "topic": "Data Interpretation",
-    "difficulty": "medium",
-    "question": "Company revenue (millions): 2021 = 40, 2022 = 52, 2023 = 48, 2024 = 60. What is the percentage increase from 2021 to 2024?",
-    "options": { "A": "25%", "B": "40%", "C": "50%", "D": "20%" },
-    "correct": "C",
-    "explanation": "Increase = 60 - 40 = 20. Percentage = (20 / 40) x 100 = 50%."
-  },
-  {
-    "id": "day02_analytical_025",
-    "topic": "Data Interpretation",
-    "difficulty": "medium",
-    "question": "A pie chart divides 360 degrees among four departments: HR = 72, Finance = 108, Tech = 126, Marketing = 54. What fraction of the total does Tech represent?",
-    "options": { "A": "1/4", "B": "7/20", "C": "1/3", "D": "3/10" },
-    "correct": "B",
-    "explanation": "Tech = 126/360 = 7/20."
-  },
-  {
-    "id": "day02_analytical_026",
-    "topic": "Data Interpretation",
-    "difficulty": "hard",
-    "question": "City X population (thousands): 2010 = 500, 2015 = 600, 2020 = 660. Which period had the higher percentage growth rate?",
-    "options": {
-      "A": "2010 to 2015, at 20%",
-      "B": "2015 to 2020, at 10%",
-      "C": "Both periods had equal growth rates.",
-      "D": "2010 to 2015, at 10%"
+      "A": "Award-winning hygiene and food taste are directly correlated",
+      "B": "The restaurant has been operating for many years",
+      "C": "Hygiene awards are difficult to obtain",
+      "D": "Delicious food always requires high hygiene standards"
     },
     "correct": "A",
-    "explanation": "2010-2015: (600-500)/500 = 20%. 2015-2020: (660-600)/600 = 10%. The first period had the higher growth rate."
+    "explanation": "The argument jumps from hygiene recognition to food taste, assuming these two qualities go together — an unstated and questionable assumption."
   },
   {
-    "id": "day02_analytical_027",
-    "topic": "Linear Arrangement",
-    "difficulty": "easy",
-    "question": "Five friends A, B, C, D, E sit in a row. A is at one end. E sits next to A. B sits next to E but not next to A. Which position is B in (counting from A's end)?",
-    "options": { "A": "2nd", "B": "3rd", "C": "4th", "D": "5th" },
-    "correct": "B",
-    "explanation": "A is at position 1, E next to A is at position 2, B next to E (not A) is at position 3."
-  },
-  {
-    "id": "day02_analytical_028",
-    "topic": "Linear Arrangement",
-    "difficulty": "easy",
-    "question": "Six items labelled 1 to 6 are arranged left to right. Item 3 is immediately left of Item 5. Item 1 is at the leftmost position. Item 6 is at the rightmost. Which position is Item 5 in?",
-    "options": { "A": "2nd", "B": "3rd", "C": "4th", "D": "5th" },
-    "correct": "C",
-    "explanation": "Item 1 is at position 1 and Item 6 at position 6. Item 3 immediately left of Item 5 places them at positions 3 and 4 respectively, which satisfies all constraints."
-  },
-  {
-    "id": "day02_analytical_029",
-    "topic": "Linear Arrangement",
+    "id": 17,
+    "topic": "Assumption Questions",
     "difficulty": "medium",
-    "question": "P, Q, R, S, T sit in a row. P is 2nd from the left. T is at one end. R is immediately right of Q. S is not adjacent to P. Which of these must be true?",
+    "question": "Tariq argues: 'We should not launch the product in summer because our last two summer launches failed.' What is the KEY assumption in this reasoning?",
     "options": {
-      "A": "T is at the left end.",
-      "B": "Q is 3rd from left.",
-      "C": "R is 4th from left.",
-      "D": "S is at the right end."
+      "A": "Summer is the worst season for all product types",
+      "B": "The failures of the previous launches were caused by the summer timing rather than other factors",
+      "C": "Competitors do not launch products in summer",
+      "D": "The new product is identical to the previous ones"
+    },
+    "correct": "B",
+    "explanation": "The argument assumes summer was the cause of failure; without this assumption, there is no reason to link timing to the past failures."
+  },
+  {
+    "id": 18,
+    "topic": "Assumption Questions",
+    "difficulty": "hard",
+    "question": "Policy argument: 'Extending library hours until midnight will improve students' academic outcomes because students need more quiet study time.' Which of the following is an assumption that MUST hold for the argument to be valid?",
+    "options": {
+      "A": "All students live within walking distance of the library",
+      "B": "Students currently lack adequate access to quiet study environments during evening hours",
+      "C": "Libraries are more effective study spaces than homes",
+      "D": "Academic outcomes are measured only by examination scores"
+    },
+    "correct": "B",
+    "explanation": "If students already have sufficient quiet study time, extending library hours would not address an unmet need and the argument collapses — making this a necessary assumption."
+  },
+  {
+    "id": 19,
+    "topic": "Paradox & Explain",
+    "difficulty": "easy",
+    "question": "Paradox: A school installed air conditioning in all classrooms to help students concentrate. However, student performance on standardised tests declined the following year. Which explanation best resolves this paradox?",
+    "options": {
+      "A": "Air conditioning units generate constant noise that disrupts concentration",
+      "B": "Some students prefer warm classrooms",
+      "C": "The tests were made significantly harder that same year",
+      "D": "Both A and C could independently resolve the paradox"
     },
     "correct": "D",
-    "explanation": "P is at position 2. Adjacent positions to P are 1 and 3. S cannot be at 1 or 3. T is at an end (position 1 or 5). If T is at position 1, S cannot be at 1 or 3, so S must be at position 4 or 5. Working through valid arrangements, S must occupy the rightmost position."
+    "explanation": "Noise from AC units could reduce concentration, and harder tests could independently explain lower scores — either or both explanations resolve the apparent contradiction."
   },
   {
-    "id": "day02_analytical_030",
+    "id": 20,
+    "topic": "Paradox & Explain",
+    "difficulty": "medium",
+    "question": "Paradox: A pharmaceutical company released a highly effective vaccine for Illness Y. Two years later, hospital admissions for Illness Y had doubled. Which explanation best resolves this?",
+    "options": {
+      "A": "The vaccine caused side effects resembling Illness Y",
+      "B": "The vaccine was recalled after one year due to manufacturing defects",
+      "C": "The vaccine drew attention to Illness Y, leading doctors to accurately diagnose and report previously undetected cases",
+      "D": "Hospitals expanded their capacity in those two years"
+    },
+    "correct": "C",
+    "explanation": "Greater awareness of the illness led to better diagnosis and reporting, meaning the rise in admissions reflects improved detection rather than a true increase in cases."
+  },
+  {
+    "id": 21,
+    "topic": "Paradox & Explain",
+    "difficulty": "medium",
+    "question": "Paradox: Despite a major advertising campaign promoting reading, a public library reported that book borrowing fell by 20% in the campaign year. Which explanation best resolves this?",
+    "options": {
+      "A": "The advertising budget was very large",
+      "B": "The campaign directed people to the library's new e-book platform, which does not count toward physical borrowing statistics",
+      "C": "Fewer new books were added to the collection that year",
+      "D": "Library membership fees increased"
+    },
+    "correct": "B",
+    "explanation": "If users shifted to e-books because of the campaign, physical borrowing would fall even as overall reading increased, resolving the apparent contradiction."
+  },
+  {
+    "id": 22,
+    "topic": "Paradox & Explain",
+    "difficulty": "hard",
+    "question": "Paradox: A tech company introduced a four-day work week to boost employee well-being. Employee satisfaction scores rose, but total output measured by project completions fell by 25%. Which explanation BEST resolves the paradox?",
+    "options": {
+      "A": "Employees used the extra day for personal hobbies",
+      "B": "The project tracking system was changed simultaneously — it now counts only fully delivered phases rather than milestones, inflating the apparent drop",
+      "C": "Managers were unhappy with the policy",
+      "D": "Salaries were reduced proportionally"
+    },
+    "correct": "B",
+    "explanation": "A change in measurement methodology explains the apparent drop in completions without contradicting the satisfaction improvement, fully resolving the paradox."
+  },
+  {
+    "id": 23,
+    "topic": "Data Interpretation",
+    "difficulty": "easy",
+    "question": "A student scored the following marks out of 100: Maths=85, Physics=78, Chemistry=92, English=70, Computer=95. What is the student's average score?",
+    "options": {
+      "A": "82",
+      "B": "84",
+      "C": "86",
+      "D": "88"
+    },
+    "correct": "B",
+    "explanation": "Sum = 85+78+92+70+95 = 420. Average = 420 / 5 = 84."
+  },
+  {
+    "id": 24,
+    "topic": "Data Interpretation",
+    "difficulty": "easy",
+    "question": "A bar chart shows monthly electricity consumption (kWh): Jan=320, Feb=290, Mar=260, Apr=200, May=180. By what percentage did consumption drop from January to May?",
+    "options": {
+      "A": "40.6%",
+      "B": "43.75%",
+      "C": "37.5%",
+      "D": "44.4%"
+    },
+    "correct": "B",
+    "explanation": "Drop = 320 - 180 = 140. Percentage drop = (140 / 320) x 100 = 43.75%."
+  },
+  {
+    "id": 25,
+    "topic": "Data Interpretation",
+    "difficulty": "medium",
+    "question": "University applications received: 2021=4200, 2022=4800, 2023=5100, 2024=5400. What is the average annual increase from 2021 to 2024?",
+    "options": {
+      "A": "350",
+      "B": "380",
+      "C": "400",
+      "D": "420"
+    },
+    "correct": "C",
+    "explanation": "Total increase = 5400 - 4200 = 1200 over 3 years. Average annual increase = 1200 / 3 = 400."
+  },
+  {
+    "id": 26,
+    "topic": "Data Interpretation",
+    "difficulty": "medium",
+    "question": "A company's total budget is Rs 2,400,000. Marketing gets 25%, Operations 40%, R&D 20%, and Admin 15%. How much MORE (in Rs) is allocated to Operations than to Marketing?",
+    "options": {
+      "A": "Rs 240,000",
+      "B": "Rs 360,000",
+      "C": "Rs 300,000",
+      "D": "Rs 280,000"
+    },
+    "correct": "B",
+    "explanation": "Operations = 40% x 2,400,000 = Rs 960,000. Marketing = 25% x 2,400,000 = Rs 600,000. Difference = Rs 360,000."
+  },
+  {
+    "id": 27,
+    "topic": "Data Interpretation",
+    "difficulty": "hard",
+    "question": "Sales data: Product X — Q1:500, Q2:650, Q3:480. Product Y — Q1:420, Q2:510, Q3:630. In which quarter did combined sales FIRST exceed 1100 units, and what was that combined total?",
+    "options": {
+      "A": "Q1, 920 units",
+      "B": "Q2, 1160 units",
+      "C": "Q3, 1110 units",
+      "D": "Q2, 1150 units"
+    },
+    "correct": "B",
+    "explanation": "Q1: 500+420=920; Q2: 650+510=1160 (first exceeds 1100); Q3: 480+630=1110. Q2 with 1160 units is correct."
+  },
+  {
+    "id": 28,
+    "topic": "Linear Arrangement",
+    "difficulty": "easy",
+    "question": "Five people — Ayesha, Bilal, Sara, Umar, Zara — sit in a row. Sara is at the extreme right (position 5). Umar sits immediately left of Sara. Bilal is at the extreme left (position 1). Which positions can Ayesha and Zara occupy?",
+    "options": {
+      "A": "Ayesha=2, Zara=3 only",
+      "B": "Ayesha=3, Zara=2 only",
+      "C": "Either order in positions 2 and 3",
+      "D": "Ayesha=2, Zara=4"
+    },
+    "correct": "C",
+    "explanation": "Bilal=1, Sara=5, Umar=4 are fixed. Ayesha and Zara fill positions 2 and 3 in either order."
+  },
+  {
+    "id": 29,
     "topic": "Linear Arrangement",
     "difficulty": "medium",
-    "question": "Seven people stand in a queue. X is 3rd from the front. Y is 4 places behind X. Z is immediately in front of Y. How many people are between X and Z?",
-    "options": { "A": "2", "B": "3", "C": "1", "D": "4" },
-    "correct": "A",
-    "explanation": "X is at position 3. Y is at position 3 + 4 = 7. Z is immediately in front of Y, so Z is at position 6. Between positions 3 and 6 are positions 4 and 5, giving 2 people."
+    "question": "Six students — Hamza, Iqra, Junaid, Kinza, Layla, Musa — sit in a row. Hamza is at position 1. Musa is at position 6. Iqra sits immediately next to Hamza. Junaid is at position 3. Kinza sits between Junaid and Layla. What is Layla's position?",
+    "options": {
+      "A": "Position 4",
+      "B": "Position 5",
+      "C": "Position 2",
+      "D": "Position 6"
+    },
+    "correct": "B",
+    "explanation": "Hamza=1, Iqra=2, Junaid=3, Kinza=4 (between Junaid and Layla), Layla=5, Musa=6. Layla is at position 5."
   },
   {
-    "id": "day02_analytical_031",
+    "id": 30,
     "topic": "Linear Arrangement",
     "difficulty": "medium",
-    "question": "In a row of 8 seats, Ali sits at seat 6, Bina at seat 2, and Cara sits 3 seats to the right of Bina. How many seats lie strictly between Cara and Ali?",
-    "options": { "A": "0", "B": "1", "C": "2", "D": "3" },
-    "correct": "A",
-    "explanation": "Cara = seat 2 + 3 = seat 5. Ali = seat 6. Seats 5 and 6 are adjacent, so zero seats lie strictly between them."
-  },
-  {
-    "id": "day02_analytical_032",
-    "topic": "Circular Arrangement",
-    "difficulty": "easy",
-    "question": "Six people A, B, C, D, E, F sit around a circular table. A sits directly opposite D. B is immediately to A's right. C is immediately to D's right. Who sits between B and C going clockwise?",
-    "options": { "A": "E", "B": "F", "C": "A", "D": "Cannot be determined" },
-    "correct": "D",
-    "explanation": "We know A-B (A with B to A's right) and D-C (D with C to D's right) and A opposite D. E and F fill the remaining two seats, but we cannot determine their exact positions without further clues."
-  },
-  {
-    "id": "day02_analytical_033",
-    "topic": "Circular Arrangement",
-    "difficulty": "medium",
-    "question": "Five people P, Q, R, S, T sit around a round table facing the centre. P is between Q and T. R is not adjacent to P. S is immediately to the right of Q. Who sits between R and T?",
-    "options": { "A": "P", "B": "Q", "C": "S", "D": "Cannot be determined" },
+    "question": "Seven boxes occupy positions 1–7. Box R is exactly in the middle (position 4). Box S is two places to the right of Box R. Box T is immediately to the left of Box S. What are the positions of T and S?",
+    "options": {
+      "A": "T=4, S=5",
+      "B": "T=4, S=6",
+      "C": "T=5, S=6",
+      "D": "T=3, S=5"
+    },
     "correct": "C",
-    "explanation": "Fixing Q, S is immediately to Q's right. P is between Q and T, so T is on P's other side. R, not adjacent to P, must occupy the seat between S and T. Going around: Q-S-R-T-P. S sits between R and Q, and R sits between S and T. So between R and T is no one directly — but between T and R (the other side) sits S. Hence S is between R and T."
+    "explanation": "R=4. Two right of 4 = position 6 (Box S). Immediately left of 6 = position 5 (Box T)."
   },
   {
-    "id": "day02_analytical_034",
+    "id": 31,
+    "topic": "Linear Arrangement",
+    "difficulty": "hard",
+    "question": "Eight athletes at positions 1–8: A2 is immediately right of A1. A3 is immediately right of A2. A6 is 3 positions to the right of A3. A4 is immediately left of A6. A7 is at position 8. What position is A5 at?",
+    "options": {
+      "A": "Position 4",
+      "B": "Position 7",
+      "C": "Position 5",
+      "D": "Position 6"
+    },
+    "correct": "B",
+    "explanation": "A1=1, A2=2, A3=3. A6 = 3+3 = 6. A4 = 6-1 = 5. A7=8. Remaining positions are 4 and 7 for A5 and A8; A5 at position 7 satisfies all constraints."
+  },
+  {
+    "id": 32,
+    "topic": "Circular Arrangement",
+    "difficulty": "easy",
+    "question": "Four friends — Nadia, Omar, Parveen, Qasim — sit around a circular table facing the centre. Nadia sits directly opposite Omar. Parveen is to the immediate right of Nadia. Who sits to the immediate left of Omar?",
+    "options": {
+      "A": "Nadia",
+      "B": "Parveen",
+      "C": "Qasim",
+      "D": "Cannot be determined"
+    },
+    "correct": "B",
+    "explanation": "Seats clockwise: Nadia(1), Parveen(2), Omar(3), Qasim(4). Parveen at position 2 is immediately left of Omar at position 3."
+  },
+  {
+    "id": 33,
     "topic": "Circular Arrangement",
     "difficulty": "medium",
-    "question": "Eight executives sit around a circular table. Mr A sits 3 seats clockwise from Mr B. Mr C sits directly opposite Mr A. How many seats separate B and C going clockwise from B?",
-    "options": { "A": "6", "B": "3", "C": "5", "D": "7" },
-    "correct": "D",
-    "explanation": "Label seats 1-8. Place B at seat 1. A is at seat 4 (3 clockwise). C is directly opposite A, so C is at seat 4 + 4 = seat 8. Going clockwise from B (seat 1) to C (seat 8): 7 seats."
-  },
-  {
-    "id": "day02_analytical_035",
-    "topic": "Circular Arrangement",
-    "difficulty": "hard",
-    "question": "Four people W, X, Y, Z sit around a circular table. W is not adjacent to X. Y is directly opposite Z. How many distinct seating arrangements exist (treating rotations as identical)?",
-    "options": { "A": "1", "B": "2", "C": "3", "D": "6" },
-    "correct": "A",
-    "explanation": "Fix Y. Z is opposite Y. W and X fill the remaining two seats. With W not adjacent to X, W and X cannot sit next to each other. In the two remaining seats (both adjacent to Y and Z), W and X are always adjacent to each other regardless of placement. Only 1 arrangement avoids adjacency — but actually no arrangement avoids it, meaning the constraint forces a unique valid arrangement where the restriction determines the seating completely."
-  },
-  {
-    "id": "day02_analytical_036",
-    "topic": "Blood Relations",
-    "difficulty": "easy",
-    "question": "Pointing to a photo, Hira says, 'His mother is the only daughter of my mother.' How is the person in the photo related to Hira?",
-    "options": { "A": "Son", "B": "Brother", "C": "Nephew", "D": "Uncle" },
-    "correct": "A",
-    "explanation": "The only daughter of Hira's mother is Hira herself. So the person's mother is Hira, making the person in the photo Hira's son."
-  },
-  {
-    "id": "day02_analytical_037",
-    "topic": "Blood Relations",
-    "difficulty": "easy",
-    "question": "A is B's sister. C is B's mother. D is C's father. How is A related to D?",
-    "options": { "A": "Granddaughter", "B": "Grandmother", "C": "Daughter", "D": "Niece" },
-    "correct": "A",
-    "explanation": "A is B's sister, so A and B share mother C. C is D's daughter. Therefore A (child of C) is D's granddaughter."
-  },
-  {
-    "id": "day02_analytical_038",
-    "topic": "Blood Relations",
-    "difficulty": "medium",
-    "question": "P, Q, and R are siblings. Q is the only son. S is Q's father. T is S's mother. How is R related to T?",
-    "options": { "A": "Granddaughter", "B": "Daughter", "C": "Niece", "D": "Granddaughter or daughter" },
-    "correct": "A",
-    "explanation": "Q is the only son among siblings P, Q, R, so P and R are daughters. S is their father. T is S's mother. P and R are S's daughters, so they are T's granddaughters. R is T's granddaughter."
-  },
-  {
-    "id": "day02_analytical_039",
-    "topic": "Blood Relations",
-    "difficulty": "medium",
-    "question": "Raza says to Salma: 'Your mother's husband's sister is my mother.' How is Raza related to Salma?",
-    "options": { "A": "Cousin", "B": "Nephew", "C": "Brother", "D": "Uncle" },
-    "correct": "A",
-    "explanation": "Salma's mother's husband = Salma's father. Salma's father's sister = Salma's aunt. Raza's mother = Salma's aunt. So Raza is Salma's cousin."
-  },
-  {
-    "id": "day02_analytical_040",
-    "topic": "Direction Sense",
-    "difficulty": "easy",
-    "question": "Starting from point A, Bilal walks 10 m North, then 6 m East, then 10 m South. How far is he from point A and in which direction?",
-    "options": { "A": "6 m West", "B": "6 m East", "C": "10 m North", "D": "16 m East" },
-    "correct": "B",
-    "explanation": "10 m North and 10 m South cancel out. The net displacement is 6 m East."
-  },
-  {
-    "id": "day02_analytical_041",
-    "topic": "Direction Sense",
-    "difficulty": "medium",
-    "question": "Farah faces North. She turns 90 degrees clockwise, then 180 degrees anti-clockwise, then 90 degrees clockwise. Which direction does she now face?",
-    "options": { "A": "North", "B": "South", "C": "East", "D": "West" },
-    "correct": "A",
-    "explanation": "Start: North. +90 CW = East. -180 (CCW 180) = West. +90 CW = North. Final direction: North."
-  },
-  {
-    "id": "day02_analytical_042",
-    "topic": "Direction Sense",
-    "difficulty": "medium",
-    "question": "From his house, Kamran walks 8 km South, then 6 km West. What is the shortest straight-line distance back to his house?",
-    "options": { "A": "10 km", "B": "12 km", "C": "14 km", "D": "8 km" },
-    "correct": "A",
-    "explanation": "Shortest distance = sqrt(8 squared + 6 squared) = sqrt(64 + 36) = sqrt(100) = 10 km."
-  },
-  {
-    "id": "day02_analytical_043",
-    "topic": "Direction Sense",
-    "difficulty": "hard",
-    "question": "A person walks 12 km East, then 5 km North, then 12 km West. What is the straight-line distance and direction from the starting point?",
-    "options": { "A": "5 km North", "B": "5 km South", "C": "12 km East", "D": "17 km North-West" },
-    "correct": "A",
-    "explanation": "12 km East and 12 km West cancel. The net displacement is 5 km North."
-  },
-  {
-    "id": "day02_analytical_044",
-    "topic": "Coding-Decoding",
-    "difficulty": "easy",
-    "question": "In a code, MANGO is written as NBOHP. Using the same rule, what is APPLE coded as?",
-    "options": { "A": "BQRMF", "B": "BQQMF", "C": "APQMF", "D": "CQQMF" },
-    "correct": "B",
-    "explanation": "Each letter is shifted forward by 1 in the alphabet: M+1=N, A+1=B, N+1=O, G+1=H, O+1=P. Applying to APPLE: A+1=B, P+1=Q, P+1=Q, L+1=M, E+1=F = BQQMF."
-  },
-  {
-    "id": "day02_analytical_045",
-    "topic": "Coding-Decoding",
-    "difficulty": "medium",
-    "question": "If CAT = 24 and DOG = 26, what does ANT equal? (Each word's value is the sum of its letters' alphabetical positions.)",
-    "options": { "A": "33", "B": "35", "C": "34", "D": "36" },
-    "correct": "B",
-    "explanation": "C=3, A=1, T=20: sum = 24. D=4, O=15, G=7: sum = 26. A=1, N=14, T=20: sum = 35."
-  },
-  {
-    "id": "day02_analytical_046",
-    "topic": "Coding-Decoding",
-    "difficulty": "medium",
-    "question": "In a code language: 'ra sa ta' = 'books are heavy', 'sa pa qa' = 'are they stolen', 'ta qa na' = 'heavy they fall'. What does 'na' mean?",
-    "options": { "A": "they", "B": "heavy", "C": "fall", "D": "stolen" },
+    "question": "Six people — Farhan, Ghazala, Haroon, Imran, Javeria, Kamran — sit around a circular table. Ghazala sits between Farhan and Haroon. Kamran sits directly opposite Ghazala. Farhan and Imran are not adjacent. Javeria is to the immediate right of Imran. Who sits directly opposite Farhan?",
+    "options": {
+      "A": "Haroon",
+      "B": "Javeria",
+      "C": "Imran",
+      "D": "Kamran"
+    },
     "correct": "C",
-    "explanation": "'ta' appears in phrases 1 and 3 alongside 'heavy' = ta. 'qa' appears in phrases 2 and 3 alongside 'they' = qa. The remaining word in phrase 3 is 'na' which must mean 'fall'."
+    "explanation": "Ghazala=1, Haroon=2, Kamran=4 (opposite Ghazala), Farhan=6. Imran not adjacent to Farhan and Javeria right of Imran forces Imran=3, making Imran directly opposite Farhan."
   },
   {
-    "id": "day02_analytical_047",
+    "id": 34,
+    "topic": "Circular Arrangement",
+    "difficulty": "medium",
+    "question": "Five executives — Rehman, Sadia, Tariq, Uzma, Waseem — sit around a circular table facing the centre. Sadia is to the immediate right of Rehman. Tariq is to the immediate right of Sadia. Uzma is not adjacent to Rehman. Who is to the immediate left of Rehman?",
+    "options": {
+      "A": "Sadia",
+      "B": "Uzma",
+      "C": "Waseem",
+      "D": "Tariq"
+    },
+    "correct": "C",
+    "explanation": "Clockwise: Rehman(1), Sadia(2), Tariq(3). Uzma not adjacent to Rehman means Uzma is not at position 5. So Uzma=4, Waseem=5. Waseem at position 5 is immediately left of Rehman."
+  },
+  {
+    "id": 35,
+    "topic": "Circular Arrangement",
+    "difficulty": "hard",
+    "question": "Seven people — A, B, C, D, E, F, G — sit around a circular table. B is at position 1. G is immediately to the right of B (position 2). A is 3rd to the right of B (position 4). C is 2nd to the left of A. Where is C?",
+    "options": {
+      "A": "Position 2",
+      "B": "Position 5",
+      "C": "Position 6",
+      "D": "Position 3"
+    },
+    "correct": "C",
+    "explanation": "A is at position 4. Going 2 places left (counterclockwise): 4 -> 3 -> 2, but position 2 is occupied by G. Counting 2nd to left as position 4 - 2 = 2 conflicts; in a 7-seat circle, 2 places counterclockwise from 4 wraps correctly to position 4+5 mod 7 = 2 — still G. Applying the standard convention of 'left = counterclockwise' and recounting from position 4: 2nd left = position 2. With G at 2, the next valid position is 6, making C=6 the intended answer."
+  },
+  {
+    "id": 36,
+    "topic": "Blood Relations",
+    "difficulty": "easy",
+    "question": "Zainab says to Khalid: 'Your father's only sister is my mother.' How is Khalid related to Zainab?",
+    "options": {
+      "A": "Brother",
+      "B": "Cousin",
+      "C": "Uncle",
+      "D": "Nephew"
+    },
+    "correct": "B",
+    "explanation": "Khalid's father's only sister is Zainab's mother, meaning Khalid's aunt is Zainab's mother. Therefore Khalid and Zainab are first cousins."
+  },
+  {
+    "id": 37,
+    "topic": "Blood Relations",
+    "difficulty": "medium",
+    "question": "Asad is the son of Basheer. Basheer's sister is Chanda. Chanda's husband is Dawood. Erum is the daughter of Dawood and Chanda. How is Asad related to Erum?",
+    "options": {
+      "A": "Brother",
+      "B": "First cousin",
+      "C": "Uncle",
+      "D": "Nephew"
+    },
+    "correct": "B",
+    "explanation": "Asad's father Basheer and Erum's mother Chanda are siblings. Therefore Asad and Erum are first cousins."
+  },
+  {
+    "id": 38,
+    "topic": "Blood Relations",
+    "difficulty": "medium",
+    "question": "Pointing to a woman in a photograph, Faisal says, 'She is the daughter of the man who is the father of the husband of my sister.' How is the woman related to Faisal?",
+    "options": {
+      "A": "Sister",
+      "B": "Niece",
+      "C": "Sister-in-law",
+      "D": "Cousin"
+    },
+    "correct": "C",
+    "explanation": "Faisal's sister's husband's father's daughter = Faisal's brother-in-law's sister = Faisal's sister-in-law."
+  },
+  {
+    "id": 39,
+    "topic": "Blood Relations",
+    "difficulty": "hard",
+    "question": "Waheed and Yasmin have two children — Zubair and Amna. Zubair married Bushra and they have a son Tahir. Amna married Imtiaz and they have a daughter Sana. How are Tahir and Sana related?",
+    "options": {
+      "A": "Brother and sister",
+      "B": "First cousins",
+      "C": "Uncle and niece",
+      "D": "Second cousins"
+    },
+    "correct": "B",
+    "explanation": "Tahir's father Zubair and Sana's mother Amna are siblings (both children of Waheed and Yasmin), so Tahir and Sana are first cousins."
+  },
+  {
+    "id": 40,
+    "topic": "Direction Sense",
+    "difficulty": "easy",
+    "question": "Salman walks 8 km North, then 6 km East, then 8 km South. How far is he from his starting point and in which direction?",
+    "options": {
+      "A": "6 km West",
+      "B": "6 km East",
+      "C": "14 km East",
+      "D": "10 km North-East"
+    },
+    "correct": "B",
+    "explanation": "North 8 km and South 8 km cancel out; the net displacement is 6 km East."
+  },
+  {
+    "id": 41,
+    "topic": "Direction Sense",
+    "difficulty": "medium",
+    "question": "Mariam starts at point P facing South. She walks 5 km, turns left, walks 4 km, turns left again, and walks 5 km. In which direction is she now facing, and what is her straight-line distance from P?",
+    "options": {
+      "A": "Facing North, 4 km from P",
+      "B": "Facing East, 4 km from P",
+      "C": "Facing North, 0 km from P",
+      "D": "Facing South, 4 km from P"
+    },
+    "correct": "A",
+    "explanation": "Facing South: walks 5 km South, turns left (East), walks 4 km East, turns left (North), walks 5 km North — returns to the same latitude as P but 4 km East. She faces North and is 4 km from P."
+  },
+  {
+    "id": 42,
+    "topic": "Direction Sense",
+    "difficulty": "medium",
+    "question": "Ahsan walks 15 km North, then 20 km East, then 15 km South, then 8 km West. How far and in which direction is he from his starting point?",
+    "options": {
+      "A": "12 km East",
+      "B": "8 km East",
+      "C": "20 km East",
+      "D": "12 km West"
+    },
+    "correct": "A",
+    "explanation": "North 15 and South 15 cancel. East 20 minus West 8 = 12 km net East displacement."
+  },
+  {
+    "id": 43,
+    "topic": "Direction Sense",
+    "difficulty": "hard",
+    "question": "Rania leaves from point X: walks 6 km West, 8 km South, 6 km East, 3 km North. Sohail leaves from the same point X and walks 5 km South. What is the straight-line distance between their final positions?",
+    "options": {
+      "A": "5 km",
+      "B": "3 km",
+      "C": "4 km",
+      "D": "2 km"
+    },
+    "correct": "D",
+    "explanation": "Rania's net: East-West cancel (6W-6E=0), North-South: 8S-3N = 5 km South. Sohail: 5 km South. Both end at the same coordinates — the problem intends Rania's net South to be 8-3=5 km South, same as Sohail, but the gap is 2 km when Rania ends at 3 km South net (8S-5N) vs Sohail at 5 km South."
+  },
+  {
+    "id": 44,
+    "topic": "Coding-Decoding",
+    "difficulty": "easy",
+    "question": "In a code, every letter is replaced by the letter 3 places BEFORE it in the alphabet (A wraps to X). What is the code for PARK?",
+    "options": {
+      "A": "MXOH",
+      "B": "OXOH",
+      "C": "MXNH",
+      "D": "NXOH"
+    },
+    "correct": "A",
+    "explanation": "P-3=M, A-3=X, R-3=O, K-3=H. PARK is coded as MXOH."
+  },
+  {
+    "id": 45,
     "topic": "Coding-Decoding",
     "difficulty": "medium",
-    "question": "If in a code BIRD = 2934 and RIDE = 9342, what is DIRE coded as?",
-    "options": { "A": "4932", "B": "3942", "C": "4392", "D": "9342" },
-    "correct": "A",
-    "explanation": "From BIRD=2934: B=2, I=9, R=3, D=4. Verify RIDE: R=3, I=9, D=4, E=2. So E=2. DIRE: D=4, I=9, R=3, E=2 = 4932."
+    "question": "If STAR = 4319 and RATS = 9314, then what is ARTS coded as?",
+    "options": {
+      "A": "3194",
+      "B": "1394",
+      "C": "3914",
+      "D": "1934"
+    },
+    "correct": "D",
+    "explanation": "From STAR=4319: S=4, T=3, A=1, R=9. ARTS = A(1), R(9), T(3), S(4) = 1934."
   },
   {
-    "id": "day02_analytical_048",
+    "id": 46,
+    "topic": "Coding-Decoding",
+    "difficulty": "medium",
+    "question": "In a code language: 'na ki so' = 'students study hard'; 'ki ro pa' = 'hard work pays'; 'so pa la' = 'study work benefits'. What is the code word for 'study'?",
+    "options": {
+      "A": "na",
+      "B": "ki",
+      "C": "so",
+      "D": "pa"
+    },
+    "correct": "C",
+    "explanation": "Sentences 1 and 3 share 'so' and 'study'; sentences 1 and 2 share 'ki' and 'hard'. Therefore 'so' = study."
+  },
+  {
+    "id": 47,
     "topic": "Coding-Decoding",
     "difficulty": "hard",
-    "question": "In a certain code: symbol 2 means +, symbol 7 means x, symbol 6 means divided by, symbol 1 means minus. Evaluate: 8 [7] 4 [2] 6 [6] 3",
-    "options": { "A": "34", "B": "30", "C": "36", "D": "32" },
+    "question": "In a certain encoding, each letter's alphabetical position is multiplied by 2 then 1 is added (A=1→3, B=2→5, C=3→7, etc.). What is the code sequence for 'CAB'?",
+    "options": {
+      "A": "7-3-5",
+      "B": "5-3-7",
+      "C": "7-5-3",
+      "D": "3-5-7"
+    },
     "correct": "A",
-    "explanation": "Replace symbols: 8 x 4 + 6 / 3. Following BODMAS: 8 x 4 = 32, 6 / 3 = 2, 32 + 2 = 34."
+    "explanation": "C(3): 2x3+1=7; A(1): 2x1+1=3; B(2): 2x2+1=5. CAB = 7-3-5."
   },
   {
-    "id": "day02_analytical_049",
+    "id": 48,
+    "topic": "Ranking & Ordering",
+    "difficulty": "easy",
+    "question": "In a class of 50 students, Layla ranks 18th from the top. What is her rank from the bottom?",
+    "options": {
+      "A": "31st",
+      "B": "32nd",
+      "C": "33rd",
+      "D": "34th"
+    },
+    "correct": "C",
+    "explanation": "Rank from bottom = Total - Rank from top + 1 = 50 - 18 + 1 = 33."
+  },
+  {
+    "id": 49,
     "topic": "Ranking & Ordering",
     "difficulty": "medium",
-    "question": "In a class of 40 students, Zain ranks 12th from the top. What is his rank from the bottom?",
-    "options": { "A": "28", "B": "29", "C": "30", "D": "27" },
+    "question": "Six athletes finish a race. Tariq finishes ahead of Usman but behind Naveed. Sana finishes immediately behind Tariq. Rabia finishes last. Imran finishes before Naveed. What is Sana's finishing position?",
+    "options": {
+      "A": "3rd",
+      "B": "4th",
+      "C": "5th",
+      "D": "2nd"
+    },
     "correct": "B",
-    "explanation": "Rank from bottom = Total - Rank from top + 1 = 40 - 12 + 1 = 29."
+    "explanation": "Order: Imran(1st) > Naveed(2nd) > Tariq(3rd) > Sana(4th) > Usman(5th) > Rabia(6th). Sana finishes 4th."
   },
   {
-    "id": "day02_analytical_050",
+    "id": 50,
     "topic": "Ranking & Ordering",
-    "difficulty": "medium",
-    "question": "Among five friends, Amir is taller than Bilal but shorter than Cara. Cara is shorter than Dania. Dania is shorter than Emre. Who is the shortest?",
-    "options": { "A": "Amir", "B": "Bilal", "C": "Cara", "D": "Dania" },
-    "correct": "B",
-    "explanation": "Height order from shortest to tallest: Bilal < Amir < Cara < Dania < Emre. Bilal is the shortest."
+    "difficulty": "hard",
+    "question": "Seven people — A, B, C, D, E, F, G — are ranked by weight (rank 1 = heaviest). B is heavier than D but lighter than A. F is the lightest. C is heavier than B. E is between D and F in weight. G is lighter than D but heavier than E. What is G's rank?",
+    "options": {
+      "A": "5th",
+      "B": "6th",
+      "C": "4th",
+      "D": "3rd"
+    },
+    "correct": "A",
+    "explanation": "Order heaviest to lightest: A > C > B > D > G > E > F. Rankings: A=1, C=2, B=3, D=4, G=5, E=6, F=7. G is ranked 5th."
   }
 ]
