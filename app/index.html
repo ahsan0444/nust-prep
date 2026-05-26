@@ -735,7 +735,115 @@ function renderLearn(app, notifHTML) {
 }
 
 function renderLesson(app, notifHTML) {
-  app.innerHTML = `${notifHTML}<div class="container no-drag" style="padding-top:56px"><p style="color:var(--text-dim)">Lesson coming soon…</p><button class="btn btn-ghost" onclick="state.page='learn';render()">← Back</button></div>`;
+  const lesson = state.currentLesson;
+  if (!lesson) { state.page = "learn"; render(); return; }
+
+  const sec = lesson.section || state.learnSection;
+  const s = SECTIONS[sec] || { accent: "#60a5fa", color: "#2563eb" };
+  const acc = topicAccuracy(sec);
+  const topicAcc = acc[lesson.topic];
+  const pct = topicAcc ? Math.round(topicAcc.c / topicAcc.t * 100) : null;
+  const isWeak = pct !== null && pct < 60;
+
+  const rulesHTML = (lesson.key_rules || []).map(rule =>
+    `<div style="border-left:3px solid var(--green);padding:8px 12px;background:rgba(5,150,105,0.06);border-radius:0 8px 8px 0;font-size:13px;color:var(--text-dim);margin-bottom:6px">${rule}</div>`
+  ).join("");
+
+  const examplesHTML = (lesson.worked_examples || []).map(ex => `
+    <div class="card" style="padding:14px 16px;margin-bottom:8px">
+      ${ex.question ? `<div style="font-size:12px;color:var(--text-muted);margin-bottom:8px">${ex.question}</div>` : ''}
+      <div style="font-size:13px;color:#fca5a5;margin-bottom:4px;text-decoration:line-through">✗ ${ex.wrong}</div>
+      <div style="font-size:13px;color:#6ee7b7;margin-bottom:6px">✓ ${ex.correct}</div>
+      <div class="explanation">${ex.why}</div>
+    </div>`
+  ).join("");
+
+  const mistakesHTML = (lesson.common_mistakes || []).map(m =>
+    `<span class="tag" style="background:rgba(239,68,68,0.12);color:#fca5a5;margin:3px 4px 3px 0;display:inline-block">${m}</span>`
+  ).join("");
+
+  const tipsHTML = (lesson.exam_tips || []).map(t =>
+    `<div style="font-size:13px;color:#fcd34d;padding:6px 0;border-bottom:1px solid rgba(255,255,255,0.04)">💡 ${t}</div>`
+  ).join("");
+
+  const quizHTML = (lesson.quiz || []).map((q, qi) => {
+    const chosen = state.lessonAnswers[qi];
+    const answered = chosen !== undefined;
+    return `<div class="card" style="margin-bottom:10px">
+      <div style="font-size:14px;color:#f1f5f9;margin-bottom:12px;line-height:1.6">
+        <span style="color:var(--text-muted);font-weight:700;margin-right:8px">${qi + 1}.</span>${q.question}
+      </div>
+      ${["A","B","C","D"].map(opt => {
+        if (!q.options[opt]) return '';
+        const isCorrect = opt === q.correct;
+        const isChosen = opt === chosen;
+        let cls = "";
+        let letterStyle = "background:rgba(255,255,255,0.08)";
+        if (answered) {
+          if (isCorrect) { cls = "correct"; letterStyle = "background:var(--green)"; }
+          else if (isChosen) { cls = "wrong"; letterStyle = "background:var(--red)"; }
+        } else if (isChosen) {
+          cls = "selected"; letterStyle = "background:var(--blue)";
+        }
+        return `<button class="option-btn ${cls}" onclick="${answered ? '' : `state.lessonAnswers[${qi}]='${opt}';render()`}" style="${answered ? 'cursor:default' : ''}">
+          <span class="option-letter" style="${letterStyle}">${answered ? (isCorrect ? '✓' : (isChosen ? '✗' : opt)) : opt}</span>
+          <span style="padding-top:4px;line-height:1.5">${q.options[opt]}</span>
+        </button>`;
+      }).join("")}
+      ${answered && q.explanation ? `<div class="explanation">💡 ${q.explanation}</div>` : ''}
+    </div>`;
+  }).join("");
+
+  app.innerHTML = `${notifHTML}
+  <div class="header">
+    <div class="container" style="align-items:center">
+      <div style="display:flex;align-items:center;gap:12px;flex:1;min-width:0">
+        <button class="btn btn-ghost" style="flex-shrink:0" onclick="state.page='learn';render()">←</button>
+        <div style="min-width:0">
+          <h1 style="font-size:18px;font-weight:800;letter-spacing:-0.02em;color:${s.accent};white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${lesson.topic}</h1>
+          <p style="color:var(--text-dim);font-size:12px;margin-top:2px">${SECTIONS[sec].label}${isWeak ? ' · <span style="color:#fca5a5">⚠ weak — focus here</span>' : ''}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container no-drag" style="padding-top:20px">
+
+    ${lesson.summary ? `
+    <div class="card">
+      <div style="font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--text-muted);margin-bottom:8px">Concept</div>
+      <div class="explanation" style="font-size:14px;line-height:1.7">${lesson.summary}</div>
+    </div>` : ''}
+
+    ${rulesHTML ? `
+    <div class="card">
+      <div style="font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--text-muted);margin-bottom:10px">Key Rules</div>
+      ${rulesHTML}
+    </div>` : ''}
+
+    ${examplesHTML ? `
+    <div class="card">
+      <div style="font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--text-muted);margin-bottom:10px">Worked Examples</div>
+      ${examplesHTML}
+    </div>` : ''}
+
+    ${mistakesHTML ? `
+    <div class="card">
+      <div style="font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--text-muted);margin-bottom:8px">Common Mistakes</div>
+      ${mistakesHTML}
+    </div>` : ''}
+
+    ${tipsHTML ? `
+    <div class="card">
+      <div style="font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--text-muted);margin-bottom:8px">Exam Tips</div>
+      ${tipsHTML}
+    </div>` : ''}
+
+    ${lesson.quiz && lesson.quiz.length > 0 ? `
+    <div style="font-size:13px;color:var(--text-dim);font-weight:700;text-transform:uppercase;letter-spacing:.08em;margin:20px 0 10px">Mini Quiz · ${lesson.quiz.length} questions</div>
+    ${quizHTML}` : ''}
+
+    <div style="height:32px"></div>
+  </div>`;
 }
 
 // ── Init ──
