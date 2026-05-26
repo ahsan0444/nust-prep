@@ -127,7 +127,7 @@ const ROTATION = ["verbal","analytical","verbal","quantitative","verbal","analyt
 
 // ── State ──
 let state = {
-  page: "home", // home | test | results | progress | import
+  page: "home", // home | test | results | progress | import | learn | lesson
   progress: { currentDay: 1, sessions: [], mockSessions: [] },
   questions: [],
   answers: {},
@@ -139,6 +139,12 @@ let state = {
   availableDays: [],
   importText: "",
   importSection: "verbal",
+  learnSection: "verbal",
+  lessons: [],
+  currentLesson: null,
+  lessonAnswers: {},
+  lessonPrevPage: "home",
+  learnSearch: "",
 };
 
 let timerInterval = null;
@@ -305,6 +311,8 @@ function render() {
   if (state.page === "results") { renderResults(app, notifHTML); return; }
   if (state.page === "progress") { renderProgress(app, notifHTML); return; }
   if (state.page === "import") { renderImport(app, notifHTML); return; }
+  if (state.page === "learn") { renderLearn(app, notifHTML); return; }
+  if (state.page === "lesson") { renderLesson(app, notifHTML); return; }
 
   // ── HOME ──
   const secColor = sched.section ? SECTIONS[sched.section].color : "#d97706";
@@ -586,6 +594,15 @@ function renderImport(app, notifHTML) {
       <button class="btn btn-blue" onclick="state.importText=document.getElementById('import-area').value;importQuestions()">Start Test →</button>
     </div>
   </div>`;
+}
+
+// ── Learn ──
+function renderLearn(app, notifHTML) {
+  app.innerHTML = `${notifHTML}<div class="container no-drag" style="padding-top:56px"><p style="color:var(--text-dim)">Learn coming soon…</p><button class="btn btn-ghost" onclick="state.page=state.lessonPrevPage;render()">← Back</button></div>`;
+}
+
+function renderLesson(app, notifHTML) {
+  app.innerHTML = `${notifHTML}<div class="container no-drag" style="padding-top:56px"><p style="color:var(--text-dim)">Lesson coming soon…</p><button class="btn btn-ghost" onclick="state.page='learn';render()">← Back</button></div>`;
 }
 
 // ── Init ──
