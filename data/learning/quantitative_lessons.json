@@ -1,0 +1,821 @@
+[
+  {
+    "topic": "Percentages",
+    "section": "quantitative",
+    "summary": "A percentage represents a value out of 100. Master conversion between fractions, decimals, and percentages, and apply percentage change, successive percentages, and reverse percentage calculations.",
+    "key_rules": [
+      "x% of y = (x/100) × y",
+      "Percentage change = (New − Old) / Old × 100",
+      "Successive percentage change: net = a + b + (ab/100) where a, b are signed",
+      "If price increases by x%, new = old × (1 + x/100); decrease: × (1 − x/100)",
+      "To reverse a percentage increase of x%, divide by (1 + x/100), not subtract x%"
+    ],
+    "worked_examples": [
+      {
+        "question": "A price increases by 20%, then decreases by 20%. Net change?",
+        "wrong": "0%",
+        "correct": "−4%",
+        "why": "Net = 20 + (−20) + (20 × −20)/100 = 0 − 4 = −4%."
+      },
+      {
+        "question": "After a 25% discount, an item costs 300. Original price?",
+        "wrong": "375",
+        "correct": "400",
+        "why": "300 = 0.75 × original → original = 300/0.75 = 400."
+      }
+    ],
+    "common_mistakes": [
+      "Adding percentage changes directly without the cross term",
+      "Confusing percentage change with percentage point change",
+      "Using the wrong base for percentage",
+      "Reversing a discount by adding back the same percent"
+    ],
+    "exam_tips": [
+      "Convert common percentages to fractions: 25% = 1/4, 33.3% = 1/3, 12.5% = 1/8",
+      "For successive changes, use multipliers (1.20 × 0.80 = 0.96)",
+      "Always identify the base (whole) before computing"
+    ],
+    "quiz": [
+      {
+        "question": "What is 15% of 240?",
+        "options": { "A": "32", "B": "36", "C": "40", "D": "24" },
+        "correct": "B",
+        "explanation": "15% × 240 = 0.15 × 240 = 36."
+      },
+      {
+        "question": "A salary increases from 50000 to 60000. Percentage increase?",
+        "options": { "A": "10%", "B": "16.67%", "C": "20%", "D": "25%" },
+        "correct": "C",
+        "explanation": "(60000 − 50000) / 50000 × 100 = 10000/50000 × 100 = 20%."
+      },
+      {
+        "question": "A price rises by 10% then falls by 10%. Net effect?",
+        "options": { "A": "No change", "B": "−1%", "C": "+1%", "D": "−2%" },
+        "correct": "B",
+        "explanation": "1.10 × 0.90 = 0.99 → 1% decrease."
+      },
+      {
+        "question": "If 30% of a number is 90, the number is?",
+        "options": { "A": "270", "B": "300", "C": "330", "D": "360" },
+        "correct": "B",
+        "explanation": "0.30 × x = 90 → x = 90 / 0.30 = 300."
+      }
+    ]
+  },
+  {
+    "topic": "Ratio & Proportion",
+    "section": "quantitative",
+    "summary": "A ratio compares quantities of the same kind. Proportion equates two ratios. Solve by cross-multiplication or by scaling each part to a common total.",
+    "key_rules": [
+      "If a:b = c:d, then a×d = b×c (cross-multiplication)",
+      "To divide N in ratio a:b, parts are N×a/(a+b) and N×b/(a+b)",
+      "Compound ratio: (a:b) × (c:d) = ac:bd",
+      "Direct proportion: if x ∝ y, then x/y = constant",
+      "Inverse proportion: if x ∝ 1/y, then xy = constant"
+    ],
+    "worked_examples": [
+      {
+        "question": "Divide 240 in the ratio 3:5.",
+        "wrong": "100 and 140",
+        "correct": "90 and 150",
+        "why": "Total parts = 8. 240/8 = 30 per part. 3×30 = 90, 5×30 = 150."
+      },
+      {
+        "question": "If 4 workers take 9 days, how long do 6 workers take (inverse proportion)?",
+        "wrong": "13.5 days",
+        "correct": "6 days",
+        "why": "Worker-days constant: 4 × 9 = 36. For 6 workers: 36/6 = 6 days."
+      }
+    ],
+    "common_mistakes": [
+      "Dividing by one part instead of the total parts",
+      "Confusing direct and inverse proportion",
+      "Forgetting to reduce the ratio to simplest form",
+      "Swapping numerator and denominator in cross-multiplication"
+    ],
+    "exam_tips": [
+      "Always identify total parts before dividing a quantity",
+      "For inverse proportion, the product is constant",
+      "Reduce ratios before computing for cleaner arithmetic"
+    ],
+    "quiz": [
+      {
+        "question": "Divide 360 in ratio 2:3:4.",
+        "options": { "A": "60, 120, 180", "B": "80, 120, 160", "C": "90, 120, 150", "D": "72, 108, 180" },
+        "correct": "B",
+        "explanation": "Total parts = 9. 360/9 = 40 per part. 2×40=80, 3×40=120, 4×40=160."
+      },
+      {
+        "question": "If a:b = 3:4 and b:c = 2:5, then a:c = ?",
+        "options": { "A": "3:5", "B": "6:20", "C": "3:10", "D": "15:8" },
+        "correct": "C",
+        "explanation": "Make b common. a:b = 6:8; b:c = 8:20. So a:c = 6:20 = 3:10."
+      },
+      {
+        "question": "5 men can do a job in 12 days. How many days for 4 men (inverse)?",
+        "options": { "A": "15", "B": "10", "C": "9.6", "D": "14" },
+        "correct": "A",
+        "explanation": "5 × 12 = 60 man-days. For 4 men: 60/4 = 15 days."
+      },
+      {
+        "question": "If 3 pens cost 45, what do 7 pens cost?",
+        "options": { "A": "90", "B": "105", "C": "120", "D": "135" },
+        "correct": "B",
+        "explanation": "1 pen = 15. 7 pens = 7 × 15 = 105."
+      }
+    ]
+  },
+  {
+    "topic": "Profit Loss & Discount",
+    "section": "quantitative",
+    "summary": "Profit/loss is computed on cost price (CP); discount is on marked price (MP). Selling price (SP) connects them: SP = CP + profit = MP − discount.",
+    "key_rules": [
+      "Profit% = (SP − CP) / CP × 100",
+      "Loss% = (CP − SP) / CP × 100",
+      "Discount% = (MP − SP) / MP × 100",
+      "SP = CP × (1 + profit%/100) or CP × (1 − loss%/100)",
+      "MP × (1 − discount%/100) = SP"
+    ],
+    "worked_examples": [
+      {
+        "question": "CP = 800, SP = 920. Profit%?",
+        "wrong": "12%",
+        "correct": "15%",
+        "why": "(920 − 800)/800 × 100 = 120/800 × 100 = 15%."
+      },
+      {
+        "question": "Marked price = 500, discount = 20%, profit = 20%. Find CP.",
+        "wrong": "400",
+        "correct": "333.33",
+        "why": "SP = 500 × 0.80 = 400. CP × 1.20 = 400, so CP = 400/1.20 = 333.33."
+      }
+    ],
+    "common_mistakes": [
+      "Computing profit% on SP instead of CP",
+      "Computing discount% on CP instead of MP",
+      "Confusing markup with profit",
+      "Forgetting that successive discounts don't add directly"
+    ],
+    "exam_tips": [
+      "Identify CP, SP, MP clearly — they are three different anchors",
+      "Profit/loss base = CP; discount base = MP",
+      "For two successive discounts a%, b%: net = a + b − ab/100"
+    ],
+    "quiz": [
+      {
+        "question": "An item bought for 600 is sold for 750. Profit%?",
+        "options": { "A": "20%", "B": "25%", "C": "15%", "D": "30%" },
+        "correct": "B",
+        "explanation": "(750 − 600)/600 × 100 = 150/600 × 100 = 25%."
+      },
+      {
+        "question": "Marked price = 1000, discount = 10%. Selling price?",
+        "options": { "A": "850", "B": "900", "C": "950", "D": "990" },
+        "correct": "B",
+        "explanation": "1000 × (1 − 0.10) = 900."
+      },
+      {
+        "question": "Successive discounts of 10% and 20%. Single equivalent discount?",
+        "options": { "A": "28%", "B": "30%", "C": "25%", "D": "32%" },
+        "correct": "A",
+        "explanation": "Multiplier: 0.90 × 0.80 = 0.72. Discount = 1 − 0.72 = 28%."
+      },
+      {
+        "question": "CP = 250, loss = 12%. SP?",
+        "options": { "A": "215", "B": "220", "C": "225", "D": "230" },
+        "correct": "B",
+        "explanation": "SP = 250 × (1 − 0.12) = 250 × 0.88 = 220."
+      }
+    ]
+  },
+  {
+    "topic": "Time Speed & Distance",
+    "section": "quantitative",
+    "summary": "The base formula is Distance = Speed × Time. Problems include relative speed (trains, boats), average speed, and unit conversion between km/h and m/s.",
+    "key_rules": [
+      "D = S × T; S = D/T; T = D/S",
+      "1 km/h = 5/18 m/s; 1 m/s = 18/5 km/h",
+      "Relative speed: same direction = S₁ − S₂; opposite = S₁ + S₂",
+      "Average speed = total distance / total time (NOT mean of speeds)",
+      "For two equal distances at speeds a and b: avg = 2ab/(a+b)"
+    ],
+    "worked_examples": [
+      {
+        "question": "A car travels 60 km at 30 km/h and 60 km at 60 km/h. Average speed?",
+        "wrong": "45 km/h",
+        "correct": "40 km/h",
+        "why": "Time = 2 + 1 = 3 h; distance = 120 km; avg = 120/3 = 40. Or use 2ab/(a+b) = 2·30·60/90 = 40."
+      },
+      {
+        "question": "A 200 m train at 72 km/h crosses a pole in how many seconds?",
+        "wrong": "5 s",
+        "correct": "10 s",
+        "why": "72 km/h = 20 m/s. Time = 200/20 = 10 s."
+      }
+    ],
+    "common_mistakes": [
+      "Averaging speeds directly instead of using harmonic mean",
+      "Forgetting to convert km/h to m/s (or vice versa)",
+      "Mixing up relative speed direction",
+      "Ignoring train length when crossing a platform or another train"
+    ],
+    "exam_tips": [
+      "Memorize 1 km/h = 5/18 m/s (multiply by 5/18 to convert km/h → m/s)",
+      "For trains crossing each other, add lengths; for poles, just train length",
+      "Use 2ab/(a+b) shortcut for equal-distance average"
+    ],
+    "quiz": [
+      {
+        "question": "A car travels 240 km in 4 hours. Speed in km/h?",
+        "options": { "A": "50", "B": "55", "C": "60", "D": "65" },
+        "correct": "C",
+        "explanation": "Speed = 240/4 = 60 km/h."
+      },
+      {
+        "question": "Convert 90 km/h to m/s.",
+        "options": { "A": "20", "B": "25", "C": "30", "D": "15" },
+        "correct": "B",
+        "explanation": "90 × 5/18 = 450/18 = 25 m/s."
+      },
+      {
+        "question": "Two trains, 60 km/h and 40 km/h, run toward each other. Relative speed?",
+        "options": { "A": "20 km/h", "B": "100 km/h", "C": "50 km/h", "D": "2400 km/h" },
+        "correct": "B",
+        "explanation": "Opposite directions: add. 60 + 40 = 100 km/h."
+      },
+      {
+        "question": "A goes 30 km at 60 km/h and returns 30 km at 30 km/h. Average speed?",
+        "options": { "A": "40 km/h", "B": "45 km/h", "C": "50 km/h", "D": "36 km/h" },
+        "correct": "A",
+        "explanation": "2·60·30/(60+30) = 3600/90 = 40 km/h."
+      }
+    ]
+  },
+  {
+    "topic": "Work & Pipes",
+    "section": "quantitative",
+    "summary": "Work problems treat the entire job as 1 unit. If A finishes in a days, A's rate = 1/a per day. Combine rates for joint work. Pipes filling/emptying use the same rate logic with positive/negative signs.",
+    "key_rules": [
+      "If A does a job in 'a' days, rate = 1/a per day",
+      "Combined rate of A and B = 1/a + 1/b",
+      "Time together = ab/(a + b)",
+      "Outflow pipe rate is negative when filling a tank",
+      "Work done = rate × time; rates add when working together"
+    ],
+    "worked_examples": [
+      {
+        "question": "A finishes in 10 days, B in 15 days. Together?",
+        "wrong": "12.5 days",
+        "correct": "6 days",
+        "why": "Combined rate = 1/10 + 1/15 = 3/30 + 2/30 = 5/30 = 1/6. Time = 6 days."
+      },
+      {
+        "question": "Pipe A fills tank in 6 hours; pipe B empties it in 12 hours. Both open, time to fill?",
+        "wrong": "4 hours",
+        "correct": "12 hours",
+        "why": "Net rate = 1/6 − 1/12 = 2/12 − 1/12 = 1/12. Time = 12 hours."
+      }
+    ],
+    "common_mistakes": [
+      "Adding times instead of rates",
+      "Forgetting to subtract emptying pipe rate",
+      "Mixing units (hours and days) without converting",
+      "Treating partial work without proportional rate adjustment"
+    ],
+    "exam_tips": [
+      "Always convert to rates (1/time) before combining",
+      "Use ab/(a+b) shortcut for two-person joint time",
+      "Mark filling/draining pipes with + and − signs"
+    ],
+    "quiz": [
+      {
+        "question": "A can do a job in 12 days, B in 18 days. Together they finish in?",
+        "options": { "A": "6 days", "B": "7.2 days", "C": "8 days", "D": "10 days" },
+        "correct": "B",
+        "explanation": "1/12 + 1/18 = 3/36 + 2/36 = 5/36. Time = 36/5 = 7.2 days."
+      },
+      {
+        "question": "A finishes alone in 8 days. With B, in 4.8 days. B alone?",
+        "options": { "A": "10 days", "B": "12 days", "C": "14 days", "D": "16 days" },
+        "correct": "B",
+        "explanation": "1/B = 1/4.8 − 1/8 = 5/24 − 3/24 = 2/24 = 1/12. B = 12 days."
+      },
+      {
+        "question": "Pipe A fills in 4 h; pipe B fills in 6 h. Both open, time to fill?",
+        "options": { "A": "2 h", "B": "2.4 h", "C": "3 h", "D": "5 h" },
+        "correct": "B",
+        "explanation": "1/4 + 1/6 = 3/12 + 2/12 = 5/12. Time = 12/5 = 2.4 h."
+      },
+      {
+        "question": "If 6 workers finish in 10 days, how long for 4 workers?",
+        "options": { "A": "12 days", "B": "13 days", "C": "15 days", "D": "20 days" },
+        "correct": "C",
+        "explanation": "6 × 10 = 60 worker-days. 60/4 = 15 days."
+      }
+    ]
+  },
+  {
+    "topic": "Number Properties & Divisibility",
+    "section": "quantitative",
+    "summary": "Number properties cover primes, factors, multiples, LCM, HCF, divisibility rules, and parity. These are foundational and frequently appear in word problems.",
+    "key_rules": [
+      "Divisibility by 3: digit sum divisible by 3; by 9: digit sum divisible by 9",
+      "Divisibility by 4: last 2 digits divisible by 4; by 8: last 3 digits divisible by 8",
+      "Divisibility by 11: alternating digit sum divisible by 11",
+      "LCM × HCF = product of two numbers",
+      "Prime factorization is unique (fundamental theorem of arithmetic)"
+    ],
+    "worked_examples": [
+      {
+        "question": "Is 123456 divisible by 3?",
+        "wrong": "No",
+        "correct": "Yes",
+        "why": "Digit sum = 1+2+3+4+5+6 = 21, which is divisible by 3."
+      },
+      {
+        "question": "HCF of 12 and 18?",
+        "wrong": "6 by trial",
+        "correct": "6",
+        "why": "12 = 2²×3; 18 = 2×3². HCF = 2×3 = 6."
+      }
+    ],
+    "common_mistakes": [
+      "Confusing factors and multiples",
+      "Forgetting 1 is not prime; 2 is the only even prime",
+      "Mixing up LCM (lowest common multiple) and HCF (highest common factor)",
+      "Errors applying divisibility rules"
+    ],
+    "exam_tips": [
+      "Memorize divisibility rules for 2, 3, 4, 5, 6, 8, 9, 10, 11",
+      "Use prime factorization for HCF/LCM",
+      "Check parity (odd/even) for quick eliminations"
+    ],
+    "quiz": [
+      {
+        "question": "HCF of 24 and 36?",
+        "options": { "A": "6", "B": "12", "C": "8", "D": "18" },
+        "correct": "B",
+        "explanation": "24 = 2³×3; 36 = 2²×3². HCF = 2²×3 = 12."
+      },
+      {
+        "question": "LCM of 4 and 6?",
+        "options": { "A": "12", "B": "24", "C": "10", "D": "8" },
+        "correct": "A",
+        "explanation": "4 = 2²; 6 = 2×3. LCM = 2²×3 = 12."
+      },
+      {
+        "question": "Which is divisible by 11: 1331, 2345, 4567, 7894?",
+        "options": { "A": "1331", "B": "2345", "C": "4567", "D": "7894" },
+        "correct": "A",
+        "explanation": "1331: alternating sum = (1+3) − (3+1) = 0, divisible by 11."
+      },
+      {
+        "question": "How many factors does 12 have?",
+        "options": { "A": "4", "B": "6", "C": "5", "D": "8" },
+        "correct": "B",
+        "explanation": "12 = 2² × 3¹. Factors = (2+1)(1+1) = 6: {1,2,3,4,6,12}."
+      }
+    ]
+  },
+  {
+    "topic": "Probability & Combinatorics",
+    "section": "quantitative",
+    "summary": "Probability = favorable outcomes / total outcomes. Combinatorics counts arrangements (permutations) and selections (combinations). Use factorials and nCr/nPr formulas.",
+    "key_rules": [
+      "P(event) = favorable / total, between 0 and 1",
+      "P(A or B) = P(A) + P(B) − P(A and B)",
+      "P(A and B) for independent = P(A) × P(B)",
+      "Permutations (order matters): nPr = n!/(n−r)!",
+      "Combinations (order doesn't matter): nCr = n!/(r!(n−r)!)"
+    ],
+    "worked_examples": [
+      {
+        "question": "Probability of rolling a 4 on a die?",
+        "wrong": "1/4",
+        "correct": "1/6",
+        "why": "One favorable outcome (4) out of 6 possible (1-6)."
+      },
+      {
+        "question": "Choose 2 from 5 (order doesn't matter)?",
+        "wrong": "20",
+        "correct": "10",
+        "why": "5C2 = 5!/(2!·3!) = (5×4)/(2×1) = 10."
+      }
+    ],
+    "common_mistakes": [
+      "Confusing permutations with combinations",
+      "Adding probabilities of dependent events",
+      "Forgetting to subtract the overlap in P(A or B)",
+      "Computing total outcomes incorrectly"
+    ],
+    "exam_tips": [
+      "Ask: does order matter? If yes, use permutation; if no, combination",
+      "For 'at least one', use complement: 1 − P(none)",
+      "Draw a tree diagram for compound events"
+    ],
+    "quiz": [
+      {
+        "question": "A coin is flipped twice. Probability of two heads?",
+        "options": { "A": "1/2", "B": "1/3", "C": "1/4", "D": "1/8" },
+        "correct": "C",
+        "explanation": "P(HH) = 1/2 × 1/2 = 1/4."
+      },
+      {
+        "question": "How many ways to arrange the letters in CAT?",
+        "options": { "A": "3", "B": "6", "C": "9", "D": "27" },
+        "correct": "B",
+        "explanation": "3! = 6."
+      },
+      {
+        "question": "From 6 people, choose 3 for a committee. How many ways?",
+        "options": { "A": "18", "B": "20", "C": "120", "D": "60" },
+        "correct": "B",
+        "explanation": "6C3 = 6!/(3!·3!) = 720/(6·6) = 20."
+      },
+      {
+        "question": "A bag has 4 red and 6 blue balls. P(red on first draw)?",
+        "options": { "A": "4/10", "B": "6/10", "C": "1/2", "D": "1/4" },
+        "correct": "A",
+        "explanation": "4 red out of 10 total = 4/10 = 2/5."
+      }
+    ]
+  },
+  {
+    "topic": "Geometry & Mensuration",
+    "section": "quantitative",
+    "summary": "Geometry covers angles, triangles, quadrilaterals, and circles. Mensuration computes area, perimeter, surface area, and volume of 2D and 3D shapes.",
+    "key_rules": [
+      "Triangle: area = (1/2) × base × height; sum of angles = 180°",
+      "Right triangle: a² + b² = c² (Pythagoras)",
+      "Circle: area = πr²; circumference = 2πr",
+      "Rectangle: area = l × w; perimeter = 2(l+w)",
+      "Cube: volume = a³; surface = 6a². Cylinder: V = πr²h"
+    ],
+    "worked_examples": [
+      {
+        "question": "Area of a triangle with base 6 and height 4?",
+        "wrong": "24",
+        "correct": "12",
+        "why": "Area = (1/2) × 6 × 4 = 12."
+      },
+      {
+        "question": "Hypotenuse of right triangle with legs 5 and 12?",
+        "wrong": "17",
+        "correct": "13",
+        "why": "√(5² + 12²) = √(25 + 144) = √169 = 13."
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting the (1/2) factor for triangle area",
+      "Confusing radius and diameter (d = 2r)",
+      "Mixing up perimeter and area formulas",
+      "Forgetting units (cm² for area, cm³ for volume)"
+    ],
+    "exam_tips": [
+      "Memorize Pythagorean triples: 3-4-5, 5-12-13, 8-15-17, 7-24-25",
+      "Use π ≈ 22/7 or 3.14 based on answer choices",
+      "Draw diagrams even when given — verify your reading"
+    ],
+    "quiz": [
+      {
+        "question": "Area of a circle with radius 7? (Use π = 22/7)",
+        "options": { "A": "44", "B": "154", "C": "49", "D": "22" },
+        "correct": "B",
+        "explanation": "Area = πr² = 22/7 × 49 = 154."
+      },
+      {
+        "question": "Perimeter of a rectangle 8 × 5?",
+        "options": { "A": "13", "B": "26", "C": "40", "D": "20" },
+        "correct": "B",
+        "explanation": "2(8+5) = 26."
+      },
+      {
+        "question": "Volume of a cube with side 4?",
+        "options": { "A": "16", "B": "32", "C": "64", "D": "96" },
+        "correct": "C",
+        "explanation": "4³ = 64."
+      },
+      {
+        "question": "Hypotenuse of a right triangle with legs 9 and 12?",
+        "options": { "A": "15", "B": "18", "C": "21", "D": "13" },
+        "correct": "A",
+        "explanation": "√(81 + 144) = √225 = 15. (3-4-5 triple scaled by 3.)"
+      }
+    ]
+  },
+  {
+    "topic": "Coordinate Geometry",
+    "section": "quantitative",
+    "summary": "Coordinate geometry places points on an x-y plane and analyzes lines and shapes algebraically. Master distance, midpoint, slope, and line equations.",
+    "key_rules": [
+      "Distance between (x₁,y₁) and (x₂,y₂) = √((x₂−x₁)² + (y₂−y₁)²)",
+      "Midpoint = ((x₁+x₂)/2, (y₁+y₂)/2)",
+      "Slope m = (y₂−y₁)/(x₂−x₁)",
+      "Line equation: y = mx + b (slope-intercept) or y − y₁ = m(x − x₁)",
+      "Parallel lines: equal slopes. Perpendicular: m₁ × m₂ = −1"
+    ],
+    "worked_examples": [
+      {
+        "question": "Distance between (1,2) and (4,6)?",
+        "wrong": "7",
+        "correct": "5",
+        "why": "√((4−1)² + (6−2)²) = √(9+16) = √25 = 5."
+      },
+      {
+        "question": "Slope of the line through (2,3) and (5,9)?",
+        "wrong": "3",
+        "correct": "2",
+        "why": "(9−3)/(5−2) = 6/3 = 2."
+      }
+    ],
+    "common_mistakes": [
+      "Subtracting in the wrong order for slope",
+      "Forgetting to square both differences in distance formula",
+      "Confusing slope with y-intercept",
+      "Mixing up x and y coordinates"
+    ],
+    "exam_tips": [
+      "Plot points roughly to verify your answer makes sense",
+      "Remember vertical lines have undefined slope; horizontal lines have slope 0",
+      "For perpendicular slopes, take negative reciprocal"
+    ],
+    "quiz": [
+      {
+        "question": "Midpoint of (2,4) and (6,10)?",
+        "options": { "A": "(4,7)", "B": "(4,6)", "C": "(3,7)", "D": "(8,14)" },
+        "correct": "A",
+        "explanation": "((2+6)/2, (4+10)/2) = (4, 7)."
+      },
+      {
+        "question": "Distance from origin to (6,8)?",
+        "options": { "A": "10", "B": "14", "C": "12", "D": "48" },
+        "correct": "A",
+        "explanation": "√(36+64) = √100 = 10."
+      },
+      {
+        "question": "Slope of y = 3x + 5?",
+        "options": { "A": "5", "B": "3", "C": "−3", "D": "1/3" },
+        "correct": "B",
+        "explanation": "Slope-intercept form: m = 3."
+      },
+      {
+        "question": "A line perpendicular to y = 2x + 1 has slope?",
+        "options": { "A": "2", "B": "−2", "C": "1/2", "D": "−1/2" },
+        "correct": "D",
+        "explanation": "Negative reciprocal of 2 is −1/2."
+      }
+    ]
+  },
+  {
+    "topic": "Sequences Series & Interest",
+    "section": "quantitative",
+    "summary": "Sequences include arithmetic progressions (AP, constant difference) and geometric progressions (GP, constant ratio). Interest problems (simple and compound) use similar growth formulas.",
+    "key_rules": [
+      "AP nth term: aₙ = a + (n−1)d; sum: Sₙ = n/2 × (2a + (n−1)d)",
+      "GP nth term: aₙ = a·r^(n−1); sum (r≠1): Sₙ = a(r^n − 1)/(r − 1)",
+      "Simple interest: SI = (P × R × T) / 100",
+      "Compound interest: A = P(1 + R/100)^T; CI = A − P",
+      "For annual compounding over T years, multiplier is (1 + r)^T"
+    ],
+    "worked_examples": [
+      {
+        "question": "10th term of AP: 3, 7, 11, ...?",
+        "wrong": "39",
+        "correct": "39",
+        "why": "a=3, d=4. a₁₀ = 3 + 9×4 = 3 + 36 = 39."
+      },
+      {
+        "question": "Simple interest on 5000 at 10% for 2 years?",
+        "wrong": "550",
+        "correct": "1000",
+        "why": "SI = 5000 × 10 × 2 / 100 = 1000."
+      }
+    ],
+    "common_mistakes": [
+      "Off-by-one in nth term: using n instead of (n−1)",
+      "Confusing simple and compound interest formulas",
+      "Forgetting to convert annual rate to per-period for non-annual compounding",
+      "Mixing up common difference (AP) with common ratio (GP)"
+    ],
+    "exam_tips": [
+      "For AP: write first 2-3 terms to confirm difference",
+      "For CI, use multiplier form: A = P × (1+r/100)^T",
+      "Compound minus simple interest for 2 years = P × (R/100)²"
+    ],
+    "quiz": [
+      {
+        "question": "5th term of AP: 2, 5, 8, 11, ...?",
+        "options": { "A": "13", "B": "14", "C": "15", "D": "16" },
+        "correct": "B",
+        "explanation": "a=2, d=3. a₅ = 2 + 4×3 = 14."
+      },
+      {
+        "question": "Sum of first 10 natural numbers?",
+        "options": { "A": "45", "B": "50", "C": "55", "D": "60" },
+        "correct": "C",
+        "explanation": "n(n+1)/2 = 10×11/2 = 55."
+      },
+      {
+        "question": "Simple interest on 8000 at 5% for 3 years?",
+        "options": { "A": "1100", "B": "1200", "C": "1300", "D": "1500" },
+        "correct": "B",
+        "explanation": "SI = 8000 × 5 × 3 / 100 = 1200."
+      },
+      {
+        "question": "Compound interest on 1000 at 10% for 2 years (annual)?",
+        "options": { "A": "200", "B": "210", "C": "220", "D": "100" },
+        "correct": "B",
+        "explanation": "A = 1000 × 1.1² = 1210. CI = 1210 − 1000 = 210."
+      }
+    ]
+  },
+  {
+    "topic": "Quadratic Equations",
+    "section": "quantitative",
+    "summary": "A quadratic equation has the form ax² + bx + c = 0. Solve by factoring, completing the square, or the quadratic formula. The discriminant Δ = b² − 4ac tells you the nature of roots.",
+    "key_rules": [
+      "Quadratic formula: x = (−b ± √(b² − 4ac)) / 2a",
+      "Sum of roots = −b/a; product of roots = c/a",
+      "Discriminant > 0: two real distinct roots; = 0: one repeated; < 0: complex",
+      "Factoring: find two numbers that multiply to ac and add to b",
+      "Vertex of parabola y = ax² + bx + c is at x = −b/(2a)"
+    ],
+    "worked_examples": [
+      {
+        "question": "Solve x² − 5x + 6 = 0.",
+        "wrong": "x = 5, 6",
+        "correct": "x = 2, 3",
+        "why": "Factor: (x−2)(x−3) = 0. Roots are 2 and 3 (which add to 5 and multiply to 6)."
+      },
+      {
+        "question": "Solve x² + 4x − 5 = 0.",
+        "wrong": "x = 1, −5",
+        "correct": "x = 1, −5",
+        "why": "Factor: (x+5)(x−1) = 0. Roots are −5 and 1."
+      }
+    ],
+    "common_mistakes": [
+      "Sign errors when factoring",
+      "Forgetting the ± in the quadratic formula",
+      "Dropping a root (only reporting one solution)",
+      "Confusing sum/product of roots formulas"
+    ],
+    "exam_tips": [
+      "Always try factoring first — fastest method when it works",
+      "If discriminant is a perfect square, factoring will work",
+      "Check answers by plugging back into the original equation"
+    ],
+    "quiz": [
+      {
+        "question": "Solve x² − 7x + 12 = 0.",
+        "options": { "A": "x = 3, 4", "B": "x = 2, 6", "C": "x = 1, 12", "D": "x = −3, −4" },
+        "correct": "A",
+        "explanation": "(x−3)(x−4) = 0. Roots: 3 and 4."
+      },
+      {
+        "question": "Sum of roots of x² − 10x + 21 = 0?",
+        "options": { "A": "7", "B": "10", "C": "21", "D": "−10" },
+        "correct": "B",
+        "explanation": "Sum = −b/a = 10."
+      },
+      {
+        "question": "Discriminant of x² + 2x + 5 = 0?",
+        "options": { "A": "16", "B": "−16", "C": "24", "D": "4" },
+        "correct": "B",
+        "explanation": "b² − 4ac = 4 − 20 = −16."
+      },
+      {
+        "question": "Solve x² − 9 = 0.",
+        "options": { "A": "x = 3 only", "B": "x = ±3", "C": "x = 9", "D": "x = ±9" },
+        "correct": "B",
+        "explanation": "x² = 9 → x = ±3."
+      }
+    ]
+  },
+  {
+    "topic": "Averages & Mixtures",
+    "section": "quantitative",
+    "summary": "Average = sum / count. Mixture problems blend two quantities with different concentrations or values; the alligation rule gives the mixing ratio quickly.",
+    "key_rules": [
+      "Average = total sum / number of items",
+      "Weighted average = Σ(value × weight) / Σ(weight)",
+      "Alligation: ratio = (mean − cheaper) : (dearer − mean)",
+      "Adding/removing an item changes the average — use total sums",
+      "When mixing equal parts, the average of values is the result"
+    ],
+    "worked_examples": [
+      {
+        "question": "Average of 10, 20, 30, 40, 50?",
+        "wrong": "25",
+        "correct": "30",
+        "why": "Sum = 150; count = 5; avg = 30."
+      },
+      {
+        "question": "Mix 10 L milk (cost 30/L) and 20 L milk (cost 60/L). Average cost per liter?",
+        "wrong": "45",
+        "correct": "50",
+        "why": "Weighted avg = (10×30 + 20×60) / 30 = (300 + 1200)/30 = 1500/30 = 50."
+      }
+    ],
+    "common_mistakes": [
+      "Taking unweighted average when weights differ",
+      "Forgetting to update the count when adding/removing items",
+      "Confusing percentage with raw value in mixture",
+      "Using the wrong order in alligation"
+    ],
+    "exam_tips": [
+      "For 'average increases by x', set up: new total = old total + change",
+      "Alligation works visually like a cross — practice it",
+      "Always track both total sum and count"
+    ],
+    "quiz": [
+      {
+        "question": "Average of 12, 15, 18, 21?",
+        "options": { "A": "15", "B": "16", "C": "16.5", "D": "18" },
+        "correct": "C",
+        "explanation": "Sum = 66; count = 4; avg = 16.5."
+      },
+      {
+        "question": "Average of 5 numbers is 20. If one is 30, average of the other 4?",
+        "options": { "A": "17", "B": "17.5", "C": "18", "D": "19" },
+        "correct": "B",
+        "explanation": "Total = 100. Other 4 sum = 70. Avg = 17.5."
+      },
+      {
+        "question": "Mix 4 L of 20% acid with 6 L of 50% acid. Final concentration?",
+        "options": { "A": "30%", "B": "35%", "C": "38%", "D": "40%" },
+        "correct": "C",
+        "explanation": "(4×20 + 6×50)/10 = (80+300)/10 = 380/10 = 38%."
+      },
+      {
+        "question": "Average age of 10 students is 14. A new student joins, new avg = 14.5. New student's age?",
+        "options": { "A": "18", "B": "19", "C": "19.5", "D": "20" },
+        "correct": "C",
+        "explanation": "Old total = 140. New total = 11 × 14.5 = 159.5. New student = 159.5 − 140 = 19.5."
+      }
+    ]
+  },
+  {
+    "topic": "Algebra & Inequalities",
+    "section": "quantitative",
+    "summary": "Algebra manipulates symbols to solve for unknowns. Inequalities follow most algebra rules — except multiplying or dividing by a negative number flips the inequality sign.",
+    "key_rules": [
+      "Same operation on both sides preserves equation/inequality",
+      "Multiplying/dividing inequality by a negative flips the sign",
+      "(a+b)² = a² + 2ab + b²; (a−b)² = a² − 2ab + b²; a² − b² = (a−b)(a+b)",
+      "Solve systems by substitution or elimination",
+      "|x| < a means −a < x < a; |x| > a means x < −a or x > a"
+    ],
+    "worked_examples": [
+      {
+        "question": "Solve 2x + 5 = 17.",
+        "wrong": "x = 11",
+        "correct": "x = 6",
+        "why": "2x = 12; x = 6."
+      },
+      {
+        "question": "Solve −3x > 9.",
+        "wrong": "x > −3",
+        "correct": "x < −3",
+        "why": "Divide by −3: sign flips. x < −3."
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to flip inequality when multiplying by a negative",
+      "Sign errors when distributing a negative",
+      "Squaring both sides without checking extraneous roots",
+      "Mishandling absolute value cases"
+    ],
+    "exam_tips": [
+      "Memorize the three identities: (a+b)², (a−b)², a²−b²",
+      "Check answers by substituting back",
+      "For inequalities, test a value from each interval"
+    ],
+    "quiz": [
+      {
+        "question": "Solve 3x − 7 = 14.",
+        "options": { "A": "x = 5", "B": "x = 7", "C": "x = 9", "D": "x = 21" },
+        "correct": "B",
+        "explanation": "3x = 21; x = 7."
+      },
+      {
+        "question": "Expand (x + 3)².",
+        "options": { "A": "x² + 9", "B": "x² + 3x + 9", "C": "x² + 6x + 9", "D": "x² + 6x + 6" },
+        "correct": "C",
+        "explanation": "(x+3)² = x² + 2·3·x + 9 = x² + 6x + 9."
+      },
+      {
+        "question": "Solve −2x + 6 ≥ 0.",
+        "options": { "A": "x ≥ 3", "B": "x ≤ 3", "C": "x ≥ −3", "D": "x ≤ −3" },
+        "correct": "B",
+        "explanation": "−2x ≥ −6 → divide by −2 and flip: x ≤ 3."
+      },
+      {
+        "question": "If x + y = 10 and x − y = 4, then x = ?",
+        "options": { "A": "5", "B": "6", "C": "7", "D": "8" },
+        "correct": "C",
+        "explanation": "Add equations: 2x = 14, so x = 7."
+      }
+    ]
+  }
+]

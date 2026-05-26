@@ -1,0 +1,863 @@
+[
+  {
+    "topic": "Syllogisms",
+    "section": "analytical",
+    "summary": "Syllogisms test deductive reasoning from two or more premises to a conclusion. You must determine which conclusions necessarily follow, using only the information given, without bringing in real-world knowledge.",
+    "key_rules": [
+      "Treat all premises as true, even if they contradict reality",
+      "'All A are B' does NOT mean 'All B are A'",
+      "'Some A are B' is equivalent to 'Some B are A'",
+      "'No A are B' is equivalent to 'No B are A'",
+      "Two negative premises yield no valid conclusion; two particular (some) premises yield no valid conclusion"
+    ],
+    "worked_examples": [
+      {
+        "question": "Premises: All cats are mammals. All mammals are animals. Conclusion: All cats are animals.",
+        "wrong": "Invalid — we cannot link cats to animals",
+        "correct": "Valid — transitive: cats → mammals → animals",
+        "why": "When 'All A are B' and 'All B are C', then 'All A are C' follows by transitivity."
+      },
+      {
+        "question": "Premises: All dogs are animals. Some animals are wild. Conclusion: Some dogs are wild.",
+        "wrong": "Valid — dogs are animals and some animals are wild",
+        "correct": "Invalid — the 'some wild animals' may not include any dogs",
+        "why": "The middle term 'animals' is not distributed properly; the wild animals could all be non-dogs."
+      }
+    ],
+    "common_mistakes": [
+      "Reversing universal affirmatives ('All A are B' → 'All B are A')",
+      "Drawing positive conclusions from negative premises",
+      "Using outside knowledge instead of pure logic",
+      "Confusing 'some' (at least one) with 'most' or 'many'"
+    ],
+    "exam_tips": [
+      "Draw Venn diagrams quickly for each premise",
+      "If a conclusion only 'might' be true, mark it as not following",
+      "Check each conclusion independently before choosing the answer"
+    ],
+    "quiz": [
+      {
+        "question": "All roses are flowers. Some flowers fade quickly. Which conclusion follows?",
+        "options": {
+          "A": "All roses fade quickly",
+          "B": "Some roses fade quickly",
+          "C": "No roses fade quickly",
+          "D": "None of the above necessarily follows"
+        },
+        "correct": "D",
+        "explanation": "The 'some flowers that fade' may not include any roses. No conclusion necessarily follows."
+      },
+      {
+        "question": "No students are lazy. All lazy people fail. Which follows?",
+        "options": {
+          "A": "All students pass",
+          "B": "No students fail",
+          "C": "Some students are lazy",
+          "D": "None of the above necessarily follows"
+        },
+        "correct": "D",
+        "explanation": "Students aren't lazy, but they could fail for other reasons. 'Lazy people fail' doesn't mean only lazy people fail."
+      },
+      {
+        "question": "All engineers are graduates. Some graduates are unemployed. Conclusion?",
+        "options": {
+          "A": "Some engineers are unemployed",
+          "B": "All engineers are unemployed",
+          "C": "No engineers are unemployed",
+          "D": "None necessarily follows"
+        },
+        "correct": "D",
+        "explanation": "The unemployed graduates may all be non-engineers. Cannot conclude anything definite about engineers."
+      },
+      {
+        "question": "All A are B. All B are C. Therefore?",
+        "options": {
+          "A": "All C are A",
+          "B": "All A are C",
+          "C": "Some C are not A",
+          "D": "No A are C"
+        },
+        "correct": "B",
+        "explanation": "Transitivity: A ⊆ B ⊆ C implies A ⊆ C."
+      }
+    ]
+  },
+  {
+    "topic": "Conditional Logic (If-Then)",
+    "section": "analytical",
+    "summary": "Conditional statements have the form 'If P, then Q'. Only the contrapositive (If not Q, then not P) is logically equivalent. Affirming the consequent and denying the antecedent are classic fallacies.",
+    "key_rules": [
+      "If P → Q, then contrapositive '¬Q → ¬P' is also true",
+      "Converse (Q → P) is NOT necessarily true",
+      "Inverse (¬P → ¬Q) is NOT necessarily true",
+      "'P only if Q' means P → Q (Q is necessary for P)",
+      "'P unless Q' means ¬Q → P, equivalently P or Q"
+    ],
+    "worked_examples": [
+      {
+        "question": "If it rains, the match is cancelled. The match was cancelled. Conclude?",
+        "wrong": "It rained",
+        "correct": "Cannot conclude it rained",
+        "why": "This affirms the consequent. The match could be cancelled for other reasons."
+      },
+      {
+        "question": "If X studies, X passes. X did not pass. Conclude?",
+        "wrong": "X did not study (could be other factors)",
+        "correct": "X did not study",
+        "why": "Contrapositive of 'study → pass' is 'not pass → not study'. This is valid."
+      }
+    ],
+    "common_mistakes": [
+      "Confusing 'if' with 'only if'",
+      "Affirming the consequent: P→Q, Q therefore P",
+      "Denying the antecedent: P→Q, ¬P therefore ¬Q",
+      "Missing that contrapositive flips AND negates"
+    ],
+    "exam_tips": [
+      "Write the contrapositive immediately for every conditional",
+      "Translate 'only if', 'unless', 'requires' into standard P→Q form",
+      "Use symbols (P, Q, →, ¬) on scratch paper"
+    ],
+    "quiz": [
+      {
+        "question": "If the alarm rings, the door is locked. The door is not locked. Therefore:",
+        "options": {
+          "A": "The alarm rang",
+          "B": "The alarm did not ring",
+          "C": "The alarm may or may not have rung",
+          "D": "Cannot be determined"
+        },
+        "correct": "B",
+        "explanation": "Contrapositive: door not locked → alarm did not ring. Valid deduction."
+      },
+      {
+        "question": "Sara goes to the gym only if it is open. Sara went to the gym. Therefore:",
+        "options": {
+          "A": "The gym was open",
+          "B": "The gym was closed",
+          "C": "Cannot determine",
+          "D": "The gym is always open"
+        },
+        "correct": "A",
+        "explanation": "'Only if open' makes 'open' necessary. If she went, gym must be open."
+      },
+      {
+        "question": "If P then Q. Which is logically equivalent?",
+        "options": {
+          "A": "If Q then P",
+          "B": "If not P then not Q",
+          "C": "If not Q then not P",
+          "D": "P and Q"
+        },
+        "correct": "C",
+        "explanation": "Contrapositive (negate both, swap) is the only logical equivalent."
+      },
+      {
+        "question": "Unless you save, you will not retire comfortably. You retired comfortably. Therefore:",
+        "options": {
+          "A": "You saved",
+          "B": "You did not save",
+          "C": "Cannot determine",
+          "D": "Saving is not necessary"
+        },
+        "correct": "A",
+        "explanation": "Translate: ¬save → ¬retire comfortably. Contrapositive: retire comfortably → save."
+      }
+    ]
+  },
+  {
+    "topic": "Strengthen & Weaken Arguments",
+    "section": "analytical",
+    "summary": "These questions ask which option, if true, would most strengthen or weaken a given argument's conclusion. Identify the conclusion and the gap between evidence and conclusion, then choose the answer that closes or widens that gap.",
+    "key_rules": [
+      "Strengthen = adds support to the conclusion or eliminates an alternative explanation",
+      "Weaken = provides a counter-cause, exception, or undermines a key assumption",
+      "The answer must directly relate to the conclusion, not just the topic",
+      "'If true' means accept the option as fact even if it sounds odd",
+      "Ignore answers that are out of scope or merely restate the premise"
+    ],
+    "worked_examples": [
+      {
+        "question": "Argument: Sales rose after the ad campaign, so the campaign worked. Which weakens?",
+        "wrong": "The campaign was expensive",
+        "correct": "A competitor's product was recalled during the same period",
+        "why": "Cost doesn't affect whether the campaign caused sales. A competitor recall is an alternative cause for the sales rise."
+      },
+      {
+        "question": "Argument: Drug X cures headaches because patients who took it felt better. Strengthen?",
+        "wrong": "Patients liked the taste of Drug X",
+        "correct": "A control group given a placebo did not improve",
+        "why": "Eliminating placebo effect strengthens the causal claim that the drug itself caused improvement."
+      }
+    ],
+    "common_mistakes": [
+      "Picking an answer that is true but irrelevant to the conclusion",
+      "Confusing 'weaken the evidence' with 'weaken the conclusion'",
+      "Choosing extreme/absolute statements when the argument is moderate",
+      "Selecting an answer that strengthens when asked to weaken (or vice versa)"
+    ],
+    "exam_tips": [
+      "Pinpoint the conclusion first — usually marked by 'therefore', 'thus', 'so'",
+      "Look for causal claims; alternative causes are the most common weakeners",
+      "Eliminate out-of-scope answers ruthlessly"
+    ],
+    "quiz": [
+      {
+        "question": "Claim: City crime fell because of the new policing strategy. Which weakens the claim?",
+        "options": {
+          "A": "Other cities also saw crime fall this year without changing strategy",
+          "B": "The new strategy was expensive",
+          "C": "Police officers like the new strategy",
+          "D": "Crime statistics are released monthly"
+        },
+        "correct": "A",
+        "explanation": "If crime fell elsewhere without the strategy, the strategy is likely not the cause — a broader trend explains it."
+      },
+      {
+        "question": "Claim: Eating fish improves memory. Strengthen?",
+        "options": {
+          "A": "Fish is expensive in some regions",
+          "B": "A controlled study showed fish-eaters scored 25% higher on memory tests",
+          "C": "Fish contains many nutrients",
+          "D": "People who eat fish often live near coasts"
+        },
+        "correct": "B",
+        "explanation": "A controlled study directly testing the claim provides the strongest support."
+      },
+      {
+        "question": "Argument: This medicine works because most users recovered. Weaken?",
+        "options": {
+          "A": "The illness usually clears up on its own in a week",
+          "B": "The medicine tastes bitter",
+          "C": "The medicine is widely advertised",
+          "D": "Some users took other medicines too"
+        },
+        "correct": "A",
+        "explanation": "If the illness resolves naturally, recovery is not evidence the medicine worked. (D is weaker — only 'some' users.)"
+      },
+      {
+        "question": "Claim: Online classes are inferior because students score lower on tests. Weaken?",
+        "options": {
+          "A": "Online tests are graded more strictly than in-person tests",
+          "B": "Online classes cost less",
+          "C": "Some students prefer online classes",
+          "D": "Many universities offer online classes"
+        },
+        "correct": "A",
+        "explanation": "If grading is stricter online, lower scores don't reflect inferior learning — they reflect the grading difference."
+      }
+    ]
+  },
+  {
+    "topic": "Assumption Questions",
+    "section": "analytical",
+    "summary": "An assumption is an unstated premise the argument needs to be valid. The correct assumption, if negated, would destroy the argument. Use the 'negation test' to verify.",
+    "key_rules": [
+      "An assumption fills the logical gap between evidence and conclusion",
+      "Negation test: if negating the choice destroys the argument, it is the assumption",
+      "Assumptions are NOT stated in the argument — they are required but unsaid",
+      "Avoid choices that are too strong or too broad",
+      "The assumption must be necessary, not merely sufficient or helpful"
+    ],
+    "worked_examples": [
+      {
+        "question": "Argument: We should build a bridge here because traffic is heavy. Assumption?",
+        "wrong": "Bridges are expensive",
+        "correct": "A bridge will reduce traffic problems",
+        "why": "The argument links heavy traffic to building a bridge; it assumes the bridge actually helps with traffic."
+      },
+      {
+        "question": "Argument: Reading novels improves empathy, so schools should require novel reading. Assumption?",
+        "wrong": "Novels are widely available",
+        "correct": "Schools should promote empathy",
+        "why": "The argument leaps from 'improves empathy' to 'schools should require' — it assumes empathy is a school goal."
+      }
+    ],
+    "common_mistakes": [
+      "Choosing a restatement of the conclusion instead of a hidden premise",
+      "Picking an answer that is true but not necessary for the argument",
+      "Selecting extreme assumptions when a modest one suffices",
+      "Confusing assumption with strengthener"
+    ],
+    "exam_tips": [
+      "Ask: what must be true for the conclusion to follow?",
+      "Use the negation test on the top two choices",
+      "Weaker, more conservative assumptions are usually correct"
+    ],
+    "quiz": [
+      {
+        "question": "Argument: Company X should hire more engineers because demand for its products is growing. Assumption?",
+        "options": {
+          "A": "Company X has plenty of money",
+          "B": "More engineers will help meet growing demand",
+          "C": "Engineers are easy to hire",
+          "D": "Demand will grow forever"
+        },
+        "correct": "B",
+        "explanation": "Negate: 'more engineers will NOT help meet demand' — then hiring them makes no sense. This is the necessary assumption."
+      },
+      {
+        "question": "Argument: Vaccinating children reduces disease, so vaccination should be mandatory. Assumption?",
+        "options": {
+          "A": "Vaccines are cheap",
+          "B": "Reducing disease is a desirable goal",
+          "C": "All parents agree with vaccines",
+          "D": "Diseases are dangerous to adults"
+        },
+        "correct": "B",
+        "explanation": "The argument jumps from 'reduces disease' to 'should be mandatory' — assumes disease reduction is worth pursuing."
+      },
+      {
+        "question": "Argument: This restaurant must be good because it is always crowded. Assumption?",
+        "options": {
+          "A": "Crowds indicate quality",
+          "B": "The food is expensive",
+          "C": "Crowds prefer cheap food",
+          "D": "Most restaurants are bad"
+        },
+        "correct": "A",
+        "explanation": "The argument links 'crowded' to 'good' — it assumes crowds reflect quality."
+      },
+      {
+        "question": "Argument: Students who study abroad earn more, so studying abroad causes higher earnings. Assumption?",
+        "options": {
+          "A": "Studying abroad is expensive",
+          "B": "Earnings can be measured",
+          "C": "Other factors do not fully explain the earnings gap",
+          "D": "Most students cannot study abroad"
+        },
+        "correct": "C",
+        "explanation": "The causal claim assumes no confounder (e.g., wealthier families) fully accounts for the earnings difference."
+      }
+    ]
+  },
+  {
+    "topic": "Paradox & Explain",
+    "section": "analytical",
+    "summary": "These questions present two seemingly contradictory facts and ask which option resolves the paradox. The right answer makes both facts simultaneously true without contradiction.",
+    "key_rules": [
+      "Both facts must remain true in the resolution",
+      "The answer must explain WHY both can coexist",
+      "Avoid answers that deny one of the stated facts",
+      "Look for hidden distinctions: time period, subgroup, measurement difference",
+      "The resolution often introduces a missing factor"
+    ],
+    "worked_examples": [
+      {
+        "question": "Paradox: Sales doubled but profits fell. What explains both?",
+        "wrong": "Sales numbers were faked",
+        "correct": "The company sold at heavy discounts",
+        "why": "Discounts allow more sales (doubled) while reducing margins (lower profit). Both facts remain true."
+      },
+      {
+        "question": "Paradox: Crime reports rose but actual crime fell. Explain?",
+        "wrong": "Crime is unpredictable",
+        "correct": "A new reporting hotline encouraged people to report incidents that previously went unreported",
+        "why": "Reports can rise from improved reporting even as underlying crime falls."
+      }
+    ],
+    "common_mistakes": [
+      "Picking an answer that contradicts one of the given facts",
+      "Choosing answers that are out of scope",
+      "Selecting answers that explain only one half of the paradox",
+      "Bringing in irrelevant outside information"
+    ],
+    "exam_tips": [
+      "Restate both facts clearly before reading choices",
+      "The answer often involves a hidden variable",
+      "Eliminate any choice that requires denying a stated fact"
+    ],
+    "quiz": [
+      {
+        "question": "More people are exercising, yet obesity rates are rising. Best explanation?",
+        "options": {
+          "A": "People who exercise eat much more, offsetting the calorie burn",
+          "B": "Exercise has no health benefits",
+          "C": "Obesity rates are measured incorrectly",
+          "D": "Most people lie about exercising"
+        },
+        "correct": "A",
+        "explanation": "If calorie intake rises more than burn, weight increases despite exercise. Both facts remain true."
+      },
+      {
+        "question": "A factory installed safety equipment, yet accidents increased. Resolve?",
+        "options": {
+          "A": "Workers, feeling safer, took greater risks",
+          "B": "Safety equipment is useless",
+          "C": "Accidents were not really counted",
+          "D": "The factory closed"
+        },
+        "correct": "A",
+        "explanation": "Risk compensation: perceived safety leads to riskier behavior, increasing accidents."
+      },
+      {
+        "question": "City raised bus fares; ridership also rose. Resolve?",
+        "options": {
+          "A": "Fares for cars (parking/fuel) rose even more",
+          "B": "Buses became less frequent",
+          "C": "The city's population fell",
+          "D": "People prefer high fares"
+        },
+        "correct": "A",
+        "explanation": "Even higher car costs made buses relatively cheaper, attracting riders despite the fare hike."
+      },
+      {
+        "question": "A school cut the music program; student grades in math improved. Resolve?",
+        "options": {
+          "A": "Time saved was reallocated to extra math instruction",
+          "B": "Music makes students smarter",
+          "C": "Math is easy",
+          "D": "Students stopped attending music"
+        },
+        "correct": "A",
+        "explanation": "Reallocated time to math practice explains the improvement without denying the cut."
+      }
+    ]
+  },
+  {
+    "topic": "Data Interpretation",
+    "section": "analytical",
+    "summary": "DI questions require reading tables, charts, or graphs and performing calculations: percentages, ratios, differences, and trends. Accuracy and speed in extracting and computing values are critical.",
+    "key_rules": [
+      "Read titles, axis labels, and units before computing",
+      "Percentage change = (New − Old) / Old × 100",
+      "Approximate when answer choices are spread out",
+      "Compare like with like (same unit, same time period)",
+      "Watch for stacked vs grouped bar charts"
+    ],
+    "worked_examples": [
+      {
+        "question": "A company's sales: 2020 = 200, 2021 = 250. Percentage increase?",
+        "wrong": "20%",
+        "correct": "25%",
+        "why": "(250 − 200) / 200 × 100 = 50/200 × 100 = 25%."
+      },
+      {
+        "question": "Table: Product A sold 40 units at $10 each; Product B sold 25 units at $20 each. Which has higher revenue?",
+        "wrong": "Product A (more units)",
+        "correct": "Product B ($500 vs $400)",
+        "why": "Revenue = price × quantity. A = 400, B = 500."
+      }
+    ],
+    "common_mistakes": [
+      "Confusing percentage change with percentage point change",
+      "Using wrong base when computing percentage",
+      "Misreading scale (e.g., axis in thousands)",
+      "Not noticing units differ across rows/columns"
+    ],
+    "exam_tips": [
+      "Skim the question before studying the chart — extract only needed data",
+      "For 'closest to' questions, approximate aggressively",
+      "Mark units in your scratch work to avoid mix-ups"
+    ],
+    "quiz": [
+      {
+        "question": "Sales rose from 80 to 100. Percentage increase?",
+        "options": { "A": "20%", "B": "25%", "C": "30%", "D": "80%" },
+        "correct": "B",
+        "explanation": "(100 − 80) / 80 × 100 = 20/80 × 100 = 25%."
+      },
+      {
+        "question": "If 40% of 200 students passed, how many failed?",
+        "options": { "A": "80", "B": "120", "C": "100", "D": "60" },
+        "correct": "B",
+        "explanation": "40% passed = 80; failed = 200 − 80 = 120."
+      },
+      {
+        "question": "A pie chart shows: Food 30%, Rent 40%, Other 30%. If total income is 5000, rent expense is?",
+        "options": { "A": "1500", "B": "2000", "C": "2500", "D": "1800" },
+        "correct": "B",
+        "explanation": "40% of 5000 = 2000."
+      },
+      {
+        "question": "Profit grew from 50 to 75. By what percent?",
+        "options": { "A": "25%", "B": "33.3%", "C": "50%", "D": "75%" },
+        "correct": "C",
+        "explanation": "(75 − 50) / 50 × 100 = 25/50 × 100 = 50%."
+      }
+    ]
+  },
+  {
+    "topic": "Linear Arrangement",
+    "section": "analytical",
+    "summary": "Linear arrangement puzzles require placing people or objects in a row based on clues about positions and relative order. Draw the row, mark fixed positions first, then deduce remaining placements.",
+    "key_rules": [
+      "Number positions 1 through n on scratch paper",
+      "Start with the most concrete clue (fixed position or 'at the end')",
+      "'Immediately' means adjacent; 'between' allows non-adjacent placement",
+      "Track both possibilities when a clue allows multiple options",
+      "'Left of' and 'right of' depend on viewer direction — usually reader's left to right"
+    ],
+    "worked_examples": [
+      {
+        "question": "5 people A, B, C, D, E in a row. A is at position 1. B is immediately right of A. Where is B?",
+        "wrong": "Anywhere right of A",
+        "correct": "Position 2",
+        "why": "'Immediately right' means adjacent, so B is at position 2."
+      },
+      {
+        "question": "P, Q, R, S in a row. P is left of Q. R is right of Q. S is at one end. Where can S be?",
+        "wrong": "Position 2 or 3",
+        "correct": "Position 1 or 4",
+        "why": "S is at an end — only positions 1 or 4 qualify."
+      }
+    ],
+    "common_mistakes": [
+      "Treating 'left of' as 'immediately left of'",
+      "Forgetting to consider mirror-image arrangements",
+      "Not tracking all valid configurations when clues are ambiguous",
+      "Filling in placements based on assumption rather than clues"
+    ],
+    "exam_tips": [
+      "Draw the row clearly with numbered slots",
+      "Use 'cannot be' deductions to narrow possibilities",
+      "Read all clues before placing anyone"
+    ],
+    "quiz": [
+      {
+        "question": "5 people in a row. A is at position 3. B is at position 1. C is immediately right of A. Where is C?",
+        "options": { "A": "Position 2", "B": "Position 4", "C": "Position 5", "D": "Position 1" },
+        "correct": "B",
+        "explanation": "A is at 3; immediately right is position 4."
+      },
+      {
+        "question": "4 students sit in a row. X is left of Y. Y is left of Z. W is at one end. If W is leftmost, who is at position 4?",
+        "options": { "A": "X", "B": "Y", "C": "Z", "D": "Cannot determine" },
+        "correct": "C",
+        "explanation": "W is at position 1. Then X, Y, Z occupy 2, 3, 4 in order, so Z is at 4."
+      },
+      {
+        "question": "5 books on a shelf. Math is at position 2. Science is immediately right of Math. History is at position 5. Where is Science?",
+        "options": { "A": "Position 1", "B": "Position 3", "C": "Position 4", "D": "Position 5" },
+        "correct": "B",
+        "explanation": "Math is at 2, Science immediately right = position 3."
+      },
+      {
+        "question": "P, Q, R, S, T in a row. P is at position 1. T is at position 5. Q is between P and R. R is left of S. Where is S?",
+        "options": { "A": "Position 2", "B": "Position 3", "C": "Position 4", "D": "Position 5" },
+        "correct": "C",
+        "explanation": "P=1, T=5. Q between P and R, R left of S. Order: P, Q, R, S, T → S=4."
+      }
+    ]
+  },
+  {
+    "topic": "Circular Arrangement",
+    "section": "analytical",
+    "summary": "Circular arrangement places people around a round table. Clues use 'opposite', 'left of', 'right of', and 'between'. Direction depends on whether people face inward or outward.",
+    "key_rules": [
+      "Facing center: someone's left is the next person clockwise from their viewpoint",
+      "Facing outward: directions reverse compared to facing inward",
+      "For n people: 'opposite' makes sense only if n is even (positions differ by n/2)",
+      "Fix one person's position to remove rotational symmetry",
+      "Adjacent = immediate neighbor on either side"
+    ],
+    "worked_examples": [
+      {
+        "question": "8 people at round table facing center. A is opposite B. If A is at position 1, where is B?",
+        "wrong": "Position 4",
+        "correct": "Position 5",
+        "why": "Opposite in 8-person table = position + 4. So 1 + 4 = position 5."
+      },
+      {
+        "question": "Facing center, A is to the right of B. What does this mean?",
+        "wrong": "A is clockwise from B",
+        "correct": "A is counter-clockwise from B (from B's viewpoint, right is counter-clockwise when facing inward)",
+        "why": "When B faces center, B's right hand points counter-clockwise."
+      }
+    ],
+    "common_mistakes": [
+      "Confusing facing direction (inward vs outward)",
+      "Mixing up clockwise with 'right'",
+      "Not fixing a reference point (causes rotational ambiguity)",
+      "Forgetting that 'opposite' requires even number of seats"
+    ],
+    "exam_tips": [
+      "Draw the table and label seats by number",
+      "Note the facing direction at the start",
+      "Always fix one person and place others relative to them"
+    ],
+    "quiz": [
+      {
+        "question": "6 people sit around a round table facing center. A is opposite D. If A is at seat 1, D is at?",
+        "options": { "A": "Seat 2", "B": "Seat 3", "C": "Seat 4", "D": "Seat 5" },
+        "correct": "C",
+        "explanation": "Opposite in 6-seat table = +3 seats. 1 + 3 = 4."
+      },
+      {
+        "question": "4 friends face center. P is immediately right of Q. Q is opposite R. Where is P relative to R?",
+        "options": { "A": "Adjacent to R", "B": "Opposite R", "C": "Same seat as R", "D": "Two seats from R" },
+        "correct": "A",
+        "explanation": "Q opposite R; P is next to Q, so P is adjacent to R."
+      },
+      {
+        "question": "8 students at a round table facing center. A is 3 seats clockwise from B. B is opposite C. How many seats clockwise from C is A?",
+        "options": { "A": "1", "B": "3", "C": "5", "D": "7" },
+        "correct": "D",
+        "explanation": "B opposite C = 4 seats. A is 3 clockwise from B = 3 + 4 = 7 clockwise from C."
+      },
+      {
+        "question": "5 people at a round table. Why can't 'A is opposite B' hold?",
+        "options": {
+          "A": "5 is odd, no exact opposite seat exists",
+          "B": "A is taller than B",
+          "C": "Only 4-seat tables allow opposites",
+          "D": "Opposite means adjacent"
+        },
+        "correct": "A",
+        "explanation": "Opposite requires even n. With 5 seats, no seat is directly opposite another."
+      }
+    ]
+  },
+  {
+    "topic": "Blood Relations",
+    "section": "analytical",
+    "summary": "Blood relation problems test family tree reasoning from clues like 'A is B's mother's brother'. Draw a family tree using standard symbols and trace relationships generation by generation.",
+    "key_rules": [
+      "Use symbols: + for male, − for female, = for couple, | for parent-child",
+      "Mother's brother = maternal uncle; father's sister = paternal aunt",
+      "'Only daughter/son' means no siblings of that gender",
+      "'In-law' relations come through marriage",
+      "Generation matters: grandparent → parent → child"
+    ],
+    "worked_examples": [
+      {
+        "question": "A is B's father. B is C's mother. How is A related to C?",
+        "wrong": "Father",
+        "correct": "Grandfather",
+        "why": "A is B's father; B is C's mother. So A is C's mother's father = grandfather."
+      },
+      {
+        "question": "Pointing to a man, Sara says, 'He is my mother's only son's son.' How is the man related to Sara?",
+        "wrong": "Brother",
+        "correct": "Nephew",
+        "why": "Mother's only son = Sara's brother (assuming Sara is female). His son = Sara's nephew."
+      }
+    ],
+    "common_mistakes": [
+      "Confusing maternal and paternal sides",
+      "Reversing the direction of the relation",
+      "Assuming gender when not specified",
+      "Skipping generations in long chains"
+    ],
+    "exam_tips": [
+      "Draw the family tree before answering",
+      "Start from the person being asked about and work backward",
+      "Mark each person's gender as you go"
+    ],
+    "quiz": [
+      {
+        "question": "P is the brother of Q. Q is the daughter of R. How is R related to P?",
+        "options": { "A": "Mother or father", "B": "Brother", "C": "Sister", "D": "Cousin" },
+        "correct": "A",
+        "explanation": "Q is R's daughter; P is Q's brother, so P is also R's child. R is parent (gender not given)."
+      },
+      {
+        "question": "X is Y's father. Y is Z's son. How is X related to Z?",
+        "options": { "A": "Father", "B": "Grandfather", "C": "Uncle", "D": "Brother" },
+        "correct": "B",
+        "explanation": "X → Y → Z is a three-generation chain. X is Z's grandfather."
+      },
+      {
+        "question": "Pointing to a photo, a woman says, 'She is the daughter of my grandfather's only son.' Who is in the photo relative to the woman?",
+        "options": { "A": "Daughter", "B": "Sister", "C": "Cousin", "D": "Niece" },
+        "correct": "B",
+        "explanation": "Grandfather's only son = woman's father. His daughter = woman's sister."
+      },
+      {
+        "question": "A's mother is B's mother-in-law. How could A be related to B?",
+        "options": { "A": "Daughter", "B": "Spouse", "C": "Sister", "D": "Cousin" },
+        "correct": "B",
+        "explanation": "B's mother-in-law is B's spouse's mother. So A's mother = B's spouse's mother, meaning A and B are spouses (siblings of same mother could also fit, but standard answer is spouse)."
+      }
+    ]
+  },
+  {
+    "topic": "Direction Sense",
+    "section": "analytical",
+    "summary": "Direction problems track a person's movement on a compass grid (N, S, E, W) and ask the final position or net displacement. Draw the path and use right-angle geometry.",
+    "key_rules": [
+      "N is up, S is down, E is right, W is left (standard map)",
+      "Right turn from N → E; from E → S; from S → W; from W → N (clockwise)",
+      "Left turn is counter-clockwise (N → W → S → E → N)",
+      "Net displacement uses Pythagoras: √(EW² + NS²)",
+      "Track east-west and north-south components separately"
+    ],
+    "worked_examples": [
+      {
+        "question": "A walks 3 km East, then 4 km North. How far from start?",
+        "wrong": "7 km",
+        "correct": "5 km",
+        "why": "Pythagoras: √(3² + 4²) = √25 = 5."
+      },
+      {
+        "question": "B faces North, turns right, walks 2 km, turns right, walks 3 km. Final direction?",
+        "wrong": "North",
+        "correct": "South",
+        "why": "Right from N = E; right from E = S. Final facing South."
+      }
+    ],
+    "common_mistakes": [
+      "Confusing left/right with East/West",
+      "Forgetting the new facing direction after a turn",
+      "Adding distances instead of computing net displacement",
+      "Mixing clockwise and counter-clockwise"
+    ],
+    "exam_tips": [
+      "Draw a compass on scratch paper",
+      "Update facing direction after every turn",
+      "Sum E−W and N−S separately, then apply Pythagoras for distance"
+    ],
+    "quiz": [
+      {
+        "question": "A man walks 5 km North, then 12 km East. How far is he from start?",
+        "options": { "A": "13 km", "B": "17 km", "C": "7 km", "D": "60 km" },
+        "correct": "A",
+        "explanation": "√(5² + 12²) = √(25 + 144) = √169 = 13."
+      },
+      {
+        "question": "Facing East, you turn right twice. Which way are you facing?",
+        "options": { "A": "North", "B": "South", "C": "East", "D": "West" },
+        "correct": "D",
+        "explanation": "Right from E = S; right from S = W. Final: West."
+      },
+      {
+        "question": "B walks 6 km North, 8 km East, 6 km South. How far from start?",
+        "options": { "A": "8 km", "B": "10 km", "C": "14 km", "D": "20 km" },
+        "correct": "A",
+        "explanation": "Net N-S = 0; net E-W = 8 East. Distance = 8 km."
+      },
+      {
+        "question": "Facing South, you turn left, walk 3 km, turn left, walk 4 km. Which direction is your final facing?",
+        "options": { "A": "North", "B": "East", "C": "South", "D": "West" },
+        "correct": "A",
+        "explanation": "Left from S = E; left from E = N. Final facing: North."
+      }
+    ]
+  },
+  {
+    "topic": "Coding-Decoding",
+    "section": "analytical",
+    "summary": "Coding-decoding tests how letters or numbers are systematically replaced. Common patterns: letter shift (A→B, +1), position number (A=1), reverse alphabet (A=26), or word-to-word substitution.",
+    "key_rules": [
+      "Find the pattern from given pairs first",
+      "Letter shift: each letter moves by a fixed number forward/backward",
+      "Number pattern: position of letter (A=1, Z=26) or reverse (A=26, Z=1)",
+      "Word substitution: certain words consistently mean other words",
+      "Check consistency across all given examples before applying"
+    ],
+    "worked_examples": [
+      {
+        "question": "If CAT = DBU, then DOG = ?",
+        "wrong": "EQH",
+        "correct": "EPH",
+        "why": "Each letter shifts +1: C→D, A→B, T→U. So D→E, O→P, G→H = EPH."
+      },
+      {
+        "question": "If 'sky is blue' = 'pa la ma' and 'sky is wide' = 'pa la ta', what is 'wide'?",
+        "wrong": "pa",
+        "correct": "ta",
+        "why": "Both phrases share 'sky is' = 'pa la'. The differing word 'wide' must = 'ta'."
+      }
+    ],
+    "common_mistakes": [
+      "Assuming a pattern from one example without checking others",
+      "Confusing forward vs backward letter shifts",
+      "Missing that the shift can vary by position",
+      "Treating coded letters as fixed substitutions when they actually shift"
+    ],
+    "exam_tips": [
+      "Write out the alphabet with positions (A=1, B=2, ... Z=26)",
+      "Check the pattern on all given pairs, not just one",
+      "If letters and positions seem mixed, try reverse alphabet (A=26)"
+    ],
+    "quiz": [
+      {
+        "question": "If BOOK = CPPL, then DESK = ?",
+        "options": { "A": "EFTL", "B": "EFTM", "C": "EGTL", "D": "DFTM" },
+        "correct": "A",
+        "explanation": "Each letter +1: D→E, E→F, S→T, K→L = EFTL."
+      },
+      {
+        "question": "If A=1, B=2, ... Z=26, what is CAB?",
+        "options": { "A": "3-1-2", "B": "1-2-3", "C": "3-2-1", "D": "2-1-3" },
+        "correct": "A",
+        "explanation": "C=3, A=1, B=2 → 3-1-2."
+      },
+      {
+        "question": "If 'red' = 'sfe' and 'blue' = 'cmvf', what is 'green'?",
+        "options": { "A": "hsffo", "B": "hsffn", "C": "gsffo", "D": "hreen" },
+        "correct": "A",
+        "explanation": "Each letter +1: g→h, r→s, e→f, e→f, n→o = hsffo."
+      },
+      {
+        "question": "If CODE = 3-15-4-5 (position numbers), what is FACE?",
+        "options": { "A": "6-1-3-5", "B": "5-1-3-6", "C": "6-1-2-5", "D": "6-2-3-5" },
+        "correct": "A",
+        "explanation": "F=6, A=1, C=3, E=5 → 6-1-3-5."
+      }
+    ]
+  },
+  {
+    "topic": "Ranking & Ordering",
+    "section": "analytical",
+    "summary": "Ranking problems give partial information about positions in a sequence (tallest, oldest, scores) and ask for someone's rank or the total count. Use the formula: rank from top + rank from bottom = total + 1.",
+    "key_rules": [
+      "Rank from top + Rank from bottom = Total + 1",
+      "If A is x from top and y from bottom: total = x + y − 1",
+      "Use number line for height/age comparisons",
+      "'Between' includes only people strictly between, not the endpoints",
+      "Same rank from both ends is the middle (works only for odd totals)"
+    ],
+    "worked_examples": [
+      {
+        "question": "In a class, A is 7th from top and 18th from bottom. Total students?",
+        "wrong": "25",
+        "correct": "24",
+        "why": "Total = 7 + 18 − 1 = 24."
+      },
+      {
+        "question": "If B is 5 ranks above C and C is 12th from top, what is B's rank from top?",
+        "wrong": "17th",
+        "correct": "7th",
+        "why": "Above means smaller rank number. B is 12 − 5 = 7th from top."
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to subtract 1 in the rank formula",
+      "Confusing 'above' (higher rank, lower number) with 'below'",
+      "Counting endpoints when 'between' is given",
+      "Mixing rank from top and bottom"
+    ],
+    "exam_tips": [
+      "Memorize: top + bottom − 1 = total",
+      "Draw a vertical line for ranks: 1 at top, n at bottom",
+      "Translate 'taller', 'older', 'higher score' into rank direction"
+    ],
+    "quiz": [
+      {
+        "question": "In a row of 30 children, M is 12th from the left. What is his rank from the right?",
+        "options": { "A": "18", "B": "19", "C": "20", "D": "17" },
+        "correct": "B",
+        "explanation": "Rank from right = 30 − 12 + 1 = 19."
+      },
+      {
+        "question": "A is 8th from the top, B is 15th from the top. How many students are between A and B?",
+        "options": { "A": "5", "B": "6", "C": "7", "D": "8" },
+        "correct": "B",
+        "explanation": "Positions 9, 10, 11, 12, 13, 14 — that's 6 students between."
+      },
+      {
+        "question": "In a queue, P is 7th from front and 9th from back. How many people in queue?",
+        "options": { "A": "15", "B": "16", "C": "17", "D": "14" },
+        "correct": "A",
+        "explanation": "Total = 7 + 9 − 1 = 15."
+      },
+      {
+        "question": "X scored higher than Y but lower than Z. W scored lowest. Who is second highest?",
+        "options": { "A": "X", "B": "Y", "C": "Z", "D": "Cannot determine" },
+        "correct": "A",
+        "explanation": "Order: Z > X > Y > W. Second highest is X."
+      }
+    ]
+  }
+]
