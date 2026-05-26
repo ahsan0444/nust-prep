@@ -1,0 +1,128 @@
+[
+  {
+    "topic": "Subject-Verb Agreement",
+    "section": "verbal",
+    "summary": "Subjects and verbs must agree in number and person. A singular subject requires a singular verb; a plural subject requires a plural verb. The key challenge is identifying the true subject when intervening phrases are present.",
+    "key_rules": [
+      "Singular subjects take singular verbs: 'The dog runs'",
+      "Plural subjects take plural verbs: 'The dogs run'",
+      "Intervening phrases between subject and verb do not affect agreement",
+      "Collective nouns (team, committee) take singular verbs in standard usage"
+    ],
+    "worked_examples": [
+      {
+        "question": "Identify the error:",
+        "wrong": "The quality of the reports were poor.",
+        "correct": "The quality of the reports was poor.",
+        "why": "Subject is 'quality' (singular), not 'reports'. 'of the reports' is an intervening phrase."
+      },
+      {
+        "question": "Choose the correct form:",
+        "wrong": "Neither the manager nor the employees was present.",
+        "correct": "Neither the manager nor the employees were present.",
+        "why": "With 'neither...nor', verb agrees with the closer subject: 'employees' (plural)."
+      }
+    ],
+    "common_mistakes": [
+      "Agreeing with the nearest noun instead of the true subject",
+      "Treating collective nouns as plural",
+      "Errors with neither/nor and either/or constructions"
+    ],
+    "exam_tips": [
+      "Cross out prepositional phrases to isolate the true subject",
+      "For neither/nor and either/or, verb agrees with the subject closest to it"
+    ],
+    "quiz": [
+      {
+        "question": "Choose the correct sentence:",
+        "options": {
+          "A": "The group of students are working hard.",
+          "B": "The group of students is working hard.",
+          "C": "The groups of student are working hard.",
+          "D": "The group of students were working hard."
+        },
+        "correct": "B",
+        "explanation": "'Group' is the singular subject; 'of students' is an intervening phrase. Singular subject takes singular verb 'is'."
+      },
+      {
+        "question": "Which sentence has correct subject-verb agreement?",
+        "options": {
+          "A": "Neither the teacher nor the students was ready.",
+          "B": "Neither the teacher nor the students were ready.",
+          "C": "Neither the teachers nor the student were ready.",
+          "D": "Neither the teacher nor the student are ready."
+        },
+        "correct": "B",
+        "explanation": "With neither/nor, the verb agrees with the closer subject: 'students' (plural) → 'were'."
+      },
+      {
+        "question": "Select the correctly constructed sentence:",
+        "options": {
+          "A": "Each of the candidates have submitted their forms.",
+          "B": "Each of the candidates has submitted their forms.",
+          "C": "Each of the candidate have submitted their form.",
+          "D": "Each of the candidates have submitted his forms."
+        },
+        "correct": "B",
+        "explanation": "'Each' is always singular regardless of the following phrase. 'Each...has' is correct."
+      }
+    ]
+  },
+  {
+    "topic": "Parallelism & Sentence Structure",
+    "section": "verbal",
+    "summary": "Parallelism requires that grammatically equal ideas be expressed in the same grammatical form. When items appear in a list or comparison, they must all use the same part of speech and structure.",
+    "key_rules": [
+      "Items in a list must use the same grammatical form",
+      "Comparisons must use matching structures",
+      "Correlative conjunctions (both/and, either/or, not only/but also) require parallel elements"
+    ],
+    "worked_examples": [
+      {
+        "question": "Fix the parallelism error:",
+        "wrong": "She enjoys reading, writing, and to swim.",
+        "correct": "She enjoys reading, writing, and swimming.",
+        "why": "'to swim' is an infinitive; it must be a gerund like the other items: 'swimming'."
+      },
+      {
+        "question": "Identify the error in this comparison:",
+        "wrong": "Running is more enjoyable than to cycle.",
+        "correct": "Running is more enjoyable than cycling.",
+        "why": "Both sides of a comparison must use the same form. 'Running' is a gerund, so 'cycling' must match."
+      }
+    ],
+    "common_mistakes": [
+      "Mixing infinitives (to run) with gerunds (running) in the same list",
+      "Inconsistent tense in parallel clauses",
+      "Forgetting to repeat articles or prepositions in formal parallel structures"
+    ],
+    "exam_tips": [
+      "Scan sentences for lists and comparisons first — they are the most common parallelism test site",
+      "Identify the first item's form, then verify all other items match"
+    ],
+    "quiz": [
+      {
+        "question": "Which sentence is correctly parallel?",
+        "options": {
+          "A": "He likes to run, swimming, and cycling.",
+          "B": "He likes running, to swim, and cycling.",
+          "C": "He likes running, swimming, and cycling.",
+          "D": "He likes to run, to swim, and cycles."
+        },
+        "correct": "C",
+        "explanation": "Option C uses all gerunds (-ing forms): running, swimming, cycling. All items are grammatically identical."
+      },
+      {
+        "question": "Identify the parallel error:",
+        "options": {
+          "A": "The report was thorough, accurate, and well-written.",
+          "B": "The report was thorough, accurate, and written well.",
+          "C": "The report was thorough, accurately done, and well-written.",
+          "D": "The report was thorough, accurate, and concise."
+        },
+        "correct": "C",
+        "explanation": "'Thorough' and 'well-written' are adjectives; 'accurately done' is an adverb+verb phrase. It breaks the adjective pattern."
+      }
+    ]
+  }
+]
