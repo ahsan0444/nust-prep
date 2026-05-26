@@ -2,126 +2,793 @@
   {
     "topic": "Subject-Verb Agreement",
     "section": "verbal",
-    "summary": "Subjects and verbs must agree in number and person. A singular subject requires a singular verb; a plural subject requires a plural verb. The key challenge is identifying the true subject when intervening phrases are present.",
+    "summary": "Subject-verb agreement requires that a verb match its subject in number (singular or plural) and person. The challenge on NUST GNET is rarely a simple 'he runs / they run' case; instead, the test buries the true subject behind prepositional phrases, relative clauses, or inverted word order. Indefinite pronouns (everyone, each, neither), collective nouns (team, jury, family), and compound subjects joined by 'or/nor' each follow their own rules. Quantifiers such as 'none', 'some', 'all', and 'most' can be singular or plural depending on the noun they refer to. Mastery means identifying the head noun of the subject and ignoring intervening modifiers.",
     "key_rules": [
-      "Singular subjects take singular verbs: 'The dog runs'",
-      "Plural subjects take plural verbs: 'The dogs run'",
-      "Intervening phrases between subject and verb do not affect agreement",
-      "Collective nouns (team, committee) take singular verbs in standard usage"
+      "The verb agrees with the subject, not with a noun in a phrase between them — e.g., 'The box of chocolates is on the table' (subject is 'box', not 'chocolates').",
+      "Indefinite pronouns like 'each', 'every', 'either', 'neither', 'everyone', 'somebody', and 'nobody' always take a singular verb — e.g., 'Each of the students has a book.'",
+      "When subjects are joined by 'or' or 'nor', the verb agrees with the nearer subject — e.g., 'Neither the manager nor the employees were informed.'",
+      "Collective nouns (team, committee, jury, family) take a singular verb when acting as a unit and a plural verb when members act individually — e.g., 'The jury has reached a verdict' vs 'The jury are divided in their opinions.'",
+      "'None', 'some', 'all', 'most', and 'any' take a singular verb with uncountable nouns and a plural verb with countable plurals — e.g., 'Some of the water is gone' vs 'Some of the books are missing.'",
+      "Inverted sentences beginning with 'there is/are' or 'here is/are' must agree with the real subject that follows — e.g., 'There are several reasons for this decision.'"
     ],
     "worked_examples": [
       {
-        "question": "Identify the error:",
-        "wrong": "The quality of the reports were poor.",
-        "correct": "The quality of the reports was poor.",
-        "why": "Subject is 'quality' (singular), not 'reports'. 'of the reports' is an intervening phrase."
+        "question": "Identify the correct form: 'The list of items _____ on the desk.'",
+        "wrong": "The list of items are on the desk.",
+        "correct": "The list of items is on the desk.",
+        "why": "The grammatical subject is 'list' (singular), not 'items'. The phrase 'of items' is a prepositional modifier that does not affect verb number. Strip away prepositional phrases between the subject and verb to expose the true head noun."
       },
       {
-        "question": "Choose the correct form:",
-        "wrong": "Neither the manager nor the employees was present.",
-        "correct": "Neither the manager nor the employees were present.",
-        "why": "With 'neither...nor', verb agrees with the closer subject: 'employees' (plural)."
+        "question": "Choose the correct verb: 'Neither the captain nor the players _____ ready for the match.'",
+        "wrong": "Neither the captain nor the players is ready for the match.",
+        "correct": "Neither the captain nor the players are ready for the match.",
+        "why": "With 'neither...nor' (or 'either...or'), the verb agrees with the subject closest to it. Since 'players' is plural and sits nearer to the verb, the plural form 'are' is required. Had the order been reversed ('Neither the players nor the captain'), the verb would be 'is'."
+      },
+      {
+        "question": "Pick the correct version: 'Every one of the candidates _____ submitted the form.'",
+        "wrong": "Every one of the candidates have submitted the form.",
+        "correct": "Every one of the candidates has submitted the form.",
+        "why": "'Every one' (two words) emphasises each individual and is singular, so it takes 'has'. The prepositional phrase 'of the candidates' is a distractor. Note this is different from 'everyone' (one word, also singular) — both demand singular verbs."
       }
     ],
     "common_mistakes": [
-      "Agreeing with the nearest noun instead of the true subject",
-      "Treating collective nouns as plural",
-      "Errors with neither/nor and either/or constructions"
+      "Letting a plural noun inside a prepositional phrase 'pull' the verb plural — students see 'of the students' and write 'are' even though the real subject is singular.",
+      "Treating 'each', 'every', and 'either' as plural because they refer to a group; these are grammatically singular regardless of how many items they survey.",
+      "Applying the 'closest subject' rule to 'and' constructions; 'and' almost always creates a plural subject ('Tom and Jerry are friends'), unlike 'or/nor'.",
+      "Misjudging collective nouns by mechanically picking singular; context decides — if the group acts together it is singular, if members act separately it is plural."
     ],
     "exam_tips": [
-      "Cross out prepositional phrases to isolate the true subject",
-      "For neither/nor and either/or, verb agrees with the subject closest to it"
+      "Bracket out every prepositional phrase before choosing the verb — this exposes the real subject in two seconds.",
+      "When you see 'neither/either ... nor/or', underline the second subject; that is the one the verb must match.",
+      "If the sentence starts with 'There/Here', read past the verb to find the real subject before deciding singular or plural.",
+      "Memorise the singular indefinites: each, every, either, neither, anyone, everyone, someone, nobody, anybody — they appear in almost every GNET sentence-correction question."
     ],
     "quiz": [
       {
-        "question": "Choose the correct sentence:",
-        "options": {
-          "A": "The group of students are working hard.",
-          "B": "The group of students is working hard.",
-          "C": "The groups of student are working hard.",
-          "D": "The group of students were working hard."
-        },
+        "question": "The team of researchers _____ published its findings last week.",
+        "options": {"A": "have", "B": "has", "C": "are", "D": "were"},
         "correct": "B",
-        "explanation": "'Group' is the singular subject; 'of students' is an intervening phrase. Singular subject takes singular verb 'is'."
+        "explanation": "'Team' is a collective noun acting as a single unit (one publication, one set of findings), and the possessive 'its' confirms singular treatment. Therefore 'has' is correct."
       },
       {
-        "question": "Which sentence has correct subject-verb agreement?",
-        "options": {
-          "A": "Neither the teacher nor the students was ready.",
-          "B": "Neither the teacher nor the students were ready.",
-          "C": "Neither the teachers nor the student were ready.",
-          "D": "Neither the teacher nor the student are ready."
-        },
-        "correct": "B",
-        "explanation": "With neither/nor, the verb agrees with the closer subject: 'students' (plural) → 'were'."
+        "question": "Each of the boys _____ given a separate room.",
+        "options": {"A": "were", "B": "are", "C": "was", "D": "have been"},
+        "correct": "C",
+        "explanation": "'Each' is always singular, regardless of the plural noun in the of-phrase. The passive past form 'was given' matches the singular subject."
       },
       {
-        "question": "Select the correctly constructed sentence:",
-        "options": {
-          "A": "Each of the candidates have submitted their forms.",
-          "B": "Each of the candidates has submitted their forms.",
-          "C": "Each of the candidate have submitted their form.",
-          "D": "Each of the candidates have submitted his forms."
-        },
+        "question": "Neither the students nor the teacher _____ aware of the change.",
+        "options": {"A": "are", "B": "were", "C": "have been", "D": "was"},
+        "correct": "D",
+        "explanation": "With 'neither...nor', the verb matches the nearer subject. 'Teacher' is singular and closest to the verb, so 'was' is correct."
+      },
+      {
+        "question": "There _____ a number of reasons why the project failed.",
+        "options": {"A": "is", "B": "are", "C": "was", "D": "has been"},
         "correct": "B",
-        "explanation": "'Each' is always singular regardless of the following phrase. 'Each...has' is correct."
+        "explanation": "The idiom 'a number of' is plural ('a number of reasons' = many reasons). Contrast with 'the number of', which is singular."
+      },
+      {
+        "question": "Mathematics _____ my favourite subject.",
+        "options": {"A": "are", "B": "is", "C": "were", "D": "have been"},
+        "correct": "B",
+        "explanation": "Academic disciplines ending in -ics (mathematics, physics, economics) take singular verbs when referring to the field of study."
       }
     ]
   },
   {
     "topic": "Parallelism & Sentence Structure",
     "section": "verbal",
-    "summary": "Parallelism requires that grammatically equal ideas be expressed in the same grammatical form. When items appear in a list or comparison, they must all use the same part of speech and structure.",
+    "summary": "Parallelism means that items joined by coordinating conjunctions ('and', 'or', 'but'), correlative pairs ('not only...but also', 'either...or', 'both...and'), or comparison words ('than', 'as') must share the same grammatical form. A list of verbs must all be in the same tense and form; a list of nouns must all be nouns; a list of clauses must follow the same structure. NUST GNET frequently mixes a gerund with an infinitive, a noun with a clause, or an active with a passive form to test whether the candidate can detect structural imbalance. Strong parallelism also improves rhythm and readability, making it a marker of refined writing.",
     "key_rules": [
-      "Items in a list must use the same grammatical form",
-      "Comparisons must use matching structures",
-      "Correlative conjunctions (both/and, either/or, not only/but also) require parallel elements"
+      "Items in a series must share identical grammatical form — e.g., 'She likes reading, writing, and painting' (all gerunds), not 'reading, writing, and to paint'.",
+      "After correlative conjunctions, the structure following each part of the pair must mirror the other — e.g., 'not only fast but also accurate' (adjective + adjective).",
+      "Comparisons using 'than' or 'as' require parallel elements on both sides — e.g., 'Driving is faster than taking the bus', not 'than to take the bus'.",
+      "When listing clauses, repeat the introductory word ('that', 'who', 'because') for clarity — e.g., 'He said that he was tired and that he would rest.'",
+      "Parallel verbs must agree in tense and voice — e.g., 'The report was written, edited, and submitted' (all passive past), not 'was written, edited, and they submitted it'.",
+      "Prepositions in parallel structures can be repeated for clarity if the objects take different prepositions — e.g., 'She is interested in and committed to the project.'"
     ],
     "worked_examples": [
       {
-        "question": "Fix the parallelism error:",
-        "wrong": "She enjoys reading, writing, and to swim.",
-        "correct": "She enjoys reading, writing, and swimming.",
-        "why": "'to swim' is an infinitive; it must be a gerund like the other items: 'swimming'."
+        "question": "Correct this sentence: 'The job requires typing, filing, and to answer phones.'",
+        "wrong": "The job requires typing, filing, and to answer phones.",
+        "correct": "The job requires typing, filing, and answering phones.",
+        "why": "'Typing' and 'filing' are gerunds (-ing forms), so the third item must also be a gerund: 'answering'. Mixing a gerund with an infinitive ('to answer') breaks parallelism. The fix preserves the noun-like list structure."
       },
       {
-        "question": "Identify the error in this comparison:",
-        "wrong": "Running is more enjoyable than to cycle.",
-        "correct": "Running is more enjoyable than cycling.",
-        "why": "Both sides of a comparison must use the same form. 'Running' is a gerund, so 'cycling' must match."
+        "question": "Fix the correlative pair: 'She is not only intelligent but also works hard.'",
+        "wrong": "She is not only intelligent but also works hard.",
+        "correct": "She is not only intelligent but also hardworking.",
+        "why": "'Not only X but also Y' requires X and Y to be the same part of speech. 'Intelligent' is an adjective, so the second element must also be an adjective ('hardworking'), not a verb phrase ('works hard'). Alternatively, rewrite as 'not only works intelligently but also works hard'."
+      },
+      {
+        "question": "Repair the comparison: 'Reading novels is more enjoyable than to watch films.'",
+        "wrong": "Reading novels is more enjoyable than to watch films.",
+        "correct": "Reading novels is more enjoyable than watching films.",
+        "why": "Both sides of 'than' must match in form. Since the first side uses a gerund ('reading'), the second must also use a gerund ('watching'), not an infinitive. Comparison structures are a favourite GNET trap because the error sounds plausible aloud."
       }
     ],
     "common_mistakes": [
-      "Mixing infinitives (to run) with gerunds (running) in the same list",
-      "Inconsistent tense in parallel clauses",
-      "Forgetting to repeat articles or prepositions in formal parallel structures"
+      "Switching between gerunds and infinitives mid-list — writers often mix '-ing' verbs with 'to + verb' forms because both can function as nouns, but they are not interchangeable in a single list.",
+      "Forgetting that 'not only...but also' demands strict structural symmetry on both sides; many candidates focus only on meaning and overlook form.",
+      "Comparing unlike grammatical categories with 'than' or 'as' — for example, comparing a noun to a clause ('His salary is higher than I earn').",
+      "Treating each item in a list independently rather than as part of a structural set, leading to inconsistent tense or voice (active vs passive) across items."
     ],
     "exam_tips": [
-      "Scan sentences for lists and comparisons first — they are the most common parallelism test site",
-      "Identify the first item's form, then verify all other items match"
+      "When you see a list of three or more items, line them up vertically in your head and check that each begins with the same part of speech.",
+      "For 'not only...but also' and 'either...or' questions, cover the conjunctions and read what comes immediately after each — those chunks must be grammatically identical.",
+      "On comparison questions, ask: 'Am I comparing the same kinds of things?' If one side is an action and the other a thing, the sentence is broken.",
+      "Parallelism errors are among the most reliably testable on GNET — if a long sentence with a list 'sounds off', this is usually why."
     ],
     "quiz": [
       {
-        "question": "Which sentence is correctly parallel?",
-        "options": {
-          "A": "He likes to run, swimming, and cycling.",
-          "B": "He likes running, to swim, and cycling.",
-          "C": "He likes running, swimming, and cycling.",
-          "D": "He likes to run, to swim, and cycles."
-        },
-        "correct": "C",
-        "explanation": "Option C uses all gerunds (-ing forms): running, swimming, cycling. All items are grammatically identical."
+        "question": "Choose the most parallel sentence.",
+        "options": {"A": "He enjoys swimming, hiking, and to cycle.", "B": "He enjoys swimming, hiking, and cycling.", "C": "He enjoys to swim, hiking, and cycling.", "D": "He enjoys swim, hike, and cycle."},
+        "correct": "B",
+        "explanation": "All three items are gerunds ('swimming', 'hiking', 'cycling'), giving the list uniform grammatical form. The other options mix infinitives or bare verbs into a gerund series."
       },
       {
-        "question": "Identify the parallel error:",
-        "options": {
-          "A": "The report was thorough, accurate, and well-written.",
-          "B": "The report was thorough, accurate, and written well.",
-          "C": "The report was thorough, accurately done, and well-written.",
-          "D": "The report was thorough, accurate, and concise."
-        },
+        "question": "Which sentence correctly uses 'not only...but also'?",
+        "options": {"A": "She not only sings well but also a great dancer.", "B": "She is not only a great singer but also dances well.", "C": "She is not only a great singer but also a great dancer.", "D": "She not only is a singer but also dances."},
         "correct": "C",
-        "explanation": "'Thorough' and 'well-written' are adjectives; 'accurately done' is an adverb+verb phrase. It breaks the adjective pattern."
+        "explanation": "Both elements ('a great singer' and 'a great dancer') are noun phrases following 'is', making the structure perfectly parallel."
+      },
+      {
+        "question": "Identify the parallel comparison.",
+        "options": {"A": "Walking is healthier than to run.", "B": "Walking is healthier than running.", "C": "To walk is healthier than running.", "D": "Walking is healthier than you run."},
+        "correct": "B",
+        "explanation": "Both sides of 'than' are gerunds, preserving parallel form. The other options mix infinitives, gerunds, or clauses."
+      },
+      {
+        "question": "Which sentence is grammatically parallel?",
+        "options": {"A": "The proposal was clear, concise, and it had persuasive arguments.", "B": "The proposal was clear, concise, and persuasive.", "C": "The proposal was clear, conciseness, and persuasive.", "D": "The proposal was clearly, concisely, and persuasive."},
+        "correct": "B",
+        "explanation": "Three adjectives in a row ('clear', 'concise', 'persuasive') describe 'proposal' uniformly. The other options break the pattern with a clause, a noun, or adverbs."
+      }
+    ]
+  },
+  {
+    "topic": "Modifier Placement",
+    "section": "verbal",
+    "summary": "A modifier is a word or phrase that describes another element in a sentence. Misplaced modifiers sit too far from the word they describe, creating ambiguity or absurdity, while dangling modifiers describe a word that is not actually in the sentence. Introductory participial phrases ('Walking down the street,...') are particularly dangerous because their implicit subject must match the grammatical subject of the main clause. NUST GNET tests this by placing a vivid modifier next to the wrong noun, often producing humorous misreadings. The cure is always to put the modifier right next to the word it describes, or to rewrite so that the modified word becomes the subject.",
+    "key_rules": [
+      "Place modifiers as close as possible to the word they describe — e.g., 'She almost drove her kids to school every day' (she nearly drove, but didn't) vs 'She drove her kids to school almost every day' (most days).",
+      "An introductory participial phrase must modify the subject of the following main clause — e.g., 'Running to the bus, Ali tripped' (Ali was running), not 'Running to the bus, the pavement was wet'.",
+      "Limiting modifiers ('only', 'just', 'almost', 'nearly', 'even') change meaning based on position — e.g., 'Only she loves him' vs 'She loves only him' carry different meanings.",
+      "Squinting modifiers (those that could modify the word before or after them) must be repositioned to remove ambiguity — e.g., 'Students who study often pass exams' should be 'Students who often study pass exams.'",
+      "When a sentence opens with a participle, gerund phrase, or infinitive, ensure the subject performing that action appears immediately after the comma — e.g., 'To pass the test, students must practice' (students do the passing).",
+      "Long modifying phrases should be split or relocated if they separate subject from verb awkwardly — e.g., rewrite 'The book, which was written by an author who lived in the eighteenth century and travelled extensively, sold poorly.'"
+    ],
+    "worked_examples": [
+      {
+        "question": "Fix the dangler: 'Walking through the park, the flowers looked beautiful.'",
+        "wrong": "Walking through the park, the flowers looked beautiful.",
+        "correct": "Walking through the park, I thought the flowers looked beautiful.",
+        "why": "The introductory phrase 'Walking through the park' implies a human walker, but the main clause's subject is 'the flowers' — flowers cannot walk. Adding a clear subject ('I') fixes the dangle. Alternatively: 'As I walked through the park, the flowers looked beautiful.'"
+      },
+      {
+        "question": "Correct the misplaced modifier: 'The teacher gave a lecture on drug abuse in the auditorium.'",
+        "wrong": "The teacher gave a lecture on drug abuse in the auditorium.",
+        "correct": "In the auditorium, the teacher gave a lecture on drug abuse.",
+        "why": "As written, the sentence suggests drug abuse occurred in the auditorium. Moving the location phrase to the front clarifies that the lecture (not the abuse) happened there. Position is meaning when modifiers are involved."
+      },
+      {
+        "question": "Reposition 'only': 'He only eats vegetables on Mondays.'",
+        "wrong": "He only eats vegetables on Mondays. (intended meaning: vegetables are the only thing he eats on Mondays)",
+        "correct": "He eats only vegetables on Mondays.",
+        "why": "'Only' should sit directly before the word it restricts. Placed before 'eats', it could mean he doesn't cook or sell them, only eats — ambiguous. Placed before 'vegetables', it clearly restricts what he eats."
+      }
+    ],
+    "common_mistakes": [
+      "Starting a sentence with a participial phrase without checking that the subject of the main clause actually performed that action — produces the classic 'dangling modifier'.",
+      "Defaulting to 'only' before the verb out of habit, even when the intended restriction applies to a later noun or phrase — this almost always changes meaning.",
+      "Placing prepositional phrases (especially 'with', 'in', 'about') at the end of the sentence where they latch onto the wrong noun, e.g., 'I saw the dog in the park with binoculars.'",
+      "Ignoring squinting modifiers because the sentence sounds fine aloud — but on the test, ambiguity itself is the error."
+    ],
+    "exam_tips": [
+      "When a sentence starts with an -ing or -ed phrase followed by a comma, immediately check who or what is performing that action — that performer must appear right after the comma.",
+      "For 'only/just/almost/nearly' questions, try mentally placing the word in each possible slot to see how meaning shifts; the correct slot is the one closest to the restricted word.",
+      "If a modifier could attach to two different words, rewrite — GNET correct answers eliminate ambiguity rather than tolerating it.",
+      "Long sentences with multiple commas are prime hunting grounds for modifier errors; slow down and trace each phrase to its target."
+    ],
+    "quiz": [
+      {
+        "question": "Which sentence is correctly modified?",
+        "options": {"A": "Covered in chocolate, I ate the cake quickly.", "B": "I ate the cake covered in chocolate quickly.", "C": "I quickly ate the cake covered in chocolate.", "D": "Quickly, the cake covered in chocolate I ate."},
+        "correct": "C",
+        "explanation": "Option C places 'covered in chocolate' directly after 'cake' (what it modifies) and 'quickly' near the verb 'ate'. Option A wrongly suggests the speaker is covered in chocolate."
+      },
+      {
+        "question": "Identify the dangling modifier.",
+        "options": {"A": "After studying all night, Ali passed the test.", "B": "After studying all night, the test seemed easy to Ali.", "C": "Ali, after studying all night, passed the test.", "D": "After Ali studied all night, the test seemed easy."},
+        "correct": "B",
+        "explanation": "Option B dangles because 'the test' cannot study. The introductory phrase needs Ali as the immediate subject of the main clause, as in A and C."
+      },
+      {
+        "question": "Which sentence is unambiguous?",
+        "options": {"A": "The man saw the woman with the telescope.", "B": "Using the telescope, the man saw the woman.", "C": "The man saw the woman who had the telescope.", "D": "Both B and C are unambiguous."},
+        "correct": "D",
+        "explanation": "B clearly attaches the telescope to the man; C clearly attaches it to the woman. A is ambiguous — either could hold the telescope."
+      },
+      {
+        "question": "Which placement of 'only' gives the meaning 'she eats nothing but vegetables'?",
+        "options": {"A": "Only she eats vegetables.", "B": "She only eats vegetables.", "C": "She eats only vegetables.", "D": "She eats vegetables only on Sundays."},
+        "correct": "C",
+        "explanation": "'Only' before 'vegetables' restricts what she eats to vegetables alone. Position A restricts who, B is ambiguous, and D restricts when."
+      }
+    ]
+  },
+  {
+    "topic": "Tense Consistency",
+    "section": "verbal",
+    "summary": "Tense consistency means keeping verbs within a passage in a logically coherent time frame. Unjustified shifts — past to present, present to future — confuse the reader and signal weak writing. However, deliberate tense changes are correct when the timeline genuinely shifts, such as describing a past event followed by its present consequences. GNET tests both inconsistent tense shifts and the correct use of perfect tenses (past perfect for an action before another past action, future perfect for an action completed before a future point). Conditional sentences and reported speech each have their own tense-sequence rules that are heavily tested.",
+    "key_rules": [
+      "Within a single time frame, keep all verbs in the same tense — e.g., 'She walked into the room and sat down' (both past), not 'walked... sits down'.",
+      "Use the past perfect ('had + past participle') to mark an action that occurred before another past action — e.g., 'By the time we arrived, the train had left.'",
+      "In conditional Type 2 sentences, use past simple in the 'if' clause and 'would + base verb' in the result clause — e.g., 'If I had more time, I would travel.'",
+      "In reported speech, backshift the tense one step into the past — e.g., 'He says he is tired' becomes 'He said he was tired.'",
+      "Universal truths and habitual facts stay in the present tense even when reported — e.g., 'Galileo proved that the Earth revolves around the Sun.'",
+      "The future perfect ('will have + past participle') expresses an action completed before a future moment — e.g., 'By 2030, scientists will have developed new vaccines.'"
+    ],
+    "worked_examples": [
+      {
+        "question": "Fix the inconsistency: 'He opened the door and walks inside.'",
+        "wrong": "He opened the door and walks inside.",
+        "correct": "He opened the door and walked inside.",
+        "why": "Both actions happen in the same past moment, so both verbs should share the past tense. Switching to present ('walks') creates an unjustified shift. Alternatively, both could be present ('opens... walks') for a narrative present style."
+      },
+      {
+        "question": "Correct the past perfect usage: 'When I reached the station, the train left.'",
+        "wrong": "When I reached the station, the train left.",
+        "correct": "When I reached the station, the train had left.",
+        "why": "The train's departure occurred before the arrival at the station — that is, one past action preceded another. Past perfect 'had left' marks the earlier event clearly. Past simple in both clauses suggests simultaneous events, which contradicts the intended meaning."
+      },
+      {
+        "question": "Fix the conditional: 'If she would study harder, she will pass.'",
+        "wrong": "If she would study harder, she will pass.",
+        "correct": "If she studied harder, she would pass.",
+        "why": "Type 2 conditional (hypothetical present) requires past simple in the 'if' clause and 'would + base' in the result clause. Using 'would' in the if-clause is a classic error. The corrected version expresses a present unreality: she doesn't currently study hard enough."
+      }
+    ],
+    "common_mistakes": [
+      "Slipping from past to present mid-narrative without any genuine shift in timeline — usually a sign of inattention rather than intent.",
+      "Using 'would' inside the 'if' clause of a conditional sentence; native English grammar puts 'would' only in the result clause for Type 2 and Type 3 conditionals.",
+      "Forgetting to backshift in reported speech, so 'He said he is tired' is left instead of 'He said he was tired'.",
+      "Overusing past perfect when past simple is enough — past perfect is reserved for sequencing two past actions; a single past event needs only past simple."
+    ],
+    "exam_tips": [
+      "Underline every verb in the passage and label its tense; sudden unjustified jumps point to the error.",
+      "For sentences with 'by the time', 'before', 'after', 'when', or 'until', check whether the past perfect is required to sequence two past actions.",
+      "On conditional questions, memorise the three patterns: Type 1 (if + present, will + base), Type 2 (if + past, would + base), Type 3 (if + past perfect, would have + past participle).",
+      "If the question involves reported speech, automatically shift each tense one step back unless the statement is a universal truth."
+    ],
+    "quiz": [
+      {
+        "question": "She _____ her homework before her mother called.",
+        "options": {"A": "finished", "B": "had finished", "C": "has finished", "D": "was finishing"},
+        "correct": "B",
+        "explanation": "Two past events: the call and the homework. Since the homework was completed before the call, past perfect ('had finished') is needed to sequence them correctly."
+      },
+      {
+        "question": "If I _____ rich, I would buy a house in Murree.",
+        "options": {"A": "am", "B": "was", "C": "were", "D": "would be"},
+        "correct": "C",
+        "explanation": "Type 2 conditionals (hypothetical/unreal present) use 'were' for all persons in formal grammar ('If I were you'). 'Was' is informally accepted but 'were' is the standard exam choice."
+      },
+      {
+        "question": "The teacher said that water _____ at 100 degrees Celsius.",
+        "options": {"A": "boiled", "B": "boils", "C": "had boiled", "D": "would boil"},
+        "correct": "B",
+        "explanation": "Universal scientific truths stay in the present tense even in reported speech. Backshifting to 'boiled' would wrongly imply this is no longer true."
+      },
+      {
+        "question": "By next June, I _____ here for ten years.",
+        "options": {"A": "will work", "B": "have worked", "C": "will have worked", "D": "had worked"},
+        "correct": "C",
+        "explanation": "Future perfect ('will have worked') expresses an action that will be completed before a specific future point. The reference 'by next June' demands this tense."
+      }
+    ]
+  },
+  {
+    "topic": "Sentence Correction",
+    "section": "verbal",
+    "summary": "Sentence correction questions test multiple grammar concepts at once: subject-verb agreement, pronoun reference, parallelism, tense, modifier placement, idiom usage, and concision. A typical GNET item underlines part of a sentence and offers alternatives, one of which is 'no change'. The right answer is the one that is grammatically clean, logically clear, and stylistically tight — not just the one that 'sounds' best. A systematic approach beats intuition: identify the error type first, then eliminate options that don't fix it. Be wary of answers that introduce new errors while fixing the original one.",
+    "key_rules": [
+      "Read the entire sentence before judging the underlined portion — context determines what counts as an error, e.g., a pronoun is wrong only if its antecedent is unclear.",
+      "Eliminate the most clearly wrong option first; this narrows the field even when the right answer is not obvious.",
+      "Prefer concise, active constructions to wordy or passive ones, all else being equal — e.g., 'committee decided' beats 'a decision was made by the committee'.",
+      "Watch for idiom errors: certain verbs demand specific prepositions — e.g., 'different from' (not 'than'), 'capable of' (not 'to'), 'prefer X to Y' (not 'than').",
+      "Pronouns must agree in number and gender with their antecedent, and the antecedent must be unambiguous — e.g., avoid 'When the manager met the client, he was nervous' (which 'he'?).",
+      "Comparisons must compare like things — 'Karachi's population is larger than Lahore's' (not 'than Lahore'), comparing population to population."
+    ],
+    "worked_examples": [
+      {
+        "question": "Identify the error: 'The reason for his absence was because he was sick.'",
+        "wrong": "The reason for his absence was because he was sick.",
+        "correct": "The reason for his absence was that he was sick.",
+        "why": "'The reason... was because' is redundant since 'reason' already implies causation. The fix uses 'that' to introduce the explanation as a noun clause. This is a tested idiom on GNET — 'reason is that', never 'reason is because'."
+      },
+      {
+        "question": "Spot the pronoun issue: 'Every student must bring their book to class.'",
+        "wrong": "Every student must bring their book to class.",
+        "correct": "Every student must bring his or her book to class.",
+        "why": "'Every student' is grammatically singular, so the pronoun must be singular ('his or her'). Modern usage sometimes accepts singular 'they', but on formal exams the safer fix is either 'his or her' or rewriting the antecedent as plural ('All students must bring their books')."
+      },
+      {
+        "question": "Fix the comparison: 'The climate of Islamabad is cooler than Karachi.'",
+        "wrong": "The climate of Islamabad is cooler than Karachi.",
+        "correct": "The climate of Islamabad is cooler than that of Karachi.",
+        "why": "The original sentence compares a climate to a city, which is illogical. Adding 'that of' makes the comparison parallel — climate to climate. This is one of the most heavily tested error types in sentence correction."
+      }
+    ],
+    "common_mistakes": [
+      "Choosing the answer that 'sounds best' without analysing the error type — colloquial usage often masks formal grammatical mistakes.",
+      "Picking an option that fixes the original error but introduces a new one elsewhere (e.g., correcting agreement but breaking parallelism).",
+      "Ignoring the 'no change' option out of suspicion — sometimes the original sentence is already correct, and selecting an unnecessary 'fix' is the trap.",
+      "Overlooking idiom errors because they look natural — 'different than', 'prefer than', 'capable to' all sound fine but are wrong in formal English."
+    ],
+    "exam_tips": [
+      "Predict the correction before looking at the options — your prediction acts as an anchor against tempting distractors.",
+      "Use the elimination method: cross out any option that fails on agreement, parallelism, pronoun reference, or idiom, even if it 'sounds' clean.",
+      "Pay attention to length: GNET often rewards the most concise correct option, but never sacrifice grammar for brevity.",
+      "If two options seem equally correct, prefer the one that preserves the original meaning most faithfully — changing meaning is itself an error."
+    ],
+    "quiz": [
+      {
+        "question": "Choose the best version: 'Neither of the two candidates were qualified.'",
+        "options": {"A": "Neither of the two candidates were qualified.", "B": "Neither of the two candidates was qualified.", "C": "Neither of the two candidates have been qualified.", "D": "None of the two candidates were qualified."},
+        "correct": "B",
+        "explanation": "'Neither' is singular and requires 'was'. Option D is also wrong because 'none of two' is non-idiomatic — 'neither' is the proper word for two items."
+      },
+      {
+        "question": "Select the correct sentence.",
+        "options": {"A": "He is different than his brother.", "B": "He is different to his brother.", "C": "He is different from his brother.", "D": "He is different of his brother."},
+        "correct": "C",
+        "explanation": "Standard formal English uses 'different from'. 'Different than' is American colloquial; 'different to' is British colloquial; neither is preferred on formal exams."
+      },
+      {
+        "question": "Identify the grammatically clean option.",
+        "options": {"A": "Having finished the report, the printer was started.", "B": "Having finished the report, she started the printer.", "C": "After the report was finished, the printer started by her.", "D": "Finishing the report, the printer was used."},
+        "correct": "B",
+        "explanation": "Only option B correctly places the doer of the action ('she') immediately after the introductory participial phrase, avoiding a dangling modifier."
+      },
+      {
+        "question": "Which sentence is most concise and correct?",
+        "options": {"A": "Due to the fact that it was raining, we cancelled the picnic.", "B": "Owing to the rain, we cancelled the picnic.", "C": "Because of the rain, we cancelled the picnic.", "D": "On account of the fact that it rained, we cancelled the picnic."},
+        "correct": "C",
+        "explanation": "All four are grammatical, but C is the most concise and natural. 'Due to the fact that' and 'on account of the fact that' are wordy; 'because of' is the cleanest formal choice."
+      }
+    ]
+  },
+  {
+    "topic": "Reading Comprehension",
+    "section": "verbal",
+    "summary": "Reading Comprehension on GNET presents a 150-400 word passage followed by 3-6 questions probing main idea, supporting detail, inference, author's tone, vocabulary in context, and the function of a specific sentence. The challenge is balancing speed with accuracy: skimming too fast misses nuance, but reading every word eats the clock. Strong readers map the passage's structure — thesis, evidence, counterargument, conclusion — within the first read, then return to specific lines only when a question demands it. Wrong answers almost always either contradict the passage, distort its scope, or rely on outside knowledge.",
+    "key_rules": [
+      "Identify the main idea (thesis) in the first or last sentence of paragraph one; this anchors every other question — e.g., a passage about pollution will judge each answer against that thesis.",
+      "Distinguish stated facts from inferences: 'According to the passage' demands a direct fact, while 'The author would most likely agree' demands an inference grounded in the text.",
+      "Match the scope of the answer to the scope of the question — a passage about Pakistan's textile industry does not support broad claims about 'all developing economies'.",
+      "Watch for extreme words in answer choices ('always', 'never', 'only', 'all', 'none'); these are almost always wrong because passages rarely make absolute claims.",
+      "When a question asks about tone, gather evidence from word choice and connotations rather than guessing — a passage with words like 'unfortunately' and 'sadly' is critical, not neutral.",
+      "Vocabulary-in-context questions test the word's meaning in the sentence, not its dictionary definition — substitute each option into the sentence and pick the one preserving meaning."
+    ],
+    "worked_examples": [
+      {
+        "question": "Passage excerpt: 'Although solar energy has become cheaper, widespread adoption remains limited by storage costs.' Q: The author's main point is best summarised as —",
+        "wrong": "Solar energy is now the cheapest form of power.",
+        "correct": "Cost reductions in solar energy have not overcome the obstacle of storage.",
+        "why": "The 'although' construction signals a concession-then-main-point pattern: the main point follows 'although'. The wrong answer captures only the concession; the correct answer captures the obstacle, which is the author's actual claim."
+      },
+      {
+        "question": "Passage states: 'The study surveyed 200 university students.' Q: Which statement is supported?",
+        "wrong": "All university students prefer online classes.",
+        "correct": "Some university students were included in the study.",
+        "why": "A 200-student sample cannot support universal claims about 'all university students'. The correct answer stays within the scope of the actual data. GNET frequently uses universal quantifiers ('all', 'every') as traps."
+      },
+      {
+        "question": "Passage tone: 'Sadly, the once-thriving forest now stands silent and bare.' Q: The author's tone is —",
+        "wrong": "Optimistic and forward-looking",
+        "correct": "Mournful and elegiac",
+        "why": "Word choice ('sadly', 'silent', 'bare') signals lament. There is no evidence of optimism. Tone questions reward careful attention to emotional cues in diction rather than guessing from topic alone."
+      }
+    ],
+    "common_mistakes": [
+      "Reading the questions first and then hunting for matching words in the passage; this misses context and leads to picking 'word-match' traps where the answer uses passage vocabulary but distorts meaning.",
+      "Choosing answers that 'sound true' in the real world but are not supported by the passage — RC is closed-universe: only the passage's claims count.",
+      "Confusing the author's view with views the author reports — passages often summarise opposing positions, which students mistake for the author's own.",
+      "Ignoring transition words ('however', 'therefore', 'although', 'consequently'); these are roadmap signals that reveal passage structure and argument direction."
+    ],
+    "exam_tips": [
+      "On your first read, jot a two-word label for each paragraph ('intro thesis', 'counter-argument', 'evidence', 'conclusion') — this map lets you find detail questions in seconds.",
+      "Always go back to the line reference for detail questions; trusting memory under time pressure is risky.",
+      "Eliminate any answer with extreme language ('only', 'always', 'never', 'must') unless the passage uses similarly absolute phrasing.",
+      "For inference questions, the right answer is what must be true given the passage, not what could be true — anything requiring a leap is wrong."
+    ],
+    "quiz": [
+      {
+        "question": "Passage: 'While critics argue that social media isolates users, recent studies suggest it strengthens distant friendships.' The author most likely believes that —",
+        "options": {"A": "Social media isolates all users.", "B": "Social media has both positive and negative effects.", "C": "Social media benefits distant relationships.", "D": "Social media should be banned."},
+        "correct": "C",
+        "explanation": "The structure 'While critics argue X, recent studies suggest Y' signals that the author favours Y — the benefit to distant friendships. The other options misread the author's position."
+      },
+      {
+        "question": "In the sentence 'The professor's argument, though novel, lacked rigour', the word 'novel' most nearly means —",
+        "options": {"A": "fictional", "B": "lengthy", "C": "original", "D": "boring"},
+        "correct": "C",
+        "explanation": "In context, 'novel' contrasts with 'lacked rigour' and modifies 'argument', so it means 'new/original'. The fictional-book meaning of 'novel' doesn't fit an argument."
+      },
+      {
+        "question": "Which of the following is a valid inference from: 'No country has fully transitioned to renewable energy, but Iceland has come closest.'?",
+        "options": {"A": "Iceland uses only renewable energy.", "B": "Iceland has made greater progress in renewables than other countries.", "C": "Renewable energy is impossible.", "D": "Most countries do not use renewables at all."},
+        "correct": "B",
+        "explanation": "'Come closest' implies Iceland is ahead but not complete; A is too strong, C contradicts the passage, and D is unsupported."
+      },
+      {
+        "question": "If a passage uses words like 'undeniably', 'clearly', and 'without doubt', the tone is best described as —",
+        "options": {"A": "tentative", "B": "objective", "C": "emphatic", "D": "ironic"},
+        "correct": "C",
+        "explanation": "These adverbs assert certainty, making the tone emphatic. Tentative would use 'perhaps' or 'may'; objective avoids strong adverbs; irony would require contradicting cues."
+      }
+    ]
+  },
+  {
+    "topic": "Synonyms & Antonyms",
+    "section": "verbal",
+    "summary": "Synonym and antonym questions test the precision of your vocabulary — not just whether you know a word, but whether you can distinguish near-synonyms that differ in connotation, register, or intensity. GNET often offers two technically correct options, expecting you to pick the closer match. For antonyms, the right answer is the direct opposite, not merely a contrasting word. Root-prefix-suffix analysis helps when you encounter unfamiliar words: 'malevolent' (mal- = bad + vol- = wish) opposes 'benevolent' (bene- = good + vol- = wish). Reading widely is the only long-term solution, but learning prefix and root families gives short-term traction.",
+    "key_rules": [
+      "Match connotation as well as denotation — 'thrifty' (positive) and 'stingy' (negative) both mean 'careful with money' but feel opposite, so context matters.",
+      "Watch for intensity — 'annoyed', 'angry', and 'furious' share a meaning but differ in degree; the right synonym matches the level given in the prompt.",
+      "Use roots and affixes to crack unfamiliar words — 'circum-' (around), 'sub-' (below), '-phobia' (fear), 'omni-' (all) unlock dozens of GRE-style words.",
+      "For antonyms, eliminate options that are simply unrelated; the answer must be the conceptual opposite — e.g., the antonym of 'frugal' is 'extravagant', not 'happy'.",
+      "Beware of secondary meanings — 'fast' can mean 'quick' or 'abstain from food'; the right synonym depends on which sense the prompt uses.",
+      "Replace the prompt word with each option in a sample sentence; the substitution that keeps meaning intact is the winner."
+    ],
+    "worked_examples": [
+      {
+        "question": "Synonym of 'ALACRITY':",
+        "wrong": "Reluctance",
+        "correct": "Eagerness",
+        "why": "'Alacrity' means cheerful readiness or briskness ('She accepted the offer with alacrity'). Reluctance is the opposite. The Latin root 'alacer' means 'brisk' or 'lively', which hints at the eager-quickness meaning."
+      },
+      {
+        "question": "Antonym of 'BENEVOLENT':",
+        "wrong": "Generous",
+        "correct": "Malevolent",
+        "why": "'Benevolent' (bene- 'good' + vol- 'wish') means well-meaning; its direct antonym is 'malevolent' (mal- 'bad' + vol- 'wish'), meaning ill-wishing. 'Generous' is a near-synonym, not an antonym — a classic trap."
+      },
+      {
+        "question": "Synonym of 'EPHEMERAL':",
+        "wrong": "Eternal",
+        "correct": "Transitory",
+        "why": "'Ephemeral' means lasting for a very short time (originally a single day, from Greek 'epi-' + 'hemera' day). 'Transitory' shares this short-lived sense. 'Eternal' is its direct opposite."
+      }
+    ],
+    "common_mistakes": [
+      "Picking a word that 'feels related' but actually shifts meaning, register, or intensity — synonyms must be near-equivalent in all three.",
+      "Choosing an unrelated negative word as an antonym instead of the precise opposite — antonyms are not just 'bad' versions of good words.",
+      "Ignoring word roots and prefixes when the prompt is unfamiliar; even a partial decoding eliminates two or three options.",
+      "Forgetting that some words have multiple meanings; without context, the wrong sense leads to the wrong choice."
+    ],
+    "exam_tips": [
+      "Build a daily list of GRE-style roots — every NUST GNET prep should include at least 200 high-frequency roots and prefixes.",
+      "When unsure, eliminate the two most obviously wrong options first; you almost always reduce to a 50/50 choice on hard items.",
+      "Substitute each option into a self-made sentence using the prompt word; the natural-fit option is the answer.",
+      "Memorise classic antonym pairs: prodigal/frugal, ephemeral/perpetual, lucid/opaque, benevolent/malevolent."
+    ],
+    "quiz": [
+      {
+        "question": "Synonym of 'TACITURN':",
+        "options": {"A": "Talkative", "B": "Reserved", "C": "Friendly", "D": "Loud"},
+        "correct": "B",
+        "explanation": "'Taciturn' means habitually quiet or uncommunicative. 'Reserved' is the closest synonym; 'talkative' is the antonym."
+      },
+      {
+        "question": "Antonym of 'SCARCITY':",
+        "options": {"A": "Rarity", "B": "Shortage", "C": "Abundance", "D": "Poverty"},
+        "correct": "C",
+        "explanation": "'Scarcity' means a state of being in short supply; its direct opposite is 'abundance'. Options A and B are synonyms, and D is unrelated."
+      },
+      {
+        "question": "Synonym of 'CANDID':",
+        "options": {"A": "Deceptive", "B": "Frank", "C": "Cautious", "D": "Hostile"},
+        "correct": "B",
+        "explanation": "'Candid' means open and honest; 'frank' shares this meaning exactly. 'Deceptive' is the antonym."
+      },
+      {
+        "question": "Antonym of 'PROLIFIC':",
+        "options": {"A": "Productive", "B": "Sterile", "C": "Talented", "D": "Famous"},
+        "correct": "B",
+        "explanation": "'Prolific' means producing abundantly. 'Sterile' (producing nothing) is the antonym. 'Productive' is a synonym."
+      },
+      {
+        "question": "Synonym of 'OBSTINATE':",
+        "options": {"A": "Flexible", "B": "Stubborn", "C": "Patient", "D": "Humble"},
+        "correct": "B",
+        "explanation": "'Obstinate' means unyielding or stubbornly refusing to change. 'Stubborn' is the precise synonym; 'flexible' is the antonym."
+      }
+    ]
+  },
+  {
+    "topic": "Vocabulary in Context",
+    "section": "verbal",
+    "summary": "Vocabulary-in-context questions ask what a word means as used in a specific sentence — not its most common dictionary meaning. Polysemous words (those with multiple meanings) are favourites: 'check' can mean inspect, stop, or restrain; 'novel' can mean new or a book. The strategy is to ignore your first-meaning instinct and read the surrounding sentence (and ideally the sentences before and after) for clues. Substitute each option for the target word and pick the one that preserves the sentence's logic. Many wrong options are valid dictionary meanings of the word — just not the one the sentence requires.",
+    "key_rules": [
+      "Always read at least one sentence before and after the target word — context, not isolation, determines meaning.",
+      "Predict the meaning before looking at options — your prediction acts as a filter against attractive but wrong synonyms.",
+      "Substitute each option into the original sentence; the one that preserves both meaning and grammar wins.",
+      "Beware the 'most common meaning' trap — GNET deliberately tests secondary or tertiary meanings of familiar words.",
+      "Use tone and register cues — a word used in a scientific passage carries technical connotations distinct from its colloquial use.",
+      "Identify the word's part of speech in context before evaluating options; the noun, verb, and adjective forms of one word can have very different meanings."
+    ],
+    "worked_examples": [
+      {
+        "question": "In 'The judge issued a stay of execution', the word 'stay' most nearly means —",
+        "wrong": "Visit",
+        "correct": "Postponement",
+        "why": "In legal contexts, 'stay' means a delay or suspension of action. The common meaning (a visit or sojourn) doesn't fit a court ruling. Context clue: 'execution' signals legal proceedings, narrowing the meaning."
+      },
+      {
+        "question": "In 'Her remarks were pointed and left no room for misinterpretation', 'pointed' means —",
+        "wrong": "Sharp-edged",
+        "correct": "Direct and forceful",
+        "why": "'Pointed' here is figurative, describing remarks rather than a physical object. Context ('no room for misinterpretation') signals directness or pointed criticism. The literal 'sharp-edged' meaning is a trap."
+      },
+      {
+        "question": "In 'The minister tried to temper his harsh words', 'temper' means —",
+        "wrong": "Anger",
+        "correct": "Soften",
+        "why": "As a verb, 'temper' means to moderate or soften. The noun 'temper' meaning anger is a different word use entirely. Grammatical role (verb here, not noun) is a vital clue."
+      }
+    ],
+    "common_mistakes": [
+      "Jumping to the most familiar meaning of the word without checking context — GNET specifically exploits this reflex.",
+      "Ignoring grammatical role; choosing a noun meaning when the sentence uses the word as a verb (or vice versa).",
+      "Overlooking domain-specific meanings — legal, medical, and scientific contexts give common words specialised senses.",
+      "Picking an option because it appears in the dictionary entry without verifying that it fits the actual sentence."
+    ],
+    "exam_tips": [
+      "Cover the answer choices, read the sentence, and predict the meaning in your own words before unveiling the options.",
+      "If a word has multiple meanings you know, ask which one the passage's topic and tone support.",
+      "Substitute and read aloud (mentally) — the wrong meaning will produce a sentence that sounds illogical.",
+      "Pay attention to negations and qualifiers ('not', 'rarely', 'almost') that might invert the apparent meaning."
+    ],
+    "quiz": [
+      {
+        "question": "In 'The senator's argument carried weight with the committee', 'weight' means —",
+        "options": {"A": "Heaviness", "B": "Burden", "C": "Influence", "D": "Mass"},
+        "correct": "C",
+        "explanation": "Figuratively, 'carry weight' means to have influence or importance. The literal physical meanings don't fit a verbal argument."
+      },
+      {
+        "question": "In 'He gave a glowing account of his trip', 'glowing' means —",
+        "options": {"A": "Bright", "B": "Enthusiastic", "C": "Hot", "D": "Radiant"},
+        "correct": "B",
+        "explanation": "'Glowing' here describes the tone of a description, meaning highly positive or enthusiastic. The literal meanings (bright, hot) don't apply to a verbal account."
+      },
+      {
+        "question": "In 'The novel's plot is rather thin', 'thin' means —",
+        "options": {"A": "Slim", "B": "Underdeveloped", "C": "Tall", "D": "Transparent"},
+        "correct": "B",
+        "explanation": "Applied to a plot, 'thin' means lacking depth or substance. The physical meaning (slim) doesn't transfer to abstract qualities."
+      },
+      {
+        "question": "In 'The river runs through the valley', 'runs' most nearly means —",
+        "options": {"A": "Sprints", "B": "Flows", "C": "Operates", "D": "Manages"},
+        "correct": "B",
+        "explanation": "For a river, 'run' means to flow. The athletic meaning (sprint) and business meanings (operate, manage) do not apply to water."
+      }
+    ]
+  },
+  {
+    "topic": "Analogies",
+    "section": "verbal",
+    "summary": "Analogy questions test the ability to identify the precise logical relationship between two words and apply it to a second pair. Common relationship types include: synonym, antonym, part-to-whole, cause-effect, function, degree, category, and worker-to-tool. The trap is matching surface-level similarity (both words about animals) instead of the deeper relationship. The reliable method is to build a sentence linking the two prompt words — 'A is a part of B' — and apply that exact sentence to each option pair. Whichever pair fits the sentence is the answer.",
+    "key_rules": [
+      "Build a precise 'bridge sentence' for the prompt pair — e.g., 'A scalpel is a tool used by a surgeon.'",
+      "Apply the same bridge to every option; the pair that fits identically is correct.",
+      "Beware of reversed pairs — relationship direction matters: 'doctor : hospital' is not the same as 'hospital : doctor'.",
+      "Identify the relationship type early: synonym, antonym, cause-effect, degree, part-whole, function, category, worker-tool.",
+      "If two pairs seem to fit, refine the bridge until only one survives — increase precision to break ties.",
+      "Watch for degree relationships — 'warm : hot' is intensity, not synonymy; choose answers that match intensity direction."
+    ],
+    "worked_examples": [
+      {
+        "question": "FEATHER : BIRD :: ?",
+        "wrong": "Tail : Cat",
+        "correct": "Scale : Fish",
+        "why": "Bridge: 'A feather is the outer covering of a bird.' Scales are the outer covering of a fish, matching exactly. A tail is an appendage, not a covering — the relationship is different. Precision in the bridge sentence is what eliminates the close call."
+      },
+      {
+        "question": "FAMINE : FOOD :: ?",
+        "wrong": "Hunger : Thirst",
+        "correct": "Drought : Water",
+        "why": "Bridge: 'A famine is a severe shortage of food.' A drought is a severe shortage of water, fitting exactly. 'Hunger : thirst' lists two effects of shortage, not a shortage-resource pair, so the relationship type differs."
+      },
+      {
+        "question": "WHISPER : SHOUT :: ?",
+        "wrong": "Walk : Sit",
+        "correct": "Sip : Gulp",
+        "why": "Bridge: 'A whisper is a quiet version of a shout (same action, lower intensity).' 'Sip' is a small version of 'gulp' — same action (drinking), lower intensity. Walk-sit is not an intensity pair (different actions)."
+      }
+    ],
+    "common_mistakes": [
+      "Choosing pairs because they share a theme or topic rather than a precise relationship — e.g., picking 'lion : jungle' for 'fish : water' because both are animal-habitat, but missing that the prompt may have been about a different relationship entirely.",
+      "Ignoring the order of the pair — the relationship from A to B must match the relationship from C to D in the same direction.",
+      "Settling for a 'good enough' bridge that is too broad to discriminate between options — vague bridges fit too many pairs.",
+      "Not checking for part-of-speech consistency; a noun-verb prompt cannot answer to a noun-noun option."
+    ],
+    "exam_tips": [
+      "Always say the bridge out loud (mentally) before looking at options — vague bridges are the root cause of wrong answers.",
+      "If your bridge fits two options, sharpen it: add a precise adjective or specify direction until only one survives.",
+      "Use the eight common relationship types as a checklist when stuck — chances are the prompt fits one of them.",
+      "Check that the parts of speech in the prompt match the answer pair; mismatches almost always disqualify an option."
+    ],
+    "quiz": [
+      {
+        "question": "DOCTOR : HOSPITAL :: ?",
+        "options": {"A": "Teacher : Student", "B": "Chef : Kitchen", "C": "Lawyer : Justice", "D": "Pilot : Aeroplane"},
+        "correct": "B",
+        "explanation": "Bridge: 'A doctor works primarily in a hospital.' A chef works primarily in a kitchen — same worker-to-workplace relationship. Pilot-aeroplane is worker-to-tool, not worker-to-workplace."
+      },
+      {
+        "question": "OPTIMIST : HOPEFUL :: ?",
+        "options": {"A": "Pessimist : Sad", "B": "Pessimist : Gloomy", "C": "Realist : Honest", "D": "Cynic : Happy"},
+        "correct": "B",
+        "explanation": "Bridge: 'An optimist is characteristically hopeful.' A pessimist is characteristically gloomy — same person-to-defining-trait relationship."
+      },
+      {
+        "question": "PEN : WRITE :: ?",
+        "options": {"A": "Knife : Cut", "B": "Book : Read", "C": "Paper : Tear", "D": "Ink : Spill"},
+        "correct": "A",
+        "explanation": "Bridge: 'A pen is a tool used to write.' A knife is a tool used to cut — same tool-to-function relationship."
+      },
+      {
+        "question": "TREMBLE : FEAR :: ?",
+        "options": {"A": "Smile : Anger", "B": "Frown : Joy", "C": "Blush : Embarrassment", "D": "Yawn : Energy"},
+        "correct": "C",
+        "explanation": "Bridge: 'Trembling is a physical sign of fear.' Blushing is a physical sign of embarrassment — same effect-to-emotion relationship."
+      }
+    ]
+  },
+  {
+    "topic": "Sentence Completion",
+    "section": "verbal",
+    "summary": "Sentence completion questions present a sentence with one or two blanks and ask you to choose the words that best fit. The right answer satisfies grammar, logic, and tone. Key cues are connector words: 'although', 'because', 'however', 'therefore' signal the relationship between the blank and the rest of the sentence. A 'but' or 'although' implies contrast; 'because' or 'since' implies cause. Predict the blank's meaning in your own words first, then match. For two-blank questions, eliminate option pairs in which either word fails to fit, rather than evaluating each blank separately.",
+    "key_rules": [
+      "Identify the logical relationship signalled by connectors — 'although' demands contrast, 'because' demands consistency, 'moreover' demands continuation.",
+      "Predict the blank's meaning in your own words before reading the options — predictions defend against attractive distractors.",
+      "For two-blank questions, eliminate any pair where one word fails; both must fit, not just one.",
+      "Match the tone and register — a formal sentence demands formal vocabulary; a critical sentence needs critical wording.",
+      "Watch for double negatives or implicit negations that flip the expected meaning — 'not unfamiliar' means familiar.",
+      "Re-read the full sentence with your chosen word inserted to verify natural flow and logical consistency."
+    ],
+    "worked_examples": [
+      {
+        "question": "Although the speech was brief, it was remarkably _____.",
+        "wrong": "long",
+        "correct": "comprehensive",
+        "why": "'Although' signals contrast: brief vs something opposite. 'Comprehensive' (covering a lot despite brevity) creates the expected contrast. 'Long' contradicts 'brief' directly, making the sentence nonsensical."
+      },
+      {
+        "question": "The scientist's findings were so _____ that they _____ the entire field.",
+        "wrong": "boring / improved",
+        "correct": "revolutionary / transformed",
+        "why": "The structure 'so X that Y' implies Y is an extreme consequence of X. 'Revolutionary' findings would 'transform' a field — both words are intense and aligned. 'Boring / improved' breaks the cause-effect intensity match."
+      },
+      {
+        "question": "His refusal to compromise made him appear _____ rather than principled.",
+        "wrong": "flexible",
+        "correct": "stubborn",
+        "why": "The 'rather than principled' contrast tells us the blank must be a negative version of principled — i.e., something that looks like principle but is actually a flaw. 'Stubborn' fits; 'flexible' is the opposite of refusing to compromise."
+      }
+    ],
+    "common_mistakes": [
+      "Choosing a word that fits one part of the sentence but contradicts the connector — e.g., picking a synonym for the rest of the sentence when 'although' demands an antonym.",
+      "On two-blank questions, picking based on the first blank alone without verifying the second fits — many options pair one good word with one bad one.",
+      "Ignoring tone and register, leading to a word that is grammatically correct but stylistically out of place.",
+      "Missing implicit negations like 'not without merit' (meaning 'has merit') that flip the apparent meaning."
+    ],
+    "exam_tips": [
+      "Circle the connectors first ('although', 'because', 'however', 'despite', 'therefore') — they dictate the logical relationship to the blank.",
+      "Predict and write a one-word guess for each blank before unveiling options.",
+      "On two-blank questions, eliminate any option where either word fails — this often cuts the field to one or two.",
+      "Re-read the full completed sentence aloud (mentally) before confirming — natural flow is a strong validity check."
+    ],
+    "quiz": [
+      {
+        "question": "Despite the team's _____ effort, they lost the match.",
+        "options": {"A": "lazy", "B": "valiant", "C": "minimal", "D": "useless"},
+        "correct": "B",
+        "explanation": "'Despite' signals contrast: an unexpected loss after some positive effort. 'Valiant' creates the expected contrast — they tried hard but still lost. The others suggest poor effort, removing the contrast."
+      },
+      {
+        "question": "The professor was so _____ that students often struggled to follow his lectures.",
+        "options": {"A": "clear", "B": "humorous", "C": "verbose", "D": "punctual"},
+        "correct": "C",
+        "explanation": "Students struggling to follow lectures suggests the speech was hard to track. 'Verbose' (using too many words) fits naturally. 'Clear' contradicts the result."
+      },
+      {
+        "question": "Her arguments were both _____ and _____, leaving the jury impressed.",
+        "options": {"A": "weak / illogical", "B": "concise / persuasive", "C": "verbose / boring", "D": "rambling / unclear"},
+        "correct": "B",
+        "explanation": "An impressed jury suggests strong, effective arguments. 'Concise and persuasive' fits; the others describe weak arguments that wouldn't impress anyone."
+      },
+      {
+        "question": "The new policy was met with _____ from employees, who saw it as unfair.",
+        "options": {"A": "applause", "B": "indifference", "C": "resistance", "D": "celebration"},
+        "correct": "C",
+        "explanation": "Employees who see a policy as unfair would oppose it. 'Resistance' captures this reaction, while applause and celebration suggest approval."
+      }
+    ]
+  },
+  {
+    "topic": "Critical Reading",
+    "section": "verbal",
+    "summary": "Critical reading goes beyond comprehension to evaluation: it tests whether you can analyse arguments, identify assumptions, weigh evidence, and judge an author's reasoning. Unlike standard RC, critical reading questions often ask 'What weakens the argument?', 'What assumption is necessary?', or 'Which is most analogous to the author's reasoning?'. The skill set overlaps with the analytical section, but on the verbal side the passages are usually opinion pieces or scholarly extracts. Successful critical readers separate claim from evidence, identify hidden assumptions, and recognise logical flaws like circular reasoning, false dichotomies, and unsupported generalisations.",
+    "key_rules": [
+      "Distinguish claim from evidence — the claim is what the author wants you to believe; the evidence is why they think you should.",
+      "Identify assumptions — unstated premises that must be true for the argument to hold; finding them reveals the argument's weak points.",
+      "Spot common logical flaws: hasty generalisation (sample too small), false cause (correlation mistaken for causation), false dichotomy (only two options when more exist), circular reasoning (premise restates conclusion).",
+      "Weaken an argument by introducing a counter-example, undermining an assumption, or attacking the evidence's reliability.",
+      "Strengthen an argument by adding supporting evidence, confirming a key assumption, or eliminating an alternative explanation.",
+      "Recognise tone shifts and qualifying language — an author who writes 'in most cases' is making a weaker, harder-to-attack claim than one who writes 'always'."
+    ],
+    "worked_examples": [
+      {
+        "question": "Argument: 'Sales rose after the new advertisement aired, so the advertisement must be effective.' What assumption is the argument making?",
+        "wrong": "Advertisements are expensive.",
+        "correct": "No other factor caused the sales increase.",
+        "why": "The argument leaps from correlation (sales rose after the ad) to causation (the ad caused the rise). The hidden assumption is that nothing else — seasonal demand, a competitor's failure, a price drop — explains the increase. Without this assumption, the conclusion collapses."
+      },
+      {
+        "question": "Which statement most weakens: 'Students who eat breakfast score higher; therefore eating breakfast improves test performance.'?",
+        "wrong": "Eggs are nutritious.",
+        "correct": "Students from wealthier families both eat breakfast more often and have access to better tutoring.",
+        "why": "This introduces a confounding variable: wealth could cause both the eating of breakfast and the higher scores, meaning breakfast itself may not be the cause. This is a classic 'correlation vs causation' attack. Eggs being nutritious doesn't address the causal link being claimed."
+      },
+      {
+        "question": "Identify the flaw: 'Either we cut education spending, or the country will go bankrupt.'",
+        "wrong": "Hasty generalisation",
+        "correct": "False dichotomy",
+        "why": "The argument presents only two options when many others exist (raise taxes, cut defence, restructure debt, etc.). This is a false dichotomy. Hasty generalisation involves drawing a broad conclusion from a small sample, which isn't what's happening here."
+      }
+    ],
+    "common_mistakes": [
+      "Confusing a strengthener with an assumption — a strengthener adds support; an assumption is silently required for the argument to work at all.",
+      "Picking an answer that is true but irrelevant — critical reading rewards relevance to the specific argument, not factual accuracy.",
+      "Failing to attack the actual causal link in correlation-causation arguments, instead attacking peripheral details.",
+      "Treating extreme answer choices ('completely disproves', 'always shows') as right when the passage doesn't support such absolutes."
+    ],
+    "exam_tips": [
+      "Label the conclusion (claim) and the premises (evidence) before reading the question — this clarifies what assumption or weakener you're hunting for.",
+      "For 'weaken' questions, look for answers that present an alternative explanation or undermine a hidden assumption.",
+      "For 'assumption' questions, try the 'negation test': negate each option; the one whose negation destroys the argument is the assumption.",
+      "Watch for common flaw patterns: post hoc (correlation as causation), false dichotomy, hasty generalisation, and circular reasoning."
+    ],
+    "quiz": [
+      {
+        "question": "Argument: 'Every successful CEO I know wakes up at 5 AM. So if you want to be a successful CEO, wake up at 5 AM.' This argument's main flaw is —",
+        "options": {"A": "Circular reasoning", "B": "Hasty generalisation from a small sample", "C": "False dichotomy", "D": "Ad hominem"},
+        "correct": "B",
+        "explanation": "The arguer generalises from 'CEOs I know' to all successful CEOs, then to causation. Small-sample-driven causal claims are hasty generalisations."
+      },
+      {
+        "question": "Which best weakens: 'City X's crime fell after installing CCTV; therefore CCTV reduces crime.'?",
+        "options": {"A": "CCTV is expensive.", "B": "Crime fell similarly in nearby cities without CCTV.", "C": "City X also has a strong police force.", "D": "Some citizens oppose CCTV."},
+        "correct": "B",
+        "explanation": "If crime fell similarly without CCTV, the cause is likely something else (a general trend). This directly attacks the causal claim. Option C also helps but is weaker because it doesn't compare against a no-CCTV baseline."
+      },
+      {
+        "question": "Argument: 'We must support this policy because failing to do so would be wrong.' This is an example of —",
+        "options": {"A": "Strong evidence", "B": "Circular reasoning", "C": "Statistical fallacy", "D": "Empirical support"},
+        "correct": "B",
+        "explanation": "The premise ('failing to do so would be wrong') simply restates the conclusion ('we must support'). It provides no independent justification — classic circularity."
+      },
+      {
+        "question": "An assumption necessary for 'Reading novels improves empathy' is —",
+        "options": {"A": "Novels are widely available.", "B": "Reading involves understanding characters' perspectives.", "C": "Empathy is important.", "D": "Novels are usually fictional."},
+        "correct": "B",
+        "explanation": "For novels to improve empathy, the act of reading them must somehow engage empathy-related cognition (e.g., perspective-taking). Without this assumption, the causal claim has no mechanism."
       }
     ]
   }

@@ -2,819 +2,923 @@
   {
     "topic": "Percentages",
     "section": "quantitative",
-    "summary": "A percentage represents a value out of 100. Master conversion between fractions, decimals, and percentages, and apply percentage change, successive percentages, and reverse percentage calculations.",
+    "summary": "Percentage means 'per hundred' and converts any fraction into a 0-100 scale. The three core operations are: (1) finding a percentage of a number (p% of X = X * p/100), (2) finding what percentage one number is of another (a/b * 100), and (3) calculating percentage change ((New - Old)/Old * 100). NUST GNET frequently tests successive percentage changes, percentage of percentages, and word problems involving discounts, taxes, or population growth. The most common error is using the wrong base — always use the original value when computing percentage change.",
     "key_rules": [
-      "x% of y = (x/100) × y",
-      "Percentage change = (New − Old) / Old × 100",
-      "Successive percentage change: net = a + b + (ab/100) where a, b are signed",
-      "If price increases by x%, new = old × (1 + x/100); decrease: × (1 − x/100)",
-      "To reverse a percentage increase of x%, divide by (1 + x/100), not subtract x%"
+      "p% of X = X * p/100 — e.g., 20% of 150 = 150 * 0.20 = 30.",
+      "Percentage change = ((New - Old)/Old) * 100 — always divide by the original value, never the new one.",
+      "Successive percentage changes of a% and b% combine as a + b + (a*b)/100 — e.g., +10% then +20% gives 10 + 20 + 200/100 = 32%, not 30%.",
+      "To increase X by p%, multiply by (1 + p/100); to decrease, multiply by (1 - p/100).",
+      "A percent of a percent is multiplicative: 20% of 50% of 200 = 0.20 * 0.50 * 200 = 20.",
+      "To find what percent A is of B, compute (A/B) * 100 — e.g., 30 is what percent of 150? (30/150)*100 = 20%."
     ],
     "worked_examples": [
       {
-        "question": "A price increases by 20%, then decreases by 20%. Net change?",
-        "wrong": "0%",
-        "correct": "−4%",
-        "why": "Net = 20 + (−20) + (20 × −20)/100 = 0 − 4 = −4%."
+        "question": "A shirt costs Rs 800. It is discounted by 25%. Then a 10% sales tax is added. Find the final price.",
+        "wrong": "Rs 540",
+        "correct": "Rs 660",
+        "why": "Discounted price = 800 * (1 - 0.25) = 800 * 0.75 = 600. Tax adds 10%: 600 * 1.10 = 660. The wrong answer 540 forgets the tax step. Order matters because discount and tax apply to different bases."
       },
       {
-        "question": "After a 25% discount, an item costs 300. Original price?",
-        "wrong": "375",
-        "correct": "400",
-        "why": "300 = 0.75 × original → original = 300/0.75 = 400."
+        "question": "A salary increases by 20% in year 1, then decreases by 20% in year 2. What is the net change from the original?",
+        "wrong": "0% (no change)",
+        "correct": "-4% (a 4% decrease).",
+        "why": "Successive change = 20 + (-20) + (20 * -20)/100 = 20 - 20 - 4 = -4%. Or by multiplication: 1.20 * 0.80 = 0.96, a 4% decrease. Successive equal up-and-down percentages never cancel — they leave a net decrease."
+      },
+      {
+        "question": "If 35% of a number is 70, what is the number?",
+        "wrong": "245",
+        "correct": "200",
+        "why": "Let the number be X. Then 0.35 * X = 70, so X = 70 / 0.35 = 200. Check: 35% of 200 = 70. The wrong answer 245 corresponds to a multiplication error."
       }
     ],
     "common_mistakes": [
-      "Adding percentage changes directly without the cross term",
-      "Confusing percentage change with percentage point change",
-      "Using the wrong base for percentage",
-      "Reversing a discount by adding back the same percent"
+      "Using the new value as the denominator in percentage-change calculations — always use the original value.",
+      "Adding two percentages directly instead of applying them successively — 10% + 20% is not the same as a single 30% change.",
+      "Computing 'percentage of percentage' as a single percentage rather than multiplying — 20% of 50% is 10%, not 70% or 30%.",
+      "Forgetting to convert percent to decimal when multiplying — 20% of 150 is 150 * 0.20 = 30, not 150 * 20 = 3000."
     ],
     "exam_tips": [
-      "Convert common percentages to fractions: 25% = 1/4, 33.3% = 1/3, 12.5% = 1/8",
-      "For successive changes, use multipliers (1.20 × 0.80 = 0.96)",
-      "Always identify the base (whole) before computing"
+      "Memorise common percentages as fractions: 25% = 1/4, 50% = 1/2, 20% = 1/5, 12.5% = 1/8 — these speed up mental math.",
+      "For successive changes, use the multiplication shortcut: (1 + a/100)(1 + b/100) — works for any number of changes.",
+      "When given two related percentage values, check whether they share the same base before adding.",
+      "Estimate with rounded percentages first: 23% of 850 is about 25% of 800 = 200, so true answer is near 200."
     ],
     "quiz": [
       {
-        "question": "What is 15% of 240?",
-        "options": { "A": "32", "B": "36", "C": "40", "D": "24" },
-        "correct": "B",
-        "explanation": "15% × 240 = 0.15 × 240 = 36."
-      },
-      {
-        "question": "A salary increases from 50000 to 60000. Percentage increase?",
-        "options": { "A": "10%", "B": "16.67%", "C": "20%", "D": "25%" },
+        "question": "If a number is increased by 25%, the result is 250. What was the original number?",
+        "options": {"A": "150", "B": "175", "C": "200", "D": "225"},
         "correct": "C",
-        "explanation": "(60000 − 50000) / 50000 × 100 = 10000/50000 × 100 = 20%."
+        "explanation": "Original * 1.25 = 250, so Original = 250 / 1.25 = 200. Check: 200 + 25% of 200 = 200 + 50 = 250."
       },
       {
-        "question": "A price rises by 10% then falls by 10%. Net effect?",
-        "options": { "A": "No change", "B": "−1%", "C": "+1%", "D": "−2%" },
-        "correct": "B",
-        "explanation": "1.10 × 0.90 = 0.99 → 1% decrease."
+        "question": "A price increases by 10% and then decreases by 10%. What is the net change?",
+        "options": {"A": "0%", "B": "+1%", "C": "-1%", "D": "-2%"},
+        "correct": "C",
+        "explanation": "Net = 1.10 * 0.90 = 0.99, which is a 1% decrease. Successive equal up-down changes always leave a slight net decrease."
       },
       {
-        "question": "If 30% of a number is 90, the number is?",
-        "options": { "A": "270", "B": "300", "C": "330", "D": "360" },
+        "question": "What is 15% of 240?",
+        "options": {"A": "30", "B": "36", "C": "40", "D": "48"},
         "correct": "B",
-        "explanation": "0.30 × x = 90 → x = 90 / 0.30 = 300."
+        "explanation": "15% of 240 = 240 * 0.15 = 36. Alternatively, 10% of 240 = 24, 5% of 240 = 12, sum = 36."
+      },
+      {
+        "question": "If 30 is what percent of 120?",
+        "options": {"A": "20%", "B": "25%", "C": "30%", "D": "40%"},
+        "correct": "B",
+        "explanation": "(30/120) * 100 = 0.25 * 100 = 25%."
       }
     ]
   },
   {
     "topic": "Ratio & Proportion",
     "section": "quantitative",
-    "summary": "A ratio compares quantities of the same kind. Proportion equates two ratios. Solve by cross-multiplication or by scaling each part to a common total.",
+    "summary": "A ratio compares two quantities (A : B), and a proportion equates two ratios (A : B = C : D, or A/B = C/D). Cross-multiplication is the workhorse: A : B = C : D implies A*D = B*C. NUST GNET tests ratio division ('divide Rs 600 in ratio 2 : 3 : 5'), inverse proportion (more workers = less time), and combined ratios (A : B = 2 : 3, B : C = 4 : 5, find A : B : C). The strategy is to first scale ratios to share a common term, then combine. Inverse proportion problems require recognising that the product of the two quantities is constant.",
     "key_rules": [
-      "If a:b = c:d, then a×d = b×c (cross-multiplication)",
-      "To divide N in ratio a:b, parts are N×a/(a+b) and N×b/(a+b)",
-      "Compound ratio: (a:b) × (c:d) = ac:bd",
-      "Direct proportion: if x ∝ y, then x/y = constant",
-      "Inverse proportion: if x ∝ 1/y, then xy = constant"
+      "A : B means A/B; if A : B = 2 : 3, then A = 2k and B = 3k for some k.",
+      "Cross-multiply proportions: A/B = C/D means A*D = B*C.",
+      "To divide X in ratio a : b : c, give a*X/(a+b+c) to the first, b*X/(a+b+c) to the second, etc.",
+      "For direct proportion (Y proportional to X), Y/X is constant — double X means double Y.",
+      "For inverse proportion (Y inversely proportional to X), Y*X is constant — double X means half Y.",
+      "To combine A:B = a:b and B:C = c:d, scale so B matches in both: A:B:C = ac : bc : bd."
     ],
     "worked_examples": [
       {
-        "question": "Divide 240 in the ratio 3:5.",
-        "wrong": "100 and 140",
-        "correct": "90 and 150",
-        "why": "Total parts = 8. 240/8 = 30 per part. 3×30 = 90, 5×30 = 150."
+        "question": "Divide Rs 1200 between A and B in the ratio 2 : 3. Find each share.",
+        "wrong": "A = 600, B = 600",
+        "correct": "A = 480, B = 720",
+        "why": "Total ratio parts = 2 + 3 = 5. A's share = (2/5) * 1200 = 480. B's share = (3/5) * 1200 = 720. Check: 480 + 720 = 1200, and 480:720 = 2:3."
       },
       {
-        "question": "If 4 workers take 9 days, how long do 6 workers take (inverse proportion)?",
-        "wrong": "13.5 days",
-        "correct": "6 days",
-        "why": "Worker-days constant: 4 × 9 = 36. For 6 workers: 36/6 = 6 days."
+        "question": "If 8 workers complete a job in 15 days, how many days will 12 workers take?",
+        "wrong": "22.5 days",
+        "correct": "10 days",
+        "why": "Workers and time are inversely proportional. Total work = 8 * 15 = 120 worker-days. With 12 workers: 120 / 12 = 10 days. The wrong answer 22.5 treated it as direct proportion (more workers = more time), which is backwards."
+      },
+      {
+        "question": "If A : B = 3 : 4 and B : C = 6 : 7, find A : B : C.",
+        "wrong": "3 : 4 : 7",
+        "correct": "9 : 12 : 14",
+        "why": "B must match in both ratios. Scale A:B = 3:4 by 3 to get 9:12; scale B:C = 6:7 by 2 to get 12:14. Combined: A:B:C = 9:12:14. The wrong answer ignored the need to align B."
       }
     ],
     "common_mistakes": [
-      "Dividing by one part instead of the total parts",
-      "Confusing direct and inverse proportion",
-      "Forgetting to reduce the ratio to simplest form",
-      "Swapping numerator and denominator in cross-multiplication"
+      "Treating inverse proportion as direct — more workers reducing time is inverse, not direct.",
+      "Adding ratios as if they were fractions: 2:3 + 1:2 is not 3:5; you must put both over a common base.",
+      "Forgetting to sum all ratio parts when dividing — total parts = a + b + c, not just one part.",
+      "Failing to scale the common term when combining ratios; this leads to silent mismatches."
     ],
     "exam_tips": [
-      "Always identify total parts before dividing a quantity",
-      "For inverse proportion, the product is constant",
-      "Reduce ratios before computing for cleaner arithmetic"
+      "Always write ratios using a variable: A : B = 2 : 3 means A = 2k, B = 3k — this makes word problems straightforward.",
+      "For inverse-proportion problems, write the constant explicitly: X * Y = constant; solve for the unknown.",
+      "When given multiple ratios with a shared element, scale immediately to align the shared term.",
+      "Verify final ratios by checking the original equation — small calculation errors are easy to catch this way."
     ],
     "quiz": [
       {
-        "question": "Divide 360 in ratio 2:3:4.",
-        "options": { "A": "60, 120, 180", "B": "80, 120, 160", "C": "90, 120, 150", "D": "72, 108, 180" },
+        "question": "If A : B = 5 : 7 and A = 25, what is B?",
+        "options": {"A": "30", "B": "35", "C": "40", "D": "45"},
         "correct": "B",
-        "explanation": "Total parts = 9. 360/9 = 40 per part. 2×40=80, 3×40=120, 4×40=160."
+        "explanation": "5/7 = 25/B, so B = 25 * 7 / 5 = 35."
       },
       {
-        "question": "If a:b = 3:4 and b:c = 2:5, then a:c = ?",
-        "options": { "A": "3:5", "B": "6:20", "C": "3:10", "D": "15:8" },
+        "question": "A sum of Rs 540 is divided among P, Q, R in the ratio 2 : 3 : 4. Find Q's share.",
+        "options": {"A": "120", "B": "150", "C": "180", "D": "200"},
         "correct": "C",
-        "explanation": "Make b common. a:b = 6:8; b:c = 8:20. So a:c = 6:20 = 3:10."
+        "explanation": "Total parts = 2+3+4 = 9. Q's share = (3/9) * 540 = 1/3 * 540 = 180."
       },
       {
-        "question": "5 men can do a job in 12 days. How many days for 4 men (inverse)?",
-        "options": { "A": "15", "B": "10", "C": "9.6", "D": "14" },
-        "correct": "A",
-        "explanation": "5 × 12 = 60 man-days. For 4 men: 60/4 = 15 days."
-      },
-      {
-        "question": "If 3 pens cost 45, what do 7 pens cost?",
-        "options": { "A": "90", "B": "105", "C": "120", "D": "135" },
+        "question": "If 6 pipes fill a tank in 10 hours, how long will 4 pipes take?",
+        "options": {"A": "12 hours", "B": "15 hours", "C": "18 hours", "D": "20 hours"},
         "correct": "B",
-        "explanation": "1 pen = 15. 7 pens = 7 × 15 = 105."
+        "explanation": "Pipes and time are inversely proportional. Total work = 6*10 = 60 pipe-hours. 4 pipes: 60/4 = 15 hours."
+      },
+      {
+        "question": "If A : B = 2 : 3 and B : C = 4 : 5, find A : C.",
+        "options": {"A": "2 : 5", "B": "8 : 15", "C": "4 : 7", "D": "3 : 5"},
+        "correct": "B",
+        "explanation": "Scale to align B: A:B = 8:12, B:C = 12:15. So A:C = 8:15."
       }
     ]
   },
   {
     "topic": "Profit Loss & Discount",
     "section": "quantitative",
-    "summary": "Profit/loss is computed on cost price (CP); discount is on marked price (MP). Selling price (SP) connects them: SP = CP + profit = MP − discount.",
+    "summary": "These problems revolve around cost price (CP), selling price (SP), marked price (MP), profit, loss, and discount. The core formulae are Profit = SP - CP, Loss = CP - SP, Profit% = (Profit/CP) * 100, and Discount% = (Discount/MP) * 100. Always note whether a percentage is on CP, SP, or MP — confusing these is the most common error. Successive discounts and markups behave like successive percentages (combined via multiplication). NUST GNET items often involve multiple shopkeepers, fake weights, or partial transactions, requiring careful tracking of each price.",
     "key_rules": [
-      "Profit% = (SP − CP) / CP × 100",
-      "Loss% = (CP − SP) / CP × 100",
-      "Discount% = (MP − SP) / MP × 100",
-      "SP = CP × (1 + profit%/100) or CP × (1 − loss%/100)",
-      "MP × (1 − discount%/100) = SP"
+      "Profit% is always calculated on CP: Profit% = (SP - CP)/CP * 100 — e.g., CP=100, SP=125, Profit% = 25%.",
+      "Loss% is also on CP: Loss% = (CP - SP)/CP * 100.",
+      "Discount% is on MP (marked price), not on selling price: Discount% = (MP - SP)/MP * 100.",
+      "SP = CP * (1 + Profit%/100) for profit, or CP * (1 - Loss%/100) for loss.",
+      "Successive discounts of a% and b% combine to a + b - (a*b)/100 — e.g., 20% + 10% gives 28%, not 30%.",
+      "If an item is sold at the same price with profit and loss percentages equal in magnitude, there is always an overall loss (because the bases differ)."
     ],
     "worked_examples": [
       {
-        "question": "CP = 800, SP = 920. Profit%?",
-        "wrong": "12%",
+        "question": "An item is bought for Rs 500 and sold for Rs 575. Find the profit percentage.",
+        "wrong": "13%",
         "correct": "15%",
-        "why": "(920 − 800)/800 × 100 = 120/800 × 100 = 15%."
+        "why": "Profit = 575 - 500 = 75. Profit% = (75/500) * 100 = 15%. The denominator must be CP (500), not SP (575). Using SP gives 13%, which is the trap."
       },
       {
-        "question": "Marked price = 500, discount = 20%, profit = 20%. Find CP.",
-        "wrong": "400",
-        "correct": "333.33",
-        "why": "SP = 500 × 0.80 = 400. CP × 1.20 = 400, so CP = 400/1.20 = 333.33."
+        "question": "A shop offers successive discounts of 20% and 10% on an item marked Rs 1000. Find the final price.",
+        "wrong": "Rs 700",
+        "correct": "Rs 720",
+        "why": "After 20% discount: 1000 * 0.80 = 800. After further 10% discount on 800: 800 * 0.90 = 720. The wrong answer 700 adds discounts directly (30%), which overstates the total reduction."
+      },
+      {
+        "question": "A trader marks an item 40% above CP and offers a 25% discount. Find the profit percentage.",
+        "wrong": "15%",
+        "correct": "5%",
+        "why": "Let CP = 100. MP = 100 * 1.40 = 140. SP = 140 * 0.75 = 105. Profit = 105 - 100 = 5, so Profit% = 5%. The trap is to subtract 25% from 40% to get 15%, but the percentages are on different bases."
       }
     ],
     "common_mistakes": [
-      "Computing profit% on SP instead of CP",
-      "Computing discount% on CP instead of MP",
-      "Confusing markup with profit",
-      "Forgetting that successive discounts don't add directly"
+      "Using SP as the base for profit% calculation — the base must always be CP.",
+      "Adding successive discounts directly instead of applying them multiplicatively.",
+      "Confusing discount% (on MP) with profit% (on CP) — these have different bases.",
+      "Forgetting that 'marked up by X% and discounted by X%' does NOT return to the original price, because the bases differ."
     ],
     "exam_tips": [
-      "Identify CP, SP, MP clearly — they are three different anchors",
-      "Profit/loss base = CP; discount base = MP",
-      "For two successive discounts a%, b%: net = a + b − ab/100"
+      "Always assume CP = 100 for percentage problems unless a specific value is given — this simplifies all subsequent calculations.",
+      "Memorise: markup of m% followed by discount of d% gives final = CP * (1 + m/100) * (1 - d/100).",
+      "For successive discounts, use 1 - (1-a/100)(1-b/100) = effective discount fraction.",
+      "Double-check whether a percentage refers to CP, SP, or MP — labelling each price prevents confusion."
     ],
     "quiz": [
       {
-        "question": "An item bought for 600 is sold for 750. Profit%?",
-        "options": { "A": "20%", "B": "25%", "C": "15%", "D": "30%" },
-        "correct": "B",
-        "explanation": "(750 − 600)/600 × 100 = 150/600 × 100 = 25%."
+        "question": "A bicycle is bought for Rs 4000 and sold for Rs 4600. Find the profit percentage.",
+        "options": {"A": "10%", "B": "12%", "C": "15%", "D": "20%"},
+        "correct": "C",
+        "explanation": "Profit = 4600 - 4000 = 600. Profit% = (600/4000)*100 = 15%."
       },
       {
-        "question": "Marked price = 1000, discount = 10%. Selling price?",
-        "options": { "A": "850", "B": "900", "C": "950", "D": "990" },
+        "question": "An item is marked at Rs 800 and sold after a 25% discount. Find the selling price.",
+        "options": {"A": "Rs 540", "B": "Rs 600", "C": "Rs 640", "D": "Rs 700"},
         "correct": "B",
-        "explanation": "1000 × (1 − 0.10) = 900."
+        "explanation": "SP = 800 * (1 - 0.25) = 800 * 0.75 = 600."
       },
       {
-        "question": "Successive discounts of 10% and 20%. Single equivalent discount?",
-        "options": { "A": "28%", "B": "30%", "C": "25%", "D": "32%" },
-        "correct": "A",
-        "explanation": "Multiplier: 0.90 × 0.80 = 0.72. Discount = 1 − 0.72 = 28%."
+        "question": "An article was sold at a 10% loss for Rs 540. Find the cost price.",
+        "options": {"A": "Rs 550", "B": "Rs 580", "C": "Rs 600", "D": "Rs 650"},
+        "correct": "C",
+        "explanation": "CP * 0.90 = 540, so CP = 540/0.90 = 600."
       },
       {
-        "question": "CP = 250, loss = 12%. SP?",
-        "options": { "A": "215", "B": "220", "C": "225", "D": "230" },
+        "question": "Two successive discounts of 10% and 20% are applied. What is the equivalent single discount?",
+        "options": {"A": "25%", "B": "28%", "C": "30%", "D": "32%"},
         "correct": "B",
-        "explanation": "SP = 250 × (1 − 0.12) = 250 × 0.88 = 220."
+        "explanation": "Effective = 1 - (0.90 * 0.80) = 1 - 0.72 = 0.28 = 28%."
       }
     ]
   },
   {
     "topic": "Time Speed & Distance",
     "section": "quantitative",
-    "summary": "The base formula is Distance = Speed × Time. Problems include relative speed (trains, boats), average speed, and unit conversion between km/h and m/s.",
+    "summary": "The fundamental equation is Distance = Speed * Time. NUST GNET adapts this to relative speed (two trains, boats and streams), average speed, and conversion between km/h and m/s. The conversion factor is 1 km/h = 5/18 m/s and 1 m/s = 18/5 km/h. Average speed for equal distances at two speeds is the harmonic mean: 2ab/(a+b), NOT the arithmetic mean. Relative speed for objects moving toward each other is sum of speeds; moving in the same direction, it's the difference. Boat problems use upstream speed = boat - current, downstream = boat + current.",
     "key_rules": [
-      "D = S × T; S = D/T; T = D/S",
-      "1 km/h = 5/18 m/s; 1 m/s = 18/5 km/h",
-      "Relative speed: same direction = S₁ − S₂; opposite = S₁ + S₂",
-      "Average speed = total distance / total time (NOT mean of speeds)",
-      "For two equal distances at speeds a and b: avg = 2ab/(a+b)"
+      "Distance = Speed * Time; Speed = Distance / Time; Time = Distance / Speed.",
+      "Convert: 1 km/h = 5/18 m/s; 1 m/s = 18/5 km/h. Multiply km/h by 5/18 to get m/s.",
+      "Average speed for two equal-distance trips at speeds a and b is the harmonic mean: 2ab/(a+b), not (a+b)/2.",
+      "Relative speed (opposite directions or two trains meeting): sum of speeds.",
+      "Relative speed (same direction or overtaking): difference of speeds.",
+      "Boat in stream: downstream = boat speed + current; upstream = boat - current; in still water = (down + up)/2."
     ],
     "worked_examples": [
       {
-        "question": "A car travels 60 km at 30 km/h and 60 km at 60 km/h. Average speed?",
+        "question": "A car travels 60 km at 30 km/h and then 60 km at 60 km/h. Find the average speed for the entire journey.",
         "wrong": "45 km/h",
         "correct": "40 km/h",
-        "why": "Time = 2 + 1 = 3 h; distance = 120 km; avg = 120/3 = 40. Or use 2ab/(a+b) = 2·30·60/90 = 40."
+        "why": "Time for first half = 60/30 = 2 hours; time for second = 60/60 = 1 hour. Total distance = 120 km, total time = 3 hours. Average speed = 120/3 = 40 km/h. The arithmetic mean (45) is wrong because more time is spent at the slower speed."
       },
       {
-        "question": "A 200 m train at 72 km/h crosses a pole in how many seconds?",
-        "wrong": "5 s",
-        "correct": "10 s",
-        "why": "72 km/h = 20 m/s. Time = 200/20 = 10 s."
+        "question": "Two trains 120 m and 80 m long travel in opposite directions at 50 km/h and 70 km/h respectively. How long do they take to pass each other?",
+        "wrong": "10 seconds",
+        "correct": "6 seconds",
+        "why": "Total length = 120 + 80 = 200 m. Relative speed = 50 + 70 = 120 km/h = 120 * 5/18 = 100/3 m/s. Time = 200 / (100/3) = 6 seconds. The wrong answer used the wrong relative speed or didn't convert units."
+      },
+      {
+        "question": "A boat travels 24 km downstream in 2 hours and 24 km upstream in 3 hours. Find the speed of the boat in still water and the speed of the current.",
+        "wrong": "Boat = 12, Current = 4",
+        "correct": "Boat = 10 km/h, Current = 2 km/h",
+        "why": "Downstream speed = 24/2 = 12 km/h = boat + current. Upstream speed = 24/3 = 8 km/h = boat - current. Adding: 2*boat = 20, boat = 10. Subtracting: 2*current = 4, current = 2."
       }
     ],
     "common_mistakes": [
-      "Averaging speeds directly instead of using harmonic mean",
-      "Forgetting to convert km/h to m/s (or vice versa)",
-      "Mixing up relative speed direction",
-      "Ignoring train length when crossing a platform or another train"
+      "Using arithmetic mean for average speed instead of harmonic mean — works only when times (not distances) are equal.",
+      "Forgetting unit conversion between km/h and m/s — train problems often mix units.",
+      "Using sum of speeds for same-direction motion (should be difference) and vice versa.",
+      "Confusing upstream and downstream — upstream is against the current (slower); downstream is with the current (faster)."
     ],
     "exam_tips": [
-      "Memorize 1 km/h = 5/18 m/s (multiply by 5/18 to convert km/h → m/s)",
-      "For trains crossing each other, add lengths; for poles, just train length",
-      "Use 2ab/(a+b) shortcut for equal-distance average"
+      "Always convert all speeds to the same unit before computing — m/s for short-time problems, km/h for long-time problems.",
+      "Memorise: 36 km/h = 10 m/s, 54 km/h = 15 m/s, 72 km/h = 20 m/s — common train speeds.",
+      "For two-train problems, draw a quick diagram showing direction; this prevents same/opposite confusion.",
+      "Average speed problems: always compute total distance / total time; never average the speeds directly."
     ],
     "quiz": [
       {
-        "question": "A car travels 240 km in 4 hours. Speed in km/h?",
-        "options": { "A": "50", "B": "55", "C": "60", "D": "65" },
-        "correct": "C",
-        "explanation": "Speed = 240/4 = 60 km/h."
-      },
-      {
-        "question": "Convert 90 km/h to m/s.",
-        "options": { "A": "20", "B": "25", "C": "30", "D": "15" },
+        "question": "A train 200 m long crosses a pole in 10 seconds. Find its speed in km/h.",
+        "options": {"A": "60 km/h", "B": "72 km/h", "C": "80 km/h", "D": "90 km/h"},
         "correct": "B",
-        "explanation": "90 × 5/18 = 450/18 = 25 m/s."
+        "explanation": "Speed = 200/10 = 20 m/s = 20 * 18/5 = 72 km/h."
       },
       {
-        "question": "Two trains, 60 km/h and 40 km/h, run toward each other. Relative speed?",
-        "options": { "A": "20 km/h", "B": "100 km/h", "C": "50 km/h", "D": "2400 km/h" },
-        "correct": "B",
-        "explanation": "Opposite directions: add. 60 + 40 = 100 km/h."
-      },
-      {
-        "question": "A goes 30 km at 60 km/h and returns 30 km at 30 km/h. Average speed?",
-        "options": { "A": "40 km/h", "B": "45 km/h", "C": "50 km/h", "D": "36 km/h" },
+        "question": "A car covers half a journey at 40 km/h and the other half at 60 km/h. Find the average speed.",
+        "options": {"A": "48 km/h", "B": "50 km/h", "C": "52 km/h", "D": "55 km/h"},
         "correct": "A",
-        "explanation": "2·60·30/(60+30) = 3600/90 = 40 km/h."
+        "explanation": "Harmonic mean = 2 * 40 * 60 / (40 + 60) = 4800/100 = 48 km/h."
+      },
+      {
+        "question": "Two cars start from points 200 km apart and move toward each other at 40 km/h and 60 km/h. When do they meet?",
+        "options": {"A": "1 hour", "B": "1.5 hours", "C": "2 hours", "D": "2.5 hours"},
+        "correct": "C",
+        "explanation": "Relative speed = 40 + 60 = 100 km/h. Time = 200/100 = 2 hours."
+      },
+      {
+        "question": "A boat's downstream speed is 15 km/h and upstream speed is 9 km/h. Find the speed of the current.",
+        "options": {"A": "2 km/h", "B": "3 km/h", "C": "4 km/h", "D": "6 km/h"},
+        "correct": "B",
+        "explanation": "Current = (15 - 9)/2 = 6/2 = 3 km/h."
       }
     ]
   },
   {
     "topic": "Work & Pipes",
     "section": "quantitative",
-    "summary": "Work problems treat the entire job as 1 unit. If A finishes in a days, A's rate = 1/a per day. Combine rates for joint work. Pipes filling/emptying use the same rate logic with positive/negative signs.",
+    "summary": "Work problems use the idea of 'rate per unit time'. If A finishes a job in n days, A's rate is 1/n of the job per day. Combined rates add: A + B together = 1/a + 1/b per day. Pipes filling and emptying are the same idea — inflow rates add positively, outflow (drain) rates subtract. The standard formula for two workers (or pipes) is: combined time = ab/(a+b). NUST GNET tests variations where workers join/leave mid-project or one pipe fills while another drains.",
     "key_rules": [
-      "If A does a job in 'a' days, rate = 1/a per day",
-      "Combined rate of A and B = 1/a + 1/b",
-      "Time together = ab/(a + b)",
-      "Outflow pipe rate is negative when filling a tank",
-      "Work done = rate × time; rates add when working together"
+      "If A does a job in 'a' days, A's rate = 1/a (job per day).",
+      "Combined rate of A and B together = 1/a + 1/b; combined time = 1 / (1/a + 1/b) = ab/(a+b).",
+      "For pipes: filling pipes add rates; draining pipes subtract rates.",
+      "If A works for x days and then leaves, work done by A = x/a (assuming total job = 1).",
+      "If three workers together: time = 1 / (1/a + 1/b + 1/c) = abc/(bc + ac + ab).",
+      "If man-days are used: total work = number of workers * days; e.g., 8 men x 10 days = 80 man-days."
     ],
     "worked_examples": [
       {
-        "question": "A finishes in 10 days, B in 15 days. Together?",
-        "wrong": "12.5 days",
-        "correct": "6 days",
-        "why": "Combined rate = 1/10 + 1/15 = 3/30 + 2/30 = 5/30 = 1/6. Time = 6 days."
+        "question": "A can complete a job in 12 days, B in 8 days. How long will they take together?",
+        "wrong": "10 days",
+        "correct": "24/5 = 4.8 days",
+        "why": "Combined rate = 1/12 + 1/8 = 2/24 + 3/24 = 5/24. Combined time = 24/5 = 4.8 days. The wrong answer (arithmetic mean) ignores that together they work faster than either alone."
       },
       {
-        "question": "Pipe A fills tank in 6 hours; pipe B empties it in 12 hours. Both open, time to fill?",
-        "wrong": "4 hours",
-        "correct": "12 hours",
-        "why": "Net rate = 1/6 − 1/12 = 2/12 − 1/12 = 1/12. Time = 12 hours."
+        "question": "Pipe A fills a tank in 6 hours; pipe B drains it in 9 hours. If both are open, how long to fill?",
+        "wrong": "3 hours",
+        "correct": "18 hours",
+        "why": "Net rate = 1/6 - 1/9 = 3/18 - 2/18 = 1/18 of the tank per hour. Time to fill = 18 hours. The wrong answer subtracts incorrectly or treats them as adding."
+      },
+      {
+        "question": "If 12 workers complete a project in 20 days, how many workers are needed to complete it in 15 days?",
+        "wrong": "9 workers",
+        "correct": "16 workers",
+        "why": "Total work = 12 * 20 = 240 worker-days. For 15 days: 240/15 = 16 workers. Workers and days are inversely proportional. Wrong answer 9 reduces workers as if direct proportion."
       }
     ],
     "common_mistakes": [
-      "Adding times instead of rates",
-      "Forgetting to subtract emptying pipe rate",
-      "Mixing units (hours and days) without converting",
-      "Treating partial work without proportional rate adjustment"
+      "Treating worker count and time as directly proportional — they are inversely proportional.",
+      "Adding times directly when combining workers; you must add rates, then invert.",
+      "Forgetting to subtract drain pipe rates; they reduce the filling rate.",
+      "Computing the combined time as the arithmetic mean of individual times — that's almost never correct."
     ],
     "exam_tips": [
-      "Always convert to rates (1/time) before combining",
-      "Use ab/(a+b) shortcut for two-person joint time",
-      "Mark filling/draining pipes with + and − signs"
+      "Always convert to rates (1/time) before combining — this is the only reliable method.",
+      "For pipe problems, write each pipe's rate with a sign: + for filling, - for draining.",
+      "Use the man-days method for problems involving changes in worker count.",
+      "Verify final time by computing total work done: workers * combined rate * time should equal 1 (or the total job size)."
     ],
     "quiz": [
       {
-        "question": "A can do a job in 12 days, B in 18 days. Together they finish in?",
-        "options": { "A": "6 days", "B": "7.2 days", "C": "8 days", "D": "10 days" },
+        "question": "A can complete a job in 10 days, B in 15 days. How long together?",
+        "options": {"A": "5 days", "B": "6 days", "C": "7 days", "D": "8 days"},
         "correct": "B",
-        "explanation": "1/12 + 1/18 = 3/36 + 2/36 = 5/36. Time = 36/5 = 7.2 days."
+        "explanation": "Combined rate = 1/10 + 1/15 = 3/30 + 2/30 = 5/30 = 1/6. Time = 6 days."
       },
       {
-        "question": "A finishes alone in 8 days. With B, in 4.8 days. B alone?",
-        "options": { "A": "10 days", "B": "12 days", "C": "14 days", "D": "16 days" },
+        "question": "Two pipes fill a tank in 12 and 18 hours respectively. How long to fill it with both open?",
+        "options": {"A": "5.4 hours", "B": "7.2 hours", "C": "9 hours", "D": "10.5 hours"},
         "correct": "B",
-        "explanation": "1/B = 1/4.8 − 1/8 = 5/24 − 3/24 = 2/24 = 1/12. B = 12 days."
+        "explanation": "Combined rate = 1/12 + 1/18 = 3/36 + 2/36 = 5/36. Time = 36/5 = 7.2 hours."
       },
       {
-        "question": "Pipe A fills in 4 h; pipe B fills in 6 h. Both open, time to fill?",
-        "options": { "A": "2 h", "B": "2.4 h", "C": "3 h", "D": "5 h" },
-        "correct": "B",
-        "explanation": "1/4 + 1/6 = 3/12 + 2/12 = 5/12. Time = 12/5 = 2.4 h."
-      },
-      {
-        "question": "If 6 workers finish in 10 days, how long for 4 workers?",
-        "options": { "A": "12 days", "B": "13 days", "C": "15 days", "D": "20 days" },
+        "question": "If 15 men can do a job in 20 days, how many men are needed to do it in 12 days?",
+        "options": {"A": "20", "B": "22", "C": "25", "D": "30"},
         "correct": "C",
-        "explanation": "6 × 10 = 60 worker-days. 60/4 = 15 days."
+        "explanation": "Total work = 15 * 20 = 300 man-days. For 12 days: 300/12 = 25 men."
+      },
+      {
+        "question": "Pipe A fills a tank in 8 hours; pipe B empties it in 12 hours. If both are open, how long to fill?",
+        "options": {"A": "20 hours", "B": "24 hours", "C": "16 hours", "D": "10 hours"},
+        "correct": "B",
+        "explanation": "Net rate = 1/8 - 1/12 = 3/24 - 2/24 = 1/24. Time = 24 hours."
       }
     ]
   },
   {
     "topic": "Number Properties & Divisibility",
     "section": "quantitative",
-    "summary": "Number properties cover primes, factors, multiples, LCM, HCF, divisibility rules, and parity. These are foundational and frequently appear in word problems.",
+    "summary": "This topic covers divisibility rules, prime factorisation, LCM and HCF (GCD), even/odd properties, and remainders. Divisibility rules let you check divisibility without long division: a number is divisible by 3 if its digits sum to a multiple of 3, by 4 if its last two digits form a multiple of 4, by 9 if its digit sum is a multiple of 9, by 11 if the alternating digit sum is 0 or a multiple of 11. LCM (least common multiple) and HCF (highest common factor) appear in word problems involving repeating events or grouping. The product of LCM and HCF of two numbers equals the product of the numbers.",
     "key_rules": [
-      "Divisibility by 3: digit sum divisible by 3; by 9: digit sum divisible by 9",
-      "Divisibility by 4: last 2 digits divisible by 4; by 8: last 3 digits divisible by 8",
-      "Divisibility by 11: alternating digit sum divisible by 11",
-      "LCM × HCF = product of two numbers",
-      "Prime factorization is unique (fundamental theorem of arithmetic)"
+      "Divisibility by 2: last digit is even. By 5: last digit is 0 or 5. By 10: last digit is 0.",
+      "Divisibility by 3 (or 9): sum of digits is divisible by 3 (or 9).",
+      "Divisibility by 4: last two digits divisible by 4. By 8: last three digits divisible by 8.",
+      "Divisibility by 11: alternating sum of digits is 0 or a multiple of 11 — e.g., 121 has 1-2+1=0, so divisible.",
+      "LCM * HCF = product of two numbers; useful for finding one from the other three.",
+      "For prime factorisation, divide by smallest primes (2, 3, 5, 7, ...) until you reach 1."
     ],
     "worked_examples": [
       {
-        "question": "Is 123456 divisible by 3?",
+        "question": "Is 1287 divisible by 9?",
         "wrong": "No",
         "correct": "Yes",
-        "why": "Digit sum = 1+2+3+4+5+6 = 21, which is divisible by 3."
+        "why": "Sum of digits: 1+2+8+7 = 18. 18 is divisible by 9, so 1287 is divisible by 9. Check: 1287 / 9 = 143. The divisibility rule for 9 is the most reliable shortcut for mid-sized numbers."
       },
       {
-        "question": "HCF of 12 and 18?",
-        "wrong": "6 by trial",
-        "correct": "6",
-        "why": "12 = 2²×3; 18 = 2×3². HCF = 2×3 = 6."
+        "question": "Find the HCF and LCM of 12 and 18.",
+        "wrong": "HCF = 3, LCM = 72",
+        "correct": "HCF = 6, LCM = 36",
+        "why": "Prime factorisations: 12 = 2^2 * 3, 18 = 2 * 3^2. HCF = 2^1 * 3^1 = 6 (smallest power of each common prime). LCM = 2^2 * 3^2 = 36 (largest power of each prime). Check: HCF * LCM = 6 * 36 = 216 = 12 * 18."
+      },
+      {
+        "question": "What is the smallest number divisible by both 8 and 12?",
+        "wrong": "96",
+        "correct": "24",
+        "why": "LCM(8, 12). 8 = 2^3, 12 = 2^2 * 3. LCM = 2^3 * 3 = 24. The wrong answer 96 is a multiple of the LCM (96 = 4*24), but the smallest such number is the LCM itself."
       }
     ],
     "common_mistakes": [
-      "Confusing factors and multiples",
-      "Forgetting 1 is not prime; 2 is the only even prime",
-      "Mixing up LCM (lowest common multiple) and HCF (highest common factor)",
-      "Errors applying divisibility rules"
+      "Confusing HCF and LCM — HCF is the largest common divisor; LCM is the smallest common multiple.",
+      "Misapplying divisibility rules — e.g., using the digit sum rule for 4 instead of for 3.",
+      "Forgetting that for two coprime numbers (HCF = 1), LCM = product of the numbers.",
+      "Treating 1 as a prime number — by convention, 1 is not prime."
     ],
     "exam_tips": [
-      "Memorize divisibility rules for 2, 3, 4, 5, 6, 8, 9, 10, 11",
-      "Use prime factorization for HCF/LCM",
-      "Check parity (odd/even) for quick eliminations"
+      "Memorise divisibility rules for 2, 3, 4, 5, 6, 8, 9, 10, 11 — they handle most GNET problems quickly.",
+      "For HCF and LCM, factor each number into primes; HCF uses smallest power, LCM uses largest.",
+      "Use HCF * LCM = product of two numbers as a sanity check.",
+      "When asked for 'smallest number with property X', think LCM; for 'largest divides both', think HCF."
     ],
     "quiz": [
       {
-        "question": "HCF of 24 and 36?",
-        "options": { "A": "6", "B": "12", "C": "8", "D": "18" },
+        "question": "Which of the following is divisible by 11?",
+        "options": {"A": "2453", "B": "3729", "C": "5841", "D": "4862"},
+        "correct": "D",
+        "explanation": "For 4862: alternating sum = 4 - 8 + 6 - 2 = 0, divisible by 11. Check: 4862/11 = 442."
+      },
+      {
+        "question": "The HCF of 24 and 36 is —",
+        "options": {"A": "6", "B": "8", "C": "12", "D": "18"},
+        "correct": "C",
+        "explanation": "24 = 2^3 * 3, 36 = 2^2 * 3^2. HCF = 2^2 * 3 = 12."
+      },
+      {
+        "question": "The LCM of 6, 8, and 10 is —",
+        "options": {"A": "60", "B": "80", "C": "120", "D": "240"},
+        "correct": "C",
+        "explanation": "6 = 2*3, 8 = 2^3, 10 = 2*5. LCM = 2^3 * 3 * 5 = 120."
+      },
+      {
+        "question": "If a number is divisible by both 4 and 6, the smallest such positive number greater than 0 is —",
+        "options": {"A": "10", "B": "12", "C": "18", "D": "24"},
         "correct": "B",
-        "explanation": "24 = 2³×3; 36 = 2²×3². HCF = 2²×3 = 12."
-      },
-      {
-        "question": "LCM of 4 and 6?",
-        "options": { "A": "12", "B": "24", "C": "10", "D": "8" },
-        "correct": "A",
-        "explanation": "4 = 2²; 6 = 2×3. LCM = 2²×3 = 12."
-      },
-      {
-        "question": "Which is divisible by 11: 1331, 2345, 4567, 7894?",
-        "options": { "A": "1331", "B": "2345", "C": "4567", "D": "7894" },
-        "correct": "A",
-        "explanation": "1331: alternating sum = (1+3) − (3+1) = 0, divisible by 11."
-      },
-      {
-        "question": "How many factors does 12 have?",
-        "options": { "A": "4", "B": "6", "C": "5", "D": "8" },
-        "correct": "B",
-        "explanation": "12 = 2² × 3¹. Factors = (2+1)(1+1) = 6: {1,2,3,4,6,12}."
+        "explanation": "Smallest number divisible by 4 and 6 is LCM(4,6) = 12."
       }
     ]
   },
   {
     "topic": "Probability & Combinatorics",
     "section": "quantitative",
-    "summary": "Probability = favorable outcomes / total outcomes. Combinatorics counts arrangements (permutations) and selections (combinations). Use factorials and nCr/nPr formulas.",
+    "summary": "Probability is the ratio of favourable outcomes to total outcomes: P(event) = favourable / total. Combinatorics counts the number of outcomes. The two core counting tools are permutations (order matters: nPr = n!/(n-r)!) and combinations (order doesn't matter: nCr = n!/(r!(n-r)!)). Independent events multiply probabilities; mutually exclusive events add. NUST GNET problems involve coins, dice, cards, and balls in urns. The most common error is using permutations when combinations are needed, or forgetting the complement rule (P(not A) = 1 - P(A)).",
     "key_rules": [
-      "P(event) = favorable / total, between 0 and 1",
-      "P(A or B) = P(A) + P(B) − P(A and B)",
-      "P(A and B) for independent = P(A) × P(B)",
-      "Permutations (order matters): nPr = n!/(n−r)!",
-      "Combinations (order doesn't matter): nCr = n!/(r!(n−r)!)"
+      "P(event) = number of favourable outcomes / total number of outcomes; must be between 0 and 1.",
+      "Permutations (order matters): nPr = n! / (n-r)! — e.g., arranging 3 books from 5 is 5*4*3 = 60.",
+      "Combinations (order doesn't matter): nCr = n! / (r! * (n-r)!) — e.g., choosing 3 from 5 is 10.",
+      "Independent events: P(A and B) = P(A) * P(B). E.g., two coin flips both heads = 1/2 * 1/2 = 1/4.",
+      "Mutually exclusive events: P(A or B) = P(A) + P(B). E.g., rolling 1 or 6 = 1/6 + 1/6 = 1/3.",
+      "Complement rule: P(not A) = 1 - P(A); often easier than direct calculation."
     ],
     "worked_examples": [
       {
-        "question": "Probability of rolling a 4 on a die?",
-        "wrong": "1/4",
-        "correct": "1/6",
-        "why": "One favorable outcome (4) out of 6 possible (1-6)."
+        "question": "What is the probability of getting two heads in two coin flips?",
+        "wrong": "1/2",
+        "correct": "1/4",
+        "why": "Each flip is independent. P(H on flip 1) = 1/2, P(H on flip 2) = 1/2. P(both H) = 1/2 * 1/2 = 1/4. The wrong answer treats one flip as sufficient."
       },
       {
-        "question": "Choose 2 from 5 (order doesn't matter)?",
-        "wrong": "20",
-        "correct": "10",
-        "why": "5C2 = 5!/(2!·3!) = (5×4)/(2×1) = 10."
+        "question": "In how many ways can 4 students be selected from a group of 7?",
+        "wrong": "5040",
+        "correct": "35",
+        "why": "This is combinations (order doesn't matter): 7C4 = 7! / (4! * 3!) = (7*6*5*4)/(4*3*2*1) = 35. The wrong answer 5040 = 7! treats it as a full permutation."
+      },
+      {
+        "question": "A bag has 4 red and 6 blue balls. What is the probability of drawing a red ball?",
+        "wrong": "4/6",
+        "correct": "4/10 = 2/5",
+        "why": "Total balls = 4 + 6 = 10. Favourable (red) = 4. P(red) = 4/10 = 2/5. The denominator must be the total, not just the other colour."
       }
     ],
     "common_mistakes": [
-      "Confusing permutations with combinations",
-      "Adding probabilities of dependent events",
-      "Forgetting to subtract the overlap in P(A or B)",
-      "Computing total outcomes incorrectly"
+      "Using nPr when nCr is needed — if order doesn't matter, use combinations.",
+      "Treating dependent events as independent — drawing without replacement changes the second probability.",
+      "Forgetting the complement rule when 'at least one' problems are easier via complement.",
+      "Confusing 'and' (multiply) with 'or' (add) for combining probabilities."
     ],
     "exam_tips": [
-      "Ask: does order matter? If yes, use permutation; if no, combination",
-      "For 'at least one', use complement: 1 − P(none)",
-      "Draw a tree diagram for compound events"
+      "Decide if order matters BEFORE choosing nPr or nCr; this single choice eliminates many errors.",
+      "For 'at least one' questions, compute 1 - P(none) — usually faster than summing cases.",
+      "For dice and coin problems, list the full sample space if it's small (8 or fewer) to verify.",
+      "Memorise common nCr values: 5C2=10, 6C2=15, 6C3=20, 7C3=35, 10C2=45."
     ],
     "quiz": [
       {
-        "question": "A coin is flipped twice. Probability of two heads?",
-        "options": { "A": "1/2", "B": "1/3", "C": "1/4", "D": "1/8" },
+        "question": "A die is rolled. What is the probability of getting an even number?",
+        "options": {"A": "1/6", "B": "1/3", "C": "1/2", "D": "2/3"},
         "correct": "C",
-        "explanation": "P(HH) = 1/2 × 1/2 = 1/4."
+        "explanation": "Even numbers on a die: 2, 4, 6 — three of six outcomes. P = 3/6 = 1/2."
       },
       {
-        "question": "How many ways to arrange the letters in CAT?",
-        "options": { "A": "3", "B": "6", "C": "9", "D": "27" },
+        "question": "How many different 3-letter arrangements can be made from the letters A, B, C, D, E?",
+        "options": {"A": "10", "B": "60", "C": "120", "D": "20"},
         "correct": "B",
-        "explanation": "3! = 6."
+        "explanation": "Permutations (order matters): 5P3 = 5*4*3 = 60."
       },
       {
-        "question": "From 6 people, choose 3 for a committee. How many ways?",
-        "options": { "A": "18", "B": "20", "C": "120", "D": "60" },
+        "question": "From a deck of 52 cards, what is the probability of drawing a king?",
+        "options": {"A": "1/52", "B": "1/13", "C": "1/4", "D": "4/13"},
         "correct": "B",
-        "explanation": "6C3 = 6!/(3!·3!) = 720/(6·6) = 20."
+        "explanation": "4 kings out of 52 cards: 4/52 = 1/13."
       },
       {
-        "question": "A bag has 4 red and 6 blue balls. P(red on first draw)?",
-        "options": { "A": "4/10", "B": "6/10", "C": "1/2", "D": "1/4" },
-        "correct": "A",
-        "explanation": "4 red out of 10 total = 4/10 = 2/5."
+        "question": "In how many ways can 5 people be arranged in a row?",
+        "options": {"A": "25", "B": "60", "C": "120", "D": "240"},
+        "correct": "C",
+        "explanation": "5! = 5*4*3*2*1 = 120."
       }
     ]
   },
   {
     "topic": "Geometry & Mensuration",
     "section": "quantitative",
-    "summary": "Geometry covers angles, triangles, quadrilaterals, and circles. Mensuration computes area, perimeter, surface area, and volume of 2D and 3D shapes.",
+    "summary": "Geometry covers angles, triangles, quadrilaterals, and circles; mensuration handles areas and volumes of 2D and 3D figures. Key formulae: triangle area = (1/2) * base * height; circle area = pi*r^2, circumference = 2*pi*r; rectangle area = length * width; cylinder volume = pi*r^2*h. Pythagoras (a^2 + b^2 = c^2) is the most-tested theorem for right triangles. Properties of similar triangles, properties of circles (tangent perpendicular to radius), and basic trigonometry (sin, cos, tan of 30°, 45°, 60°) round out the syllabus.",
     "key_rules": [
-      "Triangle: area = (1/2) × base × height; sum of angles = 180°",
-      "Right triangle: a² + b² = c² (Pythagoras)",
-      "Circle: area = πr²; circumference = 2πr",
-      "Rectangle: area = l × w; perimeter = 2(l+w)",
-      "Cube: volume = a³; surface = 6a². Cylinder: V = πr²h"
+      "Triangle area = (1/2) * base * height; for right triangles, hypotenuse via Pythagoras: a^2 + b^2 = c^2.",
+      "Circle area = pi * r^2; circumference = 2 * pi * r; arc length = r * theta (theta in radians).",
+      "Sum of interior angles of a polygon with n sides = (n-2) * 180°.",
+      "For similar triangles, corresponding sides are proportional, and areas scale by the square of the side ratio.",
+      "Cuboid volume = l * w * h; cylinder volume = pi*r^2*h; sphere volume = (4/3)*pi*r^3.",
+      "Standard trig values: sin 30 = 1/2, sin 45 = sqrt(2)/2, sin 60 = sqrt(3)/2; cos values are the reverse."
     ],
     "worked_examples": [
       {
-        "question": "Area of a triangle with base 6 and height 4?",
-        "wrong": "24",
-        "correct": "12",
-        "why": "Area = (1/2) × 6 × 4 = 12."
+        "question": "Find the area of a triangle with base 10 cm and height 6 cm.",
+        "wrong": "60 cm^2",
+        "correct": "30 cm^2",
+        "why": "Area = (1/2) * base * height = (1/2) * 10 * 6 = 30 cm^2. The wrong answer forgets the (1/2) factor — a classic slip on rushed problems."
       },
       {
-        "question": "Hypotenuse of right triangle with legs 5 and 12?",
+        "question": "A right triangle has legs 5 and 12. What is the hypotenuse?",
         "wrong": "17",
         "correct": "13",
-        "why": "√(5² + 12²) = √(25 + 144) = √169 = 13."
+        "why": "Pythagoras: c^2 = 5^2 + 12^2 = 25 + 144 = 169. c = sqrt(169) = 13. This is the 5-12-13 Pythagorean triple."
+      },
+      {
+        "question": "Find the volume of a cylinder with radius 7 cm and height 10 cm. (Use pi = 22/7.)",
+        "wrong": "440 cm^3",
+        "correct": "1540 cm^3",
+        "why": "Volume = pi * r^2 * h = (22/7) * 49 * 10 = 22 * 7 * 10 = 1540 cm^3. The wrong answer 440 forgets to square the radius."
       }
     ],
     "common_mistakes": [
-      "Forgetting the (1/2) factor for triangle area",
-      "Confusing radius and diameter (d = 2r)",
-      "Mixing up perimeter and area formulas",
-      "Forgetting units (cm² for area, cm³ for volume)"
+      "Forgetting the (1/2) factor in the triangle area formula — a frequent slip.",
+      "Confusing radius with diameter — circumference uses 2*pi*r or pi*d, but area uses pi*r^2.",
+      "Mixing up similarity ratios — sides scale linearly, but areas scale by the square and volumes by the cube.",
+      "Using degrees instead of radians (or vice versa) when computing arc length or sector area."
     ],
     "exam_tips": [
-      "Memorize Pythagorean triples: 3-4-5, 5-12-13, 8-15-17, 7-24-25",
-      "Use π ≈ 22/7 or 3.14 based on answer choices",
-      "Draw diagrams even when given — verify your reading"
+      "Memorise common Pythagorean triples: 3-4-5, 5-12-13, 8-15-17, 7-24-25 — they appear constantly.",
+      "Use pi = 22/7 when radius is a multiple of 7; otherwise pi = 3.14 suffices.",
+      "Always label the figure with given lengths before applying any formula.",
+      "For complex figures, decompose into simpler shapes (rectangles, triangles, semicircles) and sum areas."
     ],
     "quiz": [
       {
-        "question": "Area of a circle with radius 7? (Use π = 22/7)",
-        "options": { "A": "44", "B": "154", "C": "49", "D": "22" },
+        "question": "What is the area of a circle with radius 7 cm? (pi = 22/7)",
+        "options": {"A": "44 cm^2", "B": "154 cm^2", "C": "308 cm^2", "D": "98 cm^2"},
         "correct": "B",
-        "explanation": "Area = πr² = 22/7 × 49 = 154."
+        "explanation": "Area = pi * r^2 = (22/7) * 49 = 22 * 7 = 154 cm^2."
       },
       {
-        "question": "Perimeter of a rectangle 8 × 5?",
-        "options": { "A": "13", "B": "26", "C": "40", "D": "20" },
+        "question": "A right triangle has legs 9 and 12. The hypotenuse is —",
+        "options": {"A": "13", "B": "15", "C": "17", "D": "21"},
         "correct": "B",
-        "explanation": "2(8+5) = 26."
+        "explanation": "9^2 + 12^2 = 81 + 144 = 225. sqrt(225) = 15. This is the 9-12-15 triangle (3 times 3-4-5)."
       },
       {
-        "question": "Volume of a cube with side 4?",
-        "options": { "A": "16", "B": "32", "C": "64", "D": "96" },
+        "question": "The volume of a cube with side 5 cm is —",
+        "options": {"A": "25 cm^3", "B": "75 cm^3", "C": "125 cm^3", "D": "150 cm^3"},
         "correct": "C",
-        "explanation": "4³ = 64."
+        "explanation": "Volume = side^3 = 5^3 = 125 cm^3."
       },
       {
-        "question": "Hypotenuse of a right triangle with legs 9 and 12?",
-        "options": { "A": "15", "B": "18", "C": "21", "D": "13" },
-        "correct": "A",
-        "explanation": "√(81 + 144) = √225 = 15. (3-4-5 triple scaled by 3.)"
+        "question": "The sum of interior angles of a hexagon is —",
+        "options": {"A": "360°", "B": "540°", "C": "720°", "D": "900°"},
+        "correct": "C",
+        "explanation": "(n-2)*180 = (6-2)*180 = 4*180 = 720°."
       }
     ]
   },
   {
     "topic": "Coordinate Geometry",
     "section": "quantitative",
-    "summary": "Coordinate geometry places points on an x-y plane and analyzes lines and shapes algebraically. Master distance, midpoint, slope, and line equations.",
+    "summary": "Coordinate geometry treats points and figures with (x, y) coordinates. The distance between two points is sqrt((x2-x1)^2 + (y2-y1)^2). The midpoint is ((x1+x2)/2, (y1+y2)/2). The slope of a line is (y2-y1)/(x2-x1); parallel lines have equal slopes, perpendicular lines have slopes whose product is -1. The line equation y = mx + c gives slope m and y-intercept c. NUST GNET problems test distance, slope, line equations, and occasionally circles centered at the origin (x^2 + y^2 = r^2).",
     "key_rules": [
-      "Distance between (x₁,y₁) and (x₂,y₂) = √((x₂−x₁)² + (y₂−y₁)²)",
-      "Midpoint = ((x₁+x₂)/2, (y₁+y₂)/2)",
-      "Slope m = (y₂−y₁)/(x₂−x₁)",
-      "Line equation: y = mx + b (slope-intercept) or y − y₁ = m(x − x₁)",
-      "Parallel lines: equal slopes. Perpendicular: m₁ × m₂ = −1"
+      "Distance between (x1, y1) and (x2, y2) = sqrt((x2-x1)^2 + (y2-y1)^2).",
+      "Midpoint of segment = ((x1+x2)/2, (y1+y2)/2).",
+      "Slope of line through two points = (y2 - y1)/(x2 - x1); undefined for vertical lines (x2 = x1).",
+      "Two lines are parallel if slopes are equal; perpendicular if slopes multiply to -1.",
+      "Line equation forms: y = mx + c (slope-intercept), y - y1 = m(x - x1) (point-slope), ax + by + c = 0 (general).",
+      "Circle centered at origin with radius r: x^2 + y^2 = r^2; centered at (h, k): (x-h)^2 + (y-k)^2 = r^2."
     ],
     "worked_examples": [
       {
-        "question": "Distance between (1,2) and (4,6)?",
+        "question": "Find the distance between (1, 2) and (4, 6).",
         "wrong": "7",
         "correct": "5",
-        "why": "√((4−1)² + (6−2)²) = √(9+16) = √25 = 5."
+        "why": "Distance = sqrt((4-1)^2 + (6-2)^2) = sqrt(9 + 16) = sqrt(25) = 5. The wrong answer 7 adds the differences directly instead of using the Pythagorean formula."
       },
       {
-        "question": "Slope of the line through (2,3) and (5,9)?",
-        "wrong": "3",
+        "question": "Find the slope of the line through (2, 3) and (5, 9).",
+        "wrong": "1/2",
         "correct": "2",
-        "why": "(9−3)/(5−2) = 6/3 = 2."
+        "why": "Slope = (9 - 3)/(5 - 2) = 6/3 = 2. The wrong answer inverts the formula (delta-x over delta-y instead of delta-y over delta-x)."
+      },
+      {
+        "question": "What is the equation of a line through (0, 3) with slope -2?",
+        "wrong": "y = 2x - 3",
+        "correct": "y = -2x + 3",
+        "why": "Using y = mx + c with m = -2 and c = 3 (y-intercept). The wrong answer flips the sign of the slope and confuses x-intercept with y-intercept."
       }
     ],
     "common_mistakes": [
-      "Subtracting in the wrong order for slope",
-      "Forgetting to square both differences in distance formula",
-      "Confusing slope with y-intercept",
-      "Mixing up x and y coordinates"
+      "Inverting the slope formula — slope is rise/run, not run/rise.",
+      "Forgetting to square differences when computing distance; just adding |x2-x1| and |y2-y1| gives the wrong answer.",
+      "Confusing parallel and perpendicular slope conditions: parallel = equal; perpendicular = product is -1.",
+      "Misreading positive vs negative slopes in graphs — positive slope rises left-to-right, negative falls."
     ],
     "exam_tips": [
-      "Plot points roughly to verify your answer makes sense",
-      "Remember vertical lines have undefined slope; horizontal lines have slope 0",
-      "For perpendicular slopes, take negative reciprocal"
+      "Sketch the points and lines roughly on a coordinate grid — visual estimation catches gross errors.",
+      "Memorise: distance and Pythagoras are essentially the same formula; this connects two topics.",
+      "For perpendicular lines, if slope of one is m, the other is -1/m (negative reciprocal).",
+      "Check intercepts by substituting x=0 (y-intercept) or y=0 (x-intercept) into the line equation."
     ],
     "quiz": [
       {
-        "question": "Midpoint of (2,4) and (6,10)?",
-        "options": { "A": "(4,7)", "B": "(4,6)", "C": "(3,7)", "D": "(8,14)" },
+        "question": "Distance between (0, 0) and (6, 8) is —",
+        "options": {"A": "10", "B": "14", "C": "12", "D": "8"},
         "correct": "A",
-        "explanation": "((2+6)/2, (4+10)/2) = (4, 7)."
+        "explanation": "sqrt(36 + 64) = sqrt(100) = 10. This is the 6-8-10 triple."
       },
       {
-        "question": "Distance from origin to (6,8)?",
-        "options": { "A": "10", "B": "14", "C": "12", "D": "48" },
-        "correct": "A",
-        "explanation": "√(36+64) = √100 = 10."
-      },
-      {
-        "question": "Slope of y = 3x + 5?",
-        "options": { "A": "5", "B": "3", "C": "−3", "D": "1/3" },
+        "question": "The midpoint of the segment joining (2, 4) and (8, 10) is —",
+        "options": {"A": "(4, 6)", "B": "(5, 7)", "C": "(6, 8)", "D": "(3, 5)"},
         "correct": "B",
-        "explanation": "Slope-intercept form: m = 3."
+        "explanation": "((2+8)/2, (4+10)/2) = (5, 7)."
       },
       {
-        "question": "A line perpendicular to y = 2x + 1 has slope?",
-        "options": { "A": "2", "B": "−2", "C": "1/2", "D": "−1/2" },
-        "correct": "D",
-        "explanation": "Negative reciprocal of 2 is −1/2."
+        "question": "The slope of the line 2x + 3y = 6 is —",
+        "options": {"A": "2/3", "B": "-2/3", "C": "3/2", "D": "-3/2"},
+        "correct": "B",
+        "explanation": "Rearranging: 3y = -2x + 6, so y = -(2/3)x + 2. Slope = -2/3."
+      },
+      {
+        "question": "If two lines have slopes 3 and -1/3, they are —",
+        "options": {"A": "Parallel", "B": "Perpendicular", "C": "Identical", "D": "Intersecting at 45°"},
+        "correct": "B",
+        "explanation": "Product of slopes = 3 * (-1/3) = -1, so the lines are perpendicular."
       }
     ]
   },
   {
     "topic": "Sequences Series & Interest",
     "section": "quantitative",
-    "summary": "Sequences include arithmetic progressions (AP, constant difference) and geometric progressions (GP, constant ratio). Interest problems (simple and compound) use similar growth formulas.",
+    "summary": "Sequences and series follow predictable patterns. An arithmetic progression (AP) has a constant difference d: a, a+d, a+2d, ...; the nth term is a + (n-1)d; the sum of first n terms is (n/2)(2a + (n-1)d) or (n/2)(first + last). A geometric progression (GP) has a constant ratio r: a, ar, ar^2, ...; the nth term is a*r^(n-1); the sum of first n terms is a(r^n - 1)/(r - 1) for r != 1. Simple interest is SI = P*R*T/100; compound interest is A = P*(1 + R/100)^T.",
     "key_rules": [
-      "AP nth term: aₙ = a + (n−1)d; sum: Sₙ = n/2 × (2a + (n−1)d)",
-      "GP nth term: aₙ = a·r^(n−1); sum (r≠1): Sₙ = a(r^n − 1)/(r − 1)",
-      "Simple interest: SI = (P × R × T) / 100",
-      "Compound interest: A = P(1 + R/100)^T; CI = A − P",
-      "For annual compounding over T years, multiplier is (1 + r)^T"
+      "AP nth term: a_n = a + (n-1)d; sum: S_n = (n/2)(2a + (n-1)d) or (n/2)(a + l) where l is the last term.",
+      "GP nth term: a_n = a * r^(n-1); sum: S_n = a*(r^n - 1)/(r - 1) for r != 1.",
+      "Simple Interest: SI = PRT/100; total amount A = P + SI = P(1 + RT/100).",
+      "Compound Interest: A = P(1 + R/100)^T; CI = A - P.",
+      "For half-yearly compounding, use rate = R/2 and time = 2T; quarterly uses R/4 and 4T.",
+      "Sum of first n natural numbers: n(n+1)/2; sum of squares: n(n+1)(2n+1)/6."
     ],
     "worked_examples": [
       {
-        "question": "10th term of AP: 3, 7, 11, ...?",
-        "wrong": "39",
-        "correct": "39",
-        "why": "a=3, d=4. a₁₀ = 3 + 9×4 = 3 + 36 = 39."
+        "question": "Find the 10th term of the AP: 5, 8, 11, 14, ...",
+        "wrong": "30",
+        "correct": "32",
+        "why": "a = 5, d = 3. 10th term = a + 9d = 5 + 27 = 32. The wrong answer 30 uses 10d instead of 9d (off-by-one common mistake)."
       },
       {
-        "question": "Simple interest on 5000 at 10% for 2 years?",
-        "wrong": "550",
-        "correct": "1000",
-        "why": "SI = 5000 × 10 × 2 / 100 = 1000."
+        "question": "Find the sum of the first 20 terms of the AP 3, 7, 11, ...",
+        "wrong": "780",
+        "correct": "820",
+        "why": "a = 3, d = 4. Sum = (20/2)(2*3 + 19*4) = 10*(6 + 76) = 10*82 = 820. Always check both 2a and (n-1)d terms."
+      },
+      {
+        "question": "Find the compound interest on Rs 10000 at 10% per annum for 2 years.",
+        "wrong": "Rs 2000",
+        "correct": "Rs 2100",
+        "why": "A = 10000 * 1.10^2 = 10000 * 1.21 = 12100. CI = 12100 - 10000 = 2100. The wrong answer 2000 uses simple interest (10000 * 0.10 * 2 = 2000), missing the compounding effect."
       }
     ],
     "common_mistakes": [
-      "Off-by-one in nth term: using n instead of (n−1)",
-      "Confusing simple and compound interest formulas",
-      "Forgetting to convert annual rate to per-period for non-annual compounding",
-      "Mixing up common difference (AP) with common ratio (GP)"
+      "Using n*d instead of (n-1)*d in the AP nth-term formula — the first term doesn't add d.",
+      "Confusing SI and CI for short periods where the difference is small but tested.",
+      "Forgetting to adjust rate and time for non-annual compounding (half-yearly, quarterly).",
+      "Mixing up the GP formula for ratio r > 1 and r < 1 — the formula works the same; only the direction of growth differs."
     ],
     "exam_tips": [
-      "For AP: write first 2-3 terms to confirm difference",
-      "For CI, use multiplier form: A = P × (1+r/100)^T",
-      "Compound minus simple interest for 2 years = P × (R/100)²"
+      "Memorise common GP sums: 1 + 2 + 4 + ... + 2^n = 2^(n+1) - 1; geometric with r=2 starting from 1.",
+      "For CI problems, write out the multiplication factor (1 + R/100)^T and compute step by step.",
+      "Compute CI - SI quickly using formula: difference = P * (R/100)^2 for 2 years.",
+      "Verify AP sums via the formula S = (n/2)(first + last) — this avoids the 2a + (n-1)d formula's two-term error."
     ],
     "quiz": [
       {
-        "question": "5th term of AP: 2, 5, 8, 11, ...?",
-        "options": { "A": "13", "B": "14", "C": "15", "D": "16" },
-        "correct": "B",
-        "explanation": "a=2, d=3. a₅ = 2 + 4×3 = 14."
-      },
-      {
-        "question": "Sum of first 10 natural numbers?",
-        "options": { "A": "45", "B": "50", "C": "55", "D": "60" },
+        "question": "The 7th term of the AP 2, 5, 8, 11, ... is —",
+        "options": {"A": "17", "B": "19", "C": "20", "D": "23"},
         "correct": "C",
-        "explanation": "n(n+1)/2 = 10×11/2 = 55."
+        "explanation": "a = 2, d = 3. 7th term = 2 + 6*3 = 2 + 18 = 20."
       },
       {
-        "question": "Simple interest on 8000 at 5% for 3 years?",
-        "options": { "A": "1100", "B": "1200", "C": "1300", "D": "1500" },
+        "question": "The sum of the first 50 natural numbers is —",
+        "options": {"A": "1250", "B": "1275", "C": "1275", "D": "1300"},
         "correct": "B",
-        "explanation": "SI = 8000 × 5 × 3 / 100 = 1200."
+        "explanation": "Sum = n(n+1)/2 = 50*51/2 = 1275."
       },
       {
-        "question": "Compound interest on 1000 at 10% for 2 years (annual)?",
-        "options": { "A": "200", "B": "210", "C": "220", "D": "100" },
-        "correct": "B",
-        "explanation": "A = 1000 × 1.1² = 1210. CI = 1210 − 1000 = 210."
+        "question": "The simple interest on Rs 5000 at 8% per annum for 3 years is —",
+        "options": {"A": "Rs 1000", "B": "Rs 1100", "C": "Rs 1200", "D": "Rs 1500"},
+        "correct": "C",
+        "explanation": "SI = 5000 * 8 * 3 / 100 = 120000/100 = 1200."
+      },
+      {
+        "question": "If Rs 8000 is invested at 5% compound interest for 2 years, the amount is —",
+        "options": {"A": "Rs 8820", "B": "Rs 8800", "C": "Rs 8500", "D": "Rs 9000"},
+        "correct": "A",
+        "explanation": "A = 8000 * (1.05)^2 = 8000 * 1.1025 = 8820."
       }
     ]
   },
   {
     "topic": "Quadratic Equations",
     "section": "quantitative",
-    "summary": "A quadratic equation has the form ax² + bx + c = 0. Solve by factoring, completing the square, or the quadratic formula. The discriminant Δ = b² − 4ac tells you the nature of roots.",
+    "summary": "A quadratic equation has the form ax^2 + bx + c = 0 (a != 0). Solutions are given by the quadratic formula x = (-b +/- sqrt(b^2 - 4ac))/(2a). The discriminant D = b^2 - 4ac determines the nature of roots: D > 0 means two distinct real roots; D = 0 means one repeated real root; D < 0 means no real roots (two complex). For factorable quadratics, find two numbers that multiply to ac and add to b. The sum of roots is -b/a; the product of roots is c/a — these are the Vieta formulas.",
     "key_rules": [
-      "Quadratic formula: x = (−b ± √(b² − 4ac)) / 2a",
-      "Sum of roots = −b/a; product of roots = c/a",
-      "Discriminant > 0: two real distinct roots; = 0: one repeated; < 0: complex",
-      "Factoring: find two numbers that multiply to ac and add to b",
-      "Vertex of parabola y = ax² + bx + c is at x = −b/(2a)"
+      "Standard form: ax^2 + bx + c = 0; solutions: x = (-b +/- sqrt(b^2 - 4ac))/(2a).",
+      "Discriminant D = b^2 - 4ac: D > 0 (two real roots), D = 0 (one root), D < 0 (no real roots).",
+      "Vieta's formulas: if roots are r1 and r2, then r1 + r2 = -b/a and r1*r2 = c/a.",
+      "Factoring: find two numbers that multiply to ac and add to b; split bx and group.",
+      "Completing the square: rewrite ax^2 + bx + c as a(x + b/(2a))^2 + (c - b^2/(4a)).",
+      "Vertex of parabola y = ax^2 + bx + c: x_vertex = -b/(2a), y_vertex = c - b^2/(4a)."
     ],
     "worked_examples": [
       {
-        "question": "Solve x² − 5x + 6 = 0.",
-        "wrong": "x = 5, 6",
-        "correct": "x = 2, 3",
-        "why": "Factor: (x−2)(x−3) = 0. Roots are 2 and 3 (which add to 5 and multiply to 6)."
+        "question": "Solve x^2 - 5x + 6 = 0 by factoring.",
+        "wrong": "x = 1 or x = 6",
+        "correct": "x = 2 or x = 3",
+        "why": "Factor: (x - 2)(x - 3) = 0, so x = 2 or x = 3. Check: 2 + 3 = 5 (matches -b), 2*3 = 6 (matches c). The numbers must multiply to ac=6 and add to -b=5 (since the middle coefficient is -5)."
       },
       {
-        "question": "Solve x² + 4x − 5 = 0.",
-        "wrong": "x = 1, −5",
-        "correct": "x = 1, −5",
-        "why": "Factor: (x+5)(x−1) = 0. Roots are −5 and 1."
+        "question": "Find the roots of 2x^2 - 7x + 3 = 0 using the formula.",
+        "wrong": "x = 1 or x = 3",
+        "correct": "x = 3 or x = 1/2",
+        "why": "D = 49 - 24 = 25. x = (7 +/- 5)/4. So x = 12/4 = 3 or x = 2/4 = 1/2. Check Vieta: sum = 3 + 0.5 = 3.5 = 7/2 = -b/a; product = 1.5 = 3/2 = c/a. Confirmed."
+      },
+      {
+        "question": "For what value of k does kx^2 + 6x + 1 = 0 have equal roots?",
+        "wrong": "k = 4",
+        "correct": "k = 9",
+        "why": "Equal roots means D = 0: 36 - 4k = 0, so k = 9. The wrong answer 4 might come from confusing the discriminant with 36 - 4k*1 = 36 - 4k incorrectly simplified."
       }
     ],
     "common_mistakes": [
-      "Sign errors when factoring",
-      "Forgetting the ± in the quadratic formula",
-      "Dropping a root (only reporting one solution)",
-      "Confusing sum/product of roots formulas"
+      "Sign errors in the quadratic formula — the formula is -b plus or minus sqrt..., not +b.",
+      "Forgetting to divide by 2a — the formula's denominator is 2a, not just 2.",
+      "Confusing 'sum of roots' (-b/a) with 'product of roots' (c/a).",
+      "Reading the discriminant sign incorrectly — D < 0 means NO real roots, not 'small roots'."
     ],
     "exam_tips": [
-      "Always try factoring first — fastest method when it works",
-      "If discriminant is a perfect square, factoring will work",
-      "Check answers by plugging back into the original equation"
+      "Try factoring first — if a, b, c are small integers, factoring is much faster than the formula.",
+      "Memorise Vieta's formulas — they let you find sums and products of roots without solving.",
+      "When asked 'how many real roots', compute the discriminant; don't solve fully.",
+      "For 'equal roots' or 'one root' conditions, set D = 0 and solve for the parameter."
     ],
     "quiz": [
       {
-        "question": "Solve x² − 7x + 12 = 0.",
-        "options": { "A": "x = 3, 4", "B": "x = 2, 6", "C": "x = 1, 12", "D": "x = −3, −4" },
+        "question": "The roots of x^2 - 7x + 12 = 0 are —",
+        "options": {"A": "2 and 6", "B": "3 and 4", "C": "1 and 12", "D": "-3 and -4"},
+        "correct": "B",
+        "explanation": "Factor: (x-3)(x-4) = 0. Roots: 3 and 4. Check sum=7 and product=12."
+      },
+      {
+        "question": "The discriminant of 2x^2 + 5x + 3 = 0 is —",
+        "options": {"A": "1", "B": "5", "C": "10", "D": "24"},
         "correct": "A",
-        "explanation": "(x−3)(x−4) = 0. Roots: 3 and 4."
+        "explanation": "D = b^2 - 4ac = 25 - 24 = 1."
       },
       {
-        "question": "Sum of roots of x² − 10x + 21 = 0?",
-        "options": { "A": "7", "B": "10", "C": "21", "D": "−10" },
+        "question": "The sum of the roots of 3x^2 - 6x + 2 = 0 is —",
+        "options": {"A": "-2", "B": "2", "C": "-6", "D": "6"},
         "correct": "B",
-        "explanation": "Sum = −b/a = 10."
+        "explanation": "Sum of roots = -b/a = -(-6)/3 = 2."
       },
       {
-        "question": "Discriminant of x² + 2x + 5 = 0?",
-        "options": { "A": "16", "B": "−16", "C": "24", "D": "4" },
+        "question": "If x^2 + kx + 9 = 0 has equal roots, k equals —",
+        "options": {"A": "+/- 3", "B": "+/- 6", "C": "+/- 9", "D": "+/- 12"},
         "correct": "B",
-        "explanation": "b² − 4ac = 4 − 20 = −16."
-      },
-      {
-        "question": "Solve x² − 9 = 0.",
-        "options": { "A": "x = 3 only", "B": "x = ±3", "C": "x = 9", "D": "x = ±9" },
-        "correct": "B",
-        "explanation": "x² = 9 → x = ±3."
+        "explanation": "Equal roots: D=0, so k^2 - 36 = 0, k = +/- 6."
       }
     ]
   },
   {
     "topic": "Averages & Mixtures",
     "section": "quantitative",
-    "summary": "Average = sum / count. Mixture problems blend two quantities with different concentrations or values; the alligation rule gives the mixing ratio quickly.",
+    "summary": "Average (arithmetic mean) is sum of values divided by count. Weighted average accounts for varying frequencies or weights: (sum of value*weight) / (sum of weights). Mixture problems combine two or more substances at different concentrations and ask for the final concentration. The alligation method (a visual cross-rule) quickly determines mixing ratios: if you mix a substance at concentration c1 with another at c2 to get c, the ratio is (c2 - c) : (c - c1). NUST GNET tests averages with replacements (one value replaced changes the average), age problems, and concentration mixtures.",
     "key_rules": [
-      "Average = total sum / number of items",
-      "Weighted average = Σ(value × weight) / Σ(weight)",
-      "Alligation: ratio = (mean − cheaper) : (dearer − mean)",
-      "Adding/removing an item changes the average — use total sums",
-      "When mixing equal parts, the average of values is the result"
+      "Arithmetic average = sum of values / number of values.",
+      "When one value is replaced, the change in sum = change in average * number of values.",
+      "Weighted average = sum of (value * weight) / sum of weights.",
+      "Alligation: if mixing at c1 and c2 to get c, ratio of c1 to c2 is (c2 - c) : (c - c1).",
+      "For age problems, ages change by the same amount over time — use 'now' and 'later' equations.",
+      "Average speed for round trips at speeds a and b is harmonic mean: 2ab/(a+b)."
     ],
     "worked_examples": [
       {
-        "question": "Average of 10, 20, 30, 40, 50?",
+        "question": "The average of 5 numbers is 20. If one number is replaced by 35, the new average is 22. Find the original replaced number.",
         "wrong": "25",
-        "correct": "30",
-        "why": "Sum = 150; count = 5; avg = 30."
+        "correct": "25",
+        "why": "Old sum = 5*20 = 100. New sum = 5*22 = 110. Increase = 10. The replaced number went from x to 35, adding (35 - x) = 10, so x = 25. Both answers happen to coincide here, confirming the calculation."
       },
       {
-        "question": "Mix 10 L milk (cost 30/L) and 20 L milk (cost 60/L). Average cost per liter?",
-        "wrong": "45",
-        "correct": "50",
-        "why": "Weighted avg = (10×30 + 20×60) / 30 = (300 + 1200)/30 = 1500/30 = 50."
+        "question": "In a class, the average of 10 boys' marks is 60, and the average of 15 girls' marks is 70. Find the overall average.",
+        "wrong": "65",
+        "correct": "66",
+        "why": "Total marks = 10*60 + 15*70 = 600 + 1050 = 1650. Total students = 25. Average = 1650/25 = 66. The arithmetic mean (65) is wrong because the groups have unequal sizes."
+      },
+      {
+        "question": "In what ratio must milk at Rs 30/litre be mixed with milk at Rs 50/litre to get a mixture worth Rs 36/litre?",
+        "wrong": "3 : 7",
+        "correct": "7 : 3",
+        "why": "Alligation: (50 - 36) : (36 - 30) = 14 : 6 = 7 : 3. So 7 parts of cheap milk to 3 parts of expensive milk. The wrong answer reversed the ratio."
       }
     ],
     "common_mistakes": [
-      "Taking unweighted average when weights differ",
-      "Forgetting to update the count when adding/removing items",
-      "Confusing percentage with raw value in mixture",
-      "Using the wrong order in alligation"
+      "Using arithmetic mean of two averages when group sizes differ — use weighted average instead.",
+      "Forgetting to use total sum when adding or removing values from a known average.",
+      "Mixing up the alligation ratio direction — the ratio matches inverse-distance, not direct-distance.",
+      "Confusing average with median or mode; the formula always uses sum/count for average."
     ],
     "exam_tips": [
-      "For 'average increases by x', set up: new total = old total + change",
-      "Alligation works visually like a cross — practice it",
-      "Always track both total sum and count"
+      "When given averages and asked about changes, work with sums: sum = average * count.",
+      "For mixture and alligation problems, draw the cross diagram every time — visual aid prevents direction errors.",
+      "For age problems, set up variables for current ages and write equations for 'years ago' or 'years from now'.",
+      "Verify final averages by multiplying back: new average * new count should equal new sum."
     ],
     "quiz": [
       {
-        "question": "Average of 12, 15, 18, 21?",
-        "options": { "A": "15", "B": "16", "C": "16.5", "D": "18" },
+        "question": "The average of 6 numbers is 25. If one number is excluded, the average of the remaining 5 is 22. The excluded number is —",
+        "options": {"A": "30", "B": "35", "C": "40", "D": "45"},
         "correct": "C",
-        "explanation": "Sum = 66; count = 4; avg = 16.5."
+        "explanation": "Sum of 6 = 6*25 = 150. Sum of 5 = 5*22 = 110. Excluded = 150 - 110 = 40."
       },
       {
-        "question": "Average of 5 numbers is 20. If one is 30, average of the other 4?",
-        "options": { "A": "17", "B": "17.5", "C": "18", "D": "19" },
+        "question": "The average age of 10 students is 15. If the teacher's age is included, the average rises to 16. The teacher's age is —",
+        "options": {"A": "21", "B": "26", "C": "30", "D": "36"},
         "correct": "B",
-        "explanation": "Total = 100. Other 4 sum = 70. Avg = 17.5."
+        "explanation": "Sum of 10 = 150. Sum of 11 = 11*16 = 176. Teacher's age = 176 - 150 = 26."
       },
       {
-        "question": "Mix 4 L of 20% acid with 6 L of 50% acid. Final concentration?",
-        "options": { "A": "30%", "B": "35%", "C": "38%", "D": "40%" },
-        "correct": "C",
-        "explanation": "(4×20 + 6×50)/10 = (80+300)/10 = 380/10 = 38%."
+        "question": "Mix solution A (20% salt) and solution B (50% salt) to get 30% salt. The ratio A : B is —",
+        "options": {"A": "1 : 1", "B": "2 : 1", "C": "1 : 2", "D": "3 : 2"},
+        "correct": "B",
+        "explanation": "Alligation: (50 - 30) : (30 - 20) = 20 : 10 = 2 : 1. So A : B = 2 : 1."
       },
       {
-        "question": "Average age of 10 students is 14. A new student joins, new avg = 14.5. New student's age?",
-        "options": { "A": "18", "B": "19", "C": "19.5", "D": "20" },
-        "correct": "C",
-        "explanation": "Old total = 140. New total = 11 × 14.5 = 159.5. New student = 159.5 − 140 = 19.5."
+        "question": "The average of the first 5 multiples of 3 is —",
+        "options": {"A": "6", "B": "9", "C": "12", "D": "15"},
+        "correct": "B",
+        "explanation": "Multiples: 3, 6, 9, 12, 15. Sum = 45. Average = 45/5 = 9."
       }
     ]
   },
   {
     "topic": "Algebra & Inequalities",
     "section": "quantitative",
-    "summary": "Algebra manipulates symbols to solve for unknowns. Inequalities follow most algebra rules — except multiplying or dividing by a negative number flips the inequality sign.",
+    "summary": "Algebra covers linear equations, systems of equations, polynomial manipulation, and inequalities. Linear equations in one variable solve to a single value; systems of two equations in two unknowns use substitution or elimination. Inequalities follow the same rules as equations, EXCEPT when multiplying or dividing by a negative number — this flips the inequality sign. NUST GNET tests word problems requiring equation setup, simultaneous equations, and inequality solutions on the number line. Recognising standard algebraic identities (a^2 - b^2, (a+b)^2, etc.) speeds up many problems.",
     "key_rules": [
-      "Same operation on both sides preserves equation/inequality",
-      "Multiplying/dividing inequality by a negative flips the sign",
-      "(a+b)² = a² + 2ab + b²; (a−b)² = a² − 2ab + b²; a² − b² = (a−b)(a+b)",
-      "Solve systems by substitution or elimination",
-      "|x| < a means −a < x < a; |x| > a means x < −a or x > a"
+      "Solve linear equations by isolating the variable: apply the same operation to both sides.",
+      "For systems of two equations, use elimination (add/subtract to cancel a variable) or substitution.",
+      "Standard identities: (a+b)^2 = a^2 + 2ab + b^2; (a-b)^2 = a^2 - 2ab + b^2; a^2 - b^2 = (a+b)(a-b).",
+      "When multiplying or dividing an inequality by a negative number, FLIP the inequality sign — e.g., -2x > 4 becomes x < -2.",
+      "For 'and' inequalities (compound), the solution is the intersection; for 'or', the union.",
+      "Quadratic inequality ax^2 + bx + c > 0 (a>0): solution is outside the roots; ax^2 + bx + c < 0: between the roots."
     ],
     "worked_examples": [
       {
-        "question": "Solve 2x + 5 = 17.",
-        "wrong": "x = 11",
-        "correct": "x = 6",
-        "why": "2x = 12; x = 6."
+        "question": "Solve 3(x - 2) = 2x + 5.",
+        "wrong": "x = 1",
+        "correct": "x = 11",
+        "why": "Expand: 3x - 6 = 2x + 5. Subtract 2x: x - 6 = 5. Add 6: x = 11. The wrong answer skips the distribution step or makes a sign error."
       },
       {
-        "question": "Solve −3x > 9.",
-        "wrong": "x > −3",
-        "correct": "x < −3",
-        "why": "Divide by −3: sign flips. x < −3."
+        "question": "Solve the system: 2x + y = 7, x - y = 2.",
+        "wrong": "x = 2, y = 0",
+        "correct": "x = 3, y = 1",
+        "why": "Add the two equations: 3x = 9, so x = 3. Substitute: 2(3) + y = 7, y = 1. Verify: 3 - 1 = 2. Confirmed."
+      },
+      {
+        "question": "Solve -2x + 5 > 11.",
+        "wrong": "x > -3",
+        "correct": "x < -3",
+        "why": "Subtract 5: -2x > 6. Divide by -2 AND FLIP the sign: x < -3. The wrong answer forgets to flip when dividing by a negative."
       }
     ],
     "common_mistakes": [
-      "Forgetting to flip inequality when multiplying by a negative",
-      "Sign errors when distributing a negative",
-      "Squaring both sides without checking extraneous roots",
-      "Mishandling absolute value cases"
+      "Forgetting to flip the inequality sign when multiplying or dividing by a negative number.",
+      "Distribution errors: 3(x - 2) is 3x - 6, not 3x - 2.",
+      "Sign errors when moving terms across the equals sign — always change sign when moving.",
+      "Squaring both sides of an equation without checking for extraneous solutions; this can introduce false roots."
     ],
     "exam_tips": [
-      "Memorize the three identities: (a+b)², (a−b)², a²−b²",
-      "Check answers by substituting back",
-      "For inequalities, test a value from each interval"
+      "Memorise the three standard identities — they speed up factoring and expansion enormously.",
+      "For word problems, define variables clearly and write equations directly from the wording.",
+      "Test your solution by substituting back into the original equation — catches arithmetic slips.",
+      "For inequalities, sketch the number line to visualise the solution range."
     ],
     "quiz": [
       {
-        "question": "Solve 3x − 7 = 14.",
-        "options": { "A": "x = 5", "B": "x = 7", "C": "x = 9", "D": "x = 21" },
+        "question": "Solve 2x + 3 = 11.",
+        "options": {"A": "x = 3", "B": "x = 4", "C": "x = 5", "D": "x = 7"},
         "correct": "B",
-        "explanation": "3x = 21; x = 7."
+        "explanation": "2x = 11 - 3 = 8. x = 4."
       },
       {
-        "question": "Expand (x + 3)².",
-        "options": { "A": "x² + 9", "B": "x² + 3x + 9", "C": "x² + 6x + 9", "D": "x² + 6x + 6" },
+        "question": "If x + y = 10 and x - y = 4, then x equals —",
+        "options": {"A": "5", "B": "6", "C": "7", "D": "8"},
         "correct": "C",
-        "explanation": "(x+3)² = x² + 2·3·x + 9 = x² + 6x + 9."
+        "explanation": "Adding: 2x = 14, x = 7. Substitute: y = 3. Check: 7 - 3 = 4."
       },
       {
-        "question": "Solve −2x + 6 ≥ 0.",
-        "options": { "A": "x ≥ 3", "B": "x ≤ 3", "C": "x ≥ −3", "D": "x ≤ −3" },
+        "question": "Solve -3x + 2 < 8.",
+        "options": {"A": "x > -2", "B": "x < -2", "C": "x > 2", "D": "x < 2"},
+        "correct": "A",
+        "explanation": "-3x < 6. Dividing by -3 flips: x > -2."
+      },
+      {
+        "question": "If a + b = 5 and ab = 6, then a^2 + b^2 equals —",
+        "options": {"A": "11", "B": "13", "C": "17", "D": "19"},
         "correct": "B",
-        "explanation": "−2x ≥ −6 → divide by −2 and flip: x ≤ 3."
-      },
-      {
-        "question": "If x + y = 10 and x − y = 4, then x = ?",
-        "options": { "A": "5", "B": "6", "C": "7", "D": "8" },
-        "correct": "C",
-        "explanation": "Add equations: 2x = 14, so x = 7."
+        "explanation": "(a+b)^2 = a^2 + 2ab + b^2. So 25 = a^2 + 12 + b^2, giving a^2 + b^2 = 13."
       }
     ]
   }
