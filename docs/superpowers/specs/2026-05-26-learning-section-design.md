@@ -90,35 +90,38 @@ lessonPrevPage: "home",   // page to return to ("home" or "test")
 
 ## UI Design
 
+All UI reuses existing CSS classes and design tokens from `index.html` — `.card`, `.btn`, `.tag`, `.option-btn`, `.section-label`, `.explanation`, `.pbar`. Single-column layout, 820px max-width container, no sidebars or grids.
+
 ### Learn Page (Topic Browser)
 
-**Header:** "Learn" title + topic count + weak topic count
+**Header:** standard app header — "Learn" title, topic count + weak count as subtitle
 
-**Section Tabs:** Verbal | Analytical | Quantitative — styled with section colors (green / purple / blue). Switching tab loads that section's lessons via IPC.
+**Section Tabs:** three `.btn` buttons (Verbal=green, Analytical=purple, Quantitative=blue) matching existing `SECTIONS` colors. Active tab uses section color background, inactive uses `.btn-ghost`. Switching tab calls `load-lessons(section)` IPC and re-renders list.
 
-**Weak Topics Banner:** Shows if any topics have <60% accuracy in `progress.json`. Lists topic names + accuracy. Red tint.
+**Weak Topics Banner:** conditional — renders only if weak topics exist. Red-tinted `.card` listing topic names + accuracy. Same style as weak topics shown on home page.
 
-**Topic List:** Scrollable list of topic cards, sorted weak-first then alphabetical.
-- Weak topic card: red border, red "WEAK" badge, accuracy %, read time (derived: word count / 200wpm)
-- Normal topic card: subtle border, accuracy % (or "Not yet studied" if no sessions)
+**Topic List:** scrollable list of `.card` elements, sorted weak-first then alphabetical.
+- Weak topic card: red border tint (`rgba(239,68,68,0.15)`), red "WEAK" `.tag`, accuracy %, read time (derived: total word count / 200wpm, rounded to nearest minute)
+- Normal topic card: standard `.card` border, accuracy % as `.tag` or "Not yet studied" in muted text
 - Click → navigates to `"lesson"` page
 
 ### Lesson Page (Full Lesson View)
 
-**Header:** Back button (← returns to learn or test), topic name, WEAK badge if applicable
+**Header:** back `←` `.btn-ghost` + topic name `h2` + WEAK `.tag` if applicable. Back navigates to `lessonPrevPage` (either `"learn"` or `"test"`).
 
-**Content sections rendered in order:**
-1. **Concept** — summary paragraph
-2. **Key Rules** — green left-border rule cards
-3. **Worked Examples** — wrong/correct pair with explanation, red strikethrough for wrong
-4. **Common Mistakes** — red tinted list
-5. **Exam Tips** — amber/yellow tinted tips
-6. **Mini Quiz** — 3–5 interactive MCQs
+**Content sections** — each a `.card` block, rendered in order:
+1. **Concept** — summary paragraph in `.explanation` style
+2. **Key Rules** — small cards with green left border (`border-left: 3px solid var(--green)`)
+3. **Worked Examples** — wrong line in red, correct line in green, `why` as `.explanation`
+4. **Common Mistakes** — red-tinted `.tag` list
+5. **Exam Tips** — amber-tinted `.tag` list
+6. **Mini Quiz** — 3–5 MCQs using `.option-btn` exactly like test mode
 
 **Mini Quiz behavior:**
-- Same interaction as test mode: click option → show correct/wrong immediately
-- Each question independently revealable (no "submit all" — instant feedback per question)
-- Correct = green border, Wrong = red border, explanation shown below
+- `.option-btn` with same selected/correct/wrong classes as `renderTest()`
+- Click option → immediately show correct/wrong state + `.explanation` below that question
+- Each question independently interactive (no submit-all)
+- No score tracking — learning only, not recorded to `progress.json`
 
 ---
 
