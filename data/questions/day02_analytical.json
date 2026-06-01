@@ -3,595 +3,623 @@
     "id": 1,
     "topic": "Syllogisms",
     "difficulty": "easy",
-    "question": "All cats are animals. All animals need food. Which conclusion is definitely true?",
+    "question": "All smartphones are electronic devices. All electronic devices consume electricity. Which conclusion is definitely true?",
     "options": {
-      "A": "All animals are cats",
-      "B": "Some food sources are animals",
-      "C": "All cats need food",
-      "D": "No cats need food"
+      "A": "All electronic devices are smartphones",
+      "B": "Some electricity is produced by smartphones",
+      "C": "All smartphones consume electricity",
+      "D": "No smartphones need charging"
     },
     "correct": "C",
-    "explanation": "From 'All cats are animals' and 'All animals need food,' by universal syllogism: All cats need food. Option A incorrectly reverses the first premise. Options B and D do not validly follow."
+    "explanation": "By universal syllogism: All smartphones are electronic devices, and all electronic devices consume electricity, therefore all smartphones consume electricity. A incorrectly reverses the first premise. B and D do not follow from the given statements."
   },
   {
     "id": 2,
     "topic": "Syllogisms",
     "difficulty": "easy",
-    "question": "No teachers are students. All professors are teachers. Which conclusion is definitely true?",
+    "question": "No birds are mammals. All penguins are birds. Which conclusion is definitely true?",
     "options": {
-      "A": "Some professors are students",
-      "B": "No professors are students",
-      "C": "All students are professors",
-      "D": "Some teachers are professors"
+      "A": "Some penguins are mammals",
+      "B": "No penguins are mammals",
+      "C": "All mammals are penguins",
+      "D": "Some birds are not penguins"
     },
     "correct": "B",
-    "explanation": "All professors are teachers, and no teachers are students. By substitution, no professors are students. A contradicts this. C reverses the relationship. D may or may not be true but is not guaranteed by these premises."
+    "explanation": "All penguins are birds, and no birds are mammals. By substitution, no penguins are mammals. A directly contradicts this. C reverses the relationship illogically. D may be true but is not guaranteed by these premises."
   },
   {
     "id": 3,
     "topic": "Syllogisms",
     "difficulty": "medium",
-    "question": "Some politicians are lawyers. All lawyers are educated. Some educated people are honest. Which conclusion is definitely true?",
+    "question": "Some engineers are programmers. All programmers know Python. Some Python developers work remotely. Which conclusion is definitely true?",
     "options": {
-      "A": "All politicians are honest",
-      "B": "Some politicians are educated",
-      "C": "All educated people are lawyers",
-      "D": "Some honest people are politicians"
+      "A": "All engineers work remotely",
+      "B": "Some engineers know Python",
+      "C": "All Python developers are programmers",
+      "D": "Some engineers work remotely"
     },
     "correct": "B",
-    "explanation": "Some politicians are lawyers (given), and all lawyers are educated. Therefore those politicians who are lawyers are also educated — 'some politicians are educated' is definitively true. A and D involve honesty, which cannot be linked to politicians with certainty. C reverses the lawyers-educated relationship."
+    "explanation": "Some engineers are programmers, and all programmers know Python. Therefore those engineers who are programmers also know Python — 'some engineers know Python' is definitively true. A and D cannot be confirmed because the remote work link to engineers is not established. C reverses the programmer-Python relationship."
   },
   {
     "id": 4,
     "topic": "Syllogisms",
     "difficulty": "medium",
-    "question": "All buses are vehicles. No vehicles are animals. Some machines are buses. Which conclusion is definitely true?",
+    "question": "All athletes are disciplined. No disciplined person is lazy. Some students are athletes. Which conclusion is definitely true?",
     "options": {
-      "A": "Some machines are animals",
-      "B": "All vehicles are buses",
-      "C": "Some machines are not animals",
-      "D": "No machines are vehicles"
+      "A": "All students are disciplined",
+      "B": "No students are lazy",
+      "C": "Some students are not lazy",
+      "D": "All athletes are students"
     },
     "correct": "C",
-    "explanation": "Some machines are buses. All buses are vehicles. No vehicles are animals. The machines that are buses are vehicles and therefore not animals — 'some machines are not animals' is definitively true. A contradicts the premises. B reverses the first premise. D is an overstatement."
+    "explanation": "Some students are athletes. All athletes are disciplined. No disciplined person is lazy. So the students who are athletes are disciplined, and therefore not lazy — 'some students are not lazy' is definitively true. A and B overstate (we only know about the student-athletes subset). D reverses the student-athlete relationship."
   },
   {
     "id": 5,
     "topic": "Syllogisms",
     "difficulty": "hard",
-    "question": "Statement 1: All painters are artists. Statement 2: Some artists are musicians. Statement 3: No musicians are scientists. Statement 4: All scientists are researchers. Which conclusion is definitely valid?",
+    "question": "All roses are flowers. Some flowers fade quickly. No durable thing fades quickly. Some paintings are durable. Which conclusion is definitely valid?",
     "options": {
-      "A": "Some painters are musicians",
-      "B": "No artists are scientists",
-      "C": "Some artists are not scientists",
-      "D": "All researchers are scientists"
+      "A": "All roses fade quickly",
+      "B": "Some flowers are not durable",
+      "C": "Some paintings are roses",
+      "D": "All durable things are flowers"
     },
-    "correct": "C",
-    "explanation": "From S2: some artists are musicians. From S3: no musicians are scientists. Therefore the artists who are musicians are not scientists, making 'some artists are not scientists' definitively valid. A cannot be confirmed since the painters-musicians link is not established. B overstates — only those artists who are musicians are confirmed non-scientists, not all artists. D reverses S4."
+    "correct": "B",
+    "explanation": "Some flowers fade quickly (given). No durable thing fades quickly (given). Therefore the flowers that fade quickly are not durable — 'some flowers are not durable' is definitively valid. A cannot be confirmed since only some flowers (not necessarily roses) fade quickly. C is not supported by any premise linking paintings to roses. D reverses the logic of the premises."
   },
   {
     "id": 6,
-    "topic": "Conditional Logic",
+    "topic": "Conditional Logic (If-Then)",
     "difficulty": "easy",
-    "question": "If the internet connection fails, the video call disconnects. The video call did not disconnect. What can you conclude?",
+    "question": "If it rains, the ground becomes wet. The ground is not wet. What must be true?",
     "options": {
-      "A": "The internet connection failed",
-      "B": "The internet connection did not fail",
-      "C": "The video call was rescheduled",
-      "D": "The internet speed was slow"
+      "A": "It rained but the ground dried very quickly",
+      "B": "It did not rain",
+      "C": "It will rain tomorrow",
+      "D": "The ground is covered and cannot get wet"
     },
     "correct": "B",
-    "explanation": "Using the contrapositive: if Connection Fails → Call Disconnects, then Not Call Disconnects → Not Connection Fails. Since the call did not disconnect, the connection did not fail. Options A, C, and D are not supported by the given conditional."
+    "explanation": "Contrapositive of 'Rain → Ground wet' is 'Ground not wet → No rain.' Since the ground is not wet, it did not rain. A, C, and D are not logically supported by the given conditional statement."
   },
   {
     "id": 7,
-    "topic": "Conditional Logic",
-    "difficulty": "medium",
-    "question": "If Maria studies hard, she passes the exam. If she passes the exam, she gets a certificate. If she gets a certificate, she qualifies for the job. Maria did not qualify for the job. What can you conclude?",
+    "topic": "Conditional Logic (If-Then)",
+    "difficulty": "easy",
+    "question": "If all lights are turned off, the room becomes dark. The room is not dark. What must be true?",
     "options": {
-      "A": "Maria studied hard but lost her certificate",
-      "B": "Maria did not study hard",
-      "C": "Maria passed the exam but did not get a certificate",
-      "D": "Maria got a certificate but did not qualify"
+      "A": "All lights were turned off",
+      "B": "The room has no windows",
+      "C": "Not all lights were turned off",
+      "D": "Someone entered the room and turned on a light"
     },
-    "correct": "B",
-    "explanation": "Chain: Study → Pass → Certificate → Qualify. Contrapositive: Not Qualify → Not Certificate → Not Pass → Not Study. Since Maria did not qualify, tracing the chain backward means she did not study hard. Options A, C, and D each break the chain at an intermediate step, which is not a logically valid conclusion."
+    "correct": "C",
+    "explanation": "Contrapositive of 'All lights off → Room dark' is 'Room not dark → Not all lights off.' Since the room is not dark, not all lights were turned off. A contradicts the conclusion. B and D introduce unsupported inferences."
   },
   {
     "id": 8,
-    "topic": "Conditional Logic",
+    "topic": "Conditional Logic (If-Then)",
     "difficulty": "medium",
-    "question": "If the temperature drops below 5°C, the pipes freeze. If the pipes freeze, the water supply is cut. If the water supply is cut, residents complain. The water supply was not cut. Which of the following must be true?",
+    "question": "If a student scores 90 or above, she receives an A grade. If she receives an A grade, she qualifies for the scholarship. Hira did not qualify for the scholarship. What must be true?",
     "options": {
-      "A": "The temperature dropped below 5°C but pipes did not freeze",
-      "B": "Residents did not complain",
-      "C": "The pipes did not freeze",
-      "D": "The temperature will drop tomorrow"
+      "A": "Hira scored 90+ but missed the scholarship deadline",
+      "B": "Hira did not score 90 or above",
+      "C": "The scholarship was cancelled",
+      "D": "Hira received a B grade but was dissatisfied"
     },
-    "correct": "C",
-    "explanation": "Water cut is the direct consequence of pipes freezing. If water was not cut, by contrapositive the pipes did not freeze. We cannot determine whether the temperature dropped (other factors could prevent freezing). Option B also follows logically, but C is the most direct and proximate contrapositive conclusion from 'water not cut.'"
+    "correct": "B",
+    "explanation": "Chain: Score 90+ → A grade → Scholarship. Contrapositive: No scholarship → No A grade → Score below 90. Since Hira did not qualify, tracing back means she did not score 90+. Options A and D break the chain without logical basis. C introduces an irrelevant factor."
   },
   {
     "id": 9,
-    "topic": "Conditional Logic",
+    "topic": "Conditional Logic (If-Then)",
     "difficulty": "medium",
-    "question": "If an employee meets the target, they receive a bonus. If they receive a bonus, their motivation increases. Omar's motivation did not increase. What must be true?",
+    "question": "If a factory meets its monthly quota, the manager receives a bonus. If the manager receives a bonus, staff morale improves. Tariq is a manager whose staff morale did not improve. What must be true?",
     "options": {
-      "A": "Omar met the target but received no bonus",
-      "B": "Omar did not meet the target",
-      "C": "Omar's target was unfair",
-      "D": "Omar's manager reduced his bonus"
+      "A": "Tariq met the quota but spent the bonus on supplies",
+      "B": "The quota was set unrealistically high",
+      "C": "Tariq's factory did not meet its monthly quota",
+      "D": "Tariq's director cancelled the bonus program"
     },
-    "correct": "B",
-    "explanation": "Chain: Meet Target → Bonus → Motivation Increases. Contrapositive: Not Motivation Increases → Not Bonus → Not Meet Target. Since Omar's motivation did not increase, he did not meet the target. Options A and D break the chain without valid basis. C introduces an irrelevant factor."
+    "correct": "C",
+    "explanation": "Chain: Quota met → Bonus → Morale improves. Contrapositive: Morale not improved → No bonus → Quota not met. Since morale did not improve, the factory did not meet its quota. A and D introduce factors outside the chain. B is a possible real-world explanation but is not a logical conclusion from the conditional."
   },
   {
     "id": 10,
-    "topic": "Conditional Logic",
+    "topic": "Conditional Logic (If-Then)",
     "difficulty": "hard",
-    "question": "If a sensor detects smoke, an alarm sounds. If an alarm sounds, sprinklers activate OR security is notified. If sprinklers activate, the fire is contained. The fire was not contained and security was not notified. What must be true?",
+    "question": "If a heat sensor detects fire, an alarm activates. If the alarm activates, sprinklers start OR security is called. If sprinklers start, the fire is suppressed. The fire was not suppressed and security was not called. What must be true?",
     "options": {
-      "A": "The sensor detected smoke but the alarm did not sound",
-      "B": "The alarm sounded but neither branch triggered",
-      "C": "The sensor did not detect smoke",
-      "D": "The sprinklers were deactivated manually"
+      "A": "The sensor detected fire but the alarm malfunctioned",
+      "B": "The alarm activated but neither branch triggered",
+      "C": "The heat sensor did not detect fire",
+      "D": "The fire suppressed itself without the sprinklers"
     },
     "correct": "C",
-    "explanation": "Fire not contained → sprinklers did not activate (contrapositive). Security was not notified (given). So neither disjunct of 'Sprinklers OR Security' occurred — meaning the alarm did not sound (because a sounding alarm guarantees at least one branch activates). Alarm did not sound → by contrapositive of Smoke → Alarm, the sensor did not detect smoke. Answer: C."
+    "explanation": "Fire not suppressed → sprinklers did not start (contrapositive). Security not called (given). So neither disjunct of 'Sprinklers OR Security' is true, meaning the disjunction is false. A false disjunction means the alarm did not activate (since a triggered alarm guarantees at least one branch). No alarm → by contrapositive, the sensor did not detect fire. Answer: C."
   },
   {
     "id": 11,
     "topic": "Strengthen & Weaken Arguments",
     "difficulty": "easy",
-    "question": "Argument: 'Employees who exercise regularly take fewer sick days than those who do not exercise.' Which statement most strengthens this argument?",
+    "question": "Argument: 'Students who sleep at least 8 hours per night perform better on standardized tests.' Which statement most strengthens this argument?",
     "options": {
-      "A": "Some exercising employees still take sick days occasionally",
-      "B": "A workplace study tracking 800 employees over two years found that regular exercisers averaged 3 fewer sick days annually",
-      "C": "Exercise equipment at offices is expensive to purchase",
-      "D": "Sick day policies vary between companies"
+      "A": "Some students perform well despite sleeping only 6 hours",
+      "B": "A controlled study of 500 high-school students found those averaging 8+ hours of sleep scored 15% higher on standardized tests than those sleeping 6 hours or less",
+      "C": "Sleep patterns vary significantly between individuals",
+      "D": "Standardized tests are typically administered in the morning"
     },
     "correct": "B",
-    "explanation": "A large-scale longitudinal workplace study directly provides quantified evidence of the claimed relationship, strongly supporting the argument. Option A slightly weakens it. Options C and D are irrelevant to whether exercise affects sick days."
+    "explanation": "Controlled empirical data directly quantifying the performance gap between the two groups strongly supports the argument. A weakens it slightly by showing exceptions. C and D are peripheral and do not bear on the causal claim being made."
   },
   {
     "id": 12,
     "topic": "Strengthen & Weaken Arguments",
     "difficulty": "medium",
-    "question": "Argument: 'Banning fast food advertisements before 9 PM reduces childhood obesity.' Which option most weakens this argument?",
+    "question": "Argument: 'Reducing class sizes in primary schools improves student academic outcomes.' Which option most weakens this argument?",
     "options": {
-      "A": "Children watch less television after 9 PM",
-      "B": "Studies in three countries that implemented the ban found no statistically significant change in childhood obesity rates over five years",
-      "C": "Fast food companies spend heavily on advertising",
-      "D": "Childhood obesity has multiple contributing factors"
+      "A": "Smaller classes require hiring additional teachers",
+      "B": "A comprehensive analysis of 200 school districts found no statistically significant difference in test scores or graduation rates between classes of 15 and 25 students",
+      "C": "Some students learn better in larger group discussions",
+      "D": "School funding is severely limited in rural areas"
     },
     "correct": "B",
-    "explanation": "Empirical evidence from multiple countries showing no significant change in obesity rates after implementing the exact policy being argued for directly undermines the causal claim. Option D mildly weakens by suggesting other causes exist. Options A and C are peripheral to the argument."
+    "explanation": "Large-scale empirical evidence showing no significant difference in outcomes directly undermines the causal claim. A is a cost concern, not an outcome concern. C shows individual variation but does not disprove the general trend. D is a funding constraint unrelated to whether class size affects outcomes."
   },
   {
     "id": 13,
     "topic": "Strengthen & Weaken Arguments",
     "difficulty": "medium",
-    "question": "Argument: 'Offering flexible work-from-home options increases employee retention.' Which option most strengthens this argument?",
+    "question": "Argument: 'Requiring employees to take a mandatory one-week continuous vacation annually will reduce workplace burnout.' Which option most strengthens this argument?",
     "options": {
-      "A": "Remote work requires reliable internet connections",
-      "B": "A survey of 1,200 employees found that 73% listed flexible work arrangements as their top reason for staying with their current employer",
-      "C": "Some employees prefer working in an office environment",
-      "D": "Companies with flexible policies tend to be in the technology sector"
+      "A": "Many employees prefer several short breaks over one long one",
+      "B": "A three-year study of 1,000 employees showed those taking at least one continuous week off had 34% lower burnout rates and higher long-term productivity",
+      "C": "Vacation costs can be partially tax-deductible for some employees",
+      "D": "Some departments cannot function with all staff absent simultaneously"
     },
     "correct": "B",
-    "explanation": "Survey data directly linking flexible work options to employee retention decisions strongly supports the argument. Option C weakens it by showing not all employees value flexibility. Option D introduces a sector confound. Option A is a practical concern unrelated to retention."
+    "explanation": "Longitudinal data directly linking mandatory continuous vacation to reduced burnout and better productivity strongly supports the argument. A suggests a competing preference but does not disprove the benefit. C is about finances, not burnout. D raises a scheduling problem, not a health outcome."
   },
   {
     "id": 14,
     "topic": "Strengthen & Weaken Arguments",
-    "difficulty": "hard",
-    "question": "Argument: 'City W's new composting program reduced landfill waste by 22% in the first year.' A critic argues the reduction was caused by a simultaneous economic downturn that reduced household consumption. Which response best defends the original argument against the critic?",
+    "difficulty": "medium",
+    "question": "Argument: 'Installing speed cameras on Highway Y reduced traffic fatalities.' Which option most weakens this argument?",
     "options": {
-      "A": "The composting program won an environmental award",
-      "B": "City V, which also experienced the same economic downturn but did not implement composting, saw landfill waste decrease by only 3%",
-      "C": "Residents of City W reported being proud of the composting initiative",
-      "D": "Landfill operators confirmed the waste reduction in their records"
+      "A": "Speed cameras are expensive to install and maintain",
+      "B": "Traffic volume on Highway Y fell by 40% in the same period because a new bypass road opened, which would independently explain reduced fatalities",
+      "C": "Drivers report feeling resentful of speed camera surveillance",
+      "D": "Some accidents on the highway are caused by road surface conditions rather than speed"
     },
     "correct": "B",
-    "explanation": "Showing that a comparable city with the same economic downturn but no composting program had only a 3% reduction isolates the composting program as the primary driver of City W's 22% drop. This directly counters the confounding-variable critique. Options A, C, and D do not address the alternative explanation."
+    "explanation": "A 40% traffic volume drop from an alternative cause (new bypass) provides a plausible non-camera explanation for fewer fatalities, directly undermining the causal attribution. A is a cost issue. C is about sentiment, not safety outcomes. D suggests other accident causes but does not explain why fatalities would drop specifically after camera installation."
   },
   {
     "id": 15,
-    "topic": "Assumption Questions",
-    "difficulty": "easy",
-    "question": "Conclusion: 'We should implement the new grading system because it is used by top-ranked universities.' What assumption underlies this conclusion?",
+    "topic": "Strengthen & Weaken Arguments",
+    "difficulty": "hard",
+    "question": "Argument: 'City N's urban tree-planting program reduced average temperatures by 2°C over three years.' A critic argues that three consecutive cooler-than-average summers caused the temperature drop. Which response best defends the original argument against the critic?",
     "options": {
-      "A": "Top-ranked universities have larger campuses",
-      "B": "Adopting practices used by top-ranked universities improves educational outcomes",
-      "C": "The current grading system was designed decades ago",
-      "D": "Students prefer universities with modern grading systems"
+      "A": "City N's council won a national environmental award for the program",
+      "B": "City K, located in the same climate zone with identical summer weather trends during those three years, planted no trees and recorded no temperature reduction",
+      "C": "Residents of City N reported feeling more comfortable outdoors since the trees were planted",
+      "D": "Meteorologists independently confirmed that the summers in the region were cooler than average"
     },
     "correct": "B",
-    "explanation": "The argument only makes sense if what top-ranked universities do leads to better outcomes — otherwise association with top universities provides no reason to adopt the system. The other options do not bridge the logical gap in the reasoning."
+    "explanation": "A control city experiencing the same cooler summers but without tree planting and showing no temperature drop isolates the tree-planting program as the driver, directly countering the confounding-variable critique. A and C are anecdotal. D actually supports the critic's argument rather than defending against it."
   },
   {
     "id": 16,
     "topic": "Assumption Questions",
-    "difficulty": "medium",
-    "question": "Argument: 'Since renewable energy sources produce no direct carbon emissions, switching to renewables will significantly reduce global warming.' Which assumption is the argument making?",
+    "difficulty": "easy",
+    "question": "Conclusion: 'Zara's café should offer free Wi-Fi because all the most popular cafés in the city offer it.' What assumption underlies this conclusion?",
     "options": {
-      "A": "Fossil fuels will become unavailable within a decade",
-      "B": "Carbon emissions from energy production are a major driver of global warming",
-      "C": "Renewable energy technology is already affordable for all countries",
-      "D": "Solar panels require rare earth minerals to manufacture"
+      "A": "Zara's café currently serves overpriced beverages",
+      "B": "Adopting practices of popular cafés will help Zara's café become more successful",
+      "C": "Free Wi-Fi is technically difficult and expensive to set up",
+      "D": "Customers prefer cafés that are close to their homes"
     },
     "correct": "B",
-    "explanation": "The argument connects absence of carbon emissions from renewables to reduced global warming. This is only valid if energy-sector carbon emissions significantly drive global warming — that is the necessary bridging assumption. The other options are not required for the argument to hold."
+    "explanation": "The argument bridges from 'popular cafés do X' to 'Zara should do X.' This only holds if imitating popular cafés leads to success — that is the unstated assumption. The other options do not bridge the logical gap in the reasoning."
   },
   {
     "id": 17,
     "topic": "Assumption Questions",
     "difficulty": "medium",
-    "question": "Conclusion: 'Adding more bus routes in the city will reduce traffic congestion.' What is a necessary assumption?",
+    "question": "Argument: 'Raising the tax on sugary drinks will reduce obesity rates.' Which of the following is a necessary assumption?",
     "options": {
-      "A": "Bus drivers will be paid higher wages on new routes",
-      "B": "A meaningful number of current car users will switch to buses if more routes are available",
-      "C": "The city has sufficient funding for the new routes",
-      "D": "Traffic congestion is worst during morning rush hours"
+      "A": "Sugar taxes have already succeeded in several neighbouring countries",
+      "B": "A meaningful number of consumers will reduce their sugary drink consumption in response to higher prices",
+      "C": "Obesity is the single most pressing public health issue in the country",
+      "D": "Manufacturers will not reformulate drinks to avoid the tax"
     },
     "correct": "B",
-    "explanation": "For new bus routes to reduce congestion, car users must actually switch to buses — otherwise adding routes does nothing to reduce car traffic. This is the necessary logical assumption. Option C is a practical prerequisite but not the logical link in the argument. Options A and D are irrelevant to the reasoning."
+    "explanation": "The argument requires that higher prices actually change consumer behaviour — if no one reduces consumption, the tax cannot reduce obesity. This behavioural response is the necessary bridging assumption. A provides supporting evidence but is not a logical necessity. C and D are not required for the argument's internal logic to hold."
   },
   {
     "id": 18,
     "topic": "Assumption Questions",
-    "difficulty": "hard",
-    "question": "Argument: 'Nation Q's rising literacy rate is due to its expanded public library network, because literacy has grown most in regions where new libraries opened.' A critic notes that those same regions also received new schools in the same period. Which assumption in the original argument does this critique most directly challenge?",
+    "difficulty": "medium",
+    "question": "Conclusion: 'Installing air purifiers in all classrooms will improve student concentration levels.' What is a necessary assumption?",
     "options": {
-      "A": "Libraries are more effective than schools at teaching reading",
-      "B": "The expansion of libraries is the only significant variable correlated with rising literacy in those regions",
-      "C": "Public libraries are funded by the national government",
-      "D": "Literacy rates in urban areas are always higher than in rural areas"
+      "A": "Air purifiers are affordable enough for every school in the district",
+      "B": "Poor indoor air quality is a significant factor that currently impairs student concentration in classrooms",
+      "C": "Students concentrate better in libraries than in classrooms",
+      "D": "Air purifiers also reduce classroom noise levels"
     },
     "correct": "B",
-    "explanation": "The original argument assumes the library network is the key explanatory variable for rising literacy. The critic reveals that new schools — another plausible cause — were also introduced in those regions, directly challenging the assumption that libraries are the sole significant correlating factor. Options A, C, and D are not the core assumption being challenged."
+    "explanation": "For air purifiers to improve concentration, poor air quality must actually be causing reduced concentration in the first place. Without this assumption, installing purifiers would have no mechanism to improve focus. A is a practical prerequisite but not the logical bridge. C and D are irrelevant to the argument's core claim."
   },
   {
     "id": 19,
-    "topic": "Paradox & Explain",
-    "difficulty": "easy",
-    "question": "Paradox: A company increased its advertising budget by 40%, yet its sales dropped in the following quarter. Which explanation best resolves the paradox?",
+    "topic": "Assumption Questions",
+    "difficulty": "hard",
+    "question": "Argument: 'City Q's improved road-safety record is due to its new driver-awareness campaign. Fatalities fell most in areas where the campaign was most heavily advertised.' A critic notes those same areas also received new road infrastructure — wider lanes and improved signage — during the same period. Which assumption in the original argument does this critique most directly challenge?",
     "options": {
-      "A": "Advertising agencies charge high fees",
-      "B": "A major competitor launched a superior product at a lower price during the same quarter",
-      "C": "The company's logo was redesigned recently",
-      "D": "The company hired more sales staff that quarter"
+      "A": "Awareness campaigns are inherently more effective than physical infrastructure improvements",
+      "B": "The driver-awareness campaign is the primary or sole significant variable explaining the fall in fatalities in those areas",
+      "C": "The road infrastructure was funded entirely by the national government",
+      "D": "The campaign was designed by certified traffic-safety experts"
     },
     "correct": "B",
-    "explanation": "A superior competing product at a lower price would draw customers away regardless of advertising spend, explaining why increased advertising did not translate to higher sales. Option D would likely boost sales. Options A and C do not explain the drop in sales."
+    "explanation": "The original argument assumes the campaign is the key explanatory factor. The critic introduces new road infrastructure as an equally plausible alternative cause in the same areas, directly challenging the assumption that the campaign is the sole significant variable. A, C, and D are not the assumption being challenged."
   },
   {
     "id": 20,
     "topic": "Paradox & Explain",
-    "difficulty": "medium",
-    "question": "Paradox: A school introduced mandatory daily physical education classes, yet average academic test scores declined over the following term. Which explanation best resolves this paradox?",
+    "difficulty": "easy",
+    "question": "Paradox: A fitness app recorded its highest-ever number of downloads in January, yet its count of active daily users fell significantly in the same month. Which explanation best resolves this paradox?",
     "options": {
-      "A": "Physical education improves student health in the long run",
-      "B": "The time allocated to PE was taken directly from core academic subject periods, reducing instruction time",
-      "C": "Students enjoy PE more than academic subjects",
-      "D": "The school changed its lunch menu during the same term"
+      "A": "The app developers released a major update in February",
+      "B": "Most users downloaded the app as a New Year's resolution but abandoned it within the first two weeks, inflating downloads while depressing sustained daily activity",
+      "C": "The app requires a premium subscription to unlock all features",
+      "D": "Active long-term users tend to give the app higher ratings"
     },
     "correct": "B",
-    "explanation": "If academic instruction time was reduced to accommodate PE, students received less teaching in tested subjects, explaining the decline in scores despite potential health benefits. Option D introduces an unrelated factor. Options A and C do not explain falling test scores."
+    "explanation": "If new downloads spike but users quickly stop engaging, download counts rise while daily active users fall — directly resolving the paradox. A involves a future month and is irrelevant. C is a constant condition that would not explain a sudden change. D relates to ratings, not usage counts."
   },
   {
     "id": 21,
     "topic": "Paradox & Explain",
     "difficulty": "medium",
-    "question": "Paradox: A city reduced its public transport fares by 30%, yet overall public transport revenue increased the following year. Which explanation best resolves this?",
+    "question": "Paradox: A university introduced stricter attendance requirements, yet its end-of-year examination pass rates declined. Which explanation best resolves this paradox?",
     "options": {
-      "A": "Transport staff received a salary increase that year",
-      "B": "The fare reduction attracted so many additional passengers that higher ridership more than compensated for the lower fare per journey",
-      "C": "The city received a large government subsidy that year",
-      "D": "Fewer buses broke down due to improved maintenance"
+      "A": "Students felt the new policy was unfair and complained to faculty",
+      "B": "The stricter requirements forced students who previously studied more effectively at home into lecture halls, significantly reducing their time for self-directed exam preparation",
+      "C": "More students enrolled in the university that same year",
+      "D": "Examination papers were marked by a newly appointed faculty panel"
     },
     "correct": "B",
-    "explanation": "This is a price elasticity effect: if demand is elastic, a 30% fare reduction can lead to a ridership increase exceeding 30%, so total revenue (fare × passengers) increases overall. Option C introduces external funding rather than resolving the fare-revenue paradox. Options A and D are unrelated to revenue from fares."
+    "explanation": "If mandatory attendance replaced more effective self-study time for many students, academic performance would fall even as attendance rose — directly resolving the paradox. A is about sentiment, not outcomes. C and D are separate variables that may affect results but do not directly link the attendance policy to the decline."
   },
   {
     "id": 22,
     "topic": "Paradox & Explain",
-    "difficulty": "hard",
-    "question": "Paradox: A hospital introduced a new triage protocol designed to treat critical patients faster, but the average patient mortality rate increased after implementation. Which explanation most plausibly resolves the paradox?",
+    "difficulty": "medium",
+    "question": "Paradox: A company reduced its workforce by 20% to cut costs, yet total production output over the following quarter remained unchanged. Which explanation best resolves this paradox?",
     "options": {
-      "A": "The hospital's cafeteria was renovated during the same period",
-      "B": "The protocol's reputation for handling critical cases attracted more severely ill patients from other hospitals, raising the proportion of high-mortality cases in the patient pool",
-      "C": "Nurses were briefly unfamiliar with the new protocol during its first week",
-      "D": "The hospital expanded its number of beds during the same period"
+      "A": "The remaining employees demanded and received higher salaries",
+      "B": "Before the layoffs, the company automated its three most labour-intensive production lines, which now handle the work previously performed by the reduced headcount",
+      "C": "The company lost several large client contracts that quarter",
+      "D": "The laid-off workers were temporarily rehired as freelancers for peak days"
     },
     "correct": "B",
-    "explanation": "If the hospital became known for superior critical care, it would attract the sickest patients — those most likely to die regardless of care quality. The mortality rate rises because the patient population became more severe, not because care worsened. This selection-bias effect directly resolves the paradox. Option C is a temporary issue, not a sustained paradox. Options A and D do not directly explain higher mortality rates."
+    "explanation": "Prior automation means production can continue at the same level with fewer workers, directly explaining unchanged output after workforce reduction. A would raise costs, not explain output. C would decrease output. D would re-introduce labour, making the reduction moot — but B is a cleaner structural explanation."
   },
   {
     "id": 23,
-    "topic": "Data Interpretation",
-    "difficulty": "easy",
-    "question": "A student scored 65, 72, 58, 80, and 75 on five tests. What is the median score?",
+    "topic": "Paradox & Explain",
+    "difficulty": "hard",
+    "question": "Paradox: A new antibiotic proved 98% effective in clinical trials, but after being prescribed broadly across hospitals, overall patient recovery rates for the targeted bacterial infections declined. Which explanation most plausibly resolves this paradox?",
     "options": {
-      "A": "65",
-      "B": "70",
-      "C": "72",
-      "D": "75"
+      "A": "The antibiotic was expensive and not covered by most insurance plans",
+      "B": "Widespread prescription rapidly drove the emergence of resistant bacterial strains in the community, reducing the drug's real-world effectiveness even though it worked well in individual controlled cases",
+      "C": "Patients found the antibiotic's side effects mildly uncomfortable",
+      "D": "Some hospitals stored the antibiotic at incorrect temperatures"
     },
-    "correct": "C",
-    "explanation": "Arrange scores in ascending order: 58, 65, 72, 75, 80. The middle value (3rd of 5) is 72. The median is 72."
+    "correct": "B",
+    "explanation": "Trial effectiveness measures individual response; broad prescription creates population-level selection pressure that breeds resistance, reducing overall efficacy at scale — resolving the individual-versus-population paradox. A limits access but would not cause a decline in recovery for those who do receive it. C and D are marginal factors that cannot plausibly explain a systemic recovery-rate decline."
   },
   {
     "id": 24,
     "topic": "Data Interpretation",
     "difficulty": "easy",
-    "question": "A shop recorded daily sales over a week: Mon=30, Tue=45, Wed=50, Thu=40, Fri=60, Sat=75, Sun=20. What is the mean number of items sold per day (rounded to the nearest whole number)?",
+    "question": "Five students scored: 72, 85, 91, 68, 79. What is the range of their scores?",
     "options": {
-      "A": "44",
-      "B": "45",
-      "C": "46",
-      "D": "47"
+      "A": "19",
+      "B": "21",
+      "C": "23",
+      "D": "25"
     },
     "correct": "C",
-    "explanation": "Total = 30+45+50+40+60+75+20 = 320. Mean = 320 ÷ 7 = 45.71, which rounds to 46."
+    "explanation": "Range = Maximum − Minimum = 91 − 68 = 23."
   },
   {
     "id": 25,
     "topic": "Data Interpretation",
-    "difficulty": "medium",
-    "question": "In a class of 50 students, 30% scored above 80 marks, 40% scored between 60 and 80, and the rest scored below 60. How many students scored below 60?",
+    "difficulty": "easy",
+    "question": "A factory's weekly production was: Week 1 = 180 units, Week 2 = 220 units, Week 3 = 200 units, Week 4 = 240 units. What is the average weekly production?",
     "options": {
-      "A": "10",
-      "B": "12",
-      "C": "15",
-      "D": "20"
+      "A": "200",
+      "B": "205",
+      "C": "210",
+      "D": "215"
     },
     "correct": "C",
-    "explanation": "Percentage below 60 = 100% − 30% − 40% = 30%. Number of students below 60 = 30% of 50 = 0.30 × 50 = 15."
+    "explanation": "Total = 180 + 220 + 200 + 240 = 840. Average = 840 ÷ 4 = 210 units per week."
   },
   {
     "id": 26,
     "topic": "Data Interpretation",
     "difficulty": "medium",
-    "question": "A company's annual revenue grew from PKR 4.5 million to PKR 6.3 million. What is the percentage increase in revenue?",
+    "question": "In a survey of 200 people: 30% preferred Option A, 45% preferred Option B, and the rest preferred Option C. How many people preferred Option C?",
     "options": {
-      "A": "28%",
-      "B": "35%",
-      "C": "40%",
-      "D": "45%"
+      "A": "40",
+      "B": "45",
+      "C": "50",
+      "D": "55"
     },
     "correct": "C",
-    "explanation": "Percentage increase = [(New − Old) ÷ Old] × 100 = [(6.3 − 4.5) ÷ 4.5] × 100 = [1.8 ÷ 4.5] × 100 = 40%."
+    "explanation": "Percentage for Option C = 100% − 30% − 45% = 25%. Number = 25% × 200 = 50 people."
   },
   {
     "id": 27,
     "topic": "Data Interpretation",
-    "difficulty": "hard",
-    "question": "Three departments contributed to a project. Sales worked 120 hours at PKR 500/hour. HR worked 80 hours at PKR 600/hour. IT worked 100 hours at PKR 800/hour. What percentage of the total project cost did the IT department contribute (rounded to nearest whole number)?",
+    "difficulty": "medium",
+    "question": "A retail store's monthly sales increased from 400 units to 520 units. What is the percentage increase?",
     "options": {
-      "A": "38%",
-      "B": "40%",
-      "C": "43%",
-      "D": "45%"
+      "A": "25%",
+      "B": "28%",
+      "C": "30%",
+      "D": "32%"
     },
     "correct": "C",
-    "explanation": "Sales cost = 120 × 500 = PKR 60,000. HR cost = 80 × 600 = PKR 48,000. IT cost = 100 × 800 = PKR 80,000. Total = 60,000 + 48,000 + 80,000 = PKR 188,000. IT percentage = (80,000 ÷ 188,000) × 100 = 42.55% ≈ 43%."
+    "explanation": "Percentage increase = [(520 − 400) ÷ 400] × 100 = [120 ÷ 400] × 100 = 30%."
   },
   {
     "id": 28,
-    "topic": "Linear Arrangement",
-    "difficulty": "easy",
-    "question": "Four friends — Waqar, Xena, Yusuf, and Zara — sit in a single row. Waqar sits at the leftmost seat. Zara sits at the rightmost seat. Xena sits immediately to the right of Waqar. What is the order from left to right?",
+    "topic": "Data Interpretation",
+    "difficulty": "hard",
+    "question": "Department X has 40 employees with an average salary of PKR 50,000. Department Y has 60 employees with an average salary of PKR 70,000. What is the combined average salary across both departments?",
     "options": {
-      "A": "Waqar, Yusuf, Xena, Zara",
-      "B": "Waqar, Xena, Yusuf, Zara",
-      "C": "Waqar, Xena, Zara, Yusuf",
-      "D": "Xena, Waqar, Yusuf, Zara"
+      "A": "PKR 58,000",
+      "B": "PKR 60,000",
+      "C": "PKR 62,000",
+      "D": "PKR 64,000"
     },
-    "correct": "B",
-    "explanation": "Waqar=position 1 (leftmost). Xena is immediately right of Waqar=position 2. Zara=position 4 (rightmost). Yusuf fills position 3. Order: Waqar, Xena, Yusuf, Zara."
+    "correct": "C",
+    "explanation": "Total salary = (40 × 50,000) + (60 × 70,000) = 2,000,000 + 4,200,000 = 6,200,000. Combined average = 6,200,000 ÷ 100 = PKR 62,000."
   },
   {
     "id": 29,
     "topic": "Linear Arrangement",
-    "difficulty": "medium",
-    "question": "Six people — A, B, C, D, E, F — sit in a row. A is at position 1. C is at position 4. B is immediately to the right of C. E is at the last (6th) position. D is at position 2. Where does F sit?",
+    "difficulty": "easy",
+    "question": "Five students A, B, C, D, E sit in a single row. A is at the leftmost seat. E is at the rightmost seat. B is immediately to the right of A. D is not adjacent to E. What is the correct order from left to right?",
     "options": {
-      "A": "Position 3",
-      "B": "Position 4",
-      "C": "Position 5",
-      "D": "Position 6"
+      "A": "A, B, D, C, E",
+      "B": "A, B, C, D, E",
+      "C": "A, D, B, C, E",
+      "D": "A, B, C, E, D"
     },
     "correct": "A",
-    "explanation": "Known positions: A=1, D=2, C=4, B=5 (immediately right of C), E=6. The only remaining position is 3, which F must occupy. F is at position 3."
+    "explanation": "A=1, B=2 (immediately right of A), E=5. D and C fill positions 3 and 4. D cannot be adjacent to E, so D ≠ 4. Therefore D=3 and C=4. Order: A, B, D, C, E."
   },
   {
     "id": 30,
     "topic": "Linear Arrangement",
     "difficulty": "medium",
-    "question": "Five boxes — Red, Blue, Green, Yellow, White — are placed in a row. Green is not at either end. Red is immediately to the left of Green. Yellow is at the rightmost position. Blue is not adjacent to Yellow. What is the position of Blue from the left?",
+    "question": "Six books P, Q, R, S, T, U are placed on a shelf from left to right. S is at position 3. T is immediately to the right of S. U is at the rightmost (6th) position. P is at position 1. Q is not adjacent to P. What is the position of R?",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "correct": "A",
+    "explanation": "Known: P=1, S=3, T=4, U=6. Remaining positions 2 and 5 for Q and R. Q cannot be adjacent to P (not position 2), so Q=5 and R=2. R is at position 2."
+  },
+  {
+    "id": 31,
+    "topic": "Linear Arrangement",
+    "difficulty": "medium",
+    "question": "Seven people A, B, C, D, E, F, G sit in a row. A is at position 1. G is at position 7. B is immediately to the right of A. C is at position 5. D is immediately to the left of G. F is not adjacent to C. What position does E occupy?",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6"
+    },
+    "correct": "B",
+    "explanation": "A=1, B=2, C=5, D=6, G=7. Remaining positions 3 and 4 for E and F. F cannot be adjacent to C (not position 4 or 6); position 6 is taken by D, so F ≠ 4. Therefore F=3 and E=4."
+  },
+  {
+    "id": 32,
+    "topic": "Linear Arrangement",
+    "difficulty": "medium",
+    "question": "Five coloured boxes — Red, Blue, Green, Yellow, Purple — are placed in a row. Blue is at position 2. Green is immediately to the right of Blue. Yellow is at position 5. Red is not adjacent to Yellow. What position does Purple occupy?",
     "options": {
       "A": "1",
       "B": "2",
       "C": "3",
       "D": "4"
     },
-    "correct": "A",
-    "explanation": "Yellow=5 (rightmost). Blue cannot be at position 4 (adjacent to Yellow). Green is not at position 1 or 5. Red is immediately left of Green, so (Red, Green) could be at (1,2), (2,3), or (3,4). Try Red=2, Green=3: remaining positions 1 and 4 for Blue and White. Blue ≠ 4, so Blue=1, White=4. Arrangement: Blue(1), Red(2), Green(3), White(4), Yellow(5). All conditions satisfied. Blue is at position 1."
-  },
-  {
-    "id": 31,
-    "topic": "Linear Arrangement",
-    "difficulty": "hard",
-    "question": "Eight athletes stand in a line, identified by jersey numbers 1–8. Jersey 3 is at position 2 from the left. Jersey 7 is exactly 3 positions to the right of Jersey 3. Jersey 1 is at the rightmost position. Jersey 5 is immediately to the left of Jersey 1. Jersey 2 is between Jersey 7 and Jersey 5, with Jersey 7 to Jersey 2's left. What position does Jersey 2 occupy?",
-    "options": {
-      "A": "5",
-      "B": "6",
-      "C": "7",
-      "D": "Cannot be determined"
-    },
-    "correct": "B",
-    "explanation": "Jersey 3 = position 2. Jersey 7 = 2+3 = position 5. Jersey 1 = position 8 (rightmost). Jersey 5 = position 7 (immediately left of Jersey 1). Jersey 2 is between Jersey 7 (pos 5) and Jersey 5 (pos 7) with Jersey 7 to its left, so Jersey 2 is at position 6. Line: ?(1), J3(2), ?(3), ?(4), J7(5), J2(6), J5(7), J1(8)."
-  },
-  {
-    "id": 32,
-    "topic": "Circular Arrangement",
-    "difficulty": "easy",
-    "question": "Four people — W, X, Y, Z — sit equally spaced around a circular table, all facing inward. W sits directly opposite Y. X sits to the immediate right of W (going clockwise). Who sits to the immediate left of Y (going counter-clockwise)?",
-    "options": {
-      "A": "W",
-      "B": "X",
-      "C": "Z",
-      "D": "Cannot be determined"
-    },
-    "correct": "B",
-    "explanation": "Label seats 1–4 clockwise: W=1, X=2 (immediately right of W), Y=3 (opposite W), Z=4. Facing inward, 'left' of Y at seat 3 means counter-clockwise — that is seat 2 = X. Answer: X."
+    "correct": "D",
+    "explanation": "Blue=2, Green=3, Yellow=5. Remaining positions 1 and 4 for Red and Purple. Red cannot be adjacent to Yellow, so Red ≠ 4. Therefore Red=1 and Purple=4."
   },
   {
     "id": 33,
-    "topic": "Circular Arrangement",
-    "difficulty": "medium",
-    "question": "Six friends — A, B, C, D, E, F — sit around a circular table facing inward. A is directly opposite D. C sits immediately clockwise from A. F sits immediately counter-clockwise from D. B and E occupy the remaining seats with B immediately clockwise from F. Who sits immediately clockwise from E?",
+    "topic": "Linear Arrangement",
+    "difficulty": "hard",
+    "question": "Eight people A–H stand in a line. C is at position 2. F is 3 positions to the right of C. H is at the rightmost (8th) position. G is immediately to the left of H. B is immediately to the right of F. A is at position 1. D and E occupy the remaining positions, with E not at position 3. What position does D occupy?",
     "options": {
-      "A": "A",
-      "B": "B",
-      "C": "C",
-      "D": "D"
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
     },
-    "correct": "A",
-    "explanation": "6 seats, opposite = 3 apart. Let A=1, D=4 (opposite A). C immediately clockwise from A: C=2. F immediately counter-clockwise from D (i.e., one seat before D going counter-clockwise): F=3. B immediately clockwise from F: B=4 — but D=4. Conflict. Re-read: counter-clockwise from D means going backward: D=4, one step counter-clockwise = seat 3 = F. Then B immediately clockwise from F: F=3, B=4 — conflict with D. Adjust: B immediately clockwise from F(3) would be seat 4, occupied by D. So B must be at seat 5 and E at seat 6. B immediately clockwise from F means B=4 only if F=3, but D=4. This constraint is re-interpreted as B is somewhere clockwise of F: seats 5 or 6. With B=5, E=6. Arrangement: A(1),C(2),F(3),D(4),B(5),E(6). Immediately clockwise from E(6) is seat 1 = A."
+    "correct": "B",
+    "explanation": "A=1, C=2, F=5 (C+3), B=6 (right of F), G=7 (left of H), H=8. Remaining positions 3 and 4 for D and E. E ≠ 3, so E=4 and D=3."
   },
   {
     "id": 34,
     "topic": "Circular Arrangement",
-    "difficulty": "medium",
-    "question": "Five people — P, Q, R, S, T — sit around a circular table facing inward. Q is at seat 1. P sits immediately clockwise from Q (seat 2). S sits immediately clockwise from P (seat 3). R sits immediately clockwise from S (seat 4). T is at the remaining seat. Who sits directly opposite S (2 seats away in a 5-seat circle, i.e., the farthest seat)?",
+    "difficulty": "easy",
+    "question": "Four people P, Q, R, S sit equally spaced around a circular table, all facing inward. P sits directly opposite R. Q sits immediately clockwise from P. Who sits immediately clockwise from R?",
     "options": {
       "A": "P",
       "B": "Q",
-      "C": "R",
-      "D": "T"
+      "C": "S",
+      "D": "Cannot be determined"
     },
-    "correct": "D",
-    "explanation": "Seats 1–5 clockwise: Q=1, P=2, S=3, R=4, T=5. In a 5-person circle there is no true opposite, but the farthest seat from S(3) is either seat 1 (Q, 2 steps CCW) or seat 5 (T, 2 steps CW). Going clockwise 2 seats from S(3) gives seat 5 = T. Answer: T."
+    "correct": "C",
+    "explanation": "Label seats 1–4 clockwise: P=1, Q=2 (immediately CW from P), R=3 (opposite P), S=4. Immediately clockwise from R(3) is seat 4 = S."
   },
   {
     "id": 35,
     "topic": "Circular Arrangement",
-    "difficulty": "hard",
-    "question": "Eight people — A, B, C, D, E, F, G, H — sit around a circular table. A is directly opposite E. B is directly opposite F. C is directly opposite G. D is directly opposite H. D sits immediately clockwise from H. A sits immediately clockwise from D. B sits immediately clockwise from A. Who sits immediately clockwise from E?",
+    "difficulty": "medium",
+    "question": "Six people L, M, N, O, P, Q sit around a circular table, all facing inward. L is directly opposite O. M is directly opposite P. N is directly opposite Q. M sits immediately clockwise from L. N sits immediately clockwise from M. Who sits immediately clockwise from O?",
     "options": {
-      "A": "F",
-      "B": "G",
-      "C": "H",
-      "D": "C"
+      "A": "L",
+      "B": "N",
+      "C": "P",
+      "D": "Q"
     },
-    "correct": "A",
-    "explanation": "8 seats, opposite = 4 apart. D sits immediately clockwise from H: let H=1, D=2. A immediately clockwise from D: A=3. B immediately clockwise from A: B=4. Opposites: H(1)↔D+4=? H opposite = seat 5. But D=2, so H opposite is seat 6 — conflict since H=1 should be opposite seat 5. Re-set: place D=1. A immediately clockwise from D: A=2. B immediately clockwise from A: B=3. Opposites: D(1)↔H(5), A(2)↔E(6), B(3)↔F(7). Remaining seats 4 and 8 for C and G: C(4)↔G(8). D immediately clockwise from H means H is one seat counter-clockwise from D: H=8 (seat before D=1 going clockwise). But H=8 and H opposite = seat 4 = C, not D(1). Reassign: D(1)↔H(5), and H must be at seat 5. D immediately clockwise from H: H=seat N, D=seat N+1. If H=5, D=6. Then A=7, B=8. Opposites: H(5)↔D(1)? No, H(5) opposite is seat 9 mod 8 = seat 1. So D=1, not 6. Final: H=5, D=6 breaks the H↔D opposition. Use D=1,H=5 (opposite). 'D immediately clockwise from H' means H is seat 8 (one before D=1 in clockwise order): H=8, opposite H = seat 4. But D(1) opposite = seat 5, not H(8). Irreconcilable with D↔H opposition unless D=1,H=5 and the clockwise-from statement is ignored. Accepting standard arrangement: D=1,A=2,B=3,C=4,H=5,E=6,F=7,G=8. Immediately clockwise from E(6) = seat 7 = F. Answer: A=F."
+    "correct": "C",
+    "explanation": "Seats 1–6 clockwise. L=1, M=2, N=3. Opposites (3 apart): O=4 (opposite L), P=5 (opposite M), Q=6 (opposite N). Immediately clockwise from O(4) is seat 5 = P."
   },
   {
     "id": 36,
-    "topic": "Blood Relations",
-    "difficulty": "easy",
-    "question": "Pointing to a photograph, Layla says, 'He is the son of my father's brother.' How is the person in the photograph related to Layla?",
+    "topic": "Circular Arrangement",
+    "difficulty": "medium",
+    "question": "Five people A, B, C, D, E sit around a circular table. B is two seats clockwise from A. C is two seats clockwise from B. D is two seats clockwise from C. E occupies the remaining seat. Who sits immediately clockwise from A?",
     "options": {
-      "A": "Brother",
-      "B": "Uncle",
-      "C": "Cousin",
-      "D": "Nephew"
+      "A": "B",
+      "B": "C",
+      "C": "D",
+      "D": "E"
     },
     "correct": "C",
-    "explanation": "Layla's father's brother is her uncle. The son of her uncle is her cousin. The person in the photograph is Layla's cousin."
+    "explanation": "5 seats (1–5 clockwise). A=1, B=3, C=5, D=7 mod 5=2, E=4. Immediately clockwise from A(1) is seat 2 = D."
   },
   {
     "id": 37,
-    "topic": "Blood Relations",
-    "difficulty": "medium",
-    "question": "In a family: Arjun is the husband of Priya. Priya is the sister of Rohan. Rohan's mother is Sunita. Arjun and Priya have one son named Karan. How is Karan related to Sunita?",
+    "topic": "Circular Arrangement",
+    "difficulty": "hard",
+    "question": "Eight people A–H sit around a circular table, equally spaced, all facing inward. Opposite pairs: A↔E, B↔F, C↔G, D↔H. A sits immediately clockwise from D. B sits immediately clockwise from A. G sits immediately clockwise from F. Who sits immediately clockwise from H?",
     "options": {
-      "A": "Son",
-      "B": "Nephew",
-      "C": "Grandson",
-      "D": "Great-grandson"
+      "A": "C",
+      "B": "D",
+      "C": "E",
+      "D": "G"
     },
     "correct": "C",
-    "explanation": "Priya and Rohan are siblings; their mother is Sunita. Arjun married Priya, so Priya is also Sunita's daughter. Karan is the son of Arjun and Priya — therefore Karan is Sunita's grandson."
+    "explanation": "Seats 1–8 clockwise. D=1, A=2, B=3. Opposites (4 apart): D(1)↔H(5), A(2)↔E(6), B(3)↔F(7). G immediately CW from F(7): G=8. C opposite G: C(4)↔G(8). Arrangement: D(1),A(2),B(3),C(4),H(5),E(6),F(7),G(8). Immediately CW from H(5) is seat 6 = E."
   },
   {
     "id": 38,
     "topic": "Blood Relations",
-    "difficulty": "medium",
-    "question": "A man says to a woman, 'Your brother's father is the only son of my grandmother.' How is the woman related to the man?",
+    "difficulty": "easy",
+    "question": "Pointing to a photograph, Bilal says, 'She is the daughter of my father's only brother.' How is the person in the photograph related to Bilal?",
     "options": {
       "A": "Sister",
       "B": "Cousin",
       "C": "Niece",
       "D": "Aunt"
     },
-    "correct": "A",
-    "explanation": "The man's grandmother's only son is the man's father. The woman's brother's father is the woman's father (both share the same father). Since the man's father equals the woman's father, they share the same father — making them siblings. The woman is the man's sister."
+    "correct": "B",
+    "explanation": "Bilal's father's brother is Bilal's uncle. The daughter of Bilal's uncle is Bilal's cousin. The person in the photograph is Bilal's cousin."
   },
   {
     "id": 39,
     "topic": "Blood Relations",
-    "difficulty": "hard",
-    "question": "In a family: J is the father of K. K is married to L. L is the daughter of M and N. N has exactly two children. P is the sibling of L. How is P related to K?",
+    "difficulty": "medium",
+    "question": "Kamran is the father of Layla. Layla is the sister of Meena. Meena married Naeem. Meena and Naeem have a son Omar. How is Kamran related to Omar?",
     "options": {
-      "A": "Brother-in-law or Sister-in-law",
-      "B": "Cousin",
-      "C": "Uncle or Aunt",
-      "D": "Nephew or Niece"
+      "A": "Father",
+      "B": "Uncle",
+      "C": "Grandfather",
+      "D": "Great-grandfather"
     },
-    "correct": "A",
-    "explanation": "K married L. P is L's sibling (since N has two children and one is L, the other is P). The sibling of one's spouse is one's brother-in-law or sister-in-law. Therefore P is K's brother-in-law (if P is male) or sister-in-law (if P is female)."
+    "correct": "C",
+    "explanation": "Layla and Meena are sisters; Kamran is their father. Omar is the son of Meena — therefore Omar is Kamran's grandson."
   },
   {
     "id": 40,
-    "topic": "Direction Sense",
-    "difficulty": "easy",
-    "question": "Omar starts at point P, walks 10 km South, turns left and walks 6 km, then turns left again and walks 10 km. How far is he from point P and in which direction?",
+    "topic": "Blood Relations",
+    "difficulty": "medium",
+    "question": "Pointing to a man in a photograph, a woman says, 'His father is the only son of my grandfather.' How is the woman related to the man in the photograph?",
     "options": {
-      "A": "4 km West",
-      "B": "6 km East",
-      "C": "10 km North",
-      "D": "0 km (back at P)"
+      "A": "Mother",
+      "B": "Aunt",
+      "C": "Sister",
+      "D": "Cousin"
     },
-    "correct": "B",
-    "explanation": "Start at P=(0,0). Walk 10 km South → (0,−10). Turn left (now facing East), walk 6 km East → (6,−10). Turn left (now facing North), walk 10 km North → (6,0). Distance from P = 6 km, in the East direction."
+    "correct": "C",
+    "explanation": "The woman's grandfather's only son = the woman's father. The man's father = the woman's father (same person). Since they share the same father, the woman is the man's sister."
   },
   {
     "id": 41,
-    "topic": "Direction Sense",
-    "difficulty": "medium",
-    "question": "Sadia starts at origin O facing North. She walks 4 km North, then turns right and walks 3 km, then turns right again and walks 4 km, then turns right and walks 7 km. How far is she from O and in what direction?",
+    "topic": "Blood Relations",
+    "difficulty": "hard",
+    "question": "In a family: X is the brother of Y. Y is the mother of Z. Z is married to W. W's only sibling is V. V is the daughter of X. How is Z related to V?",
     "options": {
-      "A": "4 km West",
-      "B": "4 km East",
-      "C": "7 km South",
-      "D": "4 km South"
+      "A": "Sibling",
+      "B": "First Cousin",
+      "C": "Nephew or Niece",
+      "D": "Uncle or Aunt"
     },
-    "correct": "A",
-    "explanation": "Start at O=(0,0) facing North. Walk 4 km North → (0,4). Turn right (East), walk 3 km East → (3,4). Turn right (South), walk 4 km South → (3,0). Turn right (West), walk 7 km West → (3−7,0) = (−4,0). Distance from O = 4 km, in the West direction."
+    "correct": "B",
+    "explanation": "Y is Z's mother. X is Y's brother, so X is Z's maternal uncle. V is X's daughter, making V Z's first cousin (the child of a parent's sibling). Z and V are first cousins."
   },
   {
     "id": 42,
     "topic": "Direction Sense",
-    "difficulty": "medium",
-    "question": "Village Q is 15 km West of Village P. Village R is 9 km North of Village Q. Village S is 15 km East of Village R. What is the straight-line distance between Village P and Village S?",
+    "difficulty": "easy",
+    "question": "Sana starts at Point A. She walks 8 km North, then turns right and walks 6 km East. What is her straight-line distance from Point A?",
     "options": {
-      "A": "6 km",
-      "B": "9 km",
-      "C": "12 km",
-      "D": "15 km"
+      "A": "7 km",
+      "B": "8 km",
+      "C": "10 km",
+      "D": "14 km"
     },
-    "correct": "B",
-    "explanation": "Set P=(0,0). Q=(−15,0). R=(−15,9). S=(−15+15,9)=(0,9). Distance PS = √[(0−0)²+(9−0)²] = √81 = 9 km."
+    "correct": "C",
+    "explanation": "A=(0,0). After walking 8 km North: (0,8). After turning right (East) and walking 6 km: (6,8). Distance from A = √(6² + 8²) = √(36+64) = √100 = 10 km."
   },
   {
     "id": 43,
     "topic": "Direction Sense",
+    "difficulty": "medium",
+    "question": "Taha starts at origin O facing North. He walks 5 km North, turns left and walks 12 km, then turns left again and walks 5 km. How far is he from O, and in which direction?",
+    "options": {
+      "A": "5 km East",
+      "B": "12 km West",
+      "C": "12 km East",
+      "D": "5 km West"
+    },
+    "correct": "B",
+    "explanation": "O=(0,0). Walk 5 km North → (0,5). Turn left (West), walk 12 km → (−12,5). Turn left (South), walk 5 km → (−12,0). Distance from O = 12 km, in the West direction."
+  },
+  {
+    "id": 44,
+    "topic": "Direction Sense",
+    "difficulty": "medium",
+    "question": "Town P is 20 km East of Town O. Town Q is 15 km North of Town P. Town R is 20 km West of Town Q. What is the straight-line distance between Town O and Town R?",
+    "options": {
+      "A": "5 km",
+      "B": "10 km",
+      "C": "15 km",
+      "D": "20 km"
+    },
+    "correct": "C",
+    "explanation": "O=(0,0). P=(20,0). Q=(20,15). R=(0,15). Distance OR = √(0²+15²) = 15 km, directly North of O."
+  },
+  {
+    "id": 45,
+    "topic": "Direction Sense",
     "difficulty": "hard",
-    "question": "Imran starts at Point A. He walks 9 km East to B, then 12 km North to C, then 9 km West to D, then 7 km South to E. What is the straight-line distance from Point A to Point E?",
+    "question": "Uzma starts at Point X. She walks 15 km East to Y, then 9 km South to Z, then 15 km West to W, then 4 km North to V. What is the straight-line distance from Point X to Point V?",
     "options": {
       "A": "3 km",
       "B": "4 km",
@@ -599,104 +627,76 @@
       "D": "6 km"
     },
     "correct": "C",
-    "explanation": "A=(0,0). B=(9,0). C=(9,12). D=(0,12). E=(0,12−7)=(0,5). Distance AE = √[(0−0)²+(5−0)²] = √25 = 5 km."
-  },
-  {
-    "id": 44,
-    "topic": "Coding-Decoding",
-    "difficulty": "easy",
-    "question": "In a code, each letter is replaced by the next letter in the alphabet (A→B, B→C, ..., Z→A). APPLE is coded as BQQMF. How is MANGO coded?",
-    "options": {
-      "A": "NBOHO",
-      "B": "NBOHP",
-      "C": "LZMFN",
-      "D": "NAOIP"
-    },
-    "correct": "B",
-    "explanation": "Each letter shifts +1: M→N, A→B, N→O, G→H, O→P. MANGO → NBOHP."
-  },
-  {
-    "id": 45,
-    "topic": "Coding-Decoding",
-    "difficulty": "easy",
-    "question": "In a number code using A=1, B=2, ... Z=26, the value of a word is the sum of its letter values. CAT = 3+1+20 = 24. What is the value of DOG?",
-    "options": {
-      "A": "24",
-      "B": "26",
-      "C": "28",
-      "D": "30"
-    },
-    "correct": "B",
-    "explanation": "D=4, O=15, G=7. Sum = 4+15+7 = 26."
+    "explanation": "X=(0,0). Y=(15,0). Z=(15,−9). W=(0,−9). V=(0,−9+4)=(0,−5). Distance XV = √(0²+(−5)²) = 5 km, due South of X."
   },
   {
     "id": 46,
     "topic": "Coding-Decoding",
-    "difficulty": "medium",
-    "question": "In a code language: 'bright sunny day' = 'mo ki ra', 'sunny cold night' = 'ki ju pa', 'bright cold morning' = 'mo ju wa'. What is the code for 'cold'?",
+    "difficulty": "easy",
+    "question": "In a code language, each letter is shifted 2 positions forward in the alphabet (e.g., A→C, Y→A, Z→B). How is CAT coded?",
     "options": {
-      "A": "mo",
-      "B": "ki",
-      "C": "ju",
-      "D": "ra"
+      "A": "ECV",
+      "B": "DBU",
+      "C": "BZR",
+      "D": "FDW"
     },
-    "correct": "C",
-    "explanation": "Compare sentence 2 ('sunny cold night'='ki ju pa') and sentence 3 ('bright cold morning'='mo ju wa'). The common word is 'cold' and the common code word is 'ju'. Therefore 'cold' = 'ju'."
+    "correct": "A",
+    "explanation": "C→E, A→C, T→V. CAT is coded as ECV."
   },
   {
     "id": 47,
     "topic": "Coding-Decoding",
     "difficulty": "medium",
-    "question": "In a code, each letter's value equals its position in the alphabet (A=1, B=2, ... Z=26), and a word's code is the sum of its letter values. What is the coded value of PARK?",
+    "question": "In a code language: 'hot summer day' = 'fa ga ha', 'cold winter day' = 'fa ra sa', 'hot dry season' = 'ga ta pa'. What is the code for 'summer'?",
     "options": {
-      "A": "44",
-      "B": "47",
-      "C": "50",
-      "D": "53"
+      "A": "fa",
+      "B": "ga",
+      "C": "ha",
+      "D": "ra"
     },
     "correct": "C",
-    "explanation": "P=16, A=1, R=18, K=11. Sum = 16+1+18+11 = 46. Closest answer is A=44. Recheck: P is the 16th letter, A=1, R=18, K=11. 16+1=17, 17+18=35, 35+11=46. None of the options match exactly. Adjusting: if the word is PACK instead: P=16, A=1, C=3, K=11 = 31. Try PARK with P=16,A=1,R=18,K=11=46. For a sum of 50, try PORK: P=16,O=15,R=18,K=11=60. For 47: PART: P=16,A=1,R=18,T=20=55. For clean answer: PLAN: P=16,L=12,A=1,N=14=43. Using MARS: M=13,A=1,R=18,S=19=51. Using RAIN: R=18,A=1,I=9,N=14=42. The question uses PARK=46; selecting B=47 as the intended nearest answer is misleading. Correcting: the correct sum for PARK is 46, which is not listed. The question should use a word summing to one of the options. With sum=50: TORN: T=20,O=15,R=18,N=14=67. MILK: M=13,I=9,L=12,K=11=45. PINE: P=16,I=9,N=14,E=5=44. RING: R=18,I=9,N=14,G=7=48. SINK: S=19,I=9,N=14,K=11=53. RINK: R=18,I=9,N=14,K=11=52. PINK: P=16,I=9,N=14,K=11=50. The word is PINK giving sum 50 = C."
+    "explanation": "Sentences 1 and 2 share 'day' and code 'fa' → day=fa. Sentences 1 and 3 share 'hot' and code 'ga' → hot=ga. In sentence 1 ('hot summer day' = 'fa ga ha'), after assigning day=fa and hot=ga, the remaining word 'summer' = the remaining code 'ha'."
   },
   {
     "id": 48,
-    "topic": "Ranking & Ordering",
-    "difficulty": "easy",
-    "question": "In a queue of 35 people, Naila stands 10th from the front. What is her position from the back of the queue?",
+    "topic": "Coding-Decoding",
+    "difficulty": "medium",
+    "question": "Using A=1, B=2, C=3, … Z=26 (each letter equals its position in the alphabet), what is the coded value of MIND?",
     "options": {
-      "A": "24",
-      "B": "25",
-      "C": "26",
-      "D": "27"
+      "A": "38",
+      "B": "40",
+      "C": "42",
+      "D": "44"
     },
-    "correct": "C",
-    "explanation": "Position from back = Total − Position from front + 1 = 35 − 10 + 1 = 26."
+    "correct": "B",
+    "explanation": "M=13, I=9, N=14, D=4. Sum = 13+9+14+4 = 40."
   },
   {
     "id": 49,
     "topic": "Ranking & Ordering",
-    "difficulty": "medium",
-    "question": "In a competition, Saad finished 7th from the top and 11th from the bottom. How many contestants participated in total?",
+    "difficulty": "easy",
+    "question": "In a row of 50 students, Anaya stands 18th from the front. What is her position from the back of the row?",
     "options": {
-      "A": "16",
-      "B": "17",
-      "C": "18",
-      "D": "19"
+      "A": "31",
+      "B": "32",
+      "C": "33",
+      "D": "34"
     },
-    "correct": "B",
-    "explanation": "Total contestants = Rank from top + Rank from bottom − 1 = 7 + 11 − 1 = 17."
+    "correct": "C",
+    "explanation": "Position from back = Total − Position from front + 1 = 50 − 18 + 1 = 33."
   },
   {
     "id": 50,
     "topic": "Ranking & Ordering",
     "difficulty": "medium",
-    "question": "In a class merit list of 25 students, Dania is ranked 6th from the top and Esha is ranked 10th from the top. Farhan is ranked exactly midway between Dania and Esha. What is Farhan's rank from the bottom?",
+    "question": "In a race, Hamza finished 5th from the front and 8th from the back. How many runners participated in total?",
     "options": {
-      "A": "16",
-      "B": "17",
-      "C": "18",
-      "D": "19"
+      "A": "11",
+      "B": "12",
+      "C": "13",
+      "D": "14"
     },
-    "correct": "C",
-    "explanation": "Midway between rank 6 and rank 10 from top = (6+10) ÷ 2 = 8th from top. Rank from bottom = 25 − 8 + 1 = 18."
+    "correct": "B",
+    "explanation": "Total = Rank from front + Rank from back − 1 = 5 + 8 − 1 = 12 runners."
   }
 ]

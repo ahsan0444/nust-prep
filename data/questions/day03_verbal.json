@@ -3,287 +3,287 @@
     "id": 1,
     "topic": "Modifier Placement",
     "difficulty": "easy",
-    "question": "Which sentence correctly places the modifier?\nA) Barking loudly, the neighbors complained about the dog.\nB) The neighbors complained about the dog barking loudly.\nC) The dog, barking loudly, disturbed the neighbors.\nD) Loudly barking, the neighbors were disturbed by the dog.",
+    "question": "Which sentence contains a dangling modifier?\nA) Running late for class, Maria grabbed her bag and sprinted down the hall.\nB) Running late for class, the hallway was crowded and hard to navigate.\nC) Maria, running late for class, grabbed her bag from the chair.\nD) Because she was running late, Maria rushed down the hall.",
     "options": {
-      "A": "Barking loudly, the neighbors complained about the dog.",
-      "B": "The neighbors complained about the dog barking loudly.",
-      "C": "The dog, barking loudly, disturbed the neighbors.",
-      "D": "Loudly barking, the neighbors were disturbed by the dog."
+      "A": "Running late for class, Maria grabbed her bag and sprinted down the hall.",
+      "B": "Running late for class, the hallway was crowded and hard to navigate.",
+      "C": "Maria, running late for class, grabbed her bag from the chair.",
+      "D": "Because she was running late, Maria rushed down the hall."
     },
-    "correct": "C",
-    "explanation": "In option C, 'barking loudly' is placed immediately next to 'the dog,' which it modifies, making the sentence clear. Options A and D create dangling modifiers by implying the neighbors are barking loudly."
+    "correct": "B",
+    "explanation": "In option B, 'Running late for class' is a participial phrase that must logically modify the subject of the main clause. The subject is 'the hallway,' which cannot run — a classic dangling modifier. Options A and C correctly attach the phrase to Maria. Option D replaces the participial phrase with a subordinate clause, eliminating the problem."
   },
   {
     "id": 2,
     "topic": "Modifier Placement",
     "difficulty": "easy",
-    "question": "Identify the sentence with a misplaced modifier.\nA) She almost drove her children to school every day.\nB) She drove her children to school almost every day.\nC) Almost every day, she drove her children to school.\nD) She drove almost every day to school with her children.",
+    "question": "Identify the sentence in which 'nearly' is correctly placed to mean most (but not all) assignments were completed.\nA) She nearly finished all her assignments before midnight.\nB) She finished nearly all her assignments before midnight.\nC) Nearly, she finished all her assignments before midnight.\nD) She finished all her assignments, nearly, before midnight.",
     "options": {
-      "A": "She almost drove her children to school every day.",
-      "B": "She drove her children to school almost every day.",
-      "C": "Almost every day, she drove her children to school.",
-      "D": "She drove almost every day to school with her children."
+      "A": "She nearly finished all her assignments before midnight.",
+      "B": "She finished nearly all her assignments before midnight.",
+      "C": "Nearly, she finished all her assignments before midnight.",
+      "D": "She finished all her assignments, nearly, before midnight."
     },
-    "correct": "A",
-    "explanation": "In option A, 'almost' modifies 'drove,' implying she nearly drove but did not. The intended meaning is that she drove on nearly every day, so 'almost' should modify 'every day.' Options B and C correctly place 'almost' before 'every day.'"
+    "correct": "B",
+    "explanation": "In option B, 'nearly' modifies 'all her assignments,' correctly conveying that most (but not all) were finished. In option A, 'nearly' modifies 'finished,' implying she did not finish at all — she almost finished. Options C and D create awkward, ambiguous constructions."
   },
   {
     "id": 3,
     "topic": "Modifier Placement",
     "difficulty": "easy",
-    "question": "Choose the sentence that correctly uses the modifying phrase.\nA) Walking through the park, the flowers were beautiful to Sara.\nB) While walking through the park, beautiful flowers surrounded Sara.\nC) The flowers were beautiful as Sara was walking through the park.\nD) Walking through the park, Sara admired the beautiful flowers.",
+    "question": "Which sentence avoids a misplaced modifier?\nA) The professor handed the essay to the student covered in red marks.\nB) Covered in red marks, the professor handed the essay to the student.\nC) The professor handed the essay, covered in red marks, to the student.\nD) The student received from the professor the essay covered in red marks him.",
     "options": {
-      "A": "Walking through the park, the flowers were beautiful to Sara.",
-      "B": "While walking through the park, beautiful flowers surrounded Sara.",
-      "C": "The flowers were beautiful as Sara was walking through the park.",
-      "D": "Walking through the park, Sara admired the beautiful flowers."
+      "A": "The professor handed the essay to the student covered in red marks.",
+      "B": "Covered in red marks, the professor handed the essay to the student.",
+      "C": "The professor handed the essay, covered in red marks, to the student.",
+      "D": "The student received from the professor the essay covered in red marks him."
     },
-    "correct": "D",
-    "explanation": "Option D correctly connects the participial phrase 'walking through the park' to its logical subject 'Sara.' Option A creates a dangling modifier because 'the flowers' cannot walk. Option B is awkward. Option C changes the intended participial construction."
+    "correct": "C",
+    "explanation": "Placing 'covered in red marks' immediately after 'the essay' clearly and correctly identifies what is covered. Option A implies the student is covered in red marks. Option B implies the professor is covered in red marks. Option D is grammatically incoherent."
   },
   {
     "id": 4,
     "topic": "Modifier Placement",
     "difficulty": "medium",
-    "question": "Select the sentence in which the modifier is correctly placed.\nA) Painted with great care, the artist displayed the portrait.\nB) The portrait, painted with great care, was displayed by the artist.\nC) The artist displayed the portrait painted with great care by him.\nD) With great care painted, the portrait was displayed by the artist.",
+    "question": "Which sentence contains a squinting modifier (one that ambiguously modifies either the word before or after it)?\nA) She promised after the meeting to call her colleague.\nB) The manager frequently reminded employees about the deadline.\nC) He told her clearly what the new expectations were.\nD) They agreed to review the proposal together before Monday.",
     "options": {
-      "A": "Painted with great care, the artist displayed the portrait.",
-      "B": "The portrait, painted with great care, was displayed by the artist.",
-      "C": "The artist displayed the portrait painted with great care by him.",
-      "D": "With great care painted, the portrait was displayed by the artist."
+      "A": "She promised after the meeting to call her colleague.",
+      "B": "The manager frequently reminded employees about the deadline.",
+      "C": "He told her clearly what the new expectations were.",
+      "D": "They agreed to review the proposal together before Monday."
     },
-    "correct": "B",
-    "explanation": "In option B, 'painted with great care' is a past participial phrase placed immediately after 'the portrait,' which it logically modifies. Option A incorrectly implies the artist was painted with great care. Options C and D are grammatically awkward."
+    "correct": "A",
+    "explanation": "'After the meeting' is a squinting modifier: it could modify 'promised' (she made the promise after the meeting) or 'to call' (she promised to call after the meeting). Options B, C, and D each place their adverbs in unambiguous positions adjacent to what they modify."
   },
   {
     "id": 5,
     "topic": "Modifier Placement",
     "difficulty": "medium",
-    "question": "Which sentence contains a squinting modifier?\nA) Students who study often pass their exams.\nB) Often, students who study pass their exams.\nC) Students who often study pass their exams.\nD) Students who study pass their exams often.",
+    "question": "Which version best corrects the dangling modifier in: 'To qualify for the prize, the application must be submitted before Friday.'\nA) To qualify for the prize, you must submit the application before Friday.\nB) The application must be submitted to qualify for the prize before Friday.\nC) To qualify for the prize, submitting the application before Friday is necessary.\nD) Before Friday, the application to qualify for the prize must be submitted.",
     "options": {
-      "A": "Students who study often pass their exams.",
-      "B": "Often, students who study pass their exams.",
-      "C": "Students who often study pass their exams.",
-      "D": "Students who study pass their exams often."
+      "A": "To qualify for the prize, you must submit the application before Friday.",
+      "B": "The application must be submitted to qualify for the prize before Friday.",
+      "C": "To qualify for the prize, submitting the application before Friday is necessary.",
+      "D": "Before Friday, the application to qualify for the prize must be submitted."
     },
     "correct": "A",
-    "explanation": "Option A contains a squinting modifier: 'often' could modify either 'study' (they study often) or 'pass' (they often pass). Options B, C, and D each place 'often' in an unambiguous position."
+    "explanation": "The infinitive phrase 'to qualify for the prize' requires a human agent as the subject of the main clause. Option A correctly supplies 'you.' In the original and in options B–D, 'the application,' 'submitting,' or an implied subject cannot logically qualify for a prize — the modifier dangles."
   },
   {
     "id": 6,
     "topic": "Modifier Placement",
     "difficulty": "medium",
-    "question": "Which version corrects the dangling modifier? 'To improve your writing, a good dictionary must be used.'\nA) To improve your writing, a good dictionary must be used by you.\nB) To improve your writing, one must use a good dictionary.\nC) A good dictionary must be used to improve your writing.\nD) Improving your writing requires a good dictionary to be used.",
+    "question": "Select the sentence in which the participial phrase is correctly placed.\nA) Exhausted after the marathon, a warm bath was drawn by the runner.\nB) After drawing a warm bath, the runner was exhausted from the marathon.\nC) Exhausted after the marathon, the runner drew a warm bath.\nD) A warm bath was drawn, exhausted after the marathon, by the runner.",
     "options": {
-      "A": "To improve your writing, a good dictionary must be used by you.",
-      "B": "To improve your writing, one must use a good dictionary.",
-      "C": "A good dictionary must be used to improve your writing.",
-      "D": "Improving your writing requires a good dictionary to be used."
+      "A": "Exhausted after the marathon, a warm bath was drawn by the runner.",
+      "B": "After drawing a warm bath, the runner was exhausted from the marathon.",
+      "C": "Exhausted after the marathon, the runner drew a warm bath.",
+      "D": "A warm bath was drawn, exhausted after the marathon, by the runner."
     },
-    "correct": "B",
-    "explanation": "The infinitive phrase 'to improve your writing' needs a human agent as the subject of the main clause. Option B correctly supplies 'one' as the subject. Option A still uses passive voice and is stylistically weak. Option C moves the infinitive to a later position, eliminating the dangling problem, but option B more directly preserves the intended opening emphasis."
+    "correct": "C",
+    "explanation": "'Exhausted after the marathon' must modify the runner, not the bath. Option C places the participial phrase immediately before 'the runner,' its correct subject. Option A implies the warm bath is exhausted. Option B reverses the logical sequence. Option D creates ambiguity about who is exhausted."
   },
   {
     "id": 7,
     "topic": "Modifier Placement",
     "difficulty": "medium",
-    "question": "Identify the sentence with the correctly placed limiting modifier 'only.'\nA) She only told her sister the secret yesterday.\nB) She told only her sister the secret yesterday.\nC) Only she told her sister the secret yesterday.\nD) She told her sister only the secret yesterday.",
+    "question": "Identify the sentence in which 'even' is correctly placed to emphasise that the final chapter specifically was read.\nA) She even read the entire book in one sitting, including the final chapter.\nB) She read even the entire book in one sitting, including the final chapter.\nC) She read the entire book, even the final chapter, in one sitting.\nD) Even she read the entire book, including the final chapter, in one sitting.",
     "options": {
-      "A": "She only told her sister the secret yesterday.",
-      "B": "She told only her sister the secret yesterday.",
-      "C": "Only she told her sister the secret yesterday.",
-      "D": "She told her sister only the secret yesterday."
+      "A": "She even read the entire book in one sitting, including the final chapter.",
+      "B": "She read even the entire book in one sitting, including the final chapter.",
+      "C": "She read the entire book, even the final chapter, in one sitting.",
+      "D": "Even she read the entire book, including the final chapter, in one sitting."
     },
-    "correct": "B",
-    "explanation": "If the intended meaning is that no one else was told the secret, 'only' must immediately precede 'her sister.' Option A implies she merely told (did nothing else with) the secret. Option C suggests no one else told the sister. Option D implies the secret was the only thing told."
+    "correct": "C",
+    "explanation": "To emphasise the final chapter specifically, 'even' must immediately precede it. Option C places 'even' directly before 'the final chapter.' Option A places 'even' before 'read,' implying she was surprising for merely reading. Option B mismodifies 'the entire book.' Option D places 'even' before 'she,' implying surprise that this particular person read it."
   },
   {
     "id": 8,
     "topic": "Modifier Placement",
     "difficulty": "medium",
-    "question": "Which of the following corrects the dangling modifier? 'Having read the novel twice, the ending still surprised me.'\nA) Having read the novel twice, I was still surprised by the ending.\nB) The ending still surprised me, having read the novel twice.\nC) Reading the novel twice, the ending surprised me still.\nD) The novel, having been read twice, still surprised me at the ending.",
+    "question": "Which version best corrects: 'Having completed the audit, the report was filed by the accountant.'\nA) Having completed the audit, the accountant filed the report.\nB) The report, having completed the audit, was filed by the accountant.\nC) Completing the audit had the report filed by the accountant.\nD) After completing the audit, filing the report was done by the accountant.",
     "options": {
-      "A": "Having read the novel twice, I was still surprised by the ending.",
-      "B": "The ending still surprised me, having read the novel twice.",
-      "C": "Reading the novel twice, the ending surprised me still.",
-      "D": "The novel, having been read twice, still surprised me at the ending."
+      "A": "Having completed the audit, the accountant filed the report.",
+      "B": "The report, having completed the audit, was filed by the accountant.",
+      "C": "Completing the audit had the report filed by the accountant.",
+      "D": "After completing the audit, filing the report was done by the accountant."
     },
     "correct": "A",
-    "explanation": "Option A correctly assigns the action of reading to 'I,' the subject of the main clause. In the original sentence and in options B and C, the participial phrase dangles because neither 'the ending' nor 'the novel' can read. Option D misattributes the reading to the novel itself."
+    "explanation": "'Having completed the audit' must modify the person who did the completing — the accountant. Option A correctly places the accountant as the subject of the main clause. Option B implies the report completed the audit. Option C is grammatically confused. Option D uses a gerund subject ('filing') that cannot have completed the audit."
   },
   {
     "id": 9,
     "topic": "Modifier Placement",
     "difficulty": "hard",
-    "question": "Which sentence is free of any modifier error?\nA) Glancing out the window, the mountains appeared majestic to the travellers.\nB) The travellers, glancing out the window, found the mountains majestic.\nC) Majestic to the travellers, glancing out the window were the mountains.\nD) The mountains appeared majestic, the travellers glancing out the window.",
+    "question": "Which sentence is entirely free of modifier errors?\nA) While conducting the experiment, the results surprised the researchers.\nB) Working late into the night, the lawyers carefully reviewed the contract and identified several ambiguous clauses.\nC) Reviewing the contract carefully, several ambiguous clauses were found by the lawyers working late.\nD) The lawyers found several ambiguous clauses, carefully reviewing the contract that was working late into the night.",
     "options": {
-      "A": "Glancing out the window, the mountains appeared majestic to the travellers.",
-      "B": "The travellers, glancing out the window, found the mountains majestic.",
-      "C": "Majestic to the travellers, glancing out the window were the mountains.",
-      "D": "The mountains appeared majestic, the travellers glancing out the window."
+      "A": "While conducting the experiment, the results surprised the researchers.",
+      "B": "Working late into the night, the lawyers carefully reviewed the contract and identified several ambiguous clauses.",
+      "C": "Reviewing the contract carefully, several ambiguous clauses were found by the lawyers working late.",
+      "D": "The lawyers found several ambiguous clauses, carefully reviewing the contract that was working late into the night."
     },
     "correct": "B",
-    "explanation": "Option B correctly places the participial phrase 'glancing out the window' next to 'the travellers,' the noun it modifies. Option A implies the mountains are glancing out the window. Options C and D are structurally awkward and create ambiguity about which noun the phrase modifies."
+    "explanation": "Option B correctly attaches 'Working late into the night' to 'the lawyers,' the subject of the main clause. Option A has 'the results' conducting the experiment (dangling). Option C has 'the clauses' reviewing the contract (dangling). Option D absurdly implies the contract was working late into the night (misplaced relative clause)."
   },
   {
     "id": 10,
     "topic": "Modifier Placement",
     "difficulty": "hard",
-    "question": "Identify the sentence in which ALL modifiers are correctly placed.\nA) The professor nearly lectured for three hours without a break on the topic she had barely covered.\nB) The professor lectured for nearly three hours on the topic she had barely covered without a break.\nC) Without a break, the professor lectured for nearly three hours on the topic she had barely covered.\nD) The professor lectured without a break for nearly three hours on the barely covered topic.",
+    "question": "Identify the sentence in which ALL modifiers are correctly and unambiguously placed.\nA) The architect almost designed every room in the building with natural light in mind.\nB) Almost every room in the building was designed by the architect with natural light in mind.\nC) The architect designed every room with almost natural light carefully in mind.\nD) With natural light almost in mind, the architect carefully designed every room.",
     "options": {
-      "A": "The professor nearly lectured for three hours without a break on the topic she had barely covered.",
-      "B": "The professor lectured for nearly three hours on the topic she had barely covered without a break.",
-      "C": "Without a break, the professor lectured for nearly three hours on the topic she had barely covered.",
-      "D": "The professor lectured without a break for nearly three hours on the barely covered topic."
+      "A": "The architect almost designed every room in the building with natural light in mind.",
+      "B": "Almost every room in the building was designed by the architect with natural light in mind.",
+      "C": "The architect designed every room with almost natural light carefully in mind.",
+      "D": "With natural light almost in mind, the architect carefully designed every room."
     },
-    "correct": "D",
-    "explanation": "Option D positions 'without a break,' 'nearly three hours,' and 'barely covered' unambiguously and closest to what they modify. In option A, 'nearly' mismodifies 'lectured.' In option B, 'without a break' at the end could ambiguously modify 'covered.' Option C is acceptable but 'barely covered' remains slightly ambiguous; D is the cleanest throughout."
+    "correct": "B",
+    "explanation": "'Almost every room' in option B correctly limits the scope of the design to most (not all) rooms. Option A's 'almost designed' implies the architect never completed the designs. Option C's 'almost natural light' is semantically incoherent — natural light is not a scalar quantity that can be approximated in this sense. Option D's 'almost in mind' is awkward and ambiguous about what was nearly considered."
   },
   {
     "id": 11,
     "topic": "Sentence Correction",
     "difficulty": "easy",
-    "question": "Choose the grammatically correct sentence.\nA) The team have decided to postpone the match.\nB) The team has decided to postpone the match.\nC) The team were deciding to postpone the match.\nD) The team are decided to postpone the match.",
+    "question": "Select the grammatically correct sentence.\nA) There is less students in the lecture today than last week.\nB) There are fewer students in the lecture today than last week.\nC) There are less students in the lecture today than last week.\nD) There is fewer students in the lecture today than last week.",
     "options": {
-      "A": "The team have decided to postpone the match.",
-      "B": "The team has decided to postpone the match.",
-      "C": "The team were deciding to postpone the match.",
-      "D": "The team are decided to postpone the match."
+      "A": "There is less students in the lecture today than last week.",
+      "B": "There are fewer students in the lecture today than last week.",
+      "C": "There are less students in the lecture today than last week.",
+      "D": "There is fewer students in the lecture today than last week."
     },
     "correct": "B",
-    "explanation": "In standard American English, collective nouns like 'team' take singular verbs. 'The team has decided' is correct. Options A and C use plural verbs (British English allows this, but formal exam usage follows American conventions). Option D incorrectly uses 'decided' as an adjective with 'are.'"
+    "explanation": "'Fewer' is used with countable nouns (students). 'Less' is used with uncountable nouns (water, time). 'Are' agrees with the plural subject 'students.' Option B is the only option that is correct in both respects."
   },
   {
     "id": 12,
     "topic": "Sentence Correction",
     "difficulty": "easy",
-    "question": "Select the correct sentence.\nA) Ahmad works more harder than his colleagues.\nB) Ahmad works harder than his colleagues.\nC) Ahmad works more hard than his colleagues.\nD) Ahmad works the most harder than his colleagues.",
+    "question": "Choose the sentence with the correct comparative form.\nA) This route is more longer than the highway we took yesterday.\nB) This route is longer than the highway we took yesterday.\nC) This route is more long than the highway we took yesterday.\nD) This route is the most longest of all the alternatives.",
     "options": {
-      "A": "Ahmad works more harder than his colleagues.",
-      "B": "Ahmad works harder than his colleagues.",
-      "C": "Ahmad works more hard than his colleagues.",
-      "D": "Ahmad works the most harder than his colleagues."
+      "A": "This route is more longer than the highway we took yesterday.",
+      "B": "This route is longer than the highway we took yesterday.",
+      "C": "This route is more long than the highway we took yesterday.",
+      "D": "This route is the most longest of all the alternatives."
     },
     "correct": "B",
-    "explanation": "One-syllable adverbs form the comparative with '-er,' not with 'more.' 'Harder' is already the comparative form of 'hard.' Using both 'more' and '-er' is a double comparative and is incorrect. Option B is the only grammatically correct form."
+    "explanation": "One-syllable adjectives form the comparative with '-er' (longer), not with 'more.' Using both 'more' and '-er' creates a double comparative, which is always incorrect. Option B is the only grammatically correct form."
   },
   {
     "id": 13,
     "topic": "Sentence Correction",
     "difficulty": "easy",
-    "question": "Which sentence is grammatically correct?\nA) She is one of those students who studies every night.\nB) She is one of those students who study every night.\nC) She is one of those student who study every night.\nD) She is one of those students whom studies every night.",
+    "question": "Which sentence is grammatically correct?\nA) Between you and I, the project deadline is unrealistic.\nB) Between you and me, the project deadline is unrealistic.\nC) Between you and myself, the project deadline is unrealistic.\nD) Between you and mine, the project deadline is unrealistic.",
     "options": {
-      "A": "She is one of those students who studies every night.",
-      "B": "She is one of those students who study every night.",
-      "C": "She is one of those student who study every night.",
-      "D": "She is one of those students whom studies every night."
+      "A": "Between you and I, the project deadline is unrealistic.",
+      "B": "Between you and me, the project deadline is unrealistic.",
+      "C": "Between you and myself, the project deadline is unrealistic.",
+      "D": "Between you and mine, the project deadline is unrealistic."
     },
     "correct": "B",
-    "explanation": "The antecedent of 'who' is 'students' (plural), so the relative clause requires the plural verb 'study.' Option A incorrectly treats 'one' as the antecedent. Option C has a number error ('student' should be 'students'). Option D incorrectly uses 'whom' as the subject of the relative clause."
+    "explanation": "'Between' is a preposition and requires object pronouns. 'Me' is the correct object form; 'I' is a subject pronoun and is incorrect after prepositions. 'Myself' is a reflexive/emphatic pronoun and should not replace a simple object pronoun. 'Mine' is a possessive pronoun and is grammatically illogical here."
   },
   {
     "id": 14,
     "topic": "Sentence Correction",
     "difficulty": "medium",
-    "question": "Choose the sentence that corrects the error in: 'He insisted that she comes to the meeting on time.'\nA) He insisted that she come to the meeting on time.\nB) He insisted that she came to the meeting on time.\nC) He insisted that she will come to the meeting on time.\nD) He insisted that she had come to the meeting on time.",
+    "question": "Select the sentence that correctly uses the subjunctive mood.\nA) The committee recommends that the proposal is reviewed by an independent panel.\nB) The committee recommends that the proposal be reviewed by an independent panel.\nC) The committee recommends that the proposal was reviewed by an independent panel.\nD) The committee recommends that the proposal would be reviewed by an independent panel.",
     "options": {
-      "A": "He insisted that she come to the meeting on time.",
-      "B": "He insisted that she came to the meeting on time.",
-      "C": "He insisted that she will come to the meeting on time.",
-      "D": "He insisted that she had come to the meeting on time."
+      "A": "The committee recommends that the proposal is reviewed by an independent panel.",
+      "B": "The committee recommends that the proposal be reviewed by an independent panel.",
+      "C": "The committee recommends that the proposal was reviewed by an independent panel.",
+      "D": "The committee recommends that the proposal would be reviewed by an independent panel."
     },
-    "correct": "A",
-    "explanation": "After verbs of demand or insistence (insist, demand, suggest, recommend), the subjunctive mood is required. The subjunctive uses the base form of the verb without -s: 'she come,' not 'she comes.' Options B, C, and D use indicative or other incorrect forms."
+    "correct": "B",
+    "explanation": "After verbs of recommendation, demand, or suggestion (recommend, suggest, insist, demand), the subjunctive mood requires the base form of the verb: 'be,' not 'is,' 'was,' or 'would be.' This rule applies regardless of the tense of the main verb."
   },
   {
     "id": 15,
     "topic": "Sentence Correction",
     "difficulty": "medium",
-    "question": "Which sentence correctly uses 'whose' or 'who's'?\nA) The student who's notebook was lost reported it to the teacher.\nB) The student whose notebook was lost reported it to the teacher.\nC) The student whom's notebook was lost reported it to the teacher.\nD) The student, who's notebook was lost, reported it to the teacher.",
+    "question": "Choose the sentence with correct pronoun-antecedent agreement in formal written English.\nA) Neither of the candidates submitted their policy proposals on time.\nB) Neither of the candidates submitted his or her policy proposals on time.\nC) Neither of the candidates submitted its policy proposals on time.\nD) Neither of the candidates submitted our policy proposals on time.",
     "options": {
-      "A": "The student who's notebook was lost reported it to the teacher.",
-      "B": "The student whose notebook was lost reported it to the teacher.",
-      "C": "The student whom's notebook was lost reported it to the teacher.",
-      "D": "The student, who's notebook was lost, reported it to the teacher."
+      "A": "Neither of the candidates submitted their policy proposals on time.",
+      "B": "Neither of the candidates submitted his or her policy proposals on time.",
+      "C": "Neither of the candidates submitted its policy proposals on time.",
+      "D": "Neither of the candidates submitted our policy proposals on time."
     },
     "correct": "B",
-    "explanation": "'Whose' is the possessive form of 'who' and is correct here to show that the notebook belongs to the student. 'Who's' is a contraction of 'who is' and cannot function as a possessive. 'Whom's' does not exist in standard English."
+    "explanation": "'Neither' is a singular indefinite pronoun requiring a singular pronoun referent. In formal written English, 'his or her' is the grammatically precise choice. Option A's plural 'their' is increasingly accepted informally but remains incorrect in formal exam contexts. 'Its' is for objects, not people. 'Our' is illogical."
   },
   {
     "id": 16,
     "topic": "Sentence Correction",
     "difficulty": "medium",
-    "question": "Select the sentence with correct pronoun-antecedent agreement.\nA) Each of the managers must submit their individual report by Friday.\nB) Each of the managers must submit his or her individual report by Friday.\nC) Each of the managers must submit its individual report by Friday.\nD) Each of the managers must submit our individual report by Friday.",
+    "question": "Which sentence correctly uses punctuation to join two independent clauses?\nA) She studied diligently; and passed the exam with distinction.\nB) She studied diligently, therefore she passed the exam with distinction.\nC) She studied diligently; therefore, she passed the exam with distinction.\nD) She studied diligently, she passed the exam with distinction.",
     "options": {
-      "A": "Each of the managers must submit their individual report by Friday.",
-      "B": "Each of the managers must submit his or her individual report by Friday.",
-      "C": "Each of the managers must submit its individual report by Friday.",
-      "D": "Each of the managers must submit our individual report by Friday."
+      "A": "She studied diligently; and passed the exam with distinction.",
+      "B": "She studied diligently, therefore she passed the exam with distinction.",
+      "C": "She studied diligently; therefore, she passed the exam with distinction.",
+      "D": "She studied diligently, she passed the exam with distinction."
     },
-    "correct": "B",
-    "explanation": "'Each' is a singular indefinite pronoun requiring a singular pronoun. In formal writing, 'his or her' is the grammatically precise choice. Option A's plural 'their' is increasingly accepted informally but is incorrect in formal exam contexts. Option C uses 'its,' which is appropriate for objects, not people. Option D is illogical."
+    "correct": "C",
+    "explanation": "A semicolon correctly joins two independent clauses; a conjunctive adverb ('therefore') that follows is set off by a comma. Option A incorrectly uses a semicolon before a coordinating conjunction. Option B is a comma splice before a conjunctive adverb. Option D is a comma splice with no connector."
   },
   {
     "id": 17,
     "topic": "Sentence Correction",
     "difficulty": "medium",
-    "question": "Identify the sentence that corrects the error: 'The principle of the school gave a speech to the student body.'\nA) The principal of the school gave a speech to the student body.\nB) The principle of the school gave a speech to the student's body.\nC) The principal of the school gave a speech to the students body.\nD) The principle of the school gaved a speech to the student body.",
+    "question": "Identify the sentence that correctly uses a restrictive relative clause.\nA) The medication, that must be taken with food, was prescribed by her doctor.\nB) The medication that must be taken with food was prescribed by her doctor.\nC) The medication which must be taken with food, was prescribed by her doctor.\nD) The medication, which must be taken with food was prescribed by her doctor.",
     "options": {
-      "A": "The principal of the school gave a speech to the student body.",
-      "B": "The principle of the school gave a speech to the student's body.",
-      "C": "The principal of the school gave a speech to the students body.",
-      "D": "The principle of the school gaved a speech to the student body."
+      "A": "The medication, that must be taken with food, was prescribed by her doctor.",
+      "B": "The medication that must be taken with food was prescribed by her doctor.",
+      "C": "The medication which must be taken with food, was prescribed by her doctor.",
+      "D": "The medication, which must be taken with food was prescribed by her doctor."
     },
-    "correct": "A",
-    "explanation": "'Principal' (ending in 'al') refers to the head of a school; 'principle' means a rule or belief. The correct word is 'principal.' Option B retains the wrong word. Option C uses the right word but introduces a missing apostrophe. Option D retains the wrong word and uses the non-standard 'gaved.'"
+    "correct": "B",
+    "explanation": "Restrictive relative clauses (essential to identifying the noun) use 'that' without commas. Non-restrictive clauses (adding extra information) use 'which' with commas. Since 'must be taken with food' is essential information distinguishing this medication from others, 'that' without commas is correct. Options A and D incorrectly use commas with 'that' or omit the closing comma with 'which.'"
   },
   {
     "id": 18,
     "topic": "Sentence Correction",
     "difficulty": "medium",
-    "question": "Which sentence corrects the comma splice? 'It was raining heavily, we decided to cancel the picnic.'\nA) It was raining heavily, so we decided to cancel the picnic.\nB) It was raining heavily, and decided to cancel the picnic.\nC) It was raining heavily we decided to cancel the picnic.\nD) It was raining heavily; decided to cancel the picnic.",
+    "question": "Select the grammatically correct sentence using correlative conjunctions.\nA) She is not only talented but also works hard.\nB) She is not only talented but also hardworking.\nC) She not only is talented but hardworking also.\nD) Not only is she talented but she hardworking too.",
     "options": {
-      "A": "It was raining heavily, so we decided to cancel the picnic.",
-      "B": "It was raining heavily, and decided to cancel the picnic.",
-      "C": "It was raining heavily we decided to cancel the picnic.",
-      "D": "It was raining heavily; decided to cancel the picnic."
+      "A": "She is not only talented but also works hard.",
+      "B": "She is not only talented but also hardworking.",
+      "C": "She not only is talented but hardworking also.",
+      "D": "Not only is she talented but she hardworking too."
     },
-    "correct": "A",
-    "explanation": "A comma splice occurs when two independent clauses are joined with only a comma. The fix is to add a coordinating conjunction. Option A adds 'so,' creating a correct compound sentence. Option B omits the subject 'we' in the second clause. Option C removes the comma but adds no connector, creating a run-on. Option D uses a semicolon incorrectly before an incomplete clause."
+    "correct": "B",
+    "explanation": "'Not only...but also' requires parallel grammatical forms on each side. Option B correctly pairs two adjectives: 'talented' and 'hardworking.' Option A pairs an adjective ('talented') with a verb phrase ('works hard') — not parallel. Options C and D have structural and word-order errors."
   },
   {
     "id": 19,
     "topic": "Sentence Correction",
     "difficulty": "hard",
-    "question": "Choose the sentence that is entirely free of grammatical error.\nA) The number of accidents on this highway have increased since construction began.\nB) A number of accidents on this highway has increased since construction began.\nC) The number of accidents on this highway has increased since construction began.\nD) A number of accidents on this highway have been increased since construction began.",
+    "question": "Choose the sentence that is entirely free of grammatical error.\nA) The data that was collected over ten years suggest a strong link between diet and longevity.\nB) The data that were collected over ten years suggests a strong link between diet and longevity.\nC) The data that were collected over ten years suggest a strong link between diet and longevity.\nD) The data that was collected over ten years suggests a strong link between diet and longevity.",
     "options": {
-      "A": "The number of accidents on this highway have increased since construction began.",
-      "B": "A number of accidents on this highway has increased since construction began.",
-      "C": "The number of accidents on this highway has increased since construction began.",
-      "D": "A number of accidents on this highway have been increased since construction began."
+      "A": "The data that was collected over ten years suggest a strong link between diet and longevity.",
+      "B": "The data that were collected over ten years suggests a strong link between diet and longevity.",
+      "C": "The data that were collected over ten years suggest a strong link between diet and longevity.",
+      "D": "The data that was collected over ten years suggests a strong link between diet and longevity."
     },
     "correct": "C",
-    "explanation": "'The number' is a singular noun phrase and takes a singular verb: 'has increased.' 'A number of' means 'many' and takes a plural verb ('have'). Option A uses 'have' with 'the number,' which is incorrect. Option B uses 'has' with 'a number of,' which is incorrect. Option D uses an awkward passive construction and is wrong in context."
+    "explanation": "'Data' is the plural of 'datum' and takes plural verbs in formal academic usage. 'That were collected' (plural verb in relative clause) and 'suggest' (plural main verb) are both correct. Option A uses singular 'was' in the relative clause. Option B uses plural 'were' correctly but singular 'suggests' incorrectly in the main clause. Option D uses singular verbs throughout — incorrect for 'data.'"
   },
   {
     "id": 20,
     "topic": "Sentence Correction",
     "difficulty": "hard",
-    "question": "Select the grammatically correct sentence.\nA) Not only did she finish the project ahead of schedule, but also submitted it without errors.\nB) Not only did she finish the project ahead of schedule, but she also submitted it without errors.\nC) Not only she finished the project ahead of schedule, but also she submitted it without errors.\nD) Not only did she finished the project ahead of schedule, but she also submitted it without errors.",
+    "question": "Select the grammatically correct sentence.\nA) The reason for her resignation is because she was passed over for promotion.\nB) The reason for her resignation is that she was passed over for promotion.\nC) The reason for her resignation is due to being passed over for promotion.\nD) The reason why she resigned is because she was passed over for promotion.",
     "options": {
-      "A": "Not only did she finish the project ahead of schedule, but also submitted it without errors.",
-      "B": "Not only did she finish the project ahead of schedule, but she also submitted it without errors.",
-      "C": "Not only she finished the project ahead of schedule, but also she submitted it without errors.",
-      "D": "Not only did she finished the project ahead of schedule, but she also submitted it without errors."
+      "A": "The reason for her resignation is because she was passed over for promotion.",
+      "B": "The reason for her resignation is that she was passed over for promotion.",
+      "C": "The reason for her resignation is due to being passed over for promotion.",
+      "D": "The reason why she resigned is because she was passed over for promotion."
     },
     "correct": "B",
-    "explanation": "The correlative conjunction 'not only...but also' requires parallel structure and a clear subject in each clause. Option B correctly uses subject-auxiliary inversion ('did she finish') in the first clause and retains the subject 'she' before 'also' in the second. Option A omits the subject in the second clause. Option C lacks inversion. Option D uses 'finished' after the auxiliary 'did,' which is incorrect (base form 'finish' is required)."
+    "explanation": "'The reason is that...' is the standard, grammatically correct construction. 'The reason is because...' (options A and D) is redundant — both 'reason' and 'because' introduce causation, creating a circular structure that is non-standard in formal writing. 'The reason is due to...' (option C) is also incorrect; 'due to' should follow a form of 'be' only in certain nominal constructions, not after 'the reason is.'"
   },
   {
     "id": 21,
     "topic": "Subject-Verb Agreement",
     "difficulty": "easy",
-    "question": "Select the correct verb form: 'The quality of these products _____ outstanding.'\nA) are\nB) is\nC) were\nD) have been",
+    "question": "Select the correct verb form: 'The news of the factory closures _____ deeply unsettling to the workers.'\nA) are\nB) is\nC) were\nD) have been",
     "options": {
       "A": "are",
       "B": "is",
@@ -291,412 +291,412 @@
       "D": "have been"
     },
     "correct": "B",
-    "explanation": "The subject of the sentence is 'quality,' a singular noun. The prepositional phrase 'of these products' is a modifier and does not affect subject-verb agreement. Therefore, the singular verb 'is' is correct."
+    "explanation": "'News' is an uncountable singular noun in English and always takes a singular verb, regardless of any intervening prepositional phrase ('of the factory closures'). The prepositional phrase does not change the subject. 'Is' is correct."
   },
   {
     "id": 22,
     "topic": "Subject-Verb Agreement",
-    "difficulty": "medium",
-    "question": "Choose the correct form: 'Neither the CEO nor the board members _____ aware of the leak.'\nA) was\nB) were\nC) is\nD) has been",
+    "difficulty": "easy",
+    "question": "Choose the correct form: 'Economics _____ considered a mandatory subject for all business students at this university.'\nA) are\nB) have been\nC) is\nD) were",
     "options": {
-      "A": "was",
-      "B": "were",
+      "A": "are",
+      "B": "have been",
       "C": "is",
-      "D": "has been"
+      "D": "were"
     },
-    "correct": "B",
-    "explanation": "When 'neither...nor' connects two subjects, the verb agrees with the subject closest to it (the proximity rule). The subject closest to the verb is 'board members' (plural), so the plural verb 'were' is correct."
+    "correct": "C",
+    "explanation": "Academic disciplines ending in '-s' — economics, mathematics, physics, politics — are treated as singular nouns and take singular verbs. 'Economics is' is the correct form."
   },
   {
     "id": 23,
     "topic": "Subject-Verb Agreement",
     "difficulty": "medium",
-    "question": "Which sentence demonstrates correct subject-verb agreement?\nA) Every student and teacher are required to wear an ID badge.\nB) Every student and teacher is required to wear an ID badge.\nC) Every student and every teacher are required to wear an ID badge.\nD) Every students and teachers is required to wear an ID badge.",
+    "question": "Select the correct verb: 'A number of participants _____ already withdrawn their consent from the study.'\nA) has\nB) is\nC) have\nD) was",
     "options": {
-      "A": "Every student and teacher are required to wear an ID badge.",
-      "B": "Every student and teacher is required to wear an ID badge.",
-      "C": "Every student and every teacher are required to wear an ID badge.",
-      "D": "Every students and teachers is required to wear an ID badge."
+      "A": "has",
+      "B": "is",
+      "C": "have",
+      "D": "was"
     },
-    "correct": "B",
-    "explanation": "When 'every' precedes a compound subject joined by 'and,' the verb is singular because 'every' individualises each noun. 'Every student and teacher is' is correct. Option D uses incorrect plural nouns after 'every.' Option C ('every...and every') also takes a singular verb by the same rule, but B is the cleanest correct answer presented."
+    "correct": "C",
+    "explanation": "'A number of' functions as a quantifier meaning 'many/several' and takes a plural verb. Contrast this with 'the number of,' which is singular ('The number of participants has increased'). 'A number of participants have withdrawn' is correct."
   },
   {
     "id": 24,
-    "topic": "Parallelism & Sentence Structure",
-    "difficulty": "easy",
-    "question": "Which sentence demonstrates correct parallel structure?\nA) The coach told the players to rest, to hydrate, and eating well before the game.\nB) The coach told the players to rest, to hydrate, and to eat well before the game.\nC) The coach told the players to rest, hydrating, and to eat well before the game.\nD) The coach told the players resting, to hydrate, and to eat well before the game.",
+    "topic": "Subject-Verb Agreement",
+    "difficulty": "medium",
+    "question": "Which sentence demonstrates correct subject-verb agreement?\nA) The jury has reached their verdict after three days of deliberation.\nB) The jury have reached its verdict after three days of deliberation.\nC) The jury has reached its verdict after three days of deliberation.\nD) The jury are reached its verdict after three days of deliberation.",
     "options": {
-      "A": "The coach told the players to rest, to hydrate, and eating well before the game.",
-      "B": "The coach told the players to rest, to hydrate, and to eat well before the game.",
-      "C": "The coach told the players to rest, hydrating, and to eat well before the game.",
-      "D": "The coach told the players resting, to hydrate, and to eat well before the game."
+      "A": "The jury has reached their verdict after three days of deliberation.",
+      "B": "The jury have reached its verdict after three days of deliberation.",
+      "C": "The jury has reached its verdict after three days of deliberation.",
+      "D": "The jury are reached its verdict after three days of deliberation."
     },
-    "correct": "B",
-    "explanation": "Parallel structure requires that items in a series share the same grammatical form. Option B correctly uses three parallel infinitives: 'to rest, to hydrate, and to eat.' The other options mix infinitives with gerunds ('eating,' 'hydrating,' 'resting'), breaking the parallel structure."
+    "correct": "C",
+    "explanation": "In formal American English, 'the jury' acting as a single unified body takes a singular verb ('has') and a singular pronoun ('its'). Option A pairs a singular verb correctly but uses a plural pronoun inconsistently. Option B uses a plural verb with a singular pronoun. Option D is grammatically incoherent."
   },
   {
     "id": 25,
     "topic": "Parallelism & Sentence Structure",
-    "difficulty": "medium",
-    "question": "Select the sentence with correct parallel structure.\nA) The new employee is smart, dedicated, and has creativity.\nB) The new employee is smart, dedicated, and creative.\nC) The new employee is smart, has dedication, and is creative.\nD) The new employee has smartness, is dedicated, and creative.",
+    "difficulty": "easy",
+    "question": "Which sentence demonstrates correct parallel structure?\nA) The new policy aims to cut costs, improving services, and that employee satisfaction is increased.\nB) The new policy aims to cut costs, to improve services, and to increase employee satisfaction.\nC) The new policy aims to cut costs, improving services, and to increase employee satisfaction.\nD) The new policy aims cutting costs, to improve services, and that satisfaction increases.",
     "options": {
-      "A": "The new employee is smart, dedicated, and has creativity.",
-      "B": "The new employee is smart, dedicated, and creative.",
-      "C": "The new employee is smart, has dedication, and is creative.",
-      "D": "The new employee has smartness, is dedicated, and creative."
+      "A": "The new policy aims to cut costs, improving services, and that employee satisfaction is increased.",
+      "B": "The new policy aims to cut costs, to improve services, and to increase employee satisfaction.",
+      "C": "The new policy aims to cut costs, improving services, and to increase employee satisfaction.",
+      "D": "The new policy aims cutting costs, to improve services, and that satisfaction increases."
     },
     "correct": "B",
-    "explanation": "Option B lists three parallel predicate adjectives: 'smart, dedicated, and creative,' all following the linking verb 'is.' Options A, C, and D mix adjectives with verb phrases ('has creativity,' 'has dedication'), breaking the parallel structure."
+    "explanation": "Option B uses three parallel infinitives: 'to cut, to improve, to increase.' All other options mix infinitives, gerunds, and noun clauses, violating the rule that items in a series must share the same grammatical form."
   },
   {
     "id": 26,
     "topic": "Parallelism & Sentence Structure",
-    "difficulty": "hard",
-    "question": "Choose the sentence that maintains strict parallel structure throughout.\nA) The committee agreed that costs must be reduced, efficiency should be improved, and to hire more staff was a priority.\nB) The committee agreed that costs must be reduced, that efficiency should be improved, and that more staff must be hired.\nC) The committee agreed that costs must be reduced, efficiency should be improved, and more staff should be hired.\nD) The committee agreed to reduce costs, that efficiency should be improved, and to hire more staff.",
+    "difficulty": "medium",
+    "question": "Choose the sentence with the best parallel structure.\nA) The manager praised the team for working efficiently, their dedication, and that they were creative.\nB) The manager praised the team for its efficiency, dedication, and creativity.\nC) The manager praised the team for working efficiently, being dedicated, and creativity.\nD) The manager praised the team for efficient work, their dedication, and because they are creative.",
     "options": {
-      "A": "The committee agreed that costs must be reduced, efficiency should be improved, and to hire more staff was a priority.",
-      "B": "The committee agreed that costs must be reduced, that efficiency should be improved, and that more staff must be hired.",
-      "C": "The committee agreed that costs must be reduced, efficiency should be improved, and more staff should be hired.",
-      "D": "The committee agreed to reduce costs, that efficiency should be improved, and to hire more staff."
+      "A": "The manager praised the team for working efficiently, their dedication, and that they were creative.",
+      "B": "The manager praised the team for its efficiency, dedication, and creativity.",
+      "C": "The manager praised the team for working efficiently, being dedicated, and creativity.",
+      "D": "The manager praised the team for efficient work, their dedication, and because they are creative."
     },
     "correct": "B",
-    "explanation": "Option B uses strict parallel structure by repeating the subordinating conjunction 'that' before each clause, making the three items clearly parallel noun clauses. Option C omits 'that' before the second and third clauses, creating inconsistency. Options A and D mix infinitive phrases with noun clauses, breaking parallelism."
+    "explanation": "Option B lists three parallel abstract nouns: 'efficiency, dedication, and creativity,' all governed by 'for its.' Options A, C, and D each mix nouns with gerund phrases, possessive noun phrases, or subordinate clauses, creating non-parallel structures."
   },
   {
     "id": 27,
-    "topic": "Tense Consistency",
-    "difficulty": "easy",
-    "question": "Which sentence maintains correct tense consistency?\nA) She opened her laptop and starts typing her report.\nB) She opened her laptop and started typing her report.\nC) She opens her laptop and started typing her report.\nD) She has opened her laptop and started typing her report.",
+    "topic": "Parallelism & Sentence Structure",
+    "difficulty": "medium",
+    "question": "Identify the sentence that maintains parallel structure throughout.\nA) Learning a new language requires patience, you must be consistent, and regular practice.\nB) Learning a new language requires patience, consistency, and regular practice.\nC) To learn a new language requires having patience, being consistent, and regular practice.\nD) A new language can be learned if one has patience, is consistent, and practices regularly.",
     "options": {
-      "A": "She opened her laptop and starts typing her report.",
-      "B": "She opened her laptop and started typing her report.",
-      "C": "She opens her laptop and started typing her report.",
-      "D": "She has opened her laptop and started typing her report."
+      "A": "Learning a new language requires patience, you must be consistent, and regular practice.",
+      "B": "Learning a new language requires patience, consistency, and regular practice.",
+      "C": "To learn a new language requires having patience, being consistent, and regular practice.",
+      "D": "A new language can be learned if one has patience, is consistent, and practices regularly."
     },
     "correct": "B",
-    "explanation": "When narrating a sequence of past events, both verbs should be in the simple past tense. Option B correctly uses 'opened' and 'started,' maintaining tense consistency. Options A and C mix past and present tenses illogically. Option D uses the present perfect with simple past, which is inconsistent for a single completed sequence."
+    "explanation": "Option B uses three parallel nouns: 'patience, consistency, and regular practice.' Option A mixes a noun, a clause, and a noun phrase. Option C mixes gerund phrases with a noun phrase. Option D is the most nearly parallel (three verb phrases in a conditional), but 'has,' 'is,' and 'practices' vary in structure; B is clearly the cleanest parallel construction."
   },
   {
     "id": 28,
-    "topic": "Tense Consistency",
-    "difficulty": "medium",
-    "question": "Select the sentence with correct tense usage.\nA) By the time the results are announced, the students will have been waiting for three months.\nB) By the time the results are announced, the students will wait for three months.\nC) By the time the results are announced, the students waited for three months.\nD) By the time the results are announced, the students have waited for three months.",
+    "topic": "Parallelism & Sentence Structure",
+    "difficulty": "hard",
+    "question": "Select the sentence with strict parallel structure in a complex construction.\nA) The report concluded that profits had grown, operating costs had declined, and staff morale was improving.\nB) The report concluded that profits had grown, that operating costs had declined, and that staff morale had improved.\nC) The report concluded profits had grown, that operating costs declined, and staff morale was improving.\nD) The report concluded that profits grew, operating costs have declined, and that morale was improving.",
     "options": {
-      "A": "By the time the results are announced, the students will have been waiting for three months.",
-      "B": "By the time the results are announced, the students will wait for three months.",
-      "C": "By the time the results are announced, the students waited for three months.",
-      "D": "By the time the results are announced, the students have waited for three months."
+      "A": "The report concluded that profits had grown, operating costs had declined, and staff morale was improving.",
+      "B": "The report concluded that profits had grown, that operating costs had declined, and that staff morale had improved.",
+      "C": "The report concluded profits had grown, that operating costs declined, and staff morale was improving.",
+      "D": "The report concluded that profits grew, operating costs have declined, and that morale was improving."
     },
-    "correct": "A",
-    "explanation": "The future perfect continuous 'will have been waiting' correctly expresses an action in progress up to a specific future point. It emphasises the duration of the waiting leading up to the announcement. Options B, C, and D do not accurately convey the continuous duration ending at that future moment."
+    "correct": "B",
+    "explanation": "Option B achieves strict parallelism by (1) repeating 'that' before each noun clause and (2) using a consistent past perfect tense throughout: 'had grown, had declined, had improved.' Option A omits 'that' from the second and third clauses and shifts to progressive tense. Option C inconsistently includes/excludes 'that.' Option D mixes simple past, present perfect, and past progressive."
   },
   {
     "id": 29,
     "topic": "Tense Consistency",
-    "difficulty": "hard",
-    "question": "Which sentence uses tenses correctly in a third conditional?\nA) If he had taken the alternate route, he would arrive on time.\nB) If he took the alternate route, he would have arrived on time.\nC) If he had taken the alternate route, he would have arrived on time.\nD) If he has taken the alternate route, he would have arrived on time.",
+    "difficulty": "easy",
+    "question": "Which sentence maintains correct tense consistency?\nA) After the meeting ended, she writes a summary and emails it to the team.\nB) After the meeting ended, she wrote a summary and emailed it to the team.\nC) After the meeting ends, she wrote a summary and emailed it to the team.\nD) After the meeting had ended, she will write a summary and email it to the team.",
     "options": {
-      "A": "If he had taken the alternate route, he would arrive on time.",
-      "B": "If he took the alternate route, he would have arrived on time.",
-      "C": "If he had taken the alternate route, he would have arrived on time.",
-      "D": "If he has taken the alternate route, he would have arrived on time."
+      "A": "After the meeting ended, she writes a summary and emails it to the team.",
+      "B": "After the meeting ended, she wrote a summary and emailed it to the team.",
+      "C": "After the meeting ends, she wrote a summary and emailed it to the team.",
+      "D": "After the meeting had ended, she will write a summary and email it to the team."
     },
-    "correct": "C",
-    "explanation": "Option C correctly forms the third conditional (past unreal): 'If + past perfect, would + have + past participle.' It expresses that he did not take the alternate route and therefore did not arrive on time. Option A mixes third conditional with a second conditional result. Option B uses second conditional with a third conditional result. Option D uses present perfect in the 'if' clause, which is incorrect."
+    "correct": "B",
+    "explanation": "A completed sequence of past events uses simple past tense throughout. Option B correctly uses 'ended,' 'wrote,' and 'emailed.' Options A and C mix past and present tenses. Option D pairs past perfect with future tense, which is logically inconsistent for a single completed sequence."
   },
   {
     "id": 30,
-    "topic": "Synonyms & Antonyms",
-    "difficulty": "easy",
-    "question": "What is the best synonym for ARDUOUS?\nA) Simple\nB) Strenuous\nC) Leisurely\nD) Trivial",
+    "topic": "Tense Consistency",
+    "difficulty": "medium",
+    "question": "Select the sentence with correct tense usage to express an action that will be completed before a future point.\nA) By the time the guests arrive, she will prepare dinner.\nB) By the time the guests arrived, she had prepared dinner.\nC) By the time the guests arrive, she will have prepared dinner.\nD) By the time the guests will arrive, she prepares dinner.",
     "options": {
-      "A": "Simple",
-      "B": "Strenuous",
-      "C": "Leisurely",
-      "D": "Trivial"
+      "A": "By the time the guests arrive, she will prepare dinner.",
+      "B": "By the time the guests arrived, she had prepared dinner.",
+      "C": "By the time the guests arrive, she will have prepared dinner.",
+      "D": "By the time the guests will arrive, she prepares dinner."
     },
-    "correct": "B",
-    "explanation": "ARDUOUS means requiring great effort or exertion; extremely difficult. STRENUOUS is its closest synonym, meaning requiring great exertion. 'Simple' and 'trivial' are near-antonyms, and 'leisurely' implies a relaxed pace — the opposite of arduous."
+    "correct": "C",
+    "explanation": "'By the time + present simple' correctly pairs with 'will have + past participle' (future perfect) to express an action completed before a future point. Option A uses simple future, which does not convey prior completion. Option B is a valid past perfect construction but shifts to the past. Option D incorrectly uses future tense in the 'by the time' clause."
   },
   {
     "id": 31,
-    "topic": "Synonyms & Antonyms",
-    "difficulty": "easy",
-    "question": "Choose the ANTONYM of OSTENTATIOUS.\nA) Flamboyant\nB) Lavish\nC) Modest\nD) Pompous",
+    "topic": "Tense Consistency",
+    "difficulty": "medium",
+    "question": "Which sentence correctly uses the past perfect to show sequence of events?\nA) When the ambulance arrived, the patient already lost consciousness.\nB) When the ambulance arrived, the patient already had lost consciousness.\nC) When the ambulance arrived, the patient had already lost consciousness.\nD) When the ambulance had arrived, the patient already lost consciousness.",
     "options": {
-      "A": "Flamboyant",
-      "B": "Lavish",
-      "C": "Modest",
-      "D": "Pompous"
+      "A": "When the ambulance arrived, the patient already lost consciousness.",
+      "B": "When the ambulance arrived, the patient already had lost consciousness.",
+      "C": "When the ambulance arrived, the patient had already lost consciousness.",
+      "D": "When the ambulance had arrived, the patient already lost consciousness."
     },
     "correct": "C",
-    "explanation": "OSTENTATIOUS means showy or pretentious, characterised by a vulgar display of wealth or knowledge. Its antonym is MODEST, meaning unassuming and not attracting attention. 'Flamboyant,' 'lavish,' and 'pompous' are all synonyms of ostentatious."
+    "explanation": "The past perfect 'had already lost' correctly shows that losing consciousness preceded the ambulance arriving. The adverb 'already' should appear between the auxiliary and the past participle: 'had already lost.' Option B places 'already' before the auxiliary, which is awkward. Option A uses simple past for both, failing to show sequence. Option D misapplies past perfect to the more recent event (arrival)."
   },
   {
     "id": 32,
     "topic": "Synonyms & Antonyms",
-    "difficulty": "medium",
-    "question": "What is the best synonym for INVETERATE?\nA) Occasional\nB) Habitual\nC) Reluctant\nD) Transient",
+    "difficulty": "easy",
+    "question": "What is the best synonym for BENEVOLENT?\nA) Hostile\nB) Charitable\nC) Indifferent\nD) Austere",
     "options": {
-      "A": "Occasional",
-      "B": "Habitual",
-      "C": "Reluctant",
-      "D": "Transient"
+      "A": "Hostile",
+      "B": "Charitable",
+      "C": "Indifferent",
+      "D": "Austere"
     },
     "correct": "B",
-    "explanation": "INVETERATE means having a habit or interest that is deeply established and unlikely to change. HABITUAL is the closest synonym, meaning done as a regular practice. 'Occasional' and 'transient' imply infrequency or impermanence, which are antonyms of inveterate."
+    "explanation": "BENEVOLENT means well-meaning and kindly disposed toward others. CHARITABLE is the closest synonym, meaning generous in giving aid to those in need and well-disposed toward people. 'Hostile' is an antonym. 'Indifferent' implies a lack of concern. 'Austere' implies strict simplicity, not kindness."
   },
   {
     "id": 33,
     "topic": "Synonyms & Antonyms",
-    "difficulty": "hard",
-    "question": "Choose the ANTONYM of RECONDITE.\nA) Abstruse\nB) Esoteric\nC) Accessible\nD) Cryptic",
+    "difficulty": "medium",
+    "question": "Choose the ANTONYM of EPHEMERAL.\nA) Fleeting\nB) Transient\nC) Permanent\nD) Elusive",
     "options": {
-      "A": "Abstruse",
-      "B": "Esoteric",
-      "C": "Accessible",
-      "D": "Cryptic"
+      "A": "Fleeting",
+      "B": "Transient",
+      "C": "Permanent",
+      "D": "Elusive"
     },
     "correct": "C",
-    "explanation": "RECONDITE means not known by many people; obscure or abstruse. Its antonym is ACCESSIBLE, meaning easy to understand or obtain. 'Abstruse,' 'esoteric,' and 'cryptic' are all synonyms of recondite, each describing things difficult to understand or known only by a few."
+    "explanation": "EPHEMERAL means lasting for a very short time. Its antonym is PERMANENT, meaning lasting indefinitely or forever. 'Fleeting' and 'transient' are synonyms of ephemeral. 'Elusive' means difficult to catch or define and is unrelated to duration."
   },
   {
     "id": 34,
-    "topic": "Vocabulary in Context",
-    "difficulty": "easy",
-    "question": "In the sentence 'The diplomat's JUDICIOUS handling of the crisis prevented a war,' what does JUDICIOUS mean?\nA) Reckless\nB) Wise and careful\nC) Aggressive\nD) Indifferent",
+    "topic": "Synonyms & Antonyms",
+    "difficulty": "medium",
+    "question": "What is the best synonym for PRAGMATIC?\nA) Idealistic\nB) Theoretical\nC) Practical\nD) Dogmatic",
     "options": {
-      "A": "Reckless",
-      "B": "Wise and careful",
-      "C": "Aggressive",
-      "D": "Indifferent"
+      "A": "Idealistic",
+      "B": "Theoretical",
+      "C": "Practical",
+      "D": "Dogmatic"
     },
-    "correct": "B",
-    "explanation": "JUDICIOUS means having or showing good judgment. The context — successfully preventing a war through diplomatic handling — supports the meaning 'wise and careful.' 'Reckless' and 'aggressive' would be counterproductive in crisis diplomacy, and 'indifferent' implies a lack of engagement."
+    "correct": "C",
+    "explanation": "PRAGMATIC means dealing with things realistically and sensibly based on practical rather than theoretical considerations. PRACTICAL is its closest synonym. 'Idealistic' and 'theoretical' are near-antonyms of pragmatic. 'Dogmatic' means adhering rigidly to a doctrine without regard for evidence — the opposite of pragmatic thinking."
   },
   {
     "id": 35,
     "topic": "Vocabulary in Context",
-    "difficulty": "medium",
-    "question": "In the sentence 'Critics called his latest novel MERETRICIOUS, full of flashy prose but lacking substance,' what does MERETRICIOUS mean?\nA) Genuinely valuable\nB) Superficially attractive but worthless\nC) Deeply philosophical\nD) Technically precise",
+    "difficulty": "easy",
+    "question": "In the sentence 'The journalist's CANDID interview with the politician shocked viewers who had expected carefully rehearsed answers,' what does CANDID mean?\nA) Biased and one-sided\nB) Frank and straightforward\nC) Politely evasive\nD) Technically detailed",
     "options": {
-      "A": "Genuinely valuable",
-      "B": "Superficially attractive but worthless",
-      "C": "Deeply philosophical",
-      "D": "Technically precise"
+      "A": "Biased and one-sided",
+      "B": "Frank and straightforward",
+      "C": "Politely evasive",
+      "D": "Technically detailed"
     },
     "correct": "B",
-    "explanation": "MERETRICIOUS means apparently attractive but having no real value; falsely alluring. The context clue 'flashy prose but lacking substance' confirms this meaning. The word derives from Latin 'meretrix,' retaining the sense of false attractiveness. Options A, C, and D are not supported by the context."
+    "explanation": "CANDID means truthful and straightforward, without concealment. The context — viewers shocked because they expected rehearsed answers — confirms the interview was unexpectedly direct and unfiltered. 'Biased' contradicts the sense of honesty. 'Evasive' is an antonym. 'Technically detailed' is irrelevant to the context."
   },
   {
     "id": 36,
     "topic": "Vocabulary in Context",
     "difficulty": "medium",
-    "question": "In the sentence 'Her LACONIC reply — just two words — left the interviewer wanting more detail,' what does LACONIC mean?\nA) Verbose\nB) Confusing\nC) Briefly expressed\nD) Enthusiastically delivered",
+    "question": "In the sentence 'The general's PERFIDIOUS betrayal of his closest allies shocked even his enemies and ended his military career,' what does PERFIDIOUS mean?\nA) Impulsive and emotionally driven\nB) Treacherously disloyal\nC) Openly confrontational\nD) Legally ambiguous",
     "options": {
-      "A": "Verbose",
-      "B": "Confusing",
-      "C": "Briefly expressed",
-      "D": "Enthusiastically delivered"
+      "A": "Impulsive and emotionally driven",
+      "B": "Treacherously disloyal",
+      "C": "Openly confrontational",
+      "D": "Legally ambiguous"
     },
-    "correct": "C",
-    "explanation": "LACONIC means using very few words; brief and concise. The context clue 'just two words' directly supports this meaning. The word derives from Laconia (Sparta), whose inhabitants were famous for brief speech. 'Verbose' is the antonym, and 'confusing' and 'enthusiastically delivered' are unrelated to word count."
+    "correct": "B",
+    "explanation": "PERFIDIOUS means guilty of betrayal or treachery. The context — 'betrayal of closest allies' that 'shocked even enemies' — confirms an act of deep disloyalty and deceit. 'Impulsive' does not imply betrayal. 'Confrontational' suggests open opposition rather than hidden betrayal. 'Legally ambiguous' is too narrow and misses the moral dimension."
   },
   {
     "id": 37,
     "topic": "Vocabulary in Context",
     "difficulty": "hard",
-    "question": "In the sentence 'The scientist's TENDENTIOUS interpretation of the data was rejected by her peers, who insisted on a more neutral analysis,' what does TENDENTIOUS mean?\nA) Comprehensive and thorough\nB) Promoting a particular cause or point of view\nC) Based on empirical evidence\nD) Open to multiple interpretations",
+    "question": "In the sentence 'Despite the dire economic forecasts, the CEO remained SANGUINE about the company's prospects, insisting that the fundamentals were sound,' what does SANGUINE mean?\nA) Deeply anxious and concerned\nB) Cautiously pessimistic\nC) Optimistic and confident\nD) Publicly composed but privately worried",
     "options": {
-      "A": "Comprehensive and thorough",
-      "B": "Promoting a particular cause or point of view",
-      "C": "Based on empirical evidence",
-      "D": "Open to multiple interpretations"
+      "A": "Deeply anxious and concerned",
+      "B": "Cautiously pessimistic",
+      "C": "Optimistic and confident",
+      "D": "Publicly composed but privately worried"
     },
-    "correct": "B",
-    "explanation": "TENDENTIOUS means expressing a particular point of view; biased. The contrast with 'neutral analysis' confirms that the interpretation was one-sided. Options A and C suggest positive qualities incompatible with peer rejection. Option D (open to multiple interpretations) is the opposite of tendentious."
+    "correct": "C",
+    "explanation": "SANGUINE means optimistic, especially when facing difficulties. The contrast signal 'Despite the dire economic forecasts' establishes that the CEO's attitude runs counter to pessimism. His insistence that fundamentals are sound reinforces confident optimism. The word derives from the humoral association of blood with a cheerful, hopeful disposition. Options A and B are directly contradicted by this contrast."
   },
   {
     "id": 38,
     "topic": "Analogies",
     "difficulty": "easy",
-    "question": "CARTOGRAPHER : MAP :: _____ : SCULPTURE\nA) Painter\nB) Sculptor\nC) Architect\nD) Photographer",
+    "question": "SURGEON : SCALPEL :: PAINTER : _____\nA) Canvas\nB) Brush\nC) Gallery\nD) Palette",
     "options": {
-      "A": "Painter",
-      "B": "Sculptor",
-      "C": "Architect",
-      "D": "Photographer"
+      "A": "Canvas",
+      "B": "Brush",
+      "C": "Gallery",
+      "D": "Palette"
     },
     "correct": "B",
-    "explanation": "A CARTOGRAPHER creates a MAP as their primary work product. Similarly, a SCULPTOR creates a SCULPTURE. The relationship is creator to created object. A painter creates a painting, an architect creates a building, and a photographer creates a photograph — none relate to sculpture."
+    "explanation": "A SURGEON uses a SCALPEL as their primary instrument of work. Similarly, a PAINTER uses a BRUSH as their primary tool. A canvas is a surface (what they work on), not the tool. A gallery is a venue for display. A palette holds paint but is not the instrument of application."
   },
   {
     "id": 39,
     "topic": "Analogies",
     "difficulty": "medium",
-    "question": "MENDACITY : DISHONESTY :: FORTITUDE : _____\nA) Cowardice\nB) Courage\nC) Weakness\nD) Indifference",
+    "question": "TACITURN : GARRULOUS :: FRUGAL : _____\nA) Miserly\nB) Thrifty\nC) Extravagant\nD) Prudent",
     "options": {
-      "A": "Cowardice",
-      "B": "Courage",
-      "C": "Weakness",
-      "D": "Indifference"
+      "A": "Miserly",
+      "B": "Thrifty",
+      "C": "Extravagant",
+      "D": "Prudent"
     },
-    "correct": "B",
-    "explanation": "MENDACITY is a formal/Latinate synonym for DISHONESTY. Similarly, FORTITUDE is a formal/Latinate synonym for COURAGE — both mean the ability to endure hardship bravely. The analogy is: formal term : common synonym :: formal term : common synonym. 'Cowardice' and 'weakness' are antonyms of fortitude."
+    "correct": "C",
+    "explanation": "TACITURN (reserved, inclined to silence) is the antonym of GARRULOUS (excessively talkative). The relationship is: word : its antonym. FRUGAL (economical, careful with money) is the antonym of EXTRAVAGANT (spending excessively and wastefully). 'Miserly' and 'thrifty' are synonyms of frugal. 'Prudent' is a near-synonym of frugal."
   },
   {
     "id": 40,
     "topic": "Analogies",
-    "difficulty": "medium",
-    "question": "INOCULATION : DISEASE :: LEVEE : _____\nA) Rain\nB) Drought\nC) Flood\nD) Earthquake",
+    "difficulty": "hard",
+    "question": "PEDANTIC : SCHOLARSHIP :: BELLICOSE : _____\nA) Conflict\nB) Diplomacy\nC) Courage\nD) Strategy",
     "options": {
-      "A": "Rain",
-      "B": "Drought",
-      "C": "Flood",
-      "D": "Earthquake"
+      "A": "Conflict",
+      "B": "Diplomacy",
+      "C": "Courage",
+      "D": "Strategy"
     },
-    "correct": "C",
-    "explanation": "An INOCULATION is a protective measure against DISEASE. Similarly, a LEVEE (an embankment) is built to protect against a FLOOD. The relationship is: protective measure : the threat it guards against. Rain can cause floods but is not itself the direct threat that a levee is designed to stop."
+    "correct": "A",
+    "explanation": "PEDANTIC means excessively preoccupied with the minor details of SCHOLARSHIP — it is the extreme, negative form of scholarly concern. Similarly, BELLICOSE means aggressively eager for CONFLICT — it is the extreme, negative orientation toward conflict. The relationship is: adjective meaning excessively oriented toward X :: X. Diplomacy is the opposite of bellicose behaviour. Courage and strategy are related but do not complete the same pattern."
   },
   {
     "id": 41,
-    "topic": "Analogies",
-    "difficulty": "hard",
-    "question": "APOCRYPHAL : AUTHENTICITY :: TENUOUS : _____\nA) Strength\nB) Length\nC) Obscurity\nD) Complexity",
+    "topic": "Sentence Completion",
+    "difficulty": "easy",
+    "question": "Despite the _____ of funding, the research team managed to publish groundbreaking results through creative resource-sharing.\nA) abundance\nB) scarcity\nC) mismanagement\nD) distribution",
     "options": {
-      "A": "Strength",
-      "B": "Length",
-      "C": "Obscurity",
-      "D": "Complexity"
+      "A": "abundance",
+      "B": "scarcity",
+      "C": "mismanagement",
+      "D": "distribution"
     },
-    "correct": "A",
-    "explanation": "APOCRYPHAL means of doubtful authenticity — it is characterised by a lack of AUTHENTICITY. Similarly, TENUOUS means very weak or slight — it is characterised by a lack of STRENGTH. The relationship is: adjective : the quality it lacks. 'Tenuous' does not imply a lack of length, obscurity, or complexity."
+    "correct": "B",
+    "explanation": "'Despite' signals a contrast: the team succeeded in spite of something negative. 'Scarcity of funding' provides the obstacle the team overcame through creativity. 'Abundance' would make the achievement unremarkable. 'Mismanagement' and 'distribution' do not fit the contrast pattern or the phrase 'scarcity of.'"
   },
   {
     "id": 42,
     "topic": "Sentence Completion",
     "difficulty": "easy",
-    "question": "Despite his initial _____, the manager eventually came to accept the new policy as beneficial.\nA) enthusiasm\nB) reluctance\nC) expertise\nD) ambition",
+    "question": "The children were completely _____ by the magician's sleight-of-hand, unable to figure out how a single trick worked.\nA) bored\nB) bewildered\nC) indignant\nD) motivated",
     "options": {
-      "A": "enthusiasm",
-      "B": "reluctance",
-      "C": "expertise",
-      "D": "ambition"
+      "A": "bored",
+      "B": "bewildered",
+      "C": "indignant",
+      "D": "motivated"
     },
     "correct": "B",
-    "explanation": "The contrast signal 'Despite...eventually came to accept' indicates a shift from a negative initial attitude to a positive one. RELUCTANCE (unwillingness) fits this contrast logically. 'Enthusiasm' would make the eventual acceptance unremarkable. 'Expertise' and 'ambition' do not fit the contrast pattern."
+    "explanation": "'Unable to figure out how a single trick worked' is a context clue pointing to confusion and wonder. BEWILDERED means completely puzzled or perplexed. 'Bored' contradicts engagement with the tricks. 'Indignant' means feeling wrongly treated, which is unrelated. 'Motivated' does not fit the sense of being unable to understand."
   },
   {
     "id": 43,
     "topic": "Sentence Completion",
     "difficulty": "medium",
-    "question": "The senator's speech was praised for its _____, as she presented each argument with exceptional clarity and logical precision.\nA) verbosity\nB) ambiguity\nC) lucidity\nD) redundancy",
+    "question": "Her _____ manner during the tense negotiation — acknowledging both sides' concerns without favouring either — eventually helped the two parties reach an agreement.\nA) partisan\nB) confrontational\nC) impartial\nD) dismissive",
     "options": {
-      "A": "verbosity",
-      "B": "ambiguity",
-      "C": "lucidity",
-      "D": "redundancy"
+      "A": "partisan",
+      "B": "confrontational",
+      "C": "impartial",
+      "D": "dismissive"
     },
     "correct": "C",
-    "explanation": "The sentence is positive (praised), and the context clues 'exceptional clarity and logical precision' point to a word meaning clarity of expression. LUCIDITY means the quality of being clear and easy to understand. 'Verbosity' (wordiness), 'ambiguity' (unclear meaning), and 'redundancy' (unnecessary repetition) are all negative qualities inconsistent with praise."
+    "explanation": "'Acknowledging both sides' concerns without favouring either' defines impartiality precisely. IMPARTIAL means treating all parties equally without favouritism. 'Partisan' means strongly favouring one side — a direct contradiction. 'Confrontational' would escalate rather than resolve conflict. 'Dismissive' contradicts the acknowledgment of concerns."
   },
   {
     "id": 44,
     "topic": "Sentence Completion",
-    "difficulty": "medium",
-    "question": "The professor was known for being _____, refusing to accept assignments after the deadline under any circumstances, even during emergencies.\nA) lenient\nB) accommodating\nC) inflexible\nD) erratic",
+    "difficulty": "hard",
+    "question": "The historian's _____ account of the revolution, which drew on previously classified documents from three national archives, overturned decades of accepted scholarly interpretation.\nA) cursory\nB) tendentious\nC) definitive\nD) corroborative",
     "options": {
-      "A": "lenient",
-      "B": "accommodating",
-      "C": "inflexible",
-      "D": "erratic"
+      "A": "cursory",
+      "B": "tendentious",
+      "C": "definitive",
+      "D": "corroborative"
     },
     "correct": "C",
-    "explanation": "The context 'refusing to accept assignments...under any circumstances, even during emergencies' describes someone who does not bend rules. INFLEXIBLE means unwilling to change; rigid. 'Lenient' and 'accommodating' are opposites of inflexible. 'Erratic' means unpredictable, which contradicts the consistent refusal described."
+    "explanation": "An account that draws on newly available primary sources and overturns prior interpretations implies a thorough, authoritative, conclusive analysis. DEFINITIVE means providing a firm and authoritative conclusion unlikely to be superseded. 'Cursory' means hasty and superficial — contradicted by the depth of archival research. 'Tendentious' means biased — contradicted by the multi-archive basis. 'Corroborative' means supporting existing views — contradicted by 'overturned...accepted interpretation.'"
   },
   {
     "id": 45,
-    "topic": "Sentence Completion",
-    "difficulty": "hard",
-    "question": "His _____ approach to the philosophical debate — borrowing selectively from stoicism, empiricism, and pragmatism — earned both admiration and criticism from purists.\nA) dogmatic\nB) eclectic\nC) nihilistic\nD) reductive",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "question": "Read the following passage and answer the question.\n\nPassage: The relationship between social media use and adolescent mental health has attracted increasing scholarly attention over the past decade. Early studies suggested a straightforward negative correlation: teenagers who spent more time on platforms such as Instagram and TikTok reported higher rates of anxiety, depression, and low self-esteem. More rigorous longitudinal research has complicated this picture. Several large-scale studies tracking teenagers over multiple years found that the nature of engagement — passive consumption versus active communication — matters more than total screen time. Adolescents who primarily scrolled through curated highlight reels of peers' lives showed greater psychological distress, while those who used platforms mainly for direct communication with friends reported outcomes comparable to non-users. Researchers caution that these findings rely on self-reported usage data, which tend to underestimate actual time spent. The debate underscores a broader methodological challenge in digital health research: isolating the effect of specific online behaviours in an environment where individuals simultaneously use multiple platforms for diverse purposes.\n\nAccording to the passage, what did early studies on social media and adolescent mental health conclude?\nA) Passive consumption is more harmful than active social interaction online\nB) The nature of engagement matters more than total screen time\nC) Higher social media use correlated with increased rates of anxiety and depression\nD) Self-reported usage data reliably capture actual time spent on platforms",
     "options": {
-      "A": "dogmatic",
-      "B": "eclectic",
-      "C": "nihilistic",
-      "D": "reductive"
+      "A": "Passive consumption is more harmful than active social interaction online",
+      "B": "The nature of engagement matters more than total screen time",
+      "C": "Higher social media use correlated with increased rates of anxiety and depression",
+      "D": "Self-reported usage data reliably capture actual time spent on platforms"
     },
-    "correct": "B",
-    "explanation": "The phrase 'borrowing selectively from stoicism, empiricism, and pragmatism' describes drawing from multiple different schools of thought. ECLECTIC means deriving ideas from a broad and diverse range of sources. 'Dogmatic' means rigidly adhering to one doctrine — the opposite. 'Nihilistic' and 'reductive' do not fit the described approach."
+    "correct": "C",
+    "explanation": "The passage states: 'Early studies suggested a straightforward negative correlation: teenagers who spent more time on platforms...reported higher rates of anxiety, depression, and low self-esteem.' Options A and B reflect the findings of later, more rigorous longitudinal research. Option D contradicts the passage's caution about underreporting in self-reported data."
   },
   {
     "id": 46,
     "topic": "Reading Comprehension",
-    "difficulty": "easy",
-    "question": "Read the following passage and answer the question.\n\nPassage: The placebo effect has long puzzled medical researchers. When patients receive an inert substance — such as a sugar pill — but are told it is an effective medication, a significant proportion report genuine improvement in their symptoms. Early researchers dismissed this as mere wishful thinking or faulty self-reporting. More recent studies, however, have shown measurable physiological changes: elevated levels of endorphins, altered neural activity, and even reduced inflammation in placebo recipients. These findings suggest that the mind's expectation of healing can trigger real biological responses. Some researchers now argue that the placebo effect should be deliberately harnessed in clinical treatment rather than treated as an experimental confound to be eliminated. The ethical implications of using placebos — which necessarily involve some degree of deception — remain a subject of vigorous debate in medical ethics.\n\nAccording to the passage, early researchers viewed the placebo effect as:\nA) A powerful therapeutic tool worth harnessing\nB) A product of genuine physiological change\nC) An illusion explained by faulty self-reporting or wishful thinking\nD) A well-documented phenomenon requiring ethical scrutiny",
+    "difficulty": "medium",
+    "question": "Based on the passage about social media and adolescent mental health, which type of engagement was associated with better outcomes?\nA) Scrolling through peers' curated highlight reels\nB) Passive consumption of platform content\nC) Active, direct communication with friends\nD) Using fewer platforms simultaneously",
     "options": {
-      "A": "A powerful therapeutic tool worth harnessing",
-      "B": "A product of genuine physiological change",
-      "C": "An illusion explained by faulty self-reporting or wishful thinking",
-      "D": "A well-documented phenomenon requiring ethical scrutiny"
+      "A": "Scrolling through peers' curated highlight reels",
+      "B": "Passive consumption of platform content",
+      "C": "Active, direct communication with friends",
+      "D": "Using fewer platforms simultaneously"
     },
     "correct": "C",
-    "explanation": "The passage states: 'Early researchers dismissed this as mere wishful thinking or faulty self-reporting.' This directly corresponds to option C. Options A and B reflect the view of more recent researchers, not early ones. Option D reflects the current ethical debate, which is a modern development mentioned later in the passage."
+    "explanation": "The passage states that adolescents using platforms 'mainly for direct communication with friends reported outcomes comparable to non-users,' while passive scrollers showed greater distress. A and B are explicitly linked to poorer outcomes. D is not identified in the passage as a strategy producing better mental health."
   },
   {
     "id": 47,
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "question": "Based on the passage about the placebo effect, which of the following best describes the 'measurable physiological changes' mentioned by recent studies?\nA) Patients simply reported feeling better without any underlying change\nB) Patients showed elevated endorphins, altered neural activity, and reduced inflammation\nC) Patients who took real medications responded better than placebo recipients\nD) Patients developed psychological dependence on placebo treatments",
+    "question": "What methodological concern does the passage raise about the research on social media and mental health?\nA) Longitudinal studies are too expensive to conduct at scale\nB) Findings from one country may not generalise to adolescents elsewhere\nC) Self-reported usage data tend to underestimate actual time spent online\nD) Social media platforms change too rapidly for research findings to remain relevant",
     "options": {
-      "A": "Patients simply reported feeling better without any underlying change",
-      "B": "Patients showed elevated endorphins, altered neural activity, and reduced inflammation",
-      "C": "Patients who took real medications responded better than placebo recipients",
-      "D": "Patients developed psychological dependence on placebo treatments"
+      "A": "Longitudinal studies are too expensive to conduct at scale",
+      "B": "Findings from one country may not generalise to adolescents elsewhere",
+      "C": "Self-reported usage data tend to underestimate actual time spent online",
+      "D": "Social media platforms change too rapidly for research findings to remain relevant"
     },
-    "correct": "B",
-    "explanation": "The passage explicitly states: 'More recent studies have shown measurable physiological changes: elevated levels of endorphins, altered neural activity, and even reduced inflammation in placebo recipients.' Option B directly restates these findings. Option A is the early (dismissed) view. Options C and D are not mentioned in the passage."
+    "correct": "C",
+    "explanation": "The passage explicitly states: 'Researchers caution that these findings rely on self-reported usage data, which tend to underestimate actual time spent.' Options A, B, and D are not mentioned anywhere in the passage."
   },
   {
     "id": 48,
     "topic": "Reading Comprehension",
-    "difficulty": "medium",
-    "question": "Which of the following best states the main argument of the passage about the placebo effect?\nA) The placebo effect is a fraud that should be exposed and eliminated from clinical trials\nB) Despite initial skepticism, the placebo effect has proven physiologically real and may have legitimate clinical applications, though ethical questions remain\nC) Medical researchers have reached consensus that placebos should replace traditional drugs in all treatments\nD) The ethical problems with using placebos make them unusable in modern medicine",
+    "difficulty": "hard",
+    "question": "Which of the following inferences is best supported by the passage about social media and adolescent mental health?\nA) Banning social media platforms for adolescents would eliminate the mental health risks entirely\nB) Policies addressing social media should focus primarily on reducing total daily screen time\nC) Distinguishing between active and passive online engagement may be more clinically meaningful than measuring raw usage time\nD) Longitudinal research has definitively resolved the debate about social media and adolescent well-being",
     "options": {
-      "A": "The placebo effect is a fraud that should be exposed and eliminated from clinical trials",
-      "B": "Despite initial skepticism, the placebo effect has proven physiologically real and may have legitimate clinical applications, though ethical questions remain",
-      "C": "Medical researchers have reached consensus that placebos should replace traditional drugs in all treatments",
-      "D": "The ethical problems with using placebos make them unusable in modern medicine"
+      "A": "Banning social media platforms for adolescents would eliminate the mental health risks entirely",
+      "B": "Policies addressing social media should focus primarily on reducing total daily screen time",
+      "C": "Distinguishing between active and passive online engagement may be more clinically meaningful than measuring raw usage time",
+      "D": "Longitudinal research has definitively resolved the debate about social media and adolescent well-being"
     },
-    "correct": "B",
-    "explanation": "The passage traces the shift from dismissal (early researchers) to recognition of real physiological effects (recent studies), notes the argument for clinical harnessing, and concludes with ongoing ethical debate. Option B captures this arc. Option A misrepresents the modern view. Options C and D are extremes not supported by the passage, which presents an unresolved debate."
+    "correct": "C",
+    "explanation": "The passage finds that the type of engagement matters more than total screen time — supporting the inference that distinguishing active from passive use is more clinically meaningful than tracking raw hours. A is an extreme, unsupported claim. B contradicts the passage's finding that type rather than total time is the key variable. D is contradicted by the passage's reference to ongoing methodological challenges and an unresolved debate."
   },
   {
     "id": 49,
-    "topic": "Reading Comprehension",
-    "difficulty": "hard",
-    "question": "Which of the following inferences is best supported by the passage about the placebo effect?\nA) Deception is never justified in medical practice under any circumstances\nB) The mind's ability to produce physiological changes undermines the need for pharmaceutical drugs\nC) The debate over the placebo effect reflects a broader tension between therapeutic efficacy and medical ethics\nD) All current medications rely partly on the placebo effect for their effectiveness",
+    "topic": "Critical Reading",
+    "difficulty": "medium",
+    "question": "Read the following argument: 'Our town's library saw a 35% increase in book borrowing after extending its opening hours. Therefore, extending opening hours is the most effective way to increase borrowing at any library.'\n\nWhich of the following best identifies the flaw in this reasoning?\nA) The argument fails to specify the total number of books borrowed\nB) The argument overgeneralises from a single case to all libraries without accounting for differences in context\nC) The argument confuses correlation with causation in the borrowing data\nD) The argument relies on an appeal to authority by citing the library's own records",
     "options": {
-      "A": "Deception is never justified in medical practice under any circumstances",
-      "B": "The mind's ability to produce physiological changes undermines the need for pharmaceutical drugs",
-      "C": "The debate over the placebo effect reflects a broader tension between therapeutic efficacy and medical ethics",
-      "D": "All current medications rely partly on the placebo effect for their effectiveness"
+      "A": "The argument fails to specify the total number of books borrowed",
+      "B": "The argument overgeneralises from a single case to all libraries without accounting for differences in context",
+      "C": "The argument confuses correlation with causation in the borrowing data",
+      "D": "The argument relies on an appeal to authority by citing the library's own records"
     },
-    "correct": "C",
-    "explanation": "The passage discusses both the potential clinical benefit of harnessing the placebo effect and the ethical concerns about deception, leaving the tension unresolved. This supports the inference in option C. Option A is too absolute and contradicts the nuanced debate. Option B is an unsupported overstatement. Option D is not stated or implied anywhere in the passage."
+    "correct": "B",
+    "explanation": "The argument commits hasty generalisation: it takes a result from one library and declares that the same method is most effective for all libraries, ignoring demographic differences, existing hours, local reading culture, and other contextual factors. A is a minor detail irrelevant to the logical structure. C is not the primary flaw — the causal link within that single library may be valid. D incorrectly identifies an appeal to authority; using a library's own data is standard practice."
   },
   {
     "id": 50,
     "topic": "Critical Reading",
     "difficulty": "hard",
-    "question": "Read the following argument and identify its logical flaw.\n\n'Studies show that countries with higher rates of chocolate consumption tend to have higher rates of Nobel Prize winners per capita. Therefore, eating more chocolate causes intellectual achievement.'\n\nWhich of the following best identifies the flaw in this reasoning?\nA) The argument fails to define what counts as a Nobel Prize winner\nB) The argument confuses correlation with causation and ignores confounding variables\nC) The argument overgeneralizes from a single case study\nD) The argument relies on an appeal to authority",
+    "question": "Read the following argument: 'Students at University X who participated in the peer-tutoring programme achieved grades averaging 12% higher than non-participants. Therefore, the peer-tutoring programme caused the grade improvement.'\n\nWhich response most effectively challenges this causal conclusion?\nA) The study did not specify which academic subjects were covered by the tutoring\nB) A 12% improvement may not be practically significant for career outcomes\nC) Students who voluntarily enrolled in tutoring may have already been more motivated or academically capable than those who did not, meaning pre-existing differences rather than the programme may explain the grade gap\nD) The university did not use a standardised grading scale across all departments",
     "options": {
-      "A": "The argument fails to define what counts as a Nobel Prize winner",
-      "B": "The argument confuses correlation with causation and ignores confounding variables",
-      "C": "The argument overgeneralizes from a single case study",
-      "D": "The argument relies on an appeal to authority"
+      "A": "The study did not specify which academic subjects were covered by the tutoring",
+      "B": "A 12% improvement may not be practically significant for career outcomes",
+      "C": "Students who voluntarily enrolled in tutoring may have already been more motivated or academically capable than those who did not, meaning pre-existing differences rather than the programme may explain the grade gap",
+      "D": "The university did not use a standardised grading scale across all departments"
     },
-    "correct": "B",
-    "explanation": "The argument observes a correlation (both chocolate consumption and Nobel Prizes are higher in certain countries) and incorrectly concludes that one causes the other. This is the correlation-causation fallacy. Wealthier nations may have both higher chocolate consumption and better-funded research institutions — wealth being a confounding variable. Option A is irrelevant to the logical structure. Option C is wrong because the argument uses cross-national data, not a single case. Option D is incorrect because no authority is cited."
+    "correct": "C",
+    "explanation": "The argument assumes the two groups are equivalent except for tutoring participation. Option C identifies the self-selection bias: if students who opt into tutoring are already more motivated or able, the grade gap may reflect those pre-existing traits rather than the programme's effect — directly undermining the causal claim. A is a minor methodological detail. B questions practical significance, not causality. D raises a measurement concern but does not challenge the causal logic as fundamentally as C."
   }
 ]
