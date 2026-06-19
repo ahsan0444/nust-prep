@@ -3,7 +3,7 @@
     "id": "d03_v_001",
     "topic": "Modifier Placement",
     "difficulty": "easy",
-    "question": "Choose the sentence with correct modifier placement.\nA) Running quickly, the bus was caught by Hana.\nB) Running quickly, Hana caught the bus.\nC) Hana caught the bus, running quickly.\nD) The bus was caught running quickly by Hana.",
+    "question": "Which sentence has a correctly placed modifier?\n(A) Running quickly, the bus was missed by Sana.\n(B) Running quickly, Sana missed the bus.\n(C) Sana missed the bus, which was running quickly.\n(D) The bus was missed running quickly by Sana.",
     "options": {
       "A": "A",
       "B": "B",
@@ -11,27 +11,27 @@
       "D": "D"
     },
     "correct": "B",
-    "explanation": "'Running quickly' must be adjacent to the subject performing the action \u2014 Hana. Only B places the modifier directly before Hana."
+    "explanation": "The participial phrase 'Running quickly' must immediately precede the noun it modifies \u2014 Sana. Only B correctly places Sana right after the modifier."
   },
   {
     "id": "d03_v_002",
     "topic": "Modifier Placement",
     "difficulty": "easy",
-    "question": "Identify the sentence with a misplaced modifier.\nA) The teacher explained the lesson clearly to the students.\nB) Clearly, the teacher explained the lesson to the students.\nC) The teacher explained clearly the lesson to the students.\nD) Wrapped in confusion, the teacher re-explained the lesson.",
+    "question": "Identify the sentence with a dangling modifier.\n(A) Exhausted after the exam, Sara slept immediately.\n(B) Exhausted after the exam, sleep came immediately.\n(C) After the exam, an exhausted Sara slept immediately.\n(D) Sara, exhausted after the exam, slept immediately.",
     "options": {
       "A": "A",
       "B": "B",
       "C": "C",
       "D": "D"
     },
-    "correct": "C",
-    "explanation": "In C, 'clearly' is placed between 'explained' and 'the lesson', awkwardly splitting verb from object. A and B are both acceptable; C is the misplaced modifier."
+    "correct": "B",
+    "explanation": "In B, 'Exhausted after the exam' dangles because 'sleep' (the subject of the main clause) cannot be exhausted. A, C, and D all correctly link the modifier to Sara."
   },
   {
     "id": "d03_v_003",
     "topic": "Modifier Placement",
     "difficulty": "easy",
-    "question": "Which sentence contains a dangling modifier?\nA) Having finished the exam, the students left the hall.\nB) Having finished the exam, the hall was quiet.\nC) After finishing the exam, students submitted their papers.\nD) The students, having finished the exam, celebrated outside.",
+    "question": "Choose the sentence where the modifier is correctly placed:\n(A) She only eats vegetables on Mondays.\n(B) She eats only vegetables on Mondays.\n(C) Only she eats vegetables on Mondays.\n(D) She eats vegetables on Mondays only.",
     "options": {
       "A": "A",
       "B": "B",
@@ -39,97 +39,27 @@
       "D": "D"
     },
     "correct": "B",
-    "explanation": "'Having finished the exam' implies a person did the finishing. In B, the subject is 'the hall', which cannot finish an exam \u2014 the modifier dangles."
+    "explanation": "'Only' should be placed immediately before the word it modifies. 'Only vegetables' (not other foods) on Mondays correctly uses B. A implies she only eats on Mondays; C implies she's the sole person who eats vegetables; D implies Monday is the exclusive day."
   },
   {
     "id": "d03_v_004",
     "topic": "Modifier Placement",
     "difficulty": "medium",
-    "question": "Select the correct version of the sentence.\nOriginal (flawed): 'Exhausted after the marathon, the medal was pinned on Ahmed by the official.'\nA) Exhausted after the marathon, Ahmed had the medal pinned on him by the official.\nB) The medal, exhausted after the marathon, was pinned on Ahmed.\nC) Ahmed, exhausted after the marathon, received the medal from the official.\nD) A and C are both correct.",
+    "question": "Choose the best revision of: 'Decorated with colorful lights, the guests admired the hall.'\n(A) The hall, decorated with colorful lights, was admired by the guests.\n(B) Decorated with colorful lights, the guests admired the beautiful hall.\n(C) The guests admired the hall that decorated with colorful lights.\n(D) The hall was admired by the guests that were decorated with colorful lights.",
     "options": {
       "A": "A",
       "B": "B",
       "C": "C",
       "D": "D"
     },
-    "correct": "D",
-    "explanation": "Both A and C correctly place 'exhausted after the marathon' next to Ahmed, the person who was exhausted. B illogically applies the modifier to the medal."
+    "correct": "A",
+    "explanation": "The hall is decorated, not the guests. Placing 'the hall' right after the participial phrase, or restructuring to 'The hall, decorated\u2026' (A), correctly links the modifier to the right noun."
   },
   {
     "id": "d03_v_005",
     "topic": "Modifier Placement",
     "difficulty": "medium",
-    "question": "Choose the sentence that is free of modifier errors.\nA) I almost drove my car to the airport every day last week.\nB) I drove my car to the airport almost every day last week.\nC) Almost I drove my car to the airport every day last week.\nD) I drove almost my car to the airport every day last week.",
-    "options": {
-      "A": "A",
-      "B": "B",
-      "C": "C",
-      "D": "D"
-    },
-    "correct": "B",
-    "explanation": "'Almost every day' correctly modifies the frequency. In A, 'almost drove' implies the driving nearly happened; in D, 'almost my car' is nonsensical; C is grammatically awkward."
-  },
-  {
-    "id": "d03_v_006",
-    "topic": "Modifier Placement",
-    "difficulty": "medium",
-    "question": "Which revision best corrects: 'Barking loudly, the neighbours were disturbed by the dog.'\nA) The neighbours, barking loudly, were disturbed by the dog.\nB) The dog, barking loudly, disturbed the neighbours.\nC) Barking loudly disturbed the neighbours by the dog.\nD) The neighbours disturbed the dog barking loudly.",
-    "options": {
-      "A": "A",
-      "B": "B",
-      "C": "C",
-      "D": "D"
-    },
-    "correct": "B",
-    "explanation": "'Barking loudly' should modify 'the dog'. B places the modifier next to its correct subject and removes the passive construction."
-  },
-  {
-    "id": "d03_v_007",
-    "topic": "Modifier Placement",
-    "difficulty": "medium",
-    "question": "Identify the error in: 'She served sandwiches to the children on paper plates.'\nA) 'on paper plates' should modify 'sandwiches', not 'children'\nB) 'children' should come before 'sandwiches'\nC) The verb 'served' is incorrect\nD) There is no error",
-    "options": {
-      "A": "A",
-      "B": "B",
-      "C": "C",
-      "D": "D"
-    },
-    "correct": "A",
-    "explanation": "As written, 'on paper plates' appears to modify 'children' (children sitting on paper plates), but logically it should modify 'sandwiches'. Better: 'She served sandwiches on paper plates to the children.'"
-  },
-  {
-    "id": "d03_v_008",
-    "topic": "Modifier Placement",
-    "difficulty": "hard",
-    "question": "Choose the sentence that BEST corrects the dangling modifier.\nOriginal: 'To become a licensed architect, years of study and exams must be completed.'\nA) To become a licensed architect, one must complete years of study and exams.\nB) Years of study and exams must be completed by a licensed architect.\nC) Being a licensed architect requires years of study and exams to be completed.\nD) To become a licensed architect, completing years of study and exams is required.",
-    "options": {
-      "A": "A",
-      "B": "B",
-      "C": "C",
-      "D": "D"
-    },
-    "correct": "A",
-    "explanation": "The infinitive phrase 'to become a licensed architect' needs a human agent as subject. A provides 'one', the correct subject performing both the becoming and the studying."
-  },
-  {
-    "id": "d03_v_009",
-    "topic": "Modifier Placement",
-    "difficulty": "hard",
-    "question": "Which sentence contains a squinting modifier (a modifier that could modify either of two elements)?\nA) Students who study often pass exams.\nB) Students who often study pass exams.\nC) Often, students who study pass exams.\nD) Students who study pass exams often.",
-    "options": {
-      "A": "A",
-      "B": "B",
-      "C": "C",
-      "D": "D"
-    },
-    "correct": "A",
-    "explanation": "In A, 'often' could modify 'study' (students who study often) or 'pass' (often pass exams), creating a squinting modifier. B, C, and D place 'often' unambiguously."
-  },
-  {
-    "id": "d03_v_010",
-    "topic": "Modifier Placement",
-    "difficulty": "hard",
-    "question": "Select the best revision of: 'Having been repaired three times, the mechanic finally gave up on the engine.'\nA) Having been repaired three times, the engine was finally given up on by the mechanic.\nB) The mechanic, having repaired the engine three times, finally gave up on it.\nC) After repairing it three times, the mechanic finally gave up on the engine.\nD) B and C are both correct.",
+    "question": "Which sentence uses a misplaced modifier?\n(A) The professor explained the theory clearly to the students.\n(B) The professor clearly explained the theory to the students.\n(C) Clearly, the professor explained the theory to the students.\n(D) The professor explained to the students, clearly, the theory.",
     "options": {
       "A": "A",
       "B": "B",
@@ -137,13 +67,83 @@
       "D": "D"
     },
     "correct": "D",
-    "explanation": "The original wrongly implies the mechanic was repaired. B reframes the modifier as active ('having repaired') with the mechanic as subject. C uses a prepositional phrase to avoid the dangling issue. Both are correct."
+    "explanation": "In D, 'clearly' is awkwardly placed mid-sentence between 'students' and 'the theory', disrupting natural word order. A, B, and C place 'clearly' in grammatically natural positions."
+  },
+  {
+    "id": "d03_v_006",
+    "topic": "Modifier Placement",
+    "difficulty": "medium",
+    "question": "Correct the misplaced modifier: 'While sleeping, the alarm startled him.'\n(A) While he was sleeping, the alarm startled him.\n(B) The alarm startled him while sleeping.\n(C) Sleeping, the alarm had startled him.\n(D) While sleeping, he found the alarm startling.",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct": "A",
+    "explanation": "The alarm cannot be sleeping. A explicitly states 'he was sleeping', attaching the modifier to the correct subject. D works but changes meaning slightly; A is the clearest correction."
+  },
+  {
+    "id": "d03_v_007",
+    "topic": "Modifier Placement",
+    "difficulty": "medium",
+    "question": "Select the sentence with a squinting modifier (one that could modify either the preceding or following word):\n(A) Students who study often succeed.\n(B) Students who often study succeed.\n(C) Often, students who study succeed.\n(D) Students who study succeed often.",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct": "A",
+    "explanation": "'Often' in A squints \u2014 it could mean 'students who often study succeed' or 'students who study often succeed'. B and D are unambiguous."
+  },
+  {
+    "id": "d03_v_008",
+    "topic": "Modifier Placement",
+    "difficulty": "medium",
+    "question": "Which option correctly revises: 'Having finished the report, the deadline was no longer a concern.'?\n(A) Having finished the report, the deadline concerned us no longer.\n(B) Having finished the report, we were no longer concerned about the deadline.\n(C) The deadline, having finished the report, was no longer a concern.\n(D) The report having finished, the deadline was no longer a concern.",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct": "B",
+    "explanation": "The deadline did not finish the report \u2014 people did. B correctly makes 'we' the subject following the participial phrase."
+  },
+  {
+    "id": "d03_v_009",
+    "topic": "Modifier Placement",
+    "difficulty": "hard",
+    "question": "Identify the sentence free of any modifier error:\n(A) To improve concentration, music should be avoided while studying.\n(B) To improve concentration, one should avoid music while studying.\n(C) Studying while avoiding music, concentration is improved.\n(D) Music should be avoided to improve concentration, while studying.",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct": "B",
+    "explanation": "A dangles: 'music' doesn't need to improve concentration; C dangles: 'concentration' doesn't study; D has a misplaced 'while studying'. Only B correctly makes 'one' the agent of both improving and avoiding."
+  },
+  {
+    "id": "d03_v_010",
+    "topic": "Modifier Placement",
+    "difficulty": "hard",
+    "question": "Which sentence contains a misplaced limiting modifier?\n(A) He almost drove 200 kilometres to attend the conference.\n(B) He drove almost 200 kilometres to attend the conference.\n(C) Almost, he drove 200 kilometres to attend the conference.\n(D) He drove 200 kilometres almost to attend the conference.",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct": "A",
+    "explanation": "'Almost drove' implies he nearly drove but didn't. The intended meaning is he drove close to 200 km, so 'almost' should precede '200 kilometres' as in B."
   },
   {
     "id": "d03_v_011",
     "topic": "Sentence Correction",
     "difficulty": "easy",
-    "question": "Choose the grammatically correct sentence.\nA) Each of the students have submitted their assignment.\nB) Each of the students has submitted their assignment.\nC) Each of the student has submitted their assignment.\nD) Each of the students have submitted his assignment.",
+    "question": "Choose the grammatically correct sentence:\n(A) The data shows a clear trend.\n(B) The data show a clear trend.\n(C) The datas show a clear trend.\n(D) The data are showing a clear trend.",
     "options": {
       "A": "A",
       "B": "B",
@@ -151,69 +151,69 @@
       "D": "D"
     },
     "correct": "B",
-    "explanation": "'Each' is singular and requires a singular verb ('has'). 'Their' is accepted as a gender-neutral singular pronoun in contemporary usage. B is correct."
+    "explanation": "'Data' is the plural of 'datum' and takes a plural verb: 'data show'. 'Datas' (C) is not a valid word. D uses a progressive form unnecessarily."
   },
   {
     "id": "d03_v_012",
     "topic": "Sentence Correction",
     "difficulty": "easy",
-    "question": "Which sentence is grammatically correct?\nA) The data shows a clear trend.\nB) The data show a clear trend.\nC) Both A and B are correct depending on style\nD) The datas show a clear trend.",
+    "question": "Select the correct sentence:\n(A) Between you and I, the plan seems risky.\n(B) Between you and me, the plan seems risky.\n(C) Between you and myself, the plan seems risky.\n(D) Between I and you, the plan seems risky.",
     "options": {
       "A": "A",
       "B": "B",
       "C": "C",
       "D": "D"
     },
-    "correct": "C",
-    "explanation": "'Data' is formally the plural of 'datum' (\u2192 'show'), but in modern usage it is also treated as an uncountable singular (\u2192 'shows'). Both A and B are accepted; D is wrong ('datas' is not a word)."
+    "correct": "B",
+    "explanation": "'Between' is a preposition and requires objective case pronouns. 'Me' (objective) is correct; 'I' and 'myself' are incorrect here."
   },
   {
     "id": "d03_v_013",
     "topic": "Sentence Correction",
-    "difficulty": "medium",
-    "question": "Identify the error and choose the corrected version.\nOriginal: 'The committee have reached their decision after a lengthy discussion.'\nA) The committee has reached their decision after a lengthy discussion.\nB) The committee have reached its decision after a lengthy discussion.\nC) The committee has reached its decision after a lengthy discussion.\nD) No error; the original is correct.",
+    "difficulty": "easy",
+    "question": "Which sentence is correct?\n(A) The committee have reached a decision.\n(B) The committee has reached a decision.\n(C) The committee has reach a decision.\n(D) The committee have reaching a decision.",
     "options": {
       "A": "A",
       "B": "B",
       "C": "C",
       "D": "D"
     },
-    "correct": "C",
-    "explanation": "In formal written English (and American English), collective nouns like 'committee' take a singular verb ('has') and singular pronoun ('its')."
+    "correct": "B",
+    "explanation": "In standard American English, collective nouns like 'committee' take singular verbs. 'Has reached' is correct. (British English may use plural, but 'B' is the standard exam answer.)"
   },
   {
     "id": "d03_v_014",
     "topic": "Sentence Correction",
     "difficulty": "medium",
-    "question": "Choose the sentence that corrects the error in: 'He is one of those managers who demands perfection from his team.'\nA) He is one of those managers who demand perfection from their team.\nB) He is one of those managers who demands perfection from their team.\nC) He is the one manager who demands perfection from his team.\nD) He is one of those managers whom demand perfection.",
+    "question": "Identify the error in: 'The reason for his absence is because he was ill.'\n(A) 'reason' should be 'cause'\n(B) 'is because' is redundant \u2014 it should be 'is that'\n(C) 'was ill' should be 'is ill'\n(D) No error",
     "options": {
       "A": "A",
       "B": "B",
       "C": "C",
       "D": "D"
     },
-    "correct": "A",
-    "explanation": "The relative clause 'who demand' refers to 'those managers' (plural), requiring the plural verb 'demand'. 'Their' matches the plural antecedent."
+    "correct": "B",
+    "explanation": "'The reason is because' is redundant. The correct construction is 'The reason is that he was ill.' Using 'because' after 'reason is' creates a circular definition."
   },
   {
     "id": "d03_v_015",
     "topic": "Sentence Correction",
     "difficulty": "medium",
-    "question": "Which of the following correctly rewrites the flawed sentence?\nOriginal: 'The report was wrote by the intern last Tuesday.'\nA) The report was written by the intern last Tuesday.\nB) The report was writen by the intern last Tuesday.\nC) The report is written by the intern last Tuesday.\nD) The report had wrote by the intern last Tuesday.",
+    "question": "Select the correct version: 'Neither of the students _____ submitted the assignment.'\n(A) have\n(B) has\n(C) are having\n(D) were",
     "options": {
       "A": "A",
       "B": "B",
       "C": "C",
       "D": "D"
     },
-    "correct": "A",
-    "explanation": "The past participle of 'write' is 'written', not 'wrote'. 'Was written' is the correct passive past tense form."
+    "correct": "B",
+    "explanation": "'Neither' is singular and takes a singular verb 'has'. 'Neither of the students has submitted' is correct."
   },
   {
     "id": "d03_v_016",
     "topic": "Sentence Correction",
     "difficulty": "medium",
-    "question": "Correct the error: 'Neither the CEO nor the board members was available for comment.'\nA) Neither the CEO nor the board members were available for comment.\nB) Neither the CEO nor the board members is available for comment.\nC) Neither the CEO nor the board member was available for comment.\nD) Neither the CEO or the board members were available for comment.",
+    "question": "Which version is correct?\n(A) Not only did she win the race, but she also broke the record.\n(B) Not only she won the race, but she also broke the record.\n(C) Not only did she won the race, but also broke the record.\n(D) Not only she did win the race but broke the record also.",
     "options": {
       "A": "A",
       "B": "B",
@@ -221,27 +221,13 @@
       "D": "D"
     },
     "correct": "A",
-    "explanation": "With 'neither\u2026nor', the verb agrees with the nearer subject. 'Board members' (plural) is closer, so the verb should be 'were'."
+    "explanation": "'Not only...but also' is a correlative conjunction. When 'not only' starts a clause, inverted word order is required: 'Not only did she win'. A is correct."
   },
   {
     "id": "d03_v_017",
     "topic": "Sentence Correction",
     "difficulty": "medium",
-    "question": "Choose the corrected sentence.\nOriginal: 'If I was you, I would accept the offer immediately.'\nA) If I were you, I would accept the offer immediately.\nB) If I was you, I will accept the offer immediately.\nC) If I were you, I will accept the offer immediately.\nD) If I am you, I would accept the offer immediately.",
-    "options": {
-      "A": "A",
-      "B": "B",
-      "C": "C",
-      "D": "D"
-    },
-    "correct": "A",
-    "explanation": "Hypothetical/contrary-to-fact conditionals require the subjunctive 'were' (not 'was') and the conditional 'would'. A is the only correctly structured option."
-  },
-  {
-    "id": "d03_v_018",
-    "topic": "Sentence Correction",
-    "difficulty": "hard",
-    "question": "Which sentence is grammatically and stylistically correct?\nA) The number of applications received have increased dramatically this year.\nB) The number of applications received has increased dramatically this year.\nC) A number of applications received has increased dramatically this year.\nD) The number of application received have increased dramatically this year.",
+    "question": "Identify the error: 'Having been to Paris twice, the Eiffel Tower was a familiar sight to Amna.'\n(A) 'Having been' should be 'Being'\n(B) Dangling modifier \u2014 Amna should immediately follow the opening phrase\n(C) 'familiar sight' should be 'familiarized sight'\n(D) No error",
     "options": {
       "A": "A",
       "B": "B",
@@ -249,55 +235,69 @@
       "D": "D"
     },
     "correct": "B",
-    "explanation": "'The number of' takes a singular verb ('has'). 'A number of' takes a plural verb. In B, 'The number\u2026has' is correct. C changes 'The' to 'A', which would require 'have'. D uses a wrong plural form and wrong verb."
+    "explanation": "The Eiffel Tower has not been to Paris. The corrected sentence: 'Having been to Paris twice, Amna found the Eiffel Tower a familiar sight.'"
+  },
+  {
+    "id": "d03_v_018",
+    "topic": "Sentence Correction",
+    "difficulty": "medium",
+    "question": "Choose the sentence without an error:\n(A) The number of applicants are increasing each year.\n(B) A number of students was absent.\n(C) The number of applicants is increasing each year.\n(D) A number of students is absent today.",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct": "C",
+    "explanation": "'The number of' takes a singular verb ('is'). 'A number of' takes a plural verb ('are'). C is correct: 'The number of applicants is increasing.'"
   },
   {
     "id": "d03_v_019",
     "topic": "Sentence Correction",
     "difficulty": "hard",
-    "question": "Identify the correctly written sentence.\nA) Between you and I, the project is underfunded.\nB) Between you and me, the project is underfunded.\nC) Between you and me, the project are underfunded.\nD) Between you and I, the project are underfunded.",
+    "question": "Find the error in: 'The teacher, along with her students, were preparing for the exam.'\n(A) 'were' should be 'was' \u2014 the subject is 'teacher' (singular), not affected by the phrase 'along with'\n(B) 'along with' should be 'and'\n(C) 'preparing' should be 'prepared'\n(D) No error",
     "options": {
       "A": "A",
       "B": "B",
       "C": "C",
       "D": "D"
     },
-    "correct": "B",
-    "explanation": "After a preposition ('between'), the objective pronoun 'me' is required, not the subjective 'I'. 'Project' is singular, requiring 'is'. B is the only fully correct sentence."
+    "correct": "A",
+    "explanation": "Phrases beginning with 'along with', 'as well as', 'together with' are parenthetical and do not change the number of the subject. 'The teacher\u2026 was preparing' is correct."
   },
   {
     "id": "d03_v_020",
     "topic": "Sentence Correction",
     "difficulty": "hard",
-    "question": "Choose the version that eliminates all errors.\nOriginal: 'Having completed less courses than required, the university denied Ali's graduation request.'\nA) Having completed fewer courses than required, the university denied Ali's graduation request.\nB) Having completed fewer courses than required, Ali's graduation request was denied by the university.\nC) Because Ali had completed fewer courses than required, the university denied his graduation request.\nD) Ali, having completed less courses than required, had his graduation request denied by the university.",
+    "question": "Which sentence is grammatically correct?\n(A) If I was you, I would apologise immediately.\n(B) If I were you, I would apologise immediately.\n(C) If I am you, I would apologise immediately.\n(D) If I be you, I would apologise immediately.",
     "options": {
       "A": "A",
       "B": "B",
       "C": "C",
       "D": "D"
     },
-    "correct": "C",
-    "explanation": "The original has two errors: 'less' (countable nouns need 'fewer') and a dangling modifier (the university did not complete courses). A fixes 'fewer' but retains the dangling modifier. B fixes 'fewer' and the dangling modifier but creates a passive dangling phrase. C eliminates both errors with a clear causal clause."
+    "correct": "B",
+    "explanation": "Subjunctive mood is required for hypothetical conditions contrary to fact. 'If I were you' (not 'was') is the grammatically correct subjunctive form."
   },
   {
     "id": "d03_v_021",
     "topic": "Subject-Verb Agreement",
     "difficulty": "easy",
-    "question": "Choose the correct verb form: 'The flock of birds ___ migrating south for winter.'",
+    "question": "Choose the correct verb: 'The bouquet of roses _____ placed on the table.'\n(A) were\n(B) was\n(C) are\n(D) have been",
     "options": {
-      "A": "are",
-      "B": "is",
-      "C": "were",
-      "D": "have been"
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
     },
     "correct": "B",
-    "explanation": "'Flock' is the collective noun (subject) and takes a singular verb in standard written English. 'The flock\u2026is migrating.'"
+    "explanation": "The subject is 'bouquet' (singular), not 'roses'. 'The bouquet\u2026 was placed' is correct."
   },
   {
     "id": "d03_v_022",
     "topic": "Subject-Verb Agreement",
-    "difficulty": "easy",
-    "question": "Which sentence is correct?\nA) Mathematics are my favourite subject.\nB) Mathematics is my favourite subject.\nC) Mathematics were my favourite subject when I was young.\nD) Mathematics have always been easy for me.",
+    "difficulty": "medium",
+    "question": "Which sentence is correct?\n(A) The jury have announced their verdict.\n(B) The jury has announced its verdict.\n(C) The jury have announced its verdict.\n(D) The jury has announced their verdict.",
     "options": {
       "A": "A",
       "B": "B",
@@ -305,13 +305,13 @@
       "D": "D"
     },
     "correct": "B",
-    "explanation": "Subjects ending in '-ics' that refer to a field of study (mathematics, physics, economics) take singular verbs. 'Mathematics is' is correct."
+    "explanation": "In American English, collective nouns like 'jury' are treated as singular entities: 'has announced its verdict'. B is correct."
   },
   {
     "id": "d03_v_023",
     "topic": "Subject-Verb Agreement",
-    "difficulty": "medium",
-    "question": "Select the sentence with correct subject-verb agreement.\nA) Not only the student but also the teachers was late.\nB) Not only the student but also the teachers were late.\nC) Not only the student but also the teacher were late.\nD) Not only the students but also the teacher were late.",
+    "difficulty": "hard",
+    "question": "Select the correct sentence:\n(A) Bread and butter are the staple food of many people.\n(B) Bread and butter is the staple food of many people.\n(C) Bread and butter were the staple food of many people.\n(D) Bread and butter have been the staple food of many people.",
     "options": {
       "A": "A",
       "B": "B",
@@ -319,13 +319,13 @@
       "D": "D"
     },
     "correct": "B",
-    "explanation": "With 'not only\u2026but also', the verb agrees with the subject closer to the verb ('teachers' = plural \u2192 'were')."
+    "explanation": "When two nouns joined by 'and' refer to a single concept or thing (like 'bread and butter' as a single dish/idea), they take a singular verb."
   },
   {
     "id": "d03_v_024",
-    "topic": "Subject-Verb Agreement",
-    "difficulty": "medium",
-    "question": "Choose the correct sentence.\nA) Five kilometres are a long distance to walk.\nB) Five kilometres is a long distance to walk.\nC) Five kilometres were a long distance to walk.\nD) Five kilometres have been a long distance to walk.",
+    "topic": "Parallelism & Sentence Structure",
+    "difficulty": "easy",
+    "question": "Which sentence demonstrates correct parallel structure?\n(A) She likes hiking, to swim, and running.\n(B) She likes hiking, swimming, and running.\n(C) She likes to hike, swimming, and to run.\n(D) She likes to hike, to swim, and running.",
     "options": {
       "A": "A",
       "B": "B",
@@ -333,13 +333,13 @@
       "D": "D"
     },
     "correct": "B",
-    "explanation": "When a quantity or measurement is treated as a single unit, it takes a singular verb. 'Five kilometres is' treats the distance as one unit."
+    "explanation": "All three activities must use the same grammatical form. B uses gerunds throughout: hiking, swimming, running \u2014 correctly parallel."
   },
   {
     "id": "d03_v_025",
     "topic": "Parallelism & Sentence Structure",
-    "difficulty": "easy",
-    "question": "Which sentence demonstrates correct parallel structure?\nA) She likes hiking, to swim, and running.\nB) She likes hiking, swimming, and running.\nC) She likes to hike, swimming, and run.\nD) She likes hike, swim, and to run.",
+    "difficulty": "medium",
+    "question": "Identify the sentence with parallel structure:\n(A) The manager told us to arrive early, complete the forms, and that we should wear formal attire.\n(B) The manager told us to arrive early, to complete the forms, and to wear formal attire.\n(C) The manager told us arriving early, completing forms, and to wear formal attire.\n(D) The manager told us that arriving early and to complete the forms and wear formal attire.",
     "options": {
       "A": "A",
       "B": "B",
@@ -347,41 +347,13 @@
       "D": "D"
     },
     "correct": "B",
-    "explanation": "All three activities must be in the same grammatical form. B uses gerunds (hiking, swimming, running) consistently."
+    "explanation": "The three infinitives (to arrive, to complete, to wear) create perfect parallel structure in B. A breaks the pattern with 'that we should'; C and D are inconsistent."
   },
   {
     "id": "d03_v_026",
     "topic": "Parallelism & Sentence Structure",
-    "difficulty": "medium",
-    "question": "Choose the option that corrects the parallelism error.\nOriginal: 'The manager praised the team for their dedication, their creativity, and because they cooperated.'\nA) The manager praised the team for their dedication, their creativity, and their cooperation.\nB) The manager praised the team for their dedication, creativity, and because they cooperated well.\nC) The manager praised the team for dedicating, creativity, and cooperating.\nD) The manager praised the team's dedication, creatively, and cooperation.",
-    "options": {
-      "A": "A",
-      "B": "B",
-      "C": "C",
-      "D": "D"
-    },
-    "correct": "A",
-    "explanation": "The series 'dedication, creativity, and cooperation' maintains parallel noun structure throughout."
-  },
-  {
-    "id": "d03_v_027",
-    "topic": "Parallelism & Sentence Structure",
-    "difficulty": "medium",
-    "question": "Identify the sentence with a parallelism error.\nA) He is known for being honest, fair, and for having patience.\nB) He is known for being honest, fair, and patient.\nC) He is known as an honest, fair, and patient leader.\nD) Honesty, fairness, and patience define his leadership.",
-    "options": {
-      "A": "A",
-      "B": "B",
-      "C": "C",
-      "D": "D"
-    },
-    "correct": "A",
-    "explanation": "A breaks parallel structure: 'being honest, fair' (adjectives after 'being') but then 'for having patience' (prepositional phrase). B, C, and D maintain consistent structure."
-  },
-  {
-    "id": "d03_v_028",
-    "topic": "Parallelism & Sentence Structure",
     "difficulty": "hard",
-    "question": "Which sentence is most structurally parallel and stylistically effective?\nA) The proposal was rejected not because it was expensive but it lacked innovation.\nB) The proposal was rejected not because it was expensive but because it lacked innovation.\nC) The proposal was rejected, not for being expensive, but for its lacking of innovation.\nD) Not being expensive was not why the proposal was rejected; lacking innovation was.",
+    "question": "Choose the version with the best parallel structure:\n(A) The report was thorough, clearly organized, and it showed impressive analysis.\n(B) The report was thorough, clearly organized, and impressive in its analysis.\n(C) The report showed thoroughness, clear organization, and it had impressive analysis.\n(D) The report was thorough, it was clearly organized, and its analysis was impressive.",
     "options": {
       "A": "A",
       "B": "B",
@@ -389,41 +361,41 @@
       "D": "D"
     },
     "correct": "B",
-    "explanation": "'Not because\u2026but because\u2026' is the correct parallel correlative structure, matching the clause forms on both sides of 'but'."
+    "explanation": "B lists three parallel predicate adjectives: thorough, clearly organized, impressive in its analysis \u2014 maintaining consistent grammatical structure throughout."
+  },
+  {
+    "id": "d03_v_027",
+    "topic": "Tense Consistency",
+    "difficulty": "easy",
+    "question": "Find the tense error: 'Yesterday, Ahmad woke up early, made breakfast, and leaves for work.'\n(A) 'woke' should be 'wakes'\n(B) 'leaves' should be 'left'\n(C) 'made' should be 'makes'\n(D) No error",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct": "B",
+    "explanation": "'Yesterday' establishes past tense. 'Woke' and 'made' are past tense correctly; 'leaves' incorrectly shifts to present. It should be 'left'."
+  },
+  {
+    "id": "d03_v_028",
+    "topic": "Tense Consistency",
+    "difficulty": "medium",
+    "question": "Which sentence is correct?\n(A) By the time she arrives, the meeting will have started.\n(B) By the time she arrives, the meeting will start.\n(C) By the time she will arrive, the meeting will have started.\n(D) By the time she arrived, the meeting has started.",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct": "A",
+    "explanation": "'By the time + simple present' pairs with 'will have + past participle' (future perfect) to show one future action completing before another. A is correct."
   },
   {
     "id": "d03_v_029",
     "topic": "Tense Consistency",
-    "difficulty": "easy",
-    "question": "Choose the sentence with consistent tense usage.\nA) She entered the room, sat down, and starts writing her exam.\nB) She enters the room, sat down, and started writing her exam.\nC) She entered the room, sat down, and started writing her exam.\nD) She entered the room, sits down, and starts writing her exam.",
-    "options": {
-      "A": "A",
-      "B": "B",
-      "C": "C",
-      "D": "D"
-    },
-    "correct": "C",
-    "explanation": "All three verbs must be in simple past to describe a sequence of completed past actions: entered, sat, started."
-  },
-  {
-    "id": "d03_v_030",
-    "topic": "Tense Consistency",
     "difficulty": "medium",
-    "question": "Identify the sentence with incorrect tense consistency.\nA) The scientists announced that water boils at 100\u00b0C.\nB) The report stated that the project was delayed.\nC) He said that he has finished the work yesterday.\nD) She mentioned that she would return the book the next day.",
-    "options": {
-      "A": "A",
-      "B": "B",
-      "C": "C",
-      "D": "D"
-    },
-    "correct": "C",
-    "explanation": "'Yesterday' indicates a completed past action, requiring simple past: 'He said he had finished the work yesterday' or 'He said he finished the work yesterday.' 'Has finished' (present perfect) conflicts with 'yesterday'."
-  },
-  {
-    "id": "d03_v_031",
-    "topic": "Tense Consistency",
-    "difficulty": "hard",
-    "question": "Choose the sentence with the most appropriate tense sequence.\nA) By the time the guests arrived, the host cooked the meal.\nB) By the time the guests arrived, the host had cooked the meal.\nC) By the time the guests arrive, the host had cooked the meal.\nD) By the time the guests had arrived, the host was cooking the meal.",
+    "question": "Identify the tense error: 'The historian argued that Napoleon has made a critical error at Waterloo, which led to his downfall.'\n(A) 'argued' should be 'argues'\n(B) 'has made' should be 'had made'\n(C) 'led' should be 'leads'\n(D) No error",
     "options": {
       "A": "A",
       "B": "B",
@@ -431,272 +403,300 @@
       "D": "D"
     },
     "correct": "B",
-    "explanation": "'By the time' signals that one past action was completed before another. The earlier action (cooking) requires past perfect ('had cooked'). The later action (arrival) uses simple past ('arrived')."
+    "explanation": "The reporting verb 'argued' is past tense. In indirect speech after a past reporting verb, the past perfect ('had made') is needed for an action even further in the past, not present perfect ('has made')."
+  },
+  {
+    "id": "d03_v_030",
+    "topic": "Reading Comprehension",
+    "difficulty": "easy",
+    "question": "Read the passage: 'Mangrove forests, found in tropical coastal regions, act as natural buffers against storm surges and tsunamis. Their complex root systems also trap sediment, preventing coastal erosion. Additionally, they serve as nurseries for many marine species.'\n\nWhat is the primary purpose of this passage?",
+    "options": {
+      "A": "To argue that mangroves should be legally protected",
+      "B": "To describe the ecological functions of mangrove forests",
+      "C": "To compare mangroves with other types of forests",
+      "D": "To explain why tsunamis destroy coastlines"
+    },
+    "correct": "B",
+    "explanation": "The passage describes three ecological roles of mangroves (storm buffer, erosion prevention, marine nurseries) without making a legal argument or comparison."
+  },
+  {
+    "id": "d03_v_031",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "question": "Passage: 'The digital divide refers to the gap between individuals who have access to modern information and communication technology and those who do not. This divide is not merely about hardware access; it encompasses digital literacy, the ability to use technology effectively, and access to meaningful content.'\n\nAccording to the passage, the digital divide is best described as:",
+    "options": {
+      "A": "Only a problem of computer availability",
+      "B": "A multi-dimensional gap including access, skills, and content",
+      "C": "A gap between developed and developing nations exclusively",
+      "D": "A temporary issue that technology will resolve automatically"
+    },
+    "correct": "B",
+    "explanation": "The passage explicitly states the divide encompasses hardware, digital literacy, effective use, and content access \u2014 making it multi-dimensional."
   },
   {
     "id": "d03_v_032",
     "topic": "Reading Comprehension",
-    "difficulty": "easy",
-    "question": "Passage: 'Urbanisation is accelerating worldwide. As people move to cities in search of economic opportunities, urban populations are expected to reach 68% of the global total by 2050. However, rapid urbanisation brings challenges: increased demand for housing, pressure on infrastructure, and rising pollution levels. Policymakers must balance growth with sustainability.'\n\nAccording to the passage, what percentage of the global population is expected to be urban by 2050?",
+    "difficulty": "medium",
+    "question": "Passage: 'Microplastics \u2014 fragments smaller than 5mm \u2014 have been detected in oceans, freshwater systems, soil, and even the human bloodstream. While their long-term health effects remain under study, some research indicates potential hormonal disruption and inflammatory responses in organisms exposed to high concentrations.'\n\nWhat does the passage suggest about microplastics' health effects?",
     "options": {
-      "A": "58%",
-      "B": "68%",
-      "C": "78%",
-      "D": "48%"
+      "A": "They are definitively proven to cause cancer",
+      "B": "They have no known health effects",
+      "C": "Their long-term effects are still being studied, though early findings raise concerns",
+      "D": "They only affect marine organisms"
     },
-    "correct": "B",
-    "explanation": "The passage explicitly states 'urban populations are expected to reach 68% of the global total by 2050.'"
+    "correct": "C",
+    "explanation": "The passage says effects 'remain under study' (inconclusive) but 'some research indicates potential' issues \u2014 concern exists but certainty does not."
   },
   {
     "id": "d03_v_033",
     "topic": "Reading Comprehension",
-    "difficulty": "easy",
-    "question": "Passage (same as above): 'Urbanisation is accelerating worldwide\u2026Policymakers must balance growth with sustainability.'\n\nWhich of the following is listed as a challenge of rapid urbanisation in the passage?",
+    "difficulty": "medium",
+    "question": "Passage: 'Proponents of universal basic income (UBI) argue that automation will displace millions of workers, necessitating a social safety net that transcends means-testing. Critics, however, contend that UBI is fiscally unsustainable and may reduce incentives to work, thereby diminishing productivity. The empirical evidence from pilot programmes remains mixed.'\n\nWhich inference is best supported by the passage?",
     "options": {
-      "A": "Declining birth rates",
-      "B": "Increased demand for housing",
-      "C": "Rural population growth",
-      "D": "Falling employment rates"
+      "A": "UBI has been implemented nationwide in most countries",
+      "B": "The debate on UBI involves both economic justifications and economic objections",
+      "C": "Pilot programmes have proven UBI to be effective",
+      "D": "Automation will definitely displace all workers"
     },
     "correct": "B",
-    "explanation": "The passage explicitly lists 'increased demand for housing, pressure on infrastructure, and rising pollution levels' as challenges."
+    "explanation": "Proponents cite automation-driven economic need; critics raise fiscal and productivity concerns \u2014 both sides are economic. The passage does NOT say pilots proved UBI works (mixed results), nor that automation will displace ALL workers."
   },
   {
     "id": "d03_v_034",
     "topic": "Reading Comprehension",
-    "difficulty": "medium",
-    "question": "Passage (same as above).\nWhat is the primary reason given for people moving to cities?",
+    "difficulty": "hard",
+    "question": "Passage: 'Dark matter, which neither emits nor reflects light, cannot be directly observed. Yet astrophysicists infer its existence from its gravitational effects on visible matter \u2014 galaxies rotate at speeds that cannot be explained by the mass of observable matter alone.'\n\nWhat logical approach do astrophysicists use to conclude dark matter exists?",
     "options": {
-      "A": "Better climate",
-      "B": "Family networks in cities",
-      "C": "Economic opportunities",
-      "D": "Access to education"
+      "A": "Direct measurement via telescopes",
+      "B": "Mathematical modelling without observational evidence",
+      "C": "Inferring an unobservable cause from its measurable effects",
+      "D": "Repeating laboratory experiments under controlled conditions"
     },
     "correct": "C",
-    "explanation": "The passage states people move 'in search of economic opportunities'."
+    "explanation": "Dark matter cannot be seen, but its gravitational effects (galaxy rotation speeds) are measurable. Scientists infer the cause (dark matter) from observed effects \u2014 a classic inferential argument."
   },
   {
     "id": "d03_v_035",
-    "topic": "Reading Comprehension",
-    "difficulty": "medium",
-    "question": "Passage (same as above).\nWhich word best describes the author's tone in this passage?",
+    "topic": "Synonyms & Antonyms",
+    "difficulty": "easy",
+    "question": "Choose the synonym of BENEVOLENT:\n(A) Hostile\n(B) Charitable\n(C) Indifferent\n(D) Strict",
     "options": {
-      "A": "Alarmist",
-      "B": "Informative and balanced",
-      "C": "Celebratory",
-      "D": "Sarcastic"
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
     },
     "correct": "B",
-    "explanation": "The author presents facts about urbanisation and its challenges without extreme alarm or enthusiasm, concluding with a balanced call for sustainability \u2014 an informative, balanced tone."
+    "explanation": "Benevolent means well-meaning and kindly; charitable is its closest synonym. Hostile is an antonym; indifferent and strict do not match."
   },
   {
     "id": "d03_v_036",
-    "topic": "Reading Comprehension",
-    "difficulty": "medium",
-    "question": "Passage: 'The placebo effect demonstrates the power of belief in medicine. Patients given sugar pills but told they are receiving a painkiller often report genuine pain reduction. Researchers believe that expectation triggers neurochemical responses \u2014 including endorphin release \u2014 that produce real physiological changes. This questions the sharp boundary between mind and body.'\n\nWhat does the passage suggest about the placebo effect?",
+    "topic": "Synonyms & Antonyms",
+    "difficulty": "easy",
+    "question": "Choose the antonym of PLAUSIBLE:\n(A) Credible\n(B) Likely\n(C) Implausible\n(D) Convincing",
     "options": {
-      "A": "It is purely psychological with no physical basis",
-      "B": "It produces measurable physical changes through neurochemical responses",
-      "C": "It only works when patients do not know they are receiving a placebo",
-      "D": "It is used to replace real medication in hospitals"
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
     },
-    "correct": "B",
-    "explanation": "The passage states that expectation triggers neurochemical responses (like endorphins), producing 'real physiological changes' \u2014 not purely psychological."
+    "correct": "C",
+    "explanation": "Plausible means seemingly reasonable; implausible means not plausible \u2014 its direct antonym."
   },
   {
     "id": "d03_v_037",
-    "topic": "Reading Comprehension",
-    "difficulty": "hard",
-    "question": "Passage (same as placebo passage above).\nThe author mentions that the placebo effect 'questions the sharp boundary between mind and body.' What is the most likely implication of this statement?",
+    "topic": "Synonyms & Antonyms",
+    "difficulty": "medium",
+    "question": "Choose the word closest in meaning to EBULLIENT:\n(A) Melancholic\n(B) Zealous\n(C) Enthusiastically energetic\n(D) Cautious",
     "options": {
-      "A": "Mind and body are completely separate systems",
-      "B": "Mental states can directly influence physical health outcomes",
-      "C": "Placebos are more effective than real medicines",
-      "D": "Pain is entirely a mental construct"
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
     },
-    "correct": "B",
-    "explanation": "The statement challenges the traditional separation of mind and body by showing that belief (a mental state) can trigger real physical responses \u2014 implying mental states affect physical health."
+    "correct": "C",
+    "explanation": "Ebullient means cheerful and full of energy \u2014 enthusiastically energetic. It goes beyond mere zealousness (focused enthusiasm) and is the opposite of melancholic."
   },
   {
     "id": "d03_v_038",
     "topic": "Synonyms & Antonyms",
-    "difficulty": "easy",
-    "question": "Choose the synonym of CANDID.",
+    "difficulty": "medium",
+    "question": "Choose the antonym of SANGUINE:\n(A) Optimistic\n(B) Pessimistic\n(C) Cheerful\n(D) Lively",
     "options": {
-      "A": "Deceptive",
-      "B": "Forthright",
-      "C": "Reserved",
-      "D": "Vague"
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
     },
     "correct": "B",
-    "explanation": "CANDID means open, honest, and straightforward. FORTHRIGHT is its closest synonym, meaning direct and outspoken."
+    "explanation": "Sanguine means optimistic, especially in a difficult situation. Its antonym is pessimistic. Cheerful and lively are near-synonyms; optimistic is a synonym."
   },
   {
     "id": "d03_v_039",
-    "topic": "Synonyms & Antonyms",
+    "topic": "Vocabulary in Context",
     "difficulty": "easy",
-    "question": "Choose the antonym of BENEVOLENT.",
+    "question": "'The professor's lecture was so ABSTRUSE that most students failed to follow his argument.' In this context, ABSTRUSE most nearly means:\n(A) Entertaining\n(B) Difficult to understand\n(C) Well-organized\n(D) Controversial",
     "options": {
-      "A": "Generous",
-      "B": "Kind",
-      "C": "Malevolent",
-      "D": "Charitable"
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
     },
-    "correct": "C",
-    "explanation": "BENEVOLENT means well-meaning and kind. Its antonym is MALEVOLENT, meaning having or showing a wish to do evil."
+    "correct": "B",
+    "explanation": "Abstruse means difficult to comprehend. The context clue 'students failed to follow' confirms B."
   },
   {
     "id": "d03_v_040",
-    "topic": "Synonyms & Antonyms",
+    "topic": "Vocabulary in Context",
     "difficulty": "medium",
-    "question": "Choose the word most similar in meaning to LOQUACIOUS.",
+    "question": "'Despite the company's LACKLUSTER performance this quarter, the CEO remained optimistic about the year ahead.' LACKLUSTER most nearly means:\n(A) Brilliant\n(B) Exciting\n(C) Uninspiring\n(D) Consistent",
     "options": {
-      "A": "Taciturn",
-      "B": "Garrulous",
-      "C": "Reticent",
-      "D": "Laconic"
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
     },
-    "correct": "B",
-    "explanation": "LOQUACIOUS means tending to talk a great deal. GARRULOUS is its synonym, meaning excessively talkative. Taciturn, Reticent, and Laconic are antonyms."
+    "correct": "C",
+    "explanation": "Lackluster means lacking brilliance or vitality \u2014 uninspiring or dull. The contrast with 'remained optimistic' suggests the performance was below expectations."
   },
   {
     "id": "d03_v_041",
-    "topic": "Synonyms & Antonyms",
+    "topic": "Vocabulary in Context",
     "difficulty": "medium",
-    "question": "Select the antonym of EPHEMERAL.",
+    "question": "'Her EQUANIMITY in the face of crisis impressed everyone around her.' EQUANIMITY most nearly means:\n(A) Panic\n(B) Calmness and composure\n(C) Aggression\n(D) Indecisiveness",
     "options": {
-      "A": "Transient",
-      "B": "Fleeting",
-      "C": "Enduring",
-      "D": "Momentary"
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
     },
-    "correct": "C",
-    "explanation": "EPHEMERAL means lasting for a very short time. Its antonym is ENDURING (lasting; permanent). Transient, Fleeting, and Momentary are synonyms."
+    "correct": "B",
+    "explanation": "Equanimity refers to mental calmness and composure, especially in difficult situations. The context 'in the face of crisis' reinforces this meaning."
   },
   {
     "id": "d03_v_042",
     "topic": "Vocabulary in Context",
-    "difficulty": "easy",
-    "question": "'Despite the ___ conditions, the expedition team pushed forward toward the summit.'\nWhich word best fills the blank?",
+    "difficulty": "hard",
+    "question": "'The politician's PERFIDIOUS betrayal shocked even his harshest critics, who had not expected such a complete reversal of loyalty.' PERFIDIOUS most nearly means:\n(A) Sudden\n(B) Deceitfully treacherous\n(C) Well-publicized\n(D) Unintentional",
     "options": {
-      "A": "favourable",
-      "B": "arduous",
-      "C": "trivial",
-      "D": "serene"
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
     },
     "correct": "B",
-    "explanation": "The word 'despite' signals that conditions contrasted with pushing forward. ARDUOUS (requiring great effort; difficult) fits as a hardship condition that motivates 'despite'."
+    "explanation": "Perfidious means guilty of betrayal or treachery. 'Betrayal' and 'reversal of loyalty' in context confirm deceitfully treacherous as the correct meaning."
   },
   {
     "id": "d03_v_043",
-    "topic": "Vocabulary in Context",
-    "difficulty": "medium",
-    "question": "'The scientist's ___ research eventually overturned a century of accepted theory.'\nWhich word best completes the sentence?",
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "question": "DOCTOR : HOSPITAL :: TEACHER : ___\n(A) Student\n(B) School\n(C) Classroom\n(D) Lesson",
     "options": {
-      "A": "perfunctory",
-      "B": "groundbreaking",
-      "C": "redundant",
-      "D": "marginal"
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
     },
     "correct": "B",
-    "explanation": "Research that overturns a century of theory must be innovative and significant \u2014 GROUNDBREAKING fits perfectly. Perfunctory means done mechanically; redundant means unnecessary; marginal means minor."
+    "explanation": "A doctor works in a hospital; a teacher works in a school. The relationship is professional : workplace."
   },
   {
     "id": "d03_v_044",
-    "topic": "Vocabulary in Context",
+    "topic": "Analogies",
     "difficulty": "medium",
-    "question": "'The politician's speech was marked by ___ promises that delighted the crowd but offered no concrete plans.'\nThe underlined word should be:",
+    "question": "PETAL : FLOWER :: CHAPTER : ___\n(A) Novel\n(B) Paragraph\n(C) Sentence\n(D) Author",
     "options": {
-      "A": "pragmatic",
-      "B": "grandiose",
-      "C": "understated",
-      "D": "sober"
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
     },
-    "correct": "B",
-    "explanation": "GRANDIOSE means impressive-sounding or ambitious beyond what is realistically achievable. It perfectly describes promises that sound great but lack substance."
+    "correct": "A",
+    "explanation": "A petal is a component part of a flower; a chapter is a component part of a novel. The relationship is part : whole."
   },
   {
     "id": "d03_v_045",
     "topic": "Analogies",
-    "difficulty": "easy",
-    "question": "CHEF : KITCHEN :: SURGEON : ?",
+    "difficulty": "medium",
+    "question": "FRUGAL : MISER :: BRAVE : ___\n(A) Coward\n(B) Daredevil\n(C) Courageous\n(D) Soldier",
     "options": {
-      "A": "Hospital",
-      "B": "Operating theatre",
-      "C": "Clinic",
-      "D": "Laboratory"
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
     },
     "correct": "B",
-    "explanation": "A chef works in a kitchen; a surgeon works in an operating theatre \u2014 the specific professional workspace, not just the broader institution."
+    "explanation": "A miser is an extreme version of frugal (excessively frugal). A daredevil is an extreme version of brave (recklessly brave). The relationship is moderate quality : extreme version of that quality."
   },
   {
     "id": "d03_v_046",
     "topic": "Analogies",
     "difficulty": "medium",
-    "question": "DROUGHT : RAINFALL :: FAMINE : ?",
+    "question": "LEXICON : WORDS :: ANTHOLOGY : ___\n(A) Poems\n(B) Authors\n(C) Books\n(D) Grammar",
     "options": {
-      "A": "Poverty",
-      "B": "Food",
-      "C": "Hunger",
-      "D": "Crops"
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
     },
-    "correct": "B",
-    "explanation": "Drought is the absence of rainfall; famine is the absence (or severe shortage) of food. The relationship is condition : what it lacks."
+    "correct": "A",
+    "explanation": "A lexicon is a collection of words; an anthology is a collection of literary works (typically poems or stories). Both are curated collections of their respective items."
   },
   {
     "id": "d03_v_047",
-    "topic": "Analogies",
-    "difficulty": "hard",
-    "question": "MYOPIC : FAR-SIGHTED :: PAROCHIAL : ?",
+    "topic": "Sentence Completion",
+    "difficulty": "easy",
+    "question": "Despite the _____ weather, the outdoor event proceeded without any disruption.\n(A) favorable\n(B) excellent\n(C) inclement\n(D) pleasant",
     "options": {
-      "A": "Narrow-minded",
-      "B": "Cosmopolitan",
-      "C": "Rural",
-      "D": "Conservative"
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
     },
-    "correct": "B",
-    "explanation": "MYOPIC (literally short-sighted) is the opposite of FAR-SIGHTED. PAROCHIAL (narrow in outlook, limited to local concerns) is the opposite of COSMOPOLITAN (having a broad, international outlook)."
+    "correct": "C",
+    "explanation": "'Despite' signals a contrast \u2014 the event proceeded regardless of the weather, implying the weather was unfavorable. Inclement (unpleasantly cold or stormy) fits the contrast."
   },
   {
     "id": "d03_v_048",
     "topic": "Sentence Completion",
     "difficulty": "medium",
-    "question": "Although the critic's review was largely ___, she did acknowledge the film's stunning cinematography.",
+    "question": "The scientist's findings were so _____ that the journal editors demanded additional peer review before publication.\n(A) ordinary\n(B) expected\n(C) controversial\n(D) irrelevant",
     "options": {
-      "A": "laudatory",
-      "B": "enthusiastic",
-      "C": "unfavourable",
-      "D": "neutral"
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
     },
     "correct": "C",
-    "explanation": "'Although' signals contrast with acknowledging something positive. If she acknowledged one good element despite the review's overall tone, the review must have been mostly negative (unfavourable)."
+    "explanation": "Demanding extra review implies the findings were unusual or contentious. Controversial (likely to cause disagreement) fits \u2014 ordinary or expected findings would not prompt extra scrutiny."
   },
   {
     "id": "d03_v_049",
     "topic": "Sentence Completion",
     "difficulty": "hard",
-    "question": "The negotiator's approach was ___ rather than ___: she sought compromise at every turn instead of pushing her party's demands to the limit.",
+    "question": "The diplomat's _____ remarks managed to _____ tensions between the two nations that had been building for decades.\n(A) incendiary \u2026 inflame\n(B) conciliatory \u2026 defuse\n(C) ambiguous \u2026 clarify\n(D) bellicose \u2026 pacify",
     "options": {
-      "A": "conciliatory\u2026confrontational",
-      "B": "aggressive\u2026diplomatic",
-      "C": "rigid\u2026flexible",
-      "D": "impartial\u2026biased"
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
     },
-    "correct": "A",
-    "explanation": "'Seeking compromise' describes a conciliatory approach; 'pushing demands to the limit' describes confrontation. CONCILIATORY / CONFRONTATIONAL are the exact contrasting pair implied."
+    "correct": "B",
+    "explanation": "For the sentence to be positive/successful, the remarks should be peace-seeking (conciliatory) and reduce (defuse) tensions. A would worsen tensions; C contradicts 'ambiguous clarifying'; D is contradictory (bellicose means warlike, not consistent with pacifying)."
   },
   {
     "id": "d03_v_050",
     "topic": "Critical Reading",
     "difficulty": "hard",
-    "question": "Passage: 'Universal basic income (UBI) \u2014 a regular government payment to every citizen regardless of employment \u2014 is gaining traction as automation threatens traditional jobs. Proponents argue it provides a safety net and stimulates economic activity. Critics counter that it discourages work and is fiscally unsustainable.'\n\nWhich of the following, if true, would most weaken the critics' argument that UBI discourages work?",
+    "question": "Argument: 'Social media use among teenagers has increased in recent years. Rates of teenage anxiety and depression have also increased. Therefore, social media causes teenage mental health problems.'\n\nThis argument is flawed primarily because:\n(A) It uses statistics, which are unreliable\n(B) It confuses correlation with causation\n(C) It ignores the benefits of social media\n(D) It only considers teenagers, not adults",
     "options": {
-      "A": "UBI pilot programmes in Finland showed no significant decline in employment rates among recipients",
-      "B": "Automation will eliminate 40% of jobs within 20 years",
-      "C": "Most UBI proposals set payments below the poverty line",
-      "D": "Several economists support UBI in theory but question its cost"
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
     },
-    "correct": "A",
-    "explanation": "Empirical evidence from a pilot programme showing no decline in employment directly undermines the claim that UBI discourages work."
+    "correct": "B",
+    "explanation": "Two trends occurring simultaneously (correlation) does not prove one causes the other. Other factors (academic pressure, family issues, economic stress) could independently cause both trends. This is the classic correlation vs. causation fallacy."
   }
 ]
