@@ -164,8 +164,8 @@
       "C": "Equal performance in both",
       "D": "Blood pressure is the leading cause of heart disease"
     },
-    "correct": "C",
-    "explanation": "The leap from mice to humans requires that blood pressure mechanisms are comparable \u2014 this is the bridging assumption."
+    "correct": "B",
+    "explanation": "The leap from mice to humans requires that blood pressure mechanisms are comparable \u2014 this is the bridging assumption, described by option B."
   },
   {
     "id": "d02_a_013",
@@ -332,8 +332,8 @@
       "C": "Equal performance in both",
       "D": "Cannot be determined"
     },
-    "correct": "B",
-    "explanation": "Z-score Science: (88-72)/8 = 2.0. Z-score Math: (85-65)/10 = 2.0. Equal relative performance. Wait \u2014 both Z-scores are equal. Answer should be C. Let me recheck: (88-72)/8=16/8=2.0; (85-65)/10=20/10=2.0. Equal."
+    "correct": "C",
+    "explanation": "Z-score Science: (88-72)/8 = 16/8 = 2.0. Z-score Math: (85-65)/10 = 20/10 = 2.0. Both Z-scores are equal, so Ahmed performed equally well relative to the class in both subjects."
   },
   {
     "id": "d02_a_025",
@@ -374,8 +374,8 @@
       "C": "D or E",
       "D": "No one \u2014 B and C are adjacent"
     },
-    "correct": "C",
-    "explanation": "If A is at position 1 and B at position 2, C is at position 3 (middle of 5). Then B and C are adjacent \u2014 no one sits between them. If A is at position 5, B at 4, C at 3, same result. So D is the answer \u2014 wait, B is at 4, C at 3, they're adjacent again. The answer is D."
+    "correct": "D",
+    "explanation": "If A is at position 1 and B at position 2, C is at position 3 (middle). B(2) and C(3) are adjacent \u2014 no one sits between them. If A is at position 5 and B at position 4, C is still at position 3. Again B(4) and C(3) are adjacent. In both valid cases, no person can sit between B and C."
   },
   {
     "id": "d02_a_028",
