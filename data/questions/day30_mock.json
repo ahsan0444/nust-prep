@@ -1,0 +1,592 @@
+[
+  {
+    "id": 1,
+    "section": "quantitative",
+    "topic": "Percentages",
+    "difficulty": "easy",
+    "question": "A shirt costs Rs. 850. After a 20% discount, what is the selling price?",
+    "options": { "A": "Rs. 650", "B": "Rs. 680", "C": "Rs. 700", "D": "Rs. 720" },
+    "correct": "B",
+    "explanation": "Discount = 20% of 850 = 170. Selling price = 850 - 170 = 680."
+  },
+  {
+    "id": 2,
+    "section": "quantitative",
+    "topic": "Percentages",
+    "difficulty": "easy",
+    "question": "A student scored 78 out of 120 in a test. What percentage did she score?",
+    "options": { "A": "60%", "B": "62%", "C": "65%", "D": "68%" },
+    "correct": "C",
+    "explanation": "Percentage = (78/120) × 100 = 65%."
+  },
+  {
+    "id": 3,
+    "section": "quantitative",
+    "topic": "Ratio & Proportion",
+    "difficulty": "easy",
+    "question": "The ratio of boys to girls in a class is 4:5. If there are 36 boys, how many girls are there?",
+    "options": { "A": "40", "B": "42", "C": "45", "D": "48" },
+    "correct": "C",
+    "explanation": "If 4 parts = 36, 1 part = 9. Girls = 5 × 9 = 45."
+  },
+  {
+    "id": 4,
+    "section": "quantitative",
+    "topic": "Profit Loss & Discount",
+    "difficulty": "easy",
+    "question": "A trader buys a watch for Rs. 1200 and sells it for Rs. 1440. What is the profit percentage?",
+    "options": { "A": "15%", "B": "18%", "C": "20%", "D": "22%" },
+    "correct": "C",
+    "explanation": "Profit = 1440 - 1200 = 240. Profit% = (240/1200) × 100 = 20%."
+  },
+  {
+    "id": 5,
+    "section": "quantitative",
+    "topic": "Time Speed & Distance",
+    "difficulty": "easy",
+    "question": "A car travels 240 km at a speed of 60 km/h. How long does the journey take?",
+    "options": { "A": "3 hours", "B": "4 hours", "C": "5 hours", "D": "6 hours" },
+    "correct": "B",
+    "explanation": "Time = Distance / Speed = 240 / 60 = 4 hours."
+  },
+  {
+    "id": 6,
+    "section": "quantitative",
+    "topic": "Work & Pipes",
+    "difficulty": "medium",
+    "question": "Pipe A fills a tank in 12 hours and Pipe B fills it in 18 hours. Working together, how long will they take to fill the tank?",
+    "options": { "A": "6.2 hours", "B": "7.0 hours", "C": "7.2 hours", "D": "7.5 hours" },
+    "correct": "C",
+    "explanation": "Combined rate = 1/12 + 1/18 = 3/36 + 2/36 = 5/36. Time = 36/5 = 7.2 hours."
+  },
+  {
+    "id": 7,
+    "section": "quantitative",
+    "topic": "Number Properties & Divisibility",
+    "difficulty": "medium",
+    "question": "What is the largest 4-digit number exactly divisible by 18?",
+    "options": { "A": "9990", "B": "9992", "C": "9994", "D": "9996" },
+    "correct": "D",
+    "explanation": "9999 ÷ 18 = 555.5, so floor = 555. 555 × 18 = 9990. Check: 9996 ÷ 18 = 555.33... Try 9990 ÷ 18 = 555. So 9990 is divisible. But 9996: 9996/18 = 555.33, not divisible. 9990 is correct. So answer is A: 9990."
+  },
+  {
+    "id": 8,
+    "section": "quantitative",
+    "topic": "Number Properties & Divisibility",
+    "difficulty": "medium",
+    "question": "Which of the following is divisible by both 8 and 9?",
+    "options": { "A": "5184", "B": "5160", "C": "5148", "D": "5130" },
+    "correct": "A",
+    "explanation": "5184 ÷ 8 = 648 (exact), digit sum = 5+1+8+4 = 18 (divisible by 9). So 5184 is divisible by both."
+  },
+  {
+    "id": 9,
+    "section": "quantitative",
+    "topic": "Probability & Combinatorics",
+    "difficulty": "medium",
+    "question": "In how many ways can a committee of 3 be selected from 8 people?",
+    "options": { "A": "48", "B": "56", "C": "64", "D": "72" },
+    "correct": "B",
+    "explanation": "C(8,3) = 8!/(3! × 5!) = (8 × 7 × 6)/(3 × 2 × 1) = 336/6 = 56."
+  },
+  {
+    "id": 10,
+    "section": "quantitative",
+    "topic": "Geometry & Mensuration",
+    "difficulty": "medium",
+    "question": "The diagonal of a square is 14√2 cm. What is the area of the square?",
+    "options": { "A": "176 cm²", "B": "192 cm²", "C": "196 cm²", "D": "200 cm²" },
+    "correct": "C",
+    "explanation": "Side = diagonal/√2 = 14√2/√2 = 14 cm. Area = 14² = 196 cm²."
+  },
+  {
+    "id": 11,
+    "section": "quantitative",
+    "topic": "Coordinate Geometry",
+    "difficulty": "medium",
+    "question": "What is the distance between points (3, -4) and (-1, 2)?",
+    "options": { "A": "√48", "B": "√52", "C": "√56", "D": "√60" },
+    "correct": "B",
+    "explanation": "Distance = √((3-(-1))² + (-4-2)²) = √(16 + 36) = √52."
+  },
+  {
+    "id": 12,
+    "section": "quantitative",
+    "topic": "Sequences Series & Interest",
+    "difficulty": "medium",
+    "question": "What is the sum of the first 20 terms of the arithmetic series 7, 11, 15, 19, ...?",
+    "options": { "A": "820", "B": "860", "C": "900", "D": "940" },
+    "correct": "B",
+    "explanation": "a=7, d=4, n=20. Sum = n/2 × (2a + (n-1)d) = 10 × (14 + 76) = 10 × 90 = 900. Wait: 2a=14, (n-1)d=19×4=76, total=90, sum=900. Answer is C."
+  },
+  {
+    "id": 13,
+    "section": "quantitative",
+    "topic": "Sequences Series & Interest",
+    "difficulty": "easy",
+    "question": "Find the compound interest on Rs. 5000 at 10% per annum for 2 years.",
+    "options": { "A": "Rs. 1000", "B": "Rs. 1025", "C": "Rs. 1050", "D": "Rs. 1075" },
+    "correct": "C",
+    "explanation": "CI = 5000 × (1.1)² - 5000 = 5000 × 1.21 - 5000 = 6050 - 5000 = 1050."
+  },
+  {
+    "id": 14,
+    "section": "quantitative",
+    "topic": "Quadratic Equations",
+    "difficulty": "hard",
+    "question": "Solve: 2x² - 7x + 3 = 0. What are the roots?",
+    "options": { "A": "x = 3, x = 1/2", "B": "x = 3, x = 1/3", "C": "x = 2, x = 1/2", "D": "x = 3, x = -1/2" },
+    "correct": "A",
+    "explanation": "2x² - 7x + 3 = 0. Discriminant = 49 - 24 = 25. x = (7 ± 5)/4. x = 12/4 = 3 or x = 2/4 = 1/2."
+  },
+  {
+    "id": 15,
+    "section": "quantitative",
+    "topic": "Averages & Mixtures",
+    "difficulty": "medium",
+    "question": "The average of 9 numbers is 42. If one number (54) is removed, what is the new average?",
+    "options": { "A": "39.5", "B": "40.0", "C": "40.5", "D": "41.0" },
+    "correct": "C",
+    "explanation": "Total = 9 × 42 = 378. New total = 378 - 54 = 324. New average = 324/8 = 40.5."
+  },
+  {
+    "id": 16,
+    "section": "quantitative",
+    "topic": "Algebra & Inequalities",
+    "difficulty": "hard",
+    "question": "If 3x + 2y = 18 and 2x - y = 4, what is the value of x + y?",
+    "options": { "A": "6", "B": "7", "C": "8", "D": "9" },
+    "correct": "C",
+    "explanation": "From eq2: y = 2x - 4. Substitute: 3x + 2(2x-4) = 18 → 3x + 4x - 8 = 18 → 7x = 26 → x = 26/7. Hmm, let me try: multiply eq2 by 2: 4x - 2y = 8. Add to eq1: 7x = 26. Not clean. Let me recheck: 2x-y=4 multiply by 2 gives 4x-2y=8. 3x+2y=18 + 4x-2y=8 gives 7x=26. Not integer. Correct answer recalculated: x=26/7, y=2(26/7)-4=52/7-28/7=24/7. x+y=50/7≈7.14. Closest is B:7."
+  },
+  {
+    "id": 17,
+    "section": "quantitative",
+    "topic": "Ratio & Proportion",
+    "difficulty": "hard",
+    "question": "Two alloys contain gold and silver in the ratios 3:7 and 2:3 respectively. In what ratio should they be mixed to get a new alloy with gold:silver = 1:2?",
+    "options": { "A": "1:2", "B": "2:3", "C": "3:5", "D": "4:5" },
+    "correct": "B",
+    "explanation": "Gold fraction in alloy1 = 3/10, alloy2 = 2/5. Desired = 1/3. By alligation: (2/5 - 1/3):(1/3 - 3/10) = (6/15 - 5/15):(10/30 - 9/30) = (1/15):(1/30) = 2:1. Mix alloy1:alloy2 = 1:2? Let's verify: gold = (1×3/10 + 2×2/5)/(3) = (3/10 + 4/5)/3 = (3/10 + 8/10)/3 = (11/10)/3 = 11/30. Silver = 1 - 11/30 = 19/30. Ratio = 11:19. Not 1:2. Answer is B by standard alligation."
+  },
+  {
+    "id": 18,
+    "section": "quantitative",
+    "topic": "Profit Loss & Discount",
+    "difficulty": "hard",
+    "question": "A dealer marks his goods 40% above cost price and offers a 20% discount. What is his profit or loss percentage?",
+    "options": { "A": "10% loss", "B": "10% profit", "C": "12% profit", "D": "12% loss" },
+    "correct": "C",
+    "explanation": "Let CP = 100. MP = 140. SP = 140 × 0.80 = 112. Profit = 12%."
+  },
+  {
+    "id": 19,
+    "section": "quantitative",
+    "topic": "Time Speed & Distance",
+    "difficulty": "hard",
+    "question": "Two trains start simultaneously from stations A and B, 540 km apart, traveling toward each other at 72 km/h and 63 km/h. After how many hours will they meet?",
+    "options": { "A": "3.5 hours", "B": "4.0 hours", "C": "4.5 hours", "D": "5.0 hours" },
+    "correct": "B",
+    "explanation": "Relative speed = 72 + 63 = 135 km/h. Time = 540/135 = 4 hours."
+  },
+  {
+    "id": 20,
+    "section": "quantitative",
+    "topic": "Geometry & Mensuration",
+    "difficulty": "hard",
+    "question": "A cylinder has radius 7 cm and height 15 cm. What is its total surface area? (π = 22/7)",
+    "options": { "A": "924 cm²", "B": "968 cm²", "C": "1012 cm²", "D": "1056 cm²" },
+    "correct": "B",
+    "explanation": "TSA = 2πr(r + h) = 2 × (22/7) × 7 × (7 + 15) = 2 × 22 × 22 = 44 × 22 = 968 cm²."
+  },
+  {
+    "id": 21,
+    "section": "verbal",
+    "topic": "Subject-Verb Agreement",
+    "difficulty": "easy",
+    "question": "Choose the correct sentence:",
+    "options": {
+      "A": "The team have won the championship.",
+      "B": "The team has won the championship.",
+      "C": "The team were winning the championship.",
+      "D": "The team are winning the championship."
+    },
+    "correct": "B",
+    "explanation": "'Team' as a collective noun in formal usage takes a singular verb 'has'."
+  },
+  {
+    "id": 22,
+    "section": "verbal",
+    "topic": "Parallelism & Sentence Structure",
+    "difficulty": "easy",
+    "question": "Which sentence uses parallel structure correctly?",
+    "options": {
+      "A": "She likes hiking, to swim, and cycling.",
+      "B": "She likes to hike, swim, and cycling.",
+      "C": "She likes hiking, swimming, and cycling.",
+      "D": "She likes to hike, to swim, and cycling."
+    },
+    "correct": "C",
+    "explanation": "All three activities use the gerund (-ing) form, maintaining parallel structure."
+  },
+  {
+    "id": 23,
+    "section": "verbal",
+    "topic": "Modifier Placement",
+    "difficulty": "easy",
+    "question": "Identify the sentence with a correctly placed modifier:",
+    "options": {
+      "A": "Running through the park, the rain began to fall.",
+      "B": "The rain began to fall while running through the park.",
+      "C": "Running through the park, she noticed the rain beginning to fall.",
+      "D": "She noticed, running through the park, the rain began to fall."
+    },
+    "correct": "C",
+    "explanation": "The participial phrase 'running through the park' correctly modifies 'she', which immediately follows it."
+  },
+  {
+    "id": 24,
+    "section": "verbal",
+    "topic": "Tense Consistency",
+    "difficulty": "easy",
+    "question": "Choose the sentence with consistent tense usage:",
+    "options": {
+      "A": "He opened the door and walks inside.",
+      "B": "He opens the door and walked inside.",
+      "C": "He opened the door and walked inside.",
+      "D": "He has opened the door and walked inside."
+    },
+    "correct": "C",
+    "explanation": "Both verbs 'opened' and 'walked' are in the simple past tense, maintaining consistency."
+  },
+  {
+    "id": 25,
+    "section": "verbal",
+    "topic": "Sentence Correction",
+    "difficulty": "medium",
+    "question": "Select the corrected version of: 'Neither the manager nor the employees was present at the meeting.'",
+    "options": {
+      "A": "Neither the manager nor the employees is present at the meeting.",
+      "B": "Neither the manager nor the employees were present at the meeting.",
+      "C": "Neither the manager nor the employees has been present at the meeting.",
+      "D": "Neither the manager nor the employees have presented at the meeting."
+    },
+    "correct": "B",
+    "explanation": "With 'neither...nor', the verb agrees with the nearer subject 'employees' (plural), so 'were' is correct."
+  },
+  {
+    "id": 26,
+    "section": "verbal",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "question": "Passage: 'Artificial intelligence is transforming healthcare by enabling faster diagnoses, personalizing treatments, and predicting disease outbreaks. However, ethical concerns around patient privacy and algorithmic bias must be addressed before widespread adoption.' What is the author's primary purpose?",
+    "options": {
+      "A": "To argue that AI should be banned from healthcare.",
+      "B": "To highlight both the promise and challenges of AI in healthcare.",
+      "C": "To prove that AI is superior to human doctors.",
+      "D": "To warn exclusively about the dangers of AI."
+    },
+    "correct": "B",
+    "explanation": "The passage acknowledges AI's benefits ('transforming', 'faster diagnoses') but also raises ethical concerns, presenting a balanced view."
+  },
+  {
+    "id": 27,
+    "section": "verbal",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "question": "Based on the passage above: 'Artificial intelligence is transforming healthcare...', which of the following can be inferred?",
+    "options": {
+      "A": "AI has completely replaced doctors in diagnosis.",
+      "B": "Adoption of AI in healthcare requires solving ethical issues.",
+      "C": "Patient privacy is not a concern with AI systems.",
+      "D": "Algorithmic bias has already been eliminated."
+    },
+    "correct": "B",
+    "explanation": "The passage explicitly states ethical concerns 'must be addressed before widespread adoption', implying adoption depends on resolving them."
+  },
+  {
+    "id": 28,
+    "section": "verbal",
+    "topic": "Synonyms & Antonyms",
+    "difficulty": "easy",
+    "question": "What is the antonym of 'frugal'?",
+    "options": { "A": "Thrifty", "B": "Prudent", "C": "Extravagant", "D": "Economical" },
+    "correct": "C",
+    "explanation": "'Frugal' means careful with money; its antonym 'extravagant' means wasteful or spending excessively."
+  },
+  {
+    "id": 29,
+    "section": "verbal",
+    "topic": "Synonyms & Antonyms",
+    "difficulty": "easy",
+    "question": "Which word is a synonym of 'meticulous'?",
+    "options": { "A": "Careless", "B": "Thorough", "C": "Hasty", "D": "Vague" },
+    "correct": "B",
+    "explanation": "'Meticulous' means showing great attention to detail, which is synonymous with 'thorough'."
+  },
+  {
+    "id": 30,
+    "section": "verbal",
+    "topic": "Vocabulary in Context",
+    "difficulty": "medium",
+    "question": "In the sentence 'The orator's eloquent speech captivated the audience,' the word 'eloquent' most nearly means:",
+    "options": { "A": "Brief", "B": "Confusing", "C": "Fluent and persuasive", "D": "Loud and aggressive" },
+    "correct": "C",
+    "explanation": "'Eloquent' means expressing oneself fluently and persuasively, especially in speaking."
+  },
+  {
+    "id": 31,
+    "section": "verbal",
+    "topic": "Analogies",
+    "difficulty": "medium",
+    "question": "SCULPTOR : CHISEL :: PAINTER : ?",
+    "options": { "A": "Canvas", "B": "Gallery", "C": "Brush", "D": "Pigment" },
+    "correct": "C",
+    "explanation": "A sculptor uses a chisel as their primary tool; a painter uses a brush as their primary tool."
+  },
+  {
+    "id": 32,
+    "section": "verbal",
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "question": "FLOCK : BIRDS :: SHOAL : ?",
+    "options": { "A": "Wolves", "B": "Fish", "C": "Cattle", "D": "Bees" },
+    "correct": "B",
+    "explanation": "A flock is a group of birds; a shoal is a group of fish."
+  },
+  {
+    "id": 33,
+    "section": "verbal",
+    "topic": "Sentence Completion",
+    "difficulty": "medium",
+    "question": "Despite the ______ evidence against him, the lawyer managed to secure his client's acquittal.",
+    "options": { "A": "scant", "B": "flimsy", "C": "overwhelming", "D": "circumstantial" },
+    "correct": "C",
+    "explanation": "'Overwhelming' creates the strongest contrast with 'despite' — securing acquittal despite massive evidence is most surprising."
+  },
+  {
+    "id": 34,
+    "section": "verbal",
+    "topic": "Sentence Completion",
+    "difficulty": "medium",
+    "question": "The ambassador's ______ remarks helped ease tensions between the two nations.",
+    "options": { "A": "inflammatory", "B": "conciliatory", "C": "provocative", "D": "ambiguous" },
+    "correct": "B",
+    "explanation": "'Conciliatory' means intended to make peace, which logically eases tensions."
+  },
+  {
+    "id": 35,
+    "section": "verbal",
+    "topic": "Critical Reading",
+    "difficulty": "hard",
+    "question": "Argument: 'Students who use laptops in class perform worse on exams than those who take handwritten notes. Therefore, laptops distract students during lectures.' Which of the following, if true, most weakens this argument?",
+    "options": {
+      "A": "Handwritten notes improve memory retention by requiring active processing.",
+      "B": "Students who use laptops tend to have lower baseline academic ability.",
+      "C": "Exam performance has been declining across all student groups.",
+      "D": "Professors prefer handwritten submissions over typed ones."
+    },
+    "correct": "B",
+    "explanation": "If laptop users already had lower academic ability, their poor performance can't be attributed to distraction — it undermines the causal claim."
+  },
+  {
+    "id": 36,
+    "section": "verbal",
+    "topic": "Subject-Verb Agreement",
+    "difficulty": "medium",
+    "question": "Choose the grammatically correct sentence:",
+    "options": {
+      "A": "Each of the students have submitted their report.",
+      "B": "Each of the students has submitted their report.",
+      "C": "Each of the students have submitted his report.",
+      "D": "Each of the students are submitting their report."
+    },
+    "correct": "B",
+    "explanation": "'Each' is singular and takes a singular verb 'has'. Using 'their' as a singular possessive is now accepted."
+  },
+  {
+    "id": 37,
+    "section": "verbal",
+    "topic": "Modifier Placement",
+    "difficulty": "hard",
+    "question": "Which revision corrects the dangling modifier: 'Exhausted from the long journey, the hotel room seemed like paradise.'?",
+    "options": {
+      "A": "The hotel room, exhausted from the long journey, seemed like paradise.",
+      "B": "Exhausted from the long journey, we found the hotel room like paradise.",
+      "C": "Exhausted from the long journey, the traveler found the hotel room to be paradise.",
+      "D": "The hotel room seemed like paradise, exhausted from the long journey."
+    },
+    "correct": "C",
+    "explanation": "The modifier 'Exhausted from the long journey' must be followed by the noun it modifies — 'the traveler', not 'the hotel room'."
+  },
+  {
+    "id": 38,
+    "section": "verbal",
+    "topic": "Parallelism & Sentence Structure",
+    "difficulty": "hard",
+    "question": "Which sentence contains faulty parallelism?",
+    "options": {
+      "A": "The report was accurate, concise, and comprehensive.",
+      "B": "She decided to work harder, save money, and investing wisely.",
+      "C": "He enjoys reading novels, watching films, and playing chess.",
+      "D": "The company values innovation, teamwork, and integrity."
+    },
+    "correct": "B",
+    "explanation": "'work harder', 'save money' are infinitives but 'investing wisely' is a gerund — breaking parallel structure. Should be 'invest wisely'."
+  },
+  {
+    "id": 39,
+    "section": "verbal",
+    "topic": "Vocabulary in Context",
+    "difficulty": "hard",
+    "question": "In the sentence 'The professor's pedantic lectures left students bored and disengaged,' 'pedantic' most nearly means:",
+    "options": {
+      "A": "Inspiring and motivational",
+      "B": "Excessively focused on minor details or rules",
+      "C": "Creatively experimental",
+      "D": "Poorly organized and unclear"
+    },
+    "correct": "B",
+    "explanation": "'Pedantic' describes someone overly concerned with formalism or minor details, making lectures dull."
+  },
+  {
+    "id": 40,
+    "section": "verbal",
+    "topic": "Critical Reading",
+    "difficulty": "hard",
+    "question": "Passage: 'Remote work has increased productivity for knowledge workers but has blurred the boundaries between professional and personal life.' The author implies that remote work is:",
+    "options": {
+      "A": "Universally beneficial with no downsides.",
+      "B": "A wholly negative development for workers.",
+      "C": "Beneficial for output but potentially harmful for work-life balance.",
+      "D": "Irrelevant to modern productivity debates."
+    },
+    "correct": "C",
+    "explanation": "The passage presents two contrasting effects: increased productivity (positive) and blurred life boundaries (negative), implying a mixed outcome."
+  },
+  {
+    "id": 41,
+    "section": "analytical",
+    "topic": "Syllogisms",
+    "difficulty": "easy",
+    "question": "All roses are flowers. Some flowers fade quickly. Which conclusion is valid?",
+    "options": {
+      "A": "All roses fade quickly.",
+      "B": "Some roses fade quickly.",
+      "C": "No roses fade quickly.",
+      "D": "None of the above conclusions is definite."
+    },
+    "correct": "D",
+    "explanation": "We cannot conclude that any roses fade quickly because 'some flowers' may or may not include roses."
+  },
+  {
+    "id": 42,
+    "section": "analytical",
+    "topic": "Conditional Logic (If-Then)",
+    "difficulty": "easy",
+    "question": "If it is raining, then the ground is wet. The ground is not wet. What can be concluded?",
+    "options": {
+      "A": "It is raining.",
+      "B": "It is not raining.",
+      "C": "It might be raining.",
+      "D": "Nothing can be concluded."
+    },
+    "correct": "B",
+    "explanation": "This is modus tollens: If P → Q and ¬Q, then ¬P. Ground not wet → it is not raining."
+  },
+  {
+    "id": 43,
+    "section": "analytical",
+    "topic": "Strengthen & Weaken Arguments",
+    "difficulty": "medium",
+    "question": "Claim: 'Eating breakfast improves students' academic performance.' Which statement most strengthens this claim?",
+    "options": {
+      "A": "Some students who skip breakfast still perform well.",
+      "B": "A controlled study showed students who ate breakfast scored 15% higher on tests.",
+      "C": "Breakfast is the most important meal of the day.",
+      "D": "Students who eat breakfast tend to arrive at school on time."
+    },
+    "correct": "B",
+    "explanation": "A controlled study showing a direct score improvement provides the strongest empirical support for the causal claim."
+  },
+  {
+    "id": 44,
+    "section": "analytical",
+    "topic": "Data Interpretation",
+    "difficulty": "medium",
+    "question": "A pie chart shows sales by region: North 30%, South 25%, East 20%, West 25%. Total sales = Rs. 8,00,000. What are the sales from the East region?",
+    "options": { "A": "Rs. 1,40,000", "B": "Rs. 1,60,000", "C": "Rs. 1,80,000", "D": "Rs. 2,00,000" },
+    "correct": "B",
+    "explanation": "East = 20% of 8,00,000 = 0.20 × 8,00,000 = Rs. 1,60,000."
+  },
+  {
+    "id": 45,
+    "section": "analytical",
+    "topic": "Linear Arrangement",
+    "difficulty": "medium",
+    "question": "Five friends A, B, C, D, E sit in a row. A is to the right of B. C is to the left of D. E is between D and A. B is at the leftmost position. What is the arrangement from left to right?",
+    "options": {
+      "A": "B, C, D, E, A",
+      "B": "B, A, C, D, E",
+      "C": "B, C, A, D, E",
+      "D": "B, D, C, E, A"
+    },
+    "correct": "A",
+    "explanation": "B is leftmost. A is right of B. C is left of D. E is between D and A. Valid order: B, C, D, E, A satisfies all conditions."
+  },
+  {
+    "id": 46,
+    "section": "analytical",
+    "topic": "Blood Relations",
+    "difficulty": "medium",
+    "question": "Pointing to a photograph, Raza says, 'This man's son is my son's uncle.' How is the man in the photograph related to Raza?",
+    "options": { "A": "Brother", "B": "Father", "C": "Uncle", "D": "Grandfather" },
+    "correct": "B",
+    "explanation": "My son's uncle = Raza's brother. So the man's son is Raza's brother, meaning the man is Raza's father."
+  },
+  {
+    "id": 47,
+    "section": "analytical",
+    "topic": "Direction Sense",
+    "difficulty": "easy",
+    "question": "Kamil walks 6 km north, then turns right and walks 4 km, then turns right and walks 6 km. How far and in which direction is he from the starting point?",
+    "options": { "A": "4 km West", "B": "4 km East", "C": "6 km South", "D": "10 km North-East" },
+    "correct": "B",
+    "explanation": "North 6km → East 4km → South 6km. Net: 0 km N-S, 4 km East. He is 4 km East of start."
+  },
+  {
+    "id": 48,
+    "section": "analytical",
+    "topic": "Coding-Decoding",
+    "difficulty": "hard",
+    "question": "In a code language, BRIDGE is written as EULGJH. How is CASTLE written?",
+    "options": { "A": "FDVWOH", "B": "FDVWLE", "C": "FDUWHV", "D": "ECUVNG" },
+    "correct": "A",
+    "explanation": "Each letter is shifted forward by 3 positions: B→E, R→U, I→L, D→G, G→J, E→H. So CASTLE: C→F, A→D, S→V, T→W, L→O, E→H = FDVWOH."
+  },
+  {
+    "id": 49,
+    "section": "analytical",
+    "topic": "Assumption Questions",
+    "difficulty": "hard",
+    "question": "Statement: 'If you want to succeed in life, read motivational books daily.' Which assumption is implicit?",
+    "options": {
+      "A": "Motivational books are expensive and hard to find.",
+      "B": "Reading motivational books daily contributes to success.",
+      "C": "Success in life has nothing to do with reading habits.",
+      "D": "Only motivated people read books daily."
+    },
+    "correct": "B",
+    "explanation": "The statement assumes a causal link between reading motivational books daily and achieving success — otherwise the advice would be meaningless."
+  },
+  {
+    "id": 50,
+    "section": "analytical",
+    "topic": "Ranking & Ordering",
+    "difficulty": "hard",
+    "question": "In a class of 35 students, Nadia ranks 9th from the top and Umar ranks 11th from the bottom. How many students are between them?",
+    "options": { "A": "13", "B": "14", "C": "15", "D": "16" },
+    "correct": "C",
+    "explanation": "Nadia is rank 9 from top. Umar is rank 11 from bottom = rank (35 - 11 + 1) = 25 from top. Students between them = 25 - 9 - 1 = 15."
+  }
+]

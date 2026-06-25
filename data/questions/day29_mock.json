@@ -1,0 +1,587 @@
+[
+  {
+    "id": 1,
+    "section": "quantitative",
+    "topic": "Percentages",
+    "difficulty": "easy",
+    "question": "A student scored 72 out of 90 marks. What percentage did the student score?",
+    "options": { "A": "78%", "B": "80%", "C": "82%", "D": "75%" },
+    "correct": "B",
+    "explanation": "Percentage = (72/90) × 100 = 80%."
+  },
+  {
+    "id": 2,
+    "section": "quantitative",
+    "topic": "Percentages",
+    "difficulty": "medium",
+    "question": "A price is increased by 20% and then decreased by 20%. What is the net percentage change?",
+    "options": { "A": "0%", "B": "-4%", "C": "+4%", "D": "-2%" },
+    "correct": "B",
+    "explanation": "Let original = 100. After 20% increase = 120. After 20% decrease = 120 × 0.80 = 96. Net change = -4%."
+  },
+  {
+    "id": 3,
+    "section": "quantitative",
+    "topic": "Percentages",
+    "difficulty": "hard",
+    "question": "In a town, 60% of residents own a car, 40% own a bike, and 25% own both. What percentage own neither?",
+    "options": { "A": "20%", "B": "25%", "C": "15%", "D": "30%" },
+    "correct": "B",
+    "explanation": "Own at least one = 60 + 40 - 25 = 75%. Neither = 100 - 75 = 25%."
+  },
+  {
+    "id": 4,
+    "section": "quantitative",
+    "topic": "Ratio & Proportion",
+    "difficulty": "easy",
+    "question": "If A:B = 3:5 and B:C = 4:7, find A:C.",
+    "options": { "A": "12:35", "B": "3:7", "C": "15:28", "D": "4:5" },
+    "correct": "A",
+    "explanation": "A:B = 3:5, B:C = 4:7. Make B common: A:B = 12:20, B:C = 20:35. So A:C = 12:35."
+  },
+  {
+    "id": 5,
+    "section": "quantitative",
+    "topic": "Ratio & Proportion",
+    "difficulty": "medium",
+    "question": "Divide Rs. 4,200 among A, B, C in the ratio 2:3:7. How much does C get?",
+    "options": { "A": "Rs. 2,940", "B": "Rs. 1,260", "C": "Rs. 700", "D": "Rs. 2,100" },
+    "correct": "A",
+    "explanation": "Total parts = 2+3+7 = 12. C's share = (7/12) × 4200 = 2,940."
+  },
+  {
+    "id": 6,
+    "section": "quantitative",
+    "topic": "Profit Loss & Discount",
+    "difficulty": "easy",
+    "question": "A shopkeeper buys an item for Rs. 850 and sells it for Rs. 1,020. What is the profit percentage?",
+    "options": { "A": "15%", "B": "18%", "C": "20%", "D": "22%" },
+    "correct": "C",
+    "explanation": "Profit = 1020 - 850 = 170. Profit% = (170/850) × 100 = 20%."
+  },
+  {
+    "id": 7,
+    "section": "quantitative",
+    "topic": "Profit Loss & Discount",
+    "difficulty": "medium",
+    "question": "A merchant marks his goods at 40% above cost price and gives a 15% discount. Find his profit percentage.",
+    "options": { "A": "19%", "B": "21%", "C": "25%", "D": "18%" },
+    "correct": "A",
+    "explanation": "Let CP = 100. MP = 140. SP = 140 × 0.85 = 119. Profit% = 19%."
+  },
+  {
+    "id": 8,
+    "section": "quantitative",
+    "topic": "Time Speed & Distance",
+    "difficulty": "easy",
+    "question": "A car travels 360 km in 4 hours. What is its speed in km/h?",
+    "options": { "A": "80 km/h", "B": "90 km/h", "C": "85 km/h", "D": "75 km/h" },
+    "correct": "B",
+    "explanation": "Speed = Distance/Time = 360/4 = 90 km/h."
+  },
+  {
+    "id": 9,
+    "section": "quantitative",
+    "topic": "Time Speed & Distance",
+    "difficulty": "medium",
+    "question": "Two trains start from cities A and B, 540 km apart, and move toward each other at speeds of 60 km/h and 90 km/h respectively. After how many hours will they meet?",
+    "options": { "A": "4 hours", "B": "3.6 hours", "C": "3 hours", "D": "5 hours" },
+    "correct": "B",
+    "explanation": "Relative speed = 60 + 90 = 150 km/h. Time = 540/150 = 3.6 hours."
+  },
+  {
+    "id": 10,
+    "section": "quantitative",
+    "topic": "Work & Pipes",
+    "difficulty": "medium",
+    "question": "Pipe A fills a tank in 6 hours, Pipe B empties it in 10 hours. If both are open simultaneously, how long to fill the tank?",
+    "options": { "A": "12 hours", "B": "15 hours", "C": "18 hours", "D": "20 hours" },
+    "correct": "B",
+    "explanation": "Net rate = 1/6 - 1/10 = (5-3)/30 = 2/30 = 1/15 per hour. Time = 15 hours."
+  },
+  {
+    "id": 11,
+    "section": "quantitative",
+    "topic": "Work & Pipes",
+    "difficulty": "hard",
+    "question": "A can do a job in 12 days, B can do it in 18 days. They work together for 4 days, then A leaves. How many more days will B take to finish the remaining work?",
+    "options": { "A": "6 days", "B": "7 days", "C": "8 days", "D": "9 days" },
+    "correct": "C",
+    "explanation": "Together per day = 1/12 + 1/18 = 5/36. In 4 days they complete 20/36 = 5/9. Remaining = 4/9. B's rate = 1/18 per day. Days = (4/9) × 18 = 8 days."
+  },
+  {
+    "id": 12,
+    "section": "quantitative",
+    "topic": "Number Properties & Divisibility",
+    "difficulty": "easy",
+    "question": "What is the LCM of 18, 24, and 36?",
+    "options": { "A": "72", "B": "144", "C": "36", "D": "108" },
+    "correct": "A",
+    "explanation": "18 = 2×3², 24 = 2³×3, 36 = 2²×3². LCM = 2³×3² = 8×9 = 72."
+  },
+  {
+    "id": 13,
+    "section": "quantitative",
+    "topic": "Number Properties & Divisibility",
+    "difficulty": "hard",
+    "question": "Find the remainder when 7^53 is divided by 6.",
+    "options": { "A": "1", "B": "5", "C": "3", "D": "2" },
+    "correct": "A",
+    "explanation": "7 ≡ 1 (mod 6). Therefore 7^53 ≡ 1^53 = 1 (mod 6). Remainder = 1."
+  },
+  {
+    "id": 14,
+    "section": "quantitative",
+    "topic": "Probability & Combinatorics",
+    "difficulty": "medium",
+    "question": "A bag has 5 red and 7 blue balls. Two balls are drawn at random. What is the probability both are red?",
+    "options": { "A": "5/33", "B": "2/11", "C": "5/22", "D": "10/33" },
+    "correct": "A",
+    "explanation": "P(both red) = C(5,2)/C(12,2) = 10/66 = 5/33."
+  },
+  {
+    "id": 15,
+    "section": "quantitative",
+    "topic": "Geometry & Mensuration",
+    "difficulty": "easy",
+    "question": "The radius of a circle is 14 cm. What is its area? (Use π = 22/7)",
+    "options": { "A": "616 cm²", "B": "154 cm²", "C": "308 cm²", "D": "484 cm²" },
+    "correct": "A",
+    "explanation": "Area = πr² = (22/7) × 14² = (22/7) × 196 = 22 × 28 = 616 cm²."
+  },
+  {
+    "id": 16,
+    "section": "quantitative",
+    "topic": "Geometry & Mensuration",
+    "difficulty": "medium",
+    "question": "A cuboid has dimensions 8 cm × 5 cm × 4 cm. What is its total surface area?",
+    "options": { "A": "184 cm²", "B": "160 cm²", "C": "200 cm²", "D": "172 cm²" },
+    "correct": "A",
+    "explanation": "TSA = 2(lb + bh + lh) = 2(8×5 + 5×4 + 8×4) = 2(40 + 20 + 32) = 2×92 = 184 cm²."
+  },
+  {
+    "id": 17,
+    "section": "quantitative",
+    "topic": "Sequences Series & Interest",
+    "difficulty": "medium",
+    "question": "Rs. 5,000 is invested at 8% per annum compound interest for 2 years. What is the total amount?",
+    "options": { "A": "Rs. 5,832", "B": "Rs. 5,800", "C": "Rs. 5,840", "D": "Rs. 6,000" },
+    "correct": "A",
+    "explanation": "A = 5000 × (1 + 0.08)² = 5000 × 1.1664 = Rs. 5,832."
+  },
+  {
+    "id": 18,
+    "section": "quantitative",
+    "topic": "Quadratic Equations",
+    "difficulty": "hard",
+    "question": "Solve: 2x² - 7x + 3 = 0. What are the roots?",
+    "options": { "A": "3 and 1/2", "B": "3 and -1/2", "C": "1/3 and 2", "D": "-3 and 1/2" },
+    "correct": "A",
+    "explanation": "Factor: (2x - 1)(x - 3) = 0. So x = 1/2 or x = 3. Check: 2(1/4) - 7(1/2) + 3 = 0.5 - 3.5 + 3 = 0 ✓; 2(9) - 7(3) + 3 = 18 - 21 + 3 = 0 ✓."
+  },
+  {
+    "id": 19,
+    "section": "quantitative",
+    "topic": "Averages & Mixtures",
+    "difficulty": "easy",
+    "question": "The average of 8 numbers is 42. If one number is removed, the average drops to 40. What was the removed number?",
+    "options": { "A": "52", "B": "56", "C": "48", "D": "60" },
+    "correct": "B",
+    "explanation": "Total of 8 numbers = 8 × 42 = 336. Total of 7 = 7 × 40 = 280. Removed number = 336 - 280 = 56."
+  },
+  {
+    "id": 20,
+    "section": "quantitative",
+    "topic": "Coordinate Geometry",
+    "difficulty": "hard",
+    "question": "What is the distance between points P(3, -4) and Q(-2, 8)?",
+    "options": { "A": "13", "B": "12", "C": "11", "D": "15" },
+    "correct": "A",
+    "explanation": "Distance = √((3-(-2))² + (-4-8)²) = √(5² + (-12)²) = √(25 + 144) = √169 = 13."
+  },
+  {
+    "id": 21,
+    "section": "verbal",
+    "topic": "Subject-Verb Agreement",
+    "difficulty": "easy",
+    "question": "Choose the grammatically correct sentence.",
+    "options": {
+      "A": "The committee have reached their decision.",
+      "B": "The committee has reached its decision.",
+      "C": "The committee have reached its decision.",
+      "D": "The committee has reached their decision."
+    },
+    "correct": "B",
+    "explanation": "In formal usage, collective nouns like 'committee' take singular verbs and singular pronouns: 'has reached its decision.'"
+  },
+  {
+    "id": 22,
+    "section": "verbal",
+    "topic": "Subject-Verb Agreement",
+    "difficulty": "medium",
+    "question": "Which sentence is grammatically correct?",
+    "options": {
+      "A": "Neither the manager nor the employees was present.",
+      "B": "Neither the manager nor the employees were present.",
+      "C": "Neither the manager nor the employees is present.",
+      "D": "Neither the manager nor the employees are being present."
+    },
+    "correct": "B",
+    "explanation": "With 'neither...nor', the verb agrees with the nearest subject. 'Employees' is plural, so 'were' is correct."
+  },
+  {
+    "id": 23,
+    "section": "verbal",
+    "topic": "Parallelism & Sentence Structure",
+    "difficulty": "easy",
+    "question": "Which sentence demonstrates correct parallel structure?",
+    "options": {
+      "A": "She enjoys hiking, swimming, and to read.",
+      "B": "She enjoys hiking, swimming, and reading.",
+      "C": "She enjoys to hike, swimming, and reading.",
+      "D": "She enjoys to hike, to swim, and read."
+    },
+    "correct": "B",
+    "explanation": "Parallel structure requires all items to have the same grammatical form. 'Hiking, swimming, and reading' are all gerunds."
+  },
+  {
+    "id": 24,
+    "section": "verbal",
+    "topic": "Parallelism & Sentence Structure",
+    "difficulty": "medium",
+    "question": "Identify the sentence with faulty parallelism.",
+    "options": {
+      "A": "The plan was bold, innovative, and cost-effective.",
+      "B": "The manager praised the team for its speed, its precision, and working hard.",
+      "C": "He was tall, dark, and handsome.",
+      "D": "The report was clear, concise, and well-organized."
+    },
+    "correct": "B",
+    "explanation": "'Speed, precision, and working hard' mixes nouns with a gerund phrase. The correct form is: 'speed, precision, and hard work.'"
+  },
+  {
+    "id": 25,
+    "section": "verbal",
+    "topic": "Modifier Placement",
+    "difficulty": "medium",
+    "question": "Which sentence has a correctly placed modifier?",
+    "options": {
+      "A": "Running quickly down the hall, the trophy was spotted by the athlete.",
+      "B": "The athlete spotted the trophy, running quickly down the hall.",
+      "C": "Running quickly down the hall, the athlete spotted the trophy.",
+      "D": "The trophy was spotted quickly running down the hall by the athlete."
+    },
+    "correct": "C",
+    "explanation": "The participial phrase 'Running quickly down the hall' must be adjacent to the noun it modifies — the athlete. Option C places it correctly."
+  },
+  {
+    "id": 26,
+    "section": "verbal",
+    "topic": "Tense Consistency",
+    "difficulty": "easy",
+    "question": "Which sentence maintains consistent tense?",
+    "options": {
+      "A": "She walked into the room and sees everyone staring at her.",
+      "B": "She walks into the room and saw everyone staring at her.",
+      "C": "She walked into the room and saw everyone staring at her.",
+      "D": "She walked into the room and has seen everyone staring at her."
+    },
+    "correct": "C",
+    "explanation": "Both actions are in the past, so both verbs should be simple past: 'walked' and 'saw.'"
+  },
+  {
+    "id": 27,
+    "section": "verbal",
+    "topic": "Sentence Correction",
+    "difficulty": "medium",
+    "question": "Which best corrects the error in: 'Each of the students have submitted their assignment on time.'?",
+    "options": {
+      "A": "No error — the sentence is correct.",
+      "B": "Each of the students has submitted their assignment on time.",
+      "C": "Each of the students have submitted his assignment on time.",
+      "D": "Each of the students is submitted their assignment on time."
+    },
+    "correct": "B",
+    "explanation": "'Each' is singular and requires the singular verb 'has.' Using 'their' as a gender-neutral singular pronoun is accepted in modern usage."
+  },
+  {
+    "id": 28,
+    "section": "verbal",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "question": "Passage: 'The development of social media has transformed how people communicate. While it enables instant connection across vast distances, critics argue it has also led to declining face-to-face interaction and increased feelings of isolation among young adults.' What is the main idea?",
+    "options": {
+      "A": "Social media is harmful to young adults.",
+      "B": "Social media has both beneficial and negative effects on communication.",
+      "C": "Technology has replaced all traditional forms of communication.",
+      "D": "Critics are wrong about social media's impact."
+    },
+    "correct": "B",
+    "explanation": "The passage presents both a positive effect (instant connection) and a negative critique (isolation), conveying a balanced perspective."
+  },
+  {
+    "id": 29,
+    "section": "verbal",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "question": "Passage: 'Economies that rely heavily on a single commodity are vulnerable to external price shocks. When that commodity's global price falls, fiscal revenues collapse and unemployment rises. Diversification into manufacturing or services can provide a buffer.' What can be inferred?",
+    "options": {
+      "A": "Manufacturing is always superior to commodity production.",
+      "B": "Diversified economies are more resilient to price volatility.",
+      "C": "Commodity prices always fall eventually.",
+      "D": "Service sector employment is the safest option."
+    },
+    "correct": "B",
+    "explanation": "The passage implies that diversification 'can provide a buffer' against price shocks, supporting the inference that diversified economies handle volatility better."
+  },
+  {
+    "id": 30,
+    "section": "verbal",
+    "topic": "Synonyms & Antonyms",
+    "difficulty": "easy",
+    "question": "What is the antonym of 'CANDID'?",
+    "options": { "A": "Honest", "B": "Forthright", "C": "Evasive", "D": "Transparent" },
+    "correct": "C",
+    "explanation": "'Candid' means frank and honest. Its antonym is 'evasive,' meaning deliberately unclear or avoiding direct answers."
+  },
+  {
+    "id": 31,
+    "section": "verbal",
+    "topic": "Synonyms & Antonyms",
+    "difficulty": "medium",
+    "question": "Choose the word most similar in meaning to 'EPHEMERAL'.",
+    "options": { "A": "Eternal", "B": "Transient", "C": "Durable", "D": "Persistent" },
+    "correct": "B",
+    "explanation": "'Ephemeral' means lasting for a very short time. 'Transient' is its synonym, meaning temporary or passing."
+  },
+  {
+    "id": 32,
+    "section": "verbal",
+    "topic": "Vocabulary in Context",
+    "difficulty": "medium",
+    "question": "The CEO's 'acrimonious' response to criticism shocked the board members. What does 'acrimonious' mean in this context?",
+    "options": { "A": "Thoughtful and measured", "B": "Bitterly harsh and angry", "C": "Surprisingly calm", "D": "Diplomatically worded" },
+    "correct": "B",
+    "explanation": "'Acrimonious' describes speech or manner that is angry and bitter, particularly in a dispute or confrontation."
+  },
+  {
+    "id": 33,
+    "section": "verbal",
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "question": "AUTHOR : NOVEL :: COMPOSER : ?",
+    "options": { "A": "Poem", "B": "Symphony", "C": "Theatre", "D": "Museum" },
+    "correct": "B",
+    "explanation": "An author creates a novel; a composer creates a symphony. The relationship is creator to their primary form of work."
+  },
+  {
+    "id": 34,
+    "section": "verbal",
+    "topic": "Analogies",
+    "difficulty": "medium",
+    "question": "BACTERIA : ANTIBIOTIC :: VIRUS : ?",
+    "options": { "A": "Antiviral", "B": "Antibiotic", "C": "Fungicide", "D": "Pesticide" },
+    "correct": "A",
+    "explanation": "Antibiotics treat bacterial infections; antivirals treat viral infections. The relationship is pathogen to its specific treatment."
+  },
+  {
+    "id": 35,
+    "section": "verbal",
+    "topic": "Sentence Completion",
+    "difficulty": "easy",
+    "question": "Despite her ___ schedule, she always found time to help her colleagues.",
+    "options": { "A": "lenient", "B": "hectic", "C": "sparse", "D": "flexible" },
+    "correct": "B",
+    "explanation": "'Hectic' (extremely busy) creates the contrast implied by 'despite,' indicating she helped others even while very busy."
+  },
+  {
+    "id": 36,
+    "section": "verbal",
+    "topic": "Sentence Completion",
+    "difficulty": "medium",
+    "question": "The archaeologist's discovery was ___; it completely overturned decades of established theory.",
+    "options": { "A": "mundane", "B": "trivial", "C": "seminal", "D": "redundant" },
+    "correct": "C",
+    "explanation": "'Seminal' means strongly influencing later developments. A discovery that overturns established theory is highly groundbreaking, fitting 'seminal.'"
+  },
+  {
+    "id": 37,
+    "section": "verbal",
+    "topic": "Critical Reading",
+    "difficulty": "hard",
+    "question": "Argument: 'Students who use laptops score lower on tests than those who take handwritten notes. Therefore, laptops should be banned from all classrooms.' Which most seriously weakens this argument?",
+    "options": {
+      "A": "Handwriting is a more personal skill than typing.",
+      "B": "Many students use laptops for social media rather than note-taking.",
+      "C": "Some students with disabilities rely on laptops to participate fully.",
+      "D": "The correlation may result from weaker students preferring laptops, not from laptop use causing lower scores."
+    },
+    "correct": "D",
+    "explanation": "The argument assumes causation from correlation. Option D introduces a confounding variable — pre-existing differences in ability — which undermines the causal claim."
+  },
+  {
+    "id": 38,
+    "section": "verbal",
+    "topic": "Critical Reading",
+    "difficulty": "medium",
+    "question": "Which statement, if true, would most strengthen the claim: 'Regular physical exercise reduces the risk of developing type 2 diabetes'?",
+    "options": {
+      "A": "Many diabetics also have sedentary lifestyles.",
+      "B": "A 10-year study found active individuals had 40% lower diabetes rates even after controlling for diet.",
+      "C": "Exercise is recommended by most doctors.",
+      "D": "Diabetes rates have increased over the past 20 years."
+    },
+    "correct": "B",
+    "explanation": "A controlled longitudinal study directly establishing lower diabetes rates in active individuals (with diet controlled) provides strong causal support."
+  },
+  {
+    "id": 39,
+    "section": "verbal",
+    "topic": "Modifier Placement",
+    "difficulty": "hard",
+    "question": "Which revision best corrects the dangling modifier: 'Having studied all night, the exam seemed easy.'?",
+    "options": {
+      "A": "Having studied all night, it seemed the exam was easy.",
+      "B": "The exam seemed easy, having studied all night.",
+      "C": "Having studied all night, she found the exam easy.",
+      "D": "After all night studying, the exam seemed easy to her."
+    },
+    "correct": "C",
+    "explanation": "'Having studied all night' must logically refer to a person. Only option C correctly places the subject 'she' immediately after the participial phrase."
+  },
+  {
+    "id": 40,
+    "section": "verbal",
+    "topic": "Vocabulary in Context",
+    "difficulty": "hard",
+    "question": "The professor's lecture was so 'abstruse' that even the doctoral candidates struggled to follow. What does 'abstruse' mean?",
+    "options": {
+      "A": "Boring and repetitive",
+      "B": "Difficult to understand due to complexity or abstraction",
+      "C": "Deliberately misleading",
+      "D": "Overly long and unfocused"
+    },
+    "correct": "B",
+    "explanation": "'Abstruse' means obscure or difficult to understand, typically because of high complexity or extreme abstraction."
+  },
+  {
+    "id": 41,
+    "section": "analytical",
+    "topic": "Syllogisms",
+    "difficulty": "easy",
+    "question": "Premises: All engineers are graduates. Some graduates are scientists. Conclusion: Some engineers are scientists. Is the conclusion valid?",
+    "options": {
+      "A": "Yes, the conclusion is valid.",
+      "B": "No, the conclusion does not follow from the premises.",
+      "C": "Yes, but only if all graduates are scientists.",
+      "D": "No, because engineers cannot be scientists."
+    },
+    "correct": "B",
+    "explanation": "The premises state all engineers are graduates and some graduates are scientists, but it does not follow that any engineer is among those scientist-graduates. The conclusion is invalid."
+  },
+  {
+    "id": 42,
+    "section": "analytical",
+    "topic": "Conditional Logic (If-Then)",
+    "difficulty": "medium",
+    "question": "If it rains, the ground gets wet. The ground is not wet. What can be concluded?",
+    "options": {
+      "A": "It rained.",
+      "B": "It did not rain.",
+      "C": "It may or may not have rained.",
+      "D": "Nothing can be concluded."
+    },
+    "correct": "B",
+    "explanation": "Modus tollens: If P → Q and ¬Q, then ¬P. Rain → wet ground; ground is NOT wet; therefore it did NOT rain."
+  },
+  {
+    "id": 43,
+    "section": "analytical",
+    "topic": "Linear Arrangement",
+    "difficulty": "medium",
+    "question": "Five people A, B, C, D, E sit in a row. A is to the left of C. B is to the right of D. E sits at one end. C sits next to E. Which arrangement from left to right is possible?",
+    "options": { "A": "D B A C E", "B": "E C A D B", "C": "B D A C E", "D": "A D B E C" },
+    "correct": "A",
+    "explanation": "Option A: D(1) B(2) A(3) C(4) E(5). Check: A(3) is left of C(4) ✓; B(2) is right of D(1) ✓; E is at right end ✓; C(4) is next to E(5) ✓. All conditions satisfied."
+  },
+  {
+    "id": 44,
+    "section": "analytical",
+    "topic": "Blood Relations",
+    "difficulty": "easy",
+    "question": "Pointing to a photograph, a woman says, 'His mother is the only daughter of my mother.' How is the woman related to the man in the photograph?",
+    "options": { "A": "Grandmother", "B": "Aunt", "C": "Mother", "D": "Sister" },
+    "correct": "C",
+    "explanation": "'The only daughter of my mother' = the woman herself. So his mother = the woman herself. The woman is the man's mother."
+  },
+  {
+    "id": 45,
+    "section": "analytical",
+    "topic": "Direction Sense",
+    "difficulty": "medium",
+    "question": "Starting from point X, Rahul walks 6 km North, then turns right and walks 4 km, then turns right and walks 6 km. How far is he from point X and in which direction?",
+    "options": { "A": "4 km West", "B": "4 km East", "C": "6 km South", "D": "10 km South-East" },
+    "correct": "B",
+    "explanation": "North 6 km → East (right turn) 4 km → South (right turn) 6 km. He returns to the original latitude but is 4 km East of X."
+  },
+  {
+    "id": 46,
+    "section": "analytical",
+    "topic": "Strengthen & Weaken Arguments",
+    "difficulty": "hard",
+    "question": "Claim: 'Introducing a four-day workweek increases productivity.' Which finding would most strengthen this claim?",
+    "options": {
+      "A": "Employees report greater job satisfaction.",
+      "B": "Companies adopting it saw a 20% increase in output per employee-hour over 12 months.",
+      "C": "Four-day workweeks are popular in Scandinavian countries.",
+      "D": "Employees take fewer sick days."
+    },
+    "correct": "B",
+    "explanation": "A measurable 20% increase in output per employee-hour directly and quantifiably supports the productivity claim, making it the strongest option."
+  },
+  {
+    "id": 47,
+    "section": "analytical",
+    "topic": "Data Interpretation",
+    "difficulty": "medium",
+    "question": "A company's quarterly sales (in millions) for Q1–Q4 were: 12, 18, 15, 21. What was the average quarterly sales?",
+    "options": { "A": "15.5 million", "B": "16.5 million", "C": "17 million", "D": "16 million" },
+    "correct": "B",
+    "explanation": "Total = 12 + 18 + 15 + 21 = 66. Average = 66 ÷ 4 = 16.5 million."
+  },
+  {
+    "id": 48,
+    "section": "analytical",
+    "topic": "Coding-Decoding",
+    "difficulty": "easy",
+    "question": "In a certain code, 'BOOK' is written as 'CPPL'. How would 'DOOR' be written in the same code?",
+    "options": { "A": "EPPS", "B": "DPPQ", "C": "EPPR", "D": "FPPS" },
+    "correct": "A",
+    "explanation": "Each letter is shifted forward by 1: B→C, O→P, O→P, K→L. Applying same rule to DOOR: D→E, O→P, O→P, R→S = EPPS."
+  },
+  {
+    "id": 49,
+    "section": "analytical",
+    "topic": "Assumption Questions",
+    "difficulty": "hard",
+    "question": "Statement: 'To reduce pollution, the city council should ban all diesel vehicles from the city center.' Which is an underlying assumption?",
+    "options": {
+      "A": "Diesel vehicles are the primary source of all city problems.",
+      "B": "Banning diesel vehicles from the city center will meaningfully reduce pollution levels.",
+      "C": "All citizens own diesel vehicles.",
+      "D": "The city council has no other priorities."
+    },
+    "correct": "B",
+    "explanation": "The recommendation assumes that banning diesel vehicles will actually and meaningfully reduce pollution. Without this assumption, the action has no logical foundation."
+  },
+  {
+    "id": 50,
+    "section": "analytical",
+    "topic": "Ranking & Ordering",
+    "difficulty": "medium",
+    "question": "In a class of 30 students, Farhan ranks 8th from the top. What is his rank from the bottom?",
+    "options": { "A": "22nd", "B": "23rd", "C": "24th", "D": "21st" },
+    "correct": "B",
+    "explanation": "Rank from bottom = Total students − Rank from top + 1 = 30 − 8 + 1 = 23rd."
+  }
+]

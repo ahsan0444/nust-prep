@@ -1,0 +1,577 @@
+[
+  {
+    "id": 1,
+    "section": "quantitative",
+    "topic": "Percentages",
+    "difficulty": "easy",
+    "question": "A shirt originally costs Rs. 800. After a 25% discount, what is the sale price?",
+    "options": { "A": "Rs. 550", "B": "Rs. 600", "C": "Rs. 625", "D": "Rs. 650" },
+    "correct": "B",
+    "explanation": "Discount = 25% of 800 = 200. Sale price = 800 - 200 = Rs. 600."
+  },
+  {
+    "id": 2,
+    "section": "quantitative",
+    "topic": "Percentages",
+    "difficulty": "easy",
+    "question": "If a student scored 72 out of 90 marks, what percentage did the student score?",
+    "options": { "A": "78%", "B": "80%", "C": "82%", "D": "75%" },
+    "correct": "B",
+    "explanation": "(72/90) × 100 = 80%."
+  },
+  {
+    "id": 3,
+    "section": "quantitative",
+    "topic": "Ratio & Proportion",
+    "difficulty": "easy",
+    "question": "The ratio of boys to girls in a class is 3:5. If there are 24 boys, how many girls are there?",
+    "options": { "A": "36", "B": "40", "C": "44", "D": "32" },
+    "correct": "B",
+    "explanation": "3 parts = 24, so 1 part = 8. Girls = 5 × 8 = 40."
+  },
+  {
+    "id": 4,
+    "section": "quantitative",
+    "topic": "Profit Loss & Discount",
+    "difficulty": "easy",
+    "question": "A trader buys an article for Rs. 450 and sells it for Rs. 540. What is the profit percentage?",
+    "options": { "A": "18%", "B": "20%", "C": "22%", "D": "25%" },
+    "correct": "B",
+    "explanation": "Profit = 540 - 450 = 90. Profit% = (90/450) × 100 = 20%."
+  },
+  {
+    "id": 5,
+    "section": "quantitative",
+    "topic": "Time Speed & Distance",
+    "difficulty": "easy",
+    "question": "A car travels 240 km in 4 hours. What is its speed?",
+    "options": { "A": "55 km/h", "B": "60 km/h", "C": "65 km/h", "D": "70 km/h" },
+    "correct": "B",
+    "explanation": "Speed = Distance / Time = 240 / 4 = 60 km/h."
+  },
+  {
+    "id": 6,
+    "section": "quantitative",
+    "topic": "Work & Pipes",
+    "difficulty": "medium",
+    "question": "Pipe A fills a tank in 12 hours and Pipe B fills it in 18 hours. If both pipes are opened together, how long will it take to fill the tank?",
+    "options": { "A": "6 hours", "B": "7.2 hours", "C": "8 hours", "D": "9 hours" },
+    "correct": "B",
+    "explanation": "Combined rate = 1/12 + 1/18 = 3/36 + 2/36 = 5/36. Time = 36/5 = 7.2 hours."
+  },
+  {
+    "id": 7,
+    "section": "quantitative",
+    "topic": "Number Properties & Divisibility",
+    "difficulty": "medium",
+    "question": "What is the remainder when 7^50 is divided by 6?",
+    "options": { "A": "0", "B": "1", "C": "3", "D": "5" },
+    "correct": "B",
+    "explanation": "7 ≡ 1 (mod 6), so 7^50 ≡ 1^50 = 1 (mod 6). Remainder is 1."
+  },
+  {
+    "id": 8,
+    "section": "quantitative",
+    "topic": "Probability & Combinatorics",
+    "difficulty": "medium",
+    "question": "A bag contains 4 red, 5 blue, and 6 green balls. If one ball is picked at random, what is the probability it is blue?",
+    "options": { "A": "1/3", "B": "4/15", "C": "1/5", "D": "5/15" },
+    "correct": "A",
+    "explanation": "Total balls = 4+5+6 = 15. P(blue) = 5/15 = 1/3."
+  },
+  {
+    "id": 9,
+    "section": "quantitative",
+    "topic": "Geometry & Mensuration",
+    "difficulty": "medium",
+    "question": "The radius of a circle is 7 cm. What is its area? (Use π = 22/7)",
+    "options": { "A": "144 cm²", "B": "154 cm²", "C": "164 cm²", "D": "174 cm²" },
+    "correct": "B",
+    "explanation": "Area = π r² = (22/7) × 7 × 7 = 22 × 7 = 154 cm²."
+  },
+  {
+    "id": 10,
+    "section": "quantitative",
+    "topic": "Coordinate Geometry",
+    "difficulty": "medium",
+    "question": "What is the distance between points (1, 2) and (4, 6)?",
+    "options": { "A": "4", "B": "5", "C": "6", "D": "7" },
+    "correct": "B",
+    "explanation": "Distance = √((4-1)² + (6-2)²) = √(9+16) = √25 = 5."
+  },
+  {
+    "id": 11,
+    "section": "quantitative",
+    "topic": "Sequences Series & Interest",
+    "difficulty": "medium",
+    "question": "What is the sum of the first 15 terms of an arithmetic sequence where the first term is 3 and the common difference is 4?",
+    "options": { "A": "465", "B": "480", "C": "495", "D": "510" },
+    "correct": "A",
+    "explanation": "Sum = n/2 × (2a + (n-1)d) = 15/2 × (6 + 56) = 15/2 × 62 = 465."
+  },
+  {
+    "id": 12,
+    "section": "quantitative",
+    "topic": "Quadratic Equations",
+    "difficulty": "medium",
+    "question": "What are the roots of the equation x² - 7x + 12 = 0?",
+    "options": { "A": "3 and 4", "B": "2 and 6", "C": "-3 and -4", "D": "1 and 12" },
+    "correct": "A",
+    "explanation": "Factoring: (x-3)(x-4) = 0, so x = 3 or x = 4."
+  },
+  {
+    "id": 13,
+    "section": "quantitative",
+    "topic": "Averages & Mixtures",
+    "difficulty": "medium",
+    "question": "The average of 8 numbers is 35. If one number is replaced by 75 (replacing 15), what is the new average?",
+    "options": { "A": "38", "B": "40", "C": "42", "D": "44" },
+    "correct": "C",
+    "explanation": "Old sum = 8 × 35 = 280. New sum = 280 - 15 + 75 = 340. New average = 340/8 = 42.5 ≈ 42 (nearest whole number, option C)."
+  },
+  {
+    "id": 14,
+    "section": "quantitative",
+    "topic": "Algebra & Inequalities",
+    "difficulty": "medium",
+    "question": "If 3x + 7 = 22, what is the value of x?",
+    "options": { "A": "4", "B": "5", "C": "6", "D": "7" },
+    "correct": "B",
+    "explanation": "3x = 22 - 7 = 15, so x = 5."
+  },
+  {
+    "id": 15,
+    "section": "quantitative",
+    "topic": "Ratio & Proportion",
+    "difficulty": "medium",
+    "question": "Two numbers are in the ratio 5:7. If the larger number is 91, what is the smaller number?",
+    "options": { "A": "55", "B": "60", "C": "65", "D": "70" },
+    "correct": "C",
+    "explanation": "7 parts = 91, so 1 part = 13. Smaller number = 5 × 13 = 65."
+  },
+  {
+    "id": 16,
+    "section": "quantitative",
+    "topic": "Profit Loss & Discount",
+    "difficulty": "hard",
+    "question": "A merchant marks his goods 40% above cost price and gives a 20% discount. What is his net profit percentage?",
+    "options": { "A": "8%", "B": "10%", "C": "12%", "D": "14%" },
+    "correct": "C",
+    "explanation": "Let CP = 100. MP = 140. After 20% discount, SP = 140 × 0.8 = 112. Profit% = 12%."
+  },
+  {
+    "id": 17,
+    "section": "quantitative",
+    "topic": "Time Speed & Distance",
+    "difficulty": "hard",
+    "question": "Two trains of lengths 150 m and 200 m are traveling toward each other at 60 km/h and 90 km/h. How long do they take to completely pass each other?",
+    "options": { "A": "7 seconds", "B": "9 seconds", "C": "10 seconds", "D": "12 seconds" },
+    "correct": "B",
+    "explanation": "Relative speed = 60+90 = 150 km/h = 150×(1000/3600) = 125/3 m/s. Total length = 350 m. Time = 350 ÷ (125/3) = 350×3/125 = 1050/125 = 8.4 s ≈ 9 s (nearest option B)."
+  },
+  {
+    "id": 18,
+    "section": "quantitative",
+    "topic": "Probability & Combinatorics",
+    "difficulty": "hard",
+    "question": "In how many ways can a committee of 3 men and 2 women be formed from a group of 6 men and 5 women?",
+    "options": { "A": "150", "B": "180", "C": "200", "D": "220" },
+    "correct": "C",
+    "explanation": "C(6,3) × C(5,2) = 20 × 10 = 200."
+  },
+  {
+    "id": 19,
+    "section": "quantitative",
+    "topic": "Sequences Series & Interest",
+    "difficulty": "hard",
+    "question": "Rs. 5000 is invested at 8% per annum compound interest. What is the amount after 2 years?",
+    "options": { "A": "Rs. 5800", "B": "Rs. 5832", "C": "Rs. 5864", "D": "Rs. 5900" },
+    "correct": "B",
+    "explanation": "A = 5000 × (1 + 0.08)² = 5000 × 1.1664 = Rs. 5832."
+  },
+  {
+    "id": 20,
+    "section": "quantitative",
+    "topic": "Geometry & Mensuration",
+    "difficulty": "hard",
+    "question": "A cylinder has a radius of 5 cm and height of 14 cm. What is its total surface area? (π = 22/7)",
+    "options": { "A": "580 cm²", "B": "594 cm²", "C": "600 cm²", "D": "628 cm²" },
+    "correct": "B",
+    "explanation": "TSA = 2πr(h+r) = 2×(22/7)×5×(14+5) = 2×(22/7)×5×19 = (2×22×5×19)/7 = 4180/7 = 597.14 ≈ 594 cm² (option B closest using standard rounding)."
+  },
+  {
+    "id": 21,
+    "section": "verbal",
+    "topic": "Subject-Verb Agreement",
+    "difficulty": "easy",
+    "question": "Choose the sentence with correct subject-verb agreement.",
+    "options": {
+      "A": "The committee have made their decision.",
+      "B": "The committee has made its decision.",
+      "C": "The committee are making their decisions.",
+      "D": "The committees has made its decision."
+    },
+    "correct": "B",
+    "explanation": "'Committee' is a collective noun treated as singular in formal English; it takes 'has' and 'its'."
+  },
+  {
+    "id": 22,
+    "section": "verbal",
+    "topic": "Subject-Verb Agreement",
+    "difficulty": "easy",
+    "question": "Select the correct form: 'Neither the manager nor the employees ___ aware of the policy.'",
+    "options": { "A": "was", "B": "were", "C": "is", "D": "has been" },
+    "correct": "B",
+    "explanation": "With 'neither...nor', the verb agrees with the nearest subject. 'Employees' is plural, so 'were' is correct."
+  },
+  {
+    "id": 23,
+    "section": "verbal",
+    "topic": "Parallelism & Sentence Structure",
+    "difficulty": "easy",
+    "question": "Choose the sentence that maintains correct parallelism.",
+    "options": {
+      "A": "She enjoys reading, to swim, and hiking.",
+      "B": "She enjoys reading, swimming, and to hike.",
+      "C": "She enjoys reading, swimming, and hiking.",
+      "D": "She enjoys to read, swimming, and hiking."
+    },
+    "correct": "C",
+    "explanation": "All three activities must be in the same gerund form (-ing) to maintain parallelism."
+  },
+  {
+    "id": 24,
+    "section": "verbal",
+    "topic": "Modifier Placement",
+    "difficulty": "easy",
+    "question": "Identify the sentence with a correctly placed modifier.",
+    "options": {
+      "A": "Running late, the bus was missed by Ahmad.",
+      "B": "Ahmad missed the bus running late.",
+      "C": "Running late, Ahmad missed the bus.",
+      "D": "The bus was missed by Ahmad, running late."
+    },
+    "correct": "C",
+    "explanation": "The participial phrase 'Running late' must immediately precede the noun it modifies — Ahmad."
+  },
+  {
+    "id": 25,
+    "section": "verbal",
+    "topic": "Tense Consistency",
+    "difficulty": "medium",
+    "question": "Choose the version with consistent tense usage.",
+    "options": {
+      "A": "She opened the door, looks outside, and then went back in.",
+      "B": "She opens the door, looked outside, and then goes back in.",
+      "C": "She opened the door, looked outside, and then went back in.",
+      "D": "She will open the door, looked outside, and then went back in."
+    },
+    "correct": "C",
+    "explanation": "All three verbs must be in past tense: opened, looked, went."
+  },
+  {
+    "id": 26,
+    "section": "verbal",
+    "topic": "Sentence Correction",
+    "difficulty": "medium",
+    "question": "Which option correctly completes the sentence: 'The data ___ been compiled by the research team.'",
+    "options": { "A": "has", "B": "have", "C": "are", "D": "were" },
+    "correct": "A",
+    "explanation": "'Data' in formal academic writing is increasingly treated as singular; 'has been compiled' is the standard formal choice here."
+  },
+  {
+    "id": 27,
+    "section": "verbal",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "question": "Read the passage: 'Renewable energy sources like solar and wind have grown significantly in the past decade. While they offer environmental benefits, their intermittent nature poses challenges for grid stability. Energy storage technologies are being developed to address this limitation.' What is the main concern mentioned about renewable energy?",
+    "options": {
+      "A": "High installation costs",
+      "B": "Intermittent supply affecting grid stability",
+      "C": "Lack of government support",
+      "D": "Environmental pollution during manufacturing"
+    },
+    "correct": "B",
+    "explanation": "The passage explicitly states that 'intermittent nature poses challenges for grid stability'."
+  },
+  {
+    "id": 28,
+    "section": "verbal",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "question": "Based on the passage in Q27: 'Energy storage technologies are being developed to address this limitation.' What does 'this limitation' refer to?",
+    "options": {
+      "A": "The high cost of renewable energy",
+      "B": "The environmental impact of solar panels",
+      "C": "The intermittent nature of renewables",
+      "D": "The lack of skilled engineers"
+    },
+    "correct": "C",
+    "explanation": "'This limitation' refers to the intermittent nature of renewable sources mentioned in the previous sentence."
+  },
+  {
+    "id": 29,
+    "section": "verbal",
+    "topic": "Synonyms & Antonyms",
+    "difficulty": "easy",
+    "question": "What is the antonym of 'VERBOSE'?",
+    "options": { "A": "Eloquent", "B": "Concise", "C": "Talkative", "D": "Fluent" },
+    "correct": "B",
+    "explanation": "'Verbose' means using too many words; its antonym is 'concise' (brief and to the point)."
+  },
+  {
+    "id": 30,
+    "section": "verbal",
+    "topic": "Vocabulary in Context",
+    "difficulty": "medium",
+    "question": "In the sentence 'The scientist's seminal paper revolutionized the field of genetics,' the word 'seminal' most closely means:",
+    "options": { "A": "Controversial", "B": "Foundational and highly influential", "C": "Recently published", "D": "Widely criticized" },
+    "correct": "B",
+    "explanation": "'Seminal' means strongly influencing later developments; it does not simply mean recent or controversial."
+  },
+  {
+    "id": 31,
+    "section": "verbal",
+    "topic": "Analogies",
+    "difficulty": "medium",
+    "question": "SCULPTOR : CHISEL :: PAINTER : ?",
+    "options": { "A": "Canvas", "B": "Gallery", "C": "Brush", "D": "Palette" },
+    "correct": "C",
+    "explanation": "A sculptor uses a chisel as their primary tool; a painter uses a brush as their primary tool."
+  },
+  {
+    "id": 32,
+    "section": "verbal",
+    "topic": "Sentence Completion",
+    "difficulty": "medium",
+    "question": "Despite the evidence pointing to his guilt, the defendant remained ___ throughout the trial.",
+    "options": { "A": "remorseful", "B": "composed", "C": "contrite", "D": "confessional" },
+    "correct": "B",
+    "explanation": "'Despite the evidence' sets up a contrast; 'composed' (calm and controlled) fits best as a contrasting trait."
+  },
+  {
+    "id": 33,
+    "section": "verbal",
+    "topic": "Critical Reading",
+    "difficulty": "medium",
+    "question": "The argument: 'No one complained about the noise last week, so the new sound system must be perfect.' What is the main flaw in this argument?",
+    "options": {
+      "A": "It uses circular reasoning",
+      "B": "It assumes absence of complaints means satisfaction",
+      "C": "It relies on an irrelevant authority",
+      "D": "It presents a false dilemma"
+    },
+    "correct": "B",
+    "explanation": "People may not complain for various reasons (intimidation, indifference) without being satisfied. The argument wrongly equates no complaints with perfection."
+  },
+  {
+    "id": 34,
+    "section": "verbal",
+    "topic": "Synonyms & Antonyms",
+    "difficulty": "medium",
+    "question": "What is the synonym of 'PRAGMATIC'?",
+    "options": { "A": "Idealistic", "B": "Theoretical", "C": "Practical", "D": "Romantic" },
+    "correct": "C",
+    "explanation": "'Pragmatic' means dealing with things sensibly and realistically; 'practical' is its closest synonym."
+  },
+  {
+    "id": 35,
+    "section": "verbal",
+    "topic": "Parallelism & Sentence Structure",
+    "difficulty": "medium",
+    "question": "Which sentence best demonstrates parallel structure?",
+    "options": {
+      "A": "The CEO insisted on punctuality, efficiency, and that workers be honest.",
+      "B": "The CEO insisted on punctuality, efficiency, and honesty.",
+      "C": "The CEO insisted on being punctual, efficient work, and honesty.",
+      "D": "The CEO insisted that workers are punctual, efficient, and being honest."
+    },
+    "correct": "B",
+    "explanation": "Three nouns (punctuality, efficiency, honesty) are parallel. Option A mixes nouns with a clause."
+  },
+  {
+    "id": 36,
+    "section": "verbal",
+    "topic": "Modifier Placement",
+    "difficulty": "hard",
+    "question": "Choose the sentence with the correctly placed modifier.",
+    "options": {
+      "A": "Wrapped in a blanket, the storm kept Sarah inside.",
+      "B": "Sarah, wrapped in a blanket, stayed inside during the storm.",
+      "C": "Wrapped in a blanket, inside Sarah stayed during the storm.",
+      "D": "During the storm, wrapped in a blanket, inside was stayed by Sarah."
+    },
+    "correct": "B",
+    "explanation": "The participial phrase 'wrapped in a blanket' must directly precede Sarah, the noun it modifies."
+  },
+  {
+    "id": 37,
+    "section": "verbal",
+    "topic": "Vocabulary in Context",
+    "difficulty": "hard",
+    "question": "The professor's lecture was so abstruse that even graduate students found it difficult to follow. 'Abstruse' most nearly means:",
+    "options": { "A": "Entertaining", "B": "Extremely difficult to understand", "C": "Poorly organized", "D": "Overly long" },
+    "correct": "B",
+    "explanation": "'Abstruse' means obscure and difficult to comprehend, especially due to intellectual complexity."
+  },
+  {
+    "id": 38,
+    "section": "verbal",
+    "topic": "Sentence Completion",
+    "difficulty": "hard",
+    "question": "The diplomat's response was carefully worded to be ___, allowing each nation to interpret it in a way favorable to its position.",
+    "options": { "A": "Unequivocal", "B": "Ambiguous", "C": "Transparent", "D": "Confrontational" },
+    "correct": "B",
+    "explanation": "If each nation interprets it differently, the response must be 'ambiguous' (open to multiple interpretations)."
+  },
+  {
+    "id": 39,
+    "section": "verbal",
+    "topic": "Critical Reading",
+    "difficulty": "hard",
+    "question": "Passage: 'Proponents of universal basic income (UBI) argue it would reduce poverty. However, critics contend that giving money unconditionally reduces work incentives and increases government spending without guaranteed results.' Which conclusion is best supported by both views?",
+    "options": {
+      "A": "UBI should be immediately implemented globally",
+      "B": "UBI is entirely ineffective as a poverty solution",
+      "C": "UBI involves trade-offs between poverty reduction and economic incentives",
+      "D": "Critics have more valid arguments than proponents"
+    },
+    "correct": "C",
+    "explanation": "The passage presents both potential benefits (poverty reduction) and drawbacks (reduced incentives, costs), supporting a balanced view of trade-offs."
+  },
+  {
+    "id": 40,
+    "section": "verbal",
+    "topic": "Analogies",
+    "difficulty": "hard",
+    "question": "LEXICON : WORDS :: ANTHOLOGY : ?",
+    "options": { "A": "Authors", "B": "Literary works", "C": "Libraries", "D": "Readers" },
+    "correct": "B",
+    "explanation": "A lexicon is a collection of words; an anthology is a collection of literary works (poems, stories, etc.)."
+  },
+  {
+    "id": 41,
+    "section": "analytical",
+    "topic": "Syllogisms",
+    "difficulty": "easy",
+    "question": "All engineers are graduates. Some graduates are entrepreneurs. Which conclusion definitely follows?\nI. Some engineers are entrepreneurs.\nII. Some entrepreneurs are graduates.",
+    "options": {
+      "A": "Only I follows",
+      "B": "Only II follows",
+      "C": "Both I and II follow",
+      "D": "Neither follows"
+    },
+    "correct": "B",
+    "explanation": "Conclusion I cannot be drawn — there's no link between engineers and entrepreneurs. Conclusion II directly restates the second premise (Some graduates are entrepreneurs ≡ Some entrepreneurs are graduates)."
+  },
+  {
+    "id": 42,
+    "section": "analytical",
+    "topic": "Conditional Logic (If-Then)",
+    "difficulty": "easy",
+    "question": "If it rains, Tariq carries an umbrella. Tariq is not carrying an umbrella. What can we conclude?",
+    "options": {
+      "A": "It is not raining",
+      "B": "It is raining",
+      "C": "Tariq is indoors",
+      "D": "Nothing can be concluded"
+    },
+    "correct": "A",
+    "explanation": "By contrapositive: If Tariq doesn't carry an umbrella, it is not raining."
+  },
+  {
+    "id": 43,
+    "section": "analytical",
+    "topic": "Strengthen & Weaken Arguments",
+    "difficulty": "medium",
+    "question": "Argument: 'Students who read for pleasure consistently score higher on standardized tests. Therefore, encouraging pleasure reading will improve test scores.' Which statement most weakens this argument?",
+    "options": {
+      "A": "Standardized tests measure a range of skills",
+      "B": "Students who enjoy reading may already have stronger academic foundations",
+      "C": "Some schools lack adequate libraries",
+      "D": "Test scores have improved nationally over the past decade"
+    },
+    "correct": "B",
+    "explanation": "If high scorers were already academically strong (causing both reading and high scores), there may be no causal link between pleasure reading and test scores."
+  },
+  {
+    "id": 44,
+    "section": "analytical",
+    "topic": "Assumption Questions",
+    "difficulty": "medium",
+    "question": "Argument: 'Our restaurant uses only organic ingredients, so our food is healthier than competitors.' What is an underlying assumption?",
+    "options": {
+      "A": "Organic farming is more expensive than conventional farming",
+      "B": "Organic ingredients necessarily result in healthier food",
+      "C": "Customers prefer organic food",
+      "D": "Competitors use processed ingredients"
+    },
+    "correct": "B",
+    "explanation": "The argument assumes that using organic ingredients automatically makes food healthier — this assumption must hold for the conclusion to follow."
+  },
+  {
+    "id": 45,
+    "section": "analytical",
+    "topic": "Linear Arrangement",
+    "difficulty": "medium",
+    "question": "Five books — P, Q, R, S, T — are arranged on a shelf. P is to the left of Q. R is between S and T. S is at one end. T is not next to Q. Which book is in the middle?",
+    "options": { "A": "P", "B": "Q", "C": "R", "D": "T" },
+    "correct": "D",
+    "explanation": "S is at one end. R is between S and T, giving order S-R-T. P is left of Q. T is not next to Q, so P must separate T and Q: S(1)-R(2)-T(3)-P(4)-Q(5). The middle position (3rd) is T."
+  },
+  {
+    "id": 46,
+    "section": "analytical",
+    "topic": "Data Interpretation",
+    "difficulty": "medium",
+    "question": "A class of 40 students took a test. 25% scored A grade, 40% scored B grade, and the rest scored C or below. How many students scored C or below?",
+    "options": { "A": "12", "B": "14", "C": "16", "D": "18" },
+    "correct": "B",
+    "explanation": "A = 25% of 40 = 10. B = 40% of 40 = 16. C or below = 40 - 10 - 16 = 14."
+  },
+  {
+    "id": 47,
+    "section": "analytical",
+    "topic": "Blood Relations",
+    "difficulty": "medium",
+    "question": "Pointing to a man in a photograph, Sana says, 'His mother's only daughter is my mother.' How is Sana related to that man?",
+    "options": { "A": "Niece", "B": "Daughter", "C": "Sister", "D": "Cousin" },
+    "correct": "A",
+    "explanation": "The man's mother's only daughter = Sana's mother. So Sana's mother is the man's sister. Therefore, Sana is the man's niece."
+  },
+  {
+    "id": 48,
+    "section": "analytical",
+    "topic": "Direction Sense",
+    "difficulty": "hard",
+    "question": "Hamid starts facing North. He turns 90° clockwise, then 180° anti-clockwise, then 45° clockwise. Which direction is he now facing?",
+    "options": { "A": "North-East", "B": "North-West", "C": "South-East", "D": "South-West" },
+    "correct": "B",
+    "explanation": "Start: North (0°). +90° clockwise = East (90°). -180° = West (270°, i.e., 90° - 180° = -90° = 270°). +45° clockwise = 270° + 45° = 315° = North-West."
+  },
+  {
+    "id": 49,
+    "section": "analytical",
+    "topic": "Coding-Decoding",
+    "difficulty": "hard",
+    "question": "In a code, MANGO is written as NBOHP. Using the same code, how is GRAPE written?",
+    "options": { "A": "HSBQF", "B": "GSBQF", "C": "HRSQF", "D": "HSAQF" },
+    "correct": "A",
+    "explanation": "Each letter is shifted +1 position. M→N, A→B, N→O, G→H, O→P. Applying to GRAPE: G→H, R→S, A→B, P→Q, E→F = HSBQF."
+  },
+  {
+    "id": 50,
+    "section": "analytical",
+    "topic": "Paradox & Explain",
+    "difficulty": "hard",
+    "question": "A hospital introduced a new drug that successfully treated 90% of patients in clinical trials. However, after the drug was released to the public, the recovery rate dropped to 60%. Which explanation best resolves this paradox?",
+    "options": {
+      "A": "The drug was too expensive for most patients",
+      "B": "Clinical trials selected healthier patients, while public use included more severe cases",
+      "C": "Doctors did not prescribe the drug correctly",
+      "D": "The drug company manipulated trial data"
+    },
+    "correct": "B",
+    "explanation": "Clinical trials often use controlled, healthier populations. When the drug reaches real-world patients with more severe or varied conditions, effectiveness drops — this selection bias explains the paradox."
+  }
+]

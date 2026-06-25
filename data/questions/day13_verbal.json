@@ -1,0 +1,607 @@
+[
+  {
+    "id": 1,
+    "topic": "Subject-Verb Agreement",
+    "difficulty": "easy",
+    "question": "Choose the correct verb form: 'The list of items _____ been checked.'",
+    "options": { "A": "have", "B": "has", "C": "were", "D": "are" },
+    "correct": "B",
+    "explanation": "The subject is 'list' (singular), not 'items'. A prepositional phrase does not change the subject, so the singular verb 'has' is correct."
+  },
+  {
+    "id": 2,
+    "topic": "Subject-Verb Agreement",
+    "difficulty": "easy",
+    "question": "Select the correct sentence.",
+    "options": {
+      "A": "Neither the manager nor the employees was informed.",
+      "B": "Neither the manager nor the employees were informed.",
+      "C": "Neither the manager nor the employees has been informed.",
+      "D": "Neither the manager nor the employees is informed."
+    },
+    "correct": "B",
+    "explanation": "With 'neither...nor', the verb agrees with the subject closest to it. 'Employees' is plural, so 'were' is correct."
+  },
+  {
+    "id": 3,
+    "topic": "Subject-Verb Agreement",
+    "difficulty": "medium",
+    "question": "Which sentence is grammatically correct?",
+    "options": {
+      "A": "Each of the students have submitted their assignments.",
+      "B": "Each of the students has submitted their assignments.",
+      "C": "Each of the students have submitted his assignment.",
+      "D": "Each of the students are submitting their assignments."
+    },
+    "correct": "B",
+    "explanation": "'Each' is an indefinite pronoun that always takes a singular verb. 'Has submitted' is the correct singular verb form."
+  },
+  {
+    "id": 4,
+    "topic": "Subject-Verb Agreement",
+    "difficulty": "medium",
+    "question": "Identify the error in: 'The committee have not yet reached a decision on the matter.'",
+    "options": {
+      "A": "No error; collective nouns always take plural verbs.",
+      "B": "Error: 'committee' is a collective noun acting as a unit, so 'has' should be used.",
+      "C": "Error: 'have' should be 'has been'.",
+      "D": "Error: 'reached' should be 'reach'."
+    },
+    "correct": "B",
+    "explanation": "When a collective noun acts as a single unit, it takes a singular verb. 'The committee has not yet reached a decision' is correct."
+  },
+  {
+    "id": 5,
+    "topic": "Subject-Verb Agreement",
+    "difficulty": "hard",
+    "question": "Choose the sentence with correct subject-verb agreement.",
+    "options": {
+      "A": "A number of students was absent from class today.",
+      "B": "The number of absent students are growing each week.",
+      "C": "A number of problems have been identified in the report.",
+      "D": "The number of errors were surprisingly low."
+    },
+    "correct": "C",
+    "explanation": "'A number of' means 'several' and takes a plural verb. 'The number of' refers to a single count and takes a singular verb. Option C correctly uses the plural 'have been' with 'a number of problems'."
+  },
+  {
+    "id": 6,
+    "topic": "Parallelism & Sentence Structure",
+    "difficulty": "easy",
+    "question": "Which sentence demonstrates correct parallel structure?",
+    "options": {
+      "A": "She likes reading, to swim, and hiking.",
+      "B": "She likes reading, swimming, and to hike.",
+      "C": "She likes reading, swimming, and hiking.",
+      "D": "She likes to read, swimming, and hike."
+    },
+    "correct": "C",
+    "explanation": "Parallel structure requires that items in a series use the same grammatical form. Option C uses three gerunds (reading, swimming, hiking), maintaining correct parallelism."
+  },
+  {
+    "id": 7,
+    "topic": "Parallelism & Sentence Structure",
+    "difficulty": "easy",
+    "question": "Choose the option that corrects the faulty parallelism: 'The manager asked us to work quickly, to be accurate, and that we should be professional.'",
+    "options": {
+      "A": "to work quickly, being accurate, and professional",
+      "B": "to work quickly, to be accurate, and to be professional",
+      "C": "working quickly, accurately, and with professionalism",
+      "D": "quick work, accuracy, and professional manner"
+    },
+    "correct": "B",
+    "explanation": "The series begins with infinitives ('to work', 'to be'), so the third item must also be an infinitive: 'to be professional'."
+  },
+  {
+    "id": 8,
+    "topic": "Parallelism & Sentence Structure",
+    "difficulty": "medium",
+    "question": "Identify the sentence with faulty parallel structure.",
+    "options": {
+      "A": "He is intelligent, hardworking, and disciplined.",
+      "B": "The project required planning, coordination, and to execute carefully.",
+      "C": "We arrived early, worked diligently, and left on time.",
+      "D": "The report was thorough, accurate, and well-organized."
+    },
+    "correct": "B",
+    "explanation": "The first two items are gerunds (planning, coordination), but the third item uses an infinitive phrase 'to execute carefully'. It should be 'execution' to maintain parallelism."
+  },
+  {
+    "id": 9,
+    "topic": "Parallelism & Sentence Structure",
+    "difficulty": "medium",
+    "question": "Which sentence has the best parallel structure?",
+    "options": {
+      "A": "Not only did he finish the exam early, but also submitting it before anyone else.",
+      "B": "Not only did he finish the exam early, but he also submitted it before anyone else.",
+      "C": "Not only finishing the exam early, but also he submitted it before anyone else.",
+      "D": "Not only did he finish the exam early, but submitting it was also done."
+    },
+    "correct": "B",
+    "explanation": "The correlative conjunction 'not only...but also' requires parallel structure. Option B correctly pairs 'did he finish' with 'he also submitted' — both independent clauses."
+  },
+  {
+    "id": 10,
+    "topic": "Parallelism & Sentence Structure",
+    "difficulty": "hard",
+    "question": "Select the revision that best improves the sentence: 'The new policy aims at reducing costs, improving efficiency, and the enhancement of customer satisfaction.'",
+    "options": {
+      "A": "The new policy aims at reducing costs, the improvement of efficiency, and the enhancement of customer satisfaction.",
+      "B": "The new policy aims to reduce costs, improve efficiency, and enhance customer satisfaction.",
+      "C": "The new policy aims at cost reduction, efficiency improvement, and to enhance customer satisfaction.",
+      "D": "The new policy aims at reducing costs, improving efficiency, and customer satisfaction enhancement."
+    },
+    "correct": "B",
+    "explanation": "Option B uses parallel infinitive phrases (to reduce, improve, enhance) and is also the most concise and natural phrasing, making it the best revision."
+  },
+  {
+    "id": 11,
+    "topic": "Modifier Placement",
+    "difficulty": "easy",
+    "question": "Identify the dangling modifier in: 'Walking down the street, the rain began to fall.'",
+    "options": {
+      "A": "There is no error; the sentence is correct.",
+      "B": "'Walking down the street' modifies 'rain', but rain cannot walk.",
+      "C": "'began to fall' is misplaced.",
+      "D": "'down the street' is a dangling modifier."
+    },
+    "correct": "B",
+    "explanation": "The participial phrase 'Walking down the street' must modify the sentence's subject. Since 'rain' is the subject but cannot walk, this is a dangling modifier. It should be: 'Walking down the street, I noticed the rain begin to fall.'"
+  },
+  {
+    "id": 12,
+    "topic": "Modifier Placement",
+    "difficulty": "easy",
+    "question": "Choose the sentence with correct modifier placement.",
+    "options": {
+      "A": "The student almost failed every exam he took.",
+      "B": "The student failed almost every exam he took.",
+      "C": "Almost the student failed every exam he took.",
+      "D": "The student failed every exam he almost took."
+    },
+    "correct": "B",
+    "explanation": "'Almost' should modify 'every exam' to mean he failed most exams. In option A, 'almost failed' changes the meaning to suggest he came close to failing but didn't."
+  },
+  {
+    "id": 13,
+    "topic": "Modifier Placement",
+    "difficulty": "medium",
+    "question": "Which sentence correctly places the modifier?",
+    "options": {
+      "A": "Exhausted after the long journey, the hotel room was a welcome sight.",
+      "B": "The hotel room was a welcome sight, exhausted after the long journey.",
+      "C": "Exhausted after the long journey, the travelers found the hotel room a welcome sight.",
+      "D": "The travelers, exhausted after the long journey, found a welcome hotel room sight."
+    },
+    "correct": "C",
+    "explanation": "The modifier 'Exhausted after the long journey' must refer to the travelers, not the hotel room. Option C correctly places the subject 'travelers' immediately after the modifier."
+  },
+  {
+    "id": 14,
+    "topic": "Modifier Placement",
+    "difficulty": "medium",
+    "question": "Identify the misplaced modifier: 'She served sandwiches to the children on paper plates.'",
+    "options": {
+      "A": "No error; 'on paper plates' correctly modifies 'sandwiches'.",
+      "B": "'On paper plates' appears to modify 'children', suggesting they were on paper plates.",
+      "C": "'to the children' is misplaced.",
+      "D": "'She served' is ambiguous."
+    },
+    "correct": "B",
+    "explanation": "The phrase 'on paper plates' is placed next to 'children', creating the absurd reading that children are on paper plates. It should be: 'She served sandwiches on paper plates to the children.'"
+  },
+  {
+    "id": 15,
+    "topic": "Modifier Placement",
+    "difficulty": "hard",
+    "question": "Choose the revision that best corrects: 'Having studied all night, the exam seemed easy to Raza.'",
+    "options": {
+      "A": "Having studied all night, Raza found the exam easy.",
+      "B": "The exam seemed easy to Raza, having studied all night.",
+      "C": "Raza, having studied all night, seemed easy on the exam.",
+      "D": "Having studied all night seemed to make the exam easy for Raza."
+    },
+    "correct": "A",
+    "explanation": "The participial phrase 'Having studied all night' must logically refer to Raza, not the exam. Option A correctly makes Raza the subject of the main clause, immediately following the modifier."
+  },
+  {
+    "id": 16,
+    "topic": "Tense Consistency",
+    "difficulty": "easy",
+    "question": "Identify the tense error: 'She walked into the room, looks around, and sits down.'",
+    "options": {
+      "A": "No error; shifting tenses adds variety.",
+      "B": "The sentence shifts from past tense to present tense inconsistently.",
+      "C": "'walked' should be 'walks'.",
+      "D": "'sits down' should be 'sat herself down'."
+    },
+    "correct": "B",
+    "explanation": "The sentence begins with past tense 'walked' but shifts to present tense 'looks' and 'sits'. For consistency, all verbs should be in the same tense: 'walked, looked, sat'."
+  },
+  {
+    "id": 17,
+    "topic": "Tense Consistency",
+    "difficulty": "easy",
+    "question": "Which sentence maintains correct tense consistency?",
+    "options": {
+      "A": "He opened the letter, reads it carefully, and then threw it away.",
+      "B": "He opened the letter, read it carefully, and then threw it away.",
+      "C": "He opens the letter, read it carefully, and then throws it away.",
+      "D": "He had opened the letter, reads it carefully, and throws it away."
+    },
+    "correct": "B",
+    "explanation": "Option B consistently uses the simple past tense throughout: 'opened', 'read', 'threw', correctly narrating a completed sequence of past events."
+  },
+  {
+    "id": 18,
+    "topic": "Tense Consistency",
+    "difficulty": "medium",
+    "question": "Select the correct version of the sentence: 'By the time the results were announced, the students _____ the examination hall.'",
+    "options": {
+      "A": "leave",
+      "B": "left",
+      "C": "had left",
+      "D": "have left"
+    },
+    "correct": "C",
+    "explanation": "The past perfect tense 'had left' is required because leaving the hall happened before the results were announced. When two past events occur, the earlier one uses past perfect."
+  },
+  {
+    "id": 19,
+    "topic": "Tense Consistency",
+    "difficulty": "medium",
+    "question": "Choose the sentence with correct tense usage.",
+    "options": {
+      "A": "She has been working here since five years.",
+      "B": "She has worked here for five years.",
+      "C": "She is working here since five years.",
+      "D": "She worked here since five years."
+    },
+    "correct": "B",
+    "explanation": "'For' is used with a duration of time, and present perfect 'has worked' correctly expresses an action that started in the past and continues to the present. 'Since' is used with a specific point in time."
+  },
+  {
+    "id": 20,
+    "topic": "Tense Consistency",
+    "difficulty": "hard",
+    "question": "Identify the tense error: 'The scientist announced that the experiment will succeed if the temperature remains constant.'",
+    "options": {
+      "A": "No error; mixing tenses here is acceptable.",
+      "B": "'will succeed' should be 'would succeed' because the main verb 'announced' is in the past tense.",
+      "C": "'remains' should be 'remained' to match 'announced'.",
+      "D": "'announced' should be 'announces' to match 'will succeed'."
+    },
+    "correct": "B",
+    "explanation": "In reported speech, when the reporting verb is in the past tense ('announced'), the verb in the subordinate clause must shift back: 'will' becomes 'would'. The correct sentence: 'The scientist announced that the experiment would succeed if the temperature remained constant.'"
+  },
+  {
+    "id": 21,
+    "topic": "Sentence Correction",
+    "difficulty": "easy",
+    "question": "Choose the grammatically correct sentence.",
+    "options": {
+      "A": "Between you and I, the plan will not work.",
+      "B": "Between you and me, the plan will not work.",
+      "C": "Between you and myself, the plan will not work.",
+      "D": "Between myself and you, the plan will not work."
+    },
+    "correct": "B",
+    "explanation": "'Between' is a preposition and must be followed by object pronouns. 'Me' is the objective case, while 'I' is the subjective case. 'Between you and me' is correct."
+  },
+  {
+    "id": 22,
+    "topic": "Sentence Correction",
+    "difficulty": "easy",
+    "question": "Select the correct sentence.",
+    "options": {
+      "A": "He is one of those students who always study hard.",
+      "B": "He is one of those students who always studies hard.",
+      "C": "He is one of those student who always study hard.",
+      "D": "He is one of those students whom always study hard."
+    },
+    "correct": "A",
+    "explanation": "The antecedent of 'who' is 'students' (plural), so the verb should be plural: 'study'. 'He is one of those students who always study hard' is correct."
+  },
+  {
+    "id": 23,
+    "topic": "Sentence Correction",
+    "difficulty": "medium",
+    "question": "Which option correctly rewrites: 'Despite of his efforts, he could not pass the exam.'",
+    "options": {
+      "A": "Despite of his efforts, he was unable to pass the exam.",
+      "B": "Despite his efforts, he could not pass the exam.",
+      "C": "In spite his efforts, he could not pass the exam.",
+      "D": "Regardless of his efforts, he was not able to pass the exam."
+    },
+    "correct": "B",
+    "explanation": "'Despite' is followed directly by a noun phrase without 'of'. 'Despite of' is incorrect. The correct form is 'Despite his efforts'. (Note: 'In spite of' would be correct, but 'In spite' without 'of' is not.)"
+  },
+  {
+    "id": 24,
+    "topic": "Sentence Correction",
+    "difficulty": "medium",
+    "question": "Identify and correct the error: 'The reason for his failure is because he did not study.'",
+    "options": {
+      "A": "Replace 'because' with 'that': 'The reason for his failure is that he did not study.'",
+      "B": "Replace 'is' with 'was': 'The reason for his failure was because he did not study.'",
+      "C": "Add 'the fact' before 'because': 'The reason is the fact because he did not study.'",
+      "D": "No error; 'because' after 'reason' is acceptable."
+    },
+    "correct": "A",
+    "explanation": "'The reason is because' is redundant. 'Because' already means 'for the reason that'. The correct form is 'The reason is that he did not study.'"
+  },
+  {
+    "id": 25,
+    "topic": "Sentence Correction",
+    "difficulty": "hard",
+    "question": "Choose the best correction for: 'Being that it was raining heavily, the match was postponed.'",
+    "options": {
+      "A": "Being as it was raining heavily, the match was postponed.",
+      "B": "Since it was raining heavily, the match was postponed.",
+      "C": "It being that it was raining heavily, the match was postponed.",
+      "D": "Due to raining heavily, the match was postponed."
+    },
+    "correct": "B",
+    "explanation": "'Being that' is a nonstandard expression. It should be replaced with 'Since' or 'Because'. Option D is incorrect because 'due to' must be followed by a noun, not a gerund phrase without a possessive."
+  },
+  {
+    "id": 26,
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "question": "Read the passage and answer: 'The industrial revolution transformed not only economic structures but also social hierarchies. Factory work created a new class of urban laborers who, unlike rural farmers, depended entirely on wages and were vulnerable to unemployment. This economic insecurity fueled the growth of labor movements demanding better wages and working conditions.' What is the primary purpose of this passage?",
+    "options": {
+      "A": "To praise the achievements of the industrial revolution.",
+      "B": "To describe how industrialization affected economic and social structures.",
+      "C": "To argue that factory work was superior to farming.",
+      "D": "To explain why labor movements ultimately failed."
+    },
+    "correct": "B",
+    "explanation": "The passage describes the transformative effects of industrialization on both economic structures (new factory system) and social hierarchies (emergence of urban laboring class), making B the best answer."
+  },
+  {
+    "id": 27,
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "question": "Read the passage: 'Coral reefs, often called the rainforests of the sea, support nearly 25% of all marine species despite covering less than 1% of the ocean floor. Rising sea temperatures caused by climate change lead to coral bleaching, a process in which corals expel the algae that give them nutrients and color. Without these algae, corals turn white and are susceptible to disease.' According to the passage, coral bleaching is caused by:",
+    "options": {
+      "A": "Overfishing of marine species.",
+      "B": "Corals expelling algae voluntarily.",
+      "C": "Rising ocean temperatures linked to climate change.",
+      "D": "The coral reefs covering too small an area."
+    },
+    "correct": "C",
+    "explanation": "The passage explicitly states that 'rising sea temperatures caused by climate change lead to coral bleaching', making C the correct answer."
+  },
+  {
+    "id": 28,
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "question": "Read the passage: 'Democracy requires an informed citizenry, yet the modern media landscape presents a paradox. While citizens have access to unprecedented amounts of information, studies suggest that ideological echo chambers — environments where individuals are exposed only to opinions that reinforce their own — are becoming more prevalent. Rather than fostering diverse perspectives, the algorithm-driven nature of social media may entrench existing biases.' What can be logically inferred from the passage?",
+    "options": {
+      "A": "Social media is entirely harmful and should be banned.",
+      "B": "More access to information automatically produces better-informed citizens.",
+      "C": "Algorithms may undermine the democratic ideal of an informed citizenry.",
+      "D": "Echo chambers existed before social media was invented."
+    },
+    "correct": "C",
+    "explanation": "The passage argues that democracy needs an informed citizenry but that social media algorithms create echo chambers that entrench biases, implying these algorithms may work against democratic ideals. This makes C the best inference."
+  },
+  {
+    "id": 29,
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "question": "Read the passage: 'Urban heat islands occur when cities experience significantly higher temperatures than surrounding rural areas. The replacement of natural land cover with concrete, asphalt, and buildings reduces evaporation and traps heat. This phenomenon increases energy consumption as residents rely more heavily on air conditioning, which in turn releases more heat into the environment, creating a feedback loop.' What does the passage suggest about air conditioning in cities?",
+    "options": {
+      "A": "Air conditioning is the primary cause of urban heat islands.",
+      "B": "Air conditioning helps break the cycle of rising urban temperatures.",
+      "C": "Using air conditioning contributes to the very problem it addresses.",
+      "D": "Air conditioning is unnecessary in rural areas due to lower temperatures."
+    },
+    "correct": "C",
+    "explanation": "The passage describes a feedback loop where heat causes more air conditioning use, which releases more heat. This means air conditioning, while addressing discomfort, contributes to the underlying problem."
+  },
+  {
+    "id": 30,
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "question": "Read the passage: 'The placebo effect demonstrates that belief itself can be a powerful medical treatment. Patients who receive sugar pills but believe they are taking real medicine often experience genuine physical improvement. Researchers are divided on whether this undermines the objectivity of clinical trials or represents an untapped therapeutic resource.' What is the author's tone in this passage?",
+    "options": {
+      "A": "Dismissive — the author rejects the idea that placebos have value.",
+      "B": "Objective and informative — the author presents multiple perspectives.",
+      "C": "Enthusiastic — the author strongly advocates for placebo use.",
+      "D": "Skeptical — the author doubts the placebo effect is real."
+    },
+    "correct": "B",
+    "explanation": "The passage presents the placebo effect factually and then acknowledges differing researcher viewpoints without taking a personal stance. This neutral, balanced approach reflects an objective and informative tone."
+  },
+  {
+    "id": 31,
+    "topic": "Synonyms & Antonyms",
+    "difficulty": "easy",
+    "question": "Choose the word most similar in meaning to BENEVOLENT.",
+    "options": { "A": "Malicious", "B": "Charitable", "C": "Indifferent", "D": "Arrogant" },
+    "correct": "B",
+    "explanation": "BENEVOLENT means well-meaning and kindly. CHARITABLE, meaning generous and giving, is the closest synonym. Malicious (harmful) is its antonym."
+  },
+  {
+    "id": 32,
+    "topic": "Synonyms & Antonyms",
+    "difficulty": "easy",
+    "question": "Which word is the ANTONYM of VERBOSE?",
+    "options": { "A": "Wordy", "B": "Eloquent", "C": "Concise", "D": "Articulate" },
+    "correct": "C",
+    "explanation": "VERBOSE means using more words than necessary; wordy. Its antonym is CONCISE, meaning brief and to the point."
+  },
+  {
+    "id": 33,
+    "topic": "Synonyms & Antonyms",
+    "difficulty": "medium",
+    "question": "Select the word most nearly OPPOSITE in meaning to EPHEMERAL.",
+    "options": { "A": "Transient", "B": "Fleeting", "C": "Permanent", "D": "Momentary" },
+    "correct": "C",
+    "explanation": "EPHEMERAL means lasting for a very short time. Its antonym is PERMANENT, meaning lasting indefinitely. The other options (transient, fleeting, momentary) are synonyms of ephemeral."
+  },
+  {
+    "id": 34,
+    "topic": "Synonyms & Antonyms",
+    "difficulty": "medium",
+    "question": "Choose the best synonym for AMELIORATE.",
+    "options": { "A": "Worsen", "B": "Maintain", "C": "Improve", "D": "Eliminate" },
+    "correct": "C",
+    "explanation": "AMELIORATE means to make something bad or unsatisfactory better. IMPROVE is the closest synonym. 'Worsen' is its antonym."
+  },
+  {
+    "id": 35,
+    "topic": "Synonyms & Antonyms",
+    "difficulty": "hard",
+    "question": "Which word is most nearly OPPOSITE in meaning to OBDURATE?",
+    "options": { "A": "Stubborn", "B": "Inflexible", "C": "Yielding", "D": "Persistent" },
+    "correct": "C",
+    "explanation": "OBDURATE means stubbornly refusing to change one's opinion or course of action. Its antonym is YIELDING, meaning willing to give way or comply. Stubborn, inflexible, and persistent are synonyms or related concepts."
+  },
+  {
+    "id": 36,
+    "topic": "Vocabulary in Context",
+    "difficulty": "easy",
+    "question": "Read the sentence and choose the best meaning for the underlined word: 'The professor's lecture was so ABSTRUSE that even his graduate students struggled to follow it.'",
+    "options": { "A": "Boring", "B": "Difficult to understand", "C": "Lengthy", "D": "Controversial" },
+    "correct": "B",
+    "explanation": "ABSTRUSE means difficult to understand; obscure. The context (graduate students struggling) confirms the meaning is related to difficulty of comprehension, not length or controversy."
+  },
+  {
+    "id": 37,
+    "topic": "Vocabulary in Context",
+    "difficulty": "easy",
+    "question": "Choose the meaning of PRAGMATIC as used here: 'Rather than debating the ideal solution, she took a pragmatic approach and implemented what was feasible within the budget.'",
+    "options": { "A": "Idealistic", "B": "Theoretical", "C": "Practical", "D": "Aggressive" },
+    "correct": "C",
+    "explanation": "PRAGMATIC means dealing with things practically rather than theoretically. The context contrasts pragmatic with debating the ideal solution, confirming its meaning as practical and realistic."
+  },
+  {
+    "id": 38,
+    "topic": "Vocabulary in Context",
+    "difficulty": "medium",
+    "question": "What does EQUIVOCAL mean in this sentence: 'The politician gave an equivocal answer that left the press uncertain about his true position.'",
+    "options": { "A": "Honest", "B": "Ambiguous", "C": "Confident", "D": "Irrelevant" },
+    "correct": "B",
+    "explanation": "EQUIVOCAL means open to more than one interpretation; ambiguous. The context (press left uncertain) confirms the meaning relates to ambiguity and lack of clarity."
+  },
+  {
+    "id": 39,
+    "topic": "Vocabulary in Context",
+    "difficulty": "medium",
+    "question": "Select the correct meaning of PERFIDIOUS in context: 'His perfidious behavior — betraying his friends at the first sign of trouble — shocked everyone who knew him.'",
+    "options": { "A": "Loyal", "B": "Treacherous", "C": "Cautious", "D": "Generous" },
+    "correct": "B",
+    "explanation": "PERFIDIOUS means deceitful and untrustworthy; guilty of betrayal. The context explicitly mentions betraying friends, confirming the meaning as treacherous."
+  },
+  {
+    "id": 40,
+    "topic": "Vocabulary in Context",
+    "difficulty": "hard",
+    "question": "What does SOLIPSISTIC mean in this context: 'The novel's narrator was so solipsistic that he interpreted every global event solely through the lens of its effect on his personal life.'",
+    "options": {
+      "A": "Self-absorbed; viewing everything in terms of one's own experience",
+      "B": "Philosophical and deeply analytical",
+      "C": "Concerned with the welfare of others",
+      "D": "Unable to understand complex situations"
+    },
+    "correct": "A",
+    "explanation": "SOLIPSISTIC refers to being absorbed in one's own existence or experience, often to the exclusion of considering others. The context shows the narrator only cares about how events affect him personally."
+  },
+  {
+    "id": 41,
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "question": "PHYSICIAN : STETHOSCOPE :: CARPENTER : ___",
+    "options": { "A": "Hammer", "B": "Hospital", "C": "Wood", "D": "Blueprint" },
+    "correct": "A",
+    "explanation": "A physician uses a stethoscope as a primary tool; a carpenter uses a hammer as a primary tool. Both are characteristic instruments of each profession."
+  },
+  {
+    "id": 42,
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "question": "DROUGHT : WATER :: FAMINE : ___",
+    "options": { "A": "Hunger", "B": "Food", "C": "Rain", "D": "Poverty" },
+    "correct": "B",
+    "explanation": "A drought is an extreme shortage of water; a famine is an extreme shortage of food. The relationship is: condition : the thing that is lacking."
+  },
+  {
+    "id": 43,
+    "topic": "Analogies",
+    "difficulty": "medium",
+    "question": "LACONIC : WORDS :: FRUGAL : ___",
+    "options": { "A": "Food", "B": "Time", "C": "Money", "D": "Effort" },
+    "correct": "C",
+    "explanation": "LACONIC means using very few words; someone laconic is sparing with words. FRUGAL means being careful with money; someone frugal is sparing with money. The relationship is: adjective : the thing one is sparing with."
+  },
+  {
+    "id": 44,
+    "topic": "Analogies",
+    "difficulty": "medium",
+    "question": "ARCHIPELAGO : ISLANDS :: CONSTELLATION : ___",
+    "options": { "A": "Planets", "B": "Galaxies", "C": "Stars", "D": "Comets" },
+    "correct": "C",
+    "explanation": "An archipelago is a group of islands; a constellation is a group of stars. The relationship is: collective group name : the individual members of that group."
+  },
+  {
+    "id": 45,
+    "topic": "Analogies",
+    "difficulty": "hard",
+    "question": "SYCOPHANT : FLATTER :: ICONOCLAST : ___",
+    "options": { "A": "Worship", "B": "Challenge", "C": "Preserve", "D": "Imitate" },
+    "correct": "B",
+    "explanation": "A sycophant characteristically flatters others to gain favor. An iconoclast characteristically challenges or attacks cherished beliefs and established institutions. Both describe a person and their defining action."
+  },
+  {
+    "id": 46,
+    "topic": "Sentence Completion",
+    "difficulty": "easy",
+    "question": "Despite the heavy criticism, the author remained _____ about the quality of her work.",
+    "options": { "A": "Despondent", "B": "Defensive", "C": "Sanguine", "D": "Indifferent" },
+    "correct": "C",
+    "explanation": "SANGUINE means optimistic, especially in a difficult situation. The sentence implies she maintained a positive attitude despite criticism, making 'sanguine' the best fit. 'Indifferent' lacks the positive connotation implied."
+  },
+  {
+    "id": 47,
+    "topic": "Sentence Completion",
+    "difficulty": "easy",
+    "question": "The treaty was seen as _____ because it satisfied neither party and left major disputes unresolved.",
+    "options": { "A": "Comprehensive", "B": "Provisional", "C": "Definitive", "D": "Ineffectual" },
+    "correct": "D",
+    "explanation": "INEFFECTUAL means not producing the intended effect or result. Since the treaty satisfied neither party and left disputes unresolved, it failed its purpose, making 'ineffectual' the best choice."
+  },
+  {
+    "id": 48,
+    "topic": "Sentence Completion",
+    "difficulty": "medium",
+    "question": "The CEO's _____ management style, characterized by micromanaging every decision, stifled creativity among her team members.",
+    "options": { "A": "Laissez-faire", "B": "Autocratic", "C": "Collaborative", "D": "Visionary" },
+    "correct": "B",
+    "explanation": "AUTOCRATIC describes a leader who holds absolute power and makes decisions without consulting others, often involving micromanagement. This aligns with the description in the sentence. 'Laissez-faire' is the opposite — a hands-off style."
+  },
+  {
+    "id": 49,
+    "topic": "Sentence Completion",
+    "difficulty": "medium",
+    "question": "Though the novel received _____ reviews upon publication, it is now considered a masterpiece of twentieth-century literature.",
+    "options": { "A": "Glowing", "B": "Lukewarm", "C": "Scathing", "D": "Effusive" },
+    "correct": "B",
+    "explanation": "The contrast word 'though' signals a contrast between the initial reception and current recognition. LUKEWARM means unenthusiastic or indifferent, creating the appropriate contrast: not praised initially, but now considered a masterpiece. 'Scathing' would be too harsh a contrast with 'masterpiece'."
+  },
+  {
+    "id": 50,
+    "topic": "Critical Reading",
+    "difficulty": "hard",
+    "question": "Read the argument: 'The city should invest in electric buses because they produce zero emissions at the point of use, reducing urban air pollution. Studies show that cities which have adopted electric buses have seen a 30% reduction in particulate matter.' Which of the following, if true, would most weaken this argument?",
+    "options": {
+      "A": "Electric buses cost more to purchase than diesel buses.",
+      "B": "The electricity used to charge these buses is generated primarily from coal-fired power plants.",
+      "C": "Some passengers prefer the quieter ride offered by electric buses.",
+      "D": "Diesel buses require more maintenance than electric buses."
+    },
+    "correct": "B",
+    "explanation": "The argument claims electric buses reduce pollution because they produce 'zero emissions at the point of use'. Option B weakens this by showing that the electricity powering them comes from coal, meaning pollution is simply displaced from the streets to the power plants — the net environmental benefit may be minimal or nonexistent."
+  }
+]

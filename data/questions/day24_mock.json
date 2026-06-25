@@ -1,0 +1,577 @@
+[
+  {
+    "id": 1,
+    "section": "quantitative",
+    "topic": "Percentages",
+    "difficulty": "easy",
+    "question": "A student scored 72 out of 120 in a test. What percentage did the student score?",
+    "options": { "A": "55%", "B": "60%", "C": "65%", "D": "70%" },
+    "correct": "B",
+    "explanation": "72 / 120 × 100 = 60%."
+  },
+  {
+    "id": 2,
+    "section": "quantitative",
+    "topic": "Percentages",
+    "difficulty": "medium",
+    "question": "A price is first increased by 20% and then decreased by 15%. What is the net percentage change?",
+    "options": { "A": "2% increase", "B": "2% decrease", "C": "5% increase", "D": "5% decrease" },
+    "correct": "A",
+    "explanation": "Net factor = 1.20 × 0.85 = 1.02. Net change = +2%."
+  },
+  {
+    "id": 3,
+    "section": "quantitative",
+    "topic": "Percentages",
+    "difficulty": "hard",
+    "question": "In an election, 80% of registered voters cast votes. Candidate A won with 55% of votes cast, beating Candidate B by 1,200 votes. How many voters were registered?",
+    "options": { "A": "10,000", "B": "12,500", "C": "15,000", "D": "18,000" },
+    "correct": "C",
+    "explanation": "Margin = (55%−45%) of votes cast = 10% of votes cast = 1,200. Votes cast = 12,000. Registered = 12,000 / 0.80 = 15,000."
+  },
+  {
+    "id": 4,
+    "section": "quantitative",
+    "topic": "Ratio & Proportion",
+    "difficulty": "easy",
+    "question": "Two numbers are in the ratio 5:7. Their sum is 96. What is the larger number?",
+    "options": { "A": "40", "B": "42", "C": "56", "D": "60" },
+    "correct": "C",
+    "explanation": "Larger = 7/12 × 96 = 56."
+  },
+  {
+    "id": 5,
+    "section": "quantitative",
+    "topic": "Ratio & Proportion",
+    "difficulty": "medium",
+    "question": "A mixture has milk and water in the ratio 7:3. Adding 10 litres of water changes the ratio to 7:4. How many litres of milk are in the original mixture?",
+    "options": { "A": "49", "B": "56", "C": "63", "D": "70" },
+    "correct": "D",
+    "explanation": "Let milk = 7k, water = 3k. After: 7k/(3k+10) = 7/4 → 28k = 21k+70 → k = 10. Milk = 70 litres."
+  },
+  {
+    "id": 6,
+    "section": "quantitative",
+    "topic": "Profit Loss & Discount",
+    "difficulty": "easy",
+    "question": "An item bought for Rs. 450 is sold for Rs. 540. What is the profit percentage?",
+    "options": { "A": "15%", "B": "18%", "C": "20%", "D": "25%" },
+    "correct": "C",
+    "explanation": "Profit = 90. Profit% = 90/450 × 100 = 20%."
+  },
+  {
+    "id": 7,
+    "section": "quantitative",
+    "topic": "Profit Loss & Discount",
+    "difficulty": "medium",
+    "question": "A shopkeeper marks goods 40% above cost price and gives a 15% discount. What is the profit percentage?",
+    "options": { "A": "16%", "B": "17%", "C": "19%", "D": "21%" },
+    "correct": "C",
+    "explanation": "SP = 1.40 × 0.85 × CP = 1.19 CP. Profit = 19%."
+  },
+  {
+    "id": 8,
+    "section": "quantitative",
+    "topic": "Time Speed & Distance",
+    "difficulty": "easy",
+    "question": "A car travels 270 km in 4.5 hours. What is its average speed?",
+    "options": { "A": "55 km/h", "B": "60 km/h", "C": "65 km/h", "D": "70 km/h" },
+    "correct": "B",
+    "explanation": "Speed = 270 / 4.5 = 60 km/h."
+  },
+  {
+    "id": 9,
+    "section": "quantitative",
+    "topic": "Time Speed & Distance",
+    "difficulty": "medium",
+    "question": "Two trains 150 m and 250 m long run in the same direction at 72 km/h and 54 km/h respectively. How long does it take the faster train to completely pass the slower?",
+    "options": { "A": "60 s", "B": "80 s", "C": "100 s", "D": "120 s" },
+    "correct": "B",
+    "explanation": "Relative speed = 18 km/h = 5 m/s. Total length = 400 m. Time = 400/5 = 80 seconds."
+  },
+  {
+    "id": 10,
+    "section": "quantitative",
+    "topic": "Work & Pipes",
+    "difficulty": "medium",
+    "question": "Pipe A fills a tank in 12 hours, Pipe B in 18 hours, and Pipe C empties it in 9 hours. If all three are open simultaneously, how long does the tank take to fill?",
+    "options": { "A": "18 hours", "B": "24 hours", "C": "30 hours", "D": "36 hours" },
+    "correct": "D",
+    "explanation": "Net rate = 1/12 + 1/18 − 1/9 = 3/36 + 2/36 − 4/36 = 1/36. Time = 36 hours."
+  },
+  {
+    "id": 11,
+    "section": "quantitative",
+    "topic": "Number Properties & Divisibility",
+    "difficulty": "easy",
+    "question": "What is the largest 3-digit number divisible by both 8 and 12?",
+    "options": { "A": "960", "B": "972", "C": "984", "D": "996" },
+    "correct": "C",
+    "explanation": "LCM(8,12) = 24. Largest 3-digit multiple: floor(999/24) = 41; 41 × 24 = 984."
+  },
+  {
+    "id": 12,
+    "section": "quantitative",
+    "topic": "Probability & Combinatorics",
+    "difficulty": "medium",
+    "question": "A bag has 5 red, 4 blue, and 3 green balls. Two balls are drawn at random. What is the probability that both are the same colour?",
+    "options": { "A": "19/66", "B": "22/66", "C": "26/66", "D": "33/66" },
+    "correct": "A",
+    "explanation": "Total C(12,2)=66. Same colour: C(5,2)+C(4,2)+C(3,2) = 10+6+3 = 19. P = 19/66."
+  },
+  {
+    "id": 13,
+    "section": "quantitative",
+    "topic": "Geometry & Mensuration",
+    "difficulty": "medium",
+    "question": "A cylindrical tank has radius 7 m and height 10 m. What is its volume? (Use π = 22/7)",
+    "options": { "A": "1,320 m³", "B": "1,540 m³", "C": "1,760 m³", "D": "2,000 m³" },
+    "correct": "B",
+    "explanation": "V = πr²h = (22/7)(49)(10) = 22 × 70 = 1,540 m³."
+  },
+  {
+    "id": 14,
+    "section": "quantitative",
+    "topic": "Coordinate Geometry",
+    "difficulty": "medium",
+    "question": "Find the distance between points (−3, 4) and (5, −2).",
+    "options": { "A": "8", "B": "10", "C": "12", "D": "14" },
+    "correct": "B",
+    "explanation": "Distance = √((5−(−3))²+(−2−4)²) = √(64+36) = √100 = 10."
+  },
+  {
+    "id": 15,
+    "section": "quantitative",
+    "topic": "Sequences Series & Interest",
+    "difficulty": "easy",
+    "question": "What is the compound interest on Rs. 8,000 at 10% per annum for 2 years (compounded annually)?",
+    "options": { "A": "Rs. 1,600", "B": "Rs. 1,680", "C": "Rs. 1,720", "D": "Rs. 1,760" },
+    "correct": "B",
+    "explanation": "Amount = 8000 × 1.1² = 8000 × 1.21 = 9,680. CI = 9,680 − 8,000 = 1,680."
+  },
+  {
+    "id": 16,
+    "section": "quantitative",
+    "topic": "Quadratic Equations",
+    "difficulty": "medium",
+    "question": "If x² − 7x + 12 = 0, what are the roots?",
+    "options": { "A": "3 and 4", "B": "2 and 6", "C": "1 and 12", "D": "−3 and −4" },
+    "correct": "A",
+    "explanation": "(x−3)(x−4) = 0 → x = 3 or x = 4."
+  },
+  {
+    "id": 17,
+    "section": "quantitative",
+    "topic": "Averages & Mixtures",
+    "difficulty": "easy",
+    "question": "The average of 8 numbers is 24. When one number is removed, the average of the remaining 7 drops to 22. What is the removed number?",
+    "options": { "A": "36", "B": "38", "C": "40", "D": "42" },
+    "correct": "B",
+    "explanation": "Total of 8 = 192. Total of 7 = 154. Removed = 192 − 154 = 38."
+  },
+  {
+    "id": 18,
+    "section": "quantitative",
+    "topic": "Algebra & Inequalities",
+    "difficulty": "hard",
+    "question": "For what values of x is 2x² − 5x − 3 > 0?",
+    "options": { "A": "x < −1/2 or x > 3", "B": "−1/2 < x < 3", "C": "x < −3 or x > 1/2", "D": "x > 3 only" },
+    "correct": "A",
+    "explanation": "2x²−5x−3 = (2x+1)(x−3). Expression > 0 when both factors have the same sign: x > 3 or x < −1/2."
+  },
+  {
+    "id": 19,
+    "section": "quantitative",
+    "topic": "Probability & Combinatorics",
+    "difficulty": "hard",
+    "question": "How many 4-digit numbers can be formed from the digits 1, 2, 3, 4, 5 (no repetition) that are divisible by 4?",
+    "options": { "A": "24", "B": "30", "C": "36", "D": "48" },
+    "correct": "A",
+    "explanation": "Divisibility by 4 depends on the last two digits. Valid endings from the set (divisible by 4): 12, 24, 32, 52 — 4 pairs. Remaining 3 digits can be arranged in 3! = 6 ways. Total = 4 × 6 = 24."
+  },
+  {
+    "id": 20,
+    "section": "quantitative",
+    "topic": "Work & Pipes",
+    "difficulty": "hard",
+    "question": "A and B together complete a task in 15 days. B and C together in 20 days. A and C together in 12 days. In how many days can all three complete the task together?",
+    "options": { "A": "8 days", "B": "10 days", "C": "12 days", "D": "15 days" },
+    "correct": "B",
+    "explanation": "2(A+B+C) = 1/15+1/20+1/12 = 4/60+3/60+5/60 = 12/60 = 1/5. So A+B+C = 1/10 per day. Time = 10 days."
+  },
+  {
+    "id": 21,
+    "section": "verbal",
+    "topic": "Subject-Verb Agreement",
+    "difficulty": "easy",
+    "question": "Choose the grammatically correct sentence:",
+    "options": {
+      "A": "The team are playing well this season.",
+      "B": "The team is playing well this season.",
+      "C": "The team were playing well this season.",
+      "D": "The team have played well this season."
+    },
+    "correct": "B",
+    "explanation": "'Team' is a collective noun used as a singular unit; it takes the singular verb 'is'."
+  },
+  {
+    "id": 22,
+    "section": "verbal",
+    "topic": "Subject-Verb Agreement",
+    "difficulty": "medium",
+    "question": "Select the grammatically correct sentence:",
+    "options": {
+      "A": "Neither the manager nor the employees was informed.",
+      "B": "Neither the manager nor the employees were informed.",
+      "C": "Neither the manager nor the employees has been informed.",
+      "D": "Neither the manager nor the employees is informed."
+    },
+    "correct": "B",
+    "explanation": "With 'neither...nor', the verb agrees with the nearest subject. 'Employees' is plural, so 'were' is correct."
+  },
+  {
+    "id": 23,
+    "section": "verbal",
+    "topic": "Parallelism & Sentence Structure",
+    "difficulty": "medium",
+    "question": "Which sentence uses correct parallel structure?",
+    "options": {
+      "A": "She likes hiking, to swim, and cycling.",
+      "B": "She likes hiking, swimming, and to cycle.",
+      "C": "She likes hiking, swimming, and cycling.",
+      "D": "She likes to hike, swimming, and cycling."
+    },
+    "correct": "C",
+    "explanation": "All three items — hiking, swimming, cycling — are gerunds, maintaining parallel structure."
+  },
+  {
+    "id": 24,
+    "section": "verbal",
+    "topic": "Modifier Placement",
+    "difficulty": "medium",
+    "question": "Which sentence correctly places the participial modifier?",
+    "options": {
+      "A": "Running down the street, the bus was missed by Sarah.",
+      "B": "Running down the street, Sarah missed the bus.",
+      "C": "Sarah missed the bus, running down the street.",
+      "D": "The bus was missed running down the street by Sarah."
+    },
+    "correct": "B",
+    "explanation": "The participial phrase 'Running down the street' must immediately precede the noun it modifies — Sarah."
+  },
+  {
+    "id": 25,
+    "section": "verbal",
+    "topic": "Tense Consistency",
+    "difficulty": "easy",
+    "question": "Choose the sentence with consistent verb tense:",
+    "options": {
+      "A": "He opened the door and walks inside.",
+      "B": "He opens the door and walked inside.",
+      "C": "He opened the door and walked inside.",
+      "D": "He opens the door and will walk inside."
+    },
+    "correct": "C",
+    "explanation": "'Opened' and 'walked' are both simple past tense, maintaining consistency."
+  },
+  {
+    "id": 26,
+    "section": "verbal",
+    "topic": "Sentence Correction",
+    "difficulty": "medium",
+    "question": "Correct the sentence: 'The number of applicants for the scholarship are increasing every year.'",
+    "options": {
+      "A": "applicants for the scholarship is increasing",
+      "B": "applicants for the scholarship has increased",
+      "C": "applicants for the scholarship are increasing (no change needed)",
+      "D": "applicants for the scholarship were increasing"
+    },
+    "correct": "A",
+    "explanation": "'The number of' takes a singular verb. Correct form: 'The number of applicants... is increasing.'"
+  },
+  {
+    "id": 27,
+    "section": "verbal",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "question": "Passage: 'Biodiversity encompasses the variety of species, genes, and ecosystems on Earth. Human activities — deforestation, pollution, and climate change — pose the greatest threats. Scientists warn that current extinction rates are 1,000 times the natural background rate.' Which threat is NOT mentioned in the passage?",
+    "options": {
+      "A": "Deforestation",
+      "B": "Pollution",
+      "C": "Overpopulation",
+      "D": "Climate change"
+    },
+    "correct": "C",
+    "explanation": "The passage lists deforestation, pollution, and climate change. Overpopulation is not mentioned."
+  },
+  {
+    "id": 28,
+    "section": "verbal",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "question": "Passage: 'AI transforms industries by automating routine tasks and enabling predictive analytics. However, critics argue it displaces workers and worsens income inequality, as benefits accrue to capital owners rather than labor.' The primary purpose of the second sentence is to:",
+    "options": {
+      "A": "Endorse the economic benefits of AI.",
+      "B": "Present social concerns about AI's impact.",
+      "C": "Argue that AI development should stop.",
+      "D": "Explain how predictive analytics works."
+    },
+    "correct": "B",
+    "explanation": "The second sentence introduces counterarguments about job displacement and unequal distribution of gains — social concerns."
+  },
+  {
+    "id": 29,
+    "section": "verbal",
+    "topic": "Synonyms & Antonyms",
+    "difficulty": "easy",
+    "question": "What is the best synonym for LUCID?",
+    "options": { "A": "Obscure", "B": "Clear", "C": "Dim", "D": "Vague" },
+    "correct": "B",
+    "explanation": "'Lucid' means clear and easily understood."
+  },
+  {
+    "id": 30,
+    "section": "verbal",
+    "topic": "Synonyms & Antonyms",
+    "difficulty": "medium",
+    "question": "Choose the antonym of MAGNANIMOUS:",
+    "options": { "A": "Generous", "B": "Noble", "C": "Petty", "D": "Forgiving" },
+    "correct": "C",
+    "explanation": "'Magnanimous' means generous and forgiving. Its antonym is 'petty' (small-minded or mean-spirited)."
+  },
+  {
+    "id": 31,
+    "section": "verbal",
+    "topic": "Vocabulary in Context",
+    "difficulty": "medium",
+    "question": "In 'The politician's RHETORIC impressed the crowd but failed to address real issues,' 'rhetoric' most nearly means:",
+    "options": { "A": "Silence", "B": "Logical argument", "C": "Persuasive language", "D": "Written policy" },
+    "correct": "C",
+    "explanation": "'Rhetoric' refers to language crafted to persuade — often implying style over substance."
+  },
+  {
+    "id": 32,
+    "section": "verbal",
+    "topic": "Vocabulary in Context",
+    "difficulty": "hard",
+    "question": "In 'The scientist's SEMINAL paper laid the groundwork for decades of research,' 'seminal' most nearly means:",
+    "options": { "A": "Final and conclusive", "B": "Highly original and influential", "C": "Controversial and debated", "D": "Poorly organised" },
+    "correct": "B",
+    "explanation": "'Seminal' describes work that is original and forms the basis for future developments."
+  },
+  {
+    "id": 33,
+    "section": "verbal",
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "question": "AUTHOR : NOVEL :: COMPOSER : ?",
+    "options": { "A": "Book", "B": "Symphony", "C": "Instrument", "D": "Stage" },
+    "correct": "B",
+    "explanation": "An author creates a novel; a composer creates a symphony. Same creator-to-creation relationship."
+  },
+  {
+    "id": 34,
+    "section": "verbal",
+    "topic": "Analogies",
+    "difficulty": "medium",
+    "question": "THIRST : WATER :: HUNGER : ?",
+    "options": { "A": "Sleep", "B": "Drink", "C": "Food", "D": "Appetite" },
+    "correct": "C",
+    "explanation": "Thirst is the need satisfied by water; hunger is the need satisfied by food."
+  },
+  {
+    "id": 35,
+    "section": "verbal",
+    "topic": "Sentence Completion",
+    "difficulty": "easy",
+    "question": "Despite the harsh weather, the climbers remained ______, determined to reach the summit.",
+    "options": { "A": "despondent", "B": "resolute", "C": "hesitant", "D": "indifferent" },
+    "correct": "B",
+    "explanation": "'Resolute' means admirably purposeful and determined, consistent with the context of pressing on despite difficulty."
+  },
+  {
+    "id": 36,
+    "section": "verbal",
+    "topic": "Sentence Completion",
+    "difficulty": "medium",
+    "question": "The professor's lecture was so ______ that even the most distracted students found themselves engaged.",
+    "options": { "A": "tedious", "B": "confusing", "C": "captivating", "D": "irrelevant" },
+    "correct": "C",
+    "explanation": "'Captivating' means holding interest compellingly — the only option consistent with engaging distracted students."
+  },
+  {
+    "id": 37,
+    "section": "verbal",
+    "topic": "Critical Reading",
+    "difficulty": "hard",
+    "question": "Argument: 'All students who study regularly score above 80%. Meena scored 90%. Therefore, Meena studies regularly.' This argument is flawed because:",
+    "options": {
+      "A": "The conclusion contradicts the premise.",
+      "B": "It treats a sufficient condition as if it were also necessary.",
+      "C": "Meena's score is too high to be credible.",
+      "D": "Scoring above 80% is unrelated to studying."
+    },
+    "correct": "B",
+    "explanation": "Studying regularly is sufficient for scoring above 80%, not the only way. Meena could score 90% for other reasons. This is affirming the consequent."
+  },
+  {
+    "id": 38,
+    "section": "verbal",
+    "topic": "Parallelism & Sentence Structure",
+    "difficulty": "hard",
+    "question": "Identify the sentence with faulty parallelism:",
+    "options": {
+      "A": "The CEO is known for her intelligence, dedication, and vision.",
+      "B": "To succeed, one must work hard, stay focused, and having patience.",
+      "C": "The report was thorough, accurate, and well-organised.",
+      "D": "They arrived early, worked efficiently, and left on time."
+    },
+    "correct": "B",
+    "explanation": "'Work hard, stay focused' are infinitives without 'to', but 'having patience' is a participle — breaking the parallel structure. Should be 'have patience'."
+  },
+  {
+    "id": 39,
+    "section": "verbal",
+    "topic": "Modifier Placement",
+    "difficulty": "easy",
+    "question": "Which sentence contains a misplaced modifier?",
+    "options": {
+      "A": "She found the key quickly.",
+      "B": "Barking loudly, the dog scared the mailman.",
+      "C": "He almost drove his car to the park every day.",
+      "D": "The child with the red hat waved at us."
+    },
+    "correct": "C",
+    "explanation": "'Almost' is misplaced — it modifies 'drove', suggesting he nearly drove but didn't. The intended meaning is 'almost every day'. Correct: 'He drove his car to the park almost every day.'"
+  },
+  {
+    "id": 40,
+    "section": "verbal",
+    "topic": "Critical Reading",
+    "difficulty": "medium",
+    "question": "Passage: 'City planners propose a new highway to reduce traffic. Studies show adding road capacity initially cuts congestion, but within five years traffic volume grows to fill the new capacity, restoring original congestion levels.' Which conclusion does the passage best support?",
+    "options": {
+      "A": "The highway will permanently solve traffic congestion.",
+      "B": "New highways always make congestion worse immediately.",
+      "C": "Adding road capacity may not provide a lasting solution.",
+      "D": "City planners should avoid studying traffic patterns."
+    },
+    "correct": "C",
+    "explanation": "The passage describes induced demand — traffic fills added capacity. This supports the view that more roads may not durably reduce congestion."
+  },
+  {
+    "id": 41,
+    "section": "analytical",
+    "topic": "Syllogisms",
+    "difficulty": "easy",
+    "question": "Statements: All mangoes are fruits. All fruits are nutritious. Conclusion: All mangoes are nutritious. The conclusion is:",
+    "options": { "A": "Valid", "B": "Invalid", "C": "Uncertain", "D": "Partially valid" },
+    "correct": "A",
+    "explanation": "By transitivity: All mangoes are fruits, and all fruits are nutritious, so all mangoes are nutritious. The syllogism is valid."
+  },
+  {
+    "id": 42,
+    "section": "analytical",
+    "topic": "Conditional Logic (If-Then)",
+    "difficulty": "medium",
+    "question": "If it is a public holiday, the bank is closed. The bank is open today. What can we conclude?",
+    "options": {
+      "A": "Today is a public holiday.",
+      "B": "Today is not a public holiday.",
+      "C": "The bank is always open on weekdays.",
+      "D": "Nothing can be concluded."
+    },
+    "correct": "B",
+    "explanation": "Contrapositive: If bank is open → not a holiday. Since the bank is open, today is not a public holiday."
+  },
+  {
+    "id": 43,
+    "section": "analytical",
+    "topic": "Strengthen & Weaken Arguments",
+    "difficulty": "medium",
+    "question": "Argument: 'Students who eat breakfast perform better academically.' Which statement most weakens this?",
+    "options": {
+      "A": "Breakfast provides nutrients that support brain function.",
+      "B": "Students from wealthier families are more likely to eat breakfast and also receive better tutoring.",
+      "C": "Several peer-reviewed studies confirm breakfast improves concentration.",
+      "D": "Schools with free breakfast programs show improved attendance."
+    },
+    "correct": "B",
+    "explanation": "If income confounds both breakfast habits and academic resources, the causal link between breakfast and performance is undermined."
+  },
+  {
+    "id": 44,
+    "section": "analytical",
+    "topic": "Assumption Questions",
+    "difficulty": "hard",
+    "question": "Argument: 'Our training program reduced workplace accidents by 30%. We should expand it to all departments.' The most critical assumption is:",
+    "options": {
+      "A": "The training program is inexpensive to run.",
+      "B": "The accident reduction was caused by the program, not other factors.",
+      "C": "All departments have the same accident rates.",
+      "D": "Accidents were very common before the program."
+    },
+    "correct": "B",
+    "explanation": "The argument requires that the training — not confounding variables like new equipment or reduced headcount — caused the reduction."
+  },
+  {
+    "id": 45,
+    "section": "analytical",
+    "topic": "Data Interpretation",
+    "difficulty": "medium",
+    "question": "Monthly sales (Rs. lakhs) in Q1: Jan = 45, Feb = 60, Mar = 75. What is the percentage increase in sales from January to March?",
+    "options": { "A": "50%", "B": "60%", "C": "66.7%", "D": "75%" },
+    "correct": "C",
+    "explanation": "Increase = 75 − 45 = 30. Percentage = (30/45) × 100 = 66.7%."
+  },
+  {
+    "id": 46,
+    "section": "analytical",
+    "topic": "Linear Arrangement",
+    "difficulty": "medium",
+    "question": "Five people — A, B, C, D, E — sit in a row. A is at one end. D sits next to A. C is not adjacent to D. B sits next to C. Who sits in the middle (position 3)?",
+    "options": { "A": "B", "B": "C", "C": "D", "D": "E" },
+    "correct": "D",
+    "explanation": "A is at position 1, D at 2. C cannot be at 3 (adjacent to D). So E is at 3 (middle). B and C occupy 4 and 5 in either order, with B next to C."
+  },
+  {
+    "id": 47,
+    "section": "analytical",
+    "topic": "Blood Relations",
+    "difficulty": "easy",
+    "question": "Pointing to a photograph, Rania says, 'His mother is the only daughter of my mother.' How is the person in the photograph related to Rania?",
+    "options": { "A": "Brother", "B": "Nephew", "C": "Son", "D": "Father" },
+    "correct": "C",
+    "explanation": "The only daughter of Rania's mother is Rania herself. So the person's mother is Rania — making him Rania's son."
+  },
+  {
+    "id": 48,
+    "section": "analytical",
+    "topic": "Direction Sense",
+    "difficulty": "medium",
+    "question": "From point X, Ali walks 6 km north, then 8 km east, then 6 km south. How far is Ali from X, and in which direction?",
+    "options": { "A": "8 km East", "B": "6 km East", "C": "10 km North-East", "D": "14 km East" },
+    "correct": "A",
+    "explanation": "6 km north then 6 km south cancel out. Net displacement = 8 km east. Ali is 8 km east of X."
+  },
+  {
+    "id": 49,
+    "section": "analytical",
+    "topic": "Coding-Decoding",
+    "difficulty": "medium",
+    "question": "If GARDEN is coded as HBSEFO (each letter shifted +1), how is FLOWER coded?",
+    "options": { "A": "GMPXFS", "B": "ELPVDQ", "C": "GMPXFR", "D": "HMQYGT" },
+    "correct": "A",
+    "explanation": "Each letter shifts +1: F→G, L→M, O→P, W→X, E→F, R→S = GMPXFS."
+  },
+  {
+    "id": 50,
+    "section": "analytical",
+    "topic": "Ranking & Ordering",
+    "difficulty": "hard",
+    "question": "In a class of 40 students, Zara ranks 12th from the top and Hamid ranks 18th from the bottom. How many students are ranked between Zara and Hamid?",
+    "options": { "A": "8", "B": "10", "C": "11", "D": "12" },
+    "correct": "B",
+    "explanation": "Zara is position 12 from top. Hamid is position 40−18+1 = 23 from top. Students strictly between them = 23−12−1 = 10."
+  }
+]

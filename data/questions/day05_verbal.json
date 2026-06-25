@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "topic": "Subject-Verb Agreement",
+    "difficulty": "easy",
+    "question": "Which sentence is grammatically correct?",
+    "options": {
+      "A": "The list of items are on the table.",
+      "B": "The list of items is on the table.",
+      "C": "The list of items were on the table.",
+      "D": "The list of items have been on the table."
+    },
+    "correct": "B",
+    "explanation": "The subject is 'list' (singular), not 'items'. A prepositional phrase does not change the number of the subject, so the verb must be singular: 'is'."
+  },
+  {
+    "id": 2,
+    "topic": "Subject-Verb Agreement",
+    "difficulty": "easy",
+    "question": "Choose the sentence with correct subject-verb agreement.",
+    "options": {
+      "A": "Neither the teacher nor the students was present.",
+      "B": "Neither the teacher nor the students were present.",
+      "C": "Neither the teacher nor the students has been present.",
+      "D": "Neither the teacher nor the students is present."
+    },
+    "correct": "B",
+    "explanation": "With 'neither...nor', the verb agrees with the subject closest to it. 'Students' is plural, so the verb must be 'were'."
+  },
+  {
+    "id": 3,
+    "topic": "Subject-Verb Agreement",
+    "difficulty": "medium",
+    "question": "Select the correctly written sentence.",
+    "options": {
+      "A": "The committee have reached its decision.",
+      "B": "The committee has reached their decision.",
+      "C": "The committee has reached its decision.",
+      "D": "The committee have reached their decision."
+    },
+    "correct": "C",
+    "explanation": "'Committee' is a collective noun acting as a single unit, requiring a singular verb 'has' and singular pronoun 'its'."
+  },
+  {
+    "id": 4,
+    "topic": "Subject-Verb Agreement",
+    "difficulty": "medium",
+    "question": "Identify the sentence with correct subject-verb agreement.",
+    "options": {
+      "A": "Each of the boys have completed their homework.",
+      "B": "Each of the boys has completed his homework.",
+      "C": "Each of the boys have completed his homework.",
+      "D": "Each of the boys has completed their homework."
+    },
+    "correct": "B",
+    "explanation": "'Each' is an indefinite pronoun that always takes a singular verb ('has') and singular pronoun ('his')."
+  },
+  {
+    "id": 5,
+    "topic": "Subject-Verb Agreement",
+    "difficulty": "hard",
+    "question": "Which sentence demonstrates correct subject-verb agreement?",
+    "options": {
+      "A": "Politics are a dirty game in most countries.",
+      "B": "Politics is a dirty game in most countries.",
+      "C": "Politics were a dirty game in most countries.",
+      "D": "Politics have always been a dirty game."
+    },
+    "correct": "B",
+    "explanation": "'Politics' when used as an academic subject or concept takes a singular verb. The correct form is 'Politics is'."
+  },
+  {
+    "id": 6,
+    "topic": "Parallelism & Sentence Structure",
+    "difficulty": "easy",
+    "question": "Which sentence correctly uses parallel structure?",
+    "options": {
+      "A": "She likes hiking, to swim, and to run marathons.",
+      "B": "She likes hiking, swimming, and running marathons.",
+      "C": "She likes to hike, swimming, and run marathons.",
+      "D": "She likes to hike, to swim, and running marathons."
+    },
+    "correct": "B",
+    "explanation": "Parallel structure requires that items in a list use the same grammatical form. Option B uses gerunds (hiking, swimming, running) consistently."
+  },
+  {
+    "id": 7,
+    "topic": "Parallelism & Sentence Structure",
+    "difficulty": "easy",
+    "question": "Choose the sentence that maintains parallel structure.",
+    "options": {
+      "A": "The manager is responsible for hiring staff, to train employees, and setting budgets.",
+      "B": "The manager is responsible for hiring staff, training employees, and setting budgets.",
+      "C": "The manager is responsible for hiring staff, training employees, and to set budgets.",
+      "D": "The manager is responsible to hire staff, training employees, and set budgets."
+    },
+    "correct": "B",
+    "explanation": "Option B maintains parallel gerund structure (hiring, training, setting) throughout the list of responsibilities."
+  },
+  {
+    "id": 8,
+    "topic": "Parallelism & Sentence Structure",
+    "difficulty": "medium",
+    "question": "Which version of the sentence best demonstrates parallel structure?",
+    "options": {
+      "A": "The report was thorough, it was accurate, and it was submitted on time.",
+      "B": "The report was thorough, accurate, and on time.",
+      "C": "The report was thorough, accurately written, and submitted on time.",
+      "D": "The report was done thoroughly, with accuracy, and submitted on time."
+    },
+    "correct": "B",
+    "explanation": "Option B uses three parallel adjectives (thorough, accurate, on time) after a single subject and verb, making it the most concise and structurally parallel sentence."
+  },
+  {
+    "id": 9,
+    "topic": "Parallelism & Sentence Structure",
+    "difficulty": "medium",
+    "question": "Identify the sentence with faulty parallel structure.",
+    "options": {
+      "A": "He wanted to travel, to write, and to teach.",
+      "B": "He wanted to travel, writing, and to teach.",
+      "C": "He wanted traveling, writing, and teaching.",
+      "D": "He wanted to travel, to write, and to teach others."
+    },
+    "correct": "B",
+    "explanation": "Option B breaks parallel structure by mixing 'to travel' and 'to teach' (infinitives) with 'writing' (gerund). All items in a series must use the same form."
+  },
+  {
+    "id": 10,
+    "topic": "Parallelism & Sentence Structure",
+    "difficulty": "hard",
+    "question": "Which sentence uses the most effective and parallel structure?",
+    "options": {
+      "A": "Not only did she finish the project early, but also she submitted it perfectly.",
+      "B": "Not only did she finish the project early, but she also submitted it perfectly.",
+      "C": "She not only finished the project early, but also submitted it perfectly.",
+      "D": "She not only finished the project early but also submitted it perfectly."
+    },
+    "correct": "D",
+    "explanation": "'Not only...but also' must join parallel elements. In option D, both 'finished the project early' and 'submitted it perfectly' are verb phrases of the same form, making it the most parallel construction."
+  },
+  {
+    "id": 11,
+    "topic": "Modifier Placement",
+    "difficulty": "easy",
+    "question": "Which sentence has a correctly placed modifier?",
+    "options": {
+      "A": "Running down the street, my hat blew off.",
+      "B": "Running down the street, I lost my hat.",
+      "C": "I lost my hat, running down the street.",
+      "D": "My hat was lost running down the street."
+    },
+    "correct": "B",
+    "explanation": "The participial phrase 'Running down the street' must directly modify the subject of the main clause. Only option B correctly has 'I' as the person running."
+  },
+  {
+    "id": 12,
+    "topic": "Modifier Placement",
+    "difficulty": "easy",
+    "question": "Choose the sentence with no dangling modifier.",
+    "options": {
+      "A": "After studying all night, the exam seemed easy.",
+      "B": "After studying all night, she found the exam easy.",
+      "C": "The exam seemed easy after studying all night.",
+      "D": "Studying all night, the exam was easy for her."
+    },
+    "correct": "B",
+    "explanation": "Only option B clearly identifies 'she' as the one who studied all night, correctly linking the participial phrase to its subject."
+  },
+  {
+    "id": 13,
+    "topic": "Modifier Placement",
+    "difficulty": "medium",
+    "question": "Identify the sentence with a misplaced modifier.",
+    "options": {
+      "A": "She nearly drove her children to school every day.",
+      "B": "She drove her children to school nearly every day.",
+      "C": "Nearly every day, she drove her children to school.",
+      "D": "Every day, she nearly drove her children to school."
+    },
+    "correct": "A",
+    "explanation": "In option A, 'nearly' modifies 'drove', suggesting she almost drove but didn't. The intended meaning is that she drove them almost every day, so 'nearly' should modify 'every day'."
+  },
+  {
+    "id": 14,
+    "topic": "Modifier Placement",
+    "difficulty": "medium",
+    "question": "Which sentence correctly places the modifier?",
+    "options": {
+      "A": "The scientist only found two errors in the report.",
+      "B": "The scientist found only two errors in the report.",
+      "C": "Only the scientist found two errors in the report.",
+      "D": "The scientist found two only errors in the report."
+    },
+    "correct": "B",
+    "explanation": "The word 'only' should be placed immediately before what it modifies — 'two errors'. Option B correctly places 'only' to indicate the number of errors found was just two."
+  },
+  {
+    "id": 15,
+    "topic": "Modifier Placement",
+    "difficulty": "hard",
+    "question": "Which version of the sentence best corrects the dangling modifier?",
+    "options": {
+      "A": "To improve your writing, practice is necessary.",
+      "B": "To improve your writing, you must practice regularly.",
+      "C": "Improving your writing requires practice.",
+      "D": "Your writing improves if practice is done regularly."
+    },
+    "correct": "B",
+    "explanation": "The infinitive phrase 'To improve your writing' implies a person doing the improving. Option B correctly assigns this action to 'you', eliminating the dangling modifier."
+  },
+  {
+    "id": 16,
+    "topic": "Tense Consistency",
+    "difficulty": "easy",
+    "question": "Which sentence maintains proper tense consistency?",
+    "options": {
+      "A": "She walked into the room and sees everyone looking at her.",
+      "B": "She walks into the room and saw everyone looking at her.",
+      "C": "She walked into the room and saw everyone looking at her.",
+      "D": "She walk into the room and seen everyone looking at her."
+    },
+    "correct": "C",
+    "explanation": "Both verbs in the sentence should be in the same tense. Option C uses past tense consistently: 'walked' and 'saw'."
+  },
+  {
+    "id": 17,
+    "topic": "Tense Consistency",
+    "difficulty": "easy",
+    "question": "Identify the sentence with consistent tenses.",
+    "options": {
+      "A": "He studied hard, so he passes his exam.",
+      "B": "He studies hard, so he will pass his exam.",
+      "C": "He studied hard, so he passed his exam.",
+      "D": "He will study hard, so he passed his exam."
+    },
+    "correct": "C",
+    "explanation": "Option C correctly uses past tense throughout ('studied' and 'passed'), maintaining tense consistency for a completed action."
+  },
+  {
+    "id": 18,
+    "topic": "Tense Consistency",
+    "difficulty": "medium",
+    "question": "Which sentence uses tenses correctly?",
+    "options": {
+      "A": "By the time she arrived, the movie already started.",
+      "B": "By the time she arrived, the movie had already started.",
+      "C": "By the time she arrived, the movie has already started.",
+      "D": "By the time she arrives, the movie had already started."
+    },
+    "correct": "B",
+    "explanation": "When two past events occur, the earlier event uses past perfect ('had started') and the later one uses simple past ('arrived'). Option B correctly applies this rule."
+  },
+  {
+    "id": 19,
+    "topic": "Tense Consistency",
+    "difficulty": "medium",
+    "question": "Select the sentence with correct tense usage.",
+    "options": {
+      "A": "She has been working here since she graduated three years ago.",
+      "B": "She has been working here since she has graduated three years ago.",
+      "C": "She was working here since she graduated three years ago.",
+      "D": "She had been working here since she has graduated three years ago."
+    },
+    "correct": "A",
+    "explanation": "Present perfect continuous ('has been working') is used for an action that started in the past and continues to the present. Simple past ('graduated') correctly refers to the completed past event."
+  },
+  {
+    "id": 20,
+    "topic": "Tense Consistency",
+    "difficulty": "hard",
+    "question": "Which sentence correctly uses tenses in a conditional structure?",
+    "options": {
+      "A": "If he would study harder, he would pass the exam.",
+      "B": "If he studied harder, he would pass the exam.",
+      "C": "If he studies harder, he would pass the exam.",
+      "D": "If he had study harder, he would pass the exam."
+    },
+    "correct": "B",
+    "explanation": "For hypothetical present/future conditions, use simple past in the 'if' clause and 'would + base verb' in the main clause. Option B follows this pattern correctly."
+  },
+  {
+    "id": 21,
+    "topic": "Sentence Correction",
+    "difficulty": "easy",
+    "question": "Which option best corrects the following sentence? 'The data shows that sales have went up significantly.'",
+    "options": {
+      "A": "The data show that sales have gone up significantly.",
+      "B": "The data shows that sales have gone up significantly.",
+      "C": "The data shows that sales went up significantly.",
+      "D": "Both A and B are correct."
+    },
+    "correct": "B",
+    "explanation": "'Data' can be treated as singular in modern usage when referring to a body of information. 'Have went' is incorrect; the past participle of 'go' is 'gone', making 'have gone' the correct form."
+  },
+  {
+    "id": 22,
+    "topic": "Sentence Correction",
+    "difficulty": "easy",
+    "question": "Choose the corrected version of: 'Between you and I, the plan is flawed.'",
+    "options": {
+      "A": "Between you and I, the plan is flawed.",
+      "B": "Between you and me, the plan is flawed.",
+      "C": "Between yourself and I, the plan is flawed.",
+      "D": "Between yourself and me, the plan is flawed."
+    },
+    "correct": "B",
+    "explanation": "Prepositions (like 'between') must be followed by object pronouns. 'Me' is the correct object pronoun, not 'I' which is a subject pronoun."
+  },
+  {
+    "id": 23,
+    "topic": "Sentence Correction",
+    "difficulty": "medium",
+    "question": "Which is the best correction for: 'Being that it was raining, the match was postponed.'",
+    "options": {
+      "A": "Being that it rained, the match was postponed.",
+      "B": "Since it was raining, the match was postponed.",
+      "C": "The match was postponed, being that it was raining.",
+      "D": "It being that it was raining, the match was postponed."
+    },
+    "correct": "B",
+    "explanation": "'Being that' is a non-standard expression. The standard subordinating conjunction 'since' or 'because' should be used to indicate cause and effect."
+  },
+  {
+    "id": 24,
+    "topic": "Sentence Correction",
+    "difficulty": "medium",
+    "question": "Identify the best revision of: 'The reason he failed is because he did not study.'",
+    "options": {
+      "A": "The reason he failed is because he did not study.",
+      "B": "The reason he failed is that he did not study.",
+      "C": "He failed because the reason was not studying.",
+      "D": "The reason for his failure is because of not studying."
+    },
+    "correct": "B",
+    "explanation": "'The reason is because' is redundant. The correct construction is 'The reason is that', since 'because' and 'reason' convey the same meaning."
+  },
+  {
+    "id": 25,
+    "topic": "Sentence Correction",
+    "difficulty": "hard",
+    "question": "Which option best corrects the following sentence? 'Having finished the assignment, the television was turned on by Ahmad.'",
+    "options": {
+      "A": "Having finished the assignment, Ahmad turned on the television.",
+      "B": "Having finished the assignment, the television was turned on.",
+      "C": "The television was turned on by Ahmad, having finished the assignment.",
+      "D": "Ahmad, having finished the assignment, had the television turned on."
+    },
+    "correct": "A",
+    "explanation": "The original sentence has a dangling participle — the television did not finish the assignment, Ahmad did. Option A correctly makes Ahmad the subject of the main clause."
+  },
+  {
+    "id": 26,
+    "topic": "Reading Comprehension",
+    "difficulty": "easy",
+    "question": "Read the passage and answer: 'The Amazon rainforest, often called the lungs of the Earth, produces about 20% of the world's oxygen. However, deforestation threatens this vital ecosystem. Each year, thousands of square kilometers of forest are cleared for agriculture and logging.' What is the main idea of this passage?",
+    "options": {
+      "A": "The Amazon produces oxygen through photosynthesis.",
+      "B": "Agriculture is the main cause of deforestation.",
+      "C": "The Amazon rainforest is a vital but threatened ecosystem.",
+      "D": "Logging companies are destroying the environment."
+    },
+    "correct": "C",
+    "explanation": "The passage introduces the Amazon's importance (lungs of the Earth, 20% oxygen) and then immediately contrasts it with the threat of deforestation. The main idea encompasses both aspects."
+  },
+  {
+    "id": 27,
+    "topic": "Reading Comprehension",
+    "difficulty": "easy",
+    "question": "Read the passage: 'Sleep is essential for cognitive function. Studies show that adults who sleep fewer than seven hours per night perform significantly worse on memory and attention tasks. Despite this, many people sacrifice sleep in favor of work or entertainment.' What can be inferred from this passage?",
+    "options": {
+      "A": "People who sleep more are always more successful.",
+      "B": "Most adults get exactly seven hours of sleep.",
+      "C": "Many people are not prioritizing their cognitive health.",
+      "D": "Entertainment is more harmful than work to sleep patterns."
+    },
+    "correct": "C",
+    "explanation": "The passage states that people sacrifice sleep for work or entertainment despite evidence that insufficient sleep harms cognitive function, implying they are not prioritizing their mental health."
+  },
+  {
+    "id": 28,
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "question": "Read the passage: 'Electric vehicles (EVs) are marketed as environmentally friendly alternatives to petrol cars. While EVs produce no direct emissions, their environmental impact depends heavily on the source of electricity used to charge them. In regions where coal powers the grid, EVs may produce comparable carbon footprints to conventional vehicles.' What is the author's tone?",
+    "options": {
+      "A": "Strongly supportive of electric vehicles",
+      "B": "Analytical and nuanced",
+      "C": "Critical and dismissive of EVs",
+      "D": "Alarmed about carbon emissions"
+    },
+    "correct": "B",
+    "explanation": "The author does not dismiss EVs nor fully endorse them. Instead, the passage presents a balanced, nuanced analysis by acknowledging both benefits and limitations based on context."
+  },
+  {
+    "id": 29,
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "question": "Read the passage: 'Urban green spaces — parks, gardens, and tree-lined streets — provide more than aesthetic value. Research indicates they reduce urban temperatures, improve air quality, and lower stress levels among residents. Cities that invest in green infrastructure report higher resident satisfaction and better public health outcomes.' According to the passage, which of the following is NOT mentioned as a benefit of green spaces?",
+    "options": {
+      "A": "Reduction in urban heat",
+      "B": "Improved air quality",
+      "C": "Increased property values",
+      "D": "Lower resident stress levels"
+    },
+    "correct": "C",
+    "explanation": "The passage mentions temperature reduction, air quality improvement, and stress reduction, as well as higher satisfaction and better health outcomes. Increased property values are never mentioned."
+  },
+  {
+    "id": 30,
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "question": "Read the passage: 'The debate over standardized testing in education persists. Proponents argue that uniform assessments provide objective benchmarks for measuring student achievement across diverse backgrounds. Critics, however, contend that such tests favor students from privileged backgrounds who have access to test preparation resources, thereby perpetuating inequality rather than measuring true ability.' Which statement would the critics most likely agree with?",
+    "options": {
+      "A": "Standardized tests should be made more difficult.",
+      "B": "Objective benchmarks are essential for fair assessment.",
+      "C": "Test preparation resources should be universally available.",
+      "D": "Socioeconomic background should not influence test results."
+    },
+    "correct": "D",
+    "explanation": "Critics argue that tests favor privileged students with access to preparation resources, implying inequality is embedded in the process. They would agree that socioeconomic background should not affect outcomes — it is precisely this influence they are criticizing."
+  },
+  {
+    "id": 31,
+    "topic": "Synonyms & Antonyms",
+    "difficulty": "easy",
+    "question": "Choose the synonym for BENEVOLENT.",
+    "options": {
+      "A": "Hostile",
+      "B": "Charitable",
+      "C": "Indifferent",
+      "D": "Strict"
+    },
+    "correct": "B",
+    "explanation": "'Benevolent' means well-meaning and kindly. 'Charitable' is the closest synonym, as both describe a generous and caring disposition toward others."
+  },
+  {
+    "id": 32,
+    "topic": "Synonyms & Antonyms",
+    "difficulty": "easy",
+    "question": "Choose the antonym for METICULOUS.",
+    "options": {
+      "A": "Careful",
+      "B": "Thorough",
+      "C": "Careless",
+      "D": "Precise"
+    },
+    "correct": "C",
+    "explanation": "'Meticulous' means showing great attention to detail and being very careful. Its antonym is 'careless', which describes a lack of attention or care."
+  },
+  {
+    "id": 33,
+    "topic": "Synonyms & Antonyms",
+    "difficulty": "medium",
+    "question": "Choose the synonym for EPHEMERAL.",
+    "options": {
+      "A": "Eternal",
+      "B": "Transient",
+      "C": "Substantial",
+      "D": "Prominent"
+    },
+    "correct": "B",
+    "explanation": "'Ephemeral' means lasting for a very short time. 'Transient' is the correct synonym, as it also describes something temporary or fleeting."
+  },
+  {
+    "id": 34,
+    "topic": "Synonyms & Antonyms",
+    "difficulty": "medium",
+    "question": "Choose the antonym for TACITURN.",
+    "options": {
+      "A": "Reserved",
+      "B": "Quiet",
+      "C": "Loquacious",
+      "D": "Cautious"
+    },
+    "correct": "C",
+    "explanation": "'Taciturn' means reserved or uncommunicative in speech. Its antonym is 'loquacious', meaning tending to talk a great deal."
+  },
+  {
+    "id": 35,
+    "topic": "Synonyms & Antonyms",
+    "difficulty": "hard",
+    "question": "Choose the word most opposite in meaning to SYCOPHANTIC.",
+    "options": {
+      "A": "Flattering",
+      "B": "Obsequious",
+      "C": "Forthright",
+      "D": "Subservient"
+    },
+    "correct": "C",
+    "explanation": "'Sycophantic' means acting in an obsequious or excessively flattering way to gain favor. 'Forthright' — meaning direct, candid, and honest — is its opposite."
+  },
+  {
+    "id": 36,
+    "topic": "Vocabulary in Context",
+    "difficulty": "easy",
+    "question": "In the sentence 'The professor's lecture was so ABSTRUSE that most students could not follow it,' the word ABSTRUSE most nearly means:",
+    "options": {
+      "A": "Entertaining",
+      "B": "Difficult to understand",
+      "C": "Very long",
+      "D": "Poorly organized"
+    },
+    "correct": "B",
+    "explanation": "The context clue 'most students could not follow it' indicates the lecture was too complex or obscure. 'Abstruse' means difficult to understand, especially through being esoteric."
+  },
+  {
+    "id": 37,
+    "topic": "Vocabulary in Context",
+    "difficulty": "easy",
+    "question": "In the sentence 'Her CANDID response surprised everyone who expected a diplomatic answer,' CANDID most nearly means:",
+    "options": {
+      "A": "Rehearsed",
+      "B": "Diplomatic",
+      "C": "Frank and honest",
+      "D": "Aggressive"
+    },
+    "correct": "C",
+    "explanation": "The contrast with 'diplomatic answer' suggests her response was the opposite — direct and honest. 'Candid' means truthful and straightforward, even if the truth is uncomfortable."
+  },
+  {
+    "id": 38,
+    "topic": "Vocabulary in Context",
+    "difficulty": "medium",
+    "question": "In the sentence 'The politician's RHETORIC was powerful but ultimately hollow, full of grand promises with no concrete plan,' RHETORIC most nearly means:",
+    "options": {
+      "A": "Silence",
+      "B": "Persuasive but empty language",
+      "C": "Policy proposals",
+      "D": "Genuine commitment"
+    },
+    "correct": "B",
+    "explanation": "The context 'powerful but hollow' and 'grand promises with no concrete plan' signals that the rhetoric was impressive-sounding language without substance. This matches the connotation of 'rhetoric' as persuasive but potentially empty speech."
+  },
+  {
+    "id": 39,
+    "topic": "Vocabulary in Context",
+    "difficulty": "medium",
+    "question": "Read the sentence: 'Despite his OSTENTATIOUS display of wealth — the gold watch, the designer suit, the luxury car — few people were actually impressed.' OSTENTATIOUS most nearly means:",
+    "options": {
+      "A": "Modest and understated",
+      "B": "Showy and intended to impress",
+      "C": "Earned through hard work",
+      "D": "Secretly hidden"
+    },
+    "correct": "B",
+    "explanation": "The list of luxury items displayed together suggests the intent was to show off wealth. 'Ostentatious' means characterized by a vulgar or pretentious display designed to impress."
+  },
+  {
+    "id": 40,
+    "topic": "Vocabulary in Context",
+    "difficulty": "hard",
+    "question": "In the sentence 'The committee's EQUIVOCAL statement satisfied neither side in the debate, as each party interpreted it differently,' EQUIVOCAL most nearly means:",
+    "options": {
+      "A": "Clear and decisive",
+      "B": "Deliberately ambiguous",
+      "C": "Strongly worded",
+      "D": "Mathematically precise"
+    },
+    "correct": "B",
+    "explanation": "Because the statement could be interpreted differently by opposing sides, it must have been unclear or ambiguous. 'Equivocal' means open to more than one interpretation; deliberately vague."
+  },
+  {
+    "id": 41,
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "question": "SURGEON : SCALPEL :: PAINTER : ___",
+    "options": {
+      "A": "Canvas",
+      "B": "Brush",
+      "C": "Color",
+      "D": "Gallery"
+    },
+    "correct": "B",
+    "explanation": "A surgeon uses a scalpel as the primary tool of their work. Similarly, a painter uses a brush as their primary tool. The relationship is professional : primary tool."
+  },
+  {
+    "id": 42,
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "question": "LIBRARY : BOOKS :: MUSEUM : ___",
+    "options": {
+      "A": "Tourists",
+      "B": "Buildings",
+      "C": "Artifacts",
+      "D": "Tickets"
+    },
+    "correct": "C",
+    "explanation": "A library is a place that houses and preserves books. Similarly, a museum is a place that houses and preserves artifacts. The relationship is: institution : items it contains."
+  },
+  {
+    "id": 43,
+    "topic": "Analogies",
+    "difficulty": "medium",
+    "question": "DROUGHT : FAMINE :: EARTHQUAKE : ___",
+    "options": {
+      "A": "Rain",
+      "B": "Tsunami",
+      "C": "Hunger",
+      "D": "Desert"
+    },
+    "correct": "B",
+    "explanation": "A drought can cause a famine as a consequential outcome. An earthquake can similarly cause a tsunami. The relationship is: natural event : its potential catastrophic consequence."
+  },
+  {
+    "id": 44,
+    "topic": "Analogies",
+    "difficulty": "medium",
+    "question": "PRODIGAL : THRIFT :: COWARDLY : ___",
+    "options": {
+      "A": "Timidity",
+      "B": "Bravery",
+      "C": "Fear",
+      "D": "Caution"
+    },
+    "correct": "B",
+    "explanation": "A prodigal person lacks thrift — thrift is the virtue that prodigality opposes. Similarly, a cowardly person lacks bravery — bravery is the virtue that cowardice opposes. The relationship is: negative trait : the virtue it lacks."
+  },
+  {
+    "id": 45,
+    "topic": "Analogies",
+    "difficulty": "hard",
+    "question": "PEDANTIC : KNOWLEDGE :: MISER : ___",
+    "options": {
+      "A": "Poverty",
+      "B": "Spending",
+      "C": "Wealth",
+      "D": "Generosity"
+    },
+    "correct": "C",
+    "explanation": "A pedantic person obsessively hoards and displays knowledge, often to an excessive degree. A miser obsessively hoards wealth. The relationship is: one who excessively accumulates : the thing accumulated."
+  },
+  {
+    "id": 46,
+    "topic": "Sentence Completion",
+    "difficulty": "easy",
+    "question": "Although the film received __________ reviews from critics, it became a massive commercial success at the box office.",
+    "options": {
+      "A": "glowing",
+      "B": "mixed",
+      "C": "negative",
+      "D": "outstanding"
+    },
+    "correct": "C",
+    "explanation": "The word 'although' signals a contrast between critical reception and commercial success. 'Negative' reviews contrasting with 'massive commercial success' creates the clearest opposition that the conjunction 'although' requires."
+  },
+  {
+    "id": 47,
+    "topic": "Sentence Completion",
+    "difficulty": "medium",
+    "question": "The scientist's findings were so __________ that they challenged decades of established theory, forcing the academic community to reconsider its foundational assumptions.",
+    "options": {
+      "A": "mundane",
+      "B": "predictable",
+      "C": "revolutionary",
+      "D": "preliminary"
+    },
+    "correct": "C",
+    "explanation": "The blank must describe findings powerful enough to 'challenge decades of established theory'. Only 'revolutionary' — meaning involving or causing a complete change — fits the scale of impact described."
+  },
+  {
+    "id": 48,
+    "topic": "Sentence Completion",
+    "difficulty": "medium",
+    "question": "The politician's speech was deliberately __________, designed to appeal to both conservative and liberal voters without committing to any specific position.",
+    "options": {
+      "A": "inflammatory",
+      "B": "precise",
+      "C": "ambiguous",
+      "D": "aggressive"
+    },
+    "correct": "C",
+    "explanation": "The clue 'without committing to any specific position' indicates vagueness was intentional. 'Ambiguous' means open to multiple interpretations, which matches the deliberate strategy described."
+  },
+  {
+    "id": 49,
+    "topic": "Critical Reading",
+    "difficulty": "hard",
+    "question": "Read the argument: 'Every student who studies more than four hours per day gets good grades. Ayesha gets good grades. Therefore, Ayesha studies more than four hours per day.' This argument is flawed because it:",
+    "options": {
+      "A": "Assumes that studying is the only way to get good grades.",
+      "B": "Does not define what constitutes 'good grades'.",
+      "C": "Confuses a sufficient condition with a necessary condition.",
+      "D": "Fails to consider that Ayesha may study at night."
+    },
+    "correct": "C",
+    "explanation": "The original statement says studying 4+ hours is sufficient for good grades, not the only way. Concluding that Ayesha must study 4+ hours because she has good grades incorrectly treats the sufficient condition as a necessary one (affirming the consequent fallacy)."
+  },
+  {
+    "id": 50,
+    "topic": "Critical Reading",
+    "difficulty": "hard",
+    "question": "A study shows that cities with more hospitals have higher mortality rates. A researcher concludes that hospitals cause death. What is the most significant flaw in this reasoning?",
+    "options": {
+      "A": "The study did not compare enough cities.",
+      "B": "Correlation is being mistaken for causation, ignoring the confounding variable of population size.",
+      "C": "Hospitals are not a valid subject for academic study.",
+      "D": "Mortality rates are too difficult to measure accurately."
+    },
+    "correct": "B",
+    "explanation": "Larger cities have more hospitals AND more people, which means more deaths — not because hospitals cause death. The researcher commits the correlation-causation fallacy, ignoring the confounding variable (city size) that explains both the number of hospitals and the mortality rate."
+  }
+]

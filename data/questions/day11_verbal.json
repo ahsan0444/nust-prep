@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "topic": "Subject-Verb Agreement",
+    "difficulty": "easy",
+    "question": "Choose the sentence with correct subject-verb agreement.",
+    "options": {
+      "A": "The list of items are on the table.",
+      "B": "The list of items is on the table.",
+      "C": "The list of items were on the table.",
+      "D": "The list of items have been on the table."
+    },
+    "correct": "B",
+    "explanation": "The subject is 'list' (singular), not 'items'. Singular subjects take singular verbs, so 'is' is correct."
+  },
+  {
+    "id": 2,
+    "topic": "Subject-Verb Agreement",
+    "difficulty": "easy",
+    "question": "Which sentence is grammatically correct?",
+    "options": {
+      "A": "Neither the teacher nor the students was present.",
+      "B": "Neither the teacher nor the students were present.",
+      "C": "Neither the teacher nor the students is present.",
+      "D": "Neither the teacher nor the students has been present."
+    },
+    "correct": "B",
+    "explanation": "With 'neither...nor', the verb agrees with the subject closest to it. 'Students' is plural, so 'were' is correct."
+  },
+  {
+    "id": 3,
+    "topic": "Subject-Verb Agreement",
+    "difficulty": "medium",
+    "question": "Select the correct form: 'The committee _______ divided on the issue.'",
+    "options": {
+      "A": "is",
+      "B": "are",
+      "C": "were",
+      "D": "has been"
+    },
+    "correct": "B",
+    "explanation": "When a collective noun like 'committee' acts as individuals with differing opinions, it takes a plural verb. 'Are' is correct here."
+  },
+  {
+    "id": 4,
+    "topic": "Subject-Verb Agreement",
+    "difficulty": "medium",
+    "question": "Which option correctly completes the sentence? 'Each of the boys _______ his own assignment.'",
+    "options": {
+      "A": "have completed",
+      "B": "has completed",
+      "C": "were completing",
+      "D": "are completing"
+    },
+    "correct": "B",
+    "explanation": "'Each' is always singular. It takes a singular verb 'has completed', and the pronoun 'his' is appropriately singular."
+  },
+  {
+    "id": 5,
+    "topic": "Subject-Verb Agreement",
+    "difficulty": "hard",
+    "question": "Identify the correct sentence regarding subject-verb agreement.",
+    "options": {
+      "A": "There is a cat and two dogs in the yard.",
+      "B": "There are a cat and two dogs in the yard.",
+      "C": "There was a cat and two dogs in the yard.",
+      "D": "There has been a cat and two dogs in the yard."
+    },
+    "correct": "B",
+    "explanation": "When 'there' introduces a compound subject joined by 'and', the verb is plural. 'A cat and two dogs' is a plural compound subject requiring 'are'."
+  },
+  {
+    "id": 6,
+    "topic": "Parallelism & Sentence Structure",
+    "difficulty": "easy",
+    "question": "Which sentence demonstrates correct parallel structure?",
+    "options": {
+      "A": "She likes to read, to write, and cooking.",
+      "B": "She likes reading, to write, and cooking.",
+      "C": "She likes to read, to write, and to cook.",
+      "D": "She likes reading, writing, and to cook."
+    },
+    "correct": "C",
+    "explanation": "Parallel structure requires matching grammatical forms. 'To read, to write, and to cook' all use the infinitive form consistently."
+  },
+  {
+    "id": 7,
+    "topic": "Parallelism & Sentence Structure",
+    "difficulty": "easy",
+    "question": "Choose the sentence with faulty parallelism.",
+    "options": {
+      "A": "The report was well-written, clearly argued, and thoroughly researched.",
+      "B": "He is honest, hardworking, and has reliability.",
+      "C": "The project was completed on time and within budget.",
+      "D": "She spoke loudly, clearly, and confidently."
+    },
+    "correct": "B",
+    "explanation": "'Honest' and 'hardworking' are adjectives, but 'has reliability' is a verb phrase. The parallel form should be 'reliable'."
+  },
+  {
+    "id": 8,
+    "topic": "Parallelism & Sentence Structure",
+    "difficulty": "medium",
+    "question": "Which sentence corrects the parallelism error in: 'The manager told us to finish the report, that we should attend the meeting, and submitting the forms.'",
+    "options": {
+      "A": "The manager told us to finish the report, attending the meeting, and submitting the forms.",
+      "B": "The manager told us to finish the report, to attend the meeting, and to submit the forms.",
+      "C": "The manager told us finishing the report, attending the meeting, and submitting the forms.",
+      "D": "The manager told us that we should finish the report, that we should attend the meeting, and submitting the forms."
+    },
+    "correct": "B",
+    "explanation": "After 'told us', all three items should use the infinitive form: 'to finish', 'to attend', 'to submit'."
+  },
+  {
+    "id": 9,
+    "topic": "Parallelism & Sentence Structure",
+    "difficulty": "medium",
+    "question": "Select the sentence that best maintains parallel structure in a list.",
+    "options": {
+      "A": "The new policy will reduce costs, improve efficiency, and employees will be happier.",
+      "B": "The new policy will reduce costs, improving efficiency, and making employees happier.",
+      "C": "The new policy will reduce costs, improve efficiency, and increase employee satisfaction.",
+      "D": "The new policy will reduce costs, it will improve efficiency, and employees will be more satisfied."
+    },
+    "correct": "C",
+    "explanation": "Option C uses parallel verb phrases: 'reduce', 'improve', and 'increase' — all base verbs following 'will'."
+  },
+  {
+    "id": 10,
+    "topic": "Parallelism & Sentence Structure",
+    "difficulty": "hard",
+    "question": "Which sentence most effectively uses parallel structure to express a complex idea?",
+    "options": {
+      "A": "Not only did he fail the exam, but also his scholarship was lost.",
+      "B": "Not only did he fail the exam, but he also lost his scholarship.",
+      "C": "He not only failed the exam, but also losing his scholarship.",
+      "D": "Not only did he fail the exam, but his scholarship was also lost by him."
+    },
+    "correct": "B",
+    "explanation": "In correlative conjunctions like 'not only...but also', the elements that follow must be parallel. 'Did he fail' and 'he also lost' are both verb-subject constructions, making B the most parallel and natural."
+  },
+  {
+    "id": 11,
+    "topic": "Modifier Placement",
+    "difficulty": "easy",
+    "question": "Which sentence contains a misplaced modifier?",
+    "options": {
+      "A": "Running quickly, the athlete won the race.",
+      "B": "The athlete won the race running quickly.",
+      "C": "Barking loudly, the dog chased the cat.",
+      "D": "The dog, barking loudly, chased the cat."
+    },
+    "correct": "B",
+    "explanation": "In option B, 'running quickly' is placed after 'race', making it sound like the race was running. It should be placed next to 'athlete'."
+  },
+  {
+    "id": 12,
+    "topic": "Modifier Placement",
+    "difficulty": "easy",
+    "question": "Identify the sentence with a dangling modifier.",
+    "options": {
+      "A": "Hoping to impress the panel, Ahmed prepared thoroughly.",
+      "B": "Hoping to impress the panel, the presentation was carefully prepared.",
+      "C": "Ahmed, hoping to impress the panel, prepared his presentation thoroughly.",
+      "D": "To impress the panel, Ahmed prepared a thorough presentation."
+    },
+    "correct": "B",
+    "explanation": "In option B, 'hoping to impress the panel' dangles because the subject of the main clause ('presentation') cannot hope. The logical subject should be a person."
+  },
+  {
+    "id": 13,
+    "topic": "Modifier Placement",
+    "difficulty": "medium",
+    "question": "Which revision best corrects: 'Having studied all night, the exam seemed easy to Sara.'",
+    "options": {
+      "A": "Having studied all night, Sara found the exam easy.",
+      "B": "The exam seemed easy to Sara, having studied all night.",
+      "C": "Sara, the exam seemed easy after having studied all night.",
+      "D": "Having studied all night, the exam was easy for Sara."
+    },
+    "correct": "A",
+    "explanation": "The participial phrase 'having studied all night' must modify Sara, the one who studied. Option A correctly places Sara as the subject immediately after the modifier."
+  },
+  {
+    "id": 14,
+    "topic": "Modifier Placement",
+    "difficulty": "medium",
+    "question": "Which sentence uses the modifier 'only' correctly?",
+    "options": {
+      "A": "She only told him the truth yesterday.",
+      "B": "Only she told him the truth yesterday.",
+      "C": "She told him only the truth yesterday.",
+      "D": "She told only him the truth yesterday."
+    },
+    "correct": "C",
+    "explanation": "The intended meaning is that she told nothing but the truth. 'Only' should immediately precede what it modifies — 'the truth'. Option C places 'only' correctly."
+  },
+  {
+    "id": 15,
+    "topic": "Modifier Placement",
+    "difficulty": "hard",
+    "question": "Which sentence is free of all modifier errors?",
+    "options": {
+      "A": "Walking through the park, the flowers were beautiful.",
+      "B": "Exhausted after the long journey, the bed was the first thing she noticed.",
+      "C": "To qualify for the scholarship, the applicant must submit three references.",
+      "D": "Considered one of the best doctors, patients traveled from far to see him."
+    },
+    "correct": "C",
+    "explanation": "Option C correctly places the modifier 'to qualify for the scholarship' with its logical subject 'the applicant'. The other options all have dangling or misplaced modifiers."
+  },
+  {
+    "id": 16,
+    "topic": "Tense Consistency",
+    "difficulty": "easy",
+    "question": "Choose the sentence with consistent verb tenses.",
+    "options": {
+      "A": "He opened the door and walks inside.",
+      "B": "He opened the door and walked inside.",
+      "C": "He opens the door and walked inside.",
+      "D": "He had opened the door and walks inside."
+    },
+    "correct": "B",
+    "explanation": "Both actions — opening and walking — occurred in sequence in the past, so both verbs should be in simple past tense: 'opened' and 'walked'."
+  },
+  {
+    "id": 17,
+    "topic": "Tense Consistency",
+    "difficulty": "easy",
+    "question": "Which sentence maintains correct tense consistency?",
+    "options": {
+      "A": "The teacher explained the concept and asks the students to practice.",
+      "B": "The teacher explains the concept and asked the students to practice.",
+      "C": "The teacher explained the concept and asked the students to practice.",
+      "D": "The teacher will explain the concept and asked the students to practice."
+    },
+    "correct": "C",
+    "explanation": "Both verbs should be in simple past tense to describe two consecutive past actions: 'explained' and 'asked'."
+  },
+  {
+    "id": 18,
+    "topic": "Tense Consistency",
+    "difficulty": "medium",
+    "question": "Which sentence correctly uses the past perfect to show sequence?",
+    "options": {
+      "A": "By the time the ambulance arrived, the patient died.",
+      "B": "By the time the ambulance arrived, the patient has died.",
+      "C": "By the time the ambulance arrived, the patient had died.",
+      "D": "By the time the ambulance arrives, the patient had died."
+    },
+    "correct": "C",
+    "explanation": "The past perfect 'had died' correctly shows that the patient's death occurred before the ambulance arrived. The past perfect marks the earlier of two past events."
+  },
+  {
+    "id": 19,
+    "topic": "Tense Consistency",
+    "difficulty": "medium",
+    "question": "Select the version that correctly maintains tense in a narrative context: 'The general surveyed the battlefield and _______ his strategy accordingly.'",
+    "options": {
+      "A": "adjusts",
+      "B": "is adjusting",
+      "C": "adjusted",
+      "D": "will adjust"
+    },
+    "correct": "C",
+    "explanation": "The sentence is in the past tense ('surveyed'). To maintain tense consistency in a narrative sequence, the second verb must also be simple past: 'adjusted'."
+  },
+  {
+    "id": 20,
+    "topic": "Tense Consistency",
+    "difficulty": "hard",
+    "question": "Which sentence demonstrates appropriate tense use in a complex narrative?",
+    "options": {
+      "A": "She realized that she has left her keys at home.",
+      "B": "She realized that she had left her keys at home.",
+      "C": "She realizes that she had left her keys at home.",
+      "D": "She had realized that she has left her keys at home."
+    },
+    "correct": "B",
+    "explanation": "The past perfect 'had left' correctly shows that leaving the keys happened before the realization ('realized'). The backshift into past perfect is required in reported speech and narrative sequences."
+  },
+  {
+    "id": 21,
+    "topic": "Sentence Correction",
+    "difficulty": "easy",
+    "question": "Which sentence is grammatically correct?",
+    "options": {
+      "A": "Between you and I, the plan is flawed.",
+      "B": "Between you and me, the plan is flawed.",
+      "C": "Between you and myself, the plan is flawed.",
+      "D": "Between yourself and me, the plan is flawed."
+    },
+    "correct": "B",
+    "explanation": "'Between' is a preposition and requires object pronouns. 'Me' is the correct object form, not 'I' (subject) or 'myself' (reflexive used without a prior reference)."
+  },
+  {
+    "id": 22,
+    "topic": "Sentence Correction",
+    "difficulty": "easy",
+    "question": "Identify the corrected form of: 'The reason is because he was late.'",
+    "options": {
+      "A": "The reason is because he was late.",
+      "B": "The reason is that he was late.",
+      "C": "The reason is due to him being late.",
+      "D": "The reason is on account of his lateness."
+    },
+    "correct": "B",
+    "explanation": "'The reason is because' is redundant — 'because' means 'for the reason that'. The correct phrasing is 'The reason is that'."
+  },
+  {
+    "id": 23,
+    "topic": "Sentence Correction",
+    "difficulty": "medium",
+    "question": "Which sentence is free of grammatical errors?",
+    "options": {
+      "A": "The data shows that the hypothesis is incorrect.",
+      "B": "The data show that the hypothesis is incorrect.",
+      "C": "The data is showing that the hypothesis is incorrect.",
+      "D": "The data are showed that the hypothesis is incorrect."
+    },
+    "correct": "B",
+    "explanation": "'Data' is the plural form of 'datum'. In formal academic writing, 'data' takes a plural verb: 'show'. Option B is the grammatically formal correct choice."
+  },
+  {
+    "id": 24,
+    "topic": "Sentence Correction",
+    "difficulty": "medium",
+    "question": "Select the best correction for: 'Despite of his efforts, he failed the test.'",
+    "options": {
+      "A": "Despite of his efforts, he failed the test.",
+      "B": "In spite his efforts, he failed the test.",
+      "C": "Despite his efforts, he failed the test.",
+      "D": "Inspite of his efforts, he failed the test."
+    },
+    "correct": "C",
+    "explanation": "'Despite' does not take 'of' after it. The correct form is simply 'despite his efforts'. 'In spite of' (three words) would also be correct, but 'in spite his' omits the required 'of'."
+  },
+  {
+    "id": 25,
+    "topic": "Sentence Correction",
+    "difficulty": "hard",
+    "question": "Which revision best improves clarity and correctness? Original: 'Having been elected, the people expected the mayor make many changes.'",
+    "options": {
+      "A": "Having been elected, the mayor was expected by the people to make many changes.",
+      "B": "Having elected, the people expected the mayor to make many changes.",
+      "C": "Being elected, the people expected the mayor making many changes.",
+      "D": "Having been elected, the people's expectation was the mayor to make changes."
+    },
+    "correct": "A",
+    "explanation": "The modifier 'having been elected' refers to the mayor, so the mayor must be the subject of the main clause. Option A correctly restructures the sentence and uses the infinitive 'to make' after 'expected'."
+  },
+  {
+    "id": 26,
+    "topic": "Reading Comprehension",
+    "difficulty": "easy",
+    "question": "Read the passage: 'Bioluminescence is the production of light by living organisms. It is found in many marine animals, including certain fish, jellyfish, and bacteria. The light is produced through a chemical reaction involving a molecule called luciferin.' What is the primary subject of this passage?",
+    "options": {
+      "A": "Chemical reactions in animals",
+      "B": "Marine biology and ecosystems",
+      "C": "Bioluminescence and how it is produced",
+      "D": "The molecule luciferin and its properties"
+    },
+    "correct": "C",
+    "explanation": "The passage introduces bioluminescence, identifies organisms that exhibit it, and briefly explains its chemical mechanism. The primary subject is bioluminescence and how it is produced."
+  },
+  {
+    "id": 27,
+    "topic": "Reading Comprehension",
+    "difficulty": "easy",
+    "question": "Read the passage: 'Urban heat islands occur when cities replace natural land cover with dense concentrations of pavement, buildings, and other surfaces. These surfaces absorb and re-emit the sun's heat more than natural landscapes. This effect makes urban centers significantly warmer than their surrounding rural areas.' According to the passage, what causes urban heat islands?",
+    "options": {
+      "A": "Increased traffic and vehicle emissions",
+      "B": "Replacement of natural land with heat-absorbing surfaces",
+      "C": "Industrial factories releasing heat",
+      "D": "Air pollution trapping sunlight near the ground"
+    },
+    "correct": "B",
+    "explanation": "The passage explicitly states that urban heat islands occur when natural land cover is replaced with pavement, buildings, and surfaces that absorb and re-emit heat."
+  },
+  {
+    "id": 28,
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "question": "Read the passage: 'The placebo effect demonstrates the powerful connection between the mind and body. Patients who receive a sugar pill but believe it is real medicine often show measurable improvement. Critics argue this undermines medical credibility, while proponents contend it reveals the mind's genuine capacity to promote healing.' What is the main point of tension described in the passage?",
+    "options": {
+      "A": "Whether placebos should replace real medicine",
+      "B": "The ethics of deceiving patients with sugar pills",
+      "C": "Whether the placebo effect harms or validates medical credibility",
+      "D": "How the brain triggers physical healing through belief"
+    },
+    "correct": "C",
+    "explanation": "The passage presents two opposing views: critics who say it undermines credibility, and proponents who say it reveals the mind's healing power. The tension is about what the placebo effect means for medical credibility."
+  },
+  {
+    "id": 29,
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "question": "Read the passage: 'Migratory birds navigate using a combination of the Earth's magnetic field, star patterns, and landmarks. Recent studies suggest some birds possess magnetite crystals in their beaks that act as a biological compass. This remarkable ability allows species to travel thousands of kilometers with precision.' What can be inferred from the passage?",
+    "options": {
+      "A": "All birds migrate using exactly the same navigation method.",
+      "B": "Navigation by birds is still not well understood by scientists.",
+      "C": "Birds use multiple cues, potentially including a biological compass.",
+      "D": "Magnetite crystals are found in all living animals."
+    },
+    "correct": "C",
+    "explanation": "The passage states birds use a 'combination' of methods and that 'some birds' may have magnetite crystals. The inference is that birds use multiple navigation cues, possibly including a biological compass in some species."
+  },
+  {
+    "id": 30,
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "question": "Read the passage: 'The concept of negative liberty, articulated by Isaiah Berlin, refers to freedom from external interference. Positive liberty, by contrast, concerns the capacity to act — having the resources and ability to pursue one's goals. Berlin cautioned that positive liberty, if state-imposed, can lead to authoritarian outcomes under the guise of enabling freedom.' Which statement best captures Berlin's concern about positive liberty?",
+    "options": {
+      "A": "Positive liberty is unnecessary because negative liberty is sufficient.",
+      "B": "States can misuse the language of freedom to justify controlling individuals.",
+      "C": "Individuals cannot achieve positive liberty without government support.",
+      "D": "Negative liberty is always more important than positive liberty."
+    },
+    "correct": "B",
+    "explanation": "Berlin warned that the state could impose positive liberty 'under the guise of enabling freedom', meaning authoritarian control could be justified using the language of empowerment. Option B captures this concern accurately."
+  },
+  {
+    "id": 31,
+    "topic": "Synonyms & Antonyms",
+    "difficulty": "easy",
+    "question": "Choose the synonym for 'VERBOSE'.",
+    "options": {
+      "A": "Brief",
+      "B": "Wordy",
+      "C": "Silent",
+      "D": "Accurate"
+    },
+    "correct": "B",
+    "explanation": "'Verbose' means using more words than necessary. 'Wordy' is its closest synonym. 'Brief' is an antonym."
+  },
+  {
+    "id": 32,
+    "topic": "Synonyms & Antonyms",
+    "difficulty": "easy",
+    "question": "Choose the antonym for 'LAUD'.",
+    "options": {
+      "A": "Praise",
+      "B": "Honor",
+      "C": "Condemn",
+      "D": "Appreciate"
+    },
+    "correct": "C",
+    "explanation": "'Laud' means to praise highly. Its antonym is 'condemn', which means to express strong disapproval."
+  },
+  {
+    "id": 33,
+    "topic": "Synonyms & Antonyms",
+    "difficulty": "medium",
+    "question": "Choose the word most similar in meaning to 'PERFIDIOUS'.",
+    "options": {
+      "A": "Loyal",
+      "B": "Treacherous",
+      "C": "Brave",
+      "D": "Cautious"
+    },
+    "correct": "B",
+    "explanation": "'Perfidious' means deceitful and untrustworthy, especially in betraying a trust. 'Treacherous' is the closest synonym."
+  },
+  {
+    "id": 34,
+    "topic": "Synonyms & Antonyms",
+    "difficulty": "medium",
+    "question": "Select the antonym of 'EPHEMERAL'.",
+    "options": {
+      "A": "Temporary",
+      "B": "Fleeting",
+      "C": "Transient",
+      "D": "Permanent"
+    },
+    "correct": "D",
+    "explanation": "'Ephemeral' means lasting for a very short time. Its antonym is 'permanent', meaning lasting indefinitely."
+  },
+  {
+    "id": 35,
+    "topic": "Synonyms & Antonyms",
+    "difficulty": "hard",
+    "question": "Which word is most nearly opposite in meaning to 'OBSEQUIOUS'?",
+    "options": {
+      "A": "Servile",
+      "B": "Fawning",
+      "C": "Assertive",
+      "D": "Compliant"
+    },
+    "correct": "C",
+    "explanation": "'Obsequious' describes someone excessively eager to serve or please, often in a subservient way. The opposite is 'assertive' — confidently self-reliant and not servile."
+  },
+  {
+    "id": 36,
+    "topic": "Vocabulary in Context",
+    "difficulty": "easy",
+    "question": "In the sentence: 'The politician's candid remarks surprised even his closest allies,' the word 'candid' most nearly means:",
+    "options": {
+      "A": "Harsh and critical",
+      "B": "Diplomatic and careful",
+      "C": "Frank and straightforward",
+      "D": "Vague and evasive"
+    },
+    "correct": "C",
+    "explanation": "'Candid' means truthful and straightforward. The context of 'surprising even allies' suggests the politician spoke openly and frankly, which is unexpected in politics."
+  },
+  {
+    "id": 37,
+    "topic": "Vocabulary in Context",
+    "difficulty": "easy",
+    "question": "In the sentence: 'After hours of grueling negotiations, both parties reached an amicable settlement,' the word 'amicable' most nearly means:",
+    "options": {
+      "A": "Hostile",
+      "B": "Friendly and cooperative",
+      "C": "Legally binding",
+      "D": "Temporary and uncertain"
+    },
+    "correct": "B",
+    "explanation": "'Amicable' means characterized by goodwill and friendliness. In the context of a difficult negotiation, reaching an amicable settlement implies the parties resolved things cooperatively."
+  },
+  {
+    "id": 38,
+    "topic": "Vocabulary in Context",
+    "difficulty": "medium",
+    "question": "In the sentence: 'The professor's lectures were so abstruse that even graduate students struggled to follow them,' 'abstruse' most nearly means:",
+    "options": {
+      "A": "Engaging and lively",
+      "B": "Difficult to understand",
+      "C": "Brief and concise",
+      "D": "Poorly organized"
+    },
+    "correct": "B",
+    "explanation": "'Abstruse' means difficult to understand; obscure. The context confirms this — even graduate students (advanced learners) found it hard to follow."
+  },
+  {
+    "id": 39,
+    "topic": "Vocabulary in Context",
+    "difficulty": "medium",
+    "question": "The word 'enervate' in the sentence 'The oppressive summer heat enervated the workers, leaving them unable to continue' most nearly means:",
+    "options": {
+      "A": "Energize",
+      "B": "Anger",
+      "C": "Weaken",
+      "D": "Inspire"
+    },
+    "correct": "C",
+    "explanation": "'Enervate' means to weaken or drain of energy. The context — workers unable to continue after heat exposure — confirms the word means to drain strength or vitality."
+  },
+  {
+    "id": 40,
+    "topic": "Vocabulary in Context",
+    "difficulty": "hard",
+    "question": "In the sentence: 'The critic's panegyric for the novelist ignored all the shortcomings that readers had noticed,' 'panegyric' most nearly means:",
+    "options": {
+      "A": "A harsh criticism",
+      "B": "A balanced review",
+      "C": "An elaborate eulogy or praise",
+      "D": "A brief summary"
+    },
+    "correct": "C",
+    "explanation": "'Panegyric' is a formal public speech or piece of writing that praises someone highly. The context — ignoring shortcomings — suggests the review was entirely positive and laudatory."
+  },
+  {
+    "id": 41,
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "question": "DOCTOR : HOSPITAL :: JUDGE : ?",
+    "options": {
+      "A": "Police station",
+      "B": "Courtroom",
+      "C": "Prison",
+      "D": "Parliament"
+    },
+    "correct": "B",
+    "explanation": "A doctor works in a hospital; similarly, a judge works in a courtroom. The relationship is professional : workplace."
+  },
+  {
+    "id": 42,
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "question": "CANVAS : PAINTER :: STAGE : ?",
+    "options": {
+      "A": "Audience",
+      "B": "Script",
+      "C": "Actor",
+      "D": "Director"
+    },
+    "correct": "C",
+    "explanation": "A canvas is the medium/surface on which a painter works; a stage is the medium/surface on which an actor performs. The relationship is tool/medium : user."
+  },
+  {
+    "id": 43,
+    "topic": "Analogies",
+    "difficulty": "medium",
+    "question": "PARCHMENT : MANUSCRIPT :: CELLULOID : ?",
+    "options": {
+      "A": "Camera",
+      "B": "Photograph",
+      "C": "Film",
+      "D": "Projector"
+    },
+    "correct": "C",
+    "explanation": "Parchment is the material on which a manuscript is written; celluloid is the material on which a film is recorded. The relationship is material : product made from it."
+  },
+  {
+    "id": 44,
+    "topic": "Analogies",
+    "difficulty": "medium",
+    "question": "MISER : GENEROSITY :: COWARD : ?",
+    "options": {
+      "A": "Fear",
+      "B": "Bravery",
+      "C": "Weakness",
+      "D": "Caution"
+    },
+    "correct": "B",
+    "explanation": "A miser lacks generosity (it is the defining quality they are without); a coward lacks bravery. The relationship is person : quality they fundamentally lack."
+  },
+  {
+    "id": 45,
+    "topic": "Analogies",
+    "difficulty": "hard",
+    "question": "LUGUBRIOUS : SORROW :: TRUCULENT : ?",
+    "options": {
+      "A": "Peace",
+      "B": "Aggression",
+      "C": "Kindness",
+      "D": "Confusion"
+    },
+    "correct": "B",
+    "explanation": "'Lugubrious' describes an extreme expression of sorrow; 'truculent' describes an extreme expression of aggression and combativeness. The relationship is adjective : the emotion/quality it expresses to an extreme."
+  },
+  {
+    "id": 46,
+    "topic": "Sentence Completion",
+    "difficulty": "easy",
+    "question": "Although she was known for her _______ personality, she surprised everyone by speaking boldly at the meeting.",
+    "options": {
+      "A": "outspoken",
+      "B": "reserved",
+      "C": "aggressive",
+      "D": "talkative"
+    },
+    "correct": "B",
+    "explanation": "The word 'although' signals a contrast. If she 'surprised everyone by speaking boldly', she must be normally the opposite — 'reserved' (quiet and shy)."
+  },
+  {
+    "id": 47,
+    "topic": "Sentence Completion",
+    "difficulty": "medium",
+    "question": "The scientist's theory, though initially met with _______, was eventually validated by extensive experimental evidence.",
+    "options": {
+      "A": "enthusiasm",
+      "B": "acceptance",
+      "C": "skepticism",
+      "D": "indifference"
+    },
+    "correct": "C",
+    "explanation": "The word 'though' contrasts the initial reception with later validation. If it was 'eventually validated', it must have been doubted initially — making 'skepticism' the best fit."
+  },
+  {
+    "id": 48,
+    "topic": "Sentence Completion",
+    "difficulty": "medium",
+    "question": "The diplomat's remarks were so _______ that listeners from opposing camps each believed he was supporting their position.",
+    "options": {
+      "A": "explicit",
+      "B": "biased",
+      "C": "ambiguous",
+      "D": "inflammatory"
+    },
+    "correct": "C",
+    "explanation": "If opposing groups each thought he supported them, his remarks must have been unclear or open to multiple interpretations — making 'ambiguous' the correct choice."
+  },
+  {
+    "id": 49,
+    "topic": "Critical Reading",
+    "difficulty": "hard",
+    "question": "Read the argument: 'Studies show that students who attend private schools score higher on standardized tests than those who attend public schools. Therefore, private schools provide a better education.' Which of the following most seriously weakens this argument?",
+    "options": {
+      "A": "Private schools often have smaller class sizes than public schools.",
+      "B": "Private school students typically come from higher-income families with more educational resources at home.",
+      "C": "Standardized tests are the most reliable measure of educational quality.",
+      "D": "Many public school teachers hold the same qualifications as private school teachers."
+    },
+    "correct": "B",
+    "explanation": "The argument assumes the score difference is due to school type. Option B introduces a confounding variable — socioeconomic background — suggesting the higher scores may be due to home resources, not school quality. This weakens the causal conclusion."
+  },
+  {
+    "id": 50,
+    "topic": "Critical Reading",
+    "difficulty": "hard",
+    "question": "Read the argument: 'Every time a new road is built in a city, traffic congestion increases within a few years. Therefore, building new roads causes traffic congestion.' Which logical flaw does this argument commit?",
+    "options": {
+      "A": "It makes a hasty generalization from limited cases.",
+      "B": "It confuses correlation with causation while ignoring induced demand.",
+      "C": "It relies on circular reasoning.",
+      "D": "It uses an appeal to authority rather than evidence."
+    },
+    "correct": "B",
+    "explanation": "The argument observes a correlation (new roads accompany later congestion) and concludes causation. The real explanation is 'induced demand' — new roads attract more drivers. This is a correlation-causation fallacy combined with ignoring the underlying mechanism."
+  }
+]

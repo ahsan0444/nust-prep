@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "topic": "Subject-Verb Agreement",
+    "difficulty": "easy",
+    "question": "Choose the sentence with correct subject-verb agreement: ",
+    "options": {
+      "A": "The team are playing well this season.",
+      "B": "The team is playing well this season.",
+      "C": "The team were playing well this season.",
+      "D": "The team play well this season."
+    },
+    "correct": "B",
+    "explanation": "Collective nouns like 'team' take a singular verb in American English. 'The team is' is correct."
+  },
+  {
+    "id": 2,
+    "topic": "Subject-Verb Agreement",
+    "difficulty": "easy",
+    "question": "Which sentence is grammatically correct?",
+    "options": {
+      "A": "Neither the manager nor the employees was present.",
+      "B": "Neither the manager nor the employees were present.",
+      "C": "Neither the manager nor the employees is present.",
+      "D": "Neither the manager nor the employees has been present."
+    },
+    "correct": "B",
+    "explanation": "With 'neither...nor', the verb agrees with the subject closest to it. 'Employees' is plural, so 'were' is correct."
+  },
+  {
+    "id": 3,
+    "topic": "Subject-Verb Agreement",
+    "difficulty": "medium",
+    "question": "Select the correct form: 'Each of the students ______ required to submit a report.'",
+    "options": {
+      "A": "are",
+      "B": "were",
+      "C": "is",
+      "D": "have been"
+    },
+    "correct": "C",
+    "explanation": "'Each' is always singular regardless of the prepositional phrase that follows. So 'is' is correct."
+  },
+  {
+    "id": 4,
+    "topic": "Subject-Verb Agreement",
+    "difficulty": "medium",
+    "question": "Which version correctly completes the sentence? 'The number of applicants ______ increased dramatically.'",
+    "options": {
+      "A": "have",
+      "B": "has",
+      "C": "are",
+      "D": "were"
+    },
+    "correct": "B",
+    "explanation": "'The number of' takes a singular verb because 'number' is the subject. 'A number of' would take a plural verb."
+  },
+  {
+    "id": 5,
+    "topic": "Subject-Verb Agreement",
+    "difficulty": "hard",
+    "question": "Identify the sentence with correct subject-verb agreement:",
+    "options": {
+      "A": "Politics are a dirty game, many argue.",
+      "B": "Ten miles are a long distance to walk.",
+      "C": "The data suggests that the hypothesis is wrong.",
+      "D": "Statistics are my favourite subject."
+    },
+    "correct": "C",
+    "explanation": "'Data' is increasingly used as a singular noun in modern academic writing. When treated as a collective singular, 'suggests' is correct. Note: 'politics' and 'statistics' as academic subjects take singular verbs."
+  },
+  {
+    "id": 6,
+    "topic": "Parallelism & Sentence Structure",
+    "difficulty": "easy",
+    "question": "Which sentence demonstrates correct parallel structure?",
+    "options": {
+      "A": "She likes swimming, to jog, and cycling.",
+      "B": "She likes swimming, jogging, and cycling.",
+      "C": "She likes to swim, jogging, and cycling.",
+      "D": "She likes to swim, to jog, and cycling."
+    },
+    "correct": "B",
+    "explanation": "Parallel structure requires all items in a list to use the same grammatical form. 'Swimming, jogging, and cycling' are all gerunds."
+  },
+  {
+    "id": 7,
+    "topic": "Parallelism & Sentence Structure",
+    "difficulty": "easy",
+    "question": "Choose the sentence with the best parallel structure:",
+    "options": {
+      "A": "The report was long, complicated, and it bored the readers.",
+      "B": "The report was long, complicated, and boring.",
+      "C": "The report was long, it was complicated, and boring.",
+      "D": "The report was long, its complexity was notable, and boring."
+    },
+    "correct": "B",
+    "explanation": "'Long, complicated, and boring' are three parallel adjectives, making this the grammatically correct option."
+  },
+  {
+    "id": 8,
+    "topic": "Parallelism & Sentence Structure",
+    "difficulty": "medium",
+    "question": "Select the option that corrects the faulty parallelism: 'The manager asked us to work late, that we should skip lunch, and completing the project by Friday.'",
+    "options": {
+      "A": "to work late, skipping lunch, and completing the project by Friday.",
+      "B": "to work late, to skip lunch, and to complete the project by Friday.",
+      "C": "working late, to skip lunch, and completing the project by Friday.",
+      "D": "to work late, that we skip lunch, and to complete the project by Friday."
+    },
+    "correct": "B",
+    "explanation": "The infinitive form 'to + verb' must be maintained consistently: to work, to skip, to complete."
+  },
+  {
+    "id": 9,
+    "topic": "Parallelism & Sentence Structure",
+    "difficulty": "medium",
+    "question": "Which sentence uses correlative conjunctions with correct parallel structure?",
+    "options": {
+      "A": "She is not only intelligent but also has creativity.",
+      "B": "She is not only intelligent but also creative.",
+      "C": "She is not only an intelligent person but also has creativity.",
+      "D": "She not only is intelligent but also creative."
+    },
+    "correct": "B",
+    "explanation": "With 'not only...but also', both elements must be grammatically parallel. 'Intelligent' and 'creative' are both adjectives."
+  },
+  {
+    "id": 10,
+    "topic": "Parallelism & Sentence Structure",
+    "difficulty": "hard",
+    "question": "Identify the sentence with no structural errors:",
+    "options": {
+      "A": "To read widely, writing regularly, and having discipline are the keys to becoming a good author.",
+      "B": "Reading widely, writing regularly, and to have discipline are the keys to becoming a good author.",
+      "C": "Reading widely, writing regularly, and having discipline are the keys to becoming a good author.",
+      "D": "To read widely, to write regularly, and have discipline are the keys to becoming a good author."
+    },
+    "correct": "C",
+    "explanation": "'Reading, writing, and having' are all gerunds — perfectly parallel. All other options mix gerunds and infinitives."
+  },
+  {
+    "id": 11,
+    "topic": "Modifier Placement",
+    "difficulty": "easy",
+    "question": "Which sentence contains a misplaced modifier?",
+    "options": {
+      "A": "Running quickly, Ahmed caught the bus.",
+      "B": "Ahmed caught the bus running quickly.",
+      "C": "Ahmed, running quickly, caught the bus.",
+      "D": "After running quickly, Ahmed caught the bus."
+    },
+    "correct": "B",
+    "explanation": "In option B, 'running quickly' seems to modify 'bus', implying the bus was running quickly. The modifier is misplaced."
+  },
+  {
+    "id": 12,
+    "topic": "Modifier Placement",
+    "difficulty": "easy",
+    "question": "Choose the sentence that avoids a dangling modifier:",
+    "options": {
+      "A": "Walking through the garden, the flowers were beautiful.",
+      "B": "Having finished the exam, the hall was quiet.",
+      "C": "After studying all night, Sara passed the test.",
+      "D": "Driving to work, the radio played loudly."
+    },
+    "correct": "C",
+    "explanation": "'After studying all night' correctly modifies 'Sara', the subject of the main clause. In others, the modifier has no logical subject."
+  },
+  {
+    "id": 13,
+    "topic": "Modifier Placement",
+    "difficulty": "medium",
+    "question": "Identify the sentence with a dangling modifier:",
+    "options": {
+      "A": "To pass the exam, students must study consistently.",
+      "B": "To pass the exam, consistent study is required.",
+      "C": "Having studied for weeks, the student felt confident.",
+      "D": "Feeling nervous, the candidate entered the exam hall."
+    },
+    "correct": "B",
+    "explanation": "'To pass the exam' should modify the person who passes, but the sentence's subject is 'consistent study', which cannot pass an exam."
+  },
+  {
+    "id": 14,
+    "topic": "Modifier Placement",
+    "difficulty": "medium",
+    "question": "Which sentence uses the modifier 'only' correctly?",
+    "options": {
+      "A": "She only told her mother about the award.",
+      "B": "She told only her mother about the award.",
+      "C": "Only she told her mother about the award.",
+      "D": "She told her mother only about the award."
+    },
+    "correct": "B",
+    "explanation": "The intended meaning is that she told no one else. Placing 'only' directly before 'her mother' makes this clear."
+  },
+  {
+    "id": 15,
+    "topic": "Modifier Placement",
+    "difficulty": "hard",
+    "question": "Select the sentence that is free from any modifier error:",
+    "options": {
+      "A": "Exhausted from the journey, the bed seemed inviting.",
+      "B": "Dressed in a new suit, the interview went smoothly for Khalid.",
+      "C": "Baffled by the question, the candidate paused before answering.",
+      "D": "Looking at the sunset, a sense of peace overcame him."
+    },
+    "correct": "C",
+    "explanation": "'Baffled by the question' correctly modifies 'the candidate', who is both the subject and the one baffled. All other options have dangling modifiers."
+  },
+  {
+    "id": 16,
+    "topic": "Tense Consistency",
+    "difficulty": "easy",
+    "question": "Which sentence maintains correct tense consistency?",
+    "options": {
+      "A": "She walks into the room and sat down.",
+      "B": "She walked into the room and sat down.",
+      "C": "She walks into the room and sits down.",
+      "D": "Both B and C are correct."
+    },
+    "correct": "D",
+    "explanation": "Consistency is the key. Both all-past (B) and all-present (C) are correct. Mixing tenses as in A is wrong."
+  },
+  {
+    "id": 17,
+    "topic": "Tense Consistency",
+    "difficulty": "easy",
+    "question": "Choose the sentence with consistent verb tenses:",
+    "options": {
+      "A": "He had finished the report before his boss arrives.",
+      "B": "He finished the report and handed it to his boss.",
+      "C": "He finishes the report and had handed it to his boss.",
+      "D": "He will finish the report and had handed it to his boss."
+    },
+    "correct": "B",
+    "explanation": "'Finished' and 'handed' are both simple past tense, maintaining consistent tense throughout the sentence."
+  },
+  {
+    "id": 18,
+    "topic": "Tense Consistency",
+    "difficulty": "medium",
+    "question": "Identify the sentence that correctly uses the past perfect:",
+    "options": {
+      "A": "By the time he arrived, the meeting ended.",
+      "B": "By the time he arrived, the meeting has ended.",
+      "C": "By the time he arrived, the meeting had ended.",
+      "D": "By the time he arrived, the meeting was ending."
+    },
+    "correct": "C",
+    "explanation": "Past perfect ('had ended') is required when one past action was completed before another past action. The meeting ended before he arrived."
+  },
+  {
+    "id": 19,
+    "topic": "Tense Consistency",
+    "difficulty": "medium",
+    "question": "Which sentence correctly handles sequence of tenses?",
+    "options": {
+      "A": "The teacher said that the Earth revolves around the Sun.",
+      "B": "The teacher said that the Earth revolved around the Sun.",
+      "C": "The teacher says that the Earth had revolved around the Sun.",
+      "D": "The teacher said that the Earth will revolve around the Sun."
+    },
+    "correct": "A",
+    "explanation": "Scientific or universal truths remain in the simple present even in reported speech. 'Revolves' is correct here."
+  },
+  {
+    "id": 20,
+    "topic": "Tense Consistency",
+    "difficulty": "hard",
+    "question": "Select the option that best corrects this sentence: 'When I reached the station, the train already left, so I waited for the next one.'",
+    "options": {
+      "A": "When I reached the station, the train has already left, so I waited for the next one.",
+      "B": "When I reached the station, the train had already left, so I waited for the next one.",
+      "C": "When I reached the station, the train already leaves, so I waited for the next one.",
+      "D": "When I reached the station, the train already left, so I will wait for the next one."
+    },
+    "correct": "B",
+    "explanation": "Past perfect ('had left') must be used for the action that was completed before another past action ('reached'). 'Waited' stays in simple past."
+  },
+  {
+    "id": 21,
+    "topic": "Sentence Correction",
+    "difficulty": "easy",
+    "question": "Which sentence is grammatically correct?",
+    "options": {
+      "A": "Between you and I, the plan will not work.",
+      "B": "Between you and me, the plan will not work.",
+      "C": "Between you and myself, the plan will not work.",
+      "D": "Between you and mine, the plan will not work."
+    },
+    "correct": "B",
+    "explanation": "Prepositions like 'between' require object pronouns. 'Me' is the correct object pronoun, not 'I' or 'myself'."
+  },
+  {
+    "id": 22,
+    "topic": "Sentence Correction",
+    "difficulty": "easy",
+    "question": "Choose the correctly written sentence:",
+    "options": {
+      "A": "The reason for his failure is because he did not study.",
+      "B": "The reason for his failure was because he did not study.",
+      "C": "The reason for his failure is that he did not study.",
+      "D": "The reason for his failure is due to he did not study."
+    },
+    "correct": "C",
+    "explanation": "'The reason is that' is correct. 'The reason is because' is redundant — 'because' and 'reason' convey the same idea."
+  },
+  {
+    "id": 23,
+    "topic": "Sentence Correction",
+    "difficulty": "medium",
+    "question": "Identify the grammatically correct sentence:",
+    "options": {
+      "A": "The committee have reached their decision unanimously.",
+      "B": "Less students attended the seminar than expected.",
+      "C": "She was able to convince the board by presenting irrefutable evidence.",
+      "D": "He is one of those persons who always make excuses."
+    },
+    "correct": "C",
+    "explanation": "Option C is correct. A: committee is singular; B: 'fewer' not 'less' for countable nouns; D: 'makes' should be 'make' (the relative clause verb agrees with 'persons')."
+  },
+  {
+    "id": 24,
+    "topic": "Sentence Correction",
+    "difficulty": "medium",
+    "question": "Select the error-free sentence:",
+    "options": {
+      "A": "Despite of his efforts, he failed to qualify.",
+      "B": "In spite of his efforts, he failed to qualify.",
+      "C": "Despite of his efforts, he had failed to qualify.",
+      "D": "Although his efforts, he failed to qualify."
+    },
+    "correct": "B",
+    "explanation": "'Despite' is never followed by 'of'. The correct forms are 'despite his efforts' or 'in spite of his efforts'."
+  },
+  {
+    "id": 25,
+    "topic": "Sentence Correction",
+    "difficulty": "hard",
+    "question": "Which sentence is entirely free from grammatical errors?",
+    "options": {
+      "A": "Having been rejected twice, his application was not submitted again by him.",
+      "B": "He submitted his application twice, but it was rejected both times.",
+      "C": "His application, having been rejected twice, he stopped to apply.",
+      "D": "After being rejected twice times, he gave up his application."
+    },
+    "correct": "B",
+    "explanation": "Option B is clean, active, and grammatically correct. A is needlessly passive; C has a dangling modifier; D uses 'twice times' incorrectly."
+  },
+  {
+    "id": 26,
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "question": "Read the passage: 'The industrial revolution transformed European society by shifting the population from rural to urban centres. Factories demanded labour, and millions migrated to cities. However, rapid urbanisation brought overcrowding, poor sanitation, and social inequality.' What is the central theme of the passage?",
+    "options": {
+      "A": "The benefits of urbanisation in Europe.",
+      "B": "The dual impact of the industrial revolution on society.",
+      "C": "The history of European factory development.",
+      "D": "The causes of rural depopulation."
+    },
+    "correct": "B",
+    "explanation": "The passage discusses both the economic transformation (positive) and the social problems (negative) caused by the industrial revolution, indicating a dual impact."
+  },
+  {
+    "id": 27,
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "question": "Read the passage: 'Emotional intelligence, often abbreviated as EQ, refers to the capacity to recognise, understand, and manage one's own emotions while also empathising with others. Studies suggest that individuals with high EQ tend to perform better in leadership roles than those with high IQ alone.' What can be inferred from this passage?",
+    "options": {
+      "A": "IQ is irrelevant in professional settings.",
+      "B": "EQ and IQ together are better predictors of leadership than IQ alone.",
+      "C": "Leaders must prioritise emotional intelligence over all other skills.",
+      "D": "High IQ individuals cannot develop emotional intelligence."
+    },
+    "correct": "B",
+    "explanation": "The passage states EQ leads to better performance 'than those with high IQ alone', implying that the combination is superior, not that IQ is irrelevant."
+  },
+  {
+    "id": 28,
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "question": "Read the passage: 'Critics of standardised testing argue that such assessments measure test-taking ability rather than true intellectual potential. They contend that creative thinkers and practical problem-solvers are systematically disadvantaged. Proponents, however, maintain that standardised tests provide an objective and scalable measure of foundational knowledge.' Which statement best represents the author's stance?",
+    "options": {
+      "A": "The author clearly supports standardised testing.",
+      "B": "The author clearly opposes standardised testing.",
+      "C": "The author presents both perspectives without taking a side.",
+      "D": "The author believes standardised tests are the best available tool."
+    },
+    "correct": "C",
+    "explanation": "The passage uses neutral language — 'critics argue' and 'proponents maintain' — presenting both sides without editorial preference, indicating a balanced, objective tone."
+  },
+  {
+    "id": 29,
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "question": "Read the passage: 'Deforestation in tropical regions is accelerating at an alarming rate. While agriculture and logging provide short-term economic gains, the long-term costs — loss of biodiversity, disruption of water cycles, and contribution to climate change — far outweigh the immediate benefits.' The author's primary purpose is to:",
+    "options": {
+      "A": "Describe the techniques used in tropical logging.",
+      "B": "Argue that short-term economic gains justify deforestation.",
+      "C": "Warn about the long-term environmental consequences of deforestation.",
+      "D": "Propose specific policy solutions for reducing deforestation."
+    },
+    "correct": "C",
+    "explanation": "The passage emphasises that long-term environmental costs 'far outweigh' short-term gains, making the primary purpose a warning about ecological consequences."
+  },
+  {
+    "id": 30,
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "question": "Read the passage: 'Renewable energy sources such as solar and wind power have grown substantially in recent years. Despite this growth, many countries still rely heavily on fossil fuels due to infrastructure costs and political resistance. Transitioning to clean energy requires not just technological advancement but also significant policy reform.' What does the author suggest is needed for a successful energy transition?",
+    "options": {
+      "A": "Only technological innovation is required.",
+      "B": "Political resistance must be eliminated first.",
+      "C": "Both technology and policy reform are necessary.",
+      "D": "Fossil fuels must be immediately banned."
+    },
+    "correct": "C",
+    "explanation": "The passage explicitly states that transition requires 'not just technological advancement but also significant policy reform', confirming both are needed."
+  },
+  {
+    "id": 31,
+    "topic": "Synonyms & Antonyms",
+    "difficulty": "easy",
+    "question": "Choose the synonym of BENEVOLENT:",
+    "options": {
+      "A": "Malicious",
+      "B": "Indifferent",
+      "C": "Charitable",
+      "D": "Harsh"
+    },
+    "correct": "C",
+    "explanation": "'Benevolent' means well-meaning and kind. 'Charitable' is its closest synonym. 'Malicious' is its antonym."
+  },
+  {
+    "id": 32,
+    "topic": "Synonyms & Antonyms",
+    "difficulty": "easy",
+    "question": "Select the antonym of VERBOSE:",
+    "options": {
+      "A": "Loquacious",
+      "B": "Concise",
+      "C": "Wordy",
+      "D": "Eloquent"
+    },
+    "correct": "B",
+    "explanation": "'Verbose' means using more words than necessary. Its antonym is 'concise', meaning brief and to the point."
+  },
+  {
+    "id": 33,
+    "topic": "Synonyms & Antonyms",
+    "difficulty": "medium",
+    "question": "Choose the word most opposite in meaning to RETICENT:",
+    "options": {
+      "A": "Reserved",
+      "B": "Introspective",
+      "C": "Forthcoming",
+      "D": "Timid"
+    },
+    "correct": "C",
+    "explanation": "'Reticent' means not inclined to speak freely. Its antonym is 'forthcoming', meaning willing to share information or open in communication."
+  },
+  {
+    "id": 34,
+    "topic": "Synonyms & Antonyms",
+    "difficulty": "medium",
+    "question": "Which word is closest in meaning to EPHEMERAL?",
+    "options": {
+      "A": "Permanent",
+      "B": "Transient",
+      "C": "Substantial",
+      "D": "Eternal"
+    },
+    "correct": "B",
+    "explanation": "'Ephemeral' means lasting for a very short time. 'Transient' is its closest synonym, also meaning temporary or passing."
+  },
+  {
+    "id": 35,
+    "topic": "Synonyms & Antonyms",
+    "difficulty": "hard",
+    "question": "Select the antonym of SYCOPHANTIC:",
+    "options": {
+      "A": "Flattering",
+      "B": "Obsequious",
+      "C": "Candid",
+      "D": "Subservient"
+    },
+    "correct": "C",
+    "explanation": "'Sycophantic' means excessively complimentary or flattering to gain favour. 'Candid' — honest and frank — is its antonym. 'Obsequious' and 'subservient' are synonyms."
+  },
+  {
+    "id": 36,
+    "topic": "Vocabulary in Context",
+    "difficulty": "easy",
+    "question": "Read the sentence: 'The scientist's hypothesis was initially met with SKEPTICISM, but after years of research, it gained widespread acceptance.' The word 'skepticism' most nearly means:",
+    "options": {
+      "A": "Enthusiasm",
+      "B": "Doubt",
+      "C": "Support",
+      "D": "Curiosity"
+    },
+    "correct": "B",
+    "explanation": "Skepticism refers to doubt or a questioning attitude. The context 'initially met with' and later 'gained acceptance' supports the meaning of initial doubt."
+  },
+  {
+    "id": 37,
+    "topic": "Vocabulary in Context",
+    "difficulty": "easy",
+    "question": "Read the sentence: 'The politician's AMBIGUOUS statement left voters uncertain about his true position on the issue.' The word 'ambiguous' most nearly means:",
+    "options": {
+      "A": "Clear",
+      "B": "Decisive",
+      "C": "Open to more than one interpretation",
+      "D": "Strongly worded"
+    },
+    "correct": "C",
+    "explanation": "'Ambiguous' means unclear or having multiple possible meanings. The context 'left voters uncertain' confirms this meaning."
+  },
+  {
+    "id": 38,
+    "topic": "Vocabulary in Context",
+    "difficulty": "medium",
+    "question": "Read the sentence: 'After the stock market crash, the once-OPULENT neighbourhood became a symbol of economic hardship.' The word 'opulent' most nearly means:",
+    "options": {
+      "A": "Impoverished",
+      "B": "Industrial",
+      "C": "Lavishly wealthy",
+      "D": "Densely populated"
+    },
+    "correct": "C",
+    "explanation": "The contrast with 'economic hardship' after the crash implies 'opulent' referred to extreme wealth and luxury before the crash."
+  },
+  {
+    "id": 39,
+    "topic": "Vocabulary in Context",
+    "difficulty": "medium",
+    "question": "Read the sentence: 'The general's ACUMEN in battlefield strategy was evident in his ability to anticipate enemy movements before they occurred.' The word 'acumen' most nearly means:",
+    "options": {
+      "A": "Recklessness",
+      "B": "Keen insight",
+      "C": "Physical strength",
+      "D": "Reluctance"
+    },
+    "correct": "B",
+    "explanation": "'Acumen' means the ability to make quick, accurate judgements. The context of anticipating enemy strategy confirms the meaning of sharp intelligence."
+  },
+  {
+    "id": 40,
+    "topic": "Vocabulary in Context",
+    "difficulty": "hard",
+    "question": "Read the sentence: 'The professor's PEDANTIC lectures, filled with excessive detail about minor points, often caused students to lose sight of the broader concepts.' The word 'pedantic' most nearly means:",
+    "options": {
+      "A": "Inspiring and motivating",
+      "B": "Concise and clear",
+      "C": "Overly concerned with minor details",
+      "D": "Logically organised"
+    },
+    "correct": "C",
+    "explanation": "'Pedantic' describes someone who focuses too much on minor details at the expense of the larger picture. The context 'excessive detail about minor points' confirms this."
+  },
+  {
+    "id": 41,
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "question": "AUTHOR : BOOK :: COMPOSER : ?",
+    "options": {
+      "A": "Stage",
+      "B": "Symphony",
+      "C": "Instrument",
+      "D": "Conductor"
+    },
+    "correct": "B",
+    "explanation": "An author creates a book; a composer creates a symphony. The relationship is creator to their creation."
+  },
+  {
+    "id": 42,
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "question": "DOCTOR : STETHOSCOPE :: CARPENTER : ?",
+    "options": {
+      "A": "Blueprint",
+      "B": "Saw",
+      "C": "Nail",
+      "D": "Wood"
+    },
+    "correct": "B",
+    "explanation": "A stethoscope is the primary diagnostic tool of a doctor; a saw is the primary cutting tool of a carpenter."
+  },
+  {
+    "id": 43,
+    "topic": "Analogies",
+    "difficulty": "medium",
+    "question": "CODA : SYMPHONY :: EPILOGUE : ?",
+    "options": {
+      "A": "Preface",
+      "B": "Novel",
+      "C": "Chapter",
+      "D": "Index"
+    },
+    "correct": "B",
+    "explanation": "A coda is the concluding section of a symphony; an epilogue is the concluding section of a novel. Both refer to endings of their respective works."
+  },
+  {
+    "id": 44,
+    "topic": "Analogies",
+    "difficulty": "medium",
+    "question": "DROUGHT : RAINFALL :: FAMINE : ?",
+    "options": {
+      "A": "Hunger",
+      "B": "Agriculture",
+      "C": "Food supply",
+      "D": "Economy"
+    },
+    "correct": "C",
+    "explanation": "Drought is caused by lack of rainfall; famine is caused by lack of food supply. Both describe deficiency and its cause."
+  },
+  {
+    "id": 45,
+    "topic": "Analogies",
+    "difficulty": "hard",
+    "question": "LACONIC : WORDS :: ABSTEMIOUS : ?",
+    "options": {
+      "A": "Generosity",
+      "B": "Time",
+      "C": "Food and drink",
+      "D": "Money"
+    },
+    "correct": "C",
+    "explanation": "'Laconic' means using very few words; 'abstemious' means restraining oneself from food and drink. Both describe self-restraint in their respective domains."
+  },
+  {
+    "id": 46,
+    "topic": "Sentence Completion",
+    "difficulty": "easy",
+    "question": "Despite repeated ______, the athlete refused to give up on his dream of competing at the international level.",
+    "options": {
+      "A": "encouragements",
+      "B": "successes",
+      "C": "setbacks",
+      "D": "preparations"
+    },
+    "correct": "C",
+    "explanation": "'Despite' signals a contrast. 'Setbacks' contrasts logically with refusing to give up. The other words do not create a meaningful contrast."
+  },
+  {
+    "id": 47,
+    "topic": "Sentence Completion",
+    "difficulty": "medium",
+    "question": "The CEO's decision to restructure the company was both ______ and controversial — praised by shareholders but criticised by employees.",
+    "options": {
+      "A": "popular",
+      "B": "bold",
+      "C": "reckless",
+      "D": "premature"
+    },
+    "correct": "B",
+    "explanation": "'Bold' fits the context — a decision that required courage, which explains why it received mixed reactions from different groups."
+  },
+  {
+    "id": 48,
+    "topic": "Sentence Completion",
+    "difficulty": "medium",
+    "question": "The documentary presented a ______ account of the civil war, including testimonies from veterans on both sides of the conflict.",
+    "options": {
+      "A": "biased",
+      "B": "superficial",
+      "C": "comprehensive",
+      "D": "propagandistic"
+    },
+    "correct": "C",
+    "explanation": "Including testimonies from 'both sides' implies the account was thorough and complete — 'comprehensive' fits best."
+  },
+  {
+    "id": 49,
+    "topic": "Sentence Completion",
+    "difficulty": "hard",
+    "question": "The philosopher argued that true wisdom is not ______ but rather earned through experience, reflection, and an honest confrontation with one's own limitations.",
+    "options": {
+      "A": "acquired",
+      "B": "innate",
+      "C": "elusive",
+      "D": "practical"
+    },
+    "correct": "B",
+    "explanation": "The sentence contrasts 'not [blank]' with being 'earned through experience'. 'Innate' (inborn, natural) creates the right contrast — wisdom is not something you are born with."
+  },
+  {
+    "id": 50,
+    "topic": "Critical Reading",
+    "difficulty": "hard",
+    "question": "A student argues: 'Our school should eliminate homework because studies show that Finnish students, who have very little homework, perform exceptionally well on international assessments.' Which of the following is the most significant flaw in this argument?",
+    "options": {
+      "A": "The student fails to cite the specific studies.",
+      "B": "The argument assumes that what works in Finland will work in a different educational context.",
+      "C": "The student does not propose an alternative to homework.",
+      "D": "International assessments are not a valid measure of academic performance."
+    },
+    "correct": "B",
+    "explanation": "This is a faulty analogy. Finland's educational success may result from numerous cultural, social, and systemic factors unique to that country. Directly applying Finland's practices to another context without accounting for these differences is a logical error."
+  }
+]

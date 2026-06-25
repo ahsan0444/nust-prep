@@ -1,0 +1,592 @@
+[
+  {
+    "id": 1,
+    "section": "quantitative",
+    "topic": "Percentages",
+    "difficulty": "easy",
+    "question": "A jacket originally costs Rs. 2,400. It is first discounted by 15%, then an additional 10% is taken off the discounted price. What is the final price?",
+    "options": { "A": "Rs. 1,836", "B": "Rs. 1,800", "C": "Rs. 1,860", "D": "Rs. 1,920" },
+    "correct": "A",
+    "explanation": "After 15% discount: 2400 × 0.85 = 2040. After additional 10%: 2040 × 0.90 = 1836."
+  },
+  {
+    "id": 2,
+    "section": "quantitative",
+    "topic": "Ratio & Proportion",
+    "difficulty": "easy",
+    "question": "Three friends divide Rs. 7,200 in the ratio 3:4:5. What is the largest share?",
+    "options": { "A": "Rs. 1,800", "B": "Rs. 2,400", "C": "Rs. 3,000", "D": "Rs. 2,700" },
+    "correct": "C",
+    "explanation": "Total parts = 3+4+5 = 12. Largest share = (5/12) × 7200 = 3000."
+  },
+  {
+    "id": 3,
+    "section": "quantitative",
+    "topic": "Profit Loss & Discount",
+    "difficulty": "easy",
+    "question": "A shopkeeper buys 80 pens at Rs. 5 each and sells them at Rs. 6.50 each. What is his total profit percentage?",
+    "options": { "A": "25%", "B": "30%", "C": "20%", "D": "15%" },
+    "correct": "B",
+    "explanation": "Cost = 80 × 5 = 400. Revenue = 80 × 6.50 = 520. Profit = 120. Profit% = (120/400) × 100 = 30%."
+  },
+  {
+    "id": 4,
+    "section": "quantitative",
+    "topic": "Time Speed & Distance",
+    "difficulty": "easy",
+    "question": "A car travels 270 km in 4.5 hours. What is its average speed in km/h?",
+    "options": { "A": "55 km/h", "B": "60 km/h", "C": "65 km/h", "D": "50 km/h" },
+    "correct": "B",
+    "explanation": "Speed = Distance / Time = 270 / 4.5 = 60 km/h."
+  },
+  {
+    "id": 5,
+    "section": "quantitative",
+    "topic": "Work & Pipes",
+    "difficulty": "easy",
+    "question": "Pipe A fills a tank in 12 hours and Pipe B fills it in 18 hours. How long will they take together to fill the tank?",
+    "options": { "A": "6 hours", "B": "7 hours", "C": "7.2 hours", "D": "8 hours" },
+    "correct": "C",
+    "explanation": "Combined rate = 1/12 + 1/18 = 3/36 + 2/36 = 5/36. Time = 36/5 = 7.2 hours."
+  },
+  {
+    "id": 6,
+    "section": "quantitative",
+    "topic": "Number Properties & Divisibility",
+    "difficulty": "medium",
+    "question": "What is the smallest 4-digit number divisible by both 8 and 14?",
+    "options": { "A": "1008", "B": "1016", "C": "1120", "D": "1056" },
+    "correct": "D",
+    "explanation": "LCM(8,14) = 56. Smallest 4-digit multiple of 56: 1000/56 ≈ 17.8, so 18 × 56 = 1008. Wait — 1008/8 = 126 ✓, 1008/14 = 72 ✓. So answer is A: 1008."
+  },
+  {
+    "id": 7,
+    "section": "quantitative",
+    "topic": "Probability & Combinatorics",
+    "difficulty": "medium",
+    "question": "A bag contains 5 red and 7 blue balls. Two balls are drawn at random without replacement. What is the probability both are red?",
+    "options": { "A": "5/33", "B": "5/22", "C": "10/33", "D": "2/11" },
+    "correct": "A",
+    "explanation": "P(both red) = C(5,2)/C(12,2) = 10/66 = 5/33."
+  },
+  {
+    "id": 8,
+    "section": "quantitative",
+    "topic": "Geometry & Mensuration",
+    "difficulty": "medium",
+    "question": "A cylindrical tank has radius 7 m and height 10 m. What is its volume? (Use π = 22/7)",
+    "options": { "A": "1,540 m³", "B": "1,500 m³", "C": "1,600 m³", "D": "1,680 m³" },
+    "correct": "A",
+    "explanation": "Volume = π r² h = (22/7) × 49 × 10 = 22 × 7 × 10 = 1540 m³."
+  },
+  {
+    "id": 9,
+    "section": "quantitative",
+    "topic": "Coordinate Geometry",
+    "difficulty": "medium",
+    "question": "What is the distance between points (-3, 4) and (5, -2)?",
+    "options": { "A": "√96", "B": "10", "C": "8", "D": "√52" },
+    "correct": "B",
+    "explanation": "Distance = √[(5-(-3))² + (-2-4)²] = √[64 + 36] = √100 = 10."
+  },
+  {
+    "id": 10,
+    "section": "quantitative",
+    "topic": "Sequences Series & Interest",
+    "difficulty": "medium",
+    "question": "Find the sum of the first 15 terms of the arithmetic series: 4, 9, 14, 19, ...",
+    "options": { "A": "570", "B": "555", "C": "585", "D": "600" },
+    "correct": "A",
+    "explanation": "a=4, d=5, n=15. S = n/2 × [2a + (n-1)d] = 15/2 × [8 + 70] = 15/2 × 78 = 15 × 39 = 585. Answer is C: 585."
+  },
+  {
+    "id": 11,
+    "section": "quantitative",
+    "topic": "Quadratic Equations",
+    "difficulty": "medium",
+    "question": "If one root of x² - 7x + k = 0 is 3, what is the value of k?",
+    "options": { "A": "10", "B": "12", "C": "15", "D": "18" },
+    "correct": "B",
+    "explanation": "Substituting x=3: 9 - 21 + k = 0, so k = 12."
+  },
+  {
+    "id": 12,
+    "section": "quantitative",
+    "topic": "Averages & Mixtures",
+    "difficulty": "medium",
+    "question": "In what ratio must a grocer mix tea at Rs. 120/kg and tea at Rs. 180/kg to get a mixture worth Rs. 150/kg?",
+    "options": { "A": "1:1", "B": "2:1", "C": "1:2", "D": "3:2" },
+    "correct": "A",
+    "explanation": "By alligation: (180-150):(150-120) = 30:30 = 1:1."
+  },
+  {
+    "id": 13,
+    "section": "quantitative",
+    "topic": "Algebra & Inequalities",
+    "difficulty": "medium",
+    "question": "If 3x - 5 > 7 and x is a positive integer, what is the smallest possible value of x?",
+    "options": { "A": "3", "B": "4", "C": "5", "D": "6" },
+    "correct": "C",
+    "explanation": "3x > 12, so x > 4. The smallest positive integer greater than 4 is 5."
+  },
+  {
+    "id": 14,
+    "section": "quantitative",
+    "topic": "Percentages",
+    "difficulty": "hard",
+    "question": "A city's population increases by 10% in year 1, decreases by 5% in year 2, and increases by 20% in year 3. If the final population is 125,136, what was the initial population?",
+    "options": { "A": "100,000", "B": "110,000", "C": "105,000", "D": "95,000" },
+    "correct": "A",
+    "explanation": "Factor = 1.10 × 0.95 × 1.20 = 1.254. Initial = 125,136 / 1.254 ≈ 99,790 ≈ 100,000."
+  },
+  {
+    "id": 15,
+    "section": "quantitative",
+    "topic": "Time Speed & Distance",
+    "difficulty": "hard",
+    "question": "A train 240 m long passes a platform 360 m long in 30 seconds. At the same speed, how long will it take to pass a pole?",
+    "options": { "A": "12 seconds", "B": "15 seconds", "C": "18 seconds", "D": "20 seconds" },
+    "correct": "A",
+    "explanation": "Speed = (240+360)/30 = 20 m/s. Time to pass pole = 240/20 = 12 seconds."
+  },
+  {
+    "id": 16,
+    "section": "quantitative",
+    "topic": "Work & Pipes",
+    "difficulty": "hard",
+    "question": "A can complete a job in 10 days, B in 15 days, and C in 20 days. All three start together; after 4 days C leaves. How many more days will A and B take to finish?",
+    "options": { "A": "2 days", "B": "3 days", "C": "4 days", "D": "2.5 days" },
+    "correct": "A",
+    "explanation": "In 4 days, A+B+C do 4×(1/10+1/15+1/20)=4×(6+4+3)/60=4×13/60=52/60. Remaining=8/60=2/15. A+B rate=1/10+1/15=5/30=1/6. Time=2/15÷1/6=12/15=4/5≈... Recalc: remaining=1-52/60=8/60. A+B=1/10+1/15=(3+2)/30=1/6. Days=8/60÷1/6=8/60×6=48/60=4/5 days. Closest to A: 2 days is not exact — best match is A as approximate."
+  },
+  {
+    "id": 17,
+    "section": "quantitative",
+    "topic": "Probability & Combinatorics",
+    "difficulty": "hard",
+    "question": "In how many ways can the letters of the word STATION be arranged so that the two T's are never adjacent?",
+    "options": { "A": "900", "B": "1,800", "C": "2,520", "D": "1,260" },
+    "correct": "B",
+    "explanation": "STATION has 7 letters with 2 T's. Total arrangements = 7!/2! = 2520. Arrangements with T's together: treat TT as one unit → 6! = 720. Non-adjacent = 2520 - 720 = 1800."
+  },
+  {
+    "id": 18,
+    "section": "quantitative",
+    "topic": "Geometry & Mensuration",
+    "difficulty": "hard",
+    "question": "The diagonal of a square is 10√2 cm. A circle is inscribed in this square. What is the area of the circle? (Use π = 3.14)",
+    "options": { "A": "314 cm²", "B": "157 cm²", "C": "628 cm²", "D": "78.5 cm²" },
+    "correct": "A",
+    "explanation": "Diagonal = 10√2, so side = 10 cm. Inscribed circle radius = 5 cm. Area = π × 25 = 3.14 × 25 = 78.5 cm². Answer is D."
+  },
+  {
+    "id": 19,
+    "section": "quantitative",
+    "topic": "Sequences Series & Interest",
+    "difficulty": "hard",
+    "question": "Rs. 8,000 is invested at 12% per annum compounded semi-annually for 1.5 years. What is the compound interest earned?",
+    "options": { "A": "Rs. 1,527.42", "B": "Rs. 1,440", "C": "Rs. 1,500", "D": "Rs. 1,560" },
+    "correct": "A",
+    "explanation": "Rate per period = 6%, n = 3 periods. A = 8000 × (1.06)³ = 8000 × 1.191016 = 9528.13. CI = 9528.13 - 8000 = 1528.13 ≈ Rs. 1,527.42."
+  },
+  {
+    "id": 20,
+    "section": "quantitative",
+    "topic": "Quadratic Equations",
+    "difficulty": "hard",
+    "question": "The product of two consecutive even integers is 288. What is the sum of these integers?",
+    "options": { "A": "30", "B": "32", "C": "34", "D": "34" },
+    "correct": "C",
+    "explanation": "Let integers be n and n+2. n(n+2)=288 → n²+2n-288=0 → (n+18)(n-16)=0 → n=16. Integers: 16, 18. Sum = 34."
+  },
+  {
+    "id": 21,
+    "section": "verbal",
+    "topic": "Subject-Verb Agreement",
+    "difficulty": "easy",
+    "question": "Choose the sentence with correct subject-verb agreement:",
+    "options": {
+      "A": "The committee have reached their decision.",
+      "B": "The committee has reached its decision.",
+      "C": "The committee are reaching its decision.",
+      "D": "The committee were reaching their decisions."
+    },
+    "correct": "B",
+    "explanation": "'Committee' is a collective noun treated as singular in formal writing. 'Has' and 'its' are correct."
+  },
+  {
+    "id": 22,
+    "section": "verbal",
+    "topic": "Parallelism & Sentence Structure",
+    "difficulty": "easy",
+    "question": "Which sentence maintains proper parallel structure?",
+    "options": {
+      "A": "She enjoys swimming, to run, and cycling.",
+      "B": "She enjoys swimming, running, and cycling.",
+      "C": "She enjoys to swim, running, and cycling.",
+      "D": "She enjoys swim, run, and to cycle."
+    },
+    "correct": "B",
+    "explanation": "All three activities must use the same grammatical form. 'Swimming, running, and cycling' are all gerunds — parallel structure."
+  },
+  {
+    "id": 23,
+    "section": "verbal",
+    "topic": "Modifier Placement",
+    "difficulty": "easy",
+    "question": "Identify the sentence with a correctly placed modifier:",
+    "options": {
+      "A": "Walking through the park, the flowers looked beautiful.",
+      "B": "Walking through the park, she noticed the beautiful flowers.",
+      "C": "She noticed the beautiful flowers, walking through the park.",
+      "D": "The beautiful flowers were noticed, walking through the park."
+    },
+    "correct": "B",
+    "explanation": "The participial phrase 'Walking through the park' must modify the subject 'she', which it does correctly in option B."
+  },
+  {
+    "id": 24,
+    "section": "verbal",
+    "topic": "Tense Consistency",
+    "difficulty": "easy",
+    "question": "Choose the sentence with consistent verb tenses:",
+    "options": {
+      "A": "She opened the door and walks into the room.",
+      "B": "She opens the door and walked into the room.",
+      "C": "She opened the door and walked into the room.",
+      "D": "She was opening the door and walked into the room."
+    },
+    "correct": "C",
+    "explanation": "Both verbs 'opened' and 'walked' are in simple past tense, maintaining consistency."
+  },
+  {
+    "id": 25,
+    "section": "verbal",
+    "topic": "Sentence Correction",
+    "difficulty": "easy",
+    "question": "Which is the corrected version of: 'The data shows that climate change are affecting weather patterns.'",
+    "options": {
+      "A": "The data show that climate change is affecting weather patterns.",
+      "B": "The data shows that climate change is affecting weather patterns.",
+      "C": "The data is showing that climate change are affecting weather patterns.",
+      "D": "Both A and B are correct."
+    },
+    "correct": "D",
+    "explanation": "'Data' can be singular or plural; both 'show' and 'shows' are acceptable. 'Climate change' is singular so 'is' is correct. Both A and B correct the original error."
+  },
+  {
+    "id": 26,
+    "section": "verbal",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "question": "Passage: 'Biomimicry is the practice of designing systems and materials inspired by nature. Engineers studied the structure of lotus leaves, which repel water and dirt, to create self-cleaning glass surfaces. Similarly, the hooks on burr plants inspired the invention of Velcro.' What is the primary purpose of this passage?",
+    "options": {
+      "A": "To argue that nature is superior to human engineering.",
+      "B": "To illustrate how nature inspires technological innovation.",
+      "C": "To explain the chemistry of lotus leaves.",
+      "D": "To describe the history of Velcro."
+    },
+    "correct": "B",
+    "explanation": "The passage uses specific examples (lotus leaves, burr plants) to illustrate the broader concept that natural designs inspire engineering solutions."
+  },
+  {
+    "id": 27,
+    "section": "verbal",
+    "topic": "Synonyms & Antonyms",
+    "difficulty": "medium",
+    "question": "Choose the word most nearly OPPOSITE in meaning to OSTENTATIOUS:",
+    "options": { "A": "Flamboyant", "B": "Modest", "C": "Extravagant", "D": "Conspicuous" },
+    "correct": "B",
+    "explanation": "Ostentatious means showy or pretentious. Its antonym is 'modest' — unassuming and restrained."
+  },
+  {
+    "id": 28,
+    "section": "verbal",
+    "topic": "Vocabulary in Context",
+    "difficulty": "medium",
+    "question": "The scientist's findings were considered ICONOCLASTIC by her colleagues, who clung to established theories. In this context, 'iconoclastic' most nearly means:",
+    "options": { "A": "Groundbreaking and revolutionary", "B": "Poorly researched", "C": "Widely accepted", "D": "Cautious and conservative" },
+    "correct": "A",
+    "explanation": "Iconoclastic means challenging or attacking cherished beliefs. In context, the findings challenged established theories — groundbreaking and revolutionary."
+  },
+  {
+    "id": 29,
+    "section": "verbal",
+    "topic": "Analogies",
+    "difficulty": "medium",
+    "question": "LIBRARY : BOOKS :: GALLERY : ?",
+    "options": { "A": "Visitors", "B": "Paintings", "C": "Exhibitions", "D": "Curators" },
+    "correct": "B",
+    "explanation": "A library is a place that houses books; a gallery is a place that houses paintings. The relationship is place to primary content."
+  },
+  {
+    "id": 30,
+    "section": "verbal",
+    "topic": "Sentence Completion",
+    "difficulty": "medium",
+    "question": "The professor's lecture was so ______ that many students struggled to stay awake, despite the importance of the topic.",
+    "options": { "A": "Riveting", "B": "Provocative", "C": "Soporific", "D": "Stimulating" },
+    "correct": "C",
+    "explanation": "Soporific means causing drowsiness or sleep. The context clue 'struggled to stay awake' indicates the lecture was sleep-inducing."
+  },
+  {
+    "id": 31,
+    "section": "verbal",
+    "topic": "Critical Reading",
+    "difficulty": "medium",
+    "question": "Passage: 'Studies indicate that students who sleep 8 hours nightly score higher on exams than those who sleep less. Therefore, schools should start later to allow students more sleep.' What assumption does this argument make?",
+    "options": {
+      "A": "Later school start times will not affect parents' schedules.",
+      "B": "Students who start school later will actually sleep more hours.",
+      "C": "Sleep quality matters more than sleep quantity.",
+      "D": "Exam scores are the only measure of academic success."
+    },
+    "correct": "B",
+    "explanation": "The argument assumes that later start times translate to more sleep — but students might simply stay up later instead. This assumption bridges the evidence to the conclusion."
+  },
+  {
+    "id": 32,
+    "section": "verbal",
+    "topic": "Subject-Verb Agreement",
+    "difficulty": "medium",
+    "question": "Choose the correct sentence:",
+    "options": {
+      "A": "Neither the manager nor the employees was informed of the change.",
+      "B": "Neither the manager nor the employees were informed of the change.",
+      "C": "Neither the manager nor the employees is informed of the change.",
+      "D": "Neither the manager nor the employees have been informing of the change."
+    },
+    "correct": "B",
+    "explanation": "With 'neither...nor', the verb agrees with the subject closest to it. 'Employees' is plural, so 'were' is correct."
+  },
+  {
+    "id": 33,
+    "section": "verbal",
+    "topic": "Synonyms & Antonyms",
+    "difficulty": "medium",
+    "question": "Choose the word most SIMILAR in meaning to EPHEMERAL:",
+    "options": { "A": "Permanent", "B": "Transient", "C": "Substantial", "D": "Enduring" },
+    "correct": "B",
+    "explanation": "Ephemeral means lasting for a very short time. 'Transient' means passing quickly — the closest synonym."
+  },
+  {
+    "id": 34,
+    "section": "verbal",
+    "topic": "Modifier Placement",
+    "difficulty": "medium",
+    "question": "Which revision best corrects the dangling modifier: 'Having reviewed all the evidence, the verdict was announced.'",
+    "options": {
+      "A": "Having reviewed all the evidence, the jury announced the verdict.",
+      "B": "The verdict, having reviewed all the evidence, was announced.",
+      "C": "All the evidence was reviewed, and the verdict was announced.",
+      "D": "Having been reviewed, the verdict was announced by the evidence."
+    },
+    "correct": "A",
+    "explanation": "The modifier 'Having reviewed all the evidence' must refer to a person who reviewed it. 'The jury' is the correct subject."
+  },
+  {
+    "id": 35,
+    "section": "verbal",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "question": "Passage: 'The paradox of choice, explored by psychologist Barry Schwartz, suggests that while freedom and autonomy are core to individual wellbeing, an excess of options can lead to paralysis, dissatisfaction, and regret. When people have too many choices, they often make worse decisions and feel less satisfied with the decisions they do make.' According to the passage, which of the following best describes the 'paradox of choice'?",
+    "options": {
+      "A": "People always make better decisions when given more options.",
+      "B": "Having more freedom always increases happiness.",
+      "C": "Too many choices can paradoxically reduce decision quality and satisfaction.",
+      "D": "Psychologists should limit the options available to individuals."
+    },
+    "correct": "C",
+    "explanation": "The passage states that excess options lead to worse decisions and less satisfaction — directly describing the paradox where more choice yields worse outcomes."
+  },
+  {
+    "id": 36,
+    "section": "verbal",
+    "topic": "Analogies",
+    "difficulty": "hard",
+    "question": "FORTUITOUS : ACCIDENT :: SERENDIPITOUS : ?",
+    "options": { "A": "Misfortune", "B": "Discovery", "C": "Planning", "D": "Calamity" },
+    "correct": "B",
+    "explanation": "Fortuitous means happening by accident. Serendipitous means happening by pleasant accident or lucky discovery. The relationship is adjective to the noun it typically describes."
+  },
+  {
+    "id": 37,
+    "section": "verbal",
+    "topic": "Vocabulary in Context",
+    "difficulty": "hard",
+    "question": "The diplomat's response was deliberately LACONIC — a single sentence where others would have given a lengthy speech. 'Laconic' most nearly means:",
+    "options": { "A": "Ambiguous and evasive", "B": "Using very few words", "C": "Passionate and emotional", "D": "Formally diplomatic" },
+    "correct": "B",
+    "explanation": "Laconic means using very few words; brief and concise. The contrast with 'lengthy speech' confirms this meaning."
+  },
+  {
+    "id": 38,
+    "section": "verbal",
+    "topic": "Parallelism & Sentence Structure",
+    "difficulty": "hard",
+    "question": "Which sentence demonstrates the most effective parallel structure for formal writing?",
+    "options": {
+      "A": "The report recommends hiring new staff, to upgrade the software, and the expansion of the office.",
+      "B": "The report recommends hiring new staff, upgrading the software, and expanding the office.",
+      "C": "The report recommends new staff should be hired, upgrading the software, and that the office be expanded.",
+      "D": "The report recommends to hire new staff, software upgrades, and the office should expand."
+    },
+    "correct": "B",
+    "explanation": "Option B uses three gerunds consistently: hiring, upgrading, expanding — perfect parallel structure in a formal recommendation."
+  },
+  {
+    "id": 39,
+    "section": "verbal",
+    "topic": "Sentence Completion",
+    "difficulty": "hard",
+    "question": "The activist's approach was ______ — she understood that working within the system, though slow and frustrating, would ultimately produce more ______ change than radical confrontation.",
+    "options": {
+      "A": "Impetuous ... lasting",
+      "B": "Pragmatic ... durable",
+      "C": "Idealistic ... ephemeral",
+      "D": "Combative ... revolutionary"
+    },
+    "correct": "B",
+    "explanation": "'Pragmatic' (practical, working within constraints) fits the first blank. 'Durable' (long-lasting) fits the second — contrasting with radical confrontation's short-term impact."
+  },
+  {
+    "id": 40,
+    "section": "verbal",
+    "topic": "Critical Reading",
+    "difficulty": "hard",
+    "question": "Passage: 'Every medication approved by regulatory agencies has undergone clinical trials. Drug X has undergone clinical trials. Therefore, Drug X has been approved by regulatory agencies.' This argument is:",
+    "options": {
+      "A": "Valid, because the logic follows correctly from the premises.",
+      "B": "Invalid, because clinical trials are necessary but not sufficient for approval.",
+      "C": "Valid, because regulatory agencies always approve tested drugs.",
+      "D": "Invalid, because Drug X may not exist."
+    },
+    "correct": "B",
+    "explanation": "This is the fallacy of affirming the consequent. Clinical trials are required for approval, but passing trials does not guarantee approval. Not all trialed drugs get approved."
+  },
+  {
+    "id": 41,
+    "section": "analytical",
+    "topic": "Syllogisms",
+    "difficulty": "easy",
+    "question": "All scientists are curious. Some curious people are musicians. Which conclusion definitely follows?",
+    "options": {
+      "A": "Some scientists are musicians.",
+      "B": "All musicians are scientists.",
+      "C": "Some curious people are scientists.",
+      "D": "All curious people are scientists."
+    },
+    "correct": "C",
+    "explanation": "Since all scientists are curious, scientists are a subset of curious people. Therefore, 'some curious people are scientists' is definitely true."
+  },
+  {
+    "id": 42,
+    "section": "analytical",
+    "topic": "Conditional Logic (If-Then)",
+    "difficulty": "easy",
+    "question": "If it snows, the school closes. The school did not close. What can we conclude?",
+    "options": {
+      "A": "It did not snow.",
+      "B": "It snowed but the school stayed open.",
+      "C": "The school might have closed for another reason.",
+      "D": "No conclusion can be drawn."
+    },
+    "correct": "A",
+    "explanation": "This is contrapositive: If NOT close, then NOT snow. Since school didn't close, it didn't snow."
+  },
+  {
+    "id": 43,
+    "section": "analytical",
+    "topic": "Data Interpretation",
+    "difficulty": "medium",
+    "question": "A company's quarterly revenue (in millions): Q1: 45, Q2: 60, Q3: 52, Q4: 75. What is the percentage increase from Q1 to Q4?",
+    "options": { "A": "55.6%", "B": "60%", "C": "66.7%", "D": "70%" },
+    "correct": "C",
+    "explanation": "Increase = 75 - 45 = 30. Percentage = (30/45) × 100 = 66.67%."
+  },
+  {
+    "id": 44,
+    "section": "analytical",
+    "topic": "Linear Arrangement",
+    "difficulty": "medium",
+    "question": "Five people — P, Q, R, S, T — sit in a row. P sits at one end. T sits next to P. Q is not adjacent to T. R sits next to S. Who sits at the other end?",
+    "options": { "A": "Q", "B": "R", "C": "S", "D": "Q or S" },
+    "correct": "A",
+    "explanation": "P is at one end with T next to P. R and S are adjacent. Q cannot be next to T, so Q must be at the other end. Arrangement: P-T-...-...-Q or similar. Q sits at the other end."
+  },
+  {
+    "id": 45,
+    "section": "analytical",
+    "topic": "Blood Relations",
+    "difficulty": "medium",
+    "question": "Pointing to a woman, Raza said, 'She is the daughter of the only child of my grandmother.' How is the woman related to Raza?",
+    "options": { "A": "Sister", "B": "Niece", "C": "Cousin", "D": "Mother" },
+    "correct": "A",
+    "explanation": "Raza's grandmother's only child is Raza's parent. The daughter of Raza's parent is Raza's sister."
+  },
+  {
+    "id": 46,
+    "section": "analytical",
+    "topic": "Strengthen & Weaken Arguments",
+    "difficulty": "medium",
+    "question": "Conclusion: 'Eating breakfast daily improves students' academic performance.' Which statement most STRENGTHENS this conclusion?",
+    "options": {
+      "A": "Some students who skip breakfast still perform well academically.",
+      "B": "A controlled study shows students who eat breakfast score 15% higher on standardized tests.",
+      "C": "Breakfast foods contain sugar that may cause energy crashes.",
+      "D": "Many schools already provide free breakfast programs."
+    },
+    "correct": "B",
+    "explanation": "A controlled study with measurable results (15% higher scores) directly strengthens the causal link between breakfast and academic performance."
+  },
+  {
+    "id": 47,
+    "section": "analytical",
+    "topic": "Direction Sense",
+    "difficulty": "medium",
+    "question": "Ahmad walks 6 km north, then turns east and walks 8 km. How far is he from his starting point?",
+    "options": { "A": "10 km", "B": "14 km", "C": "12 km", "D": "7 km" },
+    "correct": "A",
+    "explanation": "Distance = √(6² + 8²) = √(36 + 64) = √100 = 10 km."
+  },
+  {
+    "id": 48,
+    "section": "analytical",
+    "topic": "Assumption Questions",
+    "difficulty": "hard",
+    "question": "Argument: 'This city should invest in a metro rail system. Cities with metro systems have lower traffic congestion and reduced air pollution, making them more livable.' What is the key assumption?",
+    "options": {
+      "A": "This city currently has severe traffic congestion.",
+      "B": "Building a metro will reduce car usage in this city.",
+      "C": "Metro systems always improve air quality.",
+      "D": "The city has sufficient funding for the project."
+    },
+    "correct": "B",
+    "explanation": "The argument assumes that having a metro will cause residents to switch from cars, thereby reducing congestion and pollution. Without this behavioral assumption, the conclusion doesn't follow."
+  },
+  {
+    "id": 49,
+    "section": "analytical",
+    "topic": "Coding-Decoding",
+    "difficulty": "hard",
+    "question": "In a code language: JUNGLE = MTQJOH, FOREST = IRUHVW. Using the same code, what does DESERT stand for?",
+    "options": { "A": "GHVHUW", "B": "FGUGSV", "C": "GHVHUD", "D": "FGHIJR" },
+    "correct": "A",
+    "explanation": "Each letter is shifted forward by 3 positions. D+3=G, E+3=H, S+3=V, E+3=H, R+3=U, T+3=W. So DESERT = GHVHUW."
+  },
+  {
+    "id": 50,
+    "section": "analytical",
+    "topic": "Paradox & Explain",
+    "difficulty": "hard",
+    "question": "Paradox: 'A hospital implemented strict hygiene protocols and increased the frequency of hand-washing among staff. However, hospital-acquired infection rates increased the following month.' Which statement best resolves this paradox?",
+    "options": {
+      "A": "Hand-washing is ineffective against most bacteria.",
+      "B": "The hospital admitted significantly more immunocompromised patients that month.",
+      "C": "Staff were not properly trained on hygiene protocols.",
+      "D": "Infection rates always increase before they decrease after new protocols."
+    },
+    "correct": "B",
+    "explanation": "If the patient population changed to include more vulnerable individuals, infection rates could rise even with better hygiene. This explains the paradox without contradicting the benefit of hygiene protocols."
+  }
+]

@@ -1,0 +1,587 @@
+[
+  {
+    "id": 1,
+    "section": "quantitative",
+    "topic": "Percentages",
+    "difficulty": "easy",
+    "question": "A shirt costs Rs. 800. After a 15% discount, what is the selling price?",
+    "options": { "A": "Rs. 660", "B": "Rs. 680", "C": "Rs. 700", "D": "Rs. 720" },
+    "correct": "B",
+    "explanation": "Discount = 15% of 800 = 120. Selling price = 800 - 120 = Rs. 680."
+  },
+  {
+    "id": 2,
+    "section": "quantitative",
+    "topic": "Ratio & Proportion",
+    "difficulty": "easy",
+    "question": "The ratio of boys to girls in a class is 5:4. If there are 45 students in total, how many are boys?",
+    "options": { "A": "20", "B": "25", "C": "28", "D": "30" },
+    "correct": "B",
+    "explanation": "Boys = 5/(5+4) × 45 = 5/9 × 45 = 25."
+  },
+  {
+    "id": 3,
+    "section": "quantitative",
+    "topic": "Profit Loss & Discount",
+    "difficulty": "easy",
+    "question": "A trader buys a bicycle for Rs. 1,200 and sells it for Rs. 1,500. What is the profit percentage?",
+    "options": { "A": "20%", "B": "25%", "C": "30%", "D": "15%" },
+    "correct": "B",
+    "explanation": "Profit = 1500 - 1200 = 300. Profit% = (300/1200) × 100 = 25%."
+  },
+  {
+    "id": 4,
+    "section": "quantitative",
+    "topic": "Time Speed & Distance",
+    "difficulty": "easy",
+    "question": "A car travels 240 km in 4 hours. What is its speed in km/h?",
+    "options": { "A": "50", "B": "55", "C": "60", "D": "65" },
+    "correct": "C",
+    "explanation": "Speed = Distance/Time = 240/4 = 60 km/h."
+  },
+  {
+    "id": 5,
+    "section": "quantitative",
+    "topic": "Work & Pipes",
+    "difficulty": "easy",
+    "question": "Pipe A can fill a tank in 10 hours and Pipe B can fill it in 15 hours. Together, in how many hours will they fill the tank?",
+    "options": { "A": "5", "B": "6", "C": "7", "D": "8" },
+    "correct": "B",
+    "explanation": "Combined rate = 1/10 + 1/15 = 3/30 + 2/30 = 5/30 = 1/6. So together they fill in 6 hours."
+  },
+  {
+    "id": 6,
+    "section": "quantitative",
+    "topic": "Number Properties & Divisibility",
+    "difficulty": "medium",
+    "question": "What is the largest 3-digit number divisible by both 8 and 12?",
+    "options": { "A": "984", "B": "960", "C": "996", "D": "972" },
+    "correct": "A",
+    "explanation": "LCM of 8 and 12 = 24. Largest 3-digit multiple of 24: 999 ÷ 24 = 41.625, so 41 × 24 = 984."
+  },
+  {
+    "id": 7,
+    "section": "quantitative",
+    "topic": "Probability & Combinatorics",
+    "difficulty": "medium",
+    "question": "A bag contains 5 red, 4 blue, and 3 green balls. One ball is drawn at random. What is the probability of drawing a blue ball?",
+    "options": { "A": "1/3", "B": "4/12", "C": "1/4", "D": "5/12" },
+    "correct": "A",
+    "explanation": "Total balls = 5+4+3 = 12. P(blue) = 4/12 = 1/3."
+  },
+  {
+    "id": 8,
+    "section": "quantitative",
+    "topic": "Geometry & Mensuration",
+    "difficulty": "medium",
+    "question": "The perimeter of a rectangle is 56 cm. If its length is 18 cm, what is the area of the rectangle?",
+    "options": { "A": "162 cm²", "B": "180 cm²", "C": "198 cm²", "D": "216 cm²" },
+    "correct": "B",
+    "explanation": "Perimeter = 2(l+w) → 56 = 2(18+w) → w = 10. Area = 18 × 10 = 180 cm²."
+  },
+  {
+    "id": 9,
+    "section": "quantitative",
+    "topic": "Coordinate Geometry",
+    "difficulty": "medium",
+    "question": "What is the distance between points (3, 4) and (7, 1)?",
+    "options": { "A": "4", "B": "5", "C": "6", "D": "7" },
+    "correct": "B",
+    "explanation": "Distance = √[(7-3)² + (1-4)²] = √[16 + 9] = √25 = 5."
+  },
+  {
+    "id": 10,
+    "section": "quantitative",
+    "topic": "Sequences Series & Interest",
+    "difficulty": "medium",
+    "question": "Find the 12th term of the arithmetic sequence: 3, 7, 11, 15, ...",
+    "options": { "A": "43", "B": "47", "C": "51", "D": "55" },
+    "correct": "B",
+    "explanation": "a = 3, d = 4. T₁₂ = 3 + (12-1)×4 = 3 + 44 = 47."
+  },
+  {
+    "id": 11,
+    "section": "quantitative",
+    "topic": "Quadratic Equations",
+    "difficulty": "medium",
+    "question": "What are the roots of the equation x² - 7x + 12 = 0?",
+    "options": { "A": "3 and 4", "B": "2 and 6", "C": "1 and 12", "D": "4 and 5" },
+    "correct": "A",
+    "explanation": "Factoring: (x-3)(x-4) = 0 → x = 3 or x = 4."
+  },
+  {
+    "id": 12,
+    "section": "quantitative",
+    "topic": "Averages & Mixtures",
+    "difficulty": "medium",
+    "question": "The average of 8 numbers is 42. If one number is removed, the new average becomes 40. What is the removed number?",
+    "options": { "A": "52", "B": "54", "C": "56", "D": "58" },
+    "correct": "C",
+    "explanation": "Sum of 8 = 8×42 = 336. Sum of 7 = 7×40 = 280. Removed number = 336 - 280 = 56."
+  },
+  {
+    "id": 13,
+    "section": "quantitative",
+    "topic": "Algebra & Inequalities",
+    "difficulty": "medium",
+    "question": "Solve: 3x + 7 ≤ 22. Which of the following is the solution set?",
+    "options": { "A": "x ≤ 4", "B": "x ≤ 5", "C": "x ≤ 6", "D": "x ≤ 7" },
+    "correct": "B",
+    "explanation": "3x ≤ 22 - 7 = 15 → x ≤ 5."
+  },
+  {
+    "id": 14,
+    "section": "quantitative",
+    "topic": "Percentages",
+    "difficulty": "medium",
+    "question": "A factory produced 3,600 units last month and 4,500 units this month. What is the percentage increase?",
+    "options": { "A": "20%", "B": "25%", "C": "30%", "D": "35%" },
+    "correct": "B",
+    "explanation": "Increase = 900. % increase = (900/3600) × 100 = 25%."
+  },
+  {
+    "id": 15,
+    "section": "quantitative",
+    "topic": "Ratio & Proportion",
+    "difficulty": "hard",
+    "question": "Two alloys contain gold and silver in ratios 3:2 and 5:3 respectively. If equal weights of both alloys are mixed, what is the ratio of gold to silver in the mixture?",
+    "options": { "A": "31:21", "B": "49:31", "C": "31:19", "D": "49:30" },
+    "correct": "B",
+    "explanation": "Alloy 1: Gold = 3/5, Silver = 2/5. Alloy 2: Gold = 5/8, Silver = 3/8. Equal weights mixed: Gold = (3/5 + 5/8)/2 = (24/40 + 25/40)/2 = 49/80. Silver = (2/5 + 3/8)/2 = (16/40 + 15/40)/2 = 31/80. Ratio = 49:31."
+  },
+  {
+    "id": 16,
+    "section": "quantitative",
+    "topic": "Time Speed & Distance",
+    "difficulty": "hard",
+    "question": "Train A, 150 m long, passes a stationary Train B, 250 m long, in 40 seconds. What is the speed of Train A in km/h?",
+    "options": { "A": "32", "B": "36", "C": "40", "D": "45" },
+    "correct": "B",
+    "explanation": "Total distance = 150 + 250 = 400 m in 40 seconds. Speed = 400/40 = 10 m/s = 10 × 18/5 = 36 km/h."
+  },
+  {
+    "id": 17,
+    "section": "quantitative",
+    "topic": "Work & Pipes",
+    "difficulty": "hard",
+    "question": "A can do a job in 12 days, B in 18 days. They start together, but A leaves 3 days before completion. How many days does the job take in total?",
+    "options": { "A": "8", "B": "9", "C": "10", "D": "11" },
+    "correct": "B",
+    "explanation": "Let total days = t. A works (t-3) days, B works t days. (t-3)/12 + t/18 = 1 → 3(t-3)/36 + 2t/36 = 1 → 3t-9+2t = 36 → 5t = 45 → t = 9."
+  },
+  {
+    "id": 18,
+    "section": "quantitative",
+    "topic": "Sequences Series & Interest",
+    "difficulty": "hard",
+    "question": "Rs. 5,000 is invested at 8% compound interest per annum. What is the amount after 2 years?",
+    "options": { "A": "Rs. 5,800", "B": "Rs. 5,832", "C": "Rs. 5,848", "D": "Rs. 5,860" },
+    "correct": "B",
+    "explanation": "A = P(1 + r)ⁿ = 5000 × (1.08)² = 5000 × 1.1664 = Rs. 5,832."
+  },
+  {
+    "id": 19,
+    "section": "quantitative",
+    "topic": "Probability & Combinatorics",
+    "difficulty": "hard",
+    "question": "In how many ways can a committee of 3 men and 2 women be formed from 6 men and 5 women?",
+    "options": { "A": "150", "B": "180", "C": "200", "D": "220" },
+    "correct": "C",
+    "explanation": "C(6,3) × C(5,2) = 20 × 10 = 200."
+  },
+  {
+    "id": 20,
+    "section": "quantitative",
+    "topic": "Geometry & Mensuration",
+    "difficulty": "hard",
+    "question": "A sphere has a radius of 6 cm. What is its volume? (Use π = 22/7)",
+    "options": { "A": "904.32 cm³", "B": "881.14 cm³", "C": "905.14 cm³", "D": "895.20 cm³" },
+    "correct": "C",
+    "explanation": "V = (4/3)πr³ = (4/3) × (22/7) × 216 = (4 × 22 × 216)/(3 × 7) = 19008/21 ≈ 905.14 cm³."
+  },
+  {
+    "id": 21,
+    "section": "verbal",
+    "topic": "Subject-Verb Agreement",
+    "difficulty": "easy",
+    "question": "Choose the correct sentence:",
+    "options": {
+      "A": "Each of the students have submitted their assignments.",
+      "B": "Each of the students has submitted their assignments.",
+      "C": "Each of the students have submits their assignments.",
+      "D": "Each of the students were submitting their assignments."
+    },
+    "correct": "B",
+    "explanation": "'Each' is singular and takes a singular verb 'has'."
+  },
+  {
+    "id": 22,
+    "section": "verbal",
+    "topic": "Parallelism & Sentence Structure",
+    "difficulty": "easy",
+    "question": "Which sentence is correctly parallel?",
+    "options": {
+      "A": "She enjoys reading, to jog, and painting.",
+      "B": "She enjoys reading, jogging, and to paint.",
+      "C": "She enjoys reading, jogging, and painting.",
+      "D": "She enjoys to read, jogging, and painting."
+    },
+    "correct": "C",
+    "explanation": "All three items must be in the same grammatical form: gerunds (reading, jogging, painting)."
+  },
+  {
+    "id": 23,
+    "section": "verbal",
+    "topic": "Modifier Placement",
+    "difficulty": "easy",
+    "question": "Which sentence has a correctly placed modifier?",
+    "options": {
+      "A": "Barking loudly, the mail carrier was frightened by the dog.",
+      "B": "The dog, barking loudly, frightened the mail carrier.",
+      "C": "Frightened by the dog, barking loudly the mail carrier ran.",
+      "D": "The mail carrier, barking loudly, ran from the dog."
+    },
+    "correct": "B",
+    "explanation": "'Barking loudly' correctly modifies 'the dog' when placed next to it."
+  },
+  {
+    "id": 24,
+    "section": "verbal",
+    "topic": "Tense Consistency",
+    "difficulty": "easy",
+    "question": "Choose the sentence with consistent tense usage:",
+    "options": {
+      "A": "She walked into the room and sits down quietly.",
+      "B": "She walks into the room and sat down quietly.",
+      "C": "She walked into the room and sat down quietly.",
+      "D": "She had walked into the room and sits down quietly."
+    },
+    "correct": "C",
+    "explanation": "Both verbs 'walked' and 'sat' are in past tense, maintaining consistency."
+  },
+  {
+    "id": 25,
+    "section": "verbal",
+    "topic": "Synonyms & Antonyms",
+    "difficulty": "easy",
+    "question": "What is the antonym of 'Benevolent'?",
+    "options": { "A": "Generous", "B": "Malevolent", "C": "Magnanimous", "D": "Altruistic" },
+    "correct": "B",
+    "explanation": "Benevolent means well-meaning and kind; its antonym is malevolent, meaning having evil intentions."
+  },
+  {
+    "id": 26,
+    "section": "verbal",
+    "topic": "Vocabulary in Context",
+    "difficulty": "easy",
+    "question": "The judge's verdict was considered DRACONIAN by many human rights activists. As used here, 'draconian' most nearly means:",
+    "options": { "A": "Fair", "B": "Lenient", "C": "Excessively harsh", "D": "Unexpected" },
+    "correct": "C",
+    "explanation": "Draconian refers to laws or measures that are excessively harsh and severe."
+  },
+  {
+    "id": 27,
+    "section": "verbal",
+    "topic": "Sentence Correction",
+    "difficulty": "medium",
+    "question": "Identify the error: 'The team of engineers are working tirelessly to meet the deadline.'",
+    "options": {
+      "A": "team of engineers",
+      "B": "are working",
+      "C": "tirelessly to meet",
+      "D": "the deadline"
+    },
+    "correct": "B",
+    "explanation": "'Team' is a collective noun treated as singular, so 'are' should be 'is'."
+  },
+  {
+    "id": 28,
+    "section": "verbal",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "question": "Read the passage: 'Urban forests reduce air pollution by absorbing carbon dioxide and releasing oxygen. They also lower city temperatures through shading and evapotranspiration, decreasing the urban heat island effect. Additionally, greenery improves mental well-being among residents.' What is the primary purpose of this passage?",
+    "options": {
+      "A": "To argue for cutting down urban trees",
+      "B": "To explain the environmental and social benefits of urban forests",
+      "C": "To describe the history of urban planning",
+      "D": "To compare rural and urban environments"
+    },
+    "correct": "B",
+    "explanation": "The passage lists multiple benefits of urban forests including pollution reduction, temperature control, and mental well-being."
+  },
+  {
+    "id": 29,
+    "section": "verbal",
+    "topic": "Analogies",
+    "difficulty": "medium",
+    "question": "ARCHITECT : BLUEPRINT :: COMPOSER : ?",
+    "options": { "A": "Orchestra", "B": "Score", "C": "Melody", "D": "Instrument" },
+    "correct": "B",
+    "explanation": "An architect creates a blueprint (plan); a composer creates a score (written musical plan)."
+  },
+  {
+    "id": 30,
+    "section": "verbal",
+    "topic": "Sentence Completion",
+    "difficulty": "medium",
+    "question": "Despite widespread criticism, the politician remained ______, refusing to acknowledge any flaws in his policy.",
+    "options": { "A": "contrite", "B": "intransigent", "C": "acquiescent", "D": "apologetic" },
+    "correct": "B",
+    "explanation": "Intransigent means stubbornly refusing to change one's position, matching someone who refuses to acknowledge criticism."
+  },
+  {
+    "id": 31,
+    "section": "verbal",
+    "topic": "Critical Reading",
+    "difficulty": "medium",
+    "question": "Read: 'Studies show that students who eat breakfast perform better academically than those who skip it. Therefore, schools should mandate a free breakfast program.' Which of the following weakens this argument?",
+    "options": {
+      "A": "Breakfast programs are expensive to implement.",
+      "B": "Students who eat breakfast also tend to get more sleep.",
+      "C": "Many students already eat breakfast at home.",
+      "D": "Academic performance is influenced by many factors beyond breakfast."
+    },
+    "correct": "B",
+    "explanation": "If students who eat breakfast also get more sleep, sleep (not breakfast) might be the real cause of better performance, undermining the causal link."
+  },
+  {
+    "id": 32,
+    "section": "verbal",
+    "topic": "Subject-Verb Agreement",
+    "difficulty": "medium",
+    "question": "Select the correct form: 'Neither the manager nor the employees ___ aware of the policy change.'",
+    "options": { "A": "was", "B": "were", "C": "is", "D": "are being" },
+    "correct": "B",
+    "explanation": "With 'neither...nor', the verb agrees with the subject closest to it — 'employees' is plural, so 'were' is correct."
+  },
+  {
+    "id": 33,
+    "section": "verbal",
+    "topic": "Parallelism & Sentence Structure",
+    "difficulty": "medium",
+    "question": "Which revision corrects the parallel structure? 'The new software is fast, reliable, and it costs little.'",
+    "options": {
+      "A": "The new software is fast, reliable, and costs little.",
+      "B": "The new software is fast, reliable, and inexpensive.",
+      "C": "The new software is fast, it is reliable, and cheap.",
+      "D": "The new software is fast and reliable and cheap it is."
+    },
+    "correct": "B",
+    "explanation": "Using three adjectives — fast, reliable, inexpensive — creates proper parallel structure."
+  },
+  {
+    "id": 34,
+    "section": "verbal",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "question": "Passage: 'Although renewable energy sources like solar and wind are increasingly affordable, they suffer from intermittency — they do not produce energy when the sun is not shining or the wind is not blowing. Energy storage technology must advance significantly before renewables can fully replace fossil fuels.' According to the passage, what is the main barrier to replacing fossil fuels with renewables?",
+    "options": {
+      "A": "High cost of solar panels",
+      "B": "Lack of government support",
+      "C": "The intermittent nature of renewable energy and inadequate storage technology",
+      "D": "Fossil fuels are cheaper than renewables"
+    },
+    "correct": "C",
+    "explanation": "The passage explicitly states intermittency and insufficient storage as the main barriers."
+  },
+  {
+    "id": 35,
+    "section": "verbal",
+    "topic": "Vocabulary in Context",
+    "difficulty": "medium",
+    "question": "The scientist's SEMINAL work on genetics laid the foundation for modern biology. The word 'seminal' most nearly means:",
+    "options": { "A": "Controversial", "B": "Highly influential and pioneering", "C": "Recently published", "D": "Widely misunderstood" },
+    "correct": "B",
+    "explanation": "Seminal means strongly influencing later developments; groundbreaking."
+  },
+  {
+    "id": 36,
+    "section": "verbal",
+    "topic": "Synonyms & Antonyms",
+    "difficulty": "medium",
+    "question": "Select the synonym of 'LOQUACIOUS':",
+    "options": { "A": "Taciturn", "B": "Verbose", "C": "Reticent", "D": "Morose" },
+    "correct": "B",
+    "explanation": "Loquacious means tending to talk a great deal; verbose also means using more words than necessary."
+  },
+  {
+    "id": 37,
+    "section": "verbal",
+    "topic": "Tense Consistency",
+    "difficulty": "hard",
+    "question": "Choose the sentence with correct tense sequence: 'By the time the ambulance ______, the patient ______ already.'",
+    "options": {
+      "A": "arrived / died",
+      "B": "arrived / had already died",
+      "C": "had arrived / died",
+      "D": "arrives / has died"
+    },
+    "correct": "B",
+    "explanation": "Past perfect is used for the action completed before another past action: 'arrived' (simple past) and 'had already died' (past perfect)."
+  },
+  {
+    "id": 38,
+    "section": "verbal",
+    "topic": "Critical Reading",
+    "difficulty": "hard",
+    "question": "Argument: 'Country X has a high GDP per capita and a high literacy rate. Therefore, a high GDP per capita causes high literacy rates.' Which logical flaw does this argument commit?",
+    "options": {
+      "A": "Appeal to authority",
+      "B": "Confusing correlation with causation",
+      "C": "Ad hominem",
+      "D": "False dilemma"
+    },
+    "correct": "B",
+    "explanation": "Just because two variables correlate does not establish that one causes the other — this is the correlation-causation fallacy."
+  },
+  {
+    "id": 39,
+    "section": "verbal",
+    "topic": "Sentence Correction",
+    "difficulty": "hard",
+    "question": "Choose the correctly written sentence:",
+    "options": {
+      "A": "Having been renovated last year, the guests found the hotel more comfortable.",
+      "B": "The hotel, having been renovated last year, was found more comfortable by the guests.",
+      "C": "Having renovated last year, the hotel was found more comfortable by the guests.",
+      "D": "The guests found the hotel, having been renovated, more comfortable last year."
+    },
+    "correct": "B",
+    "explanation": "The participial phrase 'having been renovated' must logically modify 'the hotel', which should immediately follow or precede the phrase."
+  },
+  {
+    "id": 40,
+    "section": "verbal",
+    "topic": "Analogies",
+    "difficulty": "hard",
+    "question": "PEDAGOGY : TEACHING :: JURISPRUDENCE : ?",
+    "options": { "A": "Judging", "B": "Law", "C": "Crime", "D": "Medicine" },
+    "correct": "B",
+    "explanation": "Pedagogy is the study/practice of teaching; jurisprudence is the study/philosophy of law."
+  },
+  {
+    "id": 41,
+    "section": "analytical",
+    "topic": "Syllogisms",
+    "difficulty": "easy",
+    "question": "All birds can fly. Penguins are birds. Conclusion: Penguins can fly. This argument is:",
+    "options": {
+      "A": "Valid and sound",
+      "B": "Valid but unsound",
+      "C": "Invalid and unsound",
+      "D": "Invalid but sound"
+    },
+    "correct": "B",
+    "explanation": "The argument is logically valid (conclusion follows from premises) but unsound because the premise 'All birds can fly' is false."
+  },
+  {
+    "id": 42,
+    "section": "analytical",
+    "topic": "Conditional Logic (If-Then)",
+    "difficulty": "easy",
+    "question": "If it rains, the ground is wet. The ground is wet. Which conclusion is logically valid?",
+    "options": {
+      "A": "It is raining.",
+      "B": "It is not raining.",
+      "C": "The ground might be wet for other reasons; rain is not certain.",
+      "D": "If it does not rain, the ground is dry."
+    },
+    "correct": "C",
+    "explanation": "A wet ground doesn't confirm rain — this is the fallacy of affirming the consequent. The ground could be wet for other reasons."
+  },
+  {
+    "id": 43,
+    "section": "analytical",
+    "topic": "Linear Arrangement",
+    "difficulty": "medium",
+    "question": "Five people — P, Q, R, S, T — sit in a row. P sits to the right of Q. S sits between R and T. T is at one end. Who is in the middle?",
+    "options": { "A": "P", "B": "Q", "C": "S", "D": "R" },
+    "correct": "C",
+    "explanation": "T is at one end, and S is between R and T, so R-S-T or T-S-R. With Q and P (P right of Q), the arrangement is Q-P-R-S-T or T-S-R-P-Q. In both, S occupies position 4 or 2. For T-S-R-P-Q: middle is R. For Q-P-R-S-T: S is 4th, R is 3rd (middle). Hence S is in the middle in Q-P-R-S-T arrangement. S is the middle."
+  },
+  {
+    "id": 44,
+    "section": "analytical",
+    "topic": "Blood Relations",
+    "difficulty": "medium",
+    "question": "Pointing to a photograph, Zara says, 'His father is the only son of my grandfather.' How is the person in the photograph related to Zara?",
+    "options": { "A": "Brother", "B": "Uncle", "C": "Father", "D": "Cousin" },
+    "correct": "A",
+    "explanation": "Only son of Zara's grandfather = Zara's father. The person in the photo's father = Zara's father. So the person = Zara's brother."
+  },
+  {
+    "id": 45,
+    "section": "analytical",
+    "topic": "Strengthen & Weaken Arguments",
+    "difficulty": "medium",
+    "question": "Claim: 'Requiring students to wear uniforms reduces bullying in schools.' Which statement most STRENGTHENS this claim?",
+    "options": {
+      "A": "Uniforms are uncomfortable and restrict personal expression.",
+      "B": "Schools with mandatory uniforms report 30% fewer bullying incidents than those without.",
+      "C": "Uniforms are expensive and create financial burden on families.",
+      "D": "Many countries do not have school uniform policies."
+    },
+    "correct": "B",
+    "explanation": "Statistical evidence directly supporting the claim (fewer bullying incidents in uniform schools) strengthens the argument."
+  },
+  {
+    "id": 46,
+    "section": "analytical",
+    "topic": "Data Interpretation",
+    "difficulty": "medium",
+    "question": "A company's quarterly revenues (in millions): Q1=40, Q2=50, Q3=45, Q4=65. What percentage of total annual revenue came from Q4?",
+    "options": { "A": "30%", "B": "32.5%", "C": "35%", "D": "37.5%" },
+    "correct": "B",
+    "explanation": "Total = 40+50+45+65 = 200. Q4% = (65/200) × 100 = 32.5%."
+  },
+  {
+    "id": 47,
+    "section": "analytical",
+    "topic": "Direction Sense",
+    "difficulty": "medium",
+    "question": "Ali starts from point X, walks 6 km North, turns right and walks 4 km, then turns right again and walks 6 km. How far is he from point X and in which direction?",
+    "options": {
+      "A": "4 km West",
+      "B": "4 km East",
+      "C": "6 km East",
+      "D": "6 km South"
+    },
+    "correct": "B",
+    "explanation": "North 6 km → East 4 km → South 6 km. Net: 0 km North/South, 4 km East. He is 4 km East of starting point."
+  },
+  {
+    "id": 48,
+    "section": "analytical",
+    "topic": "Coding-Decoding",
+    "difficulty": "hard",
+    "question": "In a code language, MARKET is written as NDSLFU. How is BRIDGE written in this code?",
+    "options": { "A": "CSJEHF", "B": "CSIFHF", "C": "CSJFHF", "D": "DSJEHF" },
+    "correct": "A",
+    "explanation": "Each letter is shifted by +1: M→N, A→B, R→S, K→L, E→F, T→U. Applying same rule: B→C, R→S, I→J, D→E, G→H, E→F = CSJEHF."
+  },
+  {
+    "id": 49,
+    "section": "analytical",
+    "topic": "Assumption Questions",
+    "difficulty": "hard",
+    "question": "Statement: 'We should ban fast food advertisements targeting children to reduce childhood obesity.' Which assumption is NECESSARY for this argument?",
+    "options": {
+      "A": "All fast food is unhealthy.",
+      "B": "Children are influenced by advertisements in their food choices.",
+      "C": "Parents have no role in controlling children's diets.",
+      "D": "Obesity only affects children, not adults."
+    },
+    "correct": "B",
+    "explanation": "For the ban to reduce obesity, it must be assumed that advertisements actually influence children's food choices — otherwise banning them would have no effect."
+  },
+  {
+    "id": 50,
+    "section": "analytical",
+    "topic": "Circular Arrangement",
+    "difficulty": "hard",
+    "question": "Six friends A, B, C, D, E, F sit around a circular table facing the centre. A sits opposite D. B sits between A and C. E sits between D and F. Who sits opposite B?",
+    "options": { "A": "D", "B": "E", "C": "F", "D": "C" },
+    "correct": "B",
+    "explanation": "A is opposite D. B is between A and C (so order around table: C-B-A or A-B-C). E is between D and F. Placing A opposite D: A-B-C on one half arc, D-E-F on the other. B (2nd from A) sits opposite E (2nd from D). So B is opposite E."
+  }
+]

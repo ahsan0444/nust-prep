@@ -1,0 +1,612 @@
+[
+  {
+    "id": 1,
+    "topic": "Subject-Verb Agreement",
+    "difficulty": "easy",
+    "question": "Choose the correct verb form: 'The committee ______ divided on the issue.'",
+    "options": { "A": "are", "B": "is", "C": "were", "D": "have been" },
+    "correct": "B",
+    "explanation": "'Committee' is a collective noun treated as singular in formal English when acting as a unit, so 'is' is correct."
+  },
+  {
+    "id": 2,
+    "topic": "Subject-Verb Agreement",
+    "difficulty": "easy",
+    "question": "Which sentence is grammatically correct?",
+    "options": {
+      "A": "Neither the manager nor the employees was informed.",
+      "B": "Neither the manager nor the employees were informed.",
+      "C": "Neither the manager nor the employees has been informed.",
+      "D": "Neither the manager nor the employees is informed."
+    },
+    "correct": "B",
+    "explanation": "With 'neither...nor', the verb agrees with the subject closest to it — 'employees' is plural, so 'were' is correct."
+  },
+  {
+    "id": 3,
+    "topic": "Subject-Verb Agreement",
+    "difficulty": "medium",
+    "question": "Select the correct sentence regarding subject-verb agreement.",
+    "options": {
+      "A": "The news about the floods are disturbing.",
+      "B": "The news about the floods is disturbing.",
+      "C": "The news about the floods were disturbing.",
+      "D": "The news about the floods have been disturbing."
+    },
+    "correct": "B",
+    "explanation": "'News' is a singular uncountable noun and always takes a singular verb, so 'is' is correct."
+  },
+  {
+    "id": 4,
+    "topic": "Subject-Verb Agreement",
+    "difficulty": "medium",
+    "question": "Choose the sentence with correct subject-verb agreement.",
+    "options": {
+      "A": "Each of the students have submitted their assignment.",
+      "B": "Each of the students has submitted their assignment.",
+      "C": "Each of the students submit their assignment.",
+      "D": "Each of the students had submitted their assignment."
+    },
+    "correct": "B",
+    "explanation": "'Each' is singular and requires a singular verb. 'Has submitted' is the correct form."
+  },
+  {
+    "id": 5,
+    "topic": "Subject-Verb Agreement",
+    "difficulty": "hard",
+    "question": "Identify the error in subject-verb agreement: 'A number of researchers has published findings that contradict the earlier hypothesis.'",
+    "options": {
+      "A": "No error — 'a number' takes a singular verb.",
+      "B": "The error is 'has published' — it should be 'have published'.",
+      "C": "The error is 'contradict' — it should be 'contradicts'.",
+      "D": "The error is 'researchers' — it should be 'researcher'."
+    },
+    "correct": "B",
+    "explanation": "'A number of' acts as a quantifier and takes a plural verb. 'Have published' is correct. Note: 'the number of' takes a singular verb, but 'a number of' takes plural."
+  },
+  {
+    "id": 6,
+    "topic": "Parallelism & Sentence Structure",
+    "difficulty": "easy",
+    "question": "Which sentence demonstrates correct parallelism?",
+    "options": {
+      "A": "She likes swimming, to run, and cycling.",
+      "B": "She likes to swim, running, and to cycle.",
+      "C": "She likes swimming, running, and cycling.",
+      "D": "She likes to swim, to run, and cycling."
+    },
+    "correct": "C",
+    "explanation": "All three activities are in gerund form (swimming, running, cycling), maintaining grammatical parallelism."
+  },
+  {
+    "id": 7,
+    "topic": "Parallelism & Sentence Structure",
+    "difficulty": "easy",
+    "question": "Choose the sentence that is NOT parallel in structure.",
+    "options": {
+      "A": "He is honest, hardworking, and reliable.",
+      "B": "The report was written, reviewed, and approved.",
+      "C": "She wanted to travel, explore new cultures, and to learn languages.",
+      "D": "They played, laughed, and danced all night."
+    },
+    "correct": "C",
+    "explanation": "The infinitives are inconsistent: 'to travel', 'explore' (missing 'to'), and 'to learn'. Correct form: 'to travel, to explore, and to learn' or 'travel, explore, and learn'."
+  },
+  {
+    "id": 8,
+    "topic": "Parallelism & Sentence Structure",
+    "difficulty": "medium",
+    "question": "Identify the parallel version of: 'The professor told students to read the chapter, taking notes, and that they should review their textbooks.'",
+    "options": {
+      "A": "The professor told students to read the chapter, take notes, and review their textbooks.",
+      "B": "The professor told students reading the chapter, taking notes, and reviewing their textbooks.",
+      "C": "The professor told students to read the chapter, taking notes, and to review their textbooks.",
+      "D": "The professor told students that they should read, take notes, and reviewing their textbooks."
+    },
+    "correct": "A",
+    "explanation": "The infinitive phrase 'to read, take notes, and review' maintains consistent parallel structure throughout the series."
+  },
+  {
+    "id": 9,
+    "topic": "Parallelism & Sentence Structure",
+    "difficulty": "medium",
+    "question": "Which revision corrects the faulty parallelism? 'The CEO admires employees who are punctual, who work diligently, and showing initiative.'",
+    "options": {
+      "A": "...who are punctual, who work diligently, and show initiative.",
+      "B": "...who are punctual, who work diligently, and who show initiative.",
+      "C": "...punctual, diligent, and showing initiative.",
+      "D": "...punctual, diligent workers, and initiative showers."
+    },
+    "correct": "B",
+    "explanation": "The parallel structure requires 'who are...', 'who work...', and 'who show...' to maintain consistency with the relative clause pattern."
+  },
+  {
+    "id": 10,
+    "topic": "Parallelism & Sentence Structure",
+    "difficulty": "hard",
+    "question": "The sentence below has a structural error. Which option best corrects it? 'Not only did she complete the project ahead of schedule, but also finishing it under budget was her achievement.'",
+    "options": {
+      "A": "Not only did she complete the project ahead of schedule, but also she finished it under budget.",
+      "B": "Not only did she complete the project, but she also finishing it under budget.",
+      "C": "She not only completed the project ahead of schedule, but also finished it under budget.",
+      "D": "Both A and C are correct."
+    },
+    "correct": "D",
+    "explanation": "Both A and C maintain proper 'not only...but also' parallelism with matching verb structures."
+  },
+  {
+    "id": 11,
+    "topic": "Modifier Placement",
+    "difficulty": "easy",
+    "question": "Which sentence contains a dangling modifier?",
+    "options": {
+      "A": "Running quickly, Ahmed caught the bus.",
+      "B": "Running quickly, the bus was caught by Ahmed.",
+      "C": "Ahmed, who was running quickly, caught the bus.",
+      "D": "The bus was caught by Ahmed, who ran quickly."
+    },
+    "correct": "B",
+    "explanation": "'Running quickly' should modify the person running, not the bus. The bus cannot run, so this is a dangling modifier."
+  },
+  {
+    "id": 12,
+    "topic": "Modifier Placement",
+    "difficulty": "easy",
+    "question": "Identify the sentence with a misplaced modifier.",
+    "options": {
+      "A": "She almost drove her children to school every day.",
+      "B": "She drove her children to school almost every day.",
+      "C": "Almost every day, she drove her children to school.",
+      "D": "She drove almost all of her children to school every day."
+    },
+    "correct": "A",
+    "explanation": "'Almost' modifies 'drove' in option A, implying she nearly drove but didn't. It should modify 'every day' to convey frequency."
+  },
+  {
+    "id": 13,
+    "topic": "Modifier Placement",
+    "difficulty": "medium",
+    "question": "Which sentence correctly places the modifier? 'Having studied all night, ______.'",
+    "options": {
+      "A": "Having studied all night, the exam seemed easy to Sara.",
+      "B": "Having studied all night, Sara found the exam easy.",
+      "C": "Having studied all night, the questions were answered by Sara.",
+      "D": "Having studied all night, an easy exam was what Sara took."
+    },
+    "correct": "B",
+    "explanation": "The participial phrase 'Having studied all night' must modify the subject of the main clause. Only option B correctly identifies Sara as the one who studied."
+  },
+  {
+    "id": 14,
+    "topic": "Modifier Placement",
+    "difficulty": "medium",
+    "question": "Correct the misplaced modifier: 'He served cake to the guests on paper plates.'",
+    "options": {
+      "A": "He served cake on paper plates to the guests.",
+      "B": "The guests on paper plates were served cake by him.",
+      "C": "On paper plates, the guests were served cake by him.",
+      "D": "He served the guests cake that was on paper plates."
+    },
+    "correct": "A",
+    "explanation": "The phrase 'on paper plates' should be adjacent to 'cake', which it describes. Option A correctly repositions the modifier."
+  },
+  {
+    "id": 15,
+    "topic": "Modifier Placement",
+    "difficulty": "hard",
+    "question": "Identify the type of modifier error: 'Walking along the river, the old bridge came into view.'",
+    "options": {
+      "A": "Squinting modifier — 'Walking' could modify either noun.",
+      "B": "Dangling modifier — 'Walking' implies the bridge is walking.",
+      "C": "Misplaced modifier — the bridge is placed too far from its modifier.",
+      "D": "There is no modifier error in this sentence."
+    },
+    "correct": "B",
+    "explanation": "This is a dangling modifier. The participial phrase 'Walking along the river' has no logical subject in the main clause — the bridge cannot walk."
+  },
+  {
+    "id": 16,
+    "topic": "Tense Consistency",
+    "difficulty": "easy",
+    "question": "Which sentence maintains correct tense consistency?",
+    "options": {
+      "A": "She walked into the room and sees everyone staring at her.",
+      "B": "She walks into the room and saw everyone staring at her.",
+      "C": "She walked into the room and saw everyone staring at her.",
+      "D": "She had walked into the room and sees everyone staring at her."
+    },
+    "correct": "C",
+    "explanation": "Both actions occurred in the past, so both verbs should be in simple past tense: 'walked' and 'saw'."
+  },
+  {
+    "id": 17,
+    "topic": "Tense Consistency",
+    "difficulty": "easy",
+    "question": "Identify the sentence with inconsistent tense usage.",
+    "options": {
+      "A": "He finished his work and went home.",
+      "B": "She was reading when the phone rings.",
+      "C": "They had left before the meeting started.",
+      "D": "The teacher explained the concept and the students understood."
+    },
+    "correct": "B",
+    "explanation": "'Was reading' is past continuous but 'rings' is present tense. The correct form is 'rang' to maintain past tense consistency."
+  },
+  {
+    "id": 18,
+    "topic": "Tense Consistency",
+    "difficulty": "medium",
+    "question": "Which option correctly completes the sentence? 'By the time the inspector arrived, the thief ______.'",
+    "options": {
+      "A": "escaped",
+      "B": "has escaped",
+      "C": "had escaped",
+      "D": "was escaping"
+    },
+    "correct": "C",
+    "explanation": "The past perfect 'had escaped' correctly shows an action completed before another past action (the inspector's arrival)."
+  },
+  {
+    "id": 19,
+    "topic": "Tense Consistency",
+    "difficulty": "medium",
+    "question": "Identify the error in: 'The scientist discovered a new element in 1985 and will publish a paper about it the same year.'",
+    "options": {
+      "A": "No error — mixing tenses is acceptable.",
+      "B": "'will publish' should be 'published' — both actions are in the past.",
+      "C": "'discovered' should be 'discovers'.",
+      "D": "'will publish' should be 'has published'."
+    },
+    "correct": "B",
+    "explanation": "Since both events happened in 1985 (past), 'will publish' (future) is inconsistent. 'Published' maintains tense consistency."
+  },
+  {
+    "id": 20,
+    "topic": "Tense Consistency",
+    "difficulty": "hard",
+    "question": "Which sentence correctly uses tense to show a sequence of past events?",
+    "options": {
+      "A": "After she submitted the report, her manager reviewed it and gave feedback.",
+      "B": "After she had submitted the report, her manager reviews it and gave feedback.",
+      "C": "After she submits the report, her manager had reviewed it and gives feedback.",
+      "D": "After she submitted the report, her manager will review it and gave feedback."
+    },
+    "correct": "A",
+    "explanation": "Option A uses simple past throughout to describe a sequence of past events, which is grammatically acceptable and consistent."
+  },
+  {
+    "id": 21,
+    "topic": "Sentence Correction",
+    "difficulty": "easy",
+    "question": "Choose the correctly written sentence.",
+    "options": {
+      "A": "He don't know the answer to the question.",
+      "B": "He doesn't know the answer to the question.",
+      "C": "He didn't knew the answer to the question.",
+      "D": "He not knows the answer to the question."
+    },
+    "correct": "B",
+    "explanation": "For third-person singular subjects, the correct negative auxiliary is 'doesn't' followed by the base form of the verb."
+  },
+  {
+    "id": 22,
+    "topic": "Sentence Correction",
+    "difficulty": "easy",
+    "question": "Which sentence is grammatically correct?",
+    "options": {
+      "A": "Between you and I, the plan is flawed.",
+      "B": "Between you and me, the plan is flawed.",
+      "C": "Between you and myself, the plan is flawed.",
+      "D": "Between us two, the plan is flawed."
+    },
+    "correct": "B",
+    "explanation": "'Between' is a preposition and requires object pronouns. 'Me' (not 'I') is the correct object pronoun here."
+  },
+  {
+    "id": 23,
+    "topic": "Sentence Correction",
+    "difficulty": "medium",
+    "question": "Identify and correct the error: 'The reason for the delay is because the shipment was lost.'",
+    "options": {
+      "A": "The reason for the delay is because the shipment had been lost.",
+      "B": "The reason for the delay is that the shipment was lost.",
+      "C": "The reason for the delay is due to the shipment was lost.",
+      "D": "There is no error in this sentence."
+    },
+    "correct": "B",
+    "explanation": "'The reason is because' is redundant. Correct phrasing is 'the reason is that'. 'Because' already implies reason."
+  },
+  {
+    "id": 24,
+    "topic": "Sentence Correction",
+    "difficulty": "medium",
+    "question": "Which option corrects the error in: 'The data suggests that more research are needed in this area.'?",
+    "options": {
+      "A": "The data suggest that more research are needed in this area.",
+      "B": "The data suggests that more research is needed in this area.",
+      "C": "The data suggest that more research were needed in this area.",
+      "D": "The datas suggest that more research is needed in this area."
+    },
+    "correct": "B",
+    "explanation": "'Data' can be treated as singular or plural in academic writing, but 'research' is an uncountable noun requiring 'is', not 'are'. Option B is most correct."
+  },
+  {
+    "id": 25,
+    "topic": "Sentence Correction",
+    "difficulty": "hard",
+    "question": "Select the error-free sentence.",
+    "options": {
+      "A": "Scarcely had he entered the room when the lights went out.",
+      "B": "Scarcely he had entered the room when the lights went out.",
+      "C": "Scarcely had he entered the room than the lights went out.",
+      "D": "Scarcely did he enter the room when the lights went out."
+    },
+    "correct": "A",
+    "explanation": "With 'scarcely...when', subject-auxiliary inversion follows 'scarcely'. 'Scarcely had he entered...when' is the correct construction. 'Than' (option C) is incorrect; 'when' is required."
+  },
+  {
+    "id": 26,
+    "topic": "Reading Comprehension",
+    "difficulty": "easy",
+    "question": "Read the passage: 'The Industrial Revolution transformed economies from agrarian to manufacturing-based. It brought rapid urbanization, improved living standards for many, yet also created harsh working conditions in factories.' What is the primary subject of this passage?",
+    "options": {
+      "A": "Urban migration patterns",
+      "B": "Factory working conditions",
+      "C": "The economic and social impact of the Industrial Revolution",
+      "D": "The decline of agricultural economies"
+    },
+    "correct": "C",
+    "explanation": "The passage covers economic transformation, urbanization, improved standards, and poor conditions — all aspects of the Industrial Revolution's broad impact."
+  },
+  {
+    "id": 27,
+    "topic": "Reading Comprehension",
+    "difficulty": "easy",
+    "question": "Read the passage: 'Deforestation in tropical regions threatens biodiversity. Thousands of species lose their habitats annually. Conservation efforts have slowed, but not reversed, the rate of forest loss.' Which word best describes the author's tone?",
+    "options": {
+      "A": "Optimistic",
+      "B": "Indifferent",
+      "C": "Alarmed",
+      "D": "Celebratory"
+    },
+    "correct": "C",
+    "explanation": "Words like 'threatens', 'lose', and 'not reversed' signal concern and alarm about the ongoing problem."
+  },
+  {
+    "id": 28,
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "question": "Read the passage: 'Many scholars argue that social media has fragmented public discourse. Rather than creating a shared information space, platforms algorithmically reinforce existing beliefs. Critics, however, note that social media has enabled marginalized voices to reach wider audiences.' What does the passage suggest about social media?",
+    "options": {
+      "A": "It is entirely harmful to public discourse.",
+      "B": "It has had only positive effects on communication.",
+      "C": "Its effects on public discourse are mixed and debated.",
+      "D": "Algorithms have eliminated all benefit of social media."
+    },
+    "correct": "C",
+    "explanation": "The passage presents both negative effects (fragmentation, reinforcing beliefs) and positive ones (amplifying marginalized voices), indicating a nuanced, mixed view."
+  },
+  {
+    "id": 29,
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "question": "Read the passage: 'The placebo effect demonstrates that belief in a treatment can produce measurable physiological changes. Patients who believe they are receiving effective medicine often report reduced pain and improved symptoms, even when given an inert substance.' What can be inferred from this passage?",
+    "options": {
+      "A": "All medicines are placebos.",
+      "B": "The mind can influence physical health outcomes.",
+      "C": "Doctors should always prescribe placebos.",
+      "D": "The placebo effect is dangerous and unethical."
+    },
+    "correct": "B",
+    "explanation": "The passage describes how belief produces 'measurable physiological changes', directly supporting the inference that the mind affects physical health."
+  },
+  {
+    "id": 30,
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "question": "Read the passage: 'Proponents of universal basic income (UBI) argue it would eliminate poverty and reduce bureaucracy by replacing complex welfare systems. Critics contend that it disincentivizes work and is fiscally unsustainable. Some economists suggest a hybrid model — targeted benefits combined with a smaller universal stipend — might balance both concerns.' What is the author's primary purpose?",
+    "options": {
+      "A": "To advocate for UBI as the solution to poverty.",
+      "B": "To dismiss UBI as economically impractical.",
+      "C": "To present multiple perspectives on UBI and suggest a compromise.",
+      "D": "To argue that current welfare systems are effective."
+    },
+    "correct": "C",
+    "explanation": "The passage presents proponents' views, critics' views, and a hybrid compromise without taking a definitive side, indicating a balanced, exploratory purpose."
+  },
+  {
+    "id": 31,
+    "topic": "Synonyms & Antonyms",
+    "difficulty": "easy",
+    "question": "Choose the synonym for 'BENEVOLENT'.",
+    "options": { "A": "Malicious", "B": "Charitable", "C": "Indifferent", "D": "Strict" },
+    "correct": "B",
+    "explanation": "'Benevolent' means well-meaning and kind, which is synonymous with 'charitable'."
+  },
+  {
+    "id": 32,
+    "topic": "Synonyms & Antonyms",
+    "difficulty": "easy",
+    "question": "Choose the antonym for 'VERBOSE'.",
+    "options": { "A": "Talkative", "B": "Eloquent", "C": "Concise", "D": "Ambiguous" },
+    "correct": "C",
+    "explanation": "'Verbose' means using more words than necessary. Its antonym is 'concise', meaning brief and to the point."
+  },
+  {
+    "id": 33,
+    "topic": "Synonyms & Antonyms",
+    "difficulty": "medium",
+    "question": "Choose the word most similar in meaning to 'PERFIDIOUS'.",
+    "options": { "A": "Loyal", "B": "Treacherous", "C": "Honest", "D": "Cautious" },
+    "correct": "B",
+    "explanation": "'Perfidious' means deceitful and untrustworthy, making 'treacherous' its closest synonym."
+  },
+  {
+    "id": 34,
+    "topic": "Synonyms & Antonyms",
+    "difficulty": "medium",
+    "question": "Identify the antonym of 'PHLEGMATIC'.",
+    "options": { "A": "Calm", "B": "Stoic", "C": "Excitable", "D": "Reserved" },
+    "correct": "C",
+    "explanation": "'Phlegmatic' describes someone calm and unemotional. Its antonym is 'excitable', meaning easily stirred or animated."
+  },
+  {
+    "id": 35,
+    "topic": "Synonyms & Antonyms",
+    "difficulty": "hard",
+    "question": "Choose the word most nearly opposite in meaning to 'SANGUINE'.",
+    "options": { "A": "Optimistic", "B": "Hopeful", "C": "Despondent", "D": "Ruddy" },
+    "correct": "C",
+    "explanation": "'Sanguine' means cheerfully optimistic. Its antonym is 'despondent', meaning in low spirits, hopeless."
+  },
+  {
+    "id": 36,
+    "topic": "Vocabulary in Context",
+    "difficulty": "easy",
+    "question": "In the sentence 'Her CANDID remarks surprised everyone at the meeting', the word 'candid' most nearly means:",
+    "options": { "A": "Harsh", "B": "Frank and honest", "C": "Rehearsed", "D": "Confusing" },
+    "correct": "B",
+    "explanation": "'Candid' means truthful and straightforward, often surprisingly so in formal settings."
+  },
+  {
+    "id": 37,
+    "topic": "Vocabulary in Context",
+    "difficulty": "easy",
+    "question": "The word 'MITIGATE' in 'New policies will mitigate the environmental damage' most nearly means:",
+    "options": { "A": "Worsen", "B": "Ignore", "C": "Lessen or moderate", "D": "Study" },
+    "correct": "C",
+    "explanation": "'Mitigate' means to make less severe or serious. In context, the policies are intended to reduce environmental harm."
+  },
+  {
+    "id": 38,
+    "topic": "Vocabulary in Context",
+    "difficulty": "medium",
+    "question": "In the sentence 'The politician gave an EQUIVOCAL response, leaving voters uncertain of her position', the word 'equivocal' most nearly means:",
+    "options": { "A": "Clear and direct", "B": "Deliberately vague or ambiguous", "C": "Enthusiastic", "D": "Angry" },
+    "correct": "B",
+    "explanation": "'Equivocal' means open to multiple interpretations, often intentionally vague — consistent with voters being left uncertain."
+  },
+  {
+    "id": 39,
+    "topic": "Vocabulary in Context",
+    "difficulty": "medium",
+    "question": "The word 'PRECIPITATED' in 'The economic crisis was precipitated by reckless lending practices' means:",
+    "options": {
+      "A": "Prevented",
+      "B": "Caused to happen suddenly",
+      "C": "Slowed down",
+      "D": "Analyzed thoroughly"
+    },
+    "correct": "B",
+    "explanation": "'Precipitate' means to cause something to happen suddenly or prematurely. The reckless lending triggered the crisis."
+  },
+  {
+    "id": 40,
+    "topic": "Vocabulary in Context",
+    "difficulty": "hard",
+    "question": "In 'His PERSPICACIOUS analysis identified weaknesses others had overlooked', 'perspicacious' most nearly means:",
+    "options": { "A": "Lengthy", "B": "Biased", "C": "Having a ready insight into things; shrewd", "D": "Overly emotional" },
+    "correct": "C",
+    "explanation": "'Perspicacious' describes someone with a keenly perceptive, insightful mind — appropriate for someone who sees what others miss."
+  },
+  {
+    "id": 41,
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "question": "SURGEON : SCALPEL :: PAINTER : ______",
+    "options": { "A": "Canvas", "B": "Gallery", "C": "Brush", "D": "Paint" },
+    "correct": "C",
+    "explanation": "A surgeon's primary tool is a scalpel; a painter's primary tool is a brush. The relationship is professional : primary tool."
+  },
+  {
+    "id": 42,
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "question": "CHAPTER : BOOK :: VERSE : ______",
+    "options": { "A": "Author", "B": "Poem", "C": "Library", "D": "Stanza" },
+    "correct": "B",
+    "explanation": "A chapter is a unit of a book; a verse is a unit of a poem. The relationship is part : whole."
+  },
+  {
+    "id": 43,
+    "topic": "Analogies",
+    "difficulty": "medium",
+    "question": "LOQUACIOUS : TACITURN :: PARSIMONIOUS : ______",
+    "options": { "A": "Frugal", "B": "Generous", "C": "Wealthy", "D": "Careful" },
+    "correct": "B",
+    "explanation": "Loquacious (talkative) and taciturn (quiet) are antonyms. Parsimonious (excessively thrifty) is opposite to generous."
+  },
+  {
+    "id": 44,
+    "topic": "Analogies",
+    "difficulty": "medium",
+    "question": "FAMINE : STARVATION :: DROUGHT : ______",
+    "options": { "A": "Floods", "B": "Irrigation", "C": "Water scarcity", "D": "Agriculture" },
+    "correct": "C",
+    "explanation": "Famine leads to starvation; drought leads to water scarcity. The relationship is cause : effect."
+  },
+  {
+    "id": 45,
+    "topic": "Analogies",
+    "difficulty": "hard",
+    "question": "HUBRIS : NEMESIS :: COMPLACENCY : ______",
+    "options": { "A": "Success", "B": "Satisfaction", "C": "Downfall", "D": "Arrogance" },
+    "correct": "C",
+    "explanation": "In Greek tradition, hubris (excessive pride) invites nemesis (retribution/downfall). Similarly, complacency (self-satisfaction) leads to downfall."
+  },
+  {
+    "id": 46,
+    "topic": "Sentence Completion",
+    "difficulty": "easy",
+    "question": "Despite her initial ______, she eventually agreed to take on the challenging project.",
+    "options": { "A": "enthusiasm", "B": "reluctance", "C": "confidence", "D": "preparation" },
+    "correct": "B",
+    "explanation": "'Despite' signals a contrast. 'Reluctance' (unwillingness) contrasts with 'eventually agreed', making it the logical choice."
+  },
+  {
+    "id": 47,
+    "topic": "Sentence Completion",
+    "difficulty": "medium",
+    "question": "The CEO's ______ leadership style alienated many employees who preferred open communication and collaboration.",
+    "options": { "A": "democratic", "B": "participative", "C": "autocratic", "D": "empathetic" },
+    "correct": "C",
+    "explanation": "An 'autocratic' style (top-down, dismissive of others' input) would cause alienation among those preferring open communication."
+  },
+  {
+    "id": 48,
+    "topic": "Sentence Completion",
+    "difficulty": "medium",
+    "question": "The evidence was ______: every piece of data pointed unambiguously to the same conclusion.",
+    "options": { "A": "inconclusive", "B": "ambiguous", "C": "anecdotal", "D": "unequivocal" },
+    "correct": "D",
+    "explanation": "'Unequivocal' means leaving no doubt; it matches the idea of all data pointing 'unambiguously' to one conclusion."
+  },
+  {
+    "id": 49,
+    "topic": "Critical Reading",
+    "difficulty": "hard",
+    "question": "An author argues: 'Students who use laptops in class perform worse on tests than those who take handwritten notes. Therefore, laptops should be banned from classrooms.' Which of the following most weakens this argument?",
+    "options": {
+      "A": "Handwritten notes are faster to take than typed notes.",
+      "B": "Students who use laptops tend to have lower prior academic performance.",
+      "C": "Many professors now use digital slides instead of chalkboards.",
+      "D": "Laptops are expensive and not all students can afford them."
+    },
+    "correct": "B",
+    "explanation": "If laptop users already had lower academic performance before any laptop use, the correlation between laptops and poor test scores may not be causal, weakening the argument for banning them."
+  },
+  {
+    "id": 50,
+    "topic": "Critical Reading",
+    "difficulty": "hard",
+    "question": "A study reports: 'Cities with more ice cream vendors have higher crime rates.' A researcher concludes that ice cream causes crime. What is the most serious flaw in this reasoning?",
+    "options": {
+      "A": "The sample size of cities was too small.",
+      "B": "A confounding variable (hot weather) could explain both increases independently.",
+      "C": "Crime rate data is always unreliable.",
+      "D": "Ice cream vendors should not operate in cities."
+    },
+    "correct": "B",
+    "explanation": "Hot weather increases both ice cream sales and outdoor activity (including crime). This confounding variable creates a spurious correlation. The researcher committed a 'correlation implies causation' fallacy."
+  }
+]
