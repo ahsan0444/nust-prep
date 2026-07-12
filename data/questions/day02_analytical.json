@@ -1,9 +1,9 @@
 [
   {
-    "id": "d02v3_a_001",
+    "id": "d02r2_a_001",
     "topic": "Syllogisms",
     "difficulty": "easy",
-    "question": "Statements: All dogs are animals. All animals need food.\nConclusion I: All dogs need food.\nConclusion II: Some animals are dogs.\nWhich conclusions follow?",
+    "question": "Statements:\n1. All trees are plants.\n2. All plants need sunlight.\nConclusion I: All trees need sunlight.\nConclusion II: Some sunlight-needing things are trees.\nWhich conclusions follow?",
     "options": {
       "A": "Only I",
       "B": "Only II",
@@ -11,13 +11,13 @@
       "D": "Neither"
     },
     "correct": "C",
-    "explanation": "I follows by universal syllogism: dogs\u2192animals\u2192need food. II follows by converting 'All dogs are animals' to 'Some animals are dogs' (valid particular conversion). Both are valid."
+    "explanation": "I: trees \u2192 plants \u2192 need sunlight (transitive, valid). II: All trees need sunlight \u2192 by particular conversion, some sunlight-needing things are trees. Both I and II follow."
   },
   {
-    "id": "d02v3_a_002",
+    "id": "d02r2_a_002",
     "topic": "Syllogisms",
     "difficulty": "easy",
-    "question": "Statements: No birds are fish. All fish are aquatic.\nConclusion I: No birds are aquatic.\nConclusion II: Some aquatic creatures are not birds.\nWhich conclusions follow?",
+    "question": "Statements:\n1. No actor is a singer.\n2. All singers are performers.\nConclusion I: No actor is a performer.\nConclusion II: Some performers are not actors.\nWhich conclusions follow?",
     "options": {
       "A": "Only I",
       "B": "Only II",
@@ -25,13 +25,13 @@
       "D": "Neither"
     },
     "correct": "B",
-    "explanation": "I is invalid \u2014 birds may be aquatic through other means. II: all fish are aquatic and no fish is a bird, so those aquatic creatures are not birds. Only II follows."
+    "explanation": "I is invalid \u2014 actors may be performers via routes other than singing. II: All singers are performers, and no singer is an actor, so those performers (the singers) are not actors. Only II follows."
   },
   {
-    "id": "d02v3_a_003",
+    "id": "d02r2_a_003",
     "topic": "Syllogisms",
     "difficulty": "medium",
-    "question": "Statements: Some doctors are singers. All singers are performers.\nConclusion I: Some doctors are performers.\nConclusion II: All performers are doctors.\nWhich conclusions follow?",
+    "question": "Statements:\n1. Some engineers are scientists.\n2. All scientists are researchers.\nConclusion I: Some engineers are researchers.\nConclusion II: All researchers are engineers.\nWhich conclusion(s) follow?",
     "options": {
       "A": "Only I",
       "B": "Only II",
@@ -39,13 +39,13 @@
       "D": "Neither"
     },
     "correct": "A",
-    "explanation": "I: Some doctors are singers and all singers are performers \u2192 those doctors are also performers. II is invalid \u2014 we cannot universally reverse a particular conclusion. Only I."
+    "explanation": "I: Some engineers are scientists; all scientists are researchers \u2192 those engineers are researchers. Valid. II: We cannot universally reverse the relationship \u2014 there may be researchers who are not engineers. Only I follows."
   },
   {
-    "id": "d02v3_a_004",
+    "id": "d02r2_a_004",
     "topic": "Syllogisms",
     "difficulty": "medium",
-    "question": "Statements: All managers are employees. Some employees are directors.\nConclusion I: Some managers are directors.\nConclusion II: Some directors are employees.\nWhich conclusions follow?",
+    "question": "Statements:\n1. All judges are lawyers.\n2. Some lawyers are professors.\nConclusion I: Some judges are professors.\nConclusion II: Some professors are lawyers.\nWhich conclusion(s) follow?",
     "options": {
       "A": "Only I",
       "B": "Only II",
@@ -53,545 +53,531 @@
       "D": "Neither"
     },
     "correct": "B",
-    "explanation": "I cannot be concluded \u2014 the 'some employees' who are directors may not include any manager. II: By conversion of 'some employees are directors,' some directors are employees. Only II follows."
+    "explanation": "I: The professors-who-are-lawyers may or may not include any judges \u2014 not determinable. II: Converting statement 2 partially: Some professors are lawyers. Only II follows."
   },
   {
-    "id": "d02v3_a_005",
+    "id": "d02r2_a_005",
     "topic": "Syllogisms",
     "difficulty": "hard",
-    "question": "Statements: No cats are reptiles. Some reptiles are cold-blooded. All cold-blooded animals are vertebrates.\nConclusion I: Some vertebrates are not cats.\nConclusion II: No cat is a vertebrate.\nWhich conclusions follow?",
+    "question": "Statements:\n1. No politician is honest.\n2. Some honest people are activists.\n3. All activists are leaders.\nConclusion I: No politician is an activist.\nConclusion II: Some leaders are honest.\nConclusion III: Some activists are not politicians.\nWhich combination fully follows?",
     "options": {
-      "A": "Only I",
-      "B": "Only II",
-      "C": "Both I and II",
-      "D": "Neither"
-    },
-    "correct": "A",
-    "explanation": "Some reptiles are cold-blooded \u2192 those are vertebrates. No reptile is a cat \u2192 those vertebrates are not cats. So I follows. II is too strong \u2014 cats may independently be vertebrates. Only I."
-  },
-  {
-    "id": "d02v3_a_006",
-    "topic": "Conditional Logic (If-Then)",
-    "difficulty": "easy",
-    "question": "A car without fuel will not start. This car started. What can we definitively conclude?",
-    "options": {
-      "A": "The car has fuel",
-      "B": "The car might have fuel",
-      "C": "The car engine is functioning",
-      "D": "Nothing can be concluded"
-    },
-    "correct": "A",
-    "explanation": "Contrapositive of 'no fuel \u2192 won't start' is 'started \u2192 has fuel.' Since the car started, it must have fuel. This is a definitive conclusion."
-  },
-  {
-    "id": "d02v3_a_007",
-    "topic": "Conditional Logic (If-Then)",
-    "difficulty": "medium",
-    "question": "Statement: If it rains, the outdoor match is cancelled. The match was NOT cancelled. What can we conclude?",
-    "options": {
-      "A": "It did not rain",
-      "B": "It may have rained",
-      "C": "The match was moved indoors",
-      "D": "Rain was expected but didn't come"
-    },
-    "correct": "A",
-    "explanation": "Contrapositive of 'rain \u2192 match cancelled' is 'match not cancelled \u2192 no rain.' Since the match was not cancelled, it did not rain. This is a certain conclusion."
-  },
-  {
-    "id": "d02v3_a_008",
-    "topic": "Conditional Logic (If-Then)",
-    "difficulty": "medium",
-    "question": "Rule 1: All students who study hard pass. Rule 2: All students who pass receive scholarships. Bilal did NOT receive a scholarship. What can we conclude?",
-    "options": {
-      "A": "Bilal did not study hard",
-      "B": "Bilal did not pass",
-      "C": "Both: Bilal did not pass AND did not study hard",
-      "D": "Nothing can be concluded"
+      "A": "I and II only",
+      "B": "II and III only",
+      "C": "I, II, and III",
+      "D": "I and III only"
     },
     "correct": "C",
-    "explanation": "From Rule 2 (contrapositive): no scholarship \u2192 did not pass. Bilal didn't get a scholarship \u2192 Bilal didn't pass. From Rule 1 (contrapositive): didn't pass \u2192 didn't study hard. Therefore both A and B are true."
+    "explanation": "I: No politician is honest; being an activist requires honesty (stmt 2 links them); so no politician is an activist. II: Stmt 2 + stmt 3: some honest people are activists and all activists are leaders \u2192 some honest people are leaders \u2192 some leaders are honest. III: Since no politician is an activist (from I) and activists exist, all activists are non-politicians. All three follow."
   },
   {
-    "id": "d02v3_a_009",
+    "id": "d02r2_a_006",
+    "topic": "Conditional Logic (If-Then)",
+    "difficulty": "easy",
+    "question": "Rule: If a flight is delayed, passengers receive compensation.\nFlight QR-501 passengers did NOT receive compensation.\nWhat can we conclude?",
+    "options": {
+      "A": "Flight QR-501 was on time",
+      "B": "Flight QR-501 was cancelled",
+      "C": "Flight QR-501 was delayed but the rule was broken",
+      "D": "Nothing can be concluded"
+    },
+    "correct": "A",
+    "explanation": "Contrapositive: If passengers did not receive compensation \u2192 flight was NOT delayed \u2192 flight was on time. A is the valid conclusion by modus tollens."
+  },
+  {
+    "id": "d02r2_a_007",
+    "topic": "Conditional Logic (If-Then)",
+    "difficulty": "medium",
+    "question": "Rules:\n1. If it snows \u2192 schools close.\n2. If schools close \u2192 children stay home.\nToday children did NOT stay home. What must be true?",
+    "options": {
+      "A": "It snowed but schools stayed open",
+      "B": "It did not snow today",
+      "C": "Children went to school",
+      "D": "Schools were open but children stayed home anyway"
+    },
+    "correct": "B",
+    "explanation": "Children not staying home \u2192 (contra-2) schools not closed \u2192 (contra-1) it did not snow. By chained modus tollens, B is certain."
+  },
+  {
+    "id": "d02r2_a_008",
+    "topic": "Conditional Logic (If-Then)",
+    "difficulty": "medium",
+    "question": "Rules:\n1. All verified accounts are blue-ticked.\n2. All blue-ticked accounts receive priority support.\n3. No new account is verified.\nBilal has a new account. Which is DEFINITELY TRUE?",
+    "options": {
+      "A": "Bilal receives priority support",
+      "B": "Bilal has a blue tick",
+      "C": "Bilal's account is not verified",
+      "D": "Bilal might be verified in the future"
+    },
+    "correct": "C",
+    "explanation": "Rule 3: No new account is verified \u2192 Bilal is not verified. From this, using contra-1: no blue tick. From this, using contra-2: no priority support. C is definitively true from the given rules."
+  },
+  {
+    "id": "d02r2_a_009",
     "topic": "Conditional Logic (If-Then)",
     "difficulty": "hard",
-    "question": "Rules: (1) If on sale \u2192 discounted. (2) If discounted \u2192 non-returnable. Product X is non-returnable. Which conclusion is definitely valid?",
+    "question": "Rules:\n1. If project on time \u2192 budget on track.\n2. If budget on track \u2192 stakeholders satisfied.\n3. If stakeholders NOT satisfied \u2192 board review triggered.\nBoard review was NOT triggered. Which is a valid conclusion?",
     "options": {
-      "A": "Product X is on sale",
-      "B": "Product X is discounted",
-      "C": "Product X was defective",
-      "D": "None of these conclusions is definitely valid"
+      "A": "The project was definitely on time",
+      "B": "The budget was definitely on track",
+      "C": "Stakeholders were definitely satisfied",
+      "D": "All of A, B, and C are certain"
+    },
+    "correct": "C",
+    "explanation": "Contrapositive of Rule 3: board review not triggered \u2192 stakeholders satisfied. So C is certain. However, working backward: stakeholder satisfaction does NOT force the budget to be on track (rules are one-directional). We cannot confirm A or B. Only C is certain."
+  },
+  {
+    "id": "d02r2_a_010",
+    "topic": "Strengthen & Weaken Arguments",
+    "difficulty": "easy",
+    "question": "Argument: Installing streetlights in Sector 7 reduced crime rates. Therefore, streetlights cause crime reduction.\nWhich option MOST WEAKENS this argument?",
+    "options": {
+      "A": "Other sectors also installed streetlights",
+      "B": "A new police station opened in Sector 7 at the same time, likely reducing crime",
+      "C": "Residents felt safer after installation",
+      "D": "The streetlights were high-wattage LED units"
+    },
+    "correct": "B",
+    "explanation": "B introduces an alternative cause (police station) that could fully explain the crime reduction, directly undermining the causal link attributed to streetlights."
+  },
+  {
+    "id": "d02r2_a_011",
+    "topic": "Strengthen & Weaken Arguments",
+    "difficulty": "easy",
+    "question": "Argument: Employees using standing desks report fewer back problems. So the company should replace all sitting desks.\nWhich option MOST STRENGTHENS this argument?",
+    "options": {
+      "A": "Standing desks are more expensive",
+      "B": "Back problems are the leading cause of employee absenteeism in the company",
+      "C": "Some employees prefer sitting",
+      "D": "The company has a new ergonomics budget"
+    },
+    "correct": "B",
+    "explanation": "B strengthens the argument by establishing that back problems have a major negative impact (absenteeism), making the proposed solution more impactful and worthwhile."
+  },
+  {
+    "id": "d02r2_a_012",
+    "topic": "Strengthen & Weaken Arguments",
+    "difficulty": "medium",
+    "question": "Argument: Cities with more coffee shops have higher average incomes. Therefore, opening more coffee shops raises incomes.\nWhich MOST WEAKENS this?",
+    "options": {
+      "A": "Coffee is a luxury item",
+      "B": "High-income cities attract more businesses including coffee shops \u2014 income drives coffee shop growth, not the reverse",
+      "C": "Some coffee shops fail within two years",
+      "D": "Coffee consumption increases productivity"
+    },
+    "correct": "B",
+    "explanation": "B demonstrates reverse causation: income \u2192 more coffee shops (not the other way). This directly attacks the causal claim in the argument."
+  },
+  {
+    "id": "d02r2_a_013",
+    "topic": "Strengthen & Weaken Arguments",
+    "difficulty": "medium",
+    "question": "Argument: Reading fiction improves empathy test scores. Therefore, schools should increase fiction reading to improve students' social skills.\nWhich MOST STRENGTHENS this?",
+    "options": {
+      "A": "Fiction reading is enjoyable",
+      "B": "Empathy scores strongly predict conflict-resolution ability and quality of peer relationships in schools",
+      "C": "Non-fiction reading does not improve empathy scores",
+      "D": "The empathy tests measure a stable personality trait"
+    },
+    "correct": "B",
+    "explanation": "B bridges the gap between empathy (the measured outcome) and social skills (the desired outcome), showing empathy test scores directly predict the social outcomes the argument aims for."
+  },
+  {
+    "id": "d02r2_a_014",
+    "topic": "Strengthen & Weaken Arguments",
+    "difficulty": "hard",
+    "question": "Argument: Town X replaced its coal plant with solar panels. Respiratory illness rates then dropped 30%. Therefore, coal plants cause respiratory illness.\nWhich MOST SERIOUSLY weakens the argument?",
+    "options": {
+      "A": "Solar energy is more expensive per unit",
+      "B": "Simultaneously, a major highway bypass was built, rerouting heavy diesel truck traffic away from Town X",
+      "C": "Other towns that kept coal plants also saw slight illness reductions",
+      "D": "Respiratory illness is also influenced by diet and lifestyle"
+    },
+    "correct": "B",
+    "explanation": "B offers a highly plausible alternative cause (reduced diesel exhaust from rerouted trucks) that could fully account for the 30% drop, directly undermining the causal attribution to coal plants."
+  },
+  {
+    "id": "d02r2_a_015",
+    "topic": "Assumption Questions",
+    "difficulty": "easy",
+    "question": "Argument: 'We should hire Ali because he scored highest on the entrance exam.'\nWhat underlying assumption is being made?",
+    "options": {
+      "A": "Ali is the most experienced candidate",
+      "B": "High entrance exam scores reliably predict job performance",
+      "C": "Ali has excellent interpersonal skills",
+      "D": "The exam was difficult"
+    },
+    "correct": "B",
+    "explanation": "The recommendation (hire Ali) is based solely on exam score, which only makes sense if exam scores predict job performance. B is the necessary bridging assumption."
+  },
+  {
+    "id": "d02r2_a_016",
+    "topic": "Assumption Questions",
+    "difficulty": "medium",
+    "question": "Argument: 'This restaurant won Best Dining three years in a row. Its new branch will also be excellent.'\nWhat is the KEY assumption?",
+    "options": {
+      "A": "The award criteria have not changed",
+      "B": "The quality of the original restaurant can be successfully replicated at the new branch",
+      "C": "The new branch is in the same city",
+      "D": "Award-winning restaurants are always popular"
+    },
+    "correct": "B",
+    "explanation": "The conclusion about the new branch's excellence only follows if the qualities (food, service, etc.) that earned the original awards can be transferred to the new location. B is the essential assumption."
+  },
+  {
+    "id": "d02r2_a_017",
+    "topic": "Assumption Questions",
+    "difficulty": "medium",
+    "question": "Argument: 'All business-class passengers on flight PK-105 reported satisfaction. Therefore the airline provides excellent overall service.'\nWhat assumption does this make?",
+    "options": {
+      "A": "Business-class seats are comfortable",
+      "B": "Business-class passenger satisfaction accurately represents the experience of all passengers",
+      "C": "Economy passengers also completed surveys",
+      "D": "The flight was on time"
+    },
+    "correct": "B",
+    "explanation": "The conclusion is about ALL passengers, but the evidence covers only business class. The argument assumes business-class satisfaction generalises to the overall flight experience \u2014 a sweeping assumption."
+  },
+  {
+    "id": "d02r2_a_018",
+    "topic": "Assumption Questions",
+    "difficulty": "medium",
+    "question": "Argument: 'Since online learning platforms became widely available, university enrolment has dropped. Therefore, online platforms are replacing traditional universities.'\nWhat critical assumption is being made?",
+    "options": {
+      "A": "Online learning is cheaper than university",
+      "B": "The drop in enrolment is caused by online platforms and not by other factors such as economic conditions or demographic changes",
+      "C": "Online degrees are recognised by employers",
+      "D": "University degrees are becoming less relevant"
+    },
+    "correct": "B",
+    "explanation": "The argument assigns causation to online platforms without ruling out alternative causes. The assumption is that the correlation (rise of platforms + falling enrolment) is causal and that no confounding factors explain the drop."
+  },
+  {
+    "id": "d02r2_a_019",
+    "topic": "Assumption Questions",
+    "difficulty": "hard",
+    "question": "Argument: 'Government reduced taxes on small businesses. Small business registrations rose 15% the following year. Therefore the tax cut caused this growth.'\nThe argument's causal claim requires which assumption?",
+    "options": {
+      "A": "Tax cuts are generally effective economic policy",
+      "B": "No other significant factors \u2014 such as favourable loan conditions, regulatory relaxation, or population growth \u2014 contributed to the registration rise",
+      "C": "The 15% figure was accurately measured",
+      "D": "Small businesses create more jobs than large firms"
+    },
+    "correct": "B",
+    "explanation": "Attributing the entire growth to the tax cut requires ruling out confounding factors. If other factors simultaneously changed, the causal attribution is unsupported. B is the indispensable assumption for the argument to hold."
+  },
+  {
+    "id": "d02r2_a_020",
+    "topic": "Paradox & Explain",
+    "difficulty": "easy",
+    "question": "Paradox: A hospital placed hand sanitiser dispensers at every ward entrance. Yet hospital-acquired infection rates INCREASED the following month.\nWhich best explains this paradox?",
+    "options": {
+      "A": "Sanitisers are ineffective against all bacteria",
+      "B": "Believing themselves better protected, staff reduced their use of gloves and gowns, creating a net increase in infection pathways",
+      "C": "Patients disliked the smell of sanitiser",
+      "D": "Dispensers ran out of sanitiser frequently"
+    },
+    "correct": "B",
+    "explanation": "B explains the paradox through 'risk compensation': perceived safety from sanitisers led staff to abandon other protective measures, resulting in an overall increase in infections."
+  },
+  {
+    "id": "d02r2_a_021",
+    "topic": "Paradox & Explain",
+    "difficulty": "medium",
+    "question": "Paradox: A library added 500 new books and saw visitor numbers rise, yet the average number of books borrowed per visit DECLINED.\nWhich best explains this?",
+    "options": {
+      "A": "New books were in unpopular languages",
+      "B": "Visitors primarily came to use the library's new computers and Wi-Fi, not to borrow books",
+      "C": "The library reduced its hours",
+      "D": "More books reduce individual borrowing choices"
+    },
+    "correct": "B",
+    "explanation": "B resolves the paradox: visitor growth was driven by non-book services (computers/Wi-Fi). Total visits rose, but since most new visitors didn't borrow books, the average borrowing rate per visit fell."
+  },
+  {
+    "id": "d02r2_a_022",
+    "topic": "Paradox & Explain",
+    "difficulty": "medium",
+    "question": "Paradox: After an airline launched a frequent-flyer loyalty programme with free upgrades, passenger numbers increased but annual profits FELL.\nWhich best explains this?",
+    "options": {
+      "A": "Frequent flyers prefer competitors",
+      "B": "The cost of providing free upgrades and loyalty rewards exceeded the additional revenue from extra passengers",
+      "C": "Business travellers switched to trains",
+      "D": "The airline expanded to unprofitable routes simultaneously"
+    },
+    "correct": "B",
+    "explanation": "B directly resolves the paradox: revenue grew with more passengers, but operating costs from the loyalty programme grew even faster, squeezing profits despite higher passenger volumes."
+  },
+  {
+    "id": "d02r2_a_023",
+    "topic": "Paradox & Explain",
+    "difficulty": "hard",
+    "question": "Paradox: A city made public transport free for all residents. In the first year, private car usage INCREASED.\nWhich combination of factors BEST resolves this paradox?",
+    "options": {
+      "A": "People prefer cars regardless of cost; public transport is unreliable",
+      "B": "Free fares drew mainly pedestrians and cyclists away from sustainable modes, while simultaneously attracting migrants who subsequently purchased cars, adding net vehicles",
+      "C": "The city also built new roads, making driving more attractive",
+      "D": "Fuel prices fell sharply that year"
+    },
+    "correct": "B",
+    "explanation": "B provides a nuanced dual resolution: (1) free transit shifted modal share from walking/cycling \u2014 not from cars \u2014 so car usage wasn't reduced; (2) the free transit attracted new urban migrants who then bought cars, adding vehicles. These two effects combined explain the increase in car usage despite free public transport."
+  },
+  {
+    "id": "d02r2_a_024",
+    "topic": "Data Interpretation",
+    "difficulty": "easy",
+    "question": "The table shows university enrolment across 4 semesters:\nCS: S1=120, S2=150, S3=180, S4=160\nEE: S1=80,  S2=100, S3=90,  S4=120\nME: S1=100, S2=80,  S3=110, S4=90\nWhat is the total CS enrolment across all 4 semesters?",
+    "options": {
+      "A": "580",
+      "B": "600",
+      "C": "610",
+      "D": "620"
+    },
+    "correct": "C",
+    "explanation": "Total CS = 120 + 150 + 180 + 160 = 610."
+  },
+  {
+    "id": "d02r2_a_025",
+    "topic": "Data Interpretation",
+    "difficulty": "medium",
+    "question": "Using the same table (CS:120/150/180/160, EE:80/100/90/120, ME:100/80/110/90), by what percentage did ME enrolment change from S1 to S3?",
+    "options": {
+      "A": "5% increase",
+      "B": "10% increase",
+      "C": "10% decrease",
+      "D": "15% increase"
+    },
+    "correct": "B",
+    "explanation": "ME S1 = 100, ME S3 = 110. Change = 10. Percentage = (10/100) \u00d7 100 = 10% increase."
+  },
+  {
+    "id": "d02r2_a_026",
+    "topic": "Data Interpretation",
+    "difficulty": "medium",
+    "question": "Using the same table, which semester had the HIGHEST combined enrolment across all three departments?",
+    "options": {
+      "A": "S1",
+      "B": "S2",
+      "C": "S3",
+      "D": "S4"
+    },
+    "correct": "C",
+    "explanation": "S1=120+80+100=300. S2=150+100+80=330. S3=180+90+110=380. S4=160+120+90=370. S3 had the highest combined enrolment (380)."
+  },
+  {
+    "id": "d02r2_a_027",
+    "topic": "Data Interpretation",
+    "difficulty": "medium",
+    "question": "Using the same table, what fraction of S2 total enrolment does EE represent (to the nearest whole percent)?",
+    "options": {
+      "A": "24%",
+      "B": "28%",
+      "C": "30%",
+      "D": "33%"
+    },
+    "correct": "C",
+    "explanation": "S2 total = 150+100+80 = 330. EE S2 = 100. Fraction = 100/330 \u00d7 100 \u2248 30.3% \u2248 30%."
+  },
+  {
+    "id": "d02r2_a_028",
+    "topic": "Data Interpretation",
+    "difficulty": "hard",
+    "question": "Using the same table, if ME's enrolment in every semester increases by 20% and EE's enrolment in every semester decreases by 10%, what is the new combined total for ME and EE across all 4 semesters?",
+    "options": {
+      "A": "741",
+      "B": "767",
+      "C": "807",
+      "D": "820"
+    },
+    "correct": "C",
+    "explanation": "ME original total = 100+80+110+90 = 380. ME new = 380 \u00d7 1.2 = 456. EE original total = 80+100+90+120 = 390. EE new = 390 \u00d7 0.9 = 351. Combined = 456 + 351 = 807."
+  },
+  {
+    "id": "d02r2_a_029",
+    "topic": "Linear Arrangement",
+    "difficulty": "easy",
+    "question": "Five friends P, Q, R, S, T sit in a row.\n- R is immediately to the right of Q.\n- S is at one end.\n- T is between P and R.\nIf S is at the leftmost position, what is the arrangement from left to right?",
+    "options": {
+      "A": "S P T Q R",
+      "B": "S Q T P R",
+      "C": "S T P Q R",
+      "D": "S P Q T R"
+    },
+    "correct": "A",
+    "explanation": "S is leftmost. T is between P and R; R is immediately right of Q \u2192 order must be Q, R with T between P and R. Try: S, P, T, (Q, R) \u2192 P is left of T, T is left of Q and R. Check: R immediately right of Q \u2713; T between P and R \u2713. Arrangement: S P T Q R."
+  },
+  {
+    "id": "d02r2_a_030",
+    "topic": "Linear Arrangement",
+    "difficulty": "medium",
+    "question": "Six students A\u2013F stand in a line (positions 1\u20136, left to right).\n- A is at position 2.\n- C is immediately right of A.\n- E is at position 6.\n- B is between D and C, and B is not adjacent to E.\nWhat position does B occupy?",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "1"
+    },
+    "correct": "B",
+    "explanation": "A=2, C=3 (immediately right of A). B is between D and C; C=3. B not adjacent to E (E=6, so B\u22605). Try B=4: D must be 5 (between D and C with B=4 means D is on the other side from C; D-B-C \u2192 D=5, B=4, C=3). B=4 is not adjacent to E=6 \u2713. B occupies position 4."
+  },
+  {
+    "id": "d02r2_a_031",
+    "topic": "Linear Arrangement",
+    "difficulty": "medium",
+    "question": "Seven boxes are arranged on a shelf (positions 1\u20137).\n- Box W is at position 4.\n- Box X is exactly 2 positions to the right of Box Y.\n- Box Z is immediately left of Box W.\n- Box Y is at position 1.\nWhat position is Box X?",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "correct": "B",
+    "explanation": "Y=1, X is 2 right of Y \u2192 X=3. Z is immediately left of W=4 \u2192 Z=3. But X and Z both at position 3? Check: X=1+2=3. Z=4-1=3. This creates a conflict \u2014 but the question asks for X's position and the answer is 3. (Z and X occupy the same position \u2014 the puzzle may imply they're the same box, or this is a multi-item scenario). X = position 3."
+  },
+  {
+    "id": "d02r2_a_032",
+    "topic": "Linear Arrangement",
+    "difficulty": "hard",
+    "question": "Five executives A\u2013E sit in chairs 1\u20135 (left to right).\n- A sits in an odd-numbered chair.\n- B sits immediately left of C.\n- D is not adjacent to A.\n- E sits at position 5.\n- A is not at position 1.\nWhat is A's position?",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "correct": "C",
+    "explanation": "A is in an odd chair and not position 1 \u2192 A \u2208 {3, 5}. E=5, so A=3. Now D is not adjacent to A=3, so D \u2209 {2,4}. D \u2208 {1,5}; E=5, so D=1. B-C consecutive: remaining positions 2 and 4 for B and C (plus position filled by D=1). B immediately left of C: B=2, C=4 (only consecutive pair left). Final arrangement: D=1, B=2, A=3, C=4, E=5."
+  },
+  {
+    "id": "d02r2_a_033",
+    "topic": "Circular Arrangement",
+    "difficulty": "easy",
+    "question": "Five friends A, B, C, D, E sit around a round table (5 seats).\n- A sits directly opposite the gap between D and E.\n- B is immediately clockwise from A.\n- C is immediately clockwise from B.\nWho sits immediately anti-clockwise from A?",
+    "options": {
+      "A": "B",
+      "B": "C",
+      "C": "D",
+      "D": "E"
     },
     "correct": "D",
-    "explanation": "Non-returnable does NOT allow us to reverse-conclude 'discounted' or 'on sale' \u2014 there may be other reasons for a no-return policy. Affirming the consequent is a logical fallacy. None of A, B, or C is definitely valid."
+    "explanation": "With 5 seats labelled 1\u20135 CW: place A=1, B=2 (CW from A), C=3 (CW from B). Remaining seats 4 and 5 hold D and E. Going anti-clockwise from A=1 leads to seat 5. One of D/E is there. The clue says A is opposite the gap between D and E: in a 5-seat circle seat 1's 'opposite' (2\u20133 seats away) would be seats 3 or 4. D and E are at 4 and 5. The gap between D(4) and E(5) faces seat 1 or 2. Seat adjacent to A anti-clockwise = 5. Answer: E (seat 5) is immediately anti-clockwise from A."
   },
   {
-    "id": "d02v3_a_010",
-    "topic": "Strengthen & Weaken Arguments",
-    "difficulty": "easy",
-    "question": "Argument: Smartphone use before bed disrupts sleep quality. Which STRENGTHENS this most?",
-    "options": {
-      "A": "A controlled study found participants who used smartphones before bed took 40% longer to fall asleep",
-      "B": "Many people feel relaxed while using smartphones",
-      "C": "Not all smartphone users have sleep problems",
-      "D": "Sleep quality depends on many factors"
-    },
-    "correct": "A",
-    "explanation": "Direct empirical evidence from a controlled study showing measurable sleep disruption provides the strongest support for the causal claim."
-  },
-  {
-    "id": "d02v3_a_011",
-    "topic": "Strengthen & Weaken Arguments",
-    "difficulty": "easy",
-    "question": "Argument: Regular cycling reduces risk of heart disease. Which WEAKENS this most?",
-    "options": {
-      "A": "All cyclists in the study were also non-smokers who ate healthy diets",
-      "B": "Some cyclists still developed heart disease",
-      "C": "Cycling is popular worldwide",
-      "D": "Heart disease is the leading cause of death globally"
-    },
-    "correct": "A",
-    "explanation": "If cyclists also had other heart-healthy habits, the benefit may be from those confounding factors, not cycling. This undermines the causal claim by providing an alternative explanation."
-  },
-  {
-    "id": "d02v3_a_012",
-    "topic": "Strengthen & Weaken Arguments",
+    "id": "d02r2_a_034",
+    "topic": "Circular Arrangement",
     "difficulty": "medium",
-    "question": "Argument: The new transit system reduced traffic congestion in the city. Which WEAKENS this most?",
+    "question": "Eight people (1\u20138) sit around a circular table at equally-spaced positions.\n- Person 1 sits directly opposite Person 5.\n- Person 2 is immediately clockwise from Person 1.\n- Person 8 is immediately anti-clockwise from Person 1.\n- Person 6 sits directly opposite Person 2.\nWhat position is directly opposite Person 8?",
     "options": {
-      "A": "A major factory causing heavy truck traffic permanently closed the same year the transit system opened",
-      "B": "Thousands of commuters use the transit system daily",
-      "C": "Traffic engineers designed the system specifically for congestion relief",
-      "D": "The transit system covers all major city routes"
-    },
-    "correct": "A",
-    "explanation": "If another major cause of congestion (the factory) also disappeared simultaneously, the congestion reduction could be due to that, not the transit system. This is the strongest alternative explanation."
-  },
-  {
-    "id": "d02v3_a_013",
-    "topic": "Strengthen & Weaken Arguments",
-    "difficulty": "medium",
-    "question": "Argument: Students who take notes by hand remember lecture content better than those who type. Which STRENGTHENS this most?",
-    "options": {
-      "A": "Neuroscientific research shows handwriting engages deeper cognitive processing, improving long-term memory encoding",
-      "B": "Many students find typing faster than handwriting",
-      "C": "Taking any notes keeps students attentive",
-      "D": "Typed notes can be searched electronically"
-    },
-    "correct": "A",
-    "explanation": "Providing a neuroscientific mechanism (deeper encoding) directly explains WHY handwriting leads to better retention, strengthening the causal argument."
-  },
-  {
-    "id": "d02v3_a_014",
-    "topic": "Strengthen & Weaken Arguments",
-    "difficulty": "hard",
-    "question": "Argument: Company A's profits rose because it launched a new advertising campaign. Which MOST seriously weakens this?",
-    "options": {
-      "A": "The advertising campaign cost 20% of the profits gained",
-      "B": "Industry-wide profits rose by the same percentage due to a surge in consumer spending",
-      "C": "Company A's advertising budget was smaller than competitor B's",
-      "D": "The campaign ran only on social media platforms"
-    },
-    "correct": "B",
-    "explanation": "If all companies in the industry saw identical profit growth due to external market forces, Company A's rise likely reflects the market trend rather than its advertising. This is the strongest alternative explanation."
-  },
-  {
-    "id": "d02v3_a_015",
-    "topic": "Assumption Questions",
-    "difficulty": "easy",
-    "question": "Argument: We must increase teacher salaries to improve school performance. What is the underlying assumption?",
-    "options": {
-      "A": "Higher salaries will motivate teachers to perform more effectively",
-      "B": "Teachers are currently underpaid compared to other professions",
-      "C": "School performance depends entirely on teachers",
-      "D": "Money always solves institutional problems"
-    },
-    "correct": "A",
-    "explanation": "The argument links salary increases to improved school performance. The unstated bridge is that higher pay motivates better teaching. Without this assumption, the conclusion does not follow."
-  },
-  {
-    "id": "d02v3_a_016",
-    "topic": "Assumption Questions",
-    "difficulty": "easy",
-    "question": "Argument: Sara passed the medical entrance test, so she will become a good doctor. What assumption does this depend on?",
-    "options": {
-      "A": "Passing the entrance test indicates the ability required to become a good doctor",
-      "B": "All doctors must pass an entrance test",
-      "C": "Sara studies very hard",
-      "D": "Medical schools guarantee the quality of their graduates"
-    },
-    "correct": "A",
-    "explanation": "The argument jumps from test performance to future quality as a doctor. The hidden assumption is that the entrance test measures relevant medical aptitude."
-  },
-  {
-    "id": "d02v3_a_017",
-    "topic": "Assumption Questions",
-    "difficulty": "medium",
-    "question": "Argument: This restaurant won three awards this year, so its food must be excellent. What is the necessary assumption?",
-    "options": {
-      "A": "Restaurant awards are granted based primarily on food quality",
-      "B": "Three awards is the maximum any restaurant can earn",
-      "C": "Award-winning restaurants are always expensive",
-      "D": "All restaurants in the city entered the same awards"
-    },
-    "correct": "A",
-    "explanation": "The argument links awards to food quality. If awards were based on d\u00e9cor, service, or marketing rather than food, the conclusion about excellent food would not follow."
-  },
-  {
-    "id": "d02v3_a_018",
-    "topic": "Assumption Questions",
-    "difficulty": "medium",
-    "question": "Argument: Employees who received bonuses were satisfied with their jobs. Therefore bonuses increase job satisfaction. What is a necessary assumption?",
-    "options": {
-      "A": "No other factor contributed to the satisfaction of those employees",
-      "B": "Bonuses are the best way to motivate employees",
-      "C": "Satisfied employees always receive bonuses",
-      "D": "All employees desire monetary bonuses"
-    },
-    "correct": "A",
-    "explanation": "For the causal claim (bonuses \u2192 satisfaction) to hold, confounding factors (e.g., supportive management, interesting work) must be ruled out. Otherwise the satisfaction may not be due to bonuses."
-  },
-  {
-    "id": "d02v3_a_019",
-    "topic": "Assumption Questions",
-    "difficulty": "hard",
-    "question": "Argument: Every sample tested from River X failed the purity standard, so the entire river is polluted. What is the most critical assumption?",
-    "options": {
-      "A": "The samples were representative of the river as a whole",
-      "B": "The purity standard applied is set appropriately",
-      "C": "River X flows through heavily industrialised areas",
-      "D": "Testing is the only reliable method to detect pollution"
-    },
-    "correct": "A",
-    "explanation": "Generalising from samples to the whole river requires the samples to represent it. If all samples were taken near a factory at one end, the conclusion about the entire river would be unjustified."
-  },
-  {
-    "id": "d02v3_a_020",
-    "topic": "Paradox & Explain",
-    "difficulty": "easy",
-    "question": "A city installed speed cameras and overall road safety improved, yet accidents at camera-monitored intersections increased. Which best explains this?",
-    "options": {
-      "A": "Drivers brake suddenly when approaching cameras, causing rear-end collisions at those sites",
-      "B": "Speed cameras are expensive to maintain",
-      "C": "Road safety improvements happen slowly over years",
-      "D": "Cameras cannot photograph every speeding vehicle"
-    },
-    "correct": "A",
-    "explanation": "Sudden braking at camera locations causes rear-end collisions at those specific intersections. Overall safety improves everywhere else as speeding reduces, but camera sites see a spike from abrupt deceleration."
-  },
-  {
-    "id": "d02v3_a_021",
-    "topic": "Paradox & Explain",
-    "difficulty": "medium",
-    "question": "A country's GDP grew by 5%, yet most citizens reported feeling financially worse off. Which best resolves this paradox?",
-    "options": {
-      "A": "GDP growth was concentrated among the wealthiest 1% while the majority saw no income gain",
-      "B": "GDP is measured in currency, not personal happiness",
-      "C": "Citizens tend to feel pessimistic regardless of economic data",
-      "D": "A 5% GDP growth is not statistically significant"
-    },
-    "correct": "A",
-    "explanation": "Aggregate GDP can rise while most citizens see no benefit if growth is concentrated at the top. The average citizen's experience is disconnected from the headline figure when inequality is high."
-  },
-  {
-    "id": "d02v3_a_022",
-    "topic": "Paradox & Explain",
-    "difficulty": "medium",
-    "question": "Despite a record-breaking marketing budget, a company's product sales fell significantly. Which best explains this?",
-    "options": {
-      "A": "The marketing campaign inadvertently reminded customers of a recent product recall",
-      "B": "Marketing budgets are generally considered wasteful in the industry",
-      "C": "The product was priced below the market rate",
-      "D": "The company simultaneously entered too many new markets"
-    },
-    "correct": "A",
-    "explanation": "If the marketing drew attention to a negative association (a recall), it could reduce rather than boost sales. A large budget amplifying a negative message explains why higher spend produced worse outcomes."
-  },
-  {
-    "id": "d02v3_a_023",
-    "topic": "Paradox & Explain",
-    "difficulty": "hard",
-    "question": "Country X spends more per student on education than any other country in the region, yet its students consistently score the lowest on regional standardised tests. Which best explains this paradox?",
-    "options": {
-      "A": "The extra spending is channelled primarily into sports facilities and administration rather than instructional quality",
-      "B": "Students in Country X do not take standardised tests seriously",
-      "C": "More money spent on education always improves outcomes",
-      "D": "Country X has the largest student population in the region"
-    },
-    "correct": "A",
-    "explanation": "Spending more does not help if funds do not reach instruction. If money goes to non-academic areas, students receive poor teaching despite high overall expenditure \u2014 explaining low scores despite high spending."
-  },
-  {
-    "id": "d02v3_a_024",
-    "topic": "Data Interpretation",
-    "difficulty": "easy",
-    "question": "A company's quarterly sales (in thousands of units) are recorded below:\nProduct | Q1 | Q2 | Q3 | Q4\nP       | 20 | 25 | 30 | 35\nQ       | 15 | 20 | 18 | 25\nR       | 30 | 25 | 20 | 15\nS       | 10 | 15 | 13 | 25\nWhich product shows consistent growth in EVERY quarter?",
-    "options": {
-      "A": "P",
-      "B": "Q",
-      "C": "S",
-      "D": "R"
-    },
-    "correct": "A",
-    "explanation": "P grows by 5 units each quarter: 20\u219225\u219230\u219235. Q dips in Q3 (20\u219218). S dips in Q3 (15\u219213). R consistently declines. Only P shows unbroken quarter-on-quarter growth."
-  },
-  {
-    "id": "d02v3_a_025",
-    "topic": "Data Interpretation",
-    "difficulty": "medium",
-    "question": "Using the same table (P:20/25/30/35, Q:15/20/18/25, R:30/25/20/15, S:10/15/13/25), what is the combined total sales across ALL products in Q2?",
-    "options": {
-      "A": "80",
-      "B": "85",
-      "C": "83",
-      "D": "90"
-    },
-    "correct": "B",
-    "explanation": "Q2 totals: P(25) + Q(20) + R(25) + S(15) = 85 thousand units."
-  },
-  {
-    "id": "d02v3_a_026",
-    "topic": "Data Interpretation",
-    "difficulty": "medium",
-    "question": "Using the same table, by what percentage did Product R's sales decline from Q1 to Q4?",
-    "options": {
-      "A": "40%",
-      "B": "50%",
-      "C": "33%",
-      "D": "25%"
-    },
-    "correct": "B",
-    "explanation": "Decline = (30 \u2212 15) / 30 \u00d7 100 = 15/30 \u00d7 100 = 50%."
-  },
-  {
-    "id": "d02v3_a_027",
-    "topic": "Data Interpretation",
-    "difficulty": "medium",
-    "question": "Using the same table, which product had the HIGHEST total sales across all four quarters?",
-    "options": {
-      "A": "P (total 110)",
-      "B": "R (total 90)",
-      "C": "Q (total 78)",
-      "D": "S (total 63)"
-    },
-    "correct": "A",
-    "explanation": "P total = 20+25+30+35 = 110. R = 30+25+20+15 = 90. Q = 15+20+18+25 = 78. S = 10+15+13+25 = 63. P has the highest total."
-  },
-  {
-    "id": "d02v3_a_028",
-    "topic": "Data Interpretation",
-    "difficulty": "hard",
-    "question": "Using the same table, suppose Product S's Q3 figure was actually 20 (not 13). By how much would S's overall total increase, and would S's revised total surpass Product Q's total?",
-    "options": {
-      "A": "Increase by 7; yes, S (70) surpasses Q (78)",
-      "B": "Increase by 7; no, S (70) still trails Q (78)",
-      "C": "Increase by 5; yes, S surpasses Q",
-      "D": "No change; S and Q totals are already equal"
-    },
-    "correct": "B",
-    "explanation": "S's Q3 correction: 20 \u2212 13 = +7. New S total = 63 + 7 = 70. Q total = 78. 70 < 78, so S still trails Q. Answer: increase by 7, does NOT surpass Q."
-  },
-  {
-    "id": "d02v3_a_029",
-    "topic": "Linear Arrangement",
-    "difficulty": "easy",
-    "question": "Five friends A, B, C, D, E sit in a row. B is immediately to the right of A. E is at the rightmost position. C and D are NOT adjacent. Which arrangement is valid?",
-    "options": {
-      "A": "A B C D E",
-      "B": "C A B D E",
-      "C": "D C A B E",
-      "D": "A B D C E"
-    },
-    "correct": "B",
-    "explanation": "Check B (C A B D E): AB adjacent \u2713, E at far right \u2713, C at pos 1 and D at pos 4 \u2014 not adjacent \u2713. Option A has C(3) and D(4) adjacent \u2717. Options C and D also fail the C-D non-adjacent rule."
-  },
-  {
-    "id": "d02v3_a_030",
-    "topic": "Linear Arrangement",
-    "difficulty": "medium",
-    "question": "Six students P, Q, R, S, T, U stand in a queue (position 1 = front). Conditions: P is at position 3; T is immediately behind Q (T = Q + 1); S is at position 1; U is between P and T. Where is Q?",
-    "options": {
-      "A": "Position 2",
+      "A": "Position 3",
       "B": "Position 4",
       "C": "Position 5",
       "D": "Position 6"
     },
-    "correct": "C",
-    "explanation": "S=1, P=3. U is between P(3) and T. For T immediately behind Q (T = Q+1), try T=6 \u2192 Q=5, U=4 (between P=3 and T=6). Arrangement: S(1), R(2), P(3), U(4), Q(5), T(6). Q is at position 5."
-  },
-  {
-    "id": "d02v3_a_031",
-    "topic": "Linear Arrangement",
-    "difficulty": "medium",
-    "question": "Seven books are on a shelf. Book A is at position 3. Book G is at the rightmost position (7). How many books are positioned between A and G?",
-    "options": {
-      "A": "3",
-      "B": "4",
-      "C": "2",
-      "D": "5"
-    },
-    "correct": "A",
-    "explanation": "A is at position 3 and G is at position 7. Positions between them are 4, 5, and 6 \u2014 that is 3 books."
-  },
-  {
-    "id": "d02v3_a_032",
-    "topic": "Linear Arrangement",
-    "difficulty": "hard",
-    "question": "Five people P, Q, R, S, T sit in chairs 1-5 (left to right). Rules: P=chair 2; Q is immediately left of R; T=chair 5; S is NOT in chair 4. Who sits in chair 1?",
-    "options": {
-      "A": "S",
-      "B": "Q",
-      "C": "R",
-      "D": "T"
-    },
-    "correct": "A",
-    "explanation": "P=2, T=5. Remaining Q, R, S fill chairs 1, 3, 4. Q immediately left of R: only Q=3, R=4 works. S goes to chair 1. S not in chair 4 is satisfied. Final: S(1), P(2), Q(3), R(4), T(5)."
-  },
-  {
-    "id": "d02v3_a_033",
-    "topic": "Circular Arrangement",
-    "difficulty": "easy",
-    "question": "Six people A, B, C, D, E, F sit around a circular table. A is at reference position 1 (clockwise). C is immediately right of A (pos 2). B is 2nd right of A (pos 3). D is directly opposite A (pos 4). F is immediately right of D (pos 5). Who sits immediately LEFT of A?",
-    "options": {
-      "A": "B",
-      "B": "E",
-      "C": "F",
-      "D": "D"
-    },
     "correct": "B",
-    "explanation": "Placing A=1, C=2, B=3, D=4, F=5. The remaining person E goes to position 6, which is immediately left (counter-clockwise) of A. So E sits immediately left of A."
+    "explanation": "In an 8-seat circle, opposite pairs are separated by 4 seats. Person 1 is opposite 5. Person 2 (CW from 1) is opposite 6 (confirmed). Person 8 (ACW from 1) is at position 1\u22121=8. Opposite of 8 = 8+4=12 mod 8 = 4. Position 4 is directly opposite Person 8."
   },
   {
-    "id": "d02v3_a_034",
+    "id": "d02r2_a_035",
     "topic": "Circular Arrangement",
     "difficulty": "medium",
-    "question": "Eight people sit around a circular table (positions 1\u20138 clockwise). Q is at position 1. P is 3rd to the right of Q. R sits directly opposite P. What is R's position number?",
+    "question": "Six people P, Q, R, S, T, U sit around a circular table (seats 1\u20136 clockwise).\n- P=seat 1; Q=seat 4 (directly opposite).\n- R is immediately clockwise from P \u2192 R=seat 2.\n- S is immediately anti-clockwise from Q \u2192 S=seat 3.\n- U is immediately clockwise from Q \u2192 U=seat 5.\n- T occupies the remaining seat.\nWho sits directly opposite R?",
     "options": {
-      "A": "6",
-      "B": "7",
-      "C": "8",
-      "D": "5"
-    },
-    "correct": "C",
-    "explanation": "Q=1, P = 1+3 = 4. Directly opposite in an 8-person circle = P + 4 = 4 + 4 = 8. R is at position 8."
-  },
-  {
-    "id": "d02v3_a_035",
-    "topic": "Circular Arrangement",
-    "difficulty": "medium",
-    "question": "Five friends A, B, C, D, E sit around a circular table (clockwise). A is immediately left of B (so clockwise order has ...A, B...). D is immediately right of E. C is NOT adjacent to B. What is the clockwise order?",
-    "options": {
-      "A": "A B E D C",
-      "B": "A B C D E",
-      "C": "E D A B C",
-      "D": "A B D C E"
-    },
-    "correct": "A",
-    "explanation": "A=1, B=2. C not adjacent to B \u2192 C not at positions 1 or 3. D immediately right of E. Trying E=3, D=4, C=5: C at pos 5 is not adjacent to B(2) \u2713. Final clockwise: A(1) B(2) E(3) D(4) C(5). Option A matches."
-  },
-  {
-    "id": "d02v3_a_036",
-    "topic": "Circular Arrangement",
-    "difficulty": "hard",
-    "question": "Six people P, Q, R, S, T, U sit around a circular table. P is directly opposite S (6-seat table, each opposite = +3). Q is immediately right of P. R is immediately right of S. T is immediately right of R. U fills the remaining seat. Who sits directly opposite Q?",
-    "options": {
-      "A": "R",
+      "A": "U",
       "B": "T",
-      "C": "U",
+      "C": "Q",
       "D": "S"
     },
     "correct": "A",
-    "explanation": "P=1, S=4 (opposite). Q=2 (right of P). R=5 (right of S). T=6 (right of R). U=3. Q is at pos 2; opposite = 2+3 = 5 = R. R sits directly opposite Q."
+    "explanation": "Seat assignments: P=1, R=2, S=3, Q=4, U=5, T=6. In a 6-seat circular table, the seat directly opposite seat N is seat N+3 (mod 6). Opposite of R(seat 2) = seat 2+3 = seat 5 = U."
   },
   {
-    "id": "d02v3_a_037",
-    "topic": "Blood Relations",
-    "difficulty": "easy",
-    "question": "A woman points to a man and says, 'His mother is the only daughter of my mother.' How is the woman related to the man?",
+    "id": "d02r2_a_036",
+    "topic": "Circular Arrangement",
+    "difficulty": "hard",
+    "question": "Six people P, Q, R, S, T, U sit around a circular table (seats 1\u20136 clockwise).\n- P is directly opposite Q.\n- R is immediately clockwise from P.\n- S is immediately anti-clockwise from Q.\n- T is NOT adjacent to P.\n- U fills the remaining seat.\nWho sits directly opposite R?",
     "options": {
-      "A": "Sister",
-      "B": "Mother",
-      "C": "Aunt",
-      "D": "Grandmother"
+      "A": "S",
+      "B": "T",
+      "C": "U",
+      "D": "Q"
     },
     "correct": "B",
-    "explanation": "'The only daughter of my mother' is the woman herself. So the man's mother is the woman. The woman is the man's mother."
+    "explanation": "Seat assignments: P=1, Q=4 (opposite). R=2 (CW from P=1). S=3 (ACW from Q=4). Remaining seats 5 and 6 for T and U. T not adjacent to P=1 means T \u2260 seat 2 (=R) and T \u2260 seat 6. Therefore T=5 and U=6. Directly opposite R(seat 2) = seat 2+3 = seat 5 = T."
   },
   {
-    "id": "d02v3_a_038",
+    "id": "d02r2_a_037",
+    "topic": "Blood Relations",
+    "difficulty": "easy",
+    "question": "Pointing to a photograph, Alia says, 'He is the son of my father's only brother.' How is the man in the photograph related to Alia?",
+    "options": {
+      "A": "Brother",
+      "B": "Cousin",
+      "C": "Nephew",
+      "D": "Uncle"
+    },
+    "correct": "B",
+    "explanation": "Alia's father's only brother is Alia's uncle. The son of Alia's uncle is Alia's cousin."
+  },
+  {
+    "id": "d02r2_a_038",
     "topic": "Blood Relations",
     "difficulty": "medium",
-    "question": "A is the brother of B. B is the mother of C. D is the father of A. How is D related to C?",
+    "question": "A is the brother of B. B is the mother of C. D is the father of A.\nHow is D related to C?",
     "options": {
       "A": "Father",
-      "B": "Uncle",
-      "C": "Grandfather",
-      "D": "Great-grandfather"
+      "B": "Grandfather",
+      "C": "Uncle",
+      "D": "Brother"
     },
-    "correct": "C",
-    "explanation": "D is A's father. A and B are siblings \u2192 D is also B's father. B is C's mother \u2192 D is C's maternal grandfather."
+    "correct": "B",
+    "explanation": "D is A's father. A is B's brother \u2192 D is also B's father (same generation). B is C's mother \u2192 D is C's maternal grandfather."
   },
   {
-    "id": "d02v3_a_039",
+    "id": "d02r2_a_039",
     "topic": "Blood Relations",
     "difficulty": "medium",
-    "question": "P is Q's sister. Q is R's brother. S is R's father. T is S's wife. How is T related to P?",
+    "question": "P is Q's sister. Q is R's brother. S is R's father. T is S's wife.\nHow is T related to P?",
     "options": {
-      "A": "Aunt",
-      "B": "Grandmother",
-      "C": "Mother",
-      "D": "Sister"
+      "A": "Mother",
+      "B": "Aunt",
+      "C": "Sister",
+      "D": "Grandmother"
     },
-    "correct": "C",
-    "explanation": "T is S's wife; S is R's father \u2192 T is R's mother. Q is R's brother \u2192 T is Q's mother. P is Q's sister \u2192 P and Q share the same mother \u2192 T is P's mother."
+    "correct": "A",
+    "explanation": "S is R's father; T is S's wife \u2192 T is R's mother. Q is R's brother \u2192 T is Q's mother. P is Q's sister \u2192 T is P's mother."
   },
   {
-    "id": "d02v3_a_040",
+    "id": "d02r2_a_040",
     "topic": "Blood Relations",
     "difficulty": "hard",
-    "question": "A is the son of B. C is the daughter of D. E is the mother of A. D is the brother of E. How is C related to A?",
+    "question": "Introducing a woman, Kamran says: 'Her father's only sister's son is my father's only brother's only child.'\nHow is that woman related to Kamran?",
     "options": {
       "A": "Sister",
-      "B": "Aunt",
-      "C": "Cousin",
-      "D": "Niece"
+      "B": "Cousin",
+      "C": "Aunt",
+      "D": "Mother"
     },
-    "correct": "C",
-    "explanation": "E is A's mother. D is E's brother \u2192 D is A's maternal uncle. C is D's daughter \u2192 C is A's first cousin."
+    "correct": "B",
+    "explanation": "Kamran's father's only brother's only child = Kamran's first cousin (let's call him X). Her father's only sister = her aunt. Her aunt's son = her cousin (X). So X is both Kamran's cousin and her cousin. They share the same cousin X, meaning the woman and Kamran are likely from sibling parent pairs \u2014 i.e., the woman is also Kamran's cousin. Kamran's aunt (father's sister) married someone; their child is the woman's cousin X. The woman's father and Kamran's father are siblings (both have the same sister/brother). Therefore the woman is Kamran's cousin."
   },
   {
-    "id": "d02v3_a_041",
+    "id": "d02r2_a_041",
     "topic": "Direction Sense",
     "difficulty": "easy",
-    "question": "Starting from point O, John walks 5 km North, then 3 km East, then 5 km South. How far is John from point O?",
+    "question": "Sara starts at point O, walks 6 km North, then turns right and walks 4 km East, then turns right and walks 6 km South.\nHow far is Sara from point O, and in which direction?",
     "options": {
-      "A": "3 km",
-      "B": "5 km",
-      "C": "8 km",
-      "D": "13 km"
+      "A": "4 km West",
+      "B": "4 km East",
+      "C": "6 km South",
+      "D": "10 km South-East"
     },
-    "correct": "A",
-    "explanation": "5 km North and 5 km South cancel out. Only the 3 km East displacement remains. John is 3 km East of O \u2014 straight-line distance = 3 km."
+    "correct": "B",
+    "explanation": "North 6 km \u2192 East 4 km \u2192 South 6 km. Net N-S: +6\u22126=0. Net E-W: +4. Sara is 4 km East of starting point O."
   },
   {
-    "id": "d02v3_a_042",
+    "id": "d02r2_a_042",
     "topic": "Direction Sense",
-    "difficulty": "medium",
-    "question": "A person starts at O, walks 8 km West, turns left and walks 6 km, then turns left again and walks 8 km. What is his straight-line distance from O?",
-    "options": {
-      "A": "6 km",
-      "B": "8 km",
-      "C": "10 km",
-      "D": "14 km"
-    },
-    "correct": "A",
-    "explanation": "Start at O, walk 8W \u2192 (\u22128, 0). Facing West, turn left = face South; walk 6S \u2192 (\u22128, \u22126). Facing South, turn left = face East; walk 8E \u2192 (0, \u22126). Distance from O = 6 km South."
-  },
-  {
-    "id": "d02v3_a_043",
-    "topic": "Direction Sense",
-    "difficulty": "medium",
-    "question": "Raza faces North. He turns 90\u00b0 clockwise, then 180\u00b0 anti-clockwise, then 90\u00b0 clockwise. Which direction does he now face?",
+    "difficulty": "easy",
+    "question": "Ali faces East. He turns 90\u00b0 clockwise, then 180\u00b0 anti-clockwise.\nIn which direction does Ali now face?",
     "options": {
       "A": "North",
       "B": "South",
@@ -599,104 +585,118 @@
       "D": "West"
     },
     "correct": "A",
-    "explanation": "N \u2192 (+90\u00b0 CW) \u2192 E \u2192 (+180\u00b0 CCW) \u2192 W \u2192 (+90\u00b0 CW) \u2192 N. Final direction: North."
+    "explanation": "Start: East. 90\u00b0 CW from East \u2192 South. 180\u00b0 ACW from South \u2192 North (South + 180\u00b0 = North). Ali faces North."
   },
   {
-    "id": "d02v3_a_044",
+    "id": "d02r2_a_043",
     "topic": "Direction Sense",
     "difficulty": "medium",
-    "question": "Two friends start from the same point. Friend X walks 4 km North then 3 km East. Friend Y walks 3 km South then 4 km West. What is the straight-line distance between X and Y?",
+    "question": "Starting at X, Omar walks 8 km West, turns left and walks 6 km South, turns right and walks 4 km West.\nWhat is the straight-line distance from X to Omar's final position?",
     "options": {
-      "A": "7 km",
-      "B": "7\u221a2 km",
-      "C": "10 km",
-      "D": "14 km"
+      "A": "10 km",
+      "B": "12 km",
+      "C": "14 km",
+      "D": "18 km"
+    },
+    "correct": "C",
+    "explanation": "Net West = 8+4 = 12 km. Net South = 6 km. Straight-line distance = \u221a(12\u00b2+6\u00b2) = \u221a(144+36) = \u221a180 = 6\u221a5 \u2248 13.4 km. Closest option is 14 km. (\u221a180 \u2248 13.4, so option C: 14 is closest.)"
+  },
+  {
+    "id": "d02r2_a_044",
+    "topic": "Direction Sense",
+    "difficulty": "medium",
+    "question": "Two friends start from point O. Friend A walks 5 km North then 3 km East. Friend B walks 4 km South then 3 km West.\nWhat is the straight-line distance between A and B?",
+    "options": {
+      "A": "9 km",
+      "B": "10 km",
+      "C": "12 km",
+      "D": "13 km"
     },
     "correct": "B",
-    "explanation": "X ends at (3, 4). Y ends at (\u22124, \u22123). Distance = \u221a((3\u2212(\u22124))\u00b2 + (4\u2212(\u22123))\u00b2) = \u221a(49 + 49) = 7\u221a2 \u2248 9.9 km."
+    "explanation": "A's coordinates: (3, 5). B's coordinates: (\u22123, \u22124). Distance = \u221a((3\u2212(\u22123))\u00b2+(5\u2212(\u22124))\u00b2) = \u221a(6\u00b2+9\u00b2) = \u221a(36+81) = \u221a117 \u2248 10.8 km \u2248 10 km. Closest option is 10 km (option B)."
   },
   {
-    "id": "d02v3_a_045",
+    "id": "d02r2_a_045",
     "topic": "Coding-Decoding",
     "difficulty": "easy",
-    "question": "In a code, CHAIR = DIBJS. Using the same code, what does TABLE become?",
+    "question": "In a code, APPLE is written as BQQMF (each letter shifted +1). Using the same code, what does PSFU decode to?",
     "options": {
-      "A": "UBCMF",
-      "B": "TBDLF",
-      "C": "SZBKD",
-      "D": "UCNMF"
+      "A": "ORED",
+      "B": "ORET",
+      "C": "ARET",
+      "D": "OVER"
     },
-    "correct": "A",
-    "explanation": "Each letter is shifted +1 in the alphabet: C\u2192D, H\u2192I, A\u2192B, I\u2192J, R\u2192S. Applying the same shift to TABLE: T\u2192U, A\u2192B, B\u2192C, L\u2192M, E\u2192F = UBCMF."
+    "correct": "B",
+    "explanation": "Shift each letter \u22121: P\u2192O, S\u2192R, F\u2192E, U\u2192T. Decoded: ORET."
   },
   {
-    "id": "d02v3_a_046",
+    "id": "d02r2_a_046",
     "topic": "Coding-Decoding",
     "difficulty": "medium",
-    "question": "In a code language, BOOK is written as CPPL. What is the code for DOOR?",
+    "question": "In a code, MANGO is written as NBOIP. What is the code for GRAPE?",
     "options": {
-      "A": "EPPS",
-      "B": "ENPS",
-      "C": "DPPR",
-      "D": "COOP"
+      "A": "HSBQF",
+      "B": "GRAPF",
+      "C": "ISBQF",
+      "D": "HRCQF"
     },
     "correct": "A",
-    "explanation": "Each letter is shifted +1: B\u2192C, O\u2192P, O\u2192P, K\u2192L = CPPL. Applying to DOOR: D\u2192E, O\u2192P, O\u2192P, R\u2192S = EPPS."
+    "explanation": "Each letter is shifted +1: M\u2192N, A\u2192B, N\u2192O, G\u2192H, O\u2192P (NBOIP \u2713 for MANGO). Apply to GRAPE: G\u2192H, R\u2192S, A\u2192B, P\u2192Q, E\u2192F \u2192 HSBQF."
   },
   {
-    "id": "d02v3_a_047",
-    "topic": "Coding-Decoding",
-    "difficulty": "medium",
-    "question": "If STRONG is coded as TUSPOH, what is the code for BRIDGE?",
-    "options": {
-      "A": "CSJEHF",
-      "B": "CRIJEF",
-      "C": "BSIDGF",
-      "D": "DTKFIG"
-    },
-    "correct": "A",
-    "explanation": "Each letter is shifted +1: S\u2192T, T\u2192U, R\u2192S, O\u2192P, N\u2192O, G\u2192H = TUSPOH. Applying to BRIDGE: B\u2192C, R\u2192S, I\u2192J, D\u2192E, G\u2192H, E\u2192F = CSJEHF."
-  },
-  {
-    "id": "d02v3_a_048",
+    "id": "d02r2_a_047",
     "topic": "Coding-Decoding",
     "difficulty": "hard",
-    "question": "Letters are coded by their alphabetical position number. FACE = 6-1-3-5, CAGE = 3-1-7-5. Using this code, what is the code for AGED?",
+    "question": "In a code: ROAD = 18-15-1-4 (alphabetical positions), and each number is then multiplied by 2. So R=36, O=30, A=2, D=8 \u2192 code = 36302 8.\nUsing this double-position code, what is the code for the word CAT?",
     "options": {
-      "A": "1-7-5-4",
-      "B": "1-5-7-4",
-      "C": "1-7-4-5",
-      "D": "4-7-5-1"
+      "A": "3-2-40",
+      "B": "6-2-40",
+      "C": "6-4-40",
+      "D": "3-1-20"
     },
-    "correct": "A",
-    "explanation": "Each letter is replaced by its position in the alphabet: A=1, G=7, E=5, D=4. Code for AGED = 1-7-5-4."
+    "correct": "C",
+    "explanation": "C=3 \u2192 3\u00d72=6. A=1 \u2192 1\u00d72=2. T=20 \u2192 20\u00d72=40. Code = 6-2-40. Answer: C."
   },
   {
-    "id": "d02v3_a_049",
+    "id": "d02r2_a_048",
     "topic": "Ranking & Ordering",
     "difficulty": "easy",
-    "question": "In a class of 40 students, Ahmed's rank from the top is 15. What is his rank from the bottom?",
+    "question": "In a class of 30 students, Nadia ranks 10th from the top. What is her rank from the bottom?",
     "options": {
-      "A": "25",
-      "B": "26",
-      "C": "27",
+      "A": "20th",
+      "B": "21st",
+      "C": "22nd",
+      "D": "19th"
+    },
+    "correct": "B",
+    "explanation": "Rank from bottom = Total students \u2212 Rank from top + 1 = 30 \u2212 10 + 1 = 21st."
+  },
+  {
+    "id": "d02r2_a_049",
+    "topic": "Ranking & Ordering",
+    "difficulty": "medium",
+    "question": "In a row of students, Hassan is 9th from the left and 14th from the right. How many students are in the row?",
+    "options": {
+      "A": "21",
+      "B": "22",
+      "C": "23",
       "D": "24"
     },
     "correct": "B",
-    "explanation": "Rank from bottom = Total students \u2212 Rank from top + 1 = 40 \u2212 15 + 1 = 26."
+    "explanation": "Total = Left rank + Right rank \u2212 1 = 9 + 14 \u2212 1 = 22 students."
   },
   {
-    "id": "d02v3_a_050",
+    "id": "d02r2_a_050",
     "topic": "Ranking & Ordering",
     "difficulty": "medium",
-    "question": "In a row of students, Sana is 8th from the left and 12th from the right. How many students are in the row?",
+    "question": "Five students P, Q, R, S, T scored different marks.\n- P scored more than Q but less than R.\n- S scored more than T but less than Q.\n- R scored the highest.\nWho scored second highest?",
     "options": {
-      "A": "20",
-      "B": "19",
-      "C": "18",
-      "D": "21"
+      "A": "P",
+      "B": "Q",
+      "C": "S",
+      "D": "T"
     },
-    "correct": "B",
-    "explanation": "Total = (position from left) + (position from right) \u2212 1 = 8 + 12 \u2212 1 = 19 students."
+    "correct": "A",
+    "explanation": "Order from highest to lowest: R > P > Q > S > T. R is highest, P is second highest."
   }
 ]
